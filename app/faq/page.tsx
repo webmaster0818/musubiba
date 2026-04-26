@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Link from "next/link";
 
 export const metadata = {
-  title: "結婚相談所のよくある質問（FAQ）| 結婚相談所びより",
+  title: "結婚相談所のよくある質問（FAQ）| ムスビバ",
   description:
     "結婚相談所に関するよくある質問をまとめました。料金、入会条件、成婚率、活動の流れなど、婚活の疑問を解消します。",
 };

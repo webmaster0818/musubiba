@@ -13,7 +13,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "結婚相談所おすすめランキング比較 | 結婚相談所びより",
+  title: "結婚相談所おすすめランキング比較 | ムスビバ",
   description:
     "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
 };
@@ -49,7 +49,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
               <div>
-                <h4 className="font-bold text-white mb-3 text-sm">結婚相談所びより</h4>
+                <h4 className="font-bold text-white mb-3 text-sm">ムスビバ</h4>
                 <ul className="space-y-2 text-xs">
                   <li><Link href="/" className="hover:text-[#E11D48]">トップページ</Link></li>
                   <li><Link href="/faq/" className="hover:text-[#E11D48]">よくある質問</Link></li>
@@ -78,7 +78,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="border-t border-white/10 pt-6 text-center text-xs">
-              <p>&copy; 2024 結婚相談所びより All Rights Reserved.</p>
+              <p>&copy; 2024 ムスビバ All Rights Reserved.</p>
             </div>
           </div>
         </footer>
