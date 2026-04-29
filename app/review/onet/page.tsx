@@ -134,7 +134,7 @@ export default function OnetReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden mb-10">
-          <div className="bg-[#1E1B4B] text-white px-6 py-3 font-bold">基本情報</div>
+          <div className="bg-[#0D9488] text-white px-6 py-3 font-bold">基本情報</div>
           <div className="divide-y">
             {Object.entries({
               サービス名: overview.name,
@@ -157,13 +157,13 @@ export default function OnetReview() {
 
         {/* Strengths */}
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#E11D48] pl-4">
+          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#0D9488] pl-4">
             オーネットの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-bold text-lg mb-2 text-[#1E1B4B]">{s.title}</h3>
+                <h3 className="font-bold text-lg mb-2 text-[#0D9488]">{s.title}</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function OnetReview() {
 
         {/* Reviews */}
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#E11D48] pl-4">
+          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#0D9488] pl-4">
             口コミ・体験談
           </h2>
           <div className="space-y-4">
@@ -219,13 +219,13 @@ export default function OnetReview() {
 
         {/* FAQ */}
         <section className="mb-10">
-          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#E11D48] pl-4">よくある質問</h2>
+          <h2 className="text-xl font-bold mb-6 border-l-4 border-[#0D9488] pl-4">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-gray-50 rounded-xl border border-gray-200">
                 <summary className="cursor-pointer px-6 py-4 font-medium text-gray-800 flex items-center justify-between">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#E11D48] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#0D9488] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">{faq.a}</div>
               </details>
@@ -234,10 +234,10 @@ export default function OnetReview() {
         </section>
 
         {/* CTA */}
-        <section className="bg-gradient-to-r from-[#1E1B4B] to-[#312E81] rounded-2xl p-8 text-white text-center mb-10">
+        <section className="bg-gradient-to-r from-[#134E4A] to-[#0D9488] rounded-2xl p-8 text-white text-center mb-10">
           <h2 className="text-xl font-bold mb-3">オーネットの無料相談を予約する</h2>
           <p className="text-white/70 text-sm mb-6">まずは結婚チャンステストを受けてみましょう</p>
-          <Link href="/" className="inline-block bg-[#E11D48] hover:bg-[#BE123C] text-white font-bold py-3 px-8 rounded-full transition-colors">
+          <Link href="/" className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-3 px-8 rounded-full transition-colors">
             ランキングに戻る
           </Link>
         </section>
@@ -247,7 +247,7 @@ export default function OnetReview() {
           <h2 className="text-lg font-bold mb-4">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-200 rounded-lg p-4 text-center text-sm font-medium hover:border-[#E11D48] hover:text-[#E11D48] transition-colors">
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-200 rounded-lg p-4 text-center text-sm font-medium hover:border-[#0D9488] hover:text-[#0D9488] transition-colors">
                 {s.name}
               </Link>
             ))}

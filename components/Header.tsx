@@ -14,10 +14,10 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#1E1B4B] text-white sticky top-0 z-50">
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <Link href="/" className="text-xl font-bold tracking-tight">
-          結婚相談所<span className="text-[#E11D48]">びより</span>
+        <Link href="/" className="text-xl font-bold tracking-tight text-gray-900">
+          <span className="text-[#0D9488]">ムスビバ</span>
         </Link>
 
         {/* Desktop nav */}
@@ -26,7 +26,7 @@ export default function Header() {
             <Link
               key={link.label}
               href={link.href}
-              className="text-sm font-medium hover:text-[#E11D48] transition-colors"
+              className="text-sm font-medium text-gray-700 hover:text-[#0D9488] transition-colors"
             >
               {link.label}
             </Link>
@@ -35,7 +35,7 @@ export default function Header() {
 
         {/* Hamburger */}
         <button
-          className="md:hidden p-2"
+          className="md:hidden p-2 text-gray-700"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="メニュー"
         >
@@ -51,12 +51,12 @@ export default function Header() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <nav className="md:hidden bg-[#1E1B4B] border-t border-white/10 pb-4">
+        <nav className="md:hidden bg-white border-t border-gray-200 pb-4">
           {navLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
-              className="block px-6 py-3 text-sm hover:text-[#E11D48] transition-colors"
+              className="block px-6 py-3 text-sm text-gray-700 hover:text-[#0D9488] hover:bg-[#FFFBF5] transition-colors"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}

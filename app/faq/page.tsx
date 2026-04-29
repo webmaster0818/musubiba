@@ -82,7 +82,7 @@ export default function FAQPage() {
             >
               <summary className="cursor-pointer px-6 py-4 font-medium text-gray-800 flex items-center justify-between">
                 <span className="pr-4">{faq.q}</span>
-                <span className="text-[#E11D48] text-xl group-open:rotate-45 transition-transform shrink-0">
+                <span className="text-[#0D9488] text-xl group-open:rotate-45 transition-transform shrink-0">
                   +
                 </span>
               </summary>
@@ -94,7 +94,7 @@ export default function FAQPage() {
         </div>
 
         {/* CTA */}
-        <section className="bg-gradient-to-r from-[#1E1B4B] to-[#312E81] rounded-2xl p-8 text-white text-center">
+        <section className="bg-gradient-to-r from-[#134E4A] to-[#0D9488] rounded-2xl p-8 text-white text-center">
           <h2 className="text-xl font-bold mb-3">
             あなたに合った結婚相談所を探す
           </h2>
@@ -103,7 +103,7 @@ export default function FAQPage() {
           </p>
           <Link
             href="/"
-            className="inline-block bg-[#E11D48] hover:bg-[#BE123C] text-white font-bold py-3 px-8 rounded-full transition-colors"
+            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-3 px-8 rounded-full transition-colors"
           >
             ランキングを見る
           </Link>

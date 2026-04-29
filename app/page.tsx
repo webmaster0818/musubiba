@@ -152,12 +152,17 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-[#1E1B4B] via-[#312E81] to-[#1E1B4B] text-white py-16 sm:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      {/* Hero with background image */}
+      <section className="relative py-20 sm:py-28 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/design-c.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-[#134E4A]/70" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
             あなたにぴったりの<br className="sm:hidden" />
-            <span className="text-[#E11D48]">結婚相談所</span>が見つかる
+            <span className="text-[#5EEAD4]">結婚相談所</span>が見つかる
           </h1>
           <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
             厳選した結婚相談所を料金・成婚率・サポート体制で徹底比較。
@@ -165,7 +170,7 @@ export default function Home() {
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-[#E11D48] hover:bg-[#BE123C] text-white font-bold py-4 px-8 rounded-full text-lg transition-colors"
+            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-4 px-8 rounded-full text-lg transition-colors"
           >
             ランキングを見る
           </Link>
@@ -173,7 +178,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="py-12 bg-white border-b">
+      <section className="py-12 bg-white border-b border-gray-100">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
@@ -183,7 +188,7 @@ export default function Home() {
               { value: "成婚率", label: "掲載あり" },
             ].map((stat) => (
               <div key={stat.label} className="p-4">
-                <div className="text-2xl sm:text-3xl font-bold text-[#E11D48]">
+                <div className="text-2xl sm:text-3xl font-bold text-[#0D9488]">
                   {stat.value}
                 </div>
                 <div className="text-sm text-gray-600 mt-1">{stat.label}</div>
@@ -210,25 +215,25 @@ export default function Home() {
                 className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden"
               >
                 {/* Rank header */}
-                <div className="bg-[#1E1B4B] text-white px-6 py-3 flex items-center gap-3">
-                  <span className="bg-[#E11D48] text-white font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                <div className="bg-[#0D9488] text-white px-6 py-3 flex items-center gap-3">
+                  <span className="bg-white text-[#0D9488] font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">
                     {s.rank}
                   </span>
                   <span className="font-bold text-lg">{s.name}</span>
-                  <span className="text-white/60 text-sm ml-auto hidden sm:inline">
+                  <span className="text-white/70 text-sm ml-auto hidden sm:inline">
                     {s.monthlyFee}
                   </span>
                 </div>
 
                 <div className="p-6">
-                  <p className="text-[#E11D48] font-medium mb-4">{s.tagline}</p>
+                  <p className="text-[#0D9488] font-medium mb-4">{s.tagline}</p>
 
                   {/* Features */}
                   <div className="flex flex-wrap gap-2 mb-5">
                     {s.features.map((f) => (
                       <span
                         key={f}
-                        className="bg-rose-50 text-[#E11D48] text-xs font-medium px-3 py-1 rounded-full"
+                        className="bg-teal-50 text-[#0D9488] text-xs font-medium px-3 py-1 rounded-full"
                       >
                         {f}
                       </span>
@@ -271,7 +276,7 @@ export default function Home() {
                   </div>
 
                   {/* Recommend */}
-                  <p className="text-sm bg-amber-50 border border-amber-200 rounded-lg p-3 mb-5 text-gray-700">
+                  <p className="text-sm bg-[#FFFBF5] border border-[#0D9488]/20 rounded-lg p-3 mb-5 text-gray-700">
                     {s.recommend}
                   </p>
 
@@ -279,7 +284,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Link
                       href={s.reviewPath}
-                      className="flex-1 text-center bg-[#E11D48] hover:bg-[#BE123C] text-white font-bold py-3 px-6 rounded-lg transition-colors"
+                      className="flex-1 text-center bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-3 px-6 rounded-lg transition-colors"
                     >
                       口コミ・詳細を見る
                     </Link>
@@ -301,11 +306,11 @@ export default function Home() {
             {faqs.map((faq, i) => (
               <details
                 key={i}
-                className="group bg-gray-50 rounded-xl border border-gray-200"
+                className="group bg-[#FFFBF5] rounded-xl border border-gray-200"
               >
                 <summary className="cursor-pointer px-6 py-4 font-medium text-gray-800 flex items-center justify-between">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#E11D48] text-xl group-open:rotate-45 transition-transform shrink-0">
+                  <span className="text-[#0D9488] text-xl group-open:rotate-45 transition-transform shrink-0">
                     +
                   </span>
                 </summary>
@@ -319,7 +324,7 @@ export default function Home() {
       </section>
 
       {/* CTA bottom */}
-      <section className="py-16 bg-gradient-to-r from-[#1E1B4B] to-[#312E81] text-white">
+      <section className="py-16 bg-[#134E4A] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">
             まずは無料相談から始めてみませんか？
@@ -330,7 +335,7 @@ export default function Home() {
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-[#E11D48] hover:bg-[#BE123C] text-white font-bold py-4 px-10 rounded-full text-lg transition-colors"
+            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-4 px-10 rounded-full text-lg transition-colors"
           >
             ランキングに戻る
           </Link>

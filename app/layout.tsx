@@ -45,35 +45,35 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
 
         {/* Footer */}
-        <footer className="bg-[#1E1B4B] text-white/70 mt-16">
+        <footer className="bg-[#134E4A] text-white/70 mt-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
               <div>
                 <h4 className="font-bold text-white mb-3 text-sm">ムスビバ</h4>
                 <ul className="space-y-2 text-xs">
-                  <li><Link href="/" className="hover:text-[#E11D48]">トップページ</Link></li>
-                  <li><Link href="/faq/" className="hover:text-[#E11D48]">よくある質問</Link></li>
+                  <li><Link href="/" className="hover:text-[#5EEAD4]">トップページ</Link></li>
+                  <li><Link href="/faq/" className="hover:text-[#5EEAD4]">よくある質問</Link></li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-bold text-white mb-3 text-sm">ランキング</h4>
                 <ul className="space-y-2 text-xs">
-                  <li><Link href="/review/zwei/" className="hover:text-[#E11D48]">ツヴァイ</Link></li>
-                  <li><Link href="/review/onet/" className="hover:text-[#E11D48]">オーネット</Link></li>
-                  <li><Link href="/review/partner-agent/" className="hover:text-[#E11D48]">パートナーエージェント</Link></li>
+                  <li><Link href="/review/zwei/" className="hover:text-[#5EEAD4]">ツヴァイ</Link></li>
+                  <li><Link href="/review/onet/" className="hover:text-[#5EEAD4]">オーネット</Link></li>
+                  <li><Link href="/review/partner-agent/" className="hover:text-[#5EEAD4]">パートナーエージェント</Link></li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-bold text-white mb-3 text-sm">サービス</h4>
                 <ul className="space-y-2 text-xs">
-                  <li><Link href="/review/ibj/" className="hover:text-[#E11D48]">IBJメンバーズ</Link></li>
-                  <li><Link href="/review/zexy/" className="hover:text-[#E11D48]">ゼクシィ縁結びエージェント</Link></li>
+                  <li><Link href="/review/ibj/" className="hover:text-[#5EEAD4]">IBJメンバーズ</Link></li>
+                  <li><Link href="/review/zexy/" className="hover:text-[#5EEAD4]">ゼクシィ縁結びエージェント</Link></li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-bold text-white mb-3 text-sm">情報</h4>
                 <ul className="space-y-2 text-xs">
-                  <li><Link href="/faq/" className="hover:text-[#E11D48]">FAQ</Link></li>
+                  <li><Link href="/faq/" className="hover:text-[#5EEAD4]">FAQ</Link></li>
                 </ul>
               </div>
             </div>
