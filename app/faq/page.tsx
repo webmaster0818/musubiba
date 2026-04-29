@@ -70,23 +70,23 @@ export default function FAQPage() {
       <Breadcrumb items={[{ name: "よくある質問" }]} />
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 pb-16">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-8">
+        <h1 className="text-2xl sm:text-3xl font-light mb-10 tracking-widest text-[#2C2C2C]">
           結婚相談所のよくある質問（FAQ）
         </h1>
 
-        <div className="space-y-4 mb-12">
+        <div className="space-y-4 mb-14">
           {faqs.map((faq, i) => (
             <details
               key={i}
-              className="group bg-white rounded-xl border border-gray-200 shadow-sm"
+              className="group bg-white rounded-xl border border-gray-100 shadow-sm"
             >
-              <summary className="cursor-pointer px-6 py-4 font-medium text-gray-800 flex items-center justify-between">
+              <summary className="cursor-pointer px-6 py-5 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                 <span className="pr-4">{faq.q}</span>
-                <span className="text-[#0D9488] text-xl group-open:rotate-45 transition-transform shrink-0">
+                <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">
                   +
                 </span>
               </summary>
-              <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
+              <div className="px-6 pb-5 text-sm text-[#2C2C2C]/60 leading-relaxed">
                 {faq.a}
               </div>
             </details>
@@ -94,16 +94,16 @@ export default function FAQPage() {
         </div>
 
         {/* CTA */}
-        <section className="bg-gradient-to-r from-[#134E4A] to-[#0D9488] rounded-2xl p-8 text-white text-center">
-          <h2 className="text-xl font-bold mb-3">
+        <section className="bg-[#333333] rounded-2xl p-10 text-white text-center">
+          <h2 className="text-xl font-light mb-4 tracking-widest">
             あなたに合った結婚相談所を探す
           </h2>
-          <p className="text-white/70 text-sm mb-6">
+          <p className="text-white/50 text-sm mb-8 tracking-wider">
             厳選した結婚相談所のランキングをチェックしてみましょう
           </p>
           <Link
             href="/"
-            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-3 px-8 rounded-full transition-colors"
+            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
           >
             ランキングを見る
           </Link>

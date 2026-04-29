@@ -153,24 +153,24 @@ export default function Home() {
       />
 
       {/* Hero with background image */}
-      <section className="relative py-20 sm:py-28 overflow-hidden">
+      <section className="relative py-24 sm:py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/design-c.jpg')" }}
         />
-        <div className="absolute inset-0 bg-[#134E4A]/70" />
+        <div className="absolute inset-0 bg-[#1a1510]/60" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest">
             あなたにぴったりの<br className="sm:hidden" />
-            <span className="text-[#5EEAD4]">結婚相談所</span>が見つかる
+            <span className="text-[#C9B99A]">結婚相談所</span>が見つかる
           </h1>
-          <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light tracking-wider leading-relaxed">
             厳選した結婚相談所を料金・成婚率・サポート体制で徹底比較。
             あなたの婚活スタイルに合った結婚相談所選びをサポートします。
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-4 px-8 rounded-full text-lg transition-colors"
+            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-4 px-10 rounded-full text-base transition-colors tracking-widest"
           >
             ランキングを見る
           </Link>
@@ -178,7 +178,7 @@ export default function Home() {
       </section>
 
       {/* Stats */}
-      <section className="py-12 bg-white border-b border-gray-100">
+      <section className="py-14 bg-white border-b border-gray-100">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
@@ -188,10 +188,10 @@ export default function Home() {
               { value: "成婚率", label: "掲載あり" },
             ].map((stat) => (
               <div key={stat.label} className="p-4">
-                <div className="text-2xl sm:text-3xl font-bold text-[#0D9488]">
+                <div className="text-2xl sm:text-3xl font-light text-[#8B7355] tracking-wider">
                   {stat.value}
                 </div>
-                <div className="text-sm text-gray-600 mt-1">{stat.label}</div>
+                <div className="text-sm text-[#2C2C2C]/50 mt-2 tracking-wider">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -199,41 +199,41 @@ export default function Home() {
       </section>
 
       {/* Ranking */}
-      <section id="ranking" className="py-16 bg-[#FFFBF5]">
+      <section id="ranking" className="py-20 bg-[#FAFAF8]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-4 tracking-widest text-[#2C2C2C]">
             結婚相談所おすすめランキング
           </h2>
-          <p className="text-center text-gray-600 mb-12">
+          <p className="text-center text-[#2C2C2C]/50 mb-14 tracking-wider">
             料金・サービス・サポート体制を総合的に評価しました
           </p>
 
-          <div className="space-y-8">
+          <div className="space-y-10">
             {services.map((s) => (
               <div
                 key={s.rank}
-                className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden"
+                className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden"
               >
                 {/* Rank header */}
-                <div className="bg-[#0D9488] text-white px-6 py-3 flex items-center gap-3">
-                  <span className="bg-white text-[#0D9488] font-bold w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                <div className="bg-[#8B7355] text-white px-6 py-3.5 flex items-center gap-3">
+                  <span className="bg-white text-[#8B7355] font-medium w-8 h-8 rounded-full flex items-center justify-center text-sm">
                     {s.rank}
                   </span>
-                  <span className="font-bold text-lg">{s.name}</span>
-                  <span className="text-white/70 text-sm ml-auto hidden sm:inline">
+                  <span className="font-medium text-lg tracking-wider">{s.name}</span>
+                  <span className="text-white/60 text-sm ml-auto hidden sm:inline tracking-wider">
                     {s.monthlyFee}
                   </span>
                 </div>
 
-                <div className="p-6">
-                  <p className="text-[#0D9488] font-medium mb-4">{s.tagline}</p>
+                <div className="p-7">
+                  <p className="text-[#8B7355] font-normal mb-4 tracking-wider">{s.tagline}</p>
 
                   {/* Features */}
-                  <div className="flex flex-wrap gap-2 mb-5">
+                  <div className="flex flex-wrap gap-2 mb-6">
                     {s.features.map((f) => (
                       <span
                         key={f}
-                        className="bg-teal-50 text-[#0D9488] text-xs font-medium px-3 py-1 rounded-full"
+                        className="bg-[#F5F0EB] text-[#8B7355] text-xs font-normal px-3 py-1.5 rounded-full tracking-wider"
                       >
                         {f}
                       </span>
@@ -241,19 +241,19 @@ export default function Home() {
                   </div>
 
                   {/* Mobile fee */}
-                  <p className="sm:hidden text-sm text-gray-600 mb-4">
+                  <p className="sm:hidden text-sm text-[#2C2C2C]/50 mb-4 tracking-wider">
                     {s.monthlyFee}
                   </p>
 
                   {/* Pros & Cons */}
-                  <div className="grid md:grid-cols-2 gap-4 mb-5">
+                  <div className="grid md:grid-cols-2 gap-4 mb-6">
                     <div>
-                      <h4 className="text-sm font-bold text-green-700 mb-2">
+                      <h4 className="text-sm font-medium text-green-700 mb-2 tracking-wider">
                         メリット
                       </h4>
-                      <ul className="space-y-1">
+                      <ul className="space-y-1.5">
                         {s.pros.map((p) => (
-                          <li key={p} className="text-sm text-gray-700 flex gap-2">
+                          <li key={p} className="text-sm text-[#2C2C2C]/70 flex gap-2">
                             <span className="text-green-500 mt-0.5 shrink-0">+</span>
                             {p}
                           </li>
@@ -261,12 +261,12 @@ export default function Home() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="text-sm font-bold text-red-700 mb-2">
+                      <h4 className="text-sm font-medium text-red-700 mb-2 tracking-wider">
                         デメリット
                       </h4>
-                      <ul className="space-y-1">
+                      <ul className="space-y-1.5">
                         {s.cons.map((c) => (
-                          <li key={c} className="text-sm text-gray-700 flex gap-2">
+                          <li key={c} className="text-sm text-[#2C2C2C]/70 flex gap-2">
                             <span className="text-red-400 mt-0.5 shrink-0">-</span>
                             {c}
                           </li>
@@ -276,7 +276,7 @@ export default function Home() {
                   </div>
 
                   {/* Recommend */}
-                  <p className="text-sm bg-[#FFFBF5] border border-[#0D9488]/20 rounded-lg p-3 mb-5 text-gray-700">
+                  <p className="text-sm bg-[#FAFAF8] border border-[#8B7355]/15 rounded-lg p-4 mb-6 text-[#2C2C2C]/70">
                     {s.recommend}
                   </p>
 
@@ -284,7 +284,7 @@ export default function Home() {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Link
                       href={s.reviewPath}
-                      className="flex-1 text-center bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-3 px-6 rounded-lg transition-colors"
+                      className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
                     >
                       口コミ・詳細を見る
                     </Link>
@@ -297,24 +297,24 @@ export default function Home() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-12 tracking-widest text-[#2C2C2C]">
             よくある質問
           </h2>
           <div className="space-y-4">
             {faqs.map((faq, i) => (
               <details
                 key={i}
-                className="group bg-[#FFFBF5] rounded-xl border border-gray-200"
+                className="group bg-[#FAFAF8] rounded-xl border border-gray-100"
               >
-                <summary className="cursor-pointer px-6 py-4 font-medium text-gray-800 flex items-center justify-between">
+                <summary className="cursor-pointer px-6 py-5 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#0D9488] text-xl group-open:rotate-45 transition-transform shrink-0">
+                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">
                     +
                   </span>
                 </summary>
-                <div className="px-6 pb-4 text-sm text-gray-600 leading-relaxed">
+                <div className="px-6 pb-5 text-sm text-[#2C2C2C]/60 leading-relaxed">
                   {faq.a}
                 </div>
               </details>
@@ -324,18 +324,18 @@ export default function Home() {
       </section>
 
       {/* CTA bottom */}
-      <section className="py-16 bg-[#134E4A] text-white">
+      <section className="py-20 bg-[#333333] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl font-light mb-6 tracking-widest">
             まずは無料相談から始めてみませんか？
           </h2>
-          <p className="text-white/70 mb-8">
+          <p className="text-white/50 mb-10 tracking-wider leading-relaxed">
             気になる結婚相談所の詳細ページから、無料相談の申し込みができます。
             複数社の無料相談を受けて比較することをおすすめします。
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-[#0D9488] hover:bg-[#0F766E] text-white font-bold py-4 px-10 rounded-full text-lg transition-colors"
+            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-4 px-12 rounded-full text-base transition-colors tracking-widest"
           >
             ランキングに戻る
           </Link>

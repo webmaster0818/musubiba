@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #FFFBF5;
-  --foreground: #1a1a1a;
+  --background: #FAFAF8;
+  --foreground: #2C2C2C;
+  --accent: #8B7355;
+  --accent-hover: #7A6548;
+  --accent-light: #F5F0EB;
+  --footer-bg: #333333;
 }
 
 @theme inline {
@@ -15,4 +19,9 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-noto-sans-jp), sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.06em;
 }
