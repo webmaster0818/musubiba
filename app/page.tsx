@@ -323,6 +323,48 @@ export default function Home() {
         </div>
       </section>
 
+      {/* All agencies */}
+      <section className="py-20 bg-[#FAFAF8]">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-4 tracking-widest text-[#2C2C2C]">
+            全結婚相談所一覧
+          </h2>
+          <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
+            掲載中の全15社の結婚相談所をご覧いただけます
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            {[
+              { name: "ツヴァイ", path: "/review/zwei/", fee: "月会費15,400円〜" },
+              { name: "オーネット", path: "/review/onet/", fee: "月会費16,500円〜" },
+              { name: "パートナーエージェント", path: "/review/partner-agent/", fee: "月会費18,700円〜" },
+              { name: "IBJメンバーズ", path: "/review/ibj/", fee: "月会費17,050円〜" },
+              { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/", fee: "月会費9,900円〜" },
+              { name: "マーズカフェ", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
+              { name: "スマリード", path: "/review/smartread/", fee: "月会費9,900円〜" },
+              { name: "リングベル", path: "/review/ringbell/", fee: "月会費13,200円〜" },
+              { name: "フィオーレ", path: "/review/fiore/", fee: "月会費8,800円〜" },
+              { name: "マリッジプロ", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
+              { name: "結婚相談所セブン", path: "/review/seven/", fee: "月会費7,700円〜" },
+              { name: "ムスベル", path: "/review/musbell/", fee: "月会費15,400円〜" },
+              { name: "naco-do", path: "/review/naco-do/", fee: "月額6,980円〜" },
+              { name: "サンマリエ", path: "/review/sunmarie/", fee: "月会費16,500円〜" },
+              { name: "エン婚活エージェント", path: "/review/en-konkatsu/", fee: "月額14,300円" },
+            ].map((agency) => (
+              <Link
+                key={agency.name}
+                href={agency.path}
+                className="bg-white border border-gray-100 rounded-xl p-5 text-center hover:border-[#8B7355] hover:shadow-sm transition-all group"
+              >
+                <span className="block text-sm font-medium text-[#2C2C2C] group-hover:text-[#8B7355] tracking-wider mb-2 transition-colors">
+                  {agency.name}
+                </span>
+                <span className="block text-xs text-[#2C2C2C]/40 tracking-wider">{agency.fee}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA bottom */}
       <section className="py-20 bg-[#333333] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
