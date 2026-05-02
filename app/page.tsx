@@ -10,6 +10,7 @@ const services = [
   {
     rank: 1,
     name: "ツヴァイ",
+    slug: "zwei",
     tagline: "IBJ連携で出会いの幅が広がる大手結婚相談所",
     monthlyFee: "月会費15,400円〜",
     features: ["会員数9.4万人", "IBJ連携", "全国50店舗", "データマッチング"],
@@ -28,6 +29,7 @@ const services = [
   {
     rank: 2,
     name: "オーネット",
+    slug: "onet",
     tagline: "40年の実績を持つデータマッチング型の老舗",
     monthlyFee: "月会費16,500円〜",
     features: ["会員数4.2万人", "データマッチング", "40年の実績", "自社会員のみ"],
@@ -46,6 +48,7 @@ const services = [
   {
     rank: 3,
     name: "パートナーエージェント",
+    slug: "partner-agent",
     tagline: "成婚率No.1の手厚いサポート型結婚相談所",
     monthlyFee: "月会費18,700円〜",
     features: ["成婚率27%", "専任コンシェルジュ", "1年以内成婚", "PDCAサイクル"],
@@ -64,6 +67,7 @@ const services = [
   {
     rank: 4,
     name: "IBJメンバーズ",
+    slug: "ibj",
     tagline: "最大級ネットワークを活かした少人数制サポート",
     monthlyFee: "月会費17,050円〜",
     features: ["会員数8.5万人", "最大級ネットワーク", "少人数制サポート", "成婚主義"],
@@ -82,6 +86,7 @@ const services = [
   {
     rank: 5,
     name: "ゼクシィ縁結びエージェント",
+    slug: "zexy",
     tagline: "リクルート運営のコスパ最強結婚相談所",
     monthlyFee: "月会費9,900円〜",
     features: ["リクルート運営", "オンライン対応", "コスパ良い", "入会金33,000円"],
@@ -225,7 +230,13 @@ export default function Home() {
                   </span>
                 </div>
 
-                <div className="p-7">
+                {/* Screenshot */}
+                <div className="aspect-video overflow-hidden">
+                  <img src={`/ss-${s.slug}.jpg`} alt={`${s.name} 公式サイト`} className="w-full h-full object-cover object-top" />
+                </div>
+                <p className="text-[10px] text-gray-400 px-6 pt-2">画像引用: 公式サイトより</p>
+
+                <div className="p-7 pt-4">
                   <p className="text-[#8B7355] font-normal mb-4 tracking-wider">{s.tagline}</p>
 
                   {/* Features */}
@@ -334,31 +345,36 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
             {[
-              { name: "ツヴァイ", path: "/review/zwei/", fee: "月会費15,400円〜" },
-              { name: "オーネット", path: "/review/onet/", fee: "月会費16,500円〜" },
-              { name: "パートナーエージェント", path: "/review/partner-agent/", fee: "月会費18,700円〜" },
-              { name: "IBJメンバーズ", path: "/review/ibj/", fee: "月会費17,050円〜" },
-              { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/", fee: "月会費9,900円〜" },
-              { name: "マーズカフェ", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
-              { name: "スマリード", path: "/review/smartread/", fee: "月会費9,900円〜" },
-              { name: "リングベル", path: "/review/ringbell/", fee: "月会費13,200円〜" },
-              { name: "フィオーレ", path: "/review/fiore/", fee: "月会費8,800円〜" },
-              { name: "マリッジプロ", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
-              { name: "結婚相談所セブン", path: "/review/seven/", fee: "月会費7,700円〜" },
-              { name: "ムスベル", path: "/review/musbell/", fee: "月会費15,400円〜" },
-              { name: "naco-do", path: "/review/naco-do/", fee: "月額6,980円〜" },
-              { name: "サンマリエ", path: "/review/sunmarie/", fee: "月会費16,500円〜" },
-              { name: "エン婚活エージェント", path: "/review/en-konkatsu/", fee: "月額14,300円" },
+              { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,400円〜" },
+              { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
+              { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費18,700円〜" },
+              { name: "IBJメンバーズ", slug: "ibj", path: "/review/ibj/", fee: "月会費17,050円〜" },
+              { name: "ゼクシィ縁結びエージェント", slug: "zexy", path: "/review/zexy/", fee: "月会費9,900円〜" },
+              { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
+              { name: "スマリード", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円〜" },
+              { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
+              { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費8,800円〜" },
+              { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
+              { name: "結婚相談所セブン", slug: "seven", path: "/review/seven/", fee: "月会費7,700円〜" },
+              { name: "ムスベル", slug: "musbell", path: "/review/musbell/", fee: "月会費15,400円〜" },
+              { name: "naco-do", slug: "naco-do", path: "/review/naco-do/", fee: "月額6,980円〜" },
+              { name: "サンマリエ", slug: "sunmarie", path: "/review/sunmarie/", fee: "月会費16,500円〜" },
+              { name: "エン婚活エージェント", slug: "en-konkatsu", path: "/review/en-konkatsu/", fee: "月額14,300円" },
             ].map((agency) => (
               <Link
                 key={agency.name}
                 href={agency.path}
-                className="bg-white border border-gray-100 rounded-xl p-5 text-center hover:border-[#8B7355] hover:shadow-sm transition-all group"
+                className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow"
               >
-                <span className="block text-sm font-medium text-[#2C2C2C] group-hover:text-[#8B7355] tracking-wider mb-2 transition-colors">
-                  {agency.name}
-                </span>
-                <span className="block text-xs text-[#2C2C2C]/40 tracking-wider">{agency.fee}</span>
+                <div className="aspect-video overflow-hidden">
+                  <img src={`/ss-${agency.slug}.jpg`} alt={`${agency.name} 公式サイト`} className="w-full h-full object-cover object-top" />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800 text-sm">{agency.name}</h3>
+                  <p className="text-xs text-gray-500 mt-1">{agency.fee}</p>
+                  <p className="text-xs text-[#8B7355] mt-2 font-medium">詳細を見る →</p>
+                </div>
+                <p className="text-[10px] text-gray-400 px-4 pb-2">画像引用: 公式サイトより</p>
               </Link>
             ))}
           </div>
