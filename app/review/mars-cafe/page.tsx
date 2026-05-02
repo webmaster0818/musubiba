@@ -108,7 +108,7 @@ const relatedServices = [
   { name: "ツヴァイ", path: "/review/zwei/" },
   { name: "naco-do", path: "/review/naco-do/" },
   { name: "スマリード", path: "/review/smartread/" },
-  { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/" },
+  { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
 
 export default function MarsCafeReview() {

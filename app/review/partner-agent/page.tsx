@@ -114,8 +114,8 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "ツヴァイ", path: "/review/zwei/" },
   { name: "オーネット", path: "/review/onet/" },
-  { name: "IBJメンバーズ", path: "/review/ibj/" },
-  { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/" },
+  { name: "サンマリエ", path: "/review/sunmarie/" },
+  { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
 
 export default function PartnerAgentReview() {

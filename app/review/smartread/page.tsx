@@ -107,7 +107,7 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "naco-do", path: "/review/naco-do/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
-  { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/" },
+  { name: "フィオーレ", path: "/review/fiore/" },
   { name: "マーズカフェ", path: "/review/mars-cafe/" },
 ];
 

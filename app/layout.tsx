@@ -66,8 +66,8 @@ export default function RootLayout({
               <div>
                 <h4 className="font-medium text-[#8B7355] mb-4 text-sm tracking-widest">サービス</h4>
                 <ul className="space-y-2.5 text-xs">
-                  <li><Link href="/review/ibj/" className="hover:text-white transition-colors">IBJメンバーズ</Link></li>
-                  <li><Link href="/review/zexy/" className="hover:text-white transition-colors">ゼクシィ縁結びエージェント</Link></li>
+                  <li><Link href="/review/mars-cafe/" className="hover:text-white transition-colors">マーズカフェ</Link></li>
+                  <li><Link href="/review/sunmarie/" className="hover:text-white transition-colors">サンマリエ</Link></li>
                 </ul>
               </div>
               <div>

@@ -41,7 +41,7 @@ const pros = [
 ];
 
 const cons = [
-  "会員数は大手IBJ系と比べると少なめ",
+  "会員数は大手と比べると少なめ",
   "対面でのサポートが受けられない",
   "毎月の紹介人数に上限がある",
 ];
@@ -105,7 +105,7 @@ const faqJsonLd = {
 };
 
 const relatedServices = [
-  { name: "ゼクシィ縁結びエージェント", path: "/review/zexy/" },
+  { name: "マーズカフェ", path: "/review/mars-cafe/" },
   { name: "naco-do", path: "/review/naco-do/" },
   { name: "スマリード", path: "/review/smartread/" },
   { name: "オーネット", path: "/review/onet/" },

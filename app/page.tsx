@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "結婚相談所おすすめランキング15社比較【2024年最新】| ムスビバ",
+  title: "結婚相談所おすすめランキング13社比較【2024年最新】| ムスビバ",
   description:
-    "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
+    "厳選13社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
 };
 
 const services = [
@@ -11,11 +11,11 @@ const services = [
     rank: 1,
     name: "ツヴァイ",
     slug: "zwei",
-    tagline: "IBJ連携で出会いの幅が広がる大手結婚相談所",
+    tagline: "豊富な出会いの機会がある大手結婚相談所",
     monthlyFee: "月会費15,400円〜",
-    features: ["会員数9.4万人", "IBJ連携", "全国50店舗", "データマッチング"],
+    features: ["会員数9.4万人", "豊富な出会いの機会", "全国50店舗", "データマッチング"],
     pros: [
-      "IBJネットワーク連携で業界最大級の会員数",
+      "業界最大級の会員数で出会いの幅が広い",
       "全国50店舗で地方でも利用しやすい",
       "データマッチングとカウンセラーの両方で出会える",
     ],
@@ -39,7 +39,7 @@ const services = [
       "自社会員のみなので真剣度が高い",
     ],
     cons: [
-      "会員数がIBJ系と比べると少なめ",
+      "会員数が大手と比べると少なめ",
       "カウンセラーのサポートは手厚くない",
     ],
     recommend: "実績重視で効率的に活動したい方におすすめ",
@@ -63,44 +63,6 @@ const services = [
     ],
     recommend: "手厚いサポートで確実に成婚を目指したい方におすすめ",
     reviewPath: "/review/partner-agent/",
-  },
-  {
-    rank: 4,
-    name: "IBJメンバーズ",
-    slug: "ibj",
-    tagline: "最大級ネットワークを活かした少人数制サポート",
-    monthlyFee: "月会費17,050円〜",
-    features: ["会員数8.5万人", "最大級ネットワーク", "少人数制サポート", "成婚主義"],
-    pros: [
-      "IBJネットワークで8.5万人の会員と出会える",
-      "少人数制で一人ひとりに手厚いサポート",
-      "成婚主義で結果にコミットした運営",
-    ],
-    cons: [
-      "初期費用・月会費ともにやや高め",
-      "店舗が都市部に集中している",
-    ],
-    recommend: "大規模ネットワークと丁寧なサポートの両方を求める方におすすめ",
-    reviewPath: "/review/ibj/",
-  },
-  {
-    rank: 5,
-    name: "ゼクシィ縁結びエージェント",
-    slug: "zexy",
-    tagline: "リクルート運営のコスパ最強結婚相談所",
-    monthlyFee: "月会費9,900円〜",
-    features: ["リクルート運営", "オンライン対応", "コスパ良い", "入会金33,000円"],
-    pros: [
-      "月会費9,900円〜で業界最安クラスの料金設定",
-      "リクルートグループ運営の安心感",
-      "オンラインでも活動できる柔軟なシステム",
-    ],
-    cons: [
-      "会員数は大手と比べると少なめ",
-      "サポートはやや控えめな印象",
-    ],
-    recommend: "コストを抑えて気軽に婚活を始めたい方におすすめ",
-    reviewPath: "/review/zexy/",
   },
 ];
 
@@ -187,7 +149,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "15社", label: "厳選比較" },
+              { value: "13社", label: "厳選比較" },
               { value: "全国", label: "対応エリア" },
               { value: "料金", label: "徹底比較" },
               { value: "成婚率", label: "掲載あり" },
@@ -341,16 +303,14 @@ export default function Home() {
             全結婚相談所一覧
           </h2>
           <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
-            掲載中の全15社の結婚相談所をご覧いただけます
+            掲載中の全13社の結婚相談所をご覧いただけます
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
             {[
               { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,400円〜" },
               { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
               { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費18,700円〜" },
-              { name: "IBJメンバーズ", slug: "ibj", path: "/review/ibj/", fee: "月会費17,050円〜" },
-              { name: "ゼクシィ縁結びエージェント", slug: "zexy", path: "/review/zexy/", fee: "月会費9,900円〜" },
-              { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
+{ name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
               { name: "スマリード", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円〜" },
               { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
               { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費8,800円〜" },
