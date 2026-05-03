@@ -125,6 +125,10 @@ export default function MarsCafeReview() {
           マーズカフェの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
 
+        <p className="mb-6 text-sm">
+          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] underline hover:text-[#7A6548] tracking-wider">マーズカフェ の公式サイトはこちら</a>
+        </p>
+
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-mars-cafe.jpg" alt="マーズカフェ 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
@@ -237,16 +241,17 @@ export default function MarsCafeReview() {
           </div>
         </section>
 
+        <div className="text-center mb-8">
+          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
+            <img src="https://t.felmat.net/fmimg/K2473Q.A49782R.Z1361712" width={300} height={250} alt="マーズカフェ" className="mx-auto max-w-full h-auto" />
+          </a>
+        </div>
+
         {/* CTA */}
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">マーズカフェの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談でカフェ型の婚活を体験してみましょう</p>
-          <Link
-            href="/"
-            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
-          >
-            ランキングに戻る
-          </Link>
+          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
         </section>
 
         {/* Related */}
