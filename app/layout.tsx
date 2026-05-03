@@ -29,6 +29,27 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "ムスビバ",
+              url: "https://mu-su-bi-ba.com",
+              description: "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。",
+              publisher: {
+                "@type": "Organization",
+                name: "ムスビバ",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://mu-su-bi-ba.com/favicon.png",
+                },
+              },
+            }),
+          }}
+        />
       </head>
       <body className="min-h-full flex flex-col font-light">
         {/* Header */}
