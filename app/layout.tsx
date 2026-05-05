@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "結婚相談所おすすめランキング比較 | ムスビバ",
   description:
     "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
+  metadataBase: new URL("https://mu-su-bi-ba.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -29,7 +36,11 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" sizes="192x192" href="/android-chrome-192x192.png" />
+        <meta name="theme-color" content="#8B7355" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
