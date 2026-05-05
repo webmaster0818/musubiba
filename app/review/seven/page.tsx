@@ -122,6 +122,13 @@ export default function SevenReview() {
           結婚相談所セブンの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
 
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] hover:underline font-medium">
+            セブン結婚相談所 の公式サイトはこちら
+          </a>
+          <img src="https://t.felmat.net/fmimp/M6895M.Y109522N.Z1361712" width="1" height="1" alt="" className="inline" />
+        </p>
+
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-seven.jpg" alt="結婚相談所セブン 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
@@ -208,7 +215,8 @@ export default function SevenReview() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">セブンの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">成果報酬型の婚活を無料相談で詳しく聞いてみましょう</p>
-          <Link href="/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
+          <a href="https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
+          <img src="https://t.felmat.net/fmimp/M6895M.Y109522N.Z1361712" width="1" height="1" alt="" className="inline" />
         </section>
 
         <section>
