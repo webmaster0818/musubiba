@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import Link from "next/link";
 import Header from "@/components/Header";
+import FloatingCTA from "@/components/FloatingCTA";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -74,7 +75,10 @@ export default function RootLayout({
         </div>
 
         {/* Main */}
-        <main className="flex-1">{children}</main>
+        <main className="flex-1 pb-16 sm:pb-20">{children}</main>
+
+        {/* Floating CTA */}
+        <FloatingCTA />
 
         {/* Footer */}
         <footer className="bg-[#333333] text-white/60 mt-16">
