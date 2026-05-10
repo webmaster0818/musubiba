@@ -136,6 +136,7 @@ const agencies: Agency[] = [
     priority: ['カウンセラーのサポート', '会員数の多さ'],
     style: ['自分のペースでゆっくり', '積極的に活動'],
     screenshotSlug: 'fiore',
+    affiliateUrl: 'https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712',
   },
   {
     name: 'マリッジプロ',

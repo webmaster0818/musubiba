@@ -125,6 +125,12 @@ export default function FioreReview() {
           FIORE（フィオーレ）の口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
 
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] hover:underline font-medium">
+            フィオーレ の公式サイトはこちら
+          </a>
+        </p>
+
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-fiore.jpg" alt="FIORE（フィオーレ） 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
@@ -208,10 +214,25 @@ export default function FioreReview() {
           </div>
         </section>
 
+        {/* マッチングシミュレーション CTA */}
+        <section className="bg-gradient-to-r from-[#8B7355] to-[#C9B99A] rounded-2xl p-8 text-white text-center mb-8">
+          <h2 className="text-lg font-light mb-3 tracking-widest">結婚相手マッチングシミュレーション</h2>
+          <p className="text-white/70 text-sm mb-6 tracking-wider">あなたに合う理想のお相手が何人いるか、無料でシミュレーションできます</p>
+          <a href="https://t.felmat.net/fmcl?ak=O8781X.1.R131784K.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
+            <img src="https://t.felmat.net/fmimg/O8781X.R131784K.Z1361712" width="300" height="250" alt="フィオーレ マッチングシミュレーション" className="mx-auto rounded-lg mb-4" />
+          </a>
+          <a href="https://t.felmat.net/fmcl?ak=O8781X.1.R131784K.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-white text-[#8B7355] font-normal py-3 px-8 rounded-full transition-colors tracking-widest hover:bg-gray-100">無料シミュレーションを試す</a>
+        </section>
+
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">フィオーレの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談で成婚率トップクラスのサポートを体験しましょう</p>
-          <Link href="/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
+          <div className="mb-6">
+            <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
+              <img src="https://t.felmat.net/fmimg/T8680S.X1309788.Z1361712" width="300" height="250" alt="フィオーレ" className="mx-auto rounded-lg" />
+            </a>
+          </div>
+          <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
         </section>
 
         <section>
