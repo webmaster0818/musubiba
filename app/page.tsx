@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "結婚相談所おすすめランキング13社比較【2024年最新】| ムスビバ",
+  title: "結婚相談所おすすめランキング13社比較【2026年最新】| ムスビバ",
   description:
     "厳選13社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
 };
@@ -9,60 +9,103 @@ export const metadata = {
 const services = [
   {
     rank: 1,
-    name: "ツヴァイ",
-    slug: "zwei",
-    tagline: "豊富な出会いの機会がある大手結婚相談所",
-    monthlyFee: "月会費15,400円〜",
-    features: ["会員数9.4万人", "豊富な出会いの機会", "全国50店舗", "データマッチング"],
+    name: "naco-do",
+    slug: "naco-do",
+    tagline: "オンライン完結型で12.1万人の会員と出会える",
+    monthlyFee: "月会費6,980円〜",
+    features: ["会員数12.1万人", "オンライン完結", "3連盟連携", "コスパ抜群"],
     pros: [
-      "業界最大級の会員数で出会いの幅が広い",
-      "全国50店舗で地方でも利用しやすい",
-      "データマッチングとカウンセラーの両方で出会える",
+      "3つの連盟に同時加入で業界最多クラスの会員数",
+      "月会費6,980円〜と圧倒的な低価格",
+      "オンライン完結で自宅から婚活可能",
     ],
     cons: [
-      "初期費用がやや高め",
-      "店舗によってカウンセラーの質に差がある",
+      "対面でのサポートがない",
+      "自主的に活動する意欲が必要",
     ],
-    recommend: "会員数の多さと全国展開を重視する方におすすめ",
-    reviewPath: "/review/zwei/",
+    recommend: "コスパ重視でオンライン婚活を始めたい方におすすめ",
+    reviewPath: "/review/naco-do/",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=Z50330.1.2894055.Z1361712",
   },
   {
     rank: 2,
-    name: "オーネット",
-    slug: "onet",
-    tagline: "40年の実績を持つデータマッチング型の老舗",
-    monthlyFee: "月会費16,500円〜",
-    features: ["会員数4.2万人", "データマッチング", "40年の実績", "自社会員のみ"],
+    name: "フィオーレ",
+    slug: "fiore",
+    tagline: "成婚率52.8%の実績を誇る関西発の結婚相談所",
+    monthlyFee: "月会費8,800円〜",
+    features: ["成婚率52.8%", "ハイブリッド型", "関西中心", "連盟連携"],
     pros: [
-      "40年以上の運営実績で信頼性が高い",
-      "データマッチングで効率的に相手を探せる",
-      "自社会員のみなので真剣度が高い",
+      "成婚率52.8%と業界トップクラスの実績",
+      "仲人型+データマッチングのハイブリッド対応",
+      "丁寧なカウンセラーサポート",
     ],
     cons: [
-      "会員数が大手と比べると少なめ",
-      "カウンセラーのサポートは手厚くない",
+      "関西エリア中心の展開",
+      "初期費用がやや高め",
     ],
-    recommend: "実績重視で効率的に活動したい方におすすめ",
-    reviewPath: "/review/onet/",
+    recommend: "成婚率の高さと手厚いサポートを求める方におすすめ",
+    reviewPath: "/review/fiore/",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712",
   },
   {
     rank: 3,
-    name: "パートナーエージェント",
-    slug: "partner-agent",
-    tagline: "成婚率No.1の手厚いサポート型結婚相談所",
-    monthlyFee: "月会費18,700円〜",
-    features: ["成婚率27%", "専任コンシェルジュ", "1年以内成婚", "PDCAサイクル"],
+    name: "スマリード",
+    slug: "smartread",
+    tagline: "初期費用6,600円〜の業界最安クラス",
+    monthlyFee: "月会費9,900円〜",
+    features: ["初期費用6,600円", "コネクトシップ連携", "オンライン完結", "成婚料0円"],
     pros: [
-      "業界トップクラスの成婚率27%を誇る",
-      "専任コンシェルジュが活動を徹底サポート",
-      "1年以内の成婚を目指す明確なプラン",
+      "初期費用6,600円〜と業界最安レベル",
+      "成婚料0円でトータルコストが安い",
+      "コネクトシップ連携で約3万人と出会える",
     ],
     cons: [
-      "月会費が他社と比べてやや高い",
-      "会員数自体は大手と比べると少なめ",
+      "対面サポートがない",
+      "自社会員数は非公開",
     ],
-    recommend: "手厚いサポートで確実に成婚を目指したい方におすすめ",
-    reviewPath: "/review/partner-agent/",
+    recommend: "低予算で婚活を始めたい方におすすめ",
+    reviewPath: "/review/smartread/",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712",
+  },
+  {
+    rank: 4,
+    name: "結婚相談所セブン",
+    slug: "seven",
+    tagline: "成果報酬型で結果が出なければコストを抑えられる",
+    monthlyFee: "月会費7,700円〜",
+    features: ["成果報酬型", "月会費7,700円〜", "連盟加盟", "低リスク"],
+    pros: [
+      "結果が出た時だけ費用が発生する成果報酬型",
+      "月会費7,700円〜の圧倒的低価格",
+      "連盟ネットワークで紹介数が豊富",
+    ],
+    cons: [
+      "店舗が東京中心",
+      "成婚料がやや高め",
+    ],
+    recommend: "コストリスクを抑えて婚活したい方におすすめ",
+    reviewPath: "/review/seven/",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712",
+  },
+  {
+    rank: 5,
+    name: "マーズカフェ",
+    slug: "mars-cafe",
+    tagline: "カフェのようなリラックス空間で婚活",
+    monthlyFee: "月会費11,000円〜",
+    features: ["カフェ併設", "リラックス空間", "丁寧なカウンセリング", "アットホーム"],
+    pros: [
+      "カフェのようなおしゃれな空間でカウンセリング",
+      "少人数制で一人ひとりに寄り添うサポート",
+      "アットホームな雰囲気で相談しやすい",
+    ],
+    cons: [
+      "店舗数が限られる",
+      "大手と比べると会員数が少ない",
+    ],
+    recommend: "リラックスした雰囲気で婚活したい方におすすめ",
+    reviewPath: "/review/mars-cafe/",
+    affiliateUrl: "https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712",
   },
 ];
 
@@ -266,9 +309,19 @@ export default function Home() {
 
                   {/* CTA */}
                   <div className="flex flex-col sm:flex-row gap-3">
+                    {s.affiliateUrl && (
+                      <a
+                        href={s.affiliateUrl}
+                        target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
+                      >
+                        公式サイトへ
+                      </a>
+                    )}
                     <Link
                       href={s.reviewPath}
-                      className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
+                      className="flex-1 text-center border border-[#8B7355] text-[#8B7355] hover:bg-[#F5F0EB] font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
                     >
                       口コミ・詳細を見る
                     </Link>
