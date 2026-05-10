@@ -267,13 +267,17 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
-          <div className="bg-[#F5F0EB] rounded-2xl p-6 flex items-start gap-4">
-            <div className="w-12 h-12 rounded-full bg-[#8B7355] text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
-            <div>
-              <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-              <p className="text-xs text-[#8B8580] mt-1">ムスビバ編集部</p>
-              <p className="text-xs text-[#8B8580] mt-1 leading-relaxed">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
+          <div className="bg-[#F5F0EB] rounded-2xl p-6">
+            <div className="flex items-start gap-4 mb-4">
+              <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
+              <div>
+                <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
+                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+              </div>
             </div>
+            <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
+            <p className="text-xs text-[#8B8580] leading-relaxed mb-2">編集部メンバーの中には、実際に結婚相談所を利用して入籍し、結婚生活6年目を迎えたメンバーも在籍。実体験に基づいたリアルな視点でお伝えします。</p>
+            <p className="text-xs text-[#8B8580] leading-relaxed">「お見合い文化がなくなった日本で、結婚に悩む人を一人でも多く救いたい」「マッチングアプリで出会えても、本気の出会いにつながらない人の力になりたい」という想いで運営しています。</p>
           </div>
         </section>
 
