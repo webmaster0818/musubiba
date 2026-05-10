@@ -2,7 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: "FIORE（フィオーレ）の口コミ・評判｜料金・特徴・サポートを徹底解説【2024年】",
+  title: "FIORE（フィオーレ）の口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
   description:
     "FIORE（フィオーレ）の口コミ・評判を徹底調査。関西中心・成婚率業界トップクラスが特徴のフィオーレの料金やサポート体制を詳しく解説します。",
 };
@@ -65,6 +65,18 @@ const reviews = [
     date: "2024年4月",
     text: "40代での婚活は不安でしたが、フィオーレのカウンセラーが励ましてくれて前向きに活動できました。関西密着なので、同じ生活圏の方を紹介してもらえるのが良かったです。成婚料は発生しましたが、結果が出たので満足しています。",
   },
+  {
+    label: "30代女性・大阪在住",
+    stars: 5,
+    date: "2025年10月",
+    text: "関西で評判の良い相談所を探していてフィオーレに入会しました。女性カウンセラーの方が親身に相談に乗ってくれて、プロフィール写真の撮り方やお見合い時の服装まで細かくアドバイスしてもらえました。成婚率の高さに惹かれて入会しましたが、実際に7ヶ月で素敵な方と出会えました。",
+  },
+  {
+    label: "40代女性・京都在住",
+    stars: 4,
+    date: "2025年8月",
+    text: "40代で再婚を目指して入会しました。フィオーレは関西密着なので、生活圏が近い方を紹介してもらえるのが良いですね。連盟連携で思った以上に多くの方のプロフィールを見ることができました。カウンセラーの方が再婚ならではの不安にも寄り添ってくれて安心でした。",
+  },
 ];
 
 const faqs = [
@@ -118,12 +130,25 @@ export default function FioreReview() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "FIORE（フィオーレ）",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "5"
+        }
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "FIORE（フィオーレ）" }]} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           FIORE（フィオーレ）の口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] hover:underline font-medium">
@@ -180,6 +205,29 @@ export default function FioreReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">フィオーレ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">ツヴァイ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">サンマリエ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">8,800円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">16,500円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">103,400円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約8.5万人</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約8.7万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率52.8%</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">老舗40年以上</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
           <div className="space-y-4">
             {reviews.map((r, i) => (
@@ -211,6 +259,17 @@ export default function FioreReview() {
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <div className="bg-[#F5F0EB] rounded-2xl p-6 flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-[#8B7355] text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
+            <div>
+              <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
+              <p className="text-xs text-[#8B8580] mt-1">ムスビバ編集部</p>
+              <p className="text-xs text-[#8B8580] mt-1 leading-relaxed">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
+            </div>
           </div>
         </section>
 

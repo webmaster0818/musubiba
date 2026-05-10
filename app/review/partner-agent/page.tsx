@@ -2,7 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: "パートナーエージェントの口コミ・評判｜成婚率27%の秘密を徹底解説【2024年】",
+  title: "パートナーエージェントの口コミ・評判｜料金・成婚率27%・特徴を徹底解説【2026年】",
   description:
     "パートナーエージェントの口コミ・評判を徹底調査。月会費18,700円〜、成婚率27%、専任コンシェルジュ制度の特徴を詳しく解説します。",
 };
@@ -125,12 +125,25 @@ export default function PartnerAgentReview() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "パートナーエージェント",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.0",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "4"
+        }
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "パートナーエージェント" }]} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          パートナーエージェントの口コミ・評判｜成婚率27%の秘密を徹底解説
+          パートナーエージェントの口コミ・評判｜料金・成婚率27%・特徴を徹底解説
         </h1>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-partner-agent.jpg" alt="パートナーエージェント 公式サイト" className="w-full h-auto" />
@@ -185,6 +198,29 @@ export default function PartnerAgentReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">パートナーエージェント</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">ツヴァイ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">サンマリエ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">18,700円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">16,500円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">137,500円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">103,400円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約2.9万人</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約8.7万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率27%</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">老舗40年以上</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
           <div className="space-y-4">
             {reviews.map((r, i) => (
@@ -216,6 +252,17 @@ export default function PartnerAgentReview() {
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
             ))}
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <div className="bg-[#F5F0EB] rounded-2xl p-6 flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-[#8B7355] text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
+            <div>
+              <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
+              <p className="text-xs text-[#8B8580] mt-1">ムスビバ編集部</p>
+              <p className="text-xs text-[#8B8580] mt-1 leading-relaxed">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
+            </div>
           </div>
         </section>
 

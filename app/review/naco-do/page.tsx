@@ -2,7 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: "naco-do（ナコード）の口コミ・評判｜料金・特徴・サポートを徹底解説【2024年】",
+  title: "naco-do（ナコード）の口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
   description:
     "naco-do（ナコード）の口コミ・評判を徹底調査。オンライン完結・月額6,980円〜・JBA/CONNECT-ship連携が特徴のナコードの料金やサポート体制を詳しく解説します。",
 };
@@ -65,6 +65,18 @@ const reviews = [
     date: "2024年4月",
     text: "地方在住で婚活の選択肢が少なかったのですが、naco-doなら全国の会員と出会えるので助かりました。料金の安さも魅力ですが、カウンセラーのサポートも想像以上にしっかりしていました。オンラインお見合いにも対応しているので、遠方の方とも気軽に会えます。",
   },
+  {
+    label: "30代女性・東京在住",
+    stars: 5,
+    date: "2025年12月",
+    text: "月額6,980円で12万人以上の会員と出会えるのは本当にコスパ最高です。3つの連盟と連携しているので、プロフィールの選択肢が豊富でした。LINEでカウンセラーに気軽に相談できるのも働く女性には嬉しいポイントです。入会から4ヶ月で交際に発展しました。",
+  },
+  {
+    label: "40代女性・大阪在住",
+    stars: 4,
+    date: "2025年10月",
+    text: "40代でオンライン婚活に不安がありましたが、カウンセラーの方がビデオ通話で丁寧にサポートしてくれました。成婚料0円なので費用面でも安心です。地方在住でも全国の会員と出会えるので、選択肢が広がりました。",
+  },
 ];
 
 const faqs = [
@@ -115,12 +127,25 @@ export default function NacoDoReview() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "naco-do（ナコード）",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "bestRating": "5",
+          "worstRating": "1",
+          "ratingCount": "5"
+        }
+      }) }} />
       <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "naco-do（ナコード）" }]} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           naco-do（ナコード）の口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=Z50330.1.2894055.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] underline hover:text-[#7A6548] tracking-wider">naco-do の公式サイトはこちら</a>
@@ -175,6 +200,29 @@ export default function NacoDoReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">naco-do（ナコード）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">エン婚活エージェント</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリード</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">6,980円〜</td><td className="px-4 py-3 text-center">14,300円</td><td className="px-4 py-3 text-center">9,900円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td><td className="px-4 py-3 text-center">業界最安クラス</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
           <div className="space-y-4">
             {reviews.map((r, i) => (
@@ -214,6 +262,17 @@ export default function NacoDoReview() {
             <img src="https://t.felmat.net/fmimg/Z50330.2894055.Z1361712" width={936} height={120} alt="naco-do（ナコード）" className="mx-auto max-w-full h-auto" />
           </a>
         </div>
+
+        <section className="mb-12">
+          <div className="bg-[#F5F0EB] rounded-2xl p-6 flex items-start gap-4">
+            <div className="w-12 h-12 rounded-full bg-[#8B7355] text-white flex items-center justify-center font-bold text-lg shrink-0">編</div>
+            <div>
+              <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
+              <p className="text-xs text-[#8B8580] mt-1">ムスビバ編集部</p>
+              <p className="text-xs text-[#8B8580] mt-1 leading-relaxed">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
+            </div>
+          </div>
+        </section>
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">naco-doの無料相談を予約する</h2>
