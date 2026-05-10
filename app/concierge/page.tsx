@@ -105,6 +105,7 @@ const agencies: Agency[] = [
     priority: ['オンライン対応', 'データマッチング'],
     style: ['自分のペースでゆっくり', 'オンライン中心'],
     screenshotSlug: 'smartread',
+    affiliateUrl: 'https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712',
   },
   {
     name: 'リングベル',

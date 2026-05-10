@@ -125,6 +125,12 @@ export default function SmartreadReview() {
           スマリードの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
 
+        <p className="text-sm mb-6">
+          <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] hover:underline font-medium">
+            スマリード の公式サイトはこちら
+          </a>
+        </p>
+
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-smartread.jpg" alt="スマリード 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
@@ -235,12 +241,19 @@ export default function SmartreadReview() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">スマリードの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料カウンセリングでオンライン婚活を体験しましょう</p>
-          <Link
-            href="/"
+          <div className="mb-6">
+            <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
+              <img src="https://t.felmat.net/fmimg/J112188.Z162495D.Z1361712" width="300" height="250" alt="スマリード" className="mx-auto rounded-lg" />
+            </a>
+          </div>
+          <a
+            href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
             className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
           >
-            ランキングに戻る
-          </Link>
+            公式サイトへ
+          </a>
         </section>
 
         <section>
