@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Link from "next/link";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
   title: "結婚相談所のよくある質問（FAQ）| ムスビバ",
@@ -107,7 +108,8 @@ export default function FAQPage() {
           >
             ランキングを見る
           </Link>
-        </section>
+        <AuthorBox />
+      </section>
       </div>
     </>
   );

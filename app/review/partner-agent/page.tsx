@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
   title: "パートナーエージェントの口コミ・評判｜料金・成婚率27%・特徴を徹底解説【2026年】",
@@ -284,6 +285,7 @@ export default function PartnerAgentReview() {
             ))}
           </div>
         </section>
+      <AuthorBox />
       </article>
     </>
   );

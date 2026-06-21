@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
   title: "FIORE（フィオーレ）の口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -306,6 +307,7 @@ export default function FioreReview() {
             ))}
           </div>
         </section>
+      <AuthorBox />
       </article>
     </>
   );

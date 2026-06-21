@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
   title: "スマリードの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -333,6 +334,7 @@ export default function SmartreadReview() {
             ))}
           </div>
         </section>
+      <AuthorBox />
       </article>
     </>
   );

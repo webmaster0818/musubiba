@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
   title: "結婚相談所おすすめランキング13社比較【2026年最新】| ムスビバ",
@@ -422,6 +423,7 @@ export default function Home() {
             ランキングに戻る
           </Link>
         </div>
+      <AuthorBox />
       </section>
     </>
   );

@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useMemo } from 'react';
 import Link from 'next/link';
+import AuthorBox from "@/components/AuthorBox";
 
 /* ==========================================================================
    Agency type & database
