@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
-  title: "ムスベルの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "ムスベルの口コミ・評判｜「やばい」の真相と料金・成婚料を解説【2026年】",
   description:
     "ムスベルの口コミ・評判を徹底調査。全国対応・仲人型+データ型ハイブリッド・月会費15,400円〜が特徴のムスベルの料金やサポート体制を詳しく解説します。",
 };
@@ -217,6 +217,28 @@ export default function MusbellReview() {
               </tbody>
             </table>
           </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">「ムスベルはやばい？」と検索される理由と実態</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「ムスベル やばい」と検索されることがありますが、これは詐欺的という意味ではなく、<strong>料金（特に成婚料）への不安</strong>が主な理由です。事実をもとに整理します。
+          </p>
+          <div className="space-y-3">
+            <div className="bg-white rounded-xl border border-gray-100 p-5">
+              <h3 className="font-medium text-[#2C2C2C] mb-1">理由①：成婚料33万円が業界でも高め</h3>
+              <p className="text-sm text-[#2C2C2C]/70">ムスベルは成婚退会時に成婚料330,000円が発生します。月会費15,400円〜と合わせ、活動が長引くほど総額が上がるため「高い＝やばい」と感じる人がいます。ただし会員数の多さ（約16万人規模）と仲人サポートを評価する声も多く、コストに見合うかは重視点次第です。</p>
+            </div>
+            <div className="bg-white rounded-xl border border-gray-100 p-5">
+              <h3 className="font-medium text-[#2C2C2C] mb-1">理由②：複数連盟加盟で会員数が「多すぎて選べない」</h3>
+              <p className="text-sm text-[#2C2C2C]/70">複数の結婚相談所連盟に加盟し出会いの幅が広い反面、「相手が多くて絞れない」と戸惑う声もあります。仲人による紹介とデータ検索を併用し、担当カウンセラーに条件を相談して絞るのが有効です。</p>
+            </div>
+            <div className="bg-white rounded-xl border border-gray-100 p-5">
+              <h3 className="font-medium text-[#2C2C2C] mb-1">結論：詐欺的な「やばさ」ではなく料金体系の理解が必須</h3>
+              <p className="text-sm text-[#2C2C2C]/70">ムスベルは全国約40拠点・会員数業界最大級の正規の結婚相談所です。「やばい」の実態は主に成婚料を含む総額への不安。<strong>無料相談で総額（初期費用＋月会費×想定活動月数＋成婚料）の見積もりを必ず確認</strong>すれば、ミスマッチは避けられます。</p>
+            </div>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-3">※料金は2026年時点の調査値です。最新の料金・契約条件は公式サイトおよび無料相談でご確認ください。</p>
         </section>
 
         <section className="mb-12">
