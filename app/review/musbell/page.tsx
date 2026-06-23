@@ -220,6 +220,27 @@ export default function MusbellReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">ムスベルの料金プランと総額の目安</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「ムスベル 料金」で気になるのは、月会費だけでなく<strong>入会から成婚までにかかる総額</strong>です。公表されている料金をもとに、1年間活動した場合の総額の目安を整理しました。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">初期費用</td><td className="px-4 py-3">33,000円〜（プランにより115,500円〜の場合あり）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">月会費</td><td className="px-4 py-3">15,400円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">成婚料</td><td className="px-4 py-3">330,000円（成婚退会時）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年活動の総額目安（成婚なし）</td><td className="px-4 py-3">約217,800円〜（初期33,000＋月15,400×12）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">約547,800円〜（上記＋成婚料330,000）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
+            ※月会費・初期費用はプラン・連盟・拠点により異なります。お見合い料などが別途かかる場合があります。上記は公表料金にもとづく目安で、正確な総額は無料相談での見積もりをご確認ください（金額は2026年時点）。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくのが大切です。
+          </p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">「ムスベルはやばい？」と検索される理由と実態</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             「ムスベル やばい」と検索されることがありますが、これは詐欺的という意味ではなく、<strong>料金（特に成婚料）への不安</strong>が主な理由です。事実をもとに整理します。
