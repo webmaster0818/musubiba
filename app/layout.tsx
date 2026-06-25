@@ -89,6 +89,8 @@ export default function RootLayout({
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/" className="hover:text-white transition-colors">トップページ</Link></li>
                   <li><Link href="/faq/" className="hover:text-white transition-colors">よくある質問</Link></li>
+                  <li><Link href="/about/" className="hover:text-white transition-colors">このサイトについて</Link></li>
+                  <li><Link href="/editorial-policy/" className="hover:text-white transition-colors">編集方針・掲載基準</Link></li>
                 </ul>
               </div>
               <div>

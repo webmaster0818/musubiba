@@ -126,18 +126,6 @@ export default function PartnerAgentReview() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "パートナーエージェント",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "4"
-        }
-      }) }} />
       <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "パートナーエージェント" }]} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
