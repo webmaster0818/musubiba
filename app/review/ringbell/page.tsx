@@ -221,6 +221,25 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルの料金プランと総額の目安</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「リングベル 料金」で気になるのは、月会費だけでなく<strong>入会から成婚までにかかる総額</strong>です。公表されている料金をもとに、1年間活動した場合の総額の目安を整理しました。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">初期費用</td><td className="px-4 py-3">88,000円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">月会費</td><td className="px-4 py-3">13,200円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">成婚料</td><td className="px-4 py-3">220,000円（成婚退会時）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年活動の総額目安（成婚なし）</td><td className="px-4 py-3">約246,400円〜（初期88,000＋月13,200×12）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">約466,400円〜（上記＋成婚料220,000）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※料金は公表値にもとづく目安です。お見合い料などが別途かかる場合があります。正確な総額は無料相談での見積もりをご確認ください（金額は2026年時点）。仲人型は手厚いサポートのぶん成婚料が高めになる傾向があります。</p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルの口コミ・評判の傾向</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             「リングベル 結婚相談所 口コミ」で調べる方向けに、評判の傾向を実情報をもとに整理しました（個々の体験には差があります）。
