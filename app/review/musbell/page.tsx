@@ -3,19 +3,19 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
-  title: "ムスベルの口コミ・評判｜「やばい」の真相と料金・成婚料を解説【2026年】",
+  title: "ムスベルの評判・口コミ・料金｜「やばい」の真相を中立解説【2026年】",
   description:
-    "ムスベルの口コミ・評判を徹底調査。全国対応・仲人型+データ型ハイブリッド・月会費15,400円〜が特徴のムスベルの料金やサポート体制を詳しく解説します。",
+    "ムスベルの評判・口コミ・料金を実態ベースで解説。月会費15,400円〜＋成婚料330,000円の総額目安、「やばい」と検索される理由、全国約40拠点・複数連盟加盟の特徴まで中立にまとめました。最新の料金・会員数は公式サイトでご確認ください。",
 };
 
 const overview = {
   name: "ムスベル",
   type: "ハイブリッド型（仲人＋データマッチング）",
-  members: "約16万人（複数連盟加盟）",
-  area: "全国対応（約40拠点）",
-  initialFee: "33,000円〜",
-  monthlyFee: "15,400円〜",
-  matchingFee: "330,000円",
+  members: "複数連盟加盟で業界最大級（正確な人数は公式サイトで要確認）",
+  area: "全国対応（拠点数は公式サイト参照）",
+  initialFee: "33,000円〜（プランにより変動・要確認）",
+  monthlyFee: "15,400円〜（要確認）",
+  matchingFee: "330,000円（成婚退会時・要確認）",
   age: "20〜60代（中心は30代〜40代）",
   successRate: "非公開",
 };
@@ -82,6 +82,18 @@ const reviews = [
 
 const faqs = [
   {
+    q: "ムスベルは「やばい」って本当ですか？",
+    a: "「ムスベル やばい」と検索されますが、これは詐欺的という意味ではなく、成婚料330,000円を含む総額への不安が主な理由です。ムスベルは全国展開・複数連盟加盟の正規の結婚相談所です。料金体系を無料相談で確認すればミスマッチは避けられます（料金は2026年時点の調査値・要確認）。",
+  },
+  {
+    q: "ムスベルの評判・口コミはどうですか？",
+    a: "「出会いの選択肢が多い」「地方でも活動しやすい」「仲人とデータ検索を併用できる」といった良い評判がある一方、「総額が高い」「会員が多く絞りにくい」という気になる声もあります。感じ方には個人差があるため、実際の評判は無料相談で確認することをおすすめします。",
+  },
+  {
+    q: "ムスベルの料金は総額いくらかかりますか？",
+    a: "公表料金にもとづくと、初期費用33,000円〜＋月会費15,400円〜＋成婚料330,000円が基本です。1年活動して成婚した場合の総額目安は約55万円〜です。プラン・連盟・拠点により異なり、お見合い料が別途かかる場合もあるため、正確な総額は無料相談での見積もりでご確認ください（2026年時点・要確認）。",
+  },
+  {
     q: "ムスベルの入会条件はありますか？",
     a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類、卒業証明書が必要です。",
   },
@@ -134,7 +146,20 @@ export default function MusbellReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ムスベルの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年6月</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
+          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：ムスベルはこんな人に向く相談所
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>評判・口コミ</strong>：複数連盟加盟による「出会いの多さ」と仲人サポートを評価する声が中心。一方で成婚料を含む総額の高さを指摘する声もあります。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>「やばい」の真相</strong>：詐欺的という意味ではなく、<strong>成婚料330,000円を含む総額への不安</strong>が主な検索理由。正規の結婚相談所です。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：月会費15,400円〜＋成婚料330,000円。1年で成婚した場合の総額目安は<strong>約55万円〜</strong>（公表料金にもとづく試算・要確認）。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：会員数の多さを重視する人、地方在住で対面サポートを受けたい人、仲人とデータ検索を併用したい人。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+        </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-musbell.jpg" alt="ムスベル 公式サイト" className="w-full h-auto" />
@@ -248,6 +273,33 @@ export default function MusbellReview() {
             </div>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-3">※料金は2026年時点の調査値です。最新の料金・契約条件は公式サイトおよび無料相談でご確認ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">ムスベルの評判・口コミの傾向まとめ</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「ムスベル 評判」「ムスベル 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。個別の体験談は下のセクションに掲載しています。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>複数連盟加盟で「他社では会えない人と出会えた」という声</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住でも全国展開で活動しやすい</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介とデータ検索の両方が使える</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>担当カウンセラーが親身という声</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>成婚料を含めた総額が高いと感じる声</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が多く「相手を絞りにくい」という声</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>カウンセラーの対応に拠点・担当者差を感じる声</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。実際の評判は無料相談で直接確認することをおすすめします。</p>
         </section>
 
         <section className="mb-12">
