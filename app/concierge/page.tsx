@@ -176,7 +176,7 @@ const agencies: Agency[] = [
     type: '仲人型',
     monthlyFee: '月会費15,400円〜',
     initialFee: '初期費用165,000円〜',
-    members: '約8万人（複数連盟）',
+    members: '業界最大級（複数連盟・公式参照）',
     area: ['関東', '関西', '中部', '東北', '九州'],
     ageRange: ['30代前半', '30代後半', '40代', '50代以上'],
     budgetCategory: 'premium',

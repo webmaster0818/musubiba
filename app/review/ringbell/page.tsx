@@ -3,9 +3,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
-  title: "リングベル（結婚相談所）の口コミ・評判｜料金・成婚料を解説【2026年】",
+  title: "リングベル（結婚相談所）の口コミ・評判｜料金・成婚料を中立解説【2026年】",
   description:
-    "リングベルの口コミ・評判を徹底調査。仲人型・地域密着・丁寧なサポートが特徴のリングベルの料金体系やサービス内容を詳しく解説します。",
+    "リングベル（結婚相談所）の口コミ・評判を中立的に整理。仲人型・地域密着が特徴で、月会費13,200円〜＋成婚料220,000円の総額目安、良い評判・気になる評判の傾向、入会条件やオンライン対応までまとめました。最新の料金・条件は公式サイトおよび無料相談でご確認ください。",
 };
 
 const overview = {
@@ -82,6 +82,14 @@ const reviews = [
 
 const faqs = [
   {
+    q: "リングベル（結婚相談所）の評判・口コミはどうですか？",
+    a: "「仲人が親身で1対1のサポートが手厚い」「地域密着で生活圏が近い相手を紹介してもらえる」「数より質の紹介で精度が高い」といった良い評判が中心です。一方で「成婚料がやや高め」「大手より会員数・紹介人数は少なめ」「仲人との相性に左右される」という気になる声もあります。感じ方には個人差があるため、実際の評判は無料相談で確認するのがおすすめです。",
+  },
+  {
+    q: "リングベルの料金は総額いくらかかりますか？",
+    a: "公表料金にもとづくと、初期費用88,000円〜＋月会費13,200円〜＋成婚料220,000円が基本です。1年活動して成婚しなかった場合の総額目安は約246,400円〜、1年で成婚した場合は約466,400円〜です。お見合い料などが別途かかる場合があるため、正確な総額は無料相談での見積もりでご確認ください（2026年時点・要確認）。",
+  },
+  {
     q: "リングベルの入会条件はありますか？",
     a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類が必要です。",
   },
@@ -137,7 +145,20 @@ export default function RingbellReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           リングベルの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年6月</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
+          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：リングベルはこんな人に向く相談所
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>評判・口コミ</strong>：仲人による1対1の手厚いサポートと、地域密着で生活圏が近い相手と出会いやすい点を評価する声が中心です。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：初期費用88,000円〜＋月会費13,200円〜＋成婚料220,000円。1年で成婚した場合の総額目安は<strong>約466,400円〜</strong>（公表料金にもとづく試算・要確認）。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：成婚料がやや高めで、大手と比べると会員数・展開エリアは限定的。総額は事前確認が大切です。</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：数より質を重視したい人、地元で結婚相手を探したい人、仲人に手厚く伴走してほしい人。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+        </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-ringbell.jpg" alt="リングベル 公式サイト" className="w-full h-auto" />
