@@ -102,6 +102,17 @@ export default function ComparePage() {
           <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }) }} />
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">仲人型で迷ったら：人気2社の比較・個別レビュー</h2>
+          <p className="text-sm text-gray-700 mb-4">手厚い仲人サポートのある相談所は、月会費だけでなく成婚料を含む総額で比べるのが大切です。代表的な2社の比較と個別レビューをチェックしましょう。</p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-rose-700 underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-rose-700 underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-rose-700 underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-rose-700 underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+          </ul>
+        </section>
+
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-4">各相談所の詳しい口コミ・評判</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">

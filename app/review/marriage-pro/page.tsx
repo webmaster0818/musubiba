@@ -47,39 +47,6 @@ const cons = [
   "店舗数が大手と比べて限定的",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 5,
-    date: "2024年7月",
-    text: "他の結婚相談所で1年以上活動して結果が出なかったのですが、マリッジプロに乗り換えてからは半年で成婚できました。カウンセラーの方がプロフィールの改善点や、お見合いでの話し方まで具体的にアドバイスしてくれたのが大きかったです。料金は高めですが、結果が出たので大満足です。",
-  },
-  {
-    label: "40代男性・大阪在住",
-    stars: 4,
-    date: "2024年5月",
-    text: "40代での婚活に不安がありましたが、カウンセラーの方が自分の強みを引き出してくれて、前向きに活動できました。婚活戦略を一緒に考えてくれるので、やみくもに活動するよりも効率的でした。連盟の会員基盤も大きく、お見合いの機会は十分にありました。",
-  },
-  {
-    label: "30代男性・東京在住",
-    stars: 4,
-    date: "2024年3月",
-    text: "プロのカウンセラーに担当していただけるという点が決め手で入会しました。実際、カウンセリングの質は高く、自分では気づかなかった改善点を的確に指摘してもらえました。ただ、料金が高めなので、予算に余裕がある方向けだと感じます。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年11月",
-    text: "他社で1年活動して結果が出ず、マリッジプロに切り替えました。プロカウンセラーの方が私の魅力を客観的に分析してくれて、プロフィールや話し方まで改善点を教えてもらえました。おかげで5ヶ月で素敵な方と真剣交際に発展しました。",
-  },
-  {
-    label: "40代女性・大阪在住",
-    stars: 4,
-    date: "2025年9月",
-    text: "40代で婚活に焦りがありましたが、カウンセラーの方が年齢に合った戦略を提案してくれました。連盟の会員基盤も広く、同世代の方ともたくさん出会えました。料金は高めですが、プロのサポートを受けたい方には値段相応だと思います。",
-  },
-];
-
 const faqs = [
   {
     q: "マリッジプロの評判・口コミはどうですか？",
@@ -278,23 +245,16 @@ export default function MarriageProReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
-          </div>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">マリッジプロと他社を比較して選ぶ</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            手厚い仲人サポートを求める場合は、料金総額や対象エリア・特徴を他社と見比べて選ぶのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

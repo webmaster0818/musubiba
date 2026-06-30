@@ -47,39 +47,6 @@ const cons = [
   "カウンセラーの質に拠点差がある場合がある",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・名古屋在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "会員数16万人は圧倒的です。複数の連盟に加盟しているので、他の結婚相談所では出会えなかった方とお見合いできました。仲人さんも親身にサポートしてくれて、入会から7ヶ月で成婚退会できました。成婚料は高めですが、これだけの出会いがあれば納得です。",
-  },
-  {
-    label: "40代男性・仙台在住",
-    stars: 4,
-    date: "2024年5月",
-    text: "地方在住で出会いが少なかったのですが、ムスベルは全国展開で会員数も多いため、地方でもしっかり活動できました。仲人さんが地域の事情も理解してくれて、現実的なマッチングを提案してくれたのが良かったです。",
-  },
-  {
-    label: "30代男性・東京在住",
-    stars: 4,
-    date: "2024年3月",
-    text: "複数の連盟に加盟しているので、出会いの幅が広いのが魅力でした。データマッチングで自分でも探せるし、仲人さんからの紹介もあるので、二重のルートで相手を探せます。ただ、成婚料が33万円と高いので、覚悟は必要です。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年11月",
-    text: "会員数16万人の選択肢の多さに惹かれて入会しました。複数連盟に加盟しているので、他社では出会えない方とのお見合いも実現しました。仲人さんが私の性格をよく理解してくれて、相性の良い方を的確に紹介してくれました。",
-  },
-  {
-    label: "40代女性・横浜在住",
-    stars: 4,
-    date: "2025年9月",
-    text: "40代で婚活を始めるにあたり、会員数の多さでムスベルを選びました。データマッチングと仲人紹介の両方が使えるので、自分でも探しつつプロの目も借りられるのが良いですね。地方の方も視野に入れた紹介をしてもらえて助かりました。",
-  },
-];
-
 const faqs = [
   {
     q: "ムスベルは「やばい」って本当ですか？",
@@ -224,7 +191,7 @@ export default function MusbellReview() {
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">16,500円〜</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">103,400円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約16万人</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約8.7万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">業界最大級（公式参照・要確認）</td><td className="px-4 py-3 text-center">約9.4万人（公式参照）</td><td className="px-4 py-3 text-center">約8.7万人（公式参照）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">複数連盟加盟</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">老舗40年以上</td></tr>
               </tbody>
@@ -303,23 +270,16 @@ export default function MusbellReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
-          </div>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">ムスベルと他社を比較して選ぶ</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            ムスベルが自分に合うか迷ったら、同じ仲人サポートのある相談所と総額・特徴を見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

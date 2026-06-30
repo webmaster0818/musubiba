@@ -98,6 +98,8 @@ export default function ThirtiesComparePage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）</Link></li>
             <li><Link href="/compare/online/" className="text-[#8B7355] underline">オンライン結婚相談所おすすめ比較</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの口コミ・評判</Link></li>
           </ul>
         </section>

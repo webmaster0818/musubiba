@@ -406,6 +406,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured reviews / comparison links */}
+      <section className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-4 tracking-widest text-[#2C2C2C]">
+            注目の結婚相談所・比較ガイド
+          </h2>
+          <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
+            仲人サポートのある相談所の評判・料金と、人気2社の比較をチェック
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <Link href="/compare/musbell-vs-ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">ムスベルとリングベルを比較する</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">料金総額・対象年代・特徴の違いを中立解説</p>
+            </Link>
+            <Link href="/review/musbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">ムスベルの評判・料金を見る</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">全国・複数連盟加盟／「やばい」の真相も解説</p>
+            </Link>
+            <Link href="/review/ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">リングベルの評判・料金を見る</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">仲人型・地域密着で数より質の紹介</p>
+            </Link>
+            <Link href="/review/marriage-pro/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">マリッジプロの評判・料金を見る</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">プロカウンセラーが専任で戦略的にサポート</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA bottom */}
       <section className="py-20 bg-[#333333] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">

@@ -94,6 +94,18 @@ export default function FAQPage() {
           ))}
         </div>
 
+        {/* Related links */}
+        <section className="mb-12 bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7">
+          <h2 className="text-lg font-medium text-[#8B7355] mb-4 tracking-wider">仲人型の相談所をもっと知りたい方へ</h2>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+          </ul>
+        </section>
+
         {/* CTA */}
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center">
           <h2 className="text-xl font-light mb-4 tracking-widest">

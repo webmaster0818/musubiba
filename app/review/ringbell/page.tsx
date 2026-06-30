@@ -47,39 +47,6 @@ const cons = [
   "成婚料が22万円とやや高め",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・埼玉在住",
-    stars: 5,
-    date: "2024年7月",
-    text: "大手の結婚相談所ではなかなかうまくいかず、仲人型のリングベルに切り替えました。担当の仲人さんが本当に親身になってくれて、自分では気づかなかった魅力を引き出してくれました。紹介される方の質が高く、入会から10ヶ月で成婚退会できました。",
-  },
-  {
-    label: "40代男性・千葉在住",
-    stars: 4,
-    date: "2024年5月",
-    text: "地元で結婚相手を探したかったので、地域密着型のリングベルを選びました。仲人さんが地域の事情をよく理解していて、生活圏が近い方を紹介してくれました。紹介人数は多くありませんが、一人ひとりが真剣に結婚を考えている方ばかりで安心できました。",
-  },
-  {
-    label: "30代男性・横浜在住",
-    stars: 4,
-    date: "2024年3月",
-    text: "仲人さんの人柄が良く、毎回のカウンセリングが心強かったです。大手と比べると紹介される人数は少ないですが、マッチングの精度は高いと感じました。成婚料は高めですが、それだけのサポートを受けられたので納得しています。",
-  },
-  {
-    label: "30代女性・横浜在住",
-    stars: 5,
-    date: "2025年11月",
-    text: "大手の結婚相談所に疲れてしまい、仲人型のリングベルに切り替えました。担当の仲人さんが私の性格や価値観を深く理解してくれて、本当に相性の良い方を紹介してくれました。数より質を大切にしたい方にはぴったりだと思います。",
-  },
-  {
-    label: "40代女性・千葉在住",
-    stars: 4,
-    date: "2025年9月",
-    text: "地元で結婚したかったので、地域密着型のリングベルを選びました。仲人さんが生活圏の近い方を優先的に紹介してくれるので、交際に発展しやすかったです。40代でも仲人さんが温かく寄り添ってくれて、前向きに婚活できました。",
-  },
-];
-
 const faqs = [
   {
     q: "リングベル（結婚相談所）の評判・口コミはどうですか？",
@@ -287,23 +254,16 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
-          </div>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルと他社を比較して選ぶ</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            仲人型は相談所ごとに料金総額や対象エリアが異なります。リングベルが自分に合うか、他社と見比べて検討しましょう。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

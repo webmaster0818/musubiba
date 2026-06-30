@@ -111,6 +111,7 @@ export default function OnlineComparePage() {
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの口コミ・評判</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの口コミ・評判</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較（仲人型の料金総額・特徴）</Link></li>
           </ul>
         </section>
       </main>
