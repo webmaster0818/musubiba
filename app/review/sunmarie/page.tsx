@@ -47,39 +47,6 @@ const cons = [
   "月会費も16,500円〜と安くはない",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 5,
-    date: "2024年7月",
-    text: "お見合いのセッティングを全て代行してくれるので、仕事で忙しい自分にはありがたかったです。日程調整から場所の手配まで全て任せられるので、当日はお相手との会話に集中できました。仲人さんのアドバイスも的確で、入会から9ヶ月で成婚退会できました。",
-  },
-  {
-    label: "40代男性・大阪在住",
-    stars: 4,
-    date: "2024年5月",
-    text: "老舗の安心感があり、入会を決めました。仲人さんが非常に経験豊富で、自分の強みや改善点を的確に教えてくれました。料金は安くはありませんが、サポートの質を考えれば妥当だと思います。連盟連携でお相手の選択肢も十分にありました。",
-  },
-  {
-    label: "30代男性・名古屋在住",
-    stars: 4,
-    date: "2024年3月",
-    text: "婚活初心者で何をしていいか分からなかったのですが、サンマリエの仲人さんが一から丁寧に教えてくれました。プロフィール作成からお見合いの作法まで、手取り足取りサポートしてもらえます。料金は高めですが、それだけの価値はあると感じています。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年11月",
-    text: "お見合いのセッティングを全て代行してくれるので、仕事が忙しい私にはとても助かりました。場所の手配から当日の流れまで仲人さんが全部準備してくれるので、緊張せずにお相手との会話に集中できました。40年以上の実績がある安心感も大きいです。",
-  },
-  {
-    label: "40代女性・名古屋在住",
-    stars: 4,
-    date: "2025年9月",
-    text: "婚活初心者で何から始めていいかわかりませんでしたが、サンマリエの仲人さんが一から丁寧に教えてくれました。プロフィール写真の撮影アドバイスからお見合いマナーまで、手取り足取りサポートしてもらえます。料金は安くはないですが、老舗の安心感は格別です。",
-  },
-];
-
 const faqs = [
   {
     q: "サンマリエの入会条件はありますか？",
@@ -208,23 +175,47 @@ export default function SunmarieReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            サンマリエの評判・口コミの傾向まとめ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「サンマリエ 評判」「サンマリエ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の歴史と実績による安心感を評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>お見合いのセッティングを完全代行してもらえる点を挙げる声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟連携で約8.7万人と出会える点を評価する声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人による手厚い個別サポートを受けられたという声もあります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用10万円以上とやや高めだと感じる声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>成婚料22万円が発生する点を気にする声が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>月会費も16,500円〜と安くはないという声もあります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            サンマリエと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            サンマリエが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

@@ -48,33 +48,6 @@ const cons = [
   "成婚料が最大22万円かかるプランもある",
 ];
 
-const reviews = [
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "会員数が多いおかげで本当にたくさんの方のプロフィールを見ることができました。担当アドバイザーの方も親身に相談に乗ってくださり、入会から8ヶ月で素敵な方と出会えました。料金は決して安くはないですが、それだけの価値はあったと感じています。",
-  },
-  {
-    label: "40代男性・大阪在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "地方出身で東京に転勤してきたのですが、全国に店舗があるので安心して入会できました。データマッチングで紹介される方は希望条件に合っていることが多く、効率的に活動できました。ただ、もう少しアドバイザーからの積極的な提案が欲しかったです。",
-  },
-  {
-    label: "30代男性・名古屋在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "他の結婚相談所と比較検討した結果、会員数の多さが決め手でツヴァイに入会しました。実際にお見合いの申し込みをたくさんいただけて、活動開始2ヶ月目にはお見合いが成立。1年以内に成婚退会できました。",
-  },
-  {
-    label: "30代女性・福岡在住",
-    stars: 3,
-    date: "2024年3月",
-    text: "地方在住なので選択肢が少ないかと思いましたが、ネットワーク連携のおかげで思ったより多くの方と出会えました。ただ、対面サポートの頻度がもう少し多いと嬉しかったです。オンラインでの対応は可能でしたが、やはり直接会って相談したい場面もありました。",
-  },
-];
-
 const faqs = [
   {
     q: "ツヴァイの入会条件はありますか？",
@@ -229,26 +202,46 @@ export default function ZweiReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            口コミ・体験談
+            ツヴァイの評判・口コミの傾向まとめ
           </h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>
-                      &#9733;
-                    </span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「ツヴァイ 評判」「ツヴァイ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数が業界最大級で出会いの幅が広いという声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>全国展開で地方在住でも利用しやすいと評価する傾向があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>データマッチングと仲人型を併用できる点を評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>無料相談で相性診断が受けられる点を好意的に捉える傾向があります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用が11万円以上とやや高めに感じるという声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗によってアドバイザーの質に差を感じるという指摘が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>プランによっては成婚料が最大22万円かかる点を気にする声があります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            ツヴァイと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            ツヴァイが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
+            <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         {/* FAQ */}

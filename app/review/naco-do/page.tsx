@@ -47,39 +47,6 @@ const cons = [
   "1ヶ月プランだと月額16,800円とやや割高",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "月額6,980円で12万人以上の会員と出会えるのは驚きです。成婚料もかからないので、トータルコストが他社の半分以下で済みました。オンライン完結なので、仕事の合間にスマホでサクサク活動できるのも気に入っています。入会から5ヶ月でお付き合いが始まりました。",
-  },
-  {
-    label: "20代男性・大阪在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "20代で結婚相談所は敷居が高いと思っていましたが、naco-doはオンライン完結で料金も安いので気軽に始められました。3つの連盟と連携しているので、お相手の選択肢が本当に多いです。カウンセラーとのやり取りもLINEで気軽にできるのが良かったです。",
-  },
-  {
-    label: "30代男性・福岡在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "地方在住で婚活の選択肢が少なかったのですが、naco-doなら全国の会員と出会えるので助かりました。料金の安さも魅力ですが、カウンセラーのサポートも想像以上にしっかりしていました。オンラインお見合いにも対応しているので、遠方の方とも気軽に会えます。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年12月",
-    text: "月額6,980円で12万人以上の会員と出会えるのは本当にコスパ最高です。3つの連盟と連携しているので、プロフィールの選択肢が豊富でした。LINEでカウンセラーに気軽に相談できるのも働く女性には嬉しいポイントです。入会から4ヶ月で交際に発展しました。",
-  },
-  {
-    label: "40代女性・大阪在住",
-    stars: 4,
-    date: "2025年10月",
-    text: "40代でオンライン婚活に不安がありましたが、カウンセラーの方がビデオ通話で丁寧にサポートしてくれました。成婚料0円なので費用面でも安心です。地方在住でも全国の会員と出会えるので、選択肢が広がりました。",
-  },
-];
-
 const faqs = [
   {
     q: "naco-do（ナコード）の入会条件はありますか？",
@@ -212,23 +179,47 @@ export default function NacoDoReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            naco-do（ナコード）の評判・口コミの傾向まとめ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「naco-do（ナコード） 評判」「naco-do（ナコード） 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>月額6,980円〜・成婚料0円で業界最安クラスのコスパを評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>約12.1万人の大規模な会員基盤で出会いの幅が広いという声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>完全オンライン完結で来店不要な点を好意的に捉える傾向があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>忙しくても自分のペースで活動しやすいと評価する声が見られます</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>対面でのサポートが受けられない点を不安に感じるという声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>オンライン完結のため対面に慣れた方には向きにくいという指摘が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>1ヶ月プランだと月額16,800円とやや割高に感じるという声があります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            naco-do（ナコード）と他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            naco-do（ナコード）が自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/seven/" className="text-[#8B7355] underline">結婚相談所セブンの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

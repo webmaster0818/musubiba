@@ -47,39 +47,6 @@ const cons = [
   "地方在住の場合は来店が必要になることがある",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・大阪在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "関西で婚活するならフィオーレが一番だと思います。成婚率が高いと聞いて入会しましたが、実際にカウンセラーのサポートが手厚く、連盟連携で紹介される方も多かったです。入会から8ヶ月で素敵な方と出会い、成婚退会できました。",
-  },
-  {
-    label: "30代男性・京都在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "初期費用が安いので始めやすかったです。連盟連携のおかげで、関西圏だけでなく東京の方ともお見合いできました。カウンセラーの方が婚活のコツを丁寧に教えてくれて、プロフィール写真の選び方まで細かくアドバイスをもらえました。",
-  },
-  {
-    label: "40代男性・神戸在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "40代での婚活は不安でしたが、フィオーレのカウンセラーが励ましてくれて前向きに活動できました。関西密着なので、同じ生活圏の方を紹介してもらえるのが良かったです。成婚料は発生しましたが、結果が出たので満足しています。",
-  },
-  {
-    label: "30代女性・大阪在住",
-    stars: 5,
-    date: "2025年10月",
-    text: "関西で評判の良い相談所を探していてフィオーレに入会しました。女性カウンセラーの方が親身に相談に乗ってくれて、プロフィール写真の撮り方やお見合い時の服装まで細かくアドバイスしてもらえました。成婚率の高さに惹かれて入会しましたが、実際に7ヶ月で素敵な方と出会えました。",
-  },
-  {
-    label: "40代女性・京都在住",
-    stars: 4,
-    date: "2025年8月",
-    text: "40代で再婚を目指して入会しました。フィオーレは関西密着なので、生活圏が近い方を紹介してもらえるのが良いですね。連盟連携で思った以上に多くの方のプロフィールを見ることができました。カウンセラーの方が再婚ならではの不安にも寄り添ってくれて安心でした。",
-  },
-];
-
 const faqs = [
   {
     q: "FIORE（フィオーレ）の入会条件はありますか？",
@@ -217,23 +184,47 @@ export default function FioreReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            FIORE（フィオーレ）の評判・口コミの傾向まとめ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「FIORE（フィオーレ） 評判」「FIORE（フィオーレ） 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚率52.8%（自社発表）という業界トップクラスの実績を評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟連携で約8.5万人と出会える点を挙げる声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用33,000円〜と始めやすい料金設定を評価する声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>関西圏に根ざしたカウンセラーのサポートが手厚かったという声もあります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>関西圏以外の店舗が少ない点を気にする声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>成婚料が別途発生する点を挙げる声が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>地方在住の場合は来店が必要になることがあるという声もあります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            FIORE（フィオーレ）と他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            FIORE（フィオーレ）が自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

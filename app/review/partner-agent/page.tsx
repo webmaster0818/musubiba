@@ -48,33 +48,6 @@ const cons = [
   "店舗が主要都市に限られる",
 ];
 
-const reviews = [
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "コンシェルジュの方が本当に親身になってくれました。デートの服装からお見合いでの話題まで細かくアドバイスをいただき、自信を持って婚活に取り組めました。入会から7ヶ月で素敵な方と出会い、成婚退会できました。",
-  },
-  {
-    label: "30代男性・大阪在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "他社と比べて料金は高めですが、コンシェルジュのサポートの質は圧倒的に良かったです。毎月の面談で自分の課題を客観的に分析してもらえたのが大きかったです。PDCAを回すことで効率的に活動できました。",
-  },
-  {
-    label: "40代女性・名古屋在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "40代での婚活に不安がありましたが、コンシェルジュの方が年齢に合った戦略を一緒に考えてくれました。会員数は多くないですが、紹介の精度が高く、お見合いの成立率が良かったです。",
-  },
-  {
-    label: "30代男性・福岡在住",
-    stars: 3,
-    date: "2024年2月",
-    text: "サポートの質は非常に高いですが、地方だと会員数が限られるのが少し残念でした。CONNECT-shipで他社の会員とも出会えますが、やはり都市部の方が選択肢は多いと思います。",
-  },
-];
-
 const faqs = [
   {
     q: "パートナーエージェントの成婚率27%は本当ですか？",
@@ -210,23 +183,47 @@ export default function PartnerAgentReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            パートナーエージェントの評判・口コミの傾向まとめ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「パートナーエージェント 評判」「パートナーエージェント 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚率27%という業界トップクラスの実績を評価する声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>専任コンシェルジュの手厚いサポートを評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>PDCAサイクルで計画的に婚活を進められたという声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>1年以内の成婚を目指す明確なプランを支持する声が見られます</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>月会費18,700円〜と他社より高めという指摘が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数は大手と比べると少なめという声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗が主要都市に限られる点を不便とする声が見られます</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            パートナーエージェントと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            パートナーエージェントが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

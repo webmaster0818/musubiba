@@ -47,39 +47,6 @@ const cons = [
   "仲人型ほどの手厚いサポートは期待しにくい",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 4,
-    date: "2024年7月",
-    text: "結婚相談所というと堅い印象がありましたが、マーズカフェはカフェのような空間で気軽に相談できました。カウンセラーの方もフレンドリーで、婚活初心者の自分でもリラックスして活動を始められました。料金も良心的で、コスパは良いと思います。",
-  },
-  {
-    label: "20代男性・大阪在住",
-    stars: 5,
-    date: "2024年5月",
-    text: "20代で結婚相談所は早いかと思いましたが、同世代の会員が多くて安心しました。雰囲気が良いので、毎回のカウンセリングが楽しみでした。入会から半年で交際に発展し、今では成婚退会を見据えています。",
-  },
-  {
-    label: "30代男性・東京在住",
-    stars: 3,
-    date: "2024年3月",
-    text: "雰囲気は最高ですが、会員数がもう少し多ければという印象です。紹介される人数が限られるため、選択肢の幅という点では大手に劣ります。ただ、紹介される方の質は高く、真剣に婚活している方が多い印象でした。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 4,
-    date: "2025年10月",
-    text: "結婚相談所は堅い雰囲気だと思っていましたが、マーズカフェはカフェのようにおしゃれで居心地がよく、毎回のカウンセリングが楽しみでした。同世代の女性会員も多く、婚活仲間ができたのも嬉しかったです。料金も始めやすい設定で助かりました。",
-  },
-  {
-    label: "20代女性・大阪在住",
-    stars: 5,
-    date: "2025年8月",
-    text: "20代後半で結婚相談所に入会するのは早いかなと思いましたが、マーズカフェは若い世代が多くて安心しました。カウンセラーの方がフレンドリーで、緊張せずに婚活の悩みを相談できました。入会から半年で交際に発展し、今は成婚を見据えています。",
-  },
-];
-
 const faqs = [
   {
     q: "マーズカフェの入会条件はありますか？",
@@ -238,26 +205,46 @@ export default function MarsCafeReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            口コミ・体験談
+            マーズカフェの評判・口コミの傾向まとめ
           </h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>
-                      &#9733;
-                    </span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「マーズカフェ 評判」「マーズカフェ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>カフェ型の気軽な雰囲気で婚活をスタートしやすいという声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用・月会費ともにリーズナブルな点を評価する声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>若い世代の会員が多く同世代と出会いやすいという声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>カウンセラーがフレンドリーで相談しやすかったという声もあります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が大手と比べると限定的だと感じる声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>展開エリアが都市部に限られる点を気にする声が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>仲人型ほどの手厚いサポートは期待しにくいという声もあります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            マーズカフェと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            マーズカフェが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         {/* FAQ */}

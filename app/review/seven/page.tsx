@@ -47,39 +47,6 @@ const cons = [
   "大手と比べると知名度が低い",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "月会費の安さが魅力で入会しました。成果報酬型なので、結果が出なければ大きな出費にならないという安心感があります。連盟加盟なのでお相手の選択肢も十分で、カウンセラーの方も丁寧にサポートしてくれました。コスパ最高の結婚相談所だと思います。",
-  },
-  {
-    label: "30代男性・神奈川在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "他の結婚相談所と比較して圧倒的に安いので、まず試してみるという感覚で入会しました。安いからといってサービスが悪いということはなく、しっかりとしたサポートを受けられました。お見合いも定期的にセッティングしてもらえて満足しています。",
-  },
-  {
-    label: "40代男性・東京在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "40代で婚活費用が気になっていましたが、セブンの成果報酬型は理にかなっていると感じました。結果が出た時だけ費用が発生するので、モチベーションにもつながります。連盟の会員基盤もあり、紹介される方の質は高かったです。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年10月",
-    text: "成果報酬型なので、結果が出るまで大きな出費がないのが安心でした。月会費も安いので、自分のペースで婚活を続けられました。カウンセラーの方が私の希望を丁寧に聞いてくれて、質の高い紹介をしてくれました。コスパ重視の女性におすすめです。",
-  },
-  {
-    label: "40代女性・神奈川在住",
-    stars: 4,
-    date: "2025年8月",
-    text: "40代で費用面が気になっていましたが、セブンの成果報酬型は結果が出た時だけ費用がかかるので安心でした。連盟加盟で会員数も十分にあり、同年代の真剣な方と出会えました。結果にコミットしたい方にはぴったりの料金体系だと思います。",
-  },
-];
-
 const faqs = [
   {
     q: "結婚相談所セブンの入会条件はありますか？",
@@ -215,23 +182,47 @@ export default function SevenReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミ・体験談</h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            結婚相談所セブンの評判・口コミの傾向まとめ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「結婚相談所セブン 評判」「結婚相談所セブン 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成果報酬型のため、結果が出るまでコストを抑えやすいという声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>月会費7,700円〜という業界最安クラスの料金を評価する声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟加盟で大規模な会員基盤にアクセスできる点を挙げる声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>低価格ながらカウンセラーの個別サポートを受けられたという声もあります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>成果報酬のため成婚時のトータルコストはやや高くなる場合があるという声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗数が限られている点を気にする声が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>大手と比べると知名度が低いと感じる声もあります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            結婚相談所セブンと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            結婚相談所セブンが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">

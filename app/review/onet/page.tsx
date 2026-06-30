@@ -48,33 +48,6 @@ const cons = [
   "仲人型のきめ細かいフォローは期待しづらい",
 ];
 
-const reviews = [
-  {
-    label: "30代女性・東京在住",
-    stars: 4,
-    date: "2024年7月",
-    text: "データマッチングで毎月紹介が届くので、自分から探す手間が少なく助かりました。仕事が忙しい中でも婚活を続けられたのはオーネットのシステムのおかげです。成婚料がかからないのも大きなポイントでした。",
-  },
-  {
-    label: "40代男性・横浜在住",
-    stars: 4,
-    date: "2024年5月",
-    text: "老舗ならではの安心感があり、入会を決めました。マッチングの精度は高く、価値観の合う方と出会えました。ただ、もう少しカウンセラーからの積極的なアドバイスがあると良かったと思います。",
-  },
-  {
-    label: "30代男性・札幌在住",
-    stars: 3,
-    date: "2024年4月",
-    text: "会員数が大手に比べるとやや少ないため、地方では選択肢が限られる印象でした。ただ、その分真剣に結婚を考えている方が多く、質の高い出会いができたと感じています。",
-  },
-  {
-    label: "30代女性・名古屋在住",
-    stars: 5,
-    date: "2024年2月",
-    text: "コスト面を重視してオーネットを選びました。成婚料0円は本当にありがたかったです。入会から10ヶ月で成婚退会できました。データマッチングの精度も高く、効率的な婚活ができました。",
-  },
-];
-
 const faqs = [
   {
     q: "オーネットの入会条件はありますか？",
@@ -227,24 +200,46 @@ export default function OnetReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            口コミ・体験談
+            オーネットの評判・口コミの傾向まとめ
           </h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>&#9733;</span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「オーネット 評判」「オーネット 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の運営実績で信頼性が高いと評価する声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>データマッチングで効率的に相手を探せるという声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚料0円で追加費用の心配がない点を好意的に捉える傾向があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>自社会員のみで真剣度が高いと感じるという声があります</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が大手と比べると少なめに感じるという声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>カウンセラーのサポートが手厚くないという指摘が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>仲人型のようなきめ細かいフォローは期待しづらいという声があります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            オーネットと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            オーネットが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         {/* FAQ */}

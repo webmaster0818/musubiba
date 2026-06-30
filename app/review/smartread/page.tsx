@@ -47,39 +47,6 @@ const cons = [
   "カウンセラーとの関係構築に時間がかかる場合がある",
 ];
 
-const reviews = [
-  {
-    label: "30代男性・東京在住",
-    stars: 5,
-    date: "2024年8月",
-    text: "コストを抑えて婚活したかったので、スマリードを選びました。成婚料0円は本当に助かります。コネクトシップ連携のおかげで紹介される方の数も多く、入会から4ヶ月で真剣交際に発展しました。オンラインだけで完結するのも、仕事で忙しい自分には合っていました。",
-  },
-  {
-    label: "30代男性・大阪在住",
-    stars: 4,
-    date: "2024年6月",
-    text: "他の結婚相談所と比べて圧倒的に安いので、まず試してみようという気持ちで入会しました。オンライン完結なので気軽に始められましたし、コネクトシップの会員も含めるとお相手の選択肢は十分にあります。ただ、対面サポートがないので、初めての婚活だと不安に感じる方もいるかもしれません。",
-  },
-  {
-    label: "40代男性・福岡在住",
-    stars: 4,
-    date: "2024年4月",
-    text: "地方在住で近くに結婚相談所がなかったので、オンライン完結型のスマリードは非常に助かりました。料金も安く、コネクトシップを通じて都市部の方ともマッチングできました。カウンセラーの対応も丁寧で、ビデオ通話でのカウンセリングも違和感なく利用できました。",
-  },
-  {
-    label: "30代女性・東京在住",
-    stars: 5,
-    date: "2025年12月",
-    text: "初期費用6,600円で始められるのが決め手でした。成婚料も0円なので、婚活にかかるトータルコストが圧倒的に安いです。コネクトシップ連携で大手の会員ともお見合いできるので、安かろう悪かろうということはありません。働く女性にぴったりのサービスです。",
-  },
-  {
-    label: "40代女性・福岡在住",
-    stars: 4,
-    date: "2025年10月",
-    text: "地方在住でも全国の会員と出会えるオンライン完結型が魅力でした。ビデオ通話でのカウンセリングも違和感なく利用でき、カウンセラーの方が親身に対応してくれました。低価格で長期間活動できるので、40代でもじっくり婚活を進められます。",
-  },
-];
-
 const faqs = [
   {
     q: "スマリードの入会条件はありますか？",
@@ -236,26 +203,46 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            口コミ・体験談
+            スマリードの評判・口コミの傾向まとめ
           </h2>
-          <div className="space-y-4">
-            {reviews.map((r, i) => (
-              <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-[#2C2C2C]/70">{r.label}</span>
-                  <span className="text-xs text-[#2C2C2C]/40">{r.date}</span>
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {Array.from({ length: 5 }).map((_, si) => (
-                    <span key={si} className={`text-lg ${si < r.stars ? "text-amber-400" : "text-gray-200"}`}>
-                      &#9733;
-                    </span>
-                  ))}
-                </div>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{r.text}</p>
-              </div>
-            ))}
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            「スマリード 評判」「スマリード 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+          </p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-green-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用6,600円・成婚料0円と、料金の安さを評価する声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>コネクトシップ連携により出会いの幅が広いと感じる声があります</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>完全オンライン完結で来店不要な点を便利とする声が多い傾向です</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>忙しい方や地方在住の方でも活動しやすいという声が見られます</li>
+              </ul>
+            </div>
+            <div className="bg-red-50/50 rounded-xl p-6">
+              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
+              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>対面でのサポートが受けられない点を不安視する声があります</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>自社会員数は大手ほど多くないという指摘が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>カウンセラーとの関係構築に時間がかかる場合があるという声があります</li>
+              </ul>
+            </div>
           </div>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+            スマリードと他社を比較して選ぶ
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            スマリードが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+          </p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/fiore/" className="text-[#8B7355] underline">フィオーレの評判・料金を見る</Link></li>
+          </ul>
         </section>
 
         <section className="mb-12">
