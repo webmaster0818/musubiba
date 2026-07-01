@@ -436,6 +436,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Knowledge / basics */}
+      <section className="py-20 bg-[#FAFAF8] border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-4 tracking-widest text-[#2C2C2C]">
+            結婚相談所の基礎知識
+          </h2>
+          <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
+            料金の相場・タイプの選び方・活動の流れをはじめての方にもわかりやすく解説
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <Link href="/knowledge/cost/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">結婚相談所の料金相場は？</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用・月会費・成婚料の目安と総額の考え方</p>
+            </Link>
+            <Link href="/knowledge/how-to-choose/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">結婚相談所の選び方</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">仲人型とデータマッチング型の違い・失敗しないコツ</p>
+            </Link>
+            <Link href="/knowledge/flow/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">入会から成婚までの流れ</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">活動のステップと活動期間の目安</p>
+            </Link>
+            <Link href="/knowledge/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">基礎知識をまとめて見る</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">結婚相談所の基礎知識カテゴリの記事一覧へ</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA bottom */}
       <section className="py-20 bg-[#333333] text-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">

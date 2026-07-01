@@ -113,6 +113,17 @@ export default function ComparePage() {
           </ul>
         </section>
 
+        <section className="mb-10">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">はじめての方向け：結婚相談所の基礎知識</h2>
+          <p className="text-sm text-gray-700 mb-4">料金の見方やタイプの違い、活動の流れを知っておくと、比較の精度が上がります。基礎から確認したい方はこちらもどうぞ。</p>
+          <ul className="space-y-2 text-sm">
+            <li><Link href="/knowledge/cost/" className="text-rose-700 underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
+            <li><Link href="/knowledge/how-to-choose/" className="text-rose-700 underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
+            <li><Link href="/knowledge/flow/" className="text-rose-700 underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
+            <li><Link href="/knowledge/" className="text-rose-700 underline">結婚相談所の基礎知識をまとめて見る</Link></li>
+          </ul>
+        </section>
+
         <section>
           <h2 className="text-lg font-bold text-gray-900 mb-4">各相談所の詳しい口コミ・評判</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
