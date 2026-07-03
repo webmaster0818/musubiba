@@ -93,6 +93,7 @@ const faqJsonLd = {
 };
 
 const relatedServices = [
+  { name: "流山おおたかの森結婚相談所", path: "/review/nagareyama-otakanomori/" },
   { name: "パートナーエージェント", path: "/review/partner-agent/" },
   { name: "フィオーレ", path: "/review/fiore/" },
   { name: "リングベル", path: "/review/ringbell/" },
