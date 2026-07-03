@@ -10,11 +10,34 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const aboutJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "ムスビバとは｜運営方針・このサイトについて",
+    url: "https://mu-su-bi-ba.com/about/",
+    mainEntity: {
+      "@type": "Organization",
+      name: "ムスビバ",
+      alternateName: "musubiba",
+      url: "https://mu-su-bi-ba.com/",
+      logo: "https://mu-su-bi-ba.com/favicon.png",
+      description:
+        "結婚相談所の料金・サービスを公式情報にもとづき中立比較するメディア。大手だけでなく小規模・個人経営のIBJ加盟相談所の情報も扱う。",
+    },
+  };
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutJsonLd) }} />
       <Breadcrumb items={[{ name: "ホーム", href: "/" }, { name: "このサイトについて" }]} />
       <main className="max-w-3xl mx-auto px-4 py-10 text-[#2C2C2C]">
-        <h1 className="text-2xl md:text-3xl font-light mb-6 tracking-wide">このサイトについて</h1>
+        <h1 className="text-2xl md:text-3xl font-light mb-6 tracking-wide">ムスビバとは｜このサイトについて</h1>
+
+        <section className="mb-8">
+          <h2 className="text-lg font-medium mb-3 border-l-4 border-[#8B7355] pl-3">「ムスビバ」について</h2>
+          <p className="text-sm leading-relaxed">
+            <strong>ムスビバ（musubiba / mu-su-bi-ba.com）</strong>は、結婚相談所の比較情報を専門に扱うWebメディアです。名前は「結び場」＝ご縁を結ぶ場所に由来します。大手結婚相談所だけでなく、比較情報がWeb上にほとんど存在しない<strong>小規模・個人経営のIBJ加盟相談所</strong>の情報を公式データにもとづいて整理することを編集の柱としています。
+          </p>
+        </section>
 
         <section className="mb-8">
           <h2 className="text-lg font-medium mb-3 border-l-4 border-[#8B7355] pl-3">ミッション</h2>
