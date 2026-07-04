@@ -93,6 +93,7 @@ const faqJsonLd = {
 };
 
 const relatedServices = [
+  { name: "Code For Marriage", path: "/review/code-for-marriage/" },
   { name: "マリッジプロ", path: "/review/marriage-pro/" },
   { name: "ムスベル", path: "/review/musbell/" },
   { name: "リングベル", path: "/review/ringbell/" },
