@@ -13,8 +13,8 @@ const overview = {
   type: "オンライン完結型",
   members: "約3万人（コネクトシップ連携）",
   area: "全国対応（オンライン）",
-  initialFee: "10,780円",
-  monthlyFee: "14,300円",
+  initialFee: "33,000円（登録料・2026年7月5日公式確認）",
+  monthlyFee: "16,500円（2026年7月5日公式確認）",
   matchingFee: "0円",
   age: "20〜50代（中心は30代）",
   successRate: "非公開（6ヶ月以上活動で30%以上が成婚）",
@@ -87,7 +87,7 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "マーズカフェ", path: "/review/mars-cafe/" },
   { name: "naco-do", path: "/review/naco-do/" },
-  { name: "スマリード", path: "/review/smartread/" },
+  { name: "スマリッジ", path: "/review/smartread/" },
   { name: "オーネット", path: "/review/onet/" },
 ];
 
@@ -160,7 +160,7 @@ export default function EnKonkatsuReview() {
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
                   <th className="px-4 py-3 text-center font-medium text-[#8B7355]">エン婚活エージェント</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリード</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリッジ</th>
                 </tr>
               </thead>
               <tbody>
@@ -214,7 +214,7 @@ export default function EnKonkatsuReview() {
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
             <li><Link href="/review/mars-cafe/" className="text-[#8B7355] underline">マーズカフェの評判・料金を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
           </ul>
         </section>
 

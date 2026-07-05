@@ -93,7 +93,7 @@ const agencies: Agency[] = [
     screenshotSlug: 'mars-cafe',
   },
   {
-    name: 'スマリード',
+    name: 'スマリッジ',
     slug: 'smartread',
     type: 'オンライン型',
     monthlyFee: '月会費9,900円〜',

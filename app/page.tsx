@@ -50,7 +50,7 @@ const services = [
   },
   {
     rank: 3,
-    name: "スマリード",
+    name: "スマリッジ",
     slug: "smartread",
     tagline: "初期費用6,600円〜の業界最安クラス",
     monthlyFee: "月会費9,900円〜",
@@ -376,7 +376,7 @@ export default function Home() {
               { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
               { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費18,700円〜" },
 { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費11,000円〜" },
-              { name: "スマリード", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円〜" },
+              { name: "スマリッジ", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円〜" },
               { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
               { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費8,800円〜" },
               { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },

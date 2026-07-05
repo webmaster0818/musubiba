@@ -85,7 +85,7 @@ const faqJsonLd = {
 };
 
 const relatedServices = [
-  { name: "スマリード", path: "/review/smartread/" },
+  { name: "スマリッジ", path: "/review/smartread/" },
   { name: "フィオーレ", path: "/review/fiore/" },
   { name: "naco-do", path: "/review/naco-do/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
@@ -167,7 +167,7 @@ export default function SevenReview() {
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
                   <th className="px-4 py-3 text-center font-medium text-[#8B7355]">結婚相談所セブン</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリード</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリッジ</th>
                 </tr>
               </thead>
               <tbody>
@@ -219,7 +219,7 @@ export default function SevenReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
           </ul>

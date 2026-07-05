@@ -13,8 +13,8 @@ const overview = {
   type: "オンライン完結型",
   members: "約12.1万人（JBA・CONNECT-ship・良縁ネット連携）",
   area: "全国対応（オンライン）",
-  initialFee: "29,800円",
-  monthlyFee: "6,980円〜（1ヶ月プラン：16,800円）",
+  initialFee: "66,000円（初期費用・2026年7月5日公式確認）",
+  monthlyFee: "16,800円（1プランのみ・2026年7月5日公式確認）",
   matchingFee: "0円",
   age: "20〜50代（中心は20代後半〜30代）",
   successRate: "41.3%（自社発表）",
@@ -85,7 +85,7 @@ const faqJsonLd = {
 };
 
 const relatedServices = [
-  { name: "スマリード", path: "/review/smartread/" },
+  { name: "スマリッジ", path: "/review/smartread/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
   { name: "マーズカフェ", path: "/review/mars-cafe/" },
   { name: "結婚相談所セブン", path: "/review/seven/" },
@@ -164,7 +164,7 @@ export default function NacoDoReview() {
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
                   <th className="px-4 py-3 text-center font-medium text-[#8B7355]">naco-do（ナコード）</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">エン婚活エージェント</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリード</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリッジ</th>
                 </tr>
               </thead>
               <tbody>
@@ -216,7 +216,7 @@ export default function NacoDoReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
             <li><Link href="/review/seven/" className="text-[#8B7355] underline">結婚相談所セブンの評判・料金を見る</Link></li>
           </ul>

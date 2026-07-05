@@ -87,7 +87,7 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "ツヴァイ", path: "/review/zwei/" },
   { name: "naco-do", path: "/review/naco-do/" },
-  { name: "スマリード", path: "/review/smartread/" },
+  { name: "スマリッジ", path: "/review/smartread/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
 
@@ -243,7 +243,7 @@ export default function MarsCafeReview() {
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリードの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
           </ul>
         </section>
 

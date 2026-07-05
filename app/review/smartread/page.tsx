@@ -3,13 +3,13 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
-  title: "スマリードの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "スマリッジの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
   description:
-    "スマリードの口コミ・評判を徹底調査。オンライン完結型・低価格・コネクトシップ連携が特徴のスマリードの料金やサポート体制を詳しく解説します。",
+    "スマリッジの口コミ・評判を徹底調査。オンライン完結型・低価格・コネクトシップ連携が特徴のスマリッジの料金やサポート体制を詳しく解説します。",
 };
 
 const overview = {
-  name: "スマリード",
+  name: "スマリッジ",
   type: "オンライン完結型",
   members: "約3万人（コネクトシップ連携含む）",
   area: "全国対応（オンライン）",
@@ -49,27 +49,27 @@ const cons = [
 
 const faqs = [
   {
-    q: "スマリードの入会条件はありますか？",
+    q: "スマリッジの入会条件はありますか？",
     a: "20歳以上の独身の方が入会可能です。男性は定職に就いていることが条件となります。入会時には独身証明書、収入証明書、本人確認書類などの提出が必要です。",
   },
   {
     q: "コネクトシップとは何ですか？",
-    a: "複数の結婚相談所が会員データベースを共有するプラットフォームです。スマリードの自社会員だけでなく、コネクトシップに参加する他社の会員ともお見合いが可能になります。",
+    a: "複数の結婚相談所が会員データベースを共有するプラットフォームです。スマリッジの自社会員だけでなく、コネクトシップに参加する他社の会員ともお見合いが可能になります。",
   },
   {
-    q: "スマリードの無料相談では何ができますか？",
+    q: "スマリッジの無料相談では何ができますか？",
     a: "オンラインでの無料カウンセリングを受けられます。婚活に関する相談、サービスの説明、料金プランの案内を行います。入会を強制されることはありません。",
   },
   {
-    q: "スマリードの退会方法を教えてください",
+    q: "スマリッジの退会方法を教えてください",
     a: "マイページから退会手続きを行うか、担当カウンセラーに退会の意思を伝えて手続きを進めます。成婚料は0円のため、成婚退会時の追加費用はかかりません。",
   },
   {
-    q: "スマリードは対面でのお見合いもできますか？",
+    q: "スマリッジは対面でのお見合いもできますか？",
     a: "はい、お見合い自体は対面で行うことも可能です。お見合いの日程調整やセッティングはオンラインで行いますが、実際のお見合いはカフェやホテルラウンジで対面実施できます。",
   },
   {
-    q: "スマリードの成婚退会までの平均期間はどのくらいですか？",
+    q: "スマリッジの成婚退会までの平均期間はどのくらいですか？",
     a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。低コストで長期活動しやすいため、焦らず自分のペースで進められます。",
   },
 ];
@@ -98,22 +98,22 @@ export default function SmartreadReview() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "スマリード" }]} />
+      <Breadcrumb items={[{ name: "口コミ・評判", href: "/" }, { name: "スマリッジ" }]} />
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          スマリードの口コミ・評判｜料金・特徴・サポートを徹底解説
+          スマリッジの口コミ・評判｜料金・特徴・サポートを徹底解説
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] hover:underline font-medium">
-            スマリード の公式サイトはこちら
+            スマリッジ の公式サイトはこちら
           </a>
         </p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-smartread.jpg" alt="スマリード 公式サイト" className="w-full h-auto" />
+          <img src="/ss-smartread.jpg" alt="スマリッジ 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
 
@@ -141,7 +141,7 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            スマリードの強み・特徴
+            スマリッジの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
@@ -185,7 +185,7 @@ export default function SmartreadReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">スマリード</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">スマリッジ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">エン婚活エージェント</th>
                 </tr>
@@ -203,10 +203,10 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            スマリードの評判・口コミの傾向まとめ
+            スマリッジの評判・口コミの傾向まとめ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「スマリード 評判」「スマリード 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+            「スマリッジ 評判」「スマリッジ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50/50 rounded-xl p-6">
@@ -232,10 +232,10 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
-            スマリードと他社を比較して選ぶ
+            スマリッジと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            スマリードが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+            スマリッジが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
@@ -278,11 +278,11 @@ export default function SmartreadReview() {
         </section>
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
-          <h2 className="text-xl font-light mb-4 tracking-widest">スマリードの無料相談を予約する</h2>
+          <h2 className="text-xl font-light mb-4 tracking-widest">スマリッジの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料カウンセリングでオンライン婚活を体験しましょう</p>
           <div className="mb-6">
             <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
-              <img src="https://t.felmat.net/fmimg/J112188.Z162495D.Z1361712" width="300" height="250" alt="スマリード" className="mx-auto rounded-lg" />
+              <img src="https://t.felmat.net/fmimg/J112188.Z162495D.Z1361712" width="300" height="250" alt="スマリッジ" className="mx-auto rounded-lg" />
             </a>
           </div>
           <a
