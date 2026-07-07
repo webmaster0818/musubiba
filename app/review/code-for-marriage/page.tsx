@@ -95,6 +95,7 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "流山おおたかの森結婚相談所", path: "/review/nagareyama-otakanomori/" },
   { name: "マリッジプロ", path: "/review/marriage-pro/" },
+  { name: "nikoブライダル", path: "/review/niko-bridal/" },
   { name: "ムスベル", path: "/review/musbell/" },
   { name: "料金比較一覧", path: "/compare/" },
 ];

@@ -95,6 +95,7 @@ const faqJsonLd = {
 const relatedServices = [
   { name: "Code For Marriage", path: "/review/code-for-marriage/" },
   { name: "マリッジプロ", path: "/review/marriage-pro/" },
+  { name: "nikoブライダル", path: "/review/niko-bridal/" },
   { name: "ムスベル", path: "/review/musbell/" },
   { name: "リングベル", path: "/review/ringbell/" },
   { name: "料金比較一覧", path: "/compare/" },
