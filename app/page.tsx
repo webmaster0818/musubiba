@@ -436,6 +436,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Purpose / area picks */}
+      <section className="py-20 bg-[#FAFAF8] border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-4 tracking-widest text-[#2C2C2C]">
+            目的・エリアで結婚相談所を選ぶ
+          </h2>
+          <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
+            料金の安さ・専門性・エリアなど、重視したい軸から候補を絞り込む
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <Link href="/compare/cheap/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">安い結婚相談所を1年総額で比較</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用＋月会費＋成婚料で検証した料金ランキング</p>
+            </Link>
+            <Link href="/review/code-for-marriage/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">Code For Marriageの評判・料金</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">ITエンジニア専門・全員元SEの仲人／リモート対応</p>
+            </Link>
+            <Link href="/review/niko-bridal/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">nikoブライダル（大阪）の評判・料金</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">成婚率56.3%を算出条件付きで公表／IBJ加盟</p>
+            </Link>
+            <Link href="/review/nagareyama-otakanomori/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">流山おおたかの森結婚相談所の評判・料金</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">IBJ加盟・月会費9,900円のシンプルな料金体系</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Knowledge / basics */}
       <section className="py-20 bg-[#FAFAF8] border-t border-gray-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">

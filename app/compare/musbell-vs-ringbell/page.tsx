@@ -163,6 +163,7 @@ export default function MusbellVsRingbellPage() {
             <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・口コミ・料金を見る</Link></li>
             <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・口コミ・料金を見る</Link></li>
             <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・口コミ・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>

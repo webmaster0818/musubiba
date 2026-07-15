@@ -68,7 +68,7 @@ export default function AboutPage() {
         </section>
 
         <p className="text-sm mt-10">
-          関連：<Link href="/editorial-policy/" className="text-[#8B7355] underline">編集方針・掲載基準</Link> ／ <Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較</Link>
+          関連：<Link href="/editorial-policy/" className="text-[#8B7355] underline">編集方針・掲載基準</Link> ／ <Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較</Link> ／ <Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を総額で比較</Link>
         </p>
       </main>
     </>
