@@ -1,0 +1,951 @@
+{
+ "surveyedAt": "2026-07-22",
+ "tokyo": [
+  {
+   "name": "結婚相談所ツヴァイ 東京銀座店",
+   "rating": 4.5,
+   "count": 263,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目９−８ クロス銀座 5階",
+   "mapsUri": "https://maps.google.com/?cid=2986306817869838541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/tokyo/ginza/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "IBJメンバーズ 新宿西口店",
+   "rating": 4.7,
+   "count": 230,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１３−１２ 11階",
+   "mapsUri": "https://maps.google.com/?cid=12673840358999660246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/shinjuku/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_shinjuku"
+  },
+  {
+   "name": "マリーミー",
+   "rating": 4.5,
+   "count": 227,
+   "address": "日本、〒150-0001 東京都渋谷区神宮前５丁目５０−５ 青山ＮＳビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=8004891416031207084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marrymeweb.com/"
+  },
+  {
+   "name": "結婚相談所オーネット 新宿店",
+   "rating": 4.3,
+   "count": 210,
+   "address": "日本、〒163-1516 東京都新宿区西新宿１丁目６−１ 新宿エルタワー 16階",
+   "mapsUri": "https://maps.google.com/?cid=16316530712269695545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/tokyo/shinjuku/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=shinjuku"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント新宿店",
+   "rating": 4.6,
+   "count": 159,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目１３−１２ 西新宿昭和ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=9418822622623478304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/tokyo/shinjuku.html?cid=se002&argument=wgvYBfWa&dmai=9718"
+  },
+  {
+   "name": "結婚相談所ウェルスマ",
+   "rating": 4.5,
+   "count": 158,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目２−４ 帝都青山第2ビル 4F-4",
+   "mapsUri": "https://maps.google.com/?cid=3049985193167276778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.wealsma.com/"
+  },
+  {
+   "name": "結婚相談所オーネット 渋谷店",
+   "rating": 4.5,
+   "count": 156,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目１６−９ 渋谷Kiビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=14446736756278275986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/tokyo/shibuya/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=shibuya"
+  },
+  {
+   "name": "結婚相談所 マリチャレ",
+   "rating": 4.9,
+   "count": 153,
+   "address": "日本、〒164-0011 東京都中野区中央１丁目４６−５ シャングリラ・ベル新宿 401",
+   "mapsUri": "https://maps.google.com/?cid=16163841360298553687&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.moplanning.jp/"
+  },
+  {
+   "name": "結婚相談所IBJメンバーズ 銀座店",
+   "rating": 4.7,
+   "count": 141,
+   "address": "日本、〒104-0061 東京都中央区銀座６丁目７−１５ 第2岩月ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=3008944650232159206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/ginza/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_ginza"
+  },
+  {
+   "name": "結婚相談所 マリアージュ38",
+   "rating": 4.9,
+   "count": 130,
+   "address": "日本、〒105-0004 東京都港区新橋１丁目１２−12 番9 号 プレイス ビジネスエアポート新橋 602",
+   "mapsUri": "https://maps.google.com/?cid=15886510002043149090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mind-mining.com/"
+  },
+  {
+   "name": "結婚相談所ツヴァイ 新宿店",
+   "rating": 4.3,
+   "count": 124,
+   "address": "新宿ファーストウエストビル 7階, １丁目-２３-7 西新宿 新宿区 東京都 160-0023 日本",
+   "mapsUri": "https://maps.google.com/?cid=17408193500596846895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/tokyo/shinjyuku/?utm_medium=organic&utm_source=GMB&zmdtr=d0699"
+  },
+  {
+   "name": "結婚相談所IBJメンバーズ 有楽町店",
+   "rating": 4.7,
+   "count": 116,
+   "address": "日本、〒100-0006 東京都千代田区有楽町２丁目１０−１ 東京交通会館 6F",
+   "mapsUri": "https://maps.google.com/?cid=9490353474417100098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/yurakucho/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_yurakucho"
+  },
+  {
+   "name": "結婚相談所ツヴァイ池袋店",
+   "rating": 4.5,
+   "count": 115,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目５−６ ビック池袋東口ビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=14009314040036942485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/tokyo/ikebukuro/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "Bridalチューリップ",
+   "rating": 4.6,
+   "count": 112,
+   "address": "日本、〒171-0033 東京都豊島区高田３丁目１０−２２ キャッスル安斎 5F",
+   "mapsUri": "https://maps.google.com/?cid=16115677818358897839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-tulip.info/"
+  },
+  {
+   "name": "結婚相談所 株式会社ブライダル 東京本社 西新宿",
+   "rating": 4.4,
+   "count": 101,
+   "address": "日本、〒160-0023 東京都新宿区西新宿８丁目４−２ 野村不動産西新宿ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=1781917960682852610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-vip.co.jp/"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント銀座店",
+   "rating": 4.3,
+   "count": 88,
+   "address": "日本、〒100-0006 東京都千代田区有楽町２丁目５−１ 有楽町センタービル 14階",
+   "mapsUri": "https://maps.google.com/?cid=18162501498134372480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/tokyo/ginza.html?cid=se002&argument=wgvYBfWa&dmai=9717"
+  },
+  {
+   "name": "結婚相談所アムールマリアージュ東京新宿店",
+   "rating": 4.8,
+   "count": 86,
+   "address": "日本、〒160-0023 東京都新宿区西新宿３丁目３−3番­13号 6階",
+   "mapsUri": "https://maps.google.com/?cid=6620469864395162771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://amrmariage.jp/"
+  },
+  {
+   "name": "あおぞらマリアージュ",
+   "rating": 4.7,
+   "count": 80,
+   "address": "日本、〒104-0061 東京都中央区銀座５丁目１１−１２ 日総第26ビル 701",
+   "mapsUri": "https://maps.google.com/?cid=16827751708422324626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ginza-aozora-marigage.jp/"
+  },
+  {
+   "name": "【ヒカマリ】結婚相談所Hikari marriage｜自己理解から始める婚活",
+   "rating": 5,
+   "count": 80,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１０−８ 渋谷道玄坂東急ビル 2F-C",
+   "mapsUri": "https://maps.google.com/?cid=14049138152802513856&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hikarimarriage.org/"
+  },
+  {
+   "name": "ブライダルゼルム銀座サロン",
+   "rating": 4.6,
+   "count": 79,
+   "address": "日本、〒104-0061 東京都中央区銀座２丁目８−１８ グランベル銀座ビル6F",
+   "mapsUri": "https://maps.google.com/?cid=9797389436867782577&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.zelm.co.jp/"
+  },
+  {
+   "name": "結婚相談所ハッピーカムカム銀座サロン",
+   "rating": 4.6,
+   "count": 64,
+   "address": "日本、〒104-0061 東京都中央区銀座４丁目１３−８ ソフィア・スクエア銀座 404",
+   "mapsUri": "https://maps.google.com/?cid=976502018891640770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.1rankue.com/?utm_source=business&utm_medium=map&utm_campaign=Peekaboo"
+  },
+  {
+   "name": "LOVE＋FIT 結婚相談所",
+   "rating": 4.9,
+   "count": 61,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目１１−４ Fpg Links Shibuya Dogenzaka, 神南5階",
+   "mapsUri": "https://maps.google.com/?cid=8987818957131180052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loveplusfit.com/"
+  },
+  {
+   "name": "結婚相談所 東京フォリパートナー",
+   "rating": 4.9,
+   "count": 56,
+   "address": "日本、〒151-0053 東京都渋谷区代々木１丁目２５−５",
+   "mapsUri": "https://maps.google.com/?cid=5345992851232752340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://folli.jp/"
+  },
+  {
+   "name": "結婚相談所 Muアージュ（マユアージュ）",
+   "rating": 5,
+   "count": 53,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目14−１０ 西新宿ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=14954706257879743436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mu-ajyu.com/"
+  },
+  {
+   "name": "結婚相談所ボンデクリック 有楽町サロン",
+   "rating": 4.9,
+   "count": 47,
+   "address": "日本、〒104-0061 東京都千代田区有楽町１丁目６−３ 日比谷頴川ビル",
+   "mapsUri": "https://maps.google.com/?cid=7948067399647541769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bon-declic.com/"
+  },
+  {
+   "name": "結婚相談所 M'sブライダルジャパンインターナショナル 東京",
+   "rating": 4.7,
+   "count": 46,
+   "address": "日本、〒100-6208 東京都千代田区丸の内１丁目１１−１ パシフィックセンチュリープレイス丸の内 ホーム8",
+   "mapsUri": "https://maps.google.com/?cid=10025562333886329937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.msbridal-japan.com/"
+  },
+  {
+   "name": "ポッシビ結婚相談所",
+   "rating": 4.7,
+   "count": 42,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３４−５ いちご東池袋ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=9814850074003450699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://possibi.net/"
+  },
+  {
+   "name": "Will Marry",
+   "rating": 5,
+   "count": 41,
+   "address": "日本、〒153-0013 東京都渋谷区恵比寿４丁目１２−１３",
+   "mapsUri": "https://maps.google.com/?cid=8344160856222610908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.willmarry.jp/"
+  },
+  {
+   "name": "婚活サロン サイプレス",
+   "rating": 4.9,
+   "count": 41,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目３６−１ 6F",
+   "mapsUri": "https://maps.google.com/?cid=13615688124759600130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.s-cypress.com/"
+  },
+  {
+   "name": "結婚相談所ムスベル 新宿本店",
+   "rating": 4.3,
+   "count": 39,
+   "address": "日本、〒160-0022 東京都新宿区新宿１丁目１４−１２ 玉屋ビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=12427870528584086387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=shinjuku&asp=none&popup=none&dcta=none&fd=none"
+  },
+  {
+   "name": "タイザノット",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒150-0031 東京都渋谷区桜丘町２３−１７−４０８",
+   "mapsUri": "https://maps.google.com/?cid=130811841138162291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tietheknot.style/"
+  },
+  {
+   "name": "エターナルラブ東京",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１２−１ 渋谷マークシティWEST 22階",
+   "mapsUri": "https://maps.google.com/?cid=9209651514015852670&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.eternal-love-tokyo.jp/"
+  },
+  {
+   "name": "ALL愛NEED",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒150-0001 東京都渋谷区神宮前６丁目２９−４６",
+   "mapsUri": "https://maps.google.com/?cid=14422232224659628129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://all-ai-need.com/"
+  },
+  {
+   "name": "大人の婚活 おとな婚",
+   "rating": 4.5,
+   "count": 37,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目１１−３ 矢島ビル 8F",
+   "mapsUri": "https://maps.google.com/?cid=12854390273260374854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ginza-liaison.com/"
+  },
+  {
+   "name": "結婚物語 東京営業所",
+   "rating": 4.7,
+   "count": 36,
+   "address": "日本、〒150-0013 東京都渋谷区恵比寿１丁目２２−１０ GranDuo恵比寿Ⅲ 6階",
+   "mapsUri": "https://maps.google.com/?cid=8835510298740258338&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-monogatari.com/about/tokyo/"
+  },
+  {
+   "name": "結婚相談所 グッドラックステージ 新宿店",
+   "rating": 4.9,
+   "count": 35,
+   "address": "日本、〒160-0022 東京都新宿区新宿４丁目３−１５",
+   "mapsUri": "https://maps.google.com/?cid=11548145970364083503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://goodluck-stage.jp/"
+  },
+  {
+   "name": "結婚相談所【婚活医局】クラブトラスト",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒170-0013 東京都豊島区東池袋３丁目２０−９",
+   "mapsUri": "https://maps.google.com/?cid=567777443998628225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://clubtrust.net/"
+  },
+  {
+   "name": "結婚相談サロン プラチナ・リング",
+   "rating": 4.6,
+   "count": 34,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目１５−８",
+   "mapsUri": "https://maps.google.com/?cid=10580273296720242357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.platinum-ring.com/"
+  },
+  {
+   "name": "next door リリー結婚相談所",
+   "rating": 4.9,
+   "count": 32,
+   "address": "日本、〒160-0022 東京都新宿区新宿２丁目２−１ ビューシティ新宿御苑",
+   "mapsUri": "https://maps.google.com/?cid=4357852767628121882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nextdoorlily.jp/"
+  },
+  {
+   "name": "婚活サロン marriage pro",
+   "rating": 4.7,
+   "count": 32,
+   "address": "日本、〒160-0023 東京都新宿区西新宿８丁目１１−１０ 星野ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=9622233561864803142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://prop-p.com/"
+  },
+  {
+   "name": "ハーモニープレイス",
+   "rating": 5,
+   "count": 31,
+   "address": "桑野ビル 2F, ６丁目-２３-4 神宮前 渋谷区 東京都 150-0001 日本",
+   "mapsUri": "https://maps.google.com/?cid=18373828100831477198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "ララウエディング",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目１−７ 920",
+   "mapsUri": "https://maps.google.com/?cid=7490744074833114144&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lalawedding.jp/"
+  },
+  {
+   "name": "結婚相談所キャンマリアージュ 東京新宿店",
+   "rating": 4.8,
+   "count": 29,
+   "address": "日本、〒160-0023 東京都新宿区西新宿７丁目７−２４ GSプラザ新宿 403",
+   "mapsUri": "https://maps.google.com/?cid=14216777655712545312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkon-canmariage.com/shinjuku/?utm_source=mybusiness_s"
+  },
+  {
+   "name": "結婚相談所マリッジ・アージュ",
+   "rating": 4.8,
+   "count": 27,
+   "address": "日本、〒160-0022 東京都新宿区新宿４丁目１−２２ 新宿コムロビル 902",
+   "mapsUri": "https://maps.google.com/?cid=9856181891258177672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariage-age.com/"
+  },
+  {
+   "name": "結婚相談所アムールマリアージュ東京渋谷店",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒150-0041 東京都渋谷区神南１丁目１１−４ Fpg Links Shibuya Dogenzaka, 神南 5階",
+   "mapsUri": "https://maps.google.com/?cid=13004752506355865055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://amrmariage.jp/"
+  },
+  {
+   "name": "結婚相談所ムスベル 銀座店",
+   "rating": 4.8,
+   "count": 24,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目１３−４ 銀座スカイビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=8137894907359469176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=ginza&asp=none&popup=none&dcta=none&fd=none"
+  },
+  {
+   "name": "結婚相談所ganmi",
+   "rating": 5,
+   "count": 19,
+   "address": "日本、〒108-0071 東京都港区白金台３丁目１８−８ 白金台ハウス",
+   "mapsUri": "https://maps.google.com/?cid=15231981623698353784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ganmi.jp/"
+  },
+  {
+   "name": "結婚相談所 銀座マリアージュクラブ",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒104-0006 東京都中央区銀座６丁目１３−９ GIRAC GINZA 8F",
+   "mapsUri": "https://maps.google.com/?cid=12881613115699954661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.happikon.com/"
+  },
+  {
+   "name": "結婚相談所ブライダルインテリジェンス銀座",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目９−１９ 吉澤ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=11329165926307421326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://br-intelligence.com/"
+  },
+  {
+   "name": "喜園",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒150-0022 東京都渋谷区恵比寿南２丁目３−１ 1階 鮨喜一内",
+   "mapsUri": "https://maps.google.com/?cid=12858886683663729307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://e-kien.com/"
+  },
+  {
+   "name": "池袋ぶどうの樹結婚相談所",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目１７−１１ パークハイツ池袋 1105号",
+   "mapsUri": "https://maps.google.com/?cid=497148023033325926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://budounokikekkon.info/"
+  },
+  {
+   "name": "結婚相談所Ael（アエル）東京",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒163-1454 東京都新宿区西新宿３丁目２０−２ 東京オペラシティ 54階",
+   "mapsUri": "https://maps.google.com/?cid=16509479956840714493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ael-marriage-tokyo.com/"
+  },
+  {
+   "name": "結婚相談所オトナテラス 新宿店",
+   "rating": 4.7,
+   "count": 12,
+   "address": "日本、〒160-0023 東京都新宿区西新宿１丁目５−１２ 8F",
+   "mapsUri": "https://maps.google.com/?cid=17992558793263483349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://otona-terrace.com/"
+  },
+  {
+   "name": "結婚相談所 ToBeブライダル",
+   "rating": 4.8,
+   "count": 11,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目１７−１１ 11F",
+   "mapsUri": "https://maps.google.com/?cid=9115159884554708634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tobebridal.jp/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "婚活サロン 婚フォート",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３４−５ 6階",
+   "mapsUri": "https://maps.google.com/?cid=2499224498705708486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konfort.jp/"
+  },
+  {
+   "name": "アットブライダル銀座",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒104-0061 東京都中央区銀座６丁目６−１ ５F",
+   "mapsUri": "https://maps.google.com/?cid=10835293320319822739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.at-bridal.jp/"
+  },
+  {
+   "name": "Choice One結婚相談所",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒160-0023 東京都新宿区西新宿３丁目３−１３ 6F",
+   "mapsUri": "https://maps.google.com/?cid=9328408846325338302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://choice-one.net/"
+  },
+  {
+   "name": "最短結婚ナビ",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒104-0061 東京都中央区銀座７丁目１３−６ 2階",
+   "mapsUri": "https://maps.google.com/?cid=1359755468584071118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.saitankekkon.jp/"
+  },
+  {
+   "name": "結婚相談 First bite ﾌｧｰｽﾄﾊﾞｲﾄ",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３４−５ いちご東池袋ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=15060421057944947534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.firstbite.jp/"
+  },
+  {
+   "name": "ツヴァイ渋谷店",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷１丁目２４−１５ ヒューリック渋谷宮益坂ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=17034344723159373570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/tokyo/shibuya/"
+  },
+  {
+   "name": "マリッジエージェンシー",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒150-0043 東京都渋谷区道玄坂１丁目１０−８ 渋谷道玄坂東急ビル 2F-C",
+   "mapsUri": "https://maps.google.com/?cid=4918689989897701170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marry8.site/"
+  },
+  {
+   "name": "結婚相談所 デュオマリアージュ 池袋店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目３６−１ INFINITY IKEBUKURO6F",
+   "mapsUri": "https://maps.google.com/?cid=13957840621951098724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.duomariage.jp/"
+  },
+  {
+   "name": "結婚相談所ILC Marriage",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒150-0002 東京都渋谷区渋谷３丁目１５−４ アロス渋谷ビル8階（ILC Marriage内",
+   "mapsUri": "https://maps.google.com/?cid=11531543778598773397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ilcmarriage.com/"
+  },
+  {
+   "name": "AddOne Marriage(自衛官・ひとり親に強い結婚相談所)",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目１７−１１ パークハイツ池袋 １１０５号",
+   "mapsUri": "https://maps.google.com/?cid=18092791704688561811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://addone-marriage.com/"
+  },
+  {
+   "name": "結婚サポートONDO",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３４−番 いちご東池袋ビル 5号 6階",
+   "mapsUri": "https://maps.google.com/?cid=17608656355186726486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-ondo.com/"
+  },
+  {
+   "name": "Marriage Styling 結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目３６−３ 池袋陽光ハイツ 803",
+   "mapsUri": "https://maps.google.com/?cid=2932623399118425859&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-styling.com/"
+  },
+  {
+   "name": "結婚相談所 LMマリアージュ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒150-6018 東京都渋谷区恵比寿４丁目２０−３ ガーデンプレイス 18階",
+   "mapsUri": "https://maps.google.com/?cid=6295284971469833885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lm-mariage.jp/"
+  },
+  {
+   "name": "ルピナス結婚相談室",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒171-0021 東京都豊島区西池袋２丁目３９−９ ロイヤル池袋 603号",
+   "mapsUri": "https://maps.google.com/?cid=7924530619623679784&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.towa-nira.jp/"
+  },
+  {
+   "name": "豊島区池袋 結婚相談所 Marriable",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒171-0014 東京都豊島区池袋３丁目３６−８",
+   "mapsUri": "https://maps.google.com/?cid=9675016122422965408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriable.jp/"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 池袋東口店",
+   "rating": 2.7,
+   "count": 3,
+   "address": "日本、〒170-0013 東京都豊島区東池袋１丁目１１−１ 東池袋ビル ５階 オーク",
+   "mapsUri": "https://maps.google.com/?cid=6626131518116097091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/tokyo/ikebukuro_higashi.html?vos=dzeksgmbt20052900005"
+  },
+  {
+   "name": "結婚相談所 Mariel",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒160-0023 東京都新宿区西新宿３丁目３−１３ 西新宿 水間ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=5778343867520898611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariel-marriage.com/"
+  },
+  {
+   "name": "婚活サロン・ロータスマリッジ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目１２−４ N&E BLD. 6f",
+   "mapsUri": "https://maps.google.com/?cid=11889630921603284497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lotus-marriage.com/"
+  },
+  {
+   "name": "結婚相談所 STORY",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒150-0011 東京都渋谷区東２丁目６−１６ S.T.フォレスト 1F",
+   "mapsUri": "https://maps.google.com/?cid=18302661936156092173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.story.vc/"
+  },
+  {
+   "name": "結婚相談所サンマリエ新宿サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒160-0022 東京都新宿区新宿３丁目３６−５ 市嶋ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=14176235226180823170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kanto/shinjyuku/?utm_source=shinjyuku&utm_medium=googlemb_salon&utm_campaign=mb_main"
+  },
+  {
+   "name": "結婚相談所アビーマリアージュ銀座",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目１１−２ ダイセンビル ３F",
+   "mapsUri": "https://maps.google.com/?cid=11077887409091458238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://abbeymariage-ginza.com/"
+  },
+  {
+   "name": "Ｍaison de lien. (メゾン ド リアン)結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒104-0061 東京都中央区銀座３丁目９−６ Vort銀座Maxim B1F SALON VILLAGE due",
+   "mapsUri": "https://maps.google.com/?cid=13586707011085537674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "結婚相談所 MUSUBI engagement",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒104-0061 東京都中央区銀座１丁目１２−４ N&E BLD. 6F",
+   "mapsUri": "https://maps.google.com/?cid=261720921341164826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musubiengagement.com/"
+  },
+  {
+   "name": "結婚相談所ムスベル サテライト池袋",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒170-0013 東京都豊島区東池袋３丁目９−９ 明昌ＫＳビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=4407811585183676675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=ikebukuro&asp=none&popup=none&dcta=none&fd=none"
+  },
+  {
+   "name": "結婚相談所スターブライダル池袋",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒171-0052 東京都豊島区南長崎５丁目１−１０ ラ・カサ 301",
+   "mapsUri": "https://maps.google.com/?cid=16336304676918474512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.st-bridal.com/"
+  },
+  {
+   "name": "コイノムスビ 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒171-0014 東京都豊島区池袋２丁目６５−１",
+   "mapsUri": "https://maps.google.com/?cid=16343378880909164892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://koinomusubi.com/"
+  }
+ ],
+ "osaka": [
+  {
+   "name": "ツヴァイ 大阪店",
+   "rating": 4.6,
+   "count": 501,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町4丁目４−２０ グランフロント大阪タワーA（南館 15階",
+   "mapsUri": "https://maps.google.com/?cid=11220106494359058478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/osaka/osaka/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "ブライダルYASUNAGA 大阪梅田店",
+   "rating": 5,
+   "count": 291,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田２丁目６−３０ 梅田清和ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=8197161344298044022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.b-yasunaga.com/shop/osaka/wedding4/"
+  },
+  {
+   "name": "結婚相談所オーネット 大阪梅田店",
+   "rating": 4.6,
+   "count": 290,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町３−１ グランフロント大阪タワ Ｂ11階",
+   "mapsUri": "https://maps.google.com/?cid=4590023801034973022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/osaka/osakakita/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=osakakita"
+  },
+  {
+   "name": "IBJメンバーズ大阪店",
+   "rating": 4.7,
+   "count": 237,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目１−３ 4階",
+   "mapsUri": "https://maps.google.com/?cid=1509021020736562050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/osaka/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_osaka"
+  },
+  {
+   "name": "大阪梅田結婚相談所kotopuro",
+   "rating": 4.9,
+   "count": 156,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 8F",
+   "mapsUri": "https://maps.google.com/?cid=12358872012306112293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kotopuro.com/"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント大阪店",
+   "rating": 4.7,
+   "count": 139,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−１９ メッセージ梅田ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=18102236641186813260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kansai/umeda.html?cid=se002&argument=wgvYBfWa&dmai=9722"
+  },
+  {
+   "name": "フィオーレ梅田店",
+   "rating": 4.4,
+   "count": 117,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 33F 大阪駅前第三ビル",
+   "mapsUri": "https://maps.google.com/?cid=15126388250170455824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/osaka/umeda/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "結婚相談所オーネット 大阪難波店",
+   "rating": 4.4,
+   "count": 109,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばスカイオ 20階",
+   "mapsUri": "https://maps.google.com/?cid=1160857640200191010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/osaka/osakaminami/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=osakaminami"
+  },
+  {
+   "name": "ツヴァイ 難波店",
+   "rating": 4.5,
+   "count": 90,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目１−１５ 近鉄難波ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=9590885481789325339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/osaka/nanba/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "結婚相談所サンマリエ大阪心斎橋サロン",
+   "rating": 4.5,
+   "count": 90,
+   "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目９−１７ 7階",
+   "mapsUri": "https://maps.google.com/?cid=1736036373200921909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kinki/shinsaibashi/?utm_source=osaka&utm_medium=googlemb_salon&utm_campaign=mb_main"
+  },
+  {
+   "name": "結婚相談所イノセント",
+   "rating": 4.7,
+   "count": 83,
+   "address": "日本、〒532-0003 大阪府大阪市淀川区宮原１丁目１９−１０ 新大阪エクセルビル 402号",
+   "mapsUri": "https://maps.google.com/?cid=13451421844684918685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://innocent-bridal.com/"
+  },
+  {
+   "name": "Lover’s Mahalo（ラバーズマハロ）",
+   "rating": 4.7,
+   "count": 82,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目１０−１５ 4階",
+   "mapsUri": "https://maps.google.com/?cid=4014356063070200331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cuwedding.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "ハルマリ HARUmarriage(ハルマリアージュ)大阪店",
+   "rating": 4.5,
+   "count": 75,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 大阪駅前第1ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=3420137475998763552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haru-marriage.com/osaka/"
+  },
+  {
+   "name": "結婚相談所ミチ婚",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒550-0013 大阪府大阪市西区新町１丁目２８−３ 四ツ橋グランスクエア 3F",
+   "mapsUri": "https://maps.google.com/?cid=6168307268341335250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://michikon.jp/"
+  },
+  {
+   "name": "ベリンダ 結婚相談所",
+   "rating": 4.8,
+   "count": 50,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田２丁目８−１１ 共栄ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=12152007009276754466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://belinda-osaka.com/"
+  },
+  {
+   "name": "NOVEL SHINSAIBASHI（ノベル心斎橋）",
+   "rating": 4.3,
+   "count": 48,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−３ A-Place心斎橋 14F 旧：EDGE心斎橋）13",
+   "mapsUri": "https://maps.google.com/?cid=7484301275980683734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.novel-shinsaibashi.jp/"
+  },
+  {
+   "name": "ブランズ大阪サロン",
+   "rating": 4.9,
+   "count": 47,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１１−４ 大阪駅前第4ビル 22階",
+   "mapsUri": "https://maps.google.com/?cid=3988876998869354430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.brans.jp/salon/osaka/"
+  },
+  {
+   "name": "結婚相談所マリッヂサポー卜 梅田店",
+   "rating": 4.8,
+   "count": 42,
+   "address": "日本、〒530-0014 大阪府大阪市北区鶴野町１−３ 安田ビル 503",
+   "mapsUri": "https://maps.google.com/?cid=11903644101267700226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonjoho.net/"
+  },
+  {
+   "name": "結婚相談所フィオーレ 心斎橋店",
+   "rating": 3.6,
+   "count": 42,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル ７Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=378851832391824500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/osaka/shinsaibashi/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "結婚相談所 loveridge（ラバリッジ）",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−１９ 1階 ONthe UMEDA内",
+   "mapsUri": "https://maps.google.com/?cid=5546083634947892847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-loveridge.jp/"
+  },
+  {
+   "name": "結婚相談所ハルモニア 大阪 心斎橋",
+   "rating": 4.8,
+   "count": 22,
+   "address": "日本、〒550-0014 大阪府大阪市西区北堀江１丁目２−２７ AXISSOUTH四ツ橋ビル 10F",
+   "mapsUri": "https://maps.google.com/?cid=6933406288355835763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://harmonia-penre.com/"
+  },
+  {
+   "name": "30代からの結婚相談所 nikoブライダル",
+   "rating": 4.8,
+   "count": 22,
+   "address": "日本、〒537-0021 大阪府大阪市東成区東中本３丁目１６−１５ サニーハイツ緑橋",
+   "mapsUri": "https://maps.google.com/?cid=3849187892235747067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.niko-bridal.jp/"
+  },
+  {
+   "name": "結婚相談所ムスベル 大阪店",
+   "rating": 4,
+   "count": 20,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル 14階20-1号室",
+   "mapsUri": "https://maps.google.com/?cid=5186529396393129948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=osaka&asp=none&popup=none&dcta=none&fd=none"
+  },
+  {
+   "name": "ゆりあい結婚相談所",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒542-0083 大阪府大阪市中央区東心斎橋１丁目９−９",
+   "mapsUri": "https://maps.google.com/?cid=1507621662516479067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.yuriai.jp/"
+  },
+  {
+   "name": "結婚相談所 結婚物語。 大阪ベース",
+   "rating": 5,
+   "count": 19,
+   "address": "日本、〒530-0017 大阪府大阪市北区角田町８ 阪急グランドビル ２０F",
+   "mapsUri": "https://maps.google.com/?cid=11203640746616191779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-monogatari.com/"
+  },
+  {
+   "name": "MARRY",
+   "rating": 4.6,
+   "count": 19,
+   "address": "日本、〒530-0002 大阪府大阪市北区曽根崎新地１丁目１３−２２ 御堂筋フロントタワ 1F",
+   "mapsUri": "https://maps.google.com/?cid=14769080486511981611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://mar1y.com/"
+  },
+  {
+   "name": "婚活サロンM marriage（エムマリッジ）",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２−２００ 大阪駅前第2ビル 2階 3-1-2",
+   "mapsUri": "https://maps.google.com/?cid=13296134127079041904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konsalo-m.com/"
+  },
+  {
+   "name": "JBi",
+   "rating": 4.4,
+   "count": 14,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル 12F 22号",
+   "mapsUri": "https://maps.google.com/?cid=18034475391932553489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.jbi-fm.com/"
+  },
+  {
+   "name": "（株）トータルマリアージュサポート本社",
+   "rating": 3,
+   "count": 7,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=9128485212803129108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.tms-m.com/"
+  },
+  {
+   "name": "結婚相談所エンサポート尼崎/梅田大阪オフィス",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１２−１２ 2番2号 大阪駅前第2ビル",
+   "mapsUri": "https://maps.google.com/?cid=3877830151612708603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://en-support.net/"
+  },
+  {
+   "name": "結婚相談所マリッヂサポート 大阪難波店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目１−１５ リージャスビジネスセンタ 1F",
+   "mapsUri": "https://maps.google.com/?cid=4014074926541187184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonjoho.net/"
+  },
+  {
+   "name": "TMS",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=1972551372311696330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nakoudonet.com/lp/kaigyo4/"
+  },
+  {
+   "name": "ブライトウェディング",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒541-0048 大阪府大阪市中央区瓦町３丁目２−１０ Urban Flats 瓦町 807",
+   "mapsUri": "https://maps.google.com/?cid=3696283654029915049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.brightwedding.jp/"
+  },
+  {
+   "name": "産婦人科のお医者さんがつくった結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目２−１２３ イノゲート 大阪9F",
+   "mapsUri": "https://maps.google.com/?cid=63102684092438544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.blidal-obgyn.com/"
+  },
+  {
+   "name": "バツイチ結婚相談所 再婚縁結び 大阪梅田",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 14F",
+   "mapsUri": "https://maps.google.com/?cid=15912350777813161094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://saikon-enmusubi.com/shop_osaka"
+  },
+  {
+   "name": "fufu CLUB",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=7818755252242701127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fufu-club.com/"
+  },
+  {
+   "name": "結婚相談所フォーマリッジ大阪事務所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目１−１３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=18077080513027955821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://formarriage.blanc-emu.com/"
+  },
+  {
+   "name": "大阪結婚相談所ハートマリー女子部 心斎橋店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場３丁目１１−１０ B1F THE HUB心斎橋内",
+   "mapsUri": "https://maps.google.com/?cid=4964168035394456696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://heartmarry-girl.com/"
+  }
+ ]
+}
