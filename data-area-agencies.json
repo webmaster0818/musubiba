@@ -947,5 +947,491 @@
    "mapsUri": "https://maps.google.com/?cid=4964168035394456696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
    "website": "https://heartmarry-girl.com/"
   }
+ ],
+ "yokohama": [
+  {
+   "name": "IBJメンバーズ 横浜店",
+   "rating": 4.7,
+   "count": 149,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目６−１ 横浜ファーストビル10F",
+   "mapsUri": "https://maps.google.com/?cid=7949367555210996422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/yokohama/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_yokohama"
+  },
+  {
+   "name": "結婚相談所ウィッシュ",
+   "rating": 4.9,
+   "count": 107,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１５ 横浜ＳＴビル １５階",
+   "mapsUri": "https://maps.google.com/?cid=16507069869255205986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriageclub-wish.com/lp/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+  },
+  {
+   "name": "結婚相談所ツヴァイ横浜店",
+   "rating": 4.4,
+   "count": 101,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１５ 横浜STビル ９階",
+   "mapsUri": "https://maps.google.com/?cid=12399404757960377420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/kanagawa/yokohama/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "結婚相談所マダカナ",
+   "rating": 4.9,
+   "count": 100,
+   "address": "日本、〒231-0032 神奈川県横浜市中区不老町１丁目２−１ 中央第6関内ビル3階",
+   "mapsUri": "https://maps.google.com/?cid=2414319256220991636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ymadakana.com/"
+  },
+  {
+   "name": "結婚相談所Marry Celebrate(マリーセレブレイト)",
+   "rating": 5,
+   "count": 51,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４８ むつみビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=4229109405971239850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marry-celebrate.jp/"
+  },
+  {
+   "name": "横浜マリッジナビ(婚活・結婚相談所）",
+   "rating": 5,
+   "count": 49,
+   "address": "日本、〒220-0023 神奈川県横浜市西区平沼１丁目４０−１ 嶋森ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=16187999832492993544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://7marinavi.com/"
+  },
+  {
+   "name": "結婚相談所 ハッピーコネクト",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ 5階 HamaPort内",
+   "mapsUri": "https://maps.google.com/?cid=15103217889122166650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.happy-connect.net/"
+  },
+  {
+   "name": "ファニーキープス",
+   "rating": 5,
+   "count": 39,
+   "address": "日本、〒221-0045 神奈川県横浜市神奈川区神奈川２丁目17−５ コスモ東神奈川 204",
+   "mapsUri": "https://maps.google.com/?cid=2501568246343691476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.funnykeeps.com/"
+  },
+  {
+   "name": "ブライダルサロン ラマーナ",
+   "rating": 5,
+   "count": 39,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１ 水信ビル ７階",
+   "mapsUri": "https://maps.google.com/?cid=4388882425997588730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lamarna.com/"
+  },
+  {
+   "name": "横浜の結婚相談所 アロハハッピーマリッジ",
+   "rating": 5,
+   "count": 33,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１ 7階",
+   "mapsUri": "https://maps.google.com/?cid=11565812601036743112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aloha-hm.jp/"
+  },
+  {
+   "name": "結婚相談所エールマリアージュ",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒231-0027 神奈川県横浜市中区扇町１丁目1−２５ キンガビル 108号室",
+   "mapsUri": "https://maps.google.com/?cid=6645630032117387972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://kekkon15.com/"
+  },
+  {
+   "name": "横浜Be婚",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒231-0063 神奈川県横浜市中区花咲町１丁目46−１ 駅前801",
+   "mapsUri": "https://maps.google.com/?cid=5355041118526759216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.omikon.jp/"
+  },
+  {
+   "name": "結婚相談所Precious wedding",
+   "rating": 5,
+   "count": 25,
+   "address": "日本、〒231-0016 神奈川県横浜市中区真砂町４丁目４３ 木下商事ビル 202",
+   "mapsUri": "https://maps.google.com/?cid=58345078308857501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://preciouswedding.jp/"
+  },
+  {
+   "name": "結婚相談所マリッジコンシェルジュ横浜",
+   "rating": 5,
+   "count": 23,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ 5階 HamaPort内",
+   "mapsUri": "https://maps.google.com/?cid=4000389589465850671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-c-y.com/"
+  },
+  {
+   "name": "横浜婚活・結婚相談所センター",
+   "rating": 4.9,
+   "count": 22,
+   "address": "日本、〒241-0024 神奈川県横浜市旭区本村町９６−２６",
+   "mapsUri": "https://maps.google.com/?cid=7217460025266460634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.yokohama-ryoen.jp/"
+  },
+  {
+   "name": "横浜婚活サポート室",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４８ むつみビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=4329373184641468493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hamakon.org/"
+  },
+  {
+   "name": "横浜結婚STORY",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ エキニア横浜ビル 5階 HamaPort 内",
+   "mapsUri": "https://maps.google.com/?cid=7984994916918460172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkonstory.com/"
+  },
+  {
+   "name": "結婚相談所Enishell横浜",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒231-0032 神奈川県横浜市中区不老町１丁目１−１１ 関内南口ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=7631943668535097352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishell.jp/"
+  },
+  {
+   "name": "結婚相談所 Kibito",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒231-0003 神奈川県横浜市中区北仲通５丁目５７−２",
+   "mapsUri": "https://maps.google.com/?cid=6721738506096923159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "結婚相談所 ブライトジョイ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒224-0003 神奈川県横浜市都筑区中川中央１丁目３０−１",
+   "mapsUri": "https://maps.google.com/?cid=1748080955674861356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://brightjoy-kekkon.com/"
+  }
+ ],
+ "nagoya": [
+  {
+   "name": "結婚相談所オーネット 名古屋店",
+   "rating": 4.6,
+   "count": 394,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目５−２８ 桜通豊田ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=11425998762998193211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chubu/aichi/nagoya/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=nagoya"
+  },
+  {
+   "name": "結婚相談所ツヴァイ名古屋店",
+   "rating": 4.5,
+   "count": 209,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目５−２８ 桜通豊田ビル 17階",
+   "mapsUri": "https://maps.google.com/?cid=16291369004281614371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chubu/aichi/nagoya/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "結婚相談所IBJメンバーズ 名古屋店",
+   "rating": 4.8,
+   "count": 201,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅２丁目４５−１４ 2階",
+   "mapsUri": "https://maps.google.com/?cid=11225634857454659768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/nagoya/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_nagoya"
+  },
+  {
+   "name": "結婚相談所サンマリエ名古屋栄サロン",
+   "rating": 4.5,
+   "count": 116,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１５−２７ 8階",
+   "mapsUri": "https://maps.google.com/?cid=2318984274442458158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/tokai-hokuriku/nagoya/?utm_source=nagoya&utm_medium=googlemb_salon&utm_campaign=mb_main"
+  },
+  {
+   "name": "結婚相談所キャンマリアージュ 名古屋新栄本店",
+   "rating": 4.7,
+   "count": 106,
+   "address": "日本、〒461-0004 愛知県名古屋市東区葵１丁目２５−１ 5F",
+   "mapsUri": "https://maps.google.com/?cid=2323411479948291844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkon-canmariage.com/?utm_source=mybusiness_n"
+  },
+  {
+   "name": "結婚相談所名古屋婚活",
+   "rating": 4.8,
+   "count": 67,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２３−１６ タキビル",
+   "mapsUri": "https://maps.google.com/?cid=8334986935300053731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nagoyakonkatsu.jp/"
+  },
+  {
+   "name": "ブライダルサロンZERO名古屋店",
+   "rating": 4.8,
+   "count": 51,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄５丁目２６−３６ 7階",
+   "mapsUri": "https://maps.google.com/?cid=1555335658522989840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalsalon-zero-woman.com/"
+  },
+  {
+   "name": "結婚相談所プリヴェ―ル名古屋本店",
+   "rating": 4.4,
+   "count": 41,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目１７−１４ 鈴木ビル",
+   "mapsUri": "https://maps.google.com/?cid=16666247397521914353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://primvere-m.com/"
+  },
+  {
+   "name": "結婚相談所ムスベル 名古屋店",
+   "rating": 4.7,
+   "count": 37,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１７−２８ ＣＫ１５伏見ビル 8階 事務所6階",
+   "mapsUri": "https://maps.google.com/?cid=12099228859018957354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=nagoya&asp=none&popup=none&dcta=none&fd=none"
+  },
+  {
+   "name": "結婚相談所 ソレイユ",
+   "rating": 5,
+   "count": 36,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目７−４ ＴＯＳＨＩＮ．ＳＡＫＵＲＡビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=17955493404081901921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://soleiyu-marriage.com/"
+  },
+  {
+   "name": "婚活サポートアテンダー",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅１丁目１−１ JPタワー名古屋 21階",
+   "mapsUri": "https://maps.google.com/?cid=3337463124142540884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.attender.jp/"
+  },
+  {
+   "name": "結婚相談所メイユー for Marriage",
+   "rating": 4.9,
+   "count": 31,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ 1st2階",
+   "mapsUri": "https://maps.google.com/?cid=2523079056826047539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://meiyu-marriage.com/"
+  },
+  {
+   "name": "名古屋寺婚Mark(ﾏｰｸ)",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒453-0808 愛知県名古屋市中村区郷前町１丁目27−１ 善成寺内) ※寺移転前住所とのお間違いが多いです。恐れ入りますが、ナビでは善成寺ではなく「住所」をご入力下さい。",
+   "mapsUri": "https://maps.google.com/?cid=10325749609385502698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.markseikon.com/"
+  },
+  {
+   "name": "エグゼクティブ マリアージュ結yuna",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st ホーム 2",
+   "mapsUri": "https://maps.google.com/?cid=12301631478626309249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://executivemariage.co.jp/"
+  },
+  {
+   "name": "MORE HAPPINES",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦３丁目６−１５ 先 中部電力MIRAI TOWR 3階 THE TOWER LOUNGE CASHIME内",
+   "mapsUri": "https://maps.google.com/?cid=5013371806645008488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://morehappi.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP"
+  },
+  {
+   "name": "結婚相談所 TAKUMI mariage（タクミマリアージュ）",
+   "rating": 4.9,
+   "count": 12,
+   "address": "日本、〒460-0011 愛知県名古屋市中区大須４丁目１−４０ アルティメイト矢場 町4F",
+   "mapsUri": "https://maps.google.com/?cid=11106688239968755122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.takumi-mariage.jp/"
+  },
+  {
+   "name": "名古屋クレシャス",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒464-0075 愛知県名古屋市千種区内山３丁目１０−１７ 今池セントラルビル ９階",
+   "mapsUri": "https://maps.google.com/?cid=16495455898376867184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://crecious.com/"
+  },
+  {
+   "name": "【IBJ】結婚相談所 Fun To Marriage（ファン トゥ マリッジ）",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒460-0007 愛知県名古屋市中区新栄３丁目８−１９",
+   "mapsUri": "https://maps.google.com/?cid=1672913435820427427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://funtomarriage.com/"
+  },
+  {
+   "name": "結婚相談所結エール",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 第２森ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=1478524094897790414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yuiyell.jp/"
+  },
+  {
+   "name": "結婚相談所マリリング名古屋 名古屋駅前店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st 2階",
+   "mapsUri": "https://maps.google.com/?cid=6415595664905873474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriring.jp/"
+  }
+ ],
+ "fukuoka": [
+  {
+   "name": "結婚相談所オーネット 福岡店",
+   "rating": 4.4,
+   "count": 143,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目９−１７ 福岡天神フコク生命ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=6786105087736842123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kyushu/fukuoka/fukuoka/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=fukuoka"
+  },
+  {
+   "name": "ツヴァイ 福岡店",
+   "rating": 4.7,
+   "count": 98,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目９−１７ 福岡天神フコク生命ビル 14階",
+   "mapsUri": "https://maps.google.com/?cid=9178240845580689674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kyusyu/fukuoka/fukuoka/?utm_medium=organic&utm_source=GMB"
+  },
+  {
+   "name": "結婚相談所ハピネス福岡店",
+   "rating": 4.8,
+   "count": 84,
+   "address": "日本、〒810-0042 福岡県福岡市中央区赤坂１丁目１４−３７ 3F",
+   "mapsUri": "https://maps.google.com/?cid=1925788396617931854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://h-ness-f.jp/"
+  },
+  {
+   "name": "結婚相談所ハルマリ HARUmarriage(ハルマリアージュ)福岡店",
+   "rating": 4.8,
+   "count": 84,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１３−２０ 松島ビル ３階",
+   "mapsUri": "https://maps.google.com/?cid=9188731883187814324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haru-marriage.com/fukuoka/"
+  },
+  {
+   "name": "IBJMatching 天神(PARTY☆PARTY)",
+   "rating": 4.7,
+   "count": 68,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目２０−２ 天神MENTビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=4669310120516618867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_fukuoka/area_tenjin/floor_tenjin"
+  },
+  {
+   "name": "結婚相談所 サンマリエ福岡 (天神)サロン",
+   "rating": 4.6,
+   "count": 64,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目２０−２ 天神MENTビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=6389847634304476155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kyusyu/tenjin/?utm_source=fukuoka&utm_medium=googlemb_salon&utm_campaign=mb_main"
+  },
+  {
+   "name": "結婚相談所ジュブレ福岡本店",
+   "rating": 4.7,
+   "count": 52,
+   "address": "日本、〒810-0004 福岡県福岡市中央区渡辺通５丁目２５−１５ 7F",
+   "mapsUri": "https://maps.google.com/?cid=18167504523025231032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://jubre.jp/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "結婚相談所 ラナスマイル",
+   "rating": 5,
+   "count": 37,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−１０ 天神パインクレスト 719",
+   "mapsUri": "https://maps.google.com/?cid=14599800592849237251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lana-smile.com/"
+  },
+  {
+   "name": "福岡市の結婚相談所 ウィッシュ福岡",
+   "rating": 4.9,
+   "count": 35,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院３丁目３−２９ ライオンズマンション薬院駅南 204号",
+   "mapsUri": "https://maps.google.com/?cid=13436978579664864795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://wish-kekkon.com/"
+  },
+  {
+   "name": "結婚相談所 アソウ・マリッジエージェント 天神 婚活",
+   "rating": 4.8,
+   "count": 28,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目８−４１ 福岡朝日会館 13階",
+   "mapsUri": "https://maps.google.com/?cid=7837594683977593992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://aso-marriageagent.co.jp/"
+  },
+  {
+   "name": "結婚相談所フィオーレ 福岡店",
+   "rating": 3.7,
+   "count": 28,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１−１ Ｂ１Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=15952724339104243761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/fukuoka/fukuoka/?utm_source=google&utm_medium=maps"
+  },
+  {
+   "name": "結婚相談所マゼンダ福岡",
+   "rating": 5,
+   "count": 26,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目９−２９ ９０８号",
+   "mapsUri": "https://maps.google.com/?cid=11405772557022052605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mazenda.com/"
+  },
+  {
+   "name": "結婚相談所 デアイ 福岡店",
+   "rating": 4.9,
+   "count": 22,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目２−１２ T&J ビルディング 7F",
+   "mapsUri": "https://maps.google.com/?cid=10766332530643460696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-deai.jp/"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント福岡店",
+   "rating": 4.5,
+   "count": 19,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目３−４６ 大名イマンス 2階",
+   "mapsUri": "https://maps.google.com/?cid=15739443140682514073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kyushu/fukuoka.html?cid=se002&argument=wgvYBfWa&dmai=9725"
+  },
+  {
+   "name": "結婚相談所プラスKOU",
+   "rating": 4.8,
+   "count": 18,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神５丁目９−２",
+   "mapsUri": "https://maps.google.com/?cid=16094110968570682741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://56.pluskou.com/"
+  },
+  {
+   "name": "天神マリッジラボ",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−１０−７１９",
+   "mapsUri": "https://maps.google.com/?cid=17799969462521965817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tenjin-marriagelab.com/"
+  },
+  {
+   "name": "僕と私の結婚相談所",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒810-0042 福岡県福岡市中央区赤坂１丁目８−２３",
+   "mapsUri": "https://maps.google.com/?cid=12166625801849169629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/fukuoka/52177/"
+  },
+  {
+   "name": "結婚相談所Peasing（ピーシング）",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目４",
+   "mapsUri": "https://maps.google.com/?cid=3328796074419194445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  },
+  {
+   "name": "天神駅直結 サチアル 結婚相談所",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目８−３５ 住友生命FJビジネスセンタ 6F",
+   "mapsUri": "https://maps.google.com/?cid=9444084594294669043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sachir.hp.peraichi.com/home/"
+  },
+  {
+   "name": "福岡☆結婚相談所モテラボ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒818-0001 福岡県福岡市中央区天神２丁目２−１２ 7F",
+   "mapsUri": "https://maps.google.com/?cid=11662808671048345598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": ""
+  }
  ]
 }
