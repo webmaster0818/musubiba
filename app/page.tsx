@@ -385,6 +385,11 @@ export default function Home() {
               { name: "naco-do", slug: "naco-do", path: "/review/naco-do/", fee: "月額6,980円〜" },
               { name: "サンマリエ", slug: "sunmarie", path: "/review/sunmarie/", fee: "月会費16,500円〜" },
               { name: "エン婚活エージェント", slug: "en-konkatsu", path: "/review/en-konkatsu/", fee: "月額14,300円" },
+              { name: "ウェルスマ", slug: "wellsma", path: "/review/wellsma/", fee: "月会費11,800円〜" },
+              { name: "ブライダルチューリップ", slug: "bridal-tulip", path: "/review/bridal-tulip/", fee: "月会費7,550円〜" },
+              { name: "東京フォリパートナー", slug: "folli-partner", path: "/review/folli-partner/", fee: "月会費16,500円〜" },
+              { name: "ヒーローマリッジ", slug: "hero-marriage", path: "/review/hero-marriage/", fee: "月会費14,300円〜" },
+              { name: "エクセレンス青山", slug: "excellence-aoyama", path: "/review/excellence-aoyama/", fee: "月会費7,700円〜" },
             ].map((agency) => (
               <Link
                 key={agency.name}
