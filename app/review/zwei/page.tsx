@@ -241,6 +241,8 @@ export default function ZweiReview() {
             <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
             <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
             <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの評判・料金を見る（店舗に通わずIBJ会員と出会えるオンライン仲人型）</Link></li>
+            <li><Link href="/review/excellence-aoyama/" className="text-[#8B7355] underline">エクセレンス青山の評判・料金を見る（4連盟・エグゼクティブ向け仲人型）</Link></li>
           </ul>
         </section>
 

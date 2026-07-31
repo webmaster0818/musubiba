@@ -4,19 +4,21 @@ import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 
 export const metadata: Metadata = {
-  title: "安い結婚相談所はどこ？1年総額で比較【2026年】検証済み料金ランキング",
+  title: "安い結婚相談所はどこ？1年総額で10社比較【2026年】検証済み料金ランキング",
   description:
-    "結婚相談所の「安さ」を1年活動の総額（初期費用＋月会費×12＋成婚料）で比較。当サイトが公式サイトで検証した料金のみ掲載（2026年7月5日確認・税込）。最安はスマリッジの125,400円。オンライン型と仲人型の総額差、成婚料の有無での逆転、安く始めるコツまで解説します。",
+    "結婚相談所の「安さ」を1年活動の総額（初期費用＋月会費×12＋成婚料）で10社比較。当サイトが各公式サイトで検証した料金のみ掲載（2026年7月確認・税込）。最安はスマリッジの125,400円。お見合い料が都度かかる相談所の注意点、成婚料の有無での逆転、安く始めるコツまで解説します。",
   alternates: { canonical: "/compare/cheap/" },
 };
 
-// 全て公式サイトで検証済みの料金（税込）。オンライン3社=2026年7月5日確認／仲人型2社=2026年7月公式確認。
+// 全て公式サイトで検証済みの料金（税込）。オンライン3社=2026年7月5日確認／仲人型2社=2026年7月確認／追加5社=2026年7月31日確認。
+// 総額は各社の最安プラン基準。お見合い料は回数依存のため総額に含めず列で明示。
 type Row = {
   slug: string;
   name: string;
   type: string;
   initial: string;
   monthly: string;
+  omiai: string;
   seikon: string;
   total1y: string;
   totalSeikon: string;
@@ -29,10 +31,47 @@ const rows: Row[] = [
     type: "オンライン",
     initial: "6,600円",
     monthly: "9,900円",
+    omiai: "月8件まで0円",
     seikon: "0円",
     total1y: "125,400円",
     totalSeikon: "125,400円",
     note: "お見合い料は月8件まで0円。3ヶ月お見合い成立なしで返金保証。U28・エリア・シングル親の割引あり（各月1,100円引き）",
+  },
+  {
+    slug: "excellence-aoyama",
+    name: "エクセレンス青山",
+    type: "仲人型（4連盟）",
+    initial: "55,000円",
+    monthly: "7,700円",
+    omiai: "女性5,500円／男性8,800円（都度）",
+    seikon: "220,000円",
+    total1y: "147,400円",
+    totalSeikon: "367,400円",
+    note: "スタンダードコース基準。月会費7,700円と月額は安いが、お見合い料が1回ごとにかかるため活動量次第で総額が増える点に注意。20代限定トライアル11,000円（1ヶ月）あり",
+  },
+  {
+    slug: "wellsma",
+    name: "ウェルスマ",
+    type: "オンライン仲人型（IBJ）",
+    initial: "49,800円",
+    monthly: "11,800円",
+    omiai: "0円",
+    seikon: "149,800円",
+    total1y: "191,400円",
+    totalSeikon: "341,200円",
+    note: "マイペースプラン基準。来店不要でIBJ約9.6万名に申し込めて、成婚料149,800円は仲人型相場（20万円前後）より低め。専任カウンセラー付き",
+  },
+  {
+    slug: "bridal-tulip",
+    name: "ブライダルチューリップ",
+    type: "仲人型（3連盟）",
+    initial: "105,000円",
+    monthly: "7,550円",
+    omiai: "6,100円または8,800円／件（都度）",
+    seikon: "180,000円",
+    total1y: "195,600円",
+    totalSeikon: "375,600円",
+    note: "42歳未満のAプラン基準（42歳以上は入会金150,800円）。お見合い料が都度かかるため、月3件以上ならBプラン（月12,950円・お見合い6,100円）のほうが安くなる場合あり",
   },
   {
     slug: "code-for-marriage",
@@ -40,6 +79,7 @@ const rows: Row[] = [
     type: "仲人型（IBJ）",
     initial: "77,000円",
     monthly: "11,000円",
+    omiai: "0円",
     seikon: "220,000円",
     total1y: "209,000円",
     totalSeikon: "429,000円",
@@ -51,6 +91,7 @@ const rows: Row[] = [
     type: "オンライン",
     initial: "33,000円",
     monthly: "16,500円",
+    omiai: "0円",
     seikon: "0円",
     total1y: "231,000円",
     totalSeikon: "231,000円",
@@ -62,6 +103,7 @@ const rows: Row[] = [
     type: "オンライン",
     initial: "66,000円",
     monthly: "16,800円",
+    omiai: "0円",
     seikon: "0円",
     total1y: "267,600円",
     totalSeikon: "267,600円",
@@ -73,21 +115,46 @@ const rows: Row[] = [
     type: "仲人型（IBJ）",
     initial: "165,000円",
     monthly: "9,900円",
+    omiai: "0円",
     seikon: "220,000円",
     total1y: "283,800円",
     totalSeikon: "503,800円",
     note: "カウンセラー歴23年の代表による1名運営。流山・柏・野田・松戸へ出張対応",
+  },
+  {
+    slug: "folli-partner",
+    name: "フォリパートナー",
+    type: "仲人型（IBJ）",
+    initial: "110,000円",
+    monthly: "16,500円",
+    omiai: "0円",
+    seikon: "250,000円",
+    total1y: "308,000円",
+    totalSeikon: "558,000円",
+    note: "ライトコース基準。毎月の紹介人数保証（コース別1〜3名）が特徴。2年目以降は月会費のみで継続可",
+  },
+  {
+    slug: "hero-marriage",
+    name: "ヒーローマリッジ（男性専門）",
+    type: "仲人型（IBJ）",
+    initial: "165,000円",
+    monthly: "14,300円",
+    omiai: "0円",
+    seikon: "220,000円",
+    total1y: "336,600円",
+    totalSeikon: "556,600円",
+    note: "ライトプラン基準・男性専門。プロカメラマン撮影が何度でも無料。自社イベント経由の成婚は成婚料50%割引の公式記載あり",
   },
 ];
 
 const faqs = [
   {
     q: "一番安い結婚相談所はどこですか？",
-    a: "当サイトが公式サイトで検証した範囲（2026年7月5日確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。",
+    a: "当サイトが公式サイトで検証した10社の範囲（2026年7月確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。専任カウンセラーの仲人サポート付きで安く始めたい場合は、ウェルスマ（1年総額191,400円・お見合い料0円）が検証済みでは最安水準です。",
   },
   {
     q: "「月会費が安い」と「総額が安い」は違うのですか？",
-    a: "違います。結婚相談所の費用は初期費用＋月会費×活動月数＋成婚料の3要素で決まるため、月会費が安くても初期費用や成婚料が高ければ総額で逆転します。例えば仲人型は月会費1万円前後でも、成婚時に成婚料220,000円がかかる料金体系が一般的です。本ページの表は「1年総額」と「成婚した場合の総額」を分けて掲載しています。",
+    a: "違います。結婚相談所の費用は初期費用＋月会費×活動月数＋お見合い料＋成婚料で決まるため、月会費が安くても他の費用で総額が逆転します。例えばエクセレンス青山とブライダルチューリップは月会費7千円台ですが、お見合い料が1回ごと（5,500〜8,800円）にかかるため、月2回お見合いすると年間13万〜21万円が総額に上乗せされます。本ページの表は「お見合い料」を列で明示し、「1年総額」と「成婚した場合の総額」を分けて掲載しています。",
   },
   {
     q: "成婚料0円の相談所と成婚料ありの相談所、どちらが得ですか？",
@@ -95,7 +162,7 @@ const faqs = [
   },
   {
     q: "表の料金は正確ですか？",
-    a: "掲載料金はすべて当サイトが各公式サイトで確認した公表値です（オンライン3社は2026年7月5日、仲人型2社は2026年7月確認・税込）。ただし料金は改定されることがあり、キャンペーン（初月0円等）も随時変わるため、申し込み前に必ず公式サイト・無料相談で最新の料金をご確認ください。",
+    a: "掲載料金はすべて当サイトが各公式サイトで確認した公表値です（オンライン3社は2026年7月5日、仲人型2社は2026年7月、追加5社［エクセレンス青山・ウェルスマ・ブライダルチューリップ・フォリパートナー・ヒーローマリッジ］は2026年7月31日確認・税込）。ただし料金は改定されることがあり、キャンペーン（初月0円等）も随時変わるため、申し込み前に必ず公式サイト・無料相談で最新の料金をご確認ください。",
   },
   {
     q: "もっと安く始める方法はありますか？",
@@ -128,16 +195,17 @@ export default function CheapComparePage() {
         </p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論（検証済み・税込）</h2>
+          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論（検証済み10社・税込）</h2>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80">
             <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>1年総額の最安はスマリッジ 125,400円</strong>（成婚料0円なので成婚しても増えません）</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>オンライン型は総額12.5万〜26.8万円、仲人型は成婚時総額42.9万〜50.4万円が検証レンジ＝<strong>差は最大約4倍</strong></span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>仲人型は高いぶん伴走サポートが厚い。<strong>「安さ」と「手厚さ」はトレードオフ</strong>なので、下の表で自分の優先順位に合わせて選んでください</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>仲人サポート付きで安く始めるなら<strong>エクセレンス青山（1年147,400円・ただしお見合い料都度）</strong>か<strong>ウェルスマ（1年191,400円・お見合い料0円）</strong>が検証済みの安値圏</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>⚠️ <strong>月会費の安さに注意</strong>：月7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量次第で総額が数万円単位で増えます</span></li>
+            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>成婚時総額の検証レンジは12.5万〜55.8万円＝<strong>差は最大約4.5倍</strong>。仲人型は高いぶん伴走サポートが厚く、<strong>「安さ」と「手厚さ」はトレードオフ</strong>です</span></li>
           </ul>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">1年総額の安い順ランキング（検証済み5社）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">1年総額の安い順ランキング（検証済み10社）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
@@ -146,6 +214,7 @@ export default function CheapComparePage() {
                   <th className="px-3 py-3">タイプ</th>
                   <th className="px-3 py-3">初期費用</th>
                   <th className="px-3 py-3">月会費</th>
+                  <th className="px-3 py-3">お見合い料</th>
                   <th className="px-3 py-3">成婚料</th>
                   <th className="px-3 py-3">1年総額</th>
                   <th className="px-3 py-3">成婚した場合</th>
@@ -160,6 +229,7 @@ export default function CheapComparePage() {
                     <td className="px-3 py-3 whitespace-nowrap">{r.type}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.initial}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.monthly}</td>
+                    <td className="px-3 py-3">{r.omiai}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.seikon}</td>
                     <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#8B7355]">{r.total1y}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.totalSeikon}</td>
@@ -169,9 +239,11 @@ export default function CheapComparePage() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">
-            ※1年総額＝初期費用＋月会費×12ヶ月＋成婚料0円の場合。「成婚した場合」＝1年活動して成婚退会したときの総額（成婚料を加算）。お見合い料・オプション・キャンペーンは含みません。料金は改定される場合があるため、申込前に各公式サイトでご確認ください。
+            ※1年総額＝初期費用＋月会費×12ヶ月（各社の最安プラン基準・成婚料0円の場合）。「成婚した場合」＝1年活動して成婚退会したときの総額（成婚料を加算）。<strong>お見合い料（都度払いの相談所）・オプション・キャンペーンは含みません</strong>。料金は当サイトが各公式サイトで確認した公表値（オンライン3社=2026年7月5日／仲人型2社=2026年7月／エクセレンス青山・ウェルスマ・ブライダルチューリップ・フォリパートナー・ヒーローマリッジ=2026年7月31日確認・税込）ですが、改定される場合があるため申込前に各公式サイトでご確認ください。
           </p>
         </section>
+
+        <A8Banner ad="wellsma" />
 
         <section className="mb-10">
           <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">各社の特徴と割引・返金保証</h2>

@@ -263,6 +263,8 @@ export default function RingbellReview() {
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
             <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/review/bridal-tulip/" className="text-[#8B7355] underline">ブライダルチューリップの評判・料金を見る（3連盟・月会費7,550円〜の仲人型）</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの評判・料金を見る（来店不要のオンライン仲人型・月11,800円〜）</Link></li>
             <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
