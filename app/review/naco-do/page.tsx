@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import A8Banner from "@/components/A8Banner";
 
 export const metadata = {
   title: "naco-do（ナコード）の口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -272,6 +273,7 @@ export default function NacoDoReview() {
             ))}
           </div>
         </section>
+      <A8Banner ad="nacodo" />
       <AuthorBox />
       </article>
     </>

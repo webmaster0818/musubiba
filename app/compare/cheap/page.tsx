@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import A8Banner from "@/components/A8Banner";
 
 export const metadata: Metadata = {
   title: "安い結婚相談所はどこ？1年総額で比較【2026年】検証済み料金ランキング",
@@ -230,6 +231,8 @@ export default function CheapComparePage() {
             <Link href="/compare/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">料金比較一覧</Link>
           </div>
         </section>
+
+        <A8Banner ad="nacodo" />
       </main>
     </>
   );
