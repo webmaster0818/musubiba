@@ -274,6 +274,15 @@ export default function HeroMarriageReview() {
         </section>
 
       <A8Banner ad="hero" />
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">男性の婚活で比較したい相談所</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            男性専門のヒーローマリッジと比較するなら、<Link href="/review/bridal-tulip/" className="text-[#8B7355] underline">ブライダルチューリップ</Link>（高田馬場・3連盟で紹介可能会員約19万名）も候補になります。月会費7,550円〜と月額を抑えて始められる仲人型で、男性の入会も受け付けています。料金体系や成婚料の違いは各レビューで比較してください。
+          </p>
+          <A8Banner ad="tulip-men" />
+        </section>
+
       <AuthorBox />
       </article>
     </>
