@@ -17,6 +17,7 @@ const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [
   { match: /リングベル|ringbell/i, href: "/review/ringbell/", label: "リングベルの詳細レビュー" },
   { match: /ムスベル|musbell/i, href: "/review/musbell/", label: "ムスベルの詳細レビュー" },
   { match: /サンマーレ|マーズカフェ|mars ?cafe/i, href: "/review/mars-cafe/", label: "Mars cafeの詳細レビュー" },
+  { match: /IBJ ?メンバーズ|IBJ ?members/i, href: "/review/ibj-members/", label: "IBJメンバーズの詳細レビュー" },
 ];
 
 export default function AreaAgencyList({ area, areaName }: { area: string; areaName: string }) {

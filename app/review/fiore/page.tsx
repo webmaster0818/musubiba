@@ -271,6 +271,7 @@ export default function FioreReview() {
           <h2 className="text-xl font-light mb-4 tracking-widest">フィオーレの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談で成婚率トップクラスのサポートを体験しましょう</p>
           <div className="mb-6">
+            <p className="text-[10px] tracking-widest text-gray-400 mb-2 text-center">PR（フィオーレ・提携広告）</p>
             <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
               <img src="https://t.felmat.net/fmimg/T8680S.X1309788.Z1361712" width="300" height="250" alt="フィオーレ" className="mx-auto rounded-lg" />
             </a>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
@@ -124,6 +125,8 @@ export default function SunmarieReview() {
           </div>
         </div>
 
+        <A8Banner ad="sunmarie" />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">サンマリエの強み・特徴</h2>
           <div className="space-y-6">
@@ -217,6 +220,8 @@ export default function SunmarieReview() {
             <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る</Link></li>
           </ul>
         </section>
+
+        <A8Banner ad="sunmarie" />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>

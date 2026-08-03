@@ -390,6 +390,7 @@ export default function Home() {
               { name: "東京フォリパートナー", slug: "folli-partner", path: "/review/folli-partner/", fee: "月会費16,500円〜" },
               { name: "ヒーローマリッジ", slug: "hero-marriage", path: "/review/hero-marriage/", fee: "月会費14,300円〜" },
               { name: "エクセレンス青山", slug: "excellence-aoyama", path: "/review/excellence-aoyama/", fee: "月会費7,700円〜" },
+              { name: "IBJメンバーズ", slug: "ibj-members", path: "/review/ibj-members/", fee: "月会費17,050円" },
             ].map((agency) => (
               <Link
                 key={agency.name}

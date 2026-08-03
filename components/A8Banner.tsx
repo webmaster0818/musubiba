@@ -1,4 +1,4 @@
-// A8アフィリエイトバナー(2026-07-31施主支給・審査通過分5社)。
+// アフィリエイトバナー(施主支給・審査通過分)。A8(2026-07-31)+felmat(2026-08-03: sunmarie/partner-agent/ibj-members)。
 // AFF_*は支給コードのバイト厳密一致(改変禁止)。文言・計測タグ(1x1 img)を変更しないこと。
 // 表示は広告(PR)表記つきの枠で包む。装飾はラッパー側のみ。
 
@@ -32,6 +32,18 @@ const ADS: Record<string, { label: string; html: string }> = {
     html: `<a href="https://px.a8.net/svt/ejp?a8mat=4B8DGP+GCTQ2A+VO0+C465T" rel="nofollow">
 <img border="0" width="300" height="250" alt="" src="https://www26.a8.net/svt/bgt?aid=260731177989&wid=001&eno=01&mid=s00000004104002035000&mc=1"></a>
 <img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4B8DGP+GCTQ2A+VO0+C465T" alt="">`,
+  },
+  sunmarie: {
+    label: "サンマリエ",
+    html: `<a href="https://t.felmat.net/fmcl?ak=N4707F.1.T84894Q.Z1361712" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/N4707F.T84894Q.Z1361712" width="300" height="250" alt="" border="0" /></a>`,
+  },
+  "partner-agent": {
+    label: "パートナーエージェント",
+    html: `<a href="https://t.felmat.net/fmcl?ak=L20406.1.R50563Q.Z1361712" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/L20406.R50563Q.Z1361712" width="300" height="250" alt="" border="0" /></a>`,
+  },
+  "ibj-members": {
+    label: "IBJメンバーズ",
+    html: `<a href="https://t.felmat.net/fmcl?ak=T4375L.1.T84236V.Z1361712" target="_blank" rel="nofollow noopener"><img src="https://t.felmat.net/fmimg/T4375L.T84236V.Z1361712" width="300" height="250" alt="" border="0" /></a>`,
   },
   "tulip-men": {
     label: "ブライダルチューリップ（男性向け）",
