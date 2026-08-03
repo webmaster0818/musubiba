@@ -241,6 +241,7 @@ export default function BridalTulipReview() {
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較一覧を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る（大手・全国拠点）</Link></li>
             <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（複数連盟加盟の仲人型大手）</Link></li>
+            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#8B7355] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る（オンライン完結・低価格帯）</Link></li>
           </ul>
         </section>

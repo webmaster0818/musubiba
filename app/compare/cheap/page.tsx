@@ -270,7 +270,7 @@ export default function CheapComparePage() {
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#8B7355] mb-1">2. 安さの理由＝サポートの範囲を理解する</h3>
-              <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">オンライン型が安いのは店舗と専任仲人のコストがないから。検索・申し込み・交際の進行を自分で回せる人には十分ですが、伴走してほしい人は仲人型のほうが結果的に早く安く済むこともあります。</p>
+              <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">オンライン型が安いのは店舗と専任仲人のコストがないから。検索・申し込み・交際の進行を自分で回せる人には十分ですが、伴走してほしい人は仲人型のほうが結果的に早く安く済むこともあります。来店不要のオンライン型4社（スマリッジ・ウェルスマ・エン婚活・naco-do）のサポート形式・会員基盤まで含めた比較は<Link href="/compare/online/" className="text-[#8B7355] underline">オンライン結婚相談所の比較</Link>で確認できます。</p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#8B7355] mb-1">3. 返金保証と割引の条件を必ず確認</h3>

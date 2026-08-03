@@ -320,6 +320,7 @@ export default function FolliPartnerReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/folli-vs-musbell/" className="text-[#8B7355] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/review/niko-bridal/" className="text-[#8B7355] underline">nikoブライダルの評判・料金を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>

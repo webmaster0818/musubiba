@@ -277,6 +277,8 @@ export default function MusbellReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#8B7355] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
+            <li><Link href="/compare/folli-vs-musbell/" className="text-[#8B7355] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
             <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
             <li><Link href="/review/folli-partner/" className="text-[#8B7355] underline">フォリパートナーの評判・料金を見る（同じIBJ仲人型・毎月の紹介人数保証つき）</Link></li>
