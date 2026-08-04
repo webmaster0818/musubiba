@@ -276,6 +276,8 @@ export default function MusbellReview() {
             ムスベルが自分に合うか迷ったら、同じ仲人サポートのある相談所と総額・特徴を見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/ibj-vs-musbell/" className="text-[#8B7355] underline">IBJメンバーズとムスベルを比較する（IBJ直営と加盟店の違い・成婚までの総額）</Link></li>
+            <li><Link href="/compare/sunmarie-vs-musbell/" className="text-[#8B7355] underline">サンマリエとムスベルを比較する（仲人型どうしの実質総額・サポートの型）</Link></li>
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/compare/tulip-vs-musbell/" className="text-[#8B7355] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/compare/folli-vs-musbell/" className="text-[#8B7355] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>

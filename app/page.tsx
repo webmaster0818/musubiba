@@ -456,6 +456,10 @@ export default function Home() {
               <p className="font-medium text-[#8B7355] tracking-wider">安い結婚相談所を1年総額で比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用＋月会費＋成婚料で検証した料金ランキング</p>
             </Link>
+            <Link href="/mens/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">男性の結婚相談所おすすめ比較</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">男性の費用実額・男性向けサポートで検証／30代は何から始めるか</p>
+            </Link>
             <Link href="/review/code-for-marriage/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
               <p className="font-medium text-[#8B7355] tracking-wider">Code For Marriageの評判・料金</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">ITエンジニア専門・全員元SEの仲人／リモート対応</p>

@@ -214,6 +214,7 @@ export default function SunmarieReview() {
             サンマリエが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
+            <li><Link href="/compare/sunmarie-vs-musbell/" className="text-[#8B7355] underline">サンマリエとムスベルを比較する（仲人型どうしの実質総額・サポートの型）</Link></li>
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
             <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
