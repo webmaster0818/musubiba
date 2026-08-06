@@ -57,6 +57,18 @@ const ADS: Record<string, { label: string; html: string }> = {
 <img border="0" width="300" height="250" alt="" src="https://www20.a8.net/svt/bgt?aid=260731177990&wid=028&eno=01&mid=s00000021754001006000&mc=1"></a>
 <img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4B8DGP+GDFQI2+4NUS+5ZMCH" alt="">`,
   },
+  pitto: {
+    label: "P!っと縁結び",
+    html: `<a href="https://px.a8.net/svt/ejp?a8mat=4B8DGP+GAFZN6+5UBE+5YZ75" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www22.a8.net/svt/bgt?aid=260731177985&wid=001&eno=01&mid=s00000027257001003000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=4B8DGP+GAFZN6+5UBE+5YZ75" alt="">`,
+  },
+  bellroad: {
+    label: "ベルロード縁結びサポート",
+    html: `<a href="https://px.a8.net/svt/ejp?a8mat=4B8DGP+G7GTMA+4MPE+61C2P" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www22.a8.net/svt/bgt?aid=260731177980&wid=001&eno=01&mid=s00000021605001014000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4B8DGP+G7GTMA+4MPE+61C2P" alt="">`,
+  },
 };
 
 export default function A8Banner({ ad }: { ad: keyof typeof ADS | string }) {

@@ -391,6 +391,8 @@ export default function Home() {
               { name: "ヒーローマリッジ", slug: "hero-marriage", path: "/review/hero-marriage/", fee: "月会費14,300円〜" },
               { name: "エクセレンス青山", slug: "excellence-aoyama", path: "/review/excellence-aoyama/", fee: "月会費7,700円〜" },
               { name: "IBJメンバーズ", slug: "ibj-members", path: "/review/ibj-members/", fee: "月会費17,050円" },
+              { name: "P!っと縁結び", slug: "pitto", path: "/review/pitto/", fee: "月会費11,000円〜" },
+              { name: "ベルロード縁結びサポート", slug: "bellroad", path: "/review/bellroad/", fee: "月9,800円(サブスク型)" },
             ].map((agency) => (
               <Link
                 key={agency.name}

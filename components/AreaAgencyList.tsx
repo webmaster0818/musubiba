@@ -18,6 +18,8 @@ const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [
   { match: /ムスベル|musbell/i, href: "/review/musbell/", label: "ムスベルの詳細レビュー" },
   { match: /サンマーレ|マーズカフェ|mars ?cafe/i, href: "/review/mars-cafe/", label: "Mars cafeの詳細レビュー" },
   { match: /IBJ ?メンバーズ|IBJ ?members/i, href: "/review/ibj-members/", label: "IBJメンバーズの詳細レビュー" },
+  { match: /P!?っと縁結び|ピッと縁結び|ピット縁結び/i, href: "/review/pitto/", label: "P!っと縁結びの詳細レビュー" },
+  { match: /ベルロード/i, href: "/review/bellroad/", label: "ベルロード縁結びサポートの詳細レビュー" },
 ];
 
 export default function AreaAgencyList({ area, areaName }: { area: string; areaName: string }) {
