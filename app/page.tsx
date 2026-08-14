@@ -458,6 +458,14 @@ export default function Home() {
               <p className="font-medium text-[#8B7355] tracking-wider">安い結婚相談所を1年総額で比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用＋月会費＋成婚料で検証した料金ランキング</p>
             </Link>
+            <Link href="/area/tokyo/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">東京の結婚相談所を比較</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">東京で通いやすい相談所を料金実額と拠点で検証</p>
+            </Link>
+            <Link href="/area/osaka/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
+              <p className="font-medium text-[#8B7355] tracking-wider">大阪の結婚相談所を比較</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">大阪・梅田エリアの相談所を実額で比較</p>
+            </Link>
             <Link href="/mens/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
               <p className="font-medium text-[#8B7355] tracking-wider">男性の結婚相談所おすすめ比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">男性の費用実額・男性向けサポートで検証／30代は何から始めるか</p>
