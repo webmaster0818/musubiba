@@ -5,7 +5,7 @@ import AreaAgencyList from "@/components/AreaAgencyList";
 export const metadata: Metadata = {
   title: "名古屋の結婚相談所一覧｜Google口コミ実データで比較【2026年】",
   description:
-    "東京の実在する結婚相談所を、Googleマップの実データ（評点・口コミ件数）をもとに口コミ件数順で紹介。名古屋駅・栄・金山など主要エリアの相談所を、Googleマップの口コミと公式サイトへのリンク付きで比較できます。",
+    "名古屋の実在する結婚相談所を、Googleマップの実データ（評点・口コミ件数）をもとに口コミ件数順で紹介。名古屋駅・栄・金山など主要エリアの相談所を、Googleマップの口コミと公式サイトへのリンク付きで比較できます。",
   alternates: { canonical: "https://mu-su-bi-ba.com/area/nagoya/" },
 };
 

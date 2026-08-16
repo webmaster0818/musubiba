@@ -5,7 +5,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata = {
   title: "Code For Marriageの評判・料金【2026年】エンジニア専門結婚相談所の実態を解説",
   description:
-    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会77,000円・月11,000円・成婚費220,000円（税込・2026年7月公式確認）、U-30プラン、100%リモート対応の実態と向き不向きを中立解説します。",
+    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会77,000円・月11,000円・成婚費220,000円（税込・2026年8月公式確認）、U-30プラン、100%リモート対応の実態と向き不向きを中立解説します。",
   alternates: { canonical: "/review/code-for-marriage/" },
 };
 
@@ -36,7 +36,7 @@ const strengths = [
   },
   {
     title: "IBJ正規加盟＋U-30向けの割安プラン",
-    desc: "IBJ（日本結婚相談所連盟）の正規加盟店で、お相手探しは全国規模の会員ネットワークが対象。30歳未満向けのU-30プラン（入会33,000円・月7,700円）があり、若手エンジニアは初期負担を抑えて始められます。",
+    desc: "IBJ（日本結婚相談所連盟）の正規加盟店で、お相手探しは全国規模の会員ネットワークが対象。30歳以下限定のU-30プラン（入会33,000円・月7,700円・毎月1名限定と公式明記）があり、若手エンジニアは初期負担を抑えて始められます。",
   },
 ];
 
@@ -58,7 +58,7 @@ const cons = [
 const faqs = [
   {
     q: "Code For Marriageの料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年7月確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
+    a: "公式公表の料金（税込・2026年8月17日確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
   },
   {
     q: "エンジニア以外でも入会できますか？",
@@ -122,7 +122,7 @@ export default function CodeForMarriageReview() {
             <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：仕事や技術の話を「説明しなくても分かってくれる」担当者が欲しいエンジニア。地方・リモート勤務で通所が難しい人。</span></li>
             <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：2022年設立で第三者口コミが少ないため、無料相談での相性確認が判断の中心になります。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年7月確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年8月17日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
@@ -169,14 +169,15 @@ export default function CodeForMarriageReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年8月公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">スタンダード：入会費</td><td className="px-4 py-3">77,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">スタンダード：月会費</td><td className="px-4 py-3">11,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">成婚費（成婚退会時）</td><td className="px-4 py-3">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">U-30プラン（30歳未満）</td><td className="px-4 py-3">入会33,000円・月7,700円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">ライトU-30プラン（30歳以下・毎月1名限定）</td><td className="px-4 py-3">入会33,000円・月7,700円・成婚費220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">フルサポートプラン（人数限定）</td><td className="px-4 py-3">入会220,000円・月会費0円・お見合い料10,000円/回・成婚費550,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年活動の総額目安（成婚なし）</td><td className="px-4 py-3">約209,000円（77,000＋11,000×12）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">約429,000円（上記＋成婚費220,000）</td></tr>
               </tbody>
