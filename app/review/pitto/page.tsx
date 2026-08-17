@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "P!っと縁結びの評判は？ピップ株式会社運営のIBJ正規加盟店を公式情報で検証【料金・1年総額まで】",
@@ -310,6 +311,8 @@ export default function PittoReview() {
         </section>
 
         {/* FAQ */}
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
             よくある質問

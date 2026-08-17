@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title:
@@ -328,6 +329,8 @@ export default function FolliPartnerReview() {
         </section>
 
         {/* FAQ */}
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
             よくある質問

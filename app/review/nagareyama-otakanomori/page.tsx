@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "流山おおたかの森結婚相談所の評判・料金【2026年】IBJ加盟・月会費9,900円の実態を解説",
@@ -214,6 +215,8 @@ export default function NagareyamaOtakanomoriReview() {
             <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較一覧を見る</Link></li>
           </ul>
         </section>
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "Code For Marriageの評判・料金【2026年】エンジニア専門結婚相談所の実態を解説",
@@ -200,6 +201,8 @@ export default function CodeForMarriageReview() {
             <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span><span><strong>契約条件を書面で確認</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は必ず書面で確認しましょう。</span></li>
           </ul>
         </section>
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>

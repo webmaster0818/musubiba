@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "ベルロード縁結びサポートの評判は？月9,800円のサブスク婚活を公式情報で検証【IBJ加盟】",
@@ -326,6 +327,8 @@ export default function BellroadReview() {
         <A8Banner ad="bellroad" />
 
         {/* FAQ */}
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
             よくある質問

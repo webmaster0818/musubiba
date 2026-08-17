@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "ムスベルの評判・口コミ・料金｜「やばい」の真相を中立解説【2026年】",
@@ -299,6 +300,8 @@ export default function MusbellReview() {
             <li><Link href="/knowledge/flow/" className="text-[#8B7355] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
           </ul>
         </section>
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>

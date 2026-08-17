@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "nikoブライダル（大阪）の評判・料金【2026年】成婚率56.3%の算出条件まで検証",
@@ -210,6 +211,8 @@ export default function NikoBridalReview() {
             当サイトは口コミの創作をしない方針です。生の評判はGoogleマップの口コミ（IBJの「反響を呼んだ結婚相談所100社」にGoogleクチコミ評価基準で入賞）をご確認のうえ、無料相談で代表カウンセラーとの相性を確かめるのが確実です。
           </p>
         </section>
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
+import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
   title: "サンマリエの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -223,6 +224,8 @@ export default function SunmarieReview() {
         </section>
 
         <A8Banner ad="sunmarie" />
+
+        <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
