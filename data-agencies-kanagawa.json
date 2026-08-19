@@ -1,0 +1,1906 @@
+{
+ "surveyedAt": "2026-08-20",
+ "prefName": "神奈川",
+ "agencies": [
+  {
+   "name": "結婚相談所オーネット 横浜店",
+   "rating": 4.4,
+   "count": 263,
+   "address": "日本、〒221-0056 神奈川県横浜市神奈川区金港町２−６ 横浜プラザビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=702660461624443839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/kanagawa/yokohama/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=yokohama",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所オーネット-横浜店-1d84"
+  },
+  {
+   "name": "IBJメンバーズ 横浜店",
+   "rating": 4.7,
+   "count": 148,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目６−１ 横浜ファーストビル10F",
+   "mapsUri": "https://maps.google.com/?cid=7949367555210996422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/yokohama/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_yokohama",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "IBJメンバーズ-横浜店-1080"
+  },
+  {
+   "name": "結婚相談所ウィッシュ",
+   "rating": 4.9,
+   "count": 108,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１５ 横浜ＳＴビル １５階",
+   "mapsUri": "https://maps.google.com/?cid=16507069869255205986&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriageclub-wish.com/lp/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所ウィッシュ-9f9e"
+  },
+  {
+   "name": "結婚相談所サンマリエ横浜みなとみらいサロン",
+   "rating": 4.4,
+   "count": 103,
+   "address": "日本、〒231-0062 神奈川県横浜市中区桜木町１丁目１０１−１ クロスゲート 7階",
+   "mapsUri": "https://maps.google.com/?cid=8573573456286197097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kanto/minatomirai/?utm_source=yokohama&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所サンマリエ横浜みなとみらいサロン-e97d"
+  },
+  {
+   "name": "結婚相談所ツヴァイ横浜店",
+   "rating": 4.4,
+   "count": 102,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１５ 横浜STビル ９階",
+   "mapsUri": "https://maps.google.com/?cid=12399404757960377420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/kanagawa/yokohama/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所ツヴァイ横浜店-b494"
+  },
+  {
+   "name": "結婚相談所マダカナ",
+   "rating": 4.9,
+   "count": 102,
+   "address": "日本、〒231-0032 神奈川県横浜市中区不老町１丁目２−１ 中央第6関内ビル3階",
+   "mapsUri": "https://maps.google.com/?cid=2414319256220991636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ymadakana.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所マダカナ-6360"
+  },
+  {
+   "name": "ラポールアンカー婚活サロン",
+   "rating": 4.6,
+   "count": 90,
+   "address": "日本、〒220-0072 神奈川県横浜市西区浅間町１丁目７−１",
+   "mapsUri": "https://maps.google.com/?cid=3952014201982873560&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/yokohama",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "ラポールアンカー婚活サロン-2a58"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント横浜店",
+   "rating": 4,
+   "count": 81,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１−２２ ナガオカビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=4954968885618221763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kanto/yokohama.html?cid=se002&argument=wgvYBfWa&dmai=9719",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所パートナーエージェント横浜店-e1bd"
+  },
+  {
+   "name": "結婚相談所 良縁サポート 和",
+   "rating": 4.9,
+   "count": 59,
+   "address": "日本、〒211-0053 神奈川県川崎市中原区上小田中６丁目２２−２３ サンボヌール 306",
+   "mapsUri": "https://maps.google.com/?cid=8448708705863926982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ryouensupport-kazu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm",
+    "shin-yokohama",
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "結婚相談所-良縁サポート-和-21e4"
+  },
+  {
+   "name": "結婚相談所Marry Celebrate(マリーセレブレイト)",
+   "rating": 5,
+   "count": 57,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４８ むつみビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=4229109405971239850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marry-celebrate.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所Marry-Celebrate-マリーセレブレイト-2730"
+  },
+  {
+   "name": "結婚相談所マリアージュ.com",
+   "rating": 4.9,
+   "count": 56,
+   "address": "日本、〒252-0325 神奈川県相模原市南区新磯野３６９",
+   "mapsUri": "https://maps.google.com/?cid=6161599972492741084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://マリアージュ.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所マリアージュ-com-730c"
+  },
+  {
+   "name": "結婚相談所ムスベル 横浜店",
+   "rating": 4.7,
+   "count": 55,
+   "address": "日本、〒231-0005 神奈川県横浜市中区本町１丁目４ プライムメゾン横濱日本大通 2階",
+   "mapsUri": "https://maps.google.com/?cid=10998106612536595304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=yokohama&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama",
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所ムスベル-横浜店-d73f"
+  },
+  {
+   "name": "横浜マリッジナビ(婚活・結婚相談所）",
+   "rating": 5,
+   "count": 50,
+   "address": "日本、〒220-0023 神奈川県横浜市西区平沼１丁目４０−１ 嶋森ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=16187999832492993544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://7marinavi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "横浜マリッジナビ-婚活-結婚相談所-70da"
+  },
+  {
+   "name": "FAM marriage",
+   "rating": 5,
+   "count": 43,
+   "address": "日本、〒213-0001 神奈川県川崎市高津区溝口１丁目９−７",
+   "mapsUri": "https://maps.google.com/?cid=1974316793201360884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fammarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "FAM-marriage-7784"
+  },
+  {
+   "name": "結婚相談所 Enishell",
+   "rating": 4.9,
+   "count": 43,
+   "address": "日本、〒253-0021 神奈川県茅ヶ崎市浜竹２丁目２−２",
+   "mapsUri": "https://maps.google.com/?cid=7145243769763467167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa",
+    "odawara"
+   ],
+   "slug": "結婚相談所-Enishell-35bd"
+  },
+  {
+   "name": "男性専用結婚相談所 結婚相談STブライダル",
+   "rating": 5,
+   "count": 42,
+   "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町３丁目31−２ DAIKYO KENKI KAWASAKI BLDG 9-19 MIDPOINT KAWASAKI内",
+   "mapsUri": "https://maps.google.com/?cid=7484157708962739215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://st-bridal2014.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "男性専用結婚相談所-結婚相談STブライダル-df87"
+  },
+  {
+   "name": "結婚相談所ツヴァイ藤沢店",
+   "rating": 4.5,
+   "count": 42,
+   "address": "日本、〒251-0052 神奈川県藤沢市藤沢４８４−１ 藤沢アンバービル 5階",
+   "mapsUri": "https://maps.google.com/?cid=7200791832631379932&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/kanagawa/fujisawa/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所ツヴァイ藤沢店-5692"
+  },
+  {
+   "name": "ブライダルサロン ラマーナ",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１ 水信ビル ７階",
+   "mapsUri": "https://maps.google.com/?cid=4388882425997588730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lamarna.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama",
+    "yokosuka"
+   ],
+   "slug": "ブライダルサロン-ラマーナ-1ec6"
+  },
+  {
+   "name": "結婚相談所 ハッピーコネクト",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ 5階 HamaPort内",
+   "mapsUri": "https://maps.google.com/?cid=15103217889122166650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.happy-connect.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所-ハッピーコネクト-2b20"
+  },
+  {
+   "name": "横浜の結婚相談所 アロハハッピーマリッジ",
+   "rating": 5,
+   "count": 33,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１ 7階",
+   "mapsUri": "https://maps.google.com/?cid=11565812601036743112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aloha-hm.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "横浜の結婚相談所-アロハハッピーマリッジ-8450"
+  },
+  {
+   "name": "結婚相談所エールマリアージュ",
+   "rating": 5,
+   "count": 31,
+   "address": "日本、〒231-0027 神奈川県横浜市中区扇町１丁目1−２５ キンガビル 108号室",
+   "mapsUri": "https://maps.google.com/?cid=6645630032117387972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://kekkon15.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所エールマリアージュ-3efe"
+  },
+  {
+   "name": "結婚相談所ムスベル 相模原店",
+   "rating": 4.6,
+   "count": 31,
+   "address": "日本、〒252-0303 神奈川県相模原市南区相模大野８丁目１０−６ ユタカビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=2794495166484261981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=sagamihara&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所ムスベル-相模原店-ac1d"
+  },
+  {
+   "name": "横浜Be婚",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒231-0063 神奈川県横浜市中区花咲町１丁目46−１ 駅前801",
+   "mapsUri": "https://maps.google.com/?cid=5355041118526759216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.omikon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "横浜Be婚-df13"
+  },
+  {
+   "name": "結婚相談所サンテマリアージュ辻堂",
+   "rating": 5,
+   "count": 29,
+   "address": "日本、〒251-0041 神奈川県藤沢市辻堂神台２丁目２−１ アイクロス湘南 5階",
+   "mapsUri": "https://maps.google.com/?cid=9500018444567885280&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://santemariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所サンテマリアージュ辻堂-bf2a"
+  },
+  {
+   "name": "婚活サロンエターナルブリッジ結婚相談所",
+   "rating": 5,
+   "count": 29,
+   "address": "日本、〒243-0432 神奈川県海老名市中央１丁目１６−３１ A＆NIビル 1F BIZcomfort海老名",
+   "mapsUri": "https://maps.google.com/?cid=10402249810888535771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://eternal-bridge.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "婚活サロンエターナルブリッジ結婚相談所-2b7f"
+  },
+  {
+   "name": "結婚相談所 T＆Hベストパートナー",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒213-0001 神奈川県川崎市高津区溝口１丁目２０−２１",
+   "mapsUri": "https://maps.google.com/?cid=13894702240192446634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ohgi.biz/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "結婚相談所-T-Hベストパートナー-0946"
+  },
+  {
+   "name": "厚木 結婚相談所フォアファーザー(婚活)",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒257-0003 神奈川県厚木市寿町２丁目１−1 8 BIZcomfort本厚木 1 F",
+   "mapsUri": "https://maps.google.com/?cid=15192933458560481116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fourfather-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "厚木-結婚相談所フォアファーザー-婚活-2e08"
+  },
+  {
+   "name": "結婚相談所マリッジコンシェルジュ横浜",
+   "rating": 5,
+   "count": 23,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ 5階 HamaPort内",
+   "mapsUri": "https://maps.google.com/?cid=4000389589465850671&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-c-y.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所マリッジコンシェルジュ横浜-e0a6"
+  },
+  {
+   "name": "横浜婚活・結婚相談所センター",
+   "rating": 4.9,
+   "count": 22,
+   "address": "日本、〒241-0024 神奈川県横浜市旭区本村町９６−２６",
+   "mapsUri": "https://maps.google.com/?cid=7217460025266460634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.yokohama-ryoen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "横浜婚活-結婚相談所センター-d4aa"
+  },
+  {
+   "name": "横浜婚活サポート室",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４８ むつみビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=4329373184641468493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hamakon.org/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm",
+    "shin-yokohama"
+   ],
+   "slug": "横浜婚活サポート室-a234"
+  },
+  {
+   "name": "ヒュッゲパートナー結婚相談所【横浜サロン】",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒221-0052 神奈川県横浜市神奈川区栄町５−１ 横浜クリエーションスクエア 14階",
+   "mapsUri": "https://maps.google.com/?cid=15425444592826538745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hyggepartner.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "fujisawa"
+   ],
+   "slug": "ヒュッゲパートナー結婚相談所-横浜サロン-573e"
+  },
+  {
+   "name": "結婚相談所Allegro（アレグロ）",
+   "rating": 4.2,
+   "count": 20,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜２丁目15−１０ YS新横浜ビル 5-28",
+   "mapsUri": "https://maps.google.com/?cid=15984404291863914081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://allegro.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所Allegro-アレグロ-d743"
+  },
+  {
+   "name": "マリアージュサンドリヨン横浜",
+   "rating": 4.9,
+   "count": 19,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−10番地48 むつみビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=10074181380454792548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariage-cendrillon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "shin-yokohama"
+   ],
+   "slug": "マリアージュサンドリヨン横浜-d268"
+  },
+  {
+   "name": "結婚相談所SACHIFULL",
+   "rating": 4.7,
+   "count": 19,
+   "address": "日本、〒220-0011 神奈川県横浜市西区高島２丁目６−３２ １７階",
+   "mapsUri": "https://maps.google.com/?cid=2375196715549215517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sachifull.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所SACHIFULL-6cdd"
+  },
+  {
+   "name": "ブライダルサロンラマーナ",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒240-0104 神奈川県横須賀市芦名１丁目６−２３",
+   "mapsUri": "https://maps.google.com/?cid=11242107941157388592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lamarna.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokosuka"
+   ],
+   "slug": "ブライダルサロンラマーナ-edfd"
+  },
+  {
+   "name": "結婚相談所 レッツマリー",
+   "rating": 4.9,
+   "count": 17,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−４８ むつみビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=3442133030465767074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-letsmarry.com/common/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所-レッツマリー-9fce"
+  },
+  {
+   "name": "逗子葉山結婚相談所HOME",
+   "rating": 4.9,
+   "count": 17,
+   "address": "日本、〒240-0116 神奈川県三浦郡葉山町下山口１９３６ 株式会社ヌマタ内",
+   "mapsUri": "https://maps.google.com/?cid=14645355135991698771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.home-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokosuka"
+   ],
+   "slug": "逗子葉山結婚相談所HOME-84cc"
+  },
+  {
+   "name": "とら婚 横浜オフィス ～オタクに寄り添う結婚相談所、オタク婚活なら～",
+   "rating": 4.5,
+   "count": 16,
+   "address": "日本、〒221-0056 神奈川県横浜市神奈川区金港町７−３ 7F",
+   "mapsUri": "https://maps.google.com/?cid=12682892587227547314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toracon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827"
+  },
+  {
+   "name": "IBJMatching みなとみらい",
+   "rating": 4.5,
+   "count": 15,
+   "address": "日本、〒231-0062 神奈川県横浜市中区桜木町１丁目１０１−１ クロスゲート 7階",
+   "mapsUri": "https://maps.google.com/?cid=8713369258773326105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_kanagawa/area_minatomirai/floor_yokohama-minatomirai",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "IBJMatching-みなとみらい-2377"
+  },
+  {
+   "name": "シーネット結婚相談所",
+   "rating": 4.7,
+   "count": 15,
+   "address": "日本、〒230-0001 神奈川県横浜市鶴見区矢向４丁目１０−７ パールコート 1F",
+   "mapsUri": "https://maps.google.com/?cid=1554075029169700836&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.1122.yokohama/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "シーネット結婚相談所-719c"
+  },
+  {
+   "name": "結婚相談所 Marri and more...COCOKARA",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒252-0311 神奈川県相模原市南区東林間３丁目６−８ 201",
+   "mapsUri": "https://maps.google.com/?cid=16086049857132610200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mam-cocokara.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所-Marri-and-more-COCOKARA-2f65"
+  },
+  {
+   "name": "横浜結婚STORY",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ エキニア横浜ビル 5階 HamaPort 内",
+   "mapsUri": "https://maps.google.com/?cid=7984994916918460172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkonstory.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "横浜結婚STORY-f7bd"
+  },
+  {
+   "name": "結婚相談所Enishell 小田原",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒250-0011 神奈川県小田原市栄町１丁目４−２ 第12松本ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=4527961736335452442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "結婚相談所Enishell-小田原-78c7"
+  },
+  {
+   "name": "婚活サロン wedding aisle〜ウエディング アイル〜",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒252-0318 神奈川県相模原市南区上鶴間本町４丁目７",
+   "mapsUri": "https://maps.google.com/?cid=6982310408918568192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.wedding-aisle.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "婚活サロン-wedding-aisle-ウエディング-アイル-e120"
+  },
+  {
+   "name": "結婚相談所 sakura 愛",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒243-0433 神奈川県海老名市河原口５丁目４−３",
+   "mapsUri": "https://maps.google.com/?cid=4869094254696734945&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sakura-ai.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "結婚相談所-sakura-愛-46f3"
+  },
+  {
+   "name": "寿パートナー横浜店",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒231-0062 神奈川県横浜市中区桜木町１丁目101番地1 クロスゲート 7階",
+   "mapsUri": "https://maps.google.com/?cid=14060490629093817989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kotobuki.page/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "寿パートナー横浜店-22c9"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 横浜店",
+   "rating": 2.8,
+   "count": 10,
+   "address": "日本、〒220-0004 神奈川県横浜市西区西区北幸１丁目４−１ 14 階",
+   "mapsUri": "https://maps.google.com/?cid=6443591112054787117&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/kanagawa/yokohama.html?vos=dzeksgmbt20052900007",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-横浜店-3e7a"
+  },
+  {
+   "name": "結婚相談所 ミライの約束",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒211-0025 神奈川県川崎市中原区木月４丁目３",
+   "mapsUri": "https://maps.google.com/?cid=4300220158811834325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mirainoyakusoku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "結婚相談所-ミライの約束-850e"
+  },
+  {
+   "name": "結婚相談所 紬愛",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒216-0007 神奈川県川崎市宮前区小台１丁目20−２",
+   "mapsUri": "https://maps.google.com/?cid=11825598502402697272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tsumugiai.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-紬愛-a6cd"
+  },
+  {
+   "name": "結婚相談所 婚活サロンEverything湘南",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒253-0056 神奈川県茅ヶ崎市共恵１丁目７−１",
+   "mapsUri": "https://maps.google.com/?cid=12552411030263363219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.everything-shonan.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所-婚活サロンEverything湘南-914a"
+  },
+  {
+   "name": "Happy.for you 結婚相談所",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒247-0061 神奈川県鎌倉市台４丁目５−１７ 鎌倉台ハウス",
+   "mapsUri": "https://maps.google.com/?cid=1335677126287486927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://happy-for-you.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "Happy-for-you-結婚相談所-e905"
+  },
+  {
+   "name": "結婚相談所Enishell横浜",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒231-0032 神奈川県横浜市中区不老町１丁目１−１１ 関内南口ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=7631943668535097352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所Enishell横浜-1c88"
+  },
+  {
+   "name": "障がい者専門の結婚相談所「Perfect for you」",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒252-0206 神奈川県相模原市中央区淵野辺３丁目５ 3₋5‐10",
+   "mapsUri": "https://maps.google.com/?cid=15591127266047601017&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://perfectforyou.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "障がい者専門の結婚相談所-Perfect-for-you-a837"
+  },
+  {
+   "name": "婚活サロン ブーケトス",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒231-0062 神奈川県横浜市中区桜木町１丁目",
+   "mapsUri": "https://maps.google.com/?cid=18073582713318428363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "婚活サロン-ブーケトス-c63f"
+  },
+  {
+   "name": "ツヴァイ 川崎店",
+   "rating": 4.3,
+   "count": 7,
+   "address": "日本、〒212-0012 神奈川県川崎市幸区中幸町３丁目31−２ DAIKYO KENKI KAWASAKI BLDG 7階 MID POINT川崎MID内（9階受付",
+   "mapsUri": "https://maps.google.com/?cid=11622566249157734363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/kanagawa/kawasaki/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "ツヴァイ-川崎店-643c"
+  },
+  {
+   "name": "NITO.【藤沢・湘南エリアの結婚相談所】",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒252-0816 神奈川県藤沢市遠藤７５２",
+   "mapsUri": "https://maps.google.com/?cid=3330521792665885746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nito-marriagesalon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "NITO-藤沢-湘南エリアの結婚相談所-90e6"
+  },
+  {
+   "name": "エスポワールヨコスカ中央ブライダル",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒238-0007 神奈川県横須賀市若松町２丁目２４",
+   "mapsUri": "https://maps.google.com/?cid=17312064130065199325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.espoir-yokosuka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokosuka"
+   ],
+   "slug": "エスポワールヨコスカ中央ブライダル-68e1"
+  },
+  {
+   "name": "厚木の世話好きばあばの結婚相談所",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒243-0018 神奈川県厚木市中町２丁目１３−１ レンブラントホテル厚木 1階 ロビーラウンジにて（面談・相談",
+   "mapsUri": "https://maps.google.com/?cid=1560223911768002404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://atsugi-sewazuki.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "厚木の世話好きばあばの結婚相談所-0fdb"
+  },
+  {
+   "name": "Rich Marriage【IBJ正規加盟店】",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒220-0011 神奈川県横浜市西区高島２丁目７−１ ファーストプレイス横浜 2F",
+   "mapsUri": "https://maps.google.com/?cid=497687027413453161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://richmarriage.glip.ltd/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "Rich-Marriage-IBJ正規加盟店-f14d"
+  },
+  {
+   "name": "結婚相談所 Kibito",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒231-0003 神奈川県横浜市中区北仲通５丁目５７−２",
+   "mapsUri": "https://maps.google.com/?cid=6721738506096923159&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所-Kibito-5c79"
+  },
+  {
+   "name": "SnowRose ／ 結婚相談所 ／ 大手結婚相談所加盟店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒214-0032 神奈川県川崎市多摩区枡形５丁目４",
+   "mapsUri": "https://maps.google.com/?cid=4542817800284537102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "SnowRose-結婚相談所-大手結婚相談所加盟店-e666"
+  },
+  {
+   "name": "藤沢の結婚相談所エターナル湘南",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒251-0035 神奈川県藤沢市片瀬海岸１丁目２−２",
+   "mapsUri": "https://maps.google.com/?cid=17842972849177717792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://eternal-shonan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "藤沢の結婚相談所エターナル湘南-8e2c"
+  },
+  {
+   "name": "結婚相談所 縁結びPRINTEMPS",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒251-0024 神奈川県藤沢市鵠沼橘１丁目５",
+   "mapsUri": "https://maps.google.com/?cid=3754140102498513969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.enprintemps.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所-縁結びPRINTEMPS-c831"
+  },
+  {
+   "name": "湘南の婚活・結婚相談・ 天使のはしご",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒251-0025 神奈川県藤沢市鵠沼石上２丁目５−１ 3F-C",
+   "mapsUri": "https://maps.google.com/?cid=7078097369522049811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tenshino8451122.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "湘南の婚活-結婚相談-天使のはしご-5214"
+  },
+  {
+   "name": "結婚相談室アリスパートナー",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒243-0212 神奈川県厚木市及川２丁目２０−２０",
+   "mapsUri": "https://maps.google.com/?cid=13023093988807578937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.alicepartner.me/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "結婚相談室アリスパートナー-8698"
+  },
+  {
+   "name": "あゆみの結婚相談所",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町18番１ メルス・サイトー 702",
+   "mapsUri": "https://maps.google.com/?cid=18309226759844979141&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ayukon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "あゆみの結婚相談所-6834"
+  },
+  {
+   "name": "結婚相談所ｰ結marriage supportｰ",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒252-0143 神奈川県相模原市緑区橋本３丁目２４−２４",
+   "mapsUri": "https://maps.google.com/?cid=14400315473065481733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yui-marriage-support.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所-結marriage-support-3f18"
+  },
+  {
+   "name": "チアーズブライダル／横浜結婚式 ・鎌倉結婚式・横須賀結婚式",
+   "rating": 4,
+   "count": 5,
+   "address": "日本、〒231-0861 神奈川県横浜市中区元町４丁目１６８ 横浜元町 B1F-45",
+   "mapsUri": "https://maps.google.com/?cid=14808762550587297421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://cheersbridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokosuka"
+   ],
+   "slug": "チアーズブライダル-横浜結婚式-鎌倉結婚式-横須賀結婚式-6869"
+  },
+  {
+   "name": "大人の結婚相談所 ウイング小田原",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒250-0011 神奈川県小田原市栄町１丁目１４−２８ ＮＴＴ東日本小田原ビル １Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=14860886563113917378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://wing-odawara.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "大人の結婚相談所-ウイング小田原-9802"
+  },
+  {
+   "name": "結婚相談所 神奈川県仲人協会",
+   "rating": 3.8,
+   "count": 4,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１−６ 鶴見ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=8128653062765008342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kanagawa-nakodo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所-神奈川県仲人協会-bc28"
+  },
+  {
+   "name": "みなとみらい結婚相談所ハート・ハック",
+   "rating": 4,
+   "count": 4,
+   "address": "日本、〒231-0862 神奈川県横浜市中区山手町205番地",
+   "mapsUri": "https://maps.google.com/?cid=2680654057216848320&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hearthack.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "みなとみらい結婚相談所ハート-ハック-82a3"
+  },
+  {
+   "name": "結婚相談所 BelleTune",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒212-0024 神奈川県川崎市幸区塚越３丁目",
+   "mapsUri": "https://maps.google.com/?cid=8945257326412235729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://belle-tune.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-BelleTune-ab2e"
+  },
+  {
+   "name": "結婚相談所 Pacific Bridal",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒238-0007 神奈川県横須賀市若松町１丁目16−１ 1510",
+   "mapsUri": "https://maps.google.com/?cid=17302865099312481885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pacific-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokosuka"
+   ],
+   "slug": "結婚相談所-Pacific-Bridal-0fb2"
+  },
+  {
+   "name": "スワンズブライダル海老名",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒243-0432 神奈川県海老名市中央２丁目９−５０ レンブラントホテル海老名",
+   "mapsUri": "https://maps.google.com/?cid=4334274899055217352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.swans-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "スワンズブライダル海老名-4c43"
+  },
+  {
+   "name": "第一ステージ（結婚相談所）",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒243-0003 神奈川県厚木市寿町２丁目１−１８ BIZcomfort本厚木 １Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=7950140098289327562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.dai1stg-primopasso.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "第一ステージ-結婚相談所-6781"
+  },
+  {
+   "name": "【IBJ正規加盟店】結婚相談所マレッジロードジャパン",
+   "rating": 3,
+   "count": 4,
+   "address": "日本、〒243-0424 神奈川県海老名市社家６丁目５−２ 301",
+   "mapsUri": "https://maps.google.com/?cid=13478123894547750721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-road-site.vercel.app/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "IBJ正規加盟店-結婚相談所マレッジロードジャパン-0fc1"
+  },
+  {
+   "name": "結婚相談所 ミレ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒211-0025 神奈川県川崎市中原区木月２丁目２−３６ フードショップオズ 内",
+   "mapsUri": "https://maps.google.com/?cid=1821786684475092012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-mire.com/about",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-ミレ-15bd"
+  },
+  {
+   "name": "結婚相談所カサ ベルデ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒251-0032 神奈川県藤沢市片瀬３丁目１０−１５",
+   "mapsUri": "https://maps.google.com/?cid=9793906901248345925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://casa-verde-happy.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所カサ-ベルデ-e15a"
+  },
+  {
+   "name": "マリアージュメリッサ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒250-0858 神奈川県小田原市小台３３２−１６",
+   "mapsUri": "https://maps.google.com/?cid=4953237946001937566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariage-melissa-healing.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "マリアージュメリッサ-bf4f"
+  },
+  {
+   "name": "茜会 横浜サロン",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒221-0835 神奈川県横浜市神奈川区鶴屋町２丁目２３−２ 4F",
+   "mapsUri": "https://maps.google.com/?cid=12070403141348123651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.akanekai.co.jp/yokohama/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "茜会-横浜サロン-491f"
+  },
+  {
+   "name": "結婚相談所 - Lukka （ルッカ）-",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒224-0037 神奈川県横浜市都筑区茅ケ崎南３丁目１１−１０ ジュノー本社ビル",
+   "mapsUri": "https://maps.google.com/?cid=8071510772762759425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lukka-juno.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所-Lukka-ルッカ-0ae8"
+  },
+  {
+   "name": "結婚相談所ラムール横浜店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒231-0032 神奈川県横浜市中央区不老町中区不老町１丁目 1-2-1 中央第６関内ビル３F ３０２号室",
+   "mapsUri": "https://maps.google.com/?cid=16157412650347969251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lamour-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所ラムール横浜店-3a95"
+  },
+  {
+   "name": "婚活Agent織縁",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒223-0055 神奈川県横浜市港北区綱島上町１−１",
+   "mapsUri": "https://maps.google.com/?cid=17944602640018868593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.agent-orien.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "婚活Agent織縁-3202"
+  },
+  {
+   "name": "フィアンジェ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒211-0001 神奈川県川崎市中原区上丸子八幡町１４９０",
+   "mapsUri": "https://maps.google.com/?cid=6441095588561683704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://fiange-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "フィアンジェ-0193"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント藤沢店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒251-0055 神奈川県藤沢市南藤沢４−３ 日本生命南藤沢ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=8711738410706033131&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kanto/fujisawa.html?cid=se002&argument=wgvYBfWa&dmai=a6717458f4b948",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所パートナーエージェント藤沢店-04cd"
+  },
+  {
+   "name": "α-qupidアルファ・キューピットは、IBJ正規加盟店 結婚相談所 婚活相談",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒252-0813 神奈川県藤沢市亀井野１０１５−２５",
+   "mapsUri": "https://maps.google.com/?cid=8140175102742541799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ekiten.jp/shop_54964867/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "qupidアルファ-キューピットは-IBJ正規加盟店-結婚相談所-婚活相談-1401"
+  },
+  {
+   "name": "全国聴覚障害者婚活支援協会",
+   "rating": 3,
+   "count": 2,
+   "address": "日本、〒251-0032 神奈川県藤沢市片瀬３丁目８−２３ カーサアルマーレ 201",
+   "mapsUri": "https://maps.google.com/?cid=1074185435120458910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chokaku-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "全国聴覚障害者婚活支援協会-1805"
+  },
+  {
+   "name": "スワンズ結婚相談所 海老名",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒243-0432 神奈川県海老名市中央２丁目９−５０",
+   "mapsUri": "https://maps.google.com/?cid=6726547571848630722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.swans-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "スワンズ結婚相談所-海老名-b2dd"
+  },
+  {
+   "name": "報徳二宮神社結婚相談室",
+   "rating": 2.5,
+   "count": 2,
+   "address": "日本、〒250-0014 神奈川県小田原市城内８−１０ ＨＯＴＯＫＵ ＫＡＩＫＡＮ",
+   "mapsUri": "https://maps.google.com/?cid=3556823244925465099&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hotoku.co.jp/enmusubi/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "報徳二宮神社結婚相談室-c70f"
+  },
+  {
+   "name": "結婚相談所しましまマリッジ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ 5階 HamaPort（ハマポート）内",
+   "mapsUri": "https://maps.google.com/?cid=17241980225987765196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://shimashima-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所しましまマリッジ-0079"
+  },
+  {
+   "name": "結婚相談所TMSパートナー横浜店",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１−６ 鶴見ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=1179726903129375666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salon/salon-87/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所TMSパートナー横浜店-53dc"
+  },
+  {
+   "name": "結婚相談所 PetitPoint(プチポアン）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒225-0002 神奈川県横浜市青葉区美しが丘１丁目13−１０ 吉村ビル 107",
+   "mapsUri": "https://maps.google.com/?cid=17050108314873577927&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://petitpoint.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki",
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所-PetitPoint-プチポアン-3e83"
+  },
+  {
+   "name": "結婚相談所花咲く縁結び",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒231-0031 神奈川県横浜市中区万代町１丁目1−１ 関東学院大学横浜・関内キャンパス 4F",
+   "mapsUri": "https://maps.google.com/?cid=2815533606870939489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanasaku-en-musubi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "結婚相談所花咲く縁結び-b880"
+  },
+  {
+   "name": "結婚相談所LIGOS武蔵小杉",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒211-0012 神奈川県川崎市中原区中丸子３５−９ ディール武蔵小杉 4F リージャス武蔵小杉センタ",
+   "mapsUri": "https://maps.google.com/?cid=989256933410521739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa",
+    "musashikosugi"
+   ],
+   "slug": "結婚相談所LIGOS武蔵小杉-b1de"
+  },
+  {
+   "name": "REVERSAL結婚相談所川崎高津店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒213-0001 神奈川県川崎市高津区溝口４丁目６−２",
+   "mapsUri": "https://maps.google.com/?cid=13082667722320610206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://reversal-kawasaki-takatsu.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "REVERSAL結婚相談所川崎高津店-f0fd"
+  },
+  {
+   "name": "結婚相談所 マリッジパス",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒210-0007 神奈川県川崎市川崎区駅前本町11−２ 川崎フロンティアビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=7672424072934459139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-path.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-マリッジパス-8e25"
+  },
+  {
+   "name": "結婚相談所 fleuge (フルージュ)",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒216-0026 神奈川県川崎市宮前区初山２丁目７−２",
+   "mapsUri": "https://maps.google.com/?cid=8964870424048805239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.fleuge.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-fleuge-フルージュ-dc92"
+  },
+  {
+   "name": "結婚相談所ハッピーコネクト（藤沢サロン）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒251-0025 神奈川県藤沢市鵠沼石上２丁目５−１ 湘南鵠沼BLD 3F-C",
+   "mapsUri": "https://maps.google.com/?cid=12123456512798643079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.happy-connect.net/fujisawa-salon/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所ハッピーコネクト-藤沢サロン-08f0"
+  },
+  {
+   "name": "結婚相談所 エニアブライダル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒252-0804 神奈川県藤沢市湘南台１丁目11−５ 恵弘ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=1594349127845639970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ennea-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所-エニアブライダル-cda5"
+  },
+  {
+   "name": "湘南婚活サロン プリズムの詩",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒251-0041 神奈川県藤沢市辻堂神台２丁目５",
+   "mapsUri": "https://maps.google.com/?cid=10202063578136389895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.smas-prismpoetry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "湘南婚活サロン-プリズムの詩-589b"
+  },
+  {
+   "name": "結婚相談所 Shine Marriage",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒252-0312 神奈川県相模原市南区相南４丁目１１−２０ 102",
+   "mapsUri": "https://maps.google.com/?cid=11509747769484994756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://shine-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所-Shine-Marriage-ed5d"
+  },
+  {
+   "name": "結婚相談所 花鯉 ～marriage＆health partner～",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒243-0432 神奈川県海老名市中央１丁目１６",
+   "mapsUri": "https://maps.google.com/?cid=3386811084886955243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hanagoi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "結婚相談所-花鯉-marriage-health-partner-cf87"
+  },
+  {
+   "name": "縁結びサロン本厚木",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒243-0018 神奈川県厚木市中町１丁目８−３",
+   "mapsUri": "https://maps.google.com/?cid=3494818104055704043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enisingu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "縁結びサロン本厚木-17b2"
+  },
+  {
+   "name": "結婚相談NPO ブライダルサポーター 真鶴サテライト",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒259-0201 神奈川県足柄下郡真鶴町真鶴５０４−１",
+   "mapsUri": "https://maps.google.com/?cid=14491960828643757105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://manazuru.konkatsu.org/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "結婚相談NPO-ブライダルサポーター-真鶴サテライト-af27"
+  },
+  {
+   "name": "横浜結婚相談所 Lily connect",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−２８ むつみビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=201272952957597838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.lily-connect.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "横浜結婚相談所-Lily-connect-0cbc"
+  },
+  {
+   "name": "結婚相談所Chainon横浜(シェノンヨコハマ)",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１−８ エキニア横浜 5F HamaPort",
+   "mapsUri": "https://maps.google.com/?cid=18304597963996240197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所Chainon横浜-シェノンヨコハマ-5c17"
+  },
+  {
+   "name": "結婚相談所 アイルマリー",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸１丁目１１−１ 水信ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=6453145858108881904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://be-wedding.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "結婚相談所-アイルマリー-44a7"
+  },
+  {
+   "name": "Luckbridalclub横浜（結婚相談所ラックブライダルクラブ）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒220-0004 神奈川県横浜市西区北幸２丁目１０−１０番地２８ むつみビル ３F",
+   "mapsUri": "https://maps.google.com/?cid=1927602868718685800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kon-katsu.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "yokohama-eki"
+   ],
+   "slug": "Luckbridalclub横浜-結婚相談所ラックブライダルクラブ-bfdc"
+  },
+  {
+   "name": "横浜みなとみらいの結婚相談所 BRIDALRIE",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒231-0062 神奈川県横浜市中区桜木町１丁目１０１−１ クロスゲート 7階",
+   "mapsUri": "https://maps.google.com/?cid=7441590322803016055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bridalrie.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kannai-mm"
+   ],
+   "slug": "横浜みなとみらいの結婚相談所-BRIDALRIE-2199"
+  },
+  {
+   "name": "結婚相談所 Le Chemin",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜２丁目３−１２",
+   "mapsUri": "https://maps.google.com/?cid=12978009574711687992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lechemin-yokohama.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所-Le-Chemin-a0ef"
+  },
+  {
+   "name": "結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒223-0064 神奈川県横浜市港北区下田町３丁目１６",
+   "mapsUri": "https://maps.google.com/?cid=1283461057942571224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所-e13d"
+  },
+  {
+   "name": "Lifener 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜１丁目１４−２０",
+   "mapsUri": "https://maps.google.com/?cid=17904366400588459594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.lifener.biz/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "Lifener-結婚相談所-ad03"
+  },
+  {
+   "name": "しあわせのBaton 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜３丁目17番12 号2階",
+   "mapsUri": "https://maps.google.com/?cid=10320972119796799961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sn-baton.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "しあわせのBaton-結婚相談所-2af8"
+  },
+  {
+   "name": "こう横浜結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜３丁目１７−１２",
+   "mapsUri": "https://maps.google.com/?cid=14095339957590709257&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kou-en.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "こう横浜結婚相談所-0ec9"
+  },
+  {
+   "name": "結婚相談所「Best Marriage」NOZZE.加盟店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒222-0033 神奈川県横浜市港北区新横浜３丁目７−１８ 6F 総合受付",
+   "mapsUri": "https://maps.google.com/?cid=7962784406803381276&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bestmarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-yokohama"
+   ],
+   "slug": "結婚相談所-Best-Marriage-NOZZE-加盟店-b653"
+  },
+  {
+   "name": "結婚相談所 織鶴",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒213-0034 神奈川県川崎市高津区上作延５丁目１０−２８",
+   "mapsUri": "https://maps.google.com/?cid=9496366161111128408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.orizuru-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "結婚相談所-織鶴-46a2"
+  },
+  {
+   "name": "ホワイトキャンバス結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒212-0052 神奈川県川崎市幸区古市場２丁目７９−１０",
+   "mapsUri": "https://maps.google.com/?cid=12571292148102896250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawasaki-kanagawa"
+   ],
+   "slug": "ホワイトキャンバス結婚相談所-b237"
+  },
+  {
+   "name": "RayBride/結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒211-0063 神奈川県川崎市中原区小杉町３丁目６００ コスギサードアヴェニュー1 2F MIDPOINT武蔵小杉",
+   "mapsUri": "https://maps.google.com/?cid=8435098791332304453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ray-bride.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "musashikosugi"
+   ],
+   "slug": "RayBride-結婚相談所-e52b"
+  },
+  {
+   "name": "結婚相談所 Hello Communications",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0025 神奈川県藤沢市鵠沼石上２丁目５−１ 湘南鵠沼 BLD3F-C",
+   "mapsUri": "https://maps.google.com/?cid=15580579454935706686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hellocomsalon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所-Hello-Communications-bec0"
+  },
+  {
+   "name": "湘南ANNIE‘S結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0002 神奈川県藤沢市大鋸１２２６",
+   "mapsUri": "https://maps.google.com/?cid=3205192073380971535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://syonan-annies.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "湘南ANNIE-S結婚相談所-3d2c"
+  },
+  {
+   "name": "湘南の小さな結婚相談所【cocoro cafe】",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0025 神奈川県藤沢市鵠沼石上２丁目５−１ 湘南鵠沼 BLD3F-C",
+   "mapsUri": "https://maps.google.com/?cid=17304958794822931153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://cocoro-cafe2024.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "湘南の小さな結婚相談所-cocoro-cafe-32e1"
+  },
+  {
+   "name": "結婚相談所to Me",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0023 神奈川県藤沢市鵠沼花沢町２−２ 3PHビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=17012475314490833375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibj-to.me/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所to-Me-71eb"
+  },
+  {
+   "name": "結婚相談所マリッジの予感",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0804 神奈川県藤沢市湘南台１丁目２５−２",
+   "mapsUri": "https://maps.google.com/?cid=4012494811154449749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriageyokan.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所マリッジの予感-e98e"
+  },
+  {
+   "name": "結婚相談所KHM 藤沢・湘南｜男性カウンセラーによる戦略的婚活支援",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0041 神奈川県藤沢市辻堂神台２丁目１３−１２",
+   "mapsUri": "https://maps.google.com/?cid=14911893023019324488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu.khm-japan.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所KHM-藤沢-湘南-男性カウンセラーによる戦略的婚活支援-9828"
+  },
+  {
+   "name": "IBJ結婚相談所-SUTEKIな婚活 湘南台支店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0804 神奈川県藤沢市湘南台２丁目１０−５ 安藤ビル",
+   "mapsUri": "https://maps.google.com/?cid=13481033730425992211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sutekikon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "IBJ結婚相談所-SUTEKIな婚活-湘南台支店-79a8"
+  },
+  {
+   "name": "ネット・ブライダル湘南（結婚相談所）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0035 神奈川県藤沢市片瀬海岸１丁目１３−１３",
+   "mapsUri": "https://maps.google.com/?cid=2593619575220002454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "ネット-ブライダル湘南-結婚相談所-f7ab"
+  },
+  {
+   "name": "ヒュッゲパートナー結婚相談所【湘南サロン】",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0025 神奈川県藤沢市鵠沼石上１丁目５−９ ６階",
+   "mapsUri": "https://maps.google.com/?cid=6214832323417481776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hyggepartner.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "ヒュッゲパートナー結婚相談所-湘南サロン-46c8"
+  },
+  {
+   "name": "IBJ結婚相談所-SUTEKIな婚活 片瀬江ノ島支店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0035 神奈川県藤沢市片瀬海岸２丁目１８−２３",
+   "mapsUri": "https://maps.google.com/?cid=1427179544263881190&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sutekikon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "IBJ結婚相談所-SUTEKIな婚活-片瀬江ノ島支店-bf96"
+  },
+  {
+   "name": "統合失調症婚活専門 アイ婚活",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0032 神奈川県藤沢市片瀬３丁目８−２３ カーサアルマーレ 201号",
+   "mapsUri": "https://maps.google.com/?cid=14705952345089221207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://enoshima-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "統合失調症婚活専門-アイ婚活-c1d7"
+  },
+  {
+   "name": "結婚相談所 マリッジプロジェクト",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0042 神奈川県藤沢市辻堂新町１丁目１３−１６",
+   "mapsUri": "https://maps.google.com/?cid=8963456151412590700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "結婚相談所-マリッジプロジェクト-be0b"
+  },
+  {
+   "name": "全国仲人連合会藤沢柄沢支部",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒251-0003 神奈川県藤沢市柄沢２丁目６１７−１",
+   "mapsUri": "https://maps.google.com/?cid=4513015535815786425&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://takada-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "全国仲人連合会藤沢柄沢支部-efd8"
+  },
+  {
+   "name": "湘南結婚相談所ピュア",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒253-0054 神奈川県茅ヶ崎市東海岸南１丁目６−３２",
+   "mapsUri": "https://maps.google.com/?cid=4710067494162199053&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.shounanpure.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fujisawa"
+   ],
+   "slug": "湘南結婚相談所ピュア-543b"
+  },
+  {
+   "name": "相模原・町田の結婚相談 ティーワイマリッジ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0303 神奈川県相模原市南区相模大野８丁目３−１ ドミール相模大野 502",
+   "mapsUri": "https://maps.google.com/?cid=9264428151575883626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ty-corp.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "相模原-町田の結婚相談-ティーワイマリッジ-2ca4"
+  },
+  {
+   "name": "相模原結婚相談所シルク企画",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0239 神奈川県相模原市中央区中央５丁目１−２ ベルドールコート ３Ｂ",
+   "mapsUri": "https://maps.google.com/?cid=2664878488433190805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "相模原結婚相談所シルク企画-22f7"
+  },
+  {
+   "name": "結婚相談所 寿の相模原",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0314 神奈川県相模原市南区南台３丁目９−３８ 日神パレステ-ジ 105号",
+   "mapsUri": "https://maps.google.com/?cid=8966021397355205988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所-寿の相模原-aac2"
+  },
+  {
+   "name": "ボヌール・コンシェルジュ相模原",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0239 神奈川県相模原市中央区中央３丁目６−６ トーエイビル204",
+   "mapsUri": "https://maps.google.com/?cid=12213585880301575647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bonuru-konshieruju.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "ボヌール-コンシェルジュ相模原-4b37"
+  },
+  {
+   "name": "婚活サロン アクアマリン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0243 神奈川県相模原市中央区上溝",
+   "mapsUri": "https://maps.google.com/?cid=9866569228688246077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "婚活サロン-アクアマリン-55f8"
+  },
+  {
+   "name": "結婚相談所ブライダルストーリー橋本店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0143 神奈川県相模原市緑区橋本２丁目１８−１４",
+   "mapsUri": "https://maps.google.com/?cid=3622846346212156738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridalstory.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所ブライダルストーリー橋本店-bcc5"
+  },
+  {
+   "name": "結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒252-0152 神奈川県相模原市緑区太井５５２−１４",
+   "mapsUri": "https://maps.google.com/?cid=12834167209806142786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sagamihara-kanagawa"
+   ],
+   "slug": "結婚相談所-e640"
+  },
+  {
+   "name": "横浜婚活・結婚相談所センター 海老名事務所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒243-0433 神奈川県海老名市河原口４丁目６−８",
+   "mapsUri": "https://maps.google.com/?cid=7883514434608147521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.yokohama-ryoen.jp/ConvenientMarriageConsultationCenterInKanagawaForEbina",
+   "status": "OPERATIONAL",
+   "areas": [
+    "atsugi-kanagawa"
+   ],
+   "slug": "横浜婚活-結婚相談所センター-海老名事務所-9631"
+  },
+  {
+   "name": "小田原の結婚相談所 婚活サロン ブーケトス",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒250-0011 神奈川県小田原市城山１丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=12248975948959567027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://odawara-b-toss.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "小田原の結婚相談所-婚活サロン-ブーケトス-0683"
+  },
+  {
+   "name": "enee結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒250-0011 神奈川県小田原市栄町２丁目１−２０ パルシティ 3F",
+   "mapsUri": "https://maps.google.com/?cid=11688480732830058554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.enee.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "enee結婚相談所-9d0c"
+  },
+  {
+   "name": "結婚相談所ブレスユー（小田原）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒250-0012 神奈川県小田原市本町２丁目２−１６ 陽輪台 小田原 204",
+   "mapsUri": "https://maps.google.com/?cid=11275582953111847632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkonblessyou.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "odawara"
+   ],
+   "slug": "結婚相談所ブレスユー-小田原-4b99"
+  }
+ ]
+}

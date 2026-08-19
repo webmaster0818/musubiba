@@ -5,7 +5,7 @@ import path from "node:path";
 export const dynamic = "force-static";
 
 const BASE = "https://mu-su-bi-ba.com";
-const LASTMOD = "2026-08-19";
+const LASTMOD = "2026-08-20";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
@@ -27,7 +27,7 @@ const STATIC_ROUTES = [
 
 function agencySlugs(): string[] {
   const slugs: string[] = [];
-  for (const pref of ["tokyo", "osaka"]) {
+  for (const pref of ["tokyo", "osaka", "kanagawa"]) {
     const p = path.join(process.cwd(), `data-agencies-${pref}.json`);
     if (!fs.existsSync(p)) continue;
     const d = JSON.parse(fs.readFileSync(p, "utf-8"));

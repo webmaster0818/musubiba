@@ -36,12 +36,23 @@ export const AREA_LABELS: Record<string, string> = {
   suita: "吹田・江坂",
   "takatsuki-osaka": "高槻・茨木",
   higashiosaka: "東大阪・八尾",
+  "yokohama-eki": "横浜駅",
+  "kannai-mm": "関内・みなとみらい",
+  "shin-yokohama": "新横浜",
+  "kawasaki-kanagawa": "川崎",
+  musashikosugi: "武蔵小杉",
+  fujisawa: "藤沢",
+  "sagamihara-kanagawa": "相模原",
+  yokosuka: "横須賀",
+  "atsugi-kanagawa": "厚木・海老名",
+  odawara: "小田原",
 };
 
 // 相談所DBを持つ都道府県(横展開時はここに追加)
 export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = [
   { pref: "tokyo", prefName: "東京", areaHref: "/area/tokyo/" },
   { pref: "osaka", prefName: "大阪", areaHref: "/area/osaka/" },
+  { pref: "kanagawa", prefName: "神奈川", areaHref: "/area/yokohama/" },
 ];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)
