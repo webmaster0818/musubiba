@@ -26,7 +26,23 @@ export const AREA_LABELS: Record<string, string> = {
   machida: "町田",
   ueno: "上野・北千住",
   shinagawa: "品川・五反田",
+  umeda: "梅田",
+  namba: "難波・心斎橋",
+  tennoji: "天王寺・阿倍野",
+  kyobashi: "京橋",
+  "shin-osaka": "新大阪・淀川",
+  "sakai-osaka": "堺",
+  toyonaka: "豊中",
+  suita: "吹田・江坂",
+  "takatsuki-osaka": "高槻・茨木",
+  higashiosaka: "東大阪・八尾",
 };
+
+// 相談所DBを持つ都道府県(横展開時はここに追加)
+export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = [
+  { pref: "tokyo", prefName: "東京", areaHref: "/area/tokyo/" },
+  { pref: "osaka", prefName: "大阪", areaHref: "/area/osaka/" },
+];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)
 export const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [

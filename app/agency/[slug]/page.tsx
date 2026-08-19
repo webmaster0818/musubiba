@@ -1,47 +1,54 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { loadAgencyDb, indexableAgencies, findBrand, shortAddress, AREA_LABELS, type Agency } from "@/lib/agencies";
+import { loadAgencyDb, indexableAgencies, findBrand, shortAddress, AREA_LABELS, DB_PREFS, type Agency, type AgencyDb } from "@/lib/agencies";
 
 /*
  * 相談所ごとの個別ページ(Google Places API実測データのみ・捏造ゼロ)。
  * 評点・件数はGoogleマップの実数をそのまま掲載し、当サイトの評価ではないことを明示。
  * 未提携の相談所の外部リンクはGoogleマップに限定(方針)。提携ブランドは自社レビューへ誘導。
+ * 都道府県はDB_PREFS(tokyo/osaka…)を横断してslugから解決する。
  */
 
-const PREF = "tokyo";
-
-function getDb() {
-  const db = loadAgencyDb(PREF);
-  if (!db) throw new Error("agency db missing");
-  return db;
-}
+type Resolved = { a: Agency; db: AgencyDb; pref: string; prefName: string; areaHref: string };
 
 export function generateStaticParams() {
-  return indexableAgencies(getDb()).map((a) => ({ slug: a.slug }));
+  const params: { slug: string }[] = [];
+  for (const { pref } of DB_PREFS) {
+    const db = loadAgencyDb(pref);
+    if (!db) continue;
+    for (const a of indexableAgencies(db)) params.push({ slug: a.slug });
+  }
+  return params;
 }
 
-function getAgency(slug: string): Agency | null {
-  return indexableAgencies(getDb()).find((a) => a.slug === slug) || null;
+function resolve(slug: string): Resolved | null {
+  for (const { pref, prefName, areaHref } of DB_PREFS) {
+    const db = loadAgencyDb(pref);
+    if (!db) continue;
+    const a = indexableAgencies(db).find((x) => x.slug === slug);
+    if (a) return { a, db, pref, prefName, areaHref };
+  }
+  return null;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const a = getAgency(decodeURIComponent(slug));
-  const db = getDb();
-  if (!a) return {};
+  const r = resolve(decodeURIComponent(slug));
+  if (!r) return {};
+  const { a, db, prefName } = r;
   return {
-    title: `${a.name}の口コミ評点・所在地【Googleマップ実数】東京の結婚相談所`,
-    description: `${a.name}(東京)のGoogleマップ実データ: 評点${a.rating ?? "－"}・口コミ${a.count}件(${db.surveyedAt}取得)。所在地・周辺の結婚相談所・選び方ガイドまで。評点は当サイトの評価ではなくGoogleマップの実数です。`,
+    title: `${a.name}の口コミ評点・所在地【Googleマップ実数】${prefName}の結婚相談所`,
+    description: `${a.name}(${prefName})のGoogleマップ実データ: 評点${a.rating ?? "－"}・口コミ${a.count}件(${db.surveyedAt}取得)。所在地・周辺の結婚相談所・選び方ガイドまで。評点は当サイトの評価ではなくGoogleマップの実数です。`,
     alternates: { canonical: `https://mu-su-bi-ba.com/agency/${encodeURIComponent(a.slug)}/` },
   };
 }
 
 export default async function AgencyPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const a = getAgency(decodeURIComponent(slug));
-  if (!a) return null;
-  const db = getDb();
+  const r = resolve(decodeURIComponent(slug));
+  if (!r) return null;
+  const { a, db, prefName, areaHref } = r;
   const brand = findBrand(a.name);
   const primaryArea = a.areas[0];
   const nearby = indexableAgencies(db)
@@ -68,10 +75,10 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />
-      <Breadcrumb items={[{ name: "東京の結婚相談所", href: "/area/tokyo/" }, { name: a.name }]} />
+      <Breadcrumb items={[{ name: `${prefName}の結婚相談所`, href: areaHref }, { name: a.name }]} />
       <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-3">{a.name}の口コミ評点・基本情報【Googleマップ実数】</h1>
       <p className="text-sm text-[#555] leading-relaxed mb-6">
-        東京の結婚相談所「{a.name}」のGoogleマップ実データをまとめたページです({db.surveyedAt}取得)。
+        {prefName}の結婚相談所「{a.name}」のGoogleマップ実データをまとめたページです({db.surveyedAt}取得)。
         評点・口コミ件数は<strong>Googleマップの実数</strong>で、当サイトによる評価・創作ではありません。
       </p>
 
@@ -146,7 +153,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       </section>
 
       <p className="text-sm mb-8">
-        <Link href="/area/tokyo/" className="text-[#8B7355] underline">→ 東京の結婚相談所一覧に戻る</Link>
+        <Link href={areaHref} className="text-[#8B7355] underline">→ {prefName}の結婚相談所一覧に戻る</Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/compare/" className="text-[#8B7355] underline">→ 大手結婚相談所の比較</Link>
       </p>

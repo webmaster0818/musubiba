@@ -1,0 +1,2596 @@
+{
+ "surveyedAt": "2026-08-19",
+ "prefName": "大阪",
+ "agencies": [
+  {
+   "name": "ツヴァイ 大阪店",
+   "rating": 4.6,
+   "count": 507,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町4丁目４−２０ グランフロント大阪タワーA（南館 15階",
+   "mapsUri": "https://maps.google.com/?cid=11220106494359058478&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/osaka/osaka/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba"
+   ],
+   "slug": "ツヴァイ-大阪店-0599"
+  },
+  {
+   "name": "関西ブライダル",
+   "rating": 4.8,
+   "count": 468,
+   "address": "日本、〒543-0001 大阪府大阪市天王寺区上本町５丁目３−１６ サイネックス本社ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=6885858978886668152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kansaibridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "tennoji",
+    "sakai-osaka"
+   ],
+   "slug": "関西ブライダル-edb0"
+  },
+  {
+   "name": "結婚相談所オーネット 大阪梅田店",
+   "rating": 4.6,
+   "count": 294,
+   "address": "日本、〒530-0011 大阪府大阪市北区大深町３−１ グランフロント大阪タワ Ｂ11階",
+   "mapsUri": "https://maps.google.com/?cid=4590023801034973022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/osaka/osakakita/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=osakakita",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba"
+   ],
+   "slug": "結婚相談所オーネット-大阪梅田店-3982"
+  },
+  {
+   "name": "ブライダルYASUNAGA 大阪梅田店",
+   "rating": 5,
+   "count": 293,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田２丁目６−３０ 梅田清和ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=8197161344298044022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.b-yasunaga.com/shop/osaka/wedding4/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ブライダルYASUNAGA-大阪梅田店-306c"
+  },
+  {
+   "name": "IBJメンバーズ大阪店",
+   "rating": 4.7,
+   "count": 237,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目１−３ 4階",
+   "mapsUri": "https://maps.google.com/?cid=1509021020736562050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/osaka/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_osaka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "tennoji",
+    "toyonaka"
+   ],
+   "slug": "IBJメンバーズ大阪店-67c1"
+  },
+  {
+   "name": "大阪梅田結婚相談所kotopuro",
+   "rating": 4.9,
+   "count": 156,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 8F",
+   "mapsUri": "https://maps.google.com/?cid=12358872012306112293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kotopuro.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "大阪梅田結婚相談所kotopuro-6899"
+  },
+  {
+   "name": "アンシェルデ・マリアージュ",
+   "rating": 4,
+   "count": 155,
+   "address": "日本、〒569-0066 大阪府高槻市中川町１−９",
+   "mapsUri": "https://maps.google.com/?cid=1643556691509357979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://encieldes.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "アンシェルデ-マリアージュ-17c0"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント大阪店",
+   "rating": 4.8,
+   "count": 142,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−１９ メッセージ梅田ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=18102236641186813260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kansai/umeda.html?cid=se002&argument=wgvYBfWa&dmai=9722",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "tennoji"
+   ],
+   "slug": "結婚相談所パートナーエージェント大阪店-064c"
+  },
+  {
+   "name": "フィオーレ梅田店",
+   "rating": 4.4,
+   "count": 116,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 33F 大阪駅前第三ビル",
+   "mapsUri": "https://maps.google.com/?cid=15126388250170455824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/osaka/umeda/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "フィオーレ梅田店-eaf0"
+  },
+  {
+   "name": "IBJMatching 梅田",
+   "rating": 3.6,
+   "count": 113,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目１−２２ 野村不動産西梅田ビル ４階",
+   "mapsUri": "https://maps.google.com/?cid=11040575708057757121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_osaka/area_osaka/floor_umeda?utm_source=google&utm_medium=maps&utm_campaign=mb_umeda",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "IBJMatching-梅田-6e8c"
+  },
+  {
+   "name": "クレール結婚相談所",
+   "rating": 5,
+   "count": 113,
+   "address": "日本、〒590-0959 大阪府堺市堺区大町西１丁２−５",
+   "mapsUri": "https://maps.google.com/?cid=15560499514026764346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-clair.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "クレール結婚相談所-f0cc"
+  },
+  {
+   "name": "結婚相談所オーネット 大阪難波店",
+   "rating": 4.4,
+   "count": 110,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばスカイオ 20階",
+   "mapsUri": "https://maps.google.com/?cid=1160857640200191010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/osaka/osakaminami/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=osakaminami",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba",
+    "tennoji"
+   ],
+   "slug": "結婚相談所オーネット-大阪難波店-69c9"
+  },
+  {
+   "name": "結婚相談所BLANCA",
+   "rating": 5,
+   "count": 94,
+   "address": "日本、〒541-0053 大阪府大阪市中央区本町４丁目２−１２ 8階 billage大阪",
+   "mapsUri": "https://maps.google.com/?cid=2304592601691451841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://blanca715.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "tennoji"
+   ],
+   "slug": "結婚相談所BLANCA-759a"
+  },
+  {
+   "name": "結婚相談所サンマリエ大阪心斎橋サロン",
+   "rating": 4.5,
+   "count": 90,
+   "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目９−１７ 7階",
+   "mapsUri": "https://maps.google.com/?cid=1736036373200921909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kinki/shinsaibashi/?utm_source=osaka&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所サンマリエ大阪心斎橋サロン-4bbc"
+  },
+  {
+   "name": "ツヴァイ 難波店",
+   "rating": 4.5,
+   "count": 89,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目１−１５ 近鉄難波ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=9590885481789325339&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/osaka/nanba/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "sakai-osaka"
+   ],
+   "slug": "ツヴァイ-難波店-80f8"
+  },
+  {
+   "name": "結婚相談所イノセント",
+   "rating": 4.7,
+   "count": 87,
+   "address": "日本、〒532-0003 大阪府大阪市淀川区宮原１丁目１９−１０ 新大阪エクセルビル 402号",
+   "mapsUri": "https://maps.google.com/?cid=13451421844684918685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://innocent-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所イノセント-e25b"
+  },
+  {
+   "name": "ハルマリ HARUmarriage(ハルマリアージュ)大阪店",
+   "rating": 4.6,
+   "count": 80,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 大阪駅前第1ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=3420137475998763552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haru-marriage.com/osaka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ハルマリ-HARUmarriage-ハルマリアージュ-大阪店-0f11"
+  },
+  {
+   "name": "リシェーヌ・マリッジプレミア結婚相談所",
+   "rating": 4.9,
+   "count": 77,
+   "address": "日本、〒530-0004 大阪府大阪市北区堂島浜１丁目４−４ アクア堂島フォンターナ 3階",
+   "mapsUri": "https://maps.google.com/?cid=7460766087120526373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://richescene.com/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "リシェーヌ-マリッジプレミア結婚相談所-8352"
+  },
+  {
+   "name": "結婚相談所 ペアマリッジ",
+   "rating": 4.9,
+   "count": 72,
+   "address": "日本、〒541-0053 大阪府大阪市中央区本町４丁目２−１２ 8F",
+   "mapsUri": "https://maps.google.com/?cid=3722600751043268818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peamari.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所-ペアマリッジ-4dfe"
+  },
+  {
+   "name": "結婚相談所リングプルズ",
+   "rating": 4.9,
+   "count": 66,
+   "address": "日本、〒543-0024 大阪府大阪市天王寺区舟橋町７−１１ YATAビル ２F",
+   "mapsUri": "https://maps.google.com/?cid=10950408543721216966&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ringpulls.jp/lp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所リングプルズ-c708"
+  },
+  {
+   "name": "結婚相談所ミチ婚",
+   "rating": 5,
+   "count": 63,
+   "address": "日本、〒550-0013 大阪府大阪市西区新町１丁目２８−３ 四ツ橋グランスクエア 3F",
+   "mapsUri": "https://maps.google.com/?cid=6168307268341335250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://michikon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所ミチ婚-6999"
+  },
+  {
+   "name": "大阪結婚相談所ビリーブインユアセルフ｜婚活パーティー",
+   "rating": 4.9,
+   "count": 63,
+   "address": "日本、〒558-0011 大阪府大阪市住吉区苅田５丁目１８−４ ローズハイツ 207号室",
+   "mapsUri": "https://maps.google.com/?cid=317099578216157731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-biy.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "大阪結婚相談所ビリーブインユアセルフ-婚活パーティー-19c1"
+  },
+  {
+   "name": "ホテルロイヤルクラシック大阪 ブライダルサロン",
+   "rating": 4.8,
+   "count": 53,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目３−３ ホテルロイヤルクラシック大阪 10F",
+   "mapsUri": "https://maps.google.com/?cid=11346112492496122526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hotel-royalclassic.official-wedding.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "ホテルロイヤルクラシック大阪-ブライダルサロン-30c9"
+  },
+  {
+   "name": "結婚相談所 インシエーメ",
+   "rating": 5,
+   "count": 53,
+   "address": "日本、〒567-0048 大阪府茨木市北春日丘２丁目９−２３",
+   "mapsUri": "https://maps.google.com/?cid=14759578586641317818&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.insieme.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所-インシエーメ-c79a"
+  },
+  {
+   "name": "ベリンダ 結婚相談所",
+   "rating": 4.8,
+   "count": 50,
+   "address": "日本、〒530-0012 大阪府大阪市北区芝田２丁目８−１１ 共栄ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=12152007009276754466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://belinda-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "tennoji"
+   ],
+   "slug": "ベリンダ-結婚相談所-c578"
+  },
+  {
+   "name": "結婚相談所 マリッジスキル",
+   "rating": 5,
+   "count": 50,
+   "address": "日本、〒540-0029 大阪府大阪市中央区本町橋８−１７ arcami 内",
+   "mapsUri": "https://maps.google.com/?cid=16182203625300374109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriageskill2025.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所-マリッジスキル-c523"
+  },
+  {
+   "name": "結婚相談所マリッヂサポー卜 梅田店",
+   "rating": 4.8,
+   "count": 42,
+   "address": "日本、〒530-0014 大阪府大阪市北区鶴野町１−３ 安田ビル 503",
+   "mapsUri": "https://maps.google.com/?cid=11903644101267700226&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonjoho.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba",
+    "toyonaka"
+   ],
+   "slug": "結婚相談所マリッヂサポー卜-梅田店-d176"
+  },
+  {
+   "name": "結婚相談所フィオーレ 心斎橋店",
+   "rating": 3.6,
+   "count": 42,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル ７Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=378851832391824500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/osaka/shinsaibashi/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所フィオーレ-心斎橋店-6a8d"
+  },
+  {
+   "name": "結婚相談所セルマン",
+   "rating": 4.9,
+   "count": 40,
+   "address": "日本、〒564-0051 大阪府吹田市豊津町１−１８ エクラート江坂ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=5072603035561266592&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-serment.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "suita"
+   ],
+   "slug": "結婚相談所セルマン-ee36"
+  },
+  {
+   "name": "大阪結婚相談所ペリドット 大阪駅前サロン",
+   "rating": 4.6,
+   "count": 38,
+   "address": "日本、〒530-0003 大阪府大阪市北区堂島２丁目１−２７ 桜橋千代田ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=14756444781623281947&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peridot-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "大阪結婚相談所ペリドット-大阪駅前サロン-5455"
+  },
+  {
+   "name": "結婚相談所 loveridge（ラバリッジ）",
+   "rating": 4.9,
+   "count": 36,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−１９ 1階 ONthe UMEDA内",
+   "mapsUri": "https://maps.google.com/?cid=5546083634947892847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-loveridge.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-loveridge-ラバリッジ-3d2c"
+  },
+  {
+   "name": "お見合い塾",
+   "rating": 4.6,
+   "count": 32,
+   "address": "日本、〒530-0014 大阪府大阪市北区鶴野町４−６１１",
+   "mapsUri": "https://maps.google.com/?cid=6555656363602475219&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.omiai-jyuku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "お見合い塾-6b04"
+  },
+  {
+   "name": "TasHEART結婚相談所（大阪市城東区）",
+   "rating": 5,
+   "count": 31,
+   "address": "日本、〒536-0002 大阪府大阪市城東区今福東１丁目１０−１４",
+   "mapsUri": "https://maps.google.com/?cid=9377071996890615652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tasheart.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "TasHEART結婚相談所-大阪市城東区-d1b9"
+  },
+  {
+   "name": "とよ婚。",
+   "rating": 4.9,
+   "count": 29,
+   "address": "日本、〒561-0854 大阪府豊中市稲津町２丁目４−１",
+   "mapsUri": "https://maps.google.com/?cid=6527809542718852633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toyokon.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "とよ婚-c2a6"
+  },
+  {
+   "name": "Happin∞（ハピン）結婚相談所",
+   "rating": 5,
+   "count": 29,
+   "address": "日本、〒581-0076 大阪府八尾市南久宝寺３丁目3−１",
+   "mapsUri": "https://maps.google.com/?cid=15886742852521187065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happin.tammytammie.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "Happin-ハピン-結婚相談所-d8cb"
+  },
+  {
+   "name": "結婚相談所YUIORI",
+   "rating": 5,
+   "count": 28,
+   "address": "日本、〒532-0011 大阪府大阪市淀川区西中島７丁目１−３",
+   "mapsUri": "https://maps.google.com/?cid=6640066635045002330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.yuiori.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所YUIORI-b58e"
+  },
+  {
+   "name": "結婚相談所Same Side（セイムサイド）",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒567-0818 大阪府茨木市本町１−１２ 2階 毎日おやつu内",
+   "mapsUri": "https://maps.google.com/?cid=15824785861965449061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sameside0406.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所Same-Side-セイムサイド-6a2d"
+  },
+  {
+   "name": "結婚相談所ジュノリア ウェディング",
+   "rating": 5,
+   "count": 23,
+   "address": "日本、〒590-0111 大阪府堺市南区三原台２丁１−１ 泉ヶ丘ガーデンハウスエスタシオン",
+   "mapsUri": "https://maps.google.com/?cid=4848474624793617865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://junoria.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所ジュノリア-ウェディング-78c5"
+  },
+  {
+   "name": "結婚相談所 アーチ結婚相談室 大阪",
+   "rating": 4.9,
+   "count": 22,
+   "address": "日本、〒530-0041 大阪府大阪市北区天神橋２丁目４−１７ 千代田第一ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=6767873543268832970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.archkekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-アーチ結婚相談室-大阪-11dd"
+  },
+  {
+   "name": "結婚相談所ハルモニア 大阪 心斎橋",
+   "rating": 4.8,
+   "count": 22,
+   "address": "日本、〒550-0014 大阪府大阪市西区北堀江１丁目２−２７ AXISSOUTH四ツ橋ビル 10F",
+   "mapsUri": "https://maps.google.com/?cid=6933406288355835763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://harmonia-penre.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所ハルモニア-大阪-心斎橋-7c9b"
+  },
+  {
+   "name": "30代からの結婚相談所 nikoブライダル",
+   "rating": 4.8,
+   "count": 22,
+   "address": "日本、〒537-0021 大阪府大阪市東成区東中本３丁目１６−１５ サニーハイツ緑橋",
+   "mapsUri": "https://maps.google.com/?cid=3849187892235747067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.niko-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba",
+    "higashiosaka"
+   ],
+   "slug": "30代からの結婚相談所-nikoブライダル-52a9"
+  },
+  {
+   "name": "ゆりあい結婚相談所",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒542-0083 大阪府大阪市中央区東心斎橋１丁目９−９",
+   "mapsUri": "https://maps.google.com/?cid=1507621662516479067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.yuriai.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "ゆりあい結婚相談所-e6ea"
+  },
+  {
+   "name": "ラデュール結婚相談所",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒569-1142 大阪府高槻市宮田町１丁目１３−２",
+   "mapsUri": "https://maps.google.com/?cid=8156945625986360379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lardeur-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "ラデュール結婚相談所-bec7"
+  },
+  {
+   "name": "結婚相談所 結婚物語。 大阪ベース",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒530-0017 大阪府大阪市北区角田町８ 阪急グランドビル ２０F",
+   "mapsUri": "https://maps.google.com/?cid=11203640746616191779&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-monogatari.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-結婚物語-大阪ベース-53f3"
+  },
+  {
+   "name": "結婚相談所ムスベル 大阪店",
+   "rating": 4,
+   "count": 20,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル 14階20-1号室",
+   "mapsUri": "https://maps.google.com/?cid=5186529396393129948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=osaka&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所ムスベル-大阪店-1347"
+  },
+  {
+   "name": "縁結所MUSUVI",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒560-0005 大阪府豊中市西緑丘２丁目４",
+   "mapsUri": "https://maps.google.com/?cid=11435311575933965633&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/osaka/57791/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "縁結所MUSUVI-57b3"
+  },
+  {
+   "name": "東大阪の結婚相談所 mimiブライダル",
+   "rating": 4.8,
+   "count": 20,
+   "address": "日本、〒577-0822 大阪府東大阪市源氏ケ丘９−６",
+   "mapsUri": "https://maps.google.com/?cid=4822010446623513195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mimibridal-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "東大阪の結婚相談所-mimiブライダル-25e7"
+  },
+  {
+   "name": "【結婚相談所】ハートフルマリアージュ",
+   "rating": 4.6,
+   "count": 18,
+   "address": "日本、〒532-0011 大阪府大阪市淀川区西中島４丁目２−２６ 305号 結婚相談所 婚活パーティー お見合い 婚活相談",
+   "mapsUri": "https://maps.google.com/?cid=8493285887872578321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所-ハートフルマリアージュ-64f7"
+  },
+  {
+   "name": "とら婚 大阪オフィス",
+   "rating": 4.6,
+   "count": 17,
+   "address": "日本、〒556-0005 大阪府大阪市浪速区日本橋３丁目７−６ 日本橋無線ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=165251292525858785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toracon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "とら婚-大阪オフィス-212e"
+  },
+  {
+   "name": "結婚相談所ミライト縁結びエージェント",
+   "rating": 4.9,
+   "count": 17,
+   "address": "日本、〒579-8063 大阪府東大阪市横小路町４丁目９−２３",
+   "mapsUri": "https://maps.google.com/?cid=9865665192583549550&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://milaito.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所ミライト縁結びエージェント-3af2"
+  },
+  {
+   "name": "婚活サロンM marriage（エムマリッジ）",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２−２００ 大阪駅前第2ビル 2階 3-1-2",
+   "mapsUri": "https://maps.google.com/?cid=13296134127079041904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konsalo-m.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "婚活サロンM-marriage-エムマリッジ-1ba6"
+  },
+  {
+   "name": "イーガーマリッジ",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒560-0023 大阪府豊中市岡上の町３丁目２−３ ナニワビル ２F",
+   "mapsUri": "https://maps.google.com/?cid=1530522368499272924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kekkon-em.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka",
+    "toyonaka"
+   ],
+   "slug": "イーガーマリッジ-6d4d"
+  },
+  {
+   "name": "結婚相談所 全国仲人連合会 縁結び仲人ネット 大阪 (京橋)",
+   "rating": 4.9,
+   "count": 15,
+   "address": "日本、〒534-0025 大阪府大阪市都島区片町２丁目２−４０ 大発ビル 810号室",
+   "mapsUri": "https://maps.google.com/?cid=4710167049545676907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu-osaka.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyobashi",
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-全国仲人連合会-縁結び仲人ネット-大阪-京橋-138d"
+  },
+  {
+   "name": "結婚相談所 フォルトゥナ",
+   "rating": 4.7,
+   "count": 15,
+   "address": "日本、〒569-1123 大阪府高槻市高槻町１１−７ Re:ZONE高槻01 2階 206号室",
+   "mapsUri": "https://maps.google.com/?cid=8373145401637449869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.fortuna-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所-フォルトゥナ-468d"
+  },
+  {
+   "name": "婚活サロン エンシェア",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 29階 1-1-1号室",
+   "mapsUri": "https://maps.google.com/?cid=1756222284829705241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.enshare.biz/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "婚活サロン-エンシェア-27b0"
+  },
+  {
+   "name": "婚活サポート エルウェディング",
+   "rating": 4.8,
+   "count": 14,
+   "address": "日本、〒540-0012 大阪府大阪市中央区谷町５丁目７−９ 203",
+   "mapsUri": "https://maps.google.com/?cid=1546295997847440848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://l-wedding.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba",
+    "tennoji"
+   ],
+   "slug": "婚活サポート-エルウェディング-cfa1"
+  },
+  {
+   "name": "大阪・高知のマリッジサロン 恋する婚活部",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒546-0035 大阪府大阪市東住吉区山坂１丁目８",
+   "mapsUri": "https://maps.google.com/?cid=5088855978577723831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://koikon-happy.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji",
+    "sakai-osaka"
+   ],
+   "slug": "大阪-高知のマリッジサロン-恋する婚活部-f526"
+  },
+  {
+   "name": "結婚相談所 ライトマリッジ",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒569-1123 大阪府高槻市芥川町２丁目１１−５ ＥＹビル 2B EYビル2階",
+   "mapsUri": "https://maps.google.com/?cid=5639179072332374016&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.light-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所-ライトマリッジ-29b0"
+  },
+  {
+   "name": "ブライダル堺",
+   "rating": 4.3,
+   "count": 13,
+   "address": "日本、〒590-0028 大阪府堺市堺区三国ヶ丘御幸通１０−１ 三幸ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=1775303706384886578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridalsakai.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "ブライダル堺-9d40"
+  },
+  {
+   "name": "結婚相談所♾大阪レジェンデ",
+   "rating": 4.6,
+   "count": 13,
+   "address": "日本、〒599-8236 大阪府堺市中区深井沢町３３２４",
+   "mapsUri": "https://maps.google.com/?cid=2363889855836042055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lit.link/legende",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-大阪レジェンデ-685e"
+  },
+  {
+   "name": "結婚相談所Better Half＆Life",
+   "rating": 4.4,
+   "count": 13,
+   "address": "日本、〒581-0005 大阪府八尾市荘内町１丁目２−２０",
+   "mapsUri": "https://maps.google.com/?cid=5477900199941271160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://better-halflife.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所Better-Half-Life-1187"
+  },
+  {
+   "name": "婚活パーティー・街コン 心斎橋・難波個室会場",
+   "rating": 3.7,
+   "count": 12,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=13898956044190025935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.exeo-japan.co.jp/pref/pref_osaka?area=42?utm_source=maps&utm_medium=gbp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "婚活パーティー-街コン-心斎橋-難波個室会場-9744"
+  },
+  {
+   "name": "結婚相談所 Appritaアプリータ",
+   "rating": 4.7,
+   "count": 11,
+   "address": "日本、〒567-0851 大阪府茨木市真砂３丁目１３−１",
+   "mapsUri": "https://maps.google.com/?cid=8959279981277154860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://apprita-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所-Appritaアプリータ-be1d"
+  },
+  {
+   "name": "結婚相談Ming（ミング）",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒542-0061 大阪府大阪市中央区安堂寺町２丁目１−１０ 安堂寺町第１７松屋ビル 1030",
+   "mapsUri": "https://maps.google.com/?cid=12649383378138132215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ming-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談Ming-ミング-f2a8"
+  },
+  {
+   "name": "結婚相談所NeedYou(ニージュー)",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒536-0006 大阪府大阪市城東区野江１丁目２−３ 京橋２F",
+   "mapsUri": "https://maps.google.com/?cid=11440877548541123513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://needyou-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyobashi"
+   ],
+   "slug": "結婚相談所NeedYou-ニージュー-0479"
+  },
+  {
+   "name": "婚活パーセント",
+   "rating": 4.2,
+   "count": 10,
+   "address": "日本、〒594-0071 大阪府和泉市府中町１丁目５−１４ 3F",
+   "mapsUri": "https://maps.google.com/?cid=12193470754885781770&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://paacent.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "婚活パーセント-a5fa"
+  },
+  {
+   "name": "東大阪の結婚相談所Scena （シーナ）｜IBJ加盟店",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒577-0803 大阪府東大阪市下小阪１丁目３",
+   "mapsUri": "https://maps.google.com/?cid=1341280526673777008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://scena-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "東大阪の結婚相談所Scena-シーナ-IBJ加盟店-f9bd"
+  },
+  {
+   "name": "結婚相談所レアリゼ",
+   "rating": 4.6,
+   "count": 9,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１１−４ 大阪駅前第4ビル 12階14 1",
+   "mapsUri": "https://maps.google.com/?cid=7657067553723861543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://realiser-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所レアリゼ-f214"
+  },
+  {
+   "name": "結婚相談所 GRIT",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒530-0004 大阪府大阪市北区堂島浜１丁目４−４ アクア堂島フォンターナ ３階",
+   "mapsUri": "https://maps.google.com/?cid=2265324717392344606&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://grit-story.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-GRIT-ece9"
+  },
+  {
+   "name": "キャリア・マリッジ相談所",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 11階2号室",
+   "mapsUri": "https://maps.google.com/?cid=14369684342686291649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.career-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "キャリア-マリッジ相談所-0eca"
+  },
+  {
+   "name": "結婚相談所WeBCon大阪店",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒543-0055 大阪府大阪市天王寺区悲田院町８−２２ ニッセイ天王寺ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=5730910165293208239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/osaka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所WeBCon大阪店-d4bb"
+  },
+  {
+   "name": "結婚相談所 ハレサポ",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒532-0034 大阪府大阪市淀川区野中北２丁目７−１１",
+   "mapsUri": "https://maps.google.com/?cid=15625129223875477108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haresapo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所-ハレサポ-cf2c"
+  },
+  {
+   "name": "ハートフルウエディング結婚相談所",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒564-0053 大阪府吹田市江の木町９−２３ 204 ユカミビル",
+   "mapsUri": "https://maps.google.com/?cid=1721960823636329437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://heartful-wedding.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "suita"
+   ],
+   "slug": "ハートフルウエディング結婚相談所-5ba3"
+  },
+  {
+   "name": "結婚相談所relife（リライフ）-大阪府高槻市-",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒569-0852 大阪府高槻市北柳川町８",
+   "mapsUri": "https://maps.google.com/?cid=13896265186581632464&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://relife-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所relife-リライフ-大阪府高槻市-5c82"
+  },
+  {
+   "name": "東大阪の結婚相談所 小阪マリアージュ",
+   "rating": 4.8,
+   "count": 8,
+   "address": "日本、〒577-0802 大阪府東大阪市小阪本町１丁目２−１５",
+   "mapsUri": "https://maps.google.com/?cid=11646752740414816646&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://kosaka-mariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "東大阪の結婚相談所-小阪マリアージュ-4ca5"
+  },
+  {
+   "name": "結婚相談所マリッヂサポート 大阪難波店",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波４丁目１−１５ リージャスビジネスセンタ 1F",
+   "mapsUri": "https://maps.google.com/?cid=4014074926541187184&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonjoho.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda",
+    "namba"
+   ],
+   "slug": "結婚相談所マリッヂサポート-大阪難波店-1e1a"
+  },
+  {
+   "name": "（株）トータルマリアージュサポート本社",
+   "rating": 3,
+   "count": 7,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=9128485212803129108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.tms-m.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "株-トータルマリアージュサポート本社-bc22"
+  },
+  {
+   "name": "ベルマリアージュ",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒533-0033 大阪府大阪市東淀川区東中島４丁目１−３１",
+   "mapsUri": "https://maps.google.com/?cid=6547753046166414951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.bellmariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "ベルマリアージュ-4ddf"
+  },
+  {
+   "name": "結婚相談所エンサポート尼崎/梅田大阪オフィス",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１２−１２ 2番2号 大阪駅前第2ビル",
+   "mapsUri": "https://maps.google.com/?cid=3877830151612708603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://en-support.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所エンサポート尼崎-梅田大阪オフィス-126c"
+  },
+  {
+   "name": "ドクターズコンシェルリンク大阪",
+   "rating": 4.2,
+   "count": 6,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１１−４−１０００ 大阪駅前第4ビル",
+   "mapsUri": "https://maps.google.com/?cid=15887426041333218036&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.doctorsconcier.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ドクターズコンシェルリンク大阪-a33d"
+  },
+  {
+   "name": "結婚相談所コスモスプリマリエ大阪オフィス",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒545-0053 大阪府大阪市阿倍野区松崎町２丁目１−２８ 近鉄松崎町ビル 3-16",
+   "mapsUri": "https://maps.google.com/?cid=6868658453288822094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cosmosp.com/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji",
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所コスモスプリマリエ大阪オフィス-d9af"
+  },
+  {
+   "name": "salon de bloom婚活サロン",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒579-8031 大阪府東大阪市豊浦町１３−１１ まるはちマンション 1階",
+   "mapsUri": "https://maps.google.com/?cid=15197293586072939774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-de-bloom-marriage.jimdosite.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "salon-de-bloom婚活サロン-105a"
+  },
+  {
+   "name": "ブライダルシェービング・お顔剃り専門店 アンダブル 八尾店",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒581-0803 大阪府八尾市光町１丁目19−３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=5272084703598583324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beauty.hotpepper.jp/kr/slnH000725489/coupon/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "ブライダルシェービング-お顔剃り専門店-アンダブル-八尾店-a919"
+  },
+  {
+   "name": "ロイヤルマリッジ",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル １６階",
+   "mapsUri": "https://maps.google.com/?cid=10284494935186520623&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekonsoudan.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ロイヤルマリッジ-1d8c"
+  },
+  {
+   "name": "結婚相談所まんまる",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第二ビル 12-12",
+   "mapsUri": "https://maps.google.com/?cid=4697443334935702844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://manmaru5022.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所まんまる-488a"
+  },
+  {
+   "name": "結婚相談所John&Susan（ジョンアンドスーザン）",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒547-0044 大阪府大阪市平野区平野本町２丁目８−９",
+   "mapsUri": "https://maps.google.com/?cid=9356876302582682007&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://john-susan.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji",
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所John-Susan-ジョンアンドスーザン-db49"
+  },
+  {
+   "name": "婚活コンサルタント エンジェライト 吉村",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒543-0032 大阪府大阪市天王寺区細工谷２丁目１５−６",
+   "mapsUri": "https://maps.google.com/?cid=3258623756384681385&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "婚活コンサルタント-エンジェライト-吉村-c32f"
+  },
+  {
+   "name": "婚活コンシェルジュ・ラポール",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒593-8325 大阪府堺市西区鳳南町３丁３０１−９",
+   "mapsUri": "https://maps.google.com/?cid=10367694587093388321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://rapport-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "婚活コンシェルジュ-ラポール-182e"
+  },
+  {
+   "name": "あなたの婚活 鳳相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒593-8325 大阪府堺市西区鳳南町２丁2−４４",
+   "mapsUri": "https://maps.google.com/?cid=16768473894528891045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.anatano-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "あなたの婚活-鳳相談所-b106"
+  },
+  {
+   "name": "心理カウンセラーのいる結婚相談所│40代からの女性の婚活を心からサポート│マリッジサロンnanala",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒567-0806 大阪府茨木市庄２丁目５−５",
+   "mapsUri": "https://maps.google.com/?cid=3537069591474989111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriagesalon-nanala.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "心理カウンセラーのいる結婚相談所-40代からの女性の婚活を心からサポート-マリッ-8aa6"
+  },
+  {
+   "name": "えん結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒565-0821 大阪府吹田市山田東１丁目３５−７",
+   "mapsUri": "https://maps.google.com/?cid=2614714308528873133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://office-en.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "えん結婚相談所-d5aa"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント梅田店",
+   "rating": 3.7,
+   "count": 3,
+   "address": "日本、〒530-0017 大阪府大阪市北区角田町８−１ 梅田阪急ビル ３０階 オフィスタワ",
+   "mapsUri": "https://maps.google.com/?cid=7717526568338606905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/osaka/umeda.html?vos=dzeksgmbt20052900018",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ゼクシィ縁結びエージェント梅田店-951f"
+  },
+  {
+   "name": "結婚相談所aibou(あいぼう)",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目３−１ 大阪駅前第1ビル 8階5号",
+   "mapsUri": "https://maps.google.com/?cid=16410338006437777260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://aibou-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所aibou-あいぼう-eaaf"
+  },
+  {
+   "name": "マリアージュカフェ umakuiku",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１１−４ 大阪駅前第4ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=13367716908729671413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "マリアージュカフェ-umakuiku-47bb"
+  },
+  {
+   "name": "ブライダル 上本町ルフラン",
+   "rating": 3.7,
+   "count": 3,
+   "address": "日本、〒542-0062 大阪府大阪市中央区上本町西５丁目２−１８ リクショー上六ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=2159926705333864485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kekkon-uehonmachi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "ブライダル-上本町ルフラン-8168"
+  },
+  {
+   "name": "結婚相談所Marry's",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒532-0003 大阪府大阪市淀川区宮原１丁目３−２０ 新大阪ステーションビル",
+   "mapsUri": "https://maps.google.com/?cid=4232846810487209974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marrysosaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所Marry-s-86bb"
+  },
+  {
+   "name": "婚活ココカラ 大阪結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒532-0023 大阪府大阪市淀川区十三東３丁目１２−１７",
+   "mapsUri": "https://maps.google.com/?cid=6475993171532887495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konkatsu-kokokara.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka",
+    "toyonaka"
+   ],
+   "slug": "婚活ココカラ-大阪結婚相談所-14c8"
+  },
+  {
+   "name": "結婚相談所カインド",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒533-0031 大阪府大阪市東淀川区西淡路３丁目５−８ ライオンズマンション東淀川 806",
+   "mapsUri": "https://maps.google.com/?cid=5987818608729314364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kind-t.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所カインド-cd12"
+  },
+  {
+   "name": "結婚相談所 婚活ハナコとタロウ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒590-0024 大阪府堺市堺区向陵中町６丁６−２２ 3F",
+   "mapsUri": "https://maps.google.com/?cid=287962862989051786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu-hanako-taro.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-婚活ハナコとタロウ-9b1d"
+  },
+  {
+   "name": "結婚相談所 Find One",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒560-0021 大阪府豊中市本町７丁目３",
+   "mapsUri": "https://maps.google.com/?cid=17416357989884791262&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://findone-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "結婚相談所-Find-One-3ae1"
+  },
+  {
+   "name": "ブライダル豊中",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒561-0831 大阪府豊中市庄内東町１丁目５−９",
+   "mapsUri": "https://maps.google.com/?cid=2342703352980053367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.bridal-toyonaka.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "ブライダル豊中-9ec2"
+  },
+  {
+   "name": "ﾙ･ﾏﾘｱｰｼﾞｭ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒577-0015 大阪府東大阪市長田１丁目６−２",
+   "mapsUri": "https://maps.google.com/?cid=7730593868831585994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lemariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "-f39d"
+  },
+  {
+   "name": "産婦人科のお医者さんがつくった結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田３丁目２−１２３ イノゲート 大阪9F",
+   "mapsUri": "https://maps.google.com/?cid=63102684092438544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.blidal-obgyn.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "産婦人科のお医者さんがつくった結婚相談所-5cc8"
+  },
+  {
+   "name": "大阪梅田の結婚相談所婚活KOKO",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0057 大阪府大阪市北区曾根崎２丁目１６−１９ メッセージ梅田ビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=11933663380991054335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://k-kokotokyo.com/access/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "大阪梅田の結婚相談所婚活KOKO-a017"
+  },
+  {
+   "name": "Marriage Matching Marriage Agency",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１３−１ ツインタワーズ・サウス 15F",
+   "mapsUri": "https://maps.google.com/?cid=8223071719139768202&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriagematching.love/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "Marriage-Matching-Marriage-Agency-962b"
+  },
+  {
+   "name": "結婚相談所 官公庁マリッジ大阪梅田",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 14F",
+   "mapsUri": "https://maps.google.com/?cid=5899667618579855236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-club.co.jp/aboutus/osaka.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-官公庁マリッジ大阪梅田-74b8"
+  },
+  {
+   "name": "en voyage 結婚相談所（ｴﾝ ﾎﾞﾔ-ｼﾞｭ）",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田２丁目５−１３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=6478237967613372865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "en-voyage-結婚相談所-bb3e"
+  },
+  {
+   "name": "えんそう結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２ 2番2号 大阪駅前第2ビル",
+   "mapsUri": "https://maps.google.com/?cid=9159281573520376051&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ensou.sakura.ne.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "えんそう結婚相談所-ef62"
+  },
+  {
+   "name": "マリッジサロンsense",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒545-0053 大阪府大阪市阿倍野区松崎町２丁目１−２８ 近鉄松崎町ビル 2・3F",
+   "mapsUri": "https://maps.google.com/?cid=9434470924220441725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-sense.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "マリッジサロンsense-8a58"
+  },
+  {
+   "name": "マリッジ トゥルー",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒545-6016 大阪府大阪市阿倍野区阿倍野筋１丁目１−４３ あべのハルカス 31階",
+   "mapsUri": "https://maps.google.com/?cid=3812958923890039129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-true.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "マリッジ-トゥルー-0add"
+  },
+  {
+   "name": "大阪結婚相談所ペリドット 天王寺サロン",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒545-0051 大阪府大阪市阿倍野区旭町１丁目１−１０ 9F",
+   "mapsUri": "https://maps.google.com/?cid=12737260689093634069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peridot-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "大阪結婚相談所ペリドット-天王寺サロン-ae86"
+  },
+  {
+   "name": "大阪天王寺婚活サロン ブランシュ",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒543-0001 大阪府大阪市天王寺区上本町６丁目４",
+   "mapsUri": "https://maps.google.com/?cid=7312729349339633352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "大阪天王寺婚活サロン-ブランシュ-7cbc"
+  },
+  {
+   "name": "おおさか結婚相談所",
+   "rating": 2,
+   "count": 2,
+   "address": "日本、〒543-0002 大阪府大阪市天王寺区上汐３丁目２−１７ コモド上汐ビル 302号室",
+   "mapsUri": "https://maps.google.com/?cid=321117705480664537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.osaka-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "おおさか結婚相談所-2356"
+  },
+  {
+   "name": "結婚相談所ウエディングロード(会員数９万５千",
+   "rating": 3,
+   "count": 2,
+   "address": "日本、〒567-0888 大阪府茨木市駅前３丁目９−９",
+   "mapsUri": "https://maps.google.com/?cid=1326343642067858617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.weddingroads.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所ウエディングロード-会員数-万-千-7d5f"
+  },
+  {
+   "name": "結婚相談室 ロイヤル",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒581-0802 大阪府八尾市桂町６丁目１−７ 協栄 ビル",
+   "mapsUri": "https://maps.google.com/?cid=10397074993229235769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.iikekkon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談室-ロイヤル-0ea3"
+  },
+  {
+   "name": "アイアイブライダル",
+   "rating": 2,
+   "count": 2,
+   "address": "日本、〒581-0845 大阪府八尾市上之島町北５丁目 上之島町北５丁目３１−２７",
+   "mapsUri": "https://maps.google.com/?cid=7781623204961147198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.aiaibridal.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "アイアイブライダル-5209"
+  },
+  {
+   "name": "結婚相談所fortune",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒577-0821 大阪府東大阪市吉松２丁目５−１９ バッハレジデンス長瀬 203号",
+   "mapsUri": "https://maps.google.com/?cid=13109943792887064322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所fortune-99e8"
+  },
+  {
+   "name": "Groovin婚活サロン",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒577-0054 大阪府東大阪市高井田元町２丁目３０−３１",
+   "mapsUri": "https://maps.google.com/?cid=4682580278157407424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.enishi-groovin.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "Groovin婚活サロン-a582"
+  },
+  {
+   "name": "結婚相談所 うめマリッジ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒538-0052 大阪府大阪市鶴見区浜２丁目２−２",
+   "mapsUri": "https://maps.google.com/?cid=8906685349048645365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://umemarriage0111.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所-うめマリッジ-e55b"
+  },
+  {
+   "name": "バツイチ結婚相談所 再婚縁結び 大阪梅田",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目１−３ 大阪駅前第3ビル 14F",
+   "mapsUri": "https://maps.google.com/?cid=15912350777813161094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://saikon-enmusubi.com/shop_osaka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "バツイチ結婚相談所-再婚縁結び-大阪梅田-dd50"
+  },
+  {
+   "name": "結婚相談所 結叶～ゆいと～",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２−２００ 大阪駅前第2ビル 2階 3-1-2",
+   "mapsUri": "https://maps.google.com/?cid=14847487115408047697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.yuito-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "結婚相談所-結叶-ゆいと-4d41"
+  },
+  {
+   "name": "結婚相談所marble（マーブル）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場３丁目２−２２ おおきに南船場ビル ２０５",
+   "mapsUri": "https://maps.google.com/?cid=12299821449028728426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marble-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所marble-マーブル-abc0"
+  },
+  {
+   "name": "結婚相談所アンジェリク",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒542-0086 大阪府大阪市中央区南船場４丁目５−３",
+   "mapsUri": "https://maps.google.com/?cid=6013480181634836301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://angelique1122.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所アンジェリク-fd73"
+  },
+  {
+   "name": "中高年シニア向け婚活・結婚相談所「茜会」心斎橋サロン",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目２−７ 御堂筋ジュンアシダビル ７F",
+   "mapsUri": "https://maps.google.com/?cid=14178930210370655695&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.akanekai.co.jp/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "中高年シニア向け婚活-結婚相談所-茜会-心斎橋サロン-7ba9"
+  },
+  {
+   "name": "結婚相談所 ブライダルサポートパール 天王寺サロン",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒545-0051 大阪府大阪市阿倍野区旭町１丁目３−３",
+   "mapsUri": "https://maps.google.com/?cid=190782600748709567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://b-s-pearl.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所-ブライダルサポートパール-天王寺サロン-6607"
+  },
+  {
+   "name": "セルフフォトスタジオ恋姫、結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒545-0021 大阪府大阪市阿倍野区阪南町１丁目５−９",
+   "mapsUri": "https://maps.google.com/?cid=10985282406866928645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/PrNlxH2",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "セルフフォトスタジオ恋姫-結婚相談所-5a8f"
+  },
+  {
+   "name": "在日韓国人 結婚相談センター",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒543-0023 大阪府大阪市天王寺区味原町１１−１ 味原三光ビル",
+   "mapsUri": "https://maps.google.com/?cid=3095714316176735929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "在日韓国人-結婚相談センター-dc5b"
+  },
+  {
+   "name": "結婚相談所Pair Design",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒556-0024 大阪府大阪市浪速区塩草３丁目７−５",
+   "mapsUri": "https://maps.google.com/?cid=5047752335473807234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/osaka/47140/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所Pair-Design-f4d6"
+  },
+  {
+   "name": "Marriage Matching Japan",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒532-0003 大阪府大阪市淀川区宮原１丁目１−１ 新大阪阪急ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=7724145211105469495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriagematchingjapan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "Marriage-Matching-Japan-0523"
+  },
+  {
+   "name": "ミコモモ結婚相談所新大阪",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒532-0002 大阪府大阪市淀川区東三国２丁目９",
+   "mapsUri": "https://maps.google.com/?cid=15213454397915485044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mikomomo2021.amebaownd.com/pages/5023684/page_202106151938",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "ミコモモ結婚相談所新大阪-0bd7"
+  },
+  {
+   "name": "新大阪結婚相談所（ライフコンサルティング株式会社）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒533-0033 大阪府大阪市東淀川区東中島１丁目２０−１２ 新大阪キドビル 212",
+   "mapsUri": "https://maps.google.com/?cid=8349000320936629310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ameblo.jp/charlie-konkatsublog/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "新大阪結婚相談所-ライフコンサルティング株式会社-3cf2"
+  },
+  {
+   "name": "結婚相談所ハピマリ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒591-8012 大阪府堺市北区中村町３０６−４",
+   "mapsUri": "https://maps.google.com/?cid=17019799475546138011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hapimari.themedia.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所ハピマリ-3fbf"
+  },
+  {
+   "name": "結婚相談アンジェレ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒591-8037 大阪府堺市北区百舌鳥赤畑町２丁７２−７２ グランドパレス堺三国ヶ丘",
+   "mapsUri": "https://maps.google.com/?cid=541873468136174591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談アンジェレ-0058"
+  },
+  {
+   "name": "婚シェルジュ mau loa",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒599-8104 大阪府堺市東区引野町２丁",
+   "mapsUri": "https://maps.google.com/?cid=11456049217303915424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.concierge-mauloa.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "婚シェルジュ-mau-loa-00ef"
+  },
+  {
+   "name": "結婚相談所 寿プロデュース",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒591-8002 大阪府堺市北区北花田町２丁2−２３９−２−８０５",
+   "mapsUri": "https://maps.google.com/?cid=8329981098197460972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kotopuro.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-寿プロデュース-fd24"
+  },
+  {
+   "name": "結婚相談所 田中憲三事務所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒560-0014 大阪府豊中市熊野町２丁目９−２８",
+   "mapsUri": "https://maps.google.com/?cid=5283805579660165842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "結婚相談所-田中憲三事務所-6076"
+  },
+  {
+   "name": "秋山剛のパーソナル結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒561-0831 大阪府豊中市庄内東町１丁目５−９ 土井建設ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=3191541121870591291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bridal-toyonaka.jp/wp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "秋山剛のパーソナル結婚相談所-b803"
+  },
+  {
+   "name": "エクセル マリッジ北摂",
+   "rating": 3,
+   "count": 1,
+   "address": "日本、〒563-0032 大阪府池田市石橋２丁目１５−２７ アクアピュア",
+   "mapsUri": "https://maps.google.com/?cid=4768249859773227547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.excel-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "エクセル-マリッジ北摂-b0d1"
+  },
+  {
+   "name": "結婚相談所 関西ブライダル 茨木店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒567-0868 大阪府茨木市沢良宜西１丁目1−１３",
+   "mapsUri": "https://maps.google.com/?cid=4329539153180740607&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kb-ibaraki.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所-関西ブライダル-茨木店-991b"
+  },
+  {
+   "name": "中尾弘子結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒569-1142 大阪府高槻市宮田町１丁目１６−２４",
+   "mapsUri": "https://maps.google.com/?cid=10304223190440437627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ekiten.jp/shop_17089426/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "中尾弘子結婚相談所-eb09"
+  },
+  {
+   "name": "全国仲人連合会高槻駅前支部",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒569-0803 大阪府高槻市高槻町１３−５ 牧ビル",
+   "mapsUri": "https://maps.google.com/?cid=14192080266600145511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "全国仲人連合会高槻駅前支部-8899"
+  },
+  {
+   "name": "結婚相談所marl東大阪",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒578-0948 大阪府東大阪市菱屋東２丁目４−２１ 相栄ロイヤルビル 301",
+   "mapsUri": "https://maps.google.com/?cid=16727930225330384773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-marl.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所marl東大阪-33cd"
+  },
+  {
+   "name": "東大阪結婚相談所",
+   "rating": 2,
+   "count": 1,
+   "address": "日本、〒579-8044 大阪府東大阪市河内町６−１６",
+   "mapsUri": "https://maps.google.com/?cid=6538898964402479333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "東大阪結婚相談所-d03e"
+  },
+  {
+   "name": "トライ結婚相談所",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒577-0055 大阪府東大阪市長栄寺２−１２ Tsunagaruビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=2497767069863580919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://t-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "トライ結婚相談所-f270"
+  },
+  {
+   "name": "鶴見結婚相談所@LINKS",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒538-0037 大阪府大阪市鶴見区焼野１丁目南４",
+   "mapsUri": "https://maps.google.com/?cid=16942044212701067667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://at-links.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "鶴見結婚相談所-LINKS-99fe"
+  },
+  {
+   "name": "ゴンちゃんの結婚相談所 大阪梅田サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒530-0001 大阪府大阪市北区梅田１丁目２−２ 大阪駅前第2ビル 200 2階3-1-2",
+   "mapsUri": "https://maps.google.com/?cid=9332172620589131335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gon-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "umeda"
+   ],
+   "slug": "ゴンちゃんの結婚相談所-大阪梅田サロン-811f"
+  },
+  {
+   "name": "結婚相談所 Dash",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１−６０ なんばスカイオ 27階 wework",
+   "mapsUri": "https://maps.google.com/?cid=5630437158467589549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所-Dash-28e4"
+  },
+  {
+   "name": "結婚相談所フォーマリッジ大阪事務所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0086 大阪府大阪市中央区西心斎橋２丁目１−１３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=18077080513027955821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://formarriage.blanc-emu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所フォーマリッジ大阪事務所-69b5"
+  },
+  {
+   "name": "結婚相談所エキスパシア",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場３丁目２−２２ おおきに南船場ビル 205",
+   "mapsUri": "https://maps.google.com/?cid=4899420502923333378&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://expersia-osaka.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所エキスパシア-4529"
+  },
+  {
+   "name": "大阪結婚相談所ハートマリー女子部 心斎橋店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0081 大阪府大阪市中央区南船場３丁目１１−１０ B1F THE HUB心斎橋内",
+   "mapsUri": "https://maps.google.com/?cid=4964168035394456696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://heartmarry-girl.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "大阪結婚相談所ハートマリー女子部-心斎橋店-433c"
+  },
+  {
+   "name": "プラスワンマインド結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波２丁目３−１１ 4階",
+   "mapsUri": "https://maps.google.com/?cid=6369466362388438626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "プラスワンマインド結婚相談所-86d1"
+  },
+  {
+   "name": "結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒540-0026 大阪府大阪市中央区内本町２丁目２ ＧＳハイム内本町",
+   "mapsUri": "https://maps.google.com/?cid=11851324678182309632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.a-studiot4.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所-5001"
+  },
+  {
+   "name": "結婚相談所ワンピース",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒550-0012 大阪府大阪市西区立売堀１丁目５−２",
+   "mapsUri": "https://maps.google.com/?cid=1749641307069212068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bellebichebridal.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=1218377825670792800",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所ワンピース-7814"
+  },
+  {
+   "name": "１ ブライダルサロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0076 大阪府大阪市中央区難波５丁目１ ブライダルサロン",
+   "mapsUri": "https://maps.google.com/?cid=5298363809493709292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": null,
+   "areas": [
+    "namba"
+   ],
+   "slug": "ブライダルサロン-ad03"
+  },
+  {
+   "name": "心斎橋筋１丁目７−１ ブライダルサロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0085 大阪府大阪市中央区心斎橋筋１丁目７−１ ブライダルサロン",
+   "mapsUri": "https://maps.google.com/?cid=17179864685077995203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": null,
+   "areas": [
+    "namba"
+   ],
+   "slug": "心斎橋筋-丁目-ブライダルサロン-87e0"
+  },
+  {
+   "name": "結婚相談所おすすめナビ合同会社",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒534-0022 大阪府大阪市都島区都島中通２丁目１５−７",
+   "mapsUri": "https://maps.google.com/?cid=6246325731225861243&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ma0rry.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "結婚相談所おすすめナビ合同会社-b01c"
+  },
+  {
+   "name": "（株）トータルマリアージュサポート フィオーレお客様相談室",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒542-0086 大阪府大阪市中央区中央区西心斎橋２丁目２ 西心斎橋2-2-7 御堂筋ジュンアシダビル7F",
+   "mapsUri": "https://maps.google.com/?cid=14402408318836833787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.total-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "株-トータルマリアージュサポート-フィオーレお客様相談室-427c"
+  },
+  {
+   "name": "婚活HOME つなぐ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒556-0011 大阪府大阪市浪速区難波中１丁目１８−８ 大阪開発難波ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=3742400410410667196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "namba"
+   ],
+   "slug": "婚活HOME-つなぐ-bc46"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント天王寺店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒545-0052 大阪府大阪市阿倍野区阿倍野筋２丁目１−４０ あべのand 3階",
+   "mapsUri": "https://maps.google.com/?cid=10115676291521112371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/branch/kansai/tennoji.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所パートナーエージェント天王寺店-cc7e"
+  },
+  {
+   "name": "ブライダルギャラリー邑（ゆう）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒545-0011 大阪府大阪市阿倍野区昭和町１丁目１５−６ ライオンズマンション昭和町 503",
+   "mapsUri": "https://maps.google.com/?cid=8313494431628606734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.bgy.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "ブライダルギャラリー邑-ゆう-ff14"
+  },
+  {
+   "name": "結婚相談所 あべのBridal de Osaka",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒559-0006 大阪府大阪市住之江区浜口西２丁目１−８ ＮＹビル",
+   "mapsUri": "https://maps.google.com/?cid=7227896790622016611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://map.yahoo.co.jp/v3/place/9Gf9P3mj4JE",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所-あべのBridal-de-Osaka-8c65"
+  },
+  {
+   "name": "結婚相談所仲人連合会近畿天王寺",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒543-0001 大阪府大阪市天王寺区上本町６丁目３−３番31 号 １４０１号室",
+   "mapsUri": "https://maps.google.com/?cid=5891260567376659713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nakoudorengoukaikinki-tennouji.jimdosite.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "結婚相談所仲人連合会近畿天王寺-47a1"
+  },
+  {
+   "name": "人生を変える結婚相談所つむぐ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒543-0023 大阪府大阪市天王寺区味原町１３ 阪府大阪市天王寺区味原町13-9 ビズコンフォート鶴橋3F-13",
+   "mapsUri": "https://maps.google.com/?cid=1820790300467017692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "人生を変える結婚相談所つむぐ-6176"
+  },
+  {
+   "name": "婚活サロンeマリコム",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒543-0056 大阪府大阪市天王寺区堀越町９−８ 4階",
+   "mapsUri": "https://maps.google.com/?cid=15080478108828389143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://e-maricom.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "婚活サロンeマリコム-9862"
+  },
+  {
+   "name": "ブライダルセンター２１",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒545-0051 大阪府大阪市阿倍野区旭町２丁目２−４",
+   "mapsUri": "https://maps.google.com/?cid=1461415663845745264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "ブライダルセンター-fdff"
+  },
+  {
+   "name": "１ 宴会受付・ブライダルサロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒543-0001 大阪府大阪市天王寺区上本町６丁目１ 宴会受付・ブライダルサロン",
+   "mapsUri": "https://maps.google.com/?cid=1408960851230273231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": null,
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "宴会受付-ブライダルサロン-86a1"
+  },
+  {
+   "name": "大阪中央結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒540-0004 大阪府大阪市中央区玉造２丁目１５−１６ エルム小谷",
+   "mapsUri": "https://maps.google.com/?cid=13931285875651913881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "tennoji"
+   ],
+   "slug": "大阪中央結婚相談所-7ee1"
+  },
+  {
+   "name": "結婚相談所プレジール結 ～Plaisir Yui～",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒532-0004 大阪府大阪市淀川区西宮原２丁目１−３ ＳＯＲＡ新大阪２１ 9階D号 アローズ司法書士法人事務所内",
+   "mapsUri": "https://maps.google.com/?cid=6408682327162778804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.a-bridal.com/plaisiryui",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所プレジール結-Plaisir-Yui-935f"
+  },
+  {
+   "name": "結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒532-0003 大阪府大阪市淀川区宮原１丁目１６ 大阪府大阪市淀川区 宮原1-16-2 903",
+   "mapsUri": "https://maps.google.com/?cid=14370837301341468757&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shin-osaka"
+   ],
+   "slug": "結婚相談所-4d5a"
+  },
+  {
+   "name": "ラヴィベル大阪・堺",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒591-8005 大阪府堺市北区新堀町２丁１２６−６ レスタージュ北花田",
+   "mapsUri": "https://maps.google.com/?cid=17641936838099297787&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://laviebelle-osaka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "ラヴィベル大阪-堺-3b27"
+  },
+  {
+   "name": "結婚相談所Ringle",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒599-8273 大阪府堺市中区深井清水町３９８０",
+   "mapsUri": "https://maps.google.com/?cid=417898838238998322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所Ringle-c353"
+  },
+  {
+   "name": "結婚相談所 an-felice (ｱﾝ・ﾌｪﾘｰﾁｪ)",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒590-0974 大阪府堺市堺区大浜北町２丁１−７",
+   "mapsUri": "https://maps.google.com/?cid=5570285626512878559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.an-felice.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-an-felice-b6a8"
+  },
+  {
+   "name": "結婚相談所 プレシャス・マリッジ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒590-0134 大阪府堺市南区御池台２丁２６−２",
+   "mapsUri": "https://maps.google.com/?cid=11119390121135644923&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.precious-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "結婚相談所-プレシャス-マリッジ-6fc7"
+  },
+  {
+   "name": "堺婚活センター歩",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒593-8311 大阪府堺市西区上３６６−４",
+   "mapsUri": "https://maps.google.com/?cid=16695110277085307079&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sakai-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "堺婚活センター歩-fef7"
+  },
+  {
+   "name": "マリッジサポートセンター絆",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒591-8023 大阪府堺市北区中百舌鳥町１丁９５−２２ 岡田会計事務所",
+   "mapsUri": "https://maps.google.com/?cid=1630746730628284898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "マリッジサポートセンター絆-9955"
+  },
+  {
+   "name": "ブライダル深井駅前",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒599-8273 大阪府堺市中区深井清水町４０２３ ユニライフ泉北深井駅前",
+   "mapsUri": "https://maps.google.com/?cid=11733652346102862153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakai-osaka"
+   ],
+   "slug": "ブライダル深井駅前-e72f"
+  },
+  {
+   "name": "結婚相談所 豊中 結愛",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒561-0801 大阪府豊中市曽根西町１丁目２−２ 1階",
+   "mapsUri": "https://maps.google.com/?cid=12284602596844759586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "結婚相談所-豊中-結愛-4b2a"
+  },
+  {
+   "name": "結婚相談所 北摂マリアージュ倶楽部",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒560-0053 大阪府豊中市向丘２丁目１０",
+   "mapsUri": "https://maps.google.com/?cid=9023285285781238503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hm-club.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "結婚相談所-北摂マリアージュ倶楽部-9e81"
+  },
+  {
+   "name": "ブライダル相談コーナー",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒560-0021 大阪府豊中市本町１丁目５−８ 高山第一ビル",
+   "mapsUri": "https://maps.google.com/?cid=291931926032182004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "ブライダル相談コーナー-6d0f"
+  },
+  {
+   "name": "結婚相談所 北摂マリアージュ倶楽部",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒560-0053 大阪府豊中市向丘２丁目１１−７ マンションスタンザ向ヶ丘 102",
+   "mapsUri": "https://maps.google.com/?cid=12039330369045819788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hm-club.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "結婚相談所-北摂マリアージュ倶楽部-8cf1"
+  },
+  {
+   "name": "oli-me結婚相談所 （出張型相談所）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒563-0021 大阪府池田市畑４丁目９−５",
+   "mapsUri": "https://maps.google.com/?cid=13982321632913878490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://oli-me.nau-quality.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyonaka"
+   ],
+   "slug": "oli-me結婚相談所-出張型相談所-88ef"
+  },
+  {
+   "name": "LGBTQ＋専門の結婚相談所 ライトマリッジALLY",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒567-0082 大阪府茨木市元町２丁目２−２２ 西田ビル 2階 出張先： 『YOUBA』 高槻市芥川町2丁目11‐5 EYビル2階",
+   "mapsUri": "https://maps.google.com/?cid=11070614594693420434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "LGBTQ-専門の結婚相談所-ライトマリッジALLY-eb80"
+  },
+  {
+   "name": "いばらき婚 ブライダル（大阪北摂茨木市和婚プロデュース）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒567-0882 大阪府茨木市元町６−３",
+   "mapsUri": "https://maps.google.com/?cid=5581815824998292179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ibarakikon.jimdofree.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "いばらき婚-ブライダル-大阪北摂茨木市和婚プロデュース-d41b"
+  },
+  {
+   "name": "ブライダル茨木",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒567-0827 大阪府茨木市稲葉町５−７ マプログレイス",
+   "mapsUri": "https://maps.google.com/?cid=10286808545413187972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "ブライダル茨木-901b"
+  },
+  {
+   "name": "婚活センター【優良結婚相談所紹介】",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒569-1136 大阪府高槻市郡家新町３１",
+   "mapsUri": "https://maps.google.com/?cid=2767686974000949897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "婚活センター-優良結婚相談所紹介-ea8c"
+  },
+  {
+   "name": "結婚相談所25niko",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒569-0078 大阪府高槻市大手町３−６",
+   "mapsUri": "https://maps.google.com/?cid=3312579548956270504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://25niko-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "takatsuki-osaka"
+   ],
+   "slug": "結婚相談所25niko-ef92"
+  },
+  {
+   "name": "結婚相談所 Rice Wedding（ライスウエディング）",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒581-0036 大阪府八尾市沼１丁目６８−３６",
+   "mapsUri": "https://maps.google.com/?cid=8836442066902811964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.rice-wedding.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所-Rice-Wedding-ライスウエディング-ed78"
+  },
+  {
+   "name": "結婚相談所リリィベル",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒581-0019 大阪府八尾市南小阪合町４丁目１−２３",
+   "mapsUri": "https://maps.google.com/?cid=4933398785408265881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lily-bell-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所リリィベル-4148"
+  },
+  {
+   "name": "結婚相談所マリッジブリング",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒581-0802 大阪府八尾市高安町南７丁目１３",
+   "mapsUri": "https://maps.google.com/?cid=17544988893558378466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yao.mypl.net/shop/00000340183/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所マリッジブリング-74e5"
+  },
+  {
+   "name": "マリッジヒルズ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒578-0921 大阪府東大阪市水走２丁目１６−３７",
+   "mapsUri": "https://maps.google.com/?cid=164301937734385937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://marriagehills.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "マリッジヒルズ-3ef1"
+  },
+  {
+   "name": "結婚相談所LoveMe",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒547-0022 大阪府大阪市平野区瓜破東４丁目２−２",
+   "mapsUri": "https://maps.google.com/?cid=6654355140810149700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://loveme729.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所LoveMe-f854"
+  },
+  {
+   "name": "結婚相談所 ヴィクトワール",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒577-0055 大阪府東大阪市長栄寺２ Tsunagaruビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=8292484095985490274&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sites.google.com/view/victoire-bridal/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所-ヴィクトワール-d930"
+  },
+  {
+   "name": "Cuore東大阪（クオーレ東大阪結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒577-0061 大阪府東大阪市森河内西１丁目１６−１４",
+   "mapsUri": "https://maps.google.com/?cid=5145069110468312749&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://cuore-higashi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "Cuore東大阪-クオーレ東大阪結婚相談所-5092"
+  },
+  {
+   "name": "結婚相談所マリッジステア-ズ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒578-0901 大阪府東大阪市加納３丁目１−２６",
+   "mapsUri": "https://maps.google.com/?cid=11725058627730037402&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所マリッジステア-ズ-1252"
+  },
+  {
+   "name": "シニア向け 国際結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒577-0843 大阪府東大阪市荒川３丁目２−１５ トーエー布施駅前ビル",
+   "mapsUri": "https://maps.google.com/?cid=4803307721944956635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "シニア向け-国際結婚相談所-343c"
+  },
+  {
+   "name": "ブライダルefi",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒577-0808 大阪府東大阪市横沼町２丁目４",
+   "mapsUri": "https://maps.google.com/?cid=5934794027840323582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.facebook.com/%E3%82%B3%E3%83%AA%E3%82%A2%E3%83%B3%E3%83%96%E3%83%A9%E3%82%A4%E3%83%80%E3%83%AB%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3efi-325113234215074/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "ブライダルefi-71bc"
+  },
+  {
+   "name": "結婚相談所マリッジステアーズ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒578-0901 大阪府東大阪市加納３丁目８−３３",
+   "mapsUri": "https://maps.google.com/?cid=18118039631771344981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ksmshp.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "higashiosaka"
+   ],
+   "slug": "結婚相談所マリッジステアーズ-397b"
+  }
+ ]
+}
