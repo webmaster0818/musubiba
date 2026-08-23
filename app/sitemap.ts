@@ -5,7 +5,7 @@ import path from "node:path";
 export const dynamic = "force-static";
 
 const BASE = "https://mu-su-bi-ba.com";
-const LASTMOD = "2026-08-20";
+const LASTMOD = "2026-08-23";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",

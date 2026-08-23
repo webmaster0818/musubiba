@@ -1,0 +1,1475 @@
+{
+ "surveyedAt": "2026-08-23",
+ "prefName": "愛知",
+ "agencies": [
+  {
+   "name": "結婚相談所オーネット 名古屋店",
+   "rating": 4.6,
+   "count": 400,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目５−２８ 桜通豊田ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=11425998762998193211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chubu/aichi/nagoya/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=nagoya",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所オーネット-名古屋店-baae"
+  },
+  {
+   "name": "ツヴァイ 名古屋店",
+   "rating": 4.5,
+   "count": 209,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目５−２８ 桜通豊田ビル 17階",
+   "mapsUri": "https://maps.google.com/?cid=16291369004281614371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chubu/aichi/nagoya/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "ツヴァイ-名古屋店-3a50"
+  },
+  {
+   "name": "ピーチベル結婚相談所 中京競馬場前駅サロン",
+   "rating": 4.7,
+   "count": 209,
+   "address": "日本、〒470-1168 愛知県豊明市栄町南舘23番地3",
+   "mapsUri": "https://maps.google.com/?cid=12060279236887962862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.peach-bell.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "ピーチベル結婚相談所-中京競馬場前駅サロン-a71b"
+  },
+  {
+   "name": "結婚相談所IBJメンバーズ 名古屋店",
+   "rating": 4.8,
+   "count": 202,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅２丁目４５−１４ 2階",
+   "mapsUri": "https://maps.google.com/?cid=11225634857454659768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/nagoya/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_nagoya",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所IBJメンバーズ-名古屋店-7045"
+  },
+  {
+   "name": "婚活・結婚相談所 アクア・マースト 【愛知 豊橋本店】",
+   "rating": 4.9,
+   "count": 171,
+   "address": "日本、〒440-0862 愛知県豊橋市向山大池町7−１３ 河合ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=14006990626661579911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aichi.merst.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "婚活-結婚相談所-アクア-マースト-愛知-豊橋本店-13f7"
+  },
+  {
+   "name": "結婚相談所サンマリエ名古屋栄サロン",
+   "rating": 4.4,
+   "count": 121,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１５−２７ 8階",
+   "mapsUri": "https://maps.google.com/?cid=2318984274442458158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/tokai-hokuriku/nagoya/?utm_source=nagoya&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所サンマリエ名古屋栄サロン-5625"
+  },
+  {
+   "name": "結婚相談所キャンマリアージュ 名古屋新栄本店",
+   "rating": 4.7,
+   "count": 106,
+   "address": "日本、〒461-0004 愛知県名古屋市東区葵１丁目２５−１ 5F",
+   "mapsUri": "https://maps.google.com/?cid=2323411479948291844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkon-canmariage.com/?utm_source=mybusiness_n",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所キャンマリアージュ-名古屋新栄本店-94b8"
+  },
+  {
+   "name": "春日井 結婚相談所 婚活room 彩り",
+   "rating": 5,
+   "count": 100,
+   "address": "日本、〒487-0024 愛知県春日井市大留町５丁目６",
+   "mapsUri": "https://maps.google.com/?cid=8044515008926038657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://irodori88.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "春日井-結婚相談所-婚活room-彩り-7ed4"
+  },
+  {
+   "name": "結婚相談所オーネット 岡崎店",
+   "rating": 4.6,
+   "count": 81,
+   "address": "日本、〒444-0043 愛知県岡崎市唐沢町１１−５ 第一生命住友海上岡崎ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=14978132128907809995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chubu/aichi/okazaki/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=okazaki",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "結婚相談所オーネット-岡崎店-1eac"
+  },
+  {
+   "name": "豊橋の結婚相談所アイクル",
+   "rating": 5,
+   "count": 68,
+   "address": "日本、〒441-8061 愛知県豊橋市藤沢町１４１",
+   "mapsUri": "https://maps.google.com/?cid=14513710116081574511&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.aikul-toyohashi.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "豊橋の結婚相談所アイクル-43eb"
+  },
+  {
+   "name": "結婚相談所名古屋婚活",
+   "rating": 4.8,
+   "count": 66,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目２３−１６ タキビル",
+   "mapsUri": "https://maps.google.com/?cid=8334986935300053731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nagoyakonkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所名古屋婚活-e612"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント名古屋店",
+   "rating": 4.1,
+   "count": 66,
+   "address": "日本、〒450-6307 愛知県名古屋市中村区名駅１丁目１−１ JPタワー名古屋 ７階",
+   "mapsUri": "https://maps.google.com/?cid=15910581332853254451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/chubu/nagoya.html?cid=se002&argument=wgvYBfWa&dmai=9723",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所パートナーエージェント名古屋店-e1c4"
+  },
+  {
+   "name": "㈱ブライダル 名古屋本社",
+   "rating": 4.5,
+   "count": 62,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目７−１３ コスモ栄ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=7812695152059770937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-vip.co.jp/beginer/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "株-ブライダル-名古屋本社-9a56"
+  },
+  {
+   "name": "ツヴァイ 岡崎店",
+   "rating": 4.5,
+   "count": 61,
+   "address": "日本、〒444-0043 愛知県岡崎市唐沢町11−５ 第一生命・三井住友海上岡崎ビル",
+   "mapsUri": "https://maps.google.com/?cid=2930587897521795992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chubu/aichi/okazaki/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "ツヴァイ-岡崎店-a7d0"
+  },
+  {
+   "name": "ブライダルサロンZERO名古屋店",
+   "rating": 4.8,
+   "count": 51,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄５丁目２６−３６ 7階",
+   "mapsUri": "https://maps.google.com/?cid=1555335658522989840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalsalon-zero-woman.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "ブライダルサロンZERO名古屋店-6ef3"
+  },
+  {
+   "name": "結婚相談所アベック",
+   "rating": 5,
+   "count": 43,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内３丁目１０−８ LIBERTACARINO 3F",
+   "mapsUri": "https://maps.google.com/?cid=12570663943717733952&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://abec.tv/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所アベック-61f5"
+  },
+  {
+   "name": "結婚相談所アモーシェ",
+   "rating": 4.7,
+   "count": 42,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目１８−18番14号 LANDSQUARE MARUNOUCHI 5F",
+   "mapsUri": "https://maps.google.com/?cid=17584987042546834809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://amouche.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所アモーシェ-041c"
+  },
+  {
+   "name": "結婚相談所プリヴェ―ル名古屋本店",
+   "rating": 4.4,
+   "count": 41,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目１７−１４ 鈴木ビル",
+   "mapsUri": "https://maps.google.com/?cid=16666247397521914353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://primvere-m.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所プリヴェ―ル名古屋本店-0c5c"
+  },
+  {
+   "name": "IBJMatching 栄(PARTY☆PARTY)",
+   "rating": 4.1,
+   "count": 41,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１５−２７ いちご栄ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=172032751083637551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_aichi/area_nagoya-sakae/floor_nagoya-sakae?utm_source=google&utm_medium=maps&utm_campaign=mb_nagoya-sakae",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "IBJMatching-栄-PARTY☆PARTY-d724"
+  },
+  {
+   "name": "結婚相談所ブライダルメッセージ",
+   "rating": 4.9,
+   "count": 41,
+   "address": "日本、〒491-0903 愛知県一宮市八幡３丁目７−１４ エクセルハイム一宮 一階サロン",
+   "mapsUri": "https://maps.google.com/?cid=3292616437346764038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalmessage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "結婚相談所ブライダルメッセージ-3df2"
+  },
+  {
+   "name": "結婚相談所 for M",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒491-0865 愛知県一宮市印田通３丁目13−５",
+   "mapsUri": "https://maps.google.com/?cid=17258929691241124419&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkon-form.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "結婚相談所-for-M-aed5"
+  },
+  {
+   "name": "結婚相談所ムスベル 名古屋店",
+   "rating": 4.7,
+   "count": 39,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１７−２８ ＣＫ１５伏見ビル 8階 事務所6階",
+   "mapsUri": "https://maps.google.com/?cid=12099228859018957354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=nagoya&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所ムスベル-名古屋店-dc8f"
+  },
+  {
+   "name": "SKマリッジ",
+   "rating": 4.4,
+   "count": 38,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２６−２３ 名駅エフワンビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=2012517567137092129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://s-k-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "SKマリッジ-159c"
+  },
+  {
+   "name": "結婚相談所 しあわせサロン enishie糸",
+   "rating": 4.9,
+   "count": 38,
+   "address": "日本、〒475-0853 愛知県半田市南末広町120−４ B-1オフィス",
+   "mapsUri": "https://maps.google.com/?cid=14636697456012477188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.enishi8.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "結婚相談所-しあわせサロン-enishie糸-a633"
+  },
+  {
+   "name": "アシスト良縁",
+   "rating": 4.8,
+   "count": 38,
+   "address": "日本、〒448-0858 愛知県刈谷市若松町３丁目９ YF BLDG 3F",
+   "mapsUri": "https://maps.google.com/?cid=372102816347150644&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://assist1122.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "アシスト良縁-c78b"
+  },
+  {
+   "name": "結婚相談所 ソレイユ",
+   "rating": 4.9,
+   "count": 36,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目７−４ ＴＯＳＨＩＮ．ＳＡＫＵＲＡビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=17955493404081901921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://soleiyu-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所-ソレイユ-63ca"
+  },
+  {
+   "name": "結婚相談所ELIXIRエリクシールブライダル",
+   "rating": 5,
+   "count": 36,
+   "address": "日本、〒451-0012 愛知県名古屋市西区稲生町４丁目５７−１",
+   "mapsUri": "https://maps.google.com/?cid=6558551456636927651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.elixir-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所ELIXIRエリクシールブライダル-bb21"
+  },
+  {
+   "name": "婚活サポートアテンダー",
+   "rating": 5,
+   "count": 35,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅１丁目１−１ JPタワー名古屋 21階",
+   "mapsUri": "https://maps.google.com/?cid=3337463124142540884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.attender.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "婚活サポートアテンダー-b3fd"
+  },
+  {
+   "name": "豊田市の結婚相談所◆サチ活株式会社◆TMS・IBJ正規加盟店",
+   "rating": 4.9,
+   "count": 35,
+   "address": "日本、〒471-0808 愛知県豊田市渋谷町３丁目37−１３ 江尻サンプラザB棟 202",
+   "mapsUri": "https://maps.google.com/?cid=13651285568303099503&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sachikatsu.love/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "豊田市の結婚相談所◆サチ活株式会社◆TMS-IBJ正規加盟店-533a"
+  },
+  {
+   "name": "結婚相談所メイユー for Marriage",
+   "rating": 4.9,
+   "count": 31,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ 1st2階",
+   "mapsUri": "https://maps.google.com/?cid=2523079056826047539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://meiyu-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所メイユー-for-Marriage-f963"
+  },
+  {
+   "name": "オタクに寄り添う結婚相談所 とら婚 名古屋オフィス",
+   "rating": 4.7,
+   "count": 30,
+   "address": "日本、〒453-0016 愛知県名古屋市中村区竹橋町５−５ 2F",
+   "mapsUri": "https://maps.google.com/?cid=5601887886593757359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toracon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "オタクに寄り添う結婚相談所-とら婚-名古屋オフィス-b0cf"
+  },
+  {
+   "name": "エグゼクティブ マリアージュ結yuna",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st ホーム 2",
+   "mapsUri": "https://maps.google.com/?cid=12301631478626309249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://executivemariage.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "エグゼクティブ-マリアージュ結yuna-cfed"
+  },
+  {
+   "name": "結婚相談所 コスモスプリマリエ",
+   "rating": 4.6,
+   "count": 28,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄５丁目１９−３１ Ｔ＆Ｍビル 2階2E",
+   "mapsUri": "https://maps.google.com/?cid=17753146073211083961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cosmosp.com/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所-コスモスプリマリエ-72c4"
+  },
+  {
+   "name": "愛知県豊田市の結婚相談所Orque lien【IBJ正規加盟店】",
+   "rating": 5,
+   "count": 28,
+   "address": "日本、〒471-0878 愛知県豊田市下林町１丁目３",
+   "mapsUri": "https://maps.google.com/?cid=18077098263757772688&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.orquelien.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "愛知県豊田市の結婚相談所Orque-lien-IBJ正規加盟店-35a8"
+  },
+  {
+   "name": "ラポール結婚相談所",
+   "rating": 4.9,
+   "count": 27,
+   "address": "日本、〒491-0858 愛知県一宮市栄４丁目５−２２",
+   "mapsUri": "https://maps.google.com/?cid=15937900601004303046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aichi-rapport.com/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "ラポール結婚相談所-b282"
+  },
+  {
+   "name": "BR Marriage（BRマリッジ）",
+   "rating": 5,
+   "count": 25,
+   "address": "日本、〒451-0045 愛知県名古屋市西区名駅１丁目１−１７ ダイヤメイテツビル 11F",
+   "mapsUri": "https://maps.google.com/?cid=5774315955184900906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://br-marriage.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "BR-Marriage-BRマリッジ-f231"
+  },
+  {
+   "name": "結婚相談所フィオーレ 名古屋店",
+   "rating": 4.8,
+   "count": 19,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目６−２３ 第三堀内ビルディング 12F",
+   "mapsUri": "https://maps.google.com/?cid=14156302829656786217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/aichi/nagoya/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所フィオーレ-名古屋店-eaa3"
+  },
+  {
+   "name": "トヨタブライダル・L",
+   "rating": 4.8,
+   "count": 19,
+   "address": "日本、〒471-0027 愛知県豊田市喜多町２丁目１６０",
+   "mapsUri": "https://maps.google.com/?cid=5055521925878957406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toyotabridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "トヨタブライダル-L-32d8"
+  },
+  {
+   "name": "みずたま 婚活salon",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒460-0022 愛知県名古屋市中区金山１丁目２−２４",
+   "mapsUri": "https://maps.google.com/?cid=5598375588920851361&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mizutama-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "みずたま-婚活salon-53f6"
+  },
+  {
+   "name": "安城市・西三河の結婚相談所 アイズストーリー",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒446-0018 愛知県安城市市東新町5−９ サンステージエクセル １F",
+   "mapsUri": "https://maps.google.com/?cid=6922799610826443888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.eyes-story.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "安城市-西三河の結婚相談所-アイズストーリー-9f10"
+  },
+  {
+   "name": "未来デザイン（障害者専門結婚相談所）",
+   "rating": 4.3,
+   "count": 15,
+   "address": "日本、〒456-0002 愛知県名古屋市熱田区金山町１丁目１６−７",
+   "mapsUri": "https://maps.google.com/?cid=514913535667205831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miraidesign.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kanayama"
+   ],
+   "slug": "未来デザイン-障害者専門結婚相談所-33a8"
+  },
+  {
+   "name": "結婚相談所Mens Lounge Marriage",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒453-0801 愛知県名古屋市中村区太閤３丁目７−７６ ２F",
+   "mapsUri": "https://maps.google.com/?cid=3323536263225751953&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ls-engage-corp.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所Mens-Lounge-Marriage-d2ff"
+  },
+  {
+   "name": "結婚相談所プレマリ 名古屋",
+   "rating": 4.7,
+   "count": 14,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目７−１３ コスモ栄ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=17030006723803026659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.premarri.com/index.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所プレマリ-名古屋-109c"
+  },
+  {
+   "name": "トヨタブライダルエル 名古屋支店",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄１丁目１２−６ 302",
+   "mapsUri": "https://maps.google.com/?cid=10784748893490024101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toyotabridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "トヨタブライダルエル-名古屋支店-94c2"
+  },
+  {
+   "name": "結婚相談所WeBCon名古屋店",
+   "rating": 4.7,
+   "count": 13,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦１丁目７−３２ 名古屋Siビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=15489488151286239063&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/nagoya/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所WeBCon名古屋店-439b"
+  },
+  {
+   "name": "結婚相談所 TAKUMI mariage（タクミマリアージュ）",
+   "rating": 4.9,
+   "count": 12,
+   "address": "日本、〒460-0011 愛知県名古屋市中区大須４丁目１−４０ アルティメイト矢場 町4F",
+   "mapsUri": "https://maps.google.com/?cid=11106688239968755122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.takumi-mariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所-TAKUMI-mariage-タクミマリアージュ-c5e3"
+  },
+  {
+   "name": "ゼクシィ 栄カウンター",
+   "rating": 3.2,
+   "count": 12,
+   "address": "日本、〒461-0005 愛知県名古屋市東区東桜１丁目１３−３ ＮＨＫ名古屋放送センタービル 地下１階",
+   "mapsUri": "https://maps.google.com/?cid=17913033661347068668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/aichi/sakae.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "ゼクシィ-栄カウンター-e185"
+  },
+  {
+   "name": "【20代30代専門婚活】モカマリッジ",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒474-0025 愛知県大府市中央町６丁目１２８ シャリエ大府グランマークス",
+   "mapsUri": "https://maps.google.com/?cid=11343420534767524370&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mokamarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "20代30代専門婚活-モカマリッジ-260f"
+  },
+  {
+   "name": "ブライダルサロンbouquet 名古屋の結婚相談所",
+   "rating": 4.7,
+   "count": 11,
+   "address": "日本、〒464-0075 愛知県名古屋市千種区内山３丁目２３−１９ CORNES HOUSE NAGOYA 802",
+   "mapsUri": "https://maps.google.com/?cid=542018285359186747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalsalonbouquet.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chikusa-meito"
+   ],
+   "slug": "ブライダルサロンbouquet-名古屋の結婚相談所-5956"
+  },
+  {
+   "name": "結婚相談所マリリング名古屋 春日井 小牧 犬山店",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒485-0804 愛知県小牧市池之内３１１４−３３",
+   "mapsUri": "https://maps.google.com/?cid=4544581297383839976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriring.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "結婚相談所マリリング名古屋-春日井-小牧-犬山店-13c8"
+  },
+  {
+   "name": "結婚相談所Y-en",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒446-0036 愛知県安城市小堤町６−２",
+   "mapsUri": "https://maps.google.com/?cid=11204051128325313213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://y-en.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "結婚相談所Y-en-e1d6"
+  },
+  {
+   "name": "結婚相談所 一歩の窓口(IBJ正規加盟店）名古屋東",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒461-0023 愛知県名古屋市東区徳川町１５０３ 南ビル 1階",
+   "mapsUri": "https://maps.google.com/?cid=2656784752176042605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ippo-winwin.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所-一歩の窓口-IBJ正規加盟店-名古屋東-d153"
+  },
+  {
+   "name": "名古屋の結婚相談所｜婚活チーム Search ray",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒465-0063 愛知県名古屋市名東区新宿１丁目",
+   "mapsUri": "https://maps.google.com/?cid=820726147027475247&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://searchray-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chikusa-meito"
+   ],
+   "slug": "名古屋の結婚相談所-婚活チーム-Search-ray-dde7"
+  },
+  {
+   "name": "【名古屋栄の結婚相談所】MUSUBU Marriage（ムスブ マリッジ）",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目６ 栄三丁目6-1 栄三丁目ビルディング10F",
+   "mapsUri": "https://maps.google.com/?cid=5377138476228378654&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musubu-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "名古屋栄の結婚相談所-MUSUBU-Marriage-ムスブ-マリッジ-717c"
+  },
+  {
+   "name": "結婚相談所Beauty婚シェル名古屋",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st 2階",
+   "mapsUri": "https://maps.google.com/?cid=4246863116417099641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://beautyconcier.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所Beauty婚シェル名古屋-0158"
+  },
+  {
+   "name": "結婚アカデミー 名古屋駅前店",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒451-0045 愛知県名古屋市西区名駅１丁目１−１７ ダイヤメイテツビル 11階",
+   "mapsUri": "https://maps.google.com/?cid=8725709186210767789&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://luce-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚アカデミー-名古屋駅前店-2af1"
+  },
+  {
+   "name": "アイノベル結婚相談所",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒476-0015 愛知県東海市東海町リノ割",
+   "mapsUri": "https://maps.google.com/?cid=13460458706234185860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/aichi/15325/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "アイノベル結婚相談所-7147"
+  },
+  {
+   "name": "結（YUI）House 結婚相談所",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒496-0036 愛知県津島市愛宕町２丁目６ 2B",
+   "mapsUri": "https://maps.google.com/?cid=13208719888923517689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://office-i-yui.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "結-YUI-House-結婚相談所-2bf9"
+  },
+  {
+   "name": "結婚相談所Mariarise(マリアリゼ)",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒444-1313 愛知県高浜市田戸町３丁目6−１２",
+   "mapsUri": "https://maps.google.com/?cid=4660656393380254929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariarise-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "結婚相談所Mariarise-マリアリゼ-cef8"
+  },
+  {
+   "name": "結婚相談所結エール",
+   "rating": 4.9,
+   "count": 7,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 第２森ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=1478524094897790414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yuiyell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所結エール-0aae"
+  },
+  {
+   "name": "婚活Plaza Latte",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒486-0931 愛知県春日井市松新町４丁目3−１２",
+   "mapsUri": "https://maps.google.com/?cid=14970775052830312829&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://plaza-latte.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "ichinomiya-aichi"
+   ],
+   "slug": "婚活Plaza-Latte-e28e"
+  },
+  {
+   "name": "結婚相談所 綾月 手相鑑定",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒471-0033 愛知県豊田市月見町３丁目２−４",
+   "mapsUri": "https://maps.google.com/?cid=1793881526164798612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "結婚相談所-綾月-手相鑑定-7b8a"
+  },
+  {
+   "name": "【IBJ】結婚相談所 Fun To Marriage（ファン トゥ マリッジ）",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒460-0007 愛知県名古屋市中区新栄３丁目８−１９",
+   "mapsUri": "https://maps.google.com/?cid=1672913435820427427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://funtomarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "IBJ-結婚相談所-Fun-To-Marriage-ファン-トゥ-マリッジ-94cd"
+  },
+  {
+   "name": "トゥジュール名古屋結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 第２森ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=2855776103045514545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toujours.studio.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "トゥジュール名古屋結婚相談所-8419"
+  },
+  {
+   "name": "東海結婚相談サービス",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒451-0045 愛知県名古屋市西区名駅２丁目３４−１７",
+   "mapsUri": "https://maps.google.com/?cid=18242310873681275691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://tokai-agency.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "東海結婚相談サービス-28b3"
+  },
+  {
+   "name": "ゼクシィ岡崎イオンモールカウンター",
+   "rating": 4,
+   "count": 6,
+   "address": "日本、〒444-0840 愛知県岡崎市戸崎町外山３８−５ イオンモール岡崎 ３階",
+   "mapsUri": "https://maps.google.com/?cid=13318297626293495632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/aichi/okazaki.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "ゼクシィ岡崎イオンモールカウンター-ea6b"
+  },
+  {
+   "name": "結婚相談所【婚活塾】はぴねすらいん名古屋本店",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒451-0063 愛知県名古屋市西区押切２丁目５−２５",
+   "mapsUri": "https://maps.google.com/?cid=2517108070224453031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happiness-line.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所-婚活塾-はぴねすらいん名古屋本店-32e8"
+  },
+  {
+   "name": "結婚相談所 婚テラス Miki",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒456-0018 愛知県名古屋市熱田区新尾頭１丁目６−１０ 906",
+   "mapsUri": "https://maps.google.com/?cid=1266763619162216096&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konterrace-miki.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kanayama"
+   ],
+   "slug": "結婚相談所-婚テラス-Miki-de48"
+  },
+  {
+   "name": "GOOD LIFE 結婚相談室",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒468-0045 愛知県名古屋市天白区野並２丁目２６１ ポスタル野並305 名古屋野並郵便局3F",
+   "mapsUri": "https://maps.google.com/?cid=10693811918760969854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://goodlife-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "GOOD-LIFE-結婚相談室-bbda"
+  },
+  {
+   "name": "愛知県豊田市結婚相談所アイビーマリッジ/婚活",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒471-0858 愛知県豊田市朝日ケ丘１丁目１７−１４",
+   "mapsUri": "https://maps.google.com/?cid=5297281953987240157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ivymarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "愛知県豊田市結婚相談所アイビーマリッジ-婚活-55c9"
+  },
+  {
+   "name": "結婚相談所VIOLIA",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒470-0162 愛知県愛知郡東郷町春木南切山５５６７−１",
+   "mapsUri": "https://maps.google.com/?cid=2464280393360285899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://violia.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "結婚相談所VIOLIA-cac1"
+  },
+  {
+   "name": "ブライズデザイン結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 第２森ビル",
+   "mapsUri": "https://maps.google.com/?cid=1869316986270127216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://brides-design.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "ブライズデザイン結婚相談所-537b"
+  },
+  {
+   "name": "東海結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒460-0016 愛知県名古屋市中区橘２丁目８−４５ 東別院会館 1階 サクラカフェ内",
+   "mapsUri": "https://maps.google.com/?cid=14421853883111358059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tokai-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "東海結婚相談所-c7c1"
+  },
+  {
+   "name": "マリッジ.com For You",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒470-2102 愛知県知多郡東浦町緒川葭狭間",
+   "mapsUri": "https://maps.google.com/?cid=6149902886025187366&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-partner.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "マリッジ-com-For-You-f827"
+  },
+  {
+   "name": "恋旅企画 恋する結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目１９−19番19号 フォルテ栄ビル ６階",
+   "mapsUri": "https://maps.google.com/?cid=1036392624575865350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://koitabikikaku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "恋旅企画-恋する結婚相談所-aab4"
+  },
+  {
+   "name": "結婚相談所 M²marriage（エムツーマリッジ）",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒461-0005 愛知県名古屋市東区東桜１丁目１−１ 2階LIFORK",
+   "mapsUri": "https://maps.google.com/?cid=12111668121226041182&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mspc-1.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所-M2marriage-エムツーマリッジ-74e6"
+  },
+  {
+   "name": "結婚相談所BB 〜Brilliant Blanche〜（ブリリアントブランシュ）",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦２丁目１８−５ 白川第六ビル5Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=16559420769451650269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bbkonkatu.my.canva.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所BB-Brilliant-Blanche-ブリリアントブランシュ-1948"
+  },
+  {
+   "name": "名古屋男性専門婚活",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒460-0012 愛知県名古屋市中区千代田２丁目１−５ 階",
+   "mapsUri": "https://maps.google.com/?cid=15711554799546590195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nagoya-mensmarriage.com/Page.aspx?id=P0969d0d",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "名古屋男性専門婚活-b674"
+  },
+  {
+   "name": "小倉結婚相談所（安城桜井店）",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒444-1154 愛知県安城市桜井町城阿原２１−３１",
+   "mapsUri": "https://maps.google.com/?cid=12927131558404863084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-agency.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "小倉結婚相談所-安城桜井店-3cc9"
+  },
+  {
+   "name": "愛知ブライダル",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒471-0037 愛知県豊田市三軒町１丁目２６",
+   "mapsUri": "https://maps.google.com/?cid=9298285604593213788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aichibridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "愛知ブライダル-c1a6"
+  },
+  {
+   "name": "結婚相談所マリリング名古屋 名古屋駅前店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st 2階",
+   "mapsUri": "https://maps.google.com/?cid=6415595664905873474&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriring.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所マリリング名古屋-名古屋駅前店-7878"
+  },
+  {
+   "name": "結婚相談所 良縁の神様【名古屋】",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒461-0011 愛知県名古屋市東区白壁４丁目８８",
+   "mapsUri": "https://maps.google.com/?cid=10739624388582703288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://seikon-no1.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "結婚相談所-良縁の神様-名古屋-a97c"
+  },
+  {
+   "name": "結婚相談所デュオブライダル名古屋サロン",
+   "rating": 2.3,
+   "count": 3,
+   "address": "日本、〒460-0003 愛知県名古屋市中区錦３丁目４−１３ 第４３オーシャンビル 10F",
+   "mapsUri": "https://maps.google.com/?cid=7922898322795154562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://duo-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所デュオブライダル名古屋サロン-e98d"
+  },
+  {
+   "name": "婚活・恋活サポートサービスATTEND",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒446-0022 愛知県安城市浜富町１１−３",
+   "mapsUri": "https://maps.google.com/?cid=1793909791107728403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://c-attend.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "婚活-恋活サポートサービスATTEND-8864"
+  },
+  {
+   "name": "小倉結婚相談所（本店）",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒444-0057 愛知県岡崎市材木町２丁目６０ エムワイビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=9855697578827667987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ogura-marriage-agency.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "小倉結婚相談所-本店-4a0f"
+  },
+  {
+   "name": "結婚相談所スイートスイート名古屋",
+   "rating": 5,
+   "count": 2,
+   "address": "大名古屋ビルヂング 25階, ３丁目-２８-28番12号 名駅 中村区 名古屋市 愛知県 450-6425 日本",
+   "mapsUri": "https://maps.google.com/?cid=13552213625689716750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mc-sweetsuite.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所スイートスイート名古屋-e181"
+  },
+  {
+   "name": "結婚相談所アムールマリアージュ名古屋店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 第２森ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=16887623132418478048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://amrmariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所アムールマリアージュ名古屋店-ca2c"
+  },
+  {
+   "name": "婚活＠名古屋 ラパンブラン結婚相談所",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒460-0013 愛知県名古屋市中区上前津１丁目４−１２ 8階",
+   "mapsUri": "https://maps.google.com/?cid=3962706556525141527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu-nagoya.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "婚活-名古屋-ラパンブラン結婚相談所-dd8f"
+  },
+  {
+   "name": "結婚相談所 J WEDDING 福FUKU.",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒460-0002 愛知県名古屋市中区丸の内２丁目８−２８ 甘糟ビル 2階 株式会社ケイツーJOB'S内",
+   "mapsUri": "https://maps.google.com/?cid=11895174116561264655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.j-w-fukufuku.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所-J-WEDDING-福FUKU-1a02"
+  },
+  {
+   "name": "岡崎婚活結婚相談所ハピマリ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒444-0860 愛知県岡崎市明大寺本町４丁目１５",
+   "mapsUri": "https://maps.google.com/?cid=16404402045288138973&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://okazaki-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "岡崎婚活結婚相談所ハピマリ-dc1d"
+  },
+  {
+   "name": "HappyLink結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒471-0845 愛知県豊田市田中町４丁目４−１",
+   "mapsUri": "https://maps.google.com/?cid=12115240643859730459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happy-link.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "HappyLink結婚相談所-ac1c"
+  },
+  {
+   "name": "ピーチベル結婚相談所 岡崎事務所",
+   "rating": 3,
+   "count": 2,
+   "address": "日本、〒444-0922 愛知県岡崎市八帖南町２丁目 ３番地１４",
+   "mapsUri": "https://maps.google.com/?cid=12661524124285453377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peachbell-okazaki.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "ピーチベル結婚相談所-岡崎事務所-8fce"
+  },
+  {
+   "name": "結婚相談所 Dracaena.岡崎事務所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒444-0823 愛知県岡崎市上地１丁目",
+   "mapsUri": "https://maps.google.com/?cid=17987508890978824668&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "結婚相談所-Dracaena-岡崎事務所-9148"
+  },
+  {
+   "name": "ブライダル未来倶楽部",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒460-0008 愛知県名古屋市中区栄３丁目７−５ 長谷川ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=228998760027668401&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-mirai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "ブライダル未来倶楽部-db37"
+  },
+  {
+   "name": "結婚相談所 マリッジデスク ミュール",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒460-0023 愛知県名古屋市中区中区金山町１丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=18369199708811605249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.anacrowneplaza-nagoya.jp/mur",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sakae"
+   ],
+   "slug": "結婚相談所-マリッジデスク-ミュール-5af8"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 栄店",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒461-0005 愛知県名古屋市東区東桜１丁目１３−３ ＮＨＫ名古屋放送センタービル 地下１階",
+   "mapsUri": "https://maps.google.com/?cid=17137136745327093155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/aichi/sakae.html?vos=dzeksgmbt20052900017",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-other"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-栄店-a511"
+  },
+  {
+   "name": "結婚相談所 マリッジサロンプレミアム",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅４丁目２４−５ 4F",
+   "mapsUri": "https://maps.google.com/?cid=615458221241948331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所-マリッジサロンプレミアム-e700"
+  },
+  {
+   "name": "結婚相談所 SWEET BELL",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒497-0016 愛知県あま市七宝町徳実郷70−４",
+   "mapsUri": "https://maps.google.com/?cid=3163244729844601090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "aichi-other"
+   ],
+   "slug": "結婚相談所-SWEET-BELL-987a"
+  },
+  {
+   "name": "理想の婚活-岡崎安城サロン",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒444-0874 愛知県岡崎市竜美南１丁目5−１６ 結婚相談所 婚活",
+   "mapsUri": "https://maps.google.com/?cid=2797876822190870462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "理想の婚活-岡崎安城サロン-3446"
+  },
+  {
+   "name": "豊田婚活結婚相談所ハピマリ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒473-0914 愛知県豊田市若林東町赤池５６",
+   "mapsUri": "https://maps.google.com/?cid=2563093998601238811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toyota-marriage.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "豊田婚活結婚相談所ハピマリ-920a"
+  },
+  {
+   "name": "Aokoi婚活相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒470-0506 愛知県豊田市川見町堂ノ洞225番地",
+   "mapsUri": "https://maps.google.com/?cid=10141284581087818826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aokoi.net/matchmakers/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "Aokoi婚活相談所-0b1d"
+  },
+  {
+   "name": "結婚相談所ミライズ名古屋支店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒450-0002 愛知県名古屋市中村区名駅３丁目４−１０ アルティメイト名駅1st ホーム 2",
+   "mapsUri": "https://maps.google.com/?cid=8442537562673799699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mirise-nagoya.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nagoya-eki"
+   ],
+   "slug": "結婚相談所ミライズ名古屋支店-756e"
+  },
+  {
+   "name": "マリアージュ岡崎結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0864 愛知県岡崎市字明大寺町寺東１３−１ ５Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=6343289983909272011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "マリアージュ岡崎結婚相談所-9117"
+  },
+  {
+   "name": "岡崎市結婚相談所 天神",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-2131 愛知県岡崎市青木町１−５",
+   "mapsUri": "https://maps.google.com/?cid=9986200402197101793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "岡崎市結婚相談所-天神-c748"
+  },
+  {
+   "name": "結婚相談所 結華",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0878 愛知県岡崎市竜美東３丁目1−９",
+   "mapsUri": "https://maps.google.com/?cid=16453223990775276663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-yuika.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "結婚相談所-結華-cbe8"
+  },
+  {
+   "name": "岡崎結婚相談サービスWiLLMarry",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0051 愛知県岡崎市本町通２丁目８−８ オアシスビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=3900525116621594605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "岡崎結婚相談サービスWiLLMarry-9308"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 岡崎サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0813 愛知県岡崎市羽根町貴登野４１−８ セブンハイツ貴登野 103 市民パソコン塾内",
+   "mapsUri": "https://maps.google.com/?cid=11828787259709333135&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/area/aichi/okazaki/?utm_source=google&utm_medium=map&utm_campaign=okazaki&utm_content=maptop",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-岡崎サロン-9f0f"
+  },
+  {
+   "name": "夢のおてつだい 結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒471-0871 愛知県豊田市元宮町５丁目57−３",
+   "mapsUri": "https://maps.google.com/?cid=12144532922427058081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "夢のおてつだい-結婚相談所-d16c"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる（はな婚）岡崎第2サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0837 愛知県岡崎市柱４丁目3−１７ 102号 ナビ個別指導学院内",
+   "mapsUri": "https://maps.google.com/?cid=3869723785946927022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tinyurl.com/29vd3vkr",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-はな婚-岡崎第2サロン-4063"
+  },
+  {
+   "name": "ジェイ・エム・シー岡崎結婚相談受付",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0924 愛知県岡崎市八帖北町３−４",
+   "mapsUri": "https://maps.google.com/?cid=3498417502959773443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "ジェイ-エム-シー岡崎結婚相談受付-e78f"
+  },
+  {
+   "name": "結婚相談所ぽんぽこ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0838 愛知県岡崎市羽根西１丁目8−８ マスコットビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=502633630447490479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://happy-up.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "結婚相談所ぽんぽこ-f5b3"
+  },
+  {
+   "name": "Ｈｏｎｅｙ 結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒444-0840 愛知県岡崎市戸崎町沢田２４",
+   "mapsUri": "https://maps.google.com/?cid=2088915958722893958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "okazaki"
+   ],
+   "slug": "Honey-結婚相談所-9907"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 豊田サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒471-0026 愛知県豊田市若宮町３丁目５４−５４ 旭ビル ２Ｆ＆３Ｆ MEIRIN高校館豊田駅前校内",
+   "mapsUri": "https://maps.google.com/?cid=12755413613053619710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/area/aichi/toyota/?utm_source=google&utm_medium=map&utm_campaign=toyota&utm_content=maptop",
+   "status": "OPERATIONAL",
+   "areas": [
+    "toyota-aichi"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-豊田サロン-f376"
+  }
+ ]
+}
