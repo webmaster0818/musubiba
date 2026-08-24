@@ -1,0 +1,1657 @@
+{
+ "surveyedAt": "2026-08-24",
+ "prefName": "福岡",
+ "agencies": [
+  {
+   "name": "結婚相談所オーネット 福岡店",
+   "rating": 4.4,
+   "count": 152,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目９−１７ 福岡天神フコク生命ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=6786105087736842123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kyushu/fukuoka/fukuoka/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=fukuoka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所オーネット-福岡店-55ca"
+  },
+  {
+   "name": "ツヴァイ 北九州店",
+   "rating": 4.9,
+   "count": 123,
+   "address": "日本、〒802-0003 福岡県北九州市小倉北区米町１丁目１−１ 小倉駅前ひびきビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=14159649588836126890&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kyusyu/fukuoka/kitakyusyu/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "ツヴァイ-北九州店-a4a6"
+  },
+  {
+   "name": "ツヴァイ 福岡店",
+   "rating": 4.6,
+   "count": 99,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目９−１７ 福岡天神フコク生命ビル 14階",
+   "mapsUri": "https://maps.google.com/?cid=9178240845580689674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kyusyu/fukuoka/fukuoka/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ツヴァイ-福岡店-e718"
+  },
+  {
+   "name": "結婚相談所ハピネス久留米本店",
+   "rating": 4.9,
+   "count": 99,
+   "address": "日本、〒830-0021 福岡県久留米市篠山町１２−３ パーク・ノヴァ 502",
+   "mapsUri": "https://maps.google.com/?cid=9325823662810436106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hs-happiness.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所ハピネス久留米本店-d99f"
+  },
+  {
+   "name": "IBJ九州支社／IBJメンバーズ 福岡店",
+   "rating": 4.7,
+   "count": 86,
+   "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街２−１ 博多バスターミナル 9階",
+   "mapsUri": "https://maps.google.com/?cid=4919227604678317596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/fukuoka/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_fukuoka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "IBJ九州支社-IBJメンバーズ-福岡店-559a"
+  },
+  {
+   "name": "結婚相談所ハピネス福岡店",
+   "rating": 4.8,
+   "count": 85,
+   "address": "日本、〒810-0042 福岡県福岡市中央区赤坂１丁目１４−３７ 3F",
+   "mapsUri": "https://maps.google.com/?cid=1925788396617931854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://h-ness-f.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所ハピネス福岡店-cedb"
+  },
+  {
+   "name": "結婚相談所ハルマリ HARUmarriage(ハルマリアージュ)福岡店",
+   "rating": 4.8,
+   "count": 85,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１３−２０ 松島ビル ３階",
+   "mapsUri": "https://maps.google.com/?cid=9188731883187814324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haru-marriage.com/fukuoka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所ハルマリ-HARUmarriage-ハルマリアージュ-福岡店-1283"
+  },
+  {
+   "name": "IBJMatching 天神(PARTY☆PARTY)",
+   "rating": 4.7,
+   "count": 68,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目２０−２ 天神MENTビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=4669310120516618867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_fukuoka/area_tenjin/floor_tenjin",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "IBJMatching-天神-PARTY☆PARTY-73d9"
+  },
+  {
+   "name": "結婚相談所 サンマリエ福岡 (天神)サロン",
+   "rating": 4.6,
+   "count": 64,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目２０−２ 天神MENTビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=6389847634304476155&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kyusyu/tenjin/?utm_source=fukuoka&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-サンマリエ福岡-天神-サロン-7fcf"
+  },
+  {
+   "name": "結婚相談所ムスベル 久留米店",
+   "rating": 4.7,
+   "count": 58,
+   "address": "日本、〒830-0042 福岡県久留米市荘島町９−２ Lien久留米.BLDG 4階",
+   "mapsUri": "https://maps.google.com/?cid=5712193412985462390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kurume&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所ムスベル-久留米店-ef1e"
+  },
+  {
+   "name": "結婚相談所ジュブレ福岡本店",
+   "rating": 4.7,
+   "count": 52,
+   "address": "日本、〒810-0004 福岡県福岡市中央区渡辺通５丁目２５−１５ 7F",
+   "mapsUri": "https://maps.google.com/?cid=18167504523025231032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://jubre.jp/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所ジュブレ福岡本店-6cbe"
+  },
+  {
+   "name": "結婚相談所 エージェントライフ福岡",
+   "rating": 4.9,
+   "count": 51,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前４丁目１６−６ オフィスニューガイア博多駅前№50 306号室",
+   "mapsUri": "https://maps.google.com/?cid=7861551025880809270&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.agent-life-fukuoka.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-エージェントライフ福岡-0022"
+  },
+  {
+   "name": "結婚相談所 ONE THEORY（ワンセオリー）福岡サロン",
+   "rating": 5,
+   "count": 49,
+   "address": "日本、〒812-0016 福岡県福岡市博多区博多駅南１丁目１２−３",
+   "mapsUri": "https://maps.google.com/?cid=17098428582978694233&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-de-one-theory.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-ONE-THEORY-ワンセオリー-福岡サロン-6f1e"
+  },
+  {
+   "name": "結婚相談所ムスベル 小倉店",
+   "rating": 4.9,
+   "count": 46,
+   "address": "日本、〒802-0002 福岡県北九州市小倉北区京町３丁目５−７ 3階",
+   "mapsUri": "https://maps.google.com/?cid=4666221050093792774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kokura&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所ムスベル-小倉店-e1d0"
+  },
+  {
+   "name": "marriage_fukuoka マリッジフクオカ",
+   "rating": 4.8,
+   "count": 40,
+   "address": "日本、〒812-0041 福岡県福岡市博多区吉塚２丁目３−８ 402",
+   "mapsUri": "https://maps.google.com/?cid=910268837396145210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-fukuoka.jimdofree.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "marriage_fukuoka-マリッジフクオカ-2c3a"
+  },
+  {
+   "name": "結婚相談所オーネット 小倉店",
+   "rating": 4.3,
+   "count": 39,
+   "address": "日本、〒802-0003 福岡県北九州市小倉北区米町１丁目３−１ 明治安田生命北九州ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=11289513760048366362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kyushu/fukuoka/kokura/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=kokura",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所オーネット-小倉店-7e37"
+  },
+  {
+   "name": "結婚相談所 ラナスマイル",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−１０ 天神パインクレスト 719",
+   "mapsUri": "https://maps.google.com/?cid=14599800592849237251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lana-smile.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-ラナスマイル-c38c"
+  },
+  {
+   "name": "マリッジサポート アイベリー",
+   "rating": 5,
+   "count": 38,
+   "address": "日本、〒802-0006 福岡県北九州市小倉北区魚町１丁目１−１ 西日本小倉ビル ５F",
+   "mapsUri": "https://maps.google.com/?cid=9674178680362437601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://iberrymarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "マリッジサポート-アイベリー-3fce"
+  },
+  {
+   "name": "福岡市の結婚相談所 ウィッシュ福岡",
+   "rating": 4.9,
+   "count": 35,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院３丁目３−２９ ライオンズマンション薬院駅南 204号",
+   "mapsUri": "https://maps.google.com/?cid=13436978579664864795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://wish-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "福岡市の結婚相談所-ウィッシュ福岡-08fe"
+  },
+  {
+   "name": "結婚相談所福岡ベストパートナー",
+   "rating": 4.9,
+   "count": 31,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目１７−１ 博多プレステージ 本館1F",
+   "mapsUri": "https://maps.google.com/?cid=16750890491928373126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kk-bestpartner.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所福岡ベストパートナー-6ed2"
+  },
+  {
+   "name": "福岡の結婚相談所 アラフォー婚活に寄り添う「縁つむぎ」",
+   "rating": 4.9,
+   "count": 29,
+   "address": "日本、〒811-1311 福岡県福岡市南区横手４丁目１３−３５",
+   "mapsUri": "https://maps.google.com/?cid=11196952223743830876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.entsumugi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "福岡の結婚相談所-アラフォー婚活に寄り添う「縁つむぎ」-d5a7"
+  },
+  {
+   "name": "結婚相談所ムスベル 福岡店",
+   "rating": 4.6,
+   "count": 29,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目１１−１６ 第２大西ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=1249666312610955835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=fukuoka&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所ムスベル-福岡店-1c7d"
+  },
+  {
+   "name": "結婚相談所フィオーレ 福岡店",
+   "rating": 3.6,
+   "count": 29,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１−１ Ｂ１Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=15952724339104243761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/fukuoka/fukuoka/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所フィオーレ-福岡店-ae25"
+  },
+  {
+   "name": "結婚相談所 Be Happy",
+   "rating": 5,
+   "count": 28,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前４丁目２７−５ 306号",
+   "mapsUri": "https://maps.google.com/?cid=13758143127473724083&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://be-happy-fukuoka.com/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-Be-Happy-c8ca"
+  },
+  {
+   "name": "結婚相談所 アソウ・マリッジエージェント 天神 婚活",
+   "rating": 4.8,
+   "count": 28,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目８−４１ 福岡朝日会館 13階",
+   "mapsUri": "https://maps.google.com/?cid=7837594683977593992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://aso-marriageagent.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-アソウ-マリッジエージェント-天神-婚活-cf60"
+  },
+  {
+   "name": "結婚相談所 U＆C",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前４丁目１４−２０ 704",
+   "mapsUri": "https://maps.google.com/?cid=12282577567039794183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://uandc-m.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-U-C-bcdc"
+  },
+  {
+   "name": "結婚相談所マゼンダ福岡",
+   "rating": 5,
+   "count": 26,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目９−２９ ９０８号",
+   "mapsUri": "https://maps.google.com/?cid=11405772557022052605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mazenda.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所マゼンダ福岡-2838"
+  },
+  {
+   "name": "結婚相談所 デアイ 福岡店",
+   "rating": 4.9,
+   "count": 22,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目２−１２ T&J ビルディング 7F",
+   "mapsUri": "https://maps.google.com/?cid=10766332530643460696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-deai.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-デアイ-福岡店-ccd0"
+  },
+  {
+   "name": "結婚相談所 ドゥ・クール福岡",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒813-0025 福岡県福岡市東区青葉７丁目３８−１１ ロワールマンション青葉 ウエスト棟403",
+   "mapsUri": "https://maps.google.com/?cid=10278389369750090251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://deuxcoeurs-fukuoka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "結婚相談所-ドゥ-クール福岡-b3a7"
+  },
+  {
+   "name": "結婚相談所プラスKOU",
+   "rating": 4.8,
+   "count": 21,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神５丁目９−２",
+   "mapsUri": "https://maps.google.com/?cid=16094110968570682741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.pluskou.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所プラスKOU-0053"
+  },
+  {
+   "name": "福岡結婚相談所 Couleur mariage（クルールマリアージュ）",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前１丁目２３−２",
+   "mapsUri": "https://maps.google.com/?cid=15081399131886171327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://couleurmariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "福岡結婚相談所-Couleur-mariage-クルールマリアージュ-271a"
+  },
+  {
+   "name": "結婚相談所ラフターマリッジ",
+   "rating": 5,
+   "count": 20,
+   "address": "日本、〒830-0035 福岡県久留米市東和町 東和町5-7 パッセージビル3階F号室",
+   "mapsUri": "https://maps.google.com/?cid=3568091498916459342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://laughmari.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所ラフターマリッジ-700e"
+  },
+  {
+   "name": "結婚相談所ハルクル福岡",
+   "rating": 4.6,
+   "count": 19,
+   "address": "日本、〒812-0016 福岡県福岡市博多区博多駅南１丁目４−５ 6Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=1240960769865149413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://harukuru-fuk.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所ハルクル福岡-e965"
+  },
+  {
+   "name": "結婚相談所オポ・福岡",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒812-0018 福岡県福岡市博多区住吉４丁目５−１１ シャトレイズミ 102",
+   "mapsUri": "https://maps.google.com/?cid=16823560823211586677&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.oppo-love.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所オポ-福岡-201b"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント福岡店",
+   "rating": 4.5,
+   "count": 18,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目３−４６ 大名イマンス 2階",
+   "mapsUri": "https://maps.google.com/?cid=15739443140682514073&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kyushu/fukuoka.html?cid=se002&argument=wgvYBfWa&dmai=9725",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所パートナーエージェント福岡店-2908"
+  },
+  {
+   "name": "カーノトゥモロー",
+   "rating": 4.8,
+   "count": 18,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名２丁目３−３ ラピスラズリ 205",
+   "mapsUri": "https://maps.google.com/?cid=15595163956388065737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://cano-tomorrow.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "カーノトゥモロー-235e"
+  },
+  {
+   "name": "福岡西新結婚相談所 ならんであるく",
+   "rating": 4.8,
+   "count": 17,
+   "address": "日本、〒814-0002 福岡県福岡市早良区西新４丁目１",
+   "mapsUri": "https://maps.google.com/?cid=8547824409106679204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://narandearuku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "福岡西新結婚相談所-ならんであるく-d580"
+  },
+  {
+   "name": "天神マリッジラボ",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−１０−７１９",
+   "mapsUri": "https://maps.google.com/?cid=17799969462521965817&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tenjin-marriagelab.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "天神マリッジラボ-f5ee"
+  },
+  {
+   "name": "福岡結婚相談所 テニシア",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒810-0005 福岡県福岡市中央区清川３丁目１４−７ ファーストビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=6165300307462314469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tenishia.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "福岡結婚相談所-テニシア-1ec1"
+  },
+  {
+   "name": "結婚相談所 縁結びいろは",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒813-0031 福岡県福岡市東区八田2−38−２２",
+   "mapsUri": "https://maps.google.com/?cid=11158910737209433360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmusubi168.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "結婚相談所-縁結びいろは-b757"
+  },
+  {
+   "name": "福岡結婚相談所フェリアーク",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒808-0143 福岡県北九州市若松区青葉台西３丁目２０−１０",
+   "mapsUri": "https://maps.google.com/?cid=10206754315648891164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.m-ferriark.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "福岡結婚相談所フェリアーク-8b8a"
+  },
+  {
+   "name": "Malianca/マリアンサ婚活事務所",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒810-0042 福岡県福岡市中央区赤坂１丁目８−２３",
+   "mapsUri": "https://maps.google.com/?cid=13666946350857474729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://malianca.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "Malianca-マリアンサ婚活事務所-b4ef"
+  },
+  {
+   "name": "アイライン",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉２丁目１−３２ ライオンズマンション天神南",
+   "mapsUri": "https://maps.google.com/?cid=5242877206727642753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://iline-gr.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "アイライン-97d7"
+  },
+  {
+   "name": "北九州の結婚相談所 オールマリッジ",
+   "rating": 4.9,
+   "count": 13,
+   "address": "日本、〒806-0021 福岡県北九州市八幡西区黒崎４丁目６−１ グリーンパーク三共 1階108号",
+   "mapsUri": "https://maps.google.com/?cid=10629511768151939238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.swan-mariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "北九州の結婚相談所-オールマリッジ-a846"
+  },
+  {
+   "name": "ゼクシィ天神カウンター",
+   "rating": 3.3,
+   "count": 12,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１−３８ ＳＯＵＴＨＳＩＤＥＴＥＲＲＡＣＥ３階",
+   "mapsUri": "https://maps.google.com/?cid=4748706077690634350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/fukuoka/tenjin.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ゼクシィ天神カウンター-381a"
+  },
+  {
+   "name": "IBJMatching 博多(PARTY☆PARTY)",
+   "rating": 4.2,
+   "count": 12,
+   "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街２−１ 博多バスターミナルビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=13909361396951502537&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_fukuoka/area_hakata/floor_hakata?utm_source=google&utm_medium=maps&utm_campaign=mb_hakata",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "IBJMatching-博多-PARTY☆PARTY-7cbe"
+  },
+  {
+   "name": "結婚相談所福岡 ナビレラ",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目１９−１７",
+   "mapsUri": "https://maps.google.com/?cid=5820392415029702745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.navillera.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所福岡-ナビレラ-6dbf"
+  },
+  {
+   "name": "結婚相談所 ETERNAL WINGS 福岡",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院２丁目３−１５ ＪＧＭロイヤルガーデン薬院",
+   "mapsUri": "https://maps.google.com/?cid=7564139986979407346&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.etrlwings.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-ETERNAL-WINGS-福岡-342f"
+  },
+  {
+   "name": "結婚相談所マリアサポート",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東１丁目１４−３４ 2F BIZ-POINT博多駅前オフィス",
+   "mapsUri": "https://maps.google.com/?cid=14826443258798135724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mareersupport.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所マリアサポート-c705"
+  },
+  {
+   "name": "福岡結婚相談所 マリッジ・アゲイン",
+   "rating": 4.6,
+   "count": 10,
+   "address": "日本、〒815-0083 福岡県福岡市南区高宮５丁目４−２１ １３０２号",
+   "mapsUri": "https://maps.google.com/?cid=6021904551890873020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://m-again.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "福岡結婚相談所-マリッジ-アゲイン-e2c5"
+  },
+  {
+   "name": "ライフパートナー",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神４丁目３−８ 8階",
+   "mapsUri": "https://maps.google.com/?cid=3973433971357278844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lifepartner-2007.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ライフパートナー-486c"
+  },
+  {
+   "name": "フィオーレパーティー 福岡・天神個室会場",
+   "rating": 2.1,
+   "count": 9,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１−１ B1F",
+   "mapsUri": "https://maps.google.com/?cid=10440248405284565999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.fiore-party.com/pref/pref_fukuokahttps://www.fiore-party.com/pref/pref_hokkaido?utm_source=maps&utm_medium=gbp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "フィオーレパーティー-福岡-天神個室会場-b327"
+  },
+  {
+   "name": "結婚相談所Peasing（ピーシング）",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目４",
+   "mapsUri": "https://maps.google.com/?cid=3328796074419194445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所Peasing-ピーシング-00d6"
+  },
+  {
+   "name": "結婚・婚活のコンサルティング ローズマリアージュ福岡",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒812-0021 福岡県福岡市博多区築港本町１１−３",
+   "mapsUri": "https://maps.google.com/?cid=7230707969064405665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚-婚活のコンサルティング-ローズマリアージュ福岡-d95e"
+  },
+  {
+   "name": "マリッジＮＡＶＩとびら",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒807-1261 福岡県北九州市八幡東区枝光４丁目１−１０",
+   "mapsUri": "https://maps.google.com/?cid=14576450902965951223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marrigenavitobira.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "マリッジNAVIとびら-9084"
+  },
+  {
+   "name": "結婚相談所 はなみずき",
+   "rating": 3.9,
+   "count": 7,
+   "address": "日本、〒804-0021 福岡県北九州市戸畑区戸畑区一枝２丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=12637576953676285826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanamizuki-seikon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-はなみずき-8371"
+  },
+  {
+   "name": "結婚相談所 CONNECTING•JAPAN",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒830-0101 福岡県久留米市三潴町早津崎９１８−１２",
+   "mapsUri": "https://maps.google.com/?cid=10380987294545678189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://connectingjapan-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所-CONNECTING•JAPAN-f2c4"
+  },
+  {
+   "name": "天神駅直結 サチアル 結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目８−３５ 住友生命FJビジネスセンタ 6F",
+   "mapsUri": "https://maps.google.com/?cid=9444084594294669043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sachir.hp.peraichi.com/home/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "天神駅直結-サチアル-結婚相談所-5a30"
+  },
+  {
+   "name": "niconico結婚相談所",
+   "rating": 4.3,
+   "count": 6,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神４丁目６−２８ いちご天神ノースビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=3281922645171498353&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://niconico-marriage.studio.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "niconico結婚相談所-ece2"
+  },
+  {
+   "name": "セジュール結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒804-0083 福岡県北九州市戸畑区旭町３−１７ 1階",
+   "mapsUri": "https://maps.google.com/?cid=727207652414613459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sejour.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "セジュール結婚相談所-cf82"
+  },
+  {
+   "name": "結婚相談所フェリアパートナーズ",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東１丁目３−３ 博多ダイチビル 402号室",
+   "mapsUri": "https://maps.google.com/?cid=12563038590943241924&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://harmo.co.jp/feria_partners/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所フェリアパートナーズ-214b"
+  },
+  {
+   "name": "結婚相談所 蝶結び",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒839-0852 福岡県久留米市高良内町１１９２",
+   "mapsUri": "https://maps.google.com/?cid=8596223977654380665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chomusubi-kurume.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所-蝶結び-936b"
+  },
+  {
+   "name": "結婚相談所 マリッジ ステージ",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒830-0017 福岡県久留米市日吉町５−４３ プランドール六ツ門",
+   "mapsUri": "https://maps.google.com/?cid=10833080465160590681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-stage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所-マリッジ-ステージ-e65b"
+  },
+  {
+   "name": "結婚相談所 はこむすび",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒812-0061 福岡県福岡市東区筥松２丁目２２−２ パレスItoi 701",
+   "mapsUri": "https://maps.google.com/?cid=4677908560513724892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hakomusubi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "結婚相談所-はこむすび-715b"
+  },
+  {
+   "name": "とら婚 福岡オフィス ～オタクに寄り添う結婚相談所、オタク婚活なら～",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神４丁目８−２ 天神ビルプラス 3F",
+   "mapsUri": "https://maps.google.com/?cid=18095776324852882400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://toracon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "とら婚-福岡オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-fea0"
+  },
+  {
+   "name": "ブラナビ婚活 福岡天神店",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒810-0021 福岡県福岡市中央区今泉１丁目２２−２０",
+   "mapsUri": "https://maps.google.com/?cid=16935602077679595851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.branavi-mate.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ブラナビ婚活-福岡天神店-070b"
+  },
+  {
+   "name": "結婚相談所Casa",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒811-2207 福岡県糟屋郡志免町南里１１−６ アクエルド",
+   "mapsUri": "https://maps.google.com/?cid=325977231125683746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://casa-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-other"
+   ],
+   "slug": "結婚相談所Casa-46d7"
+  },
+  {
+   "name": "結婚相談所ホワイトサリー",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒819-0022 福岡県福岡市西区福重３丁目８−１７ 305",
+   "mapsUri": "https://maps.google.com/?cid=13004406475033680840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://happytry.net/detail/2898",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "結婚相談所ホワイトサリー-9292"
+  },
+  {
+   "name": "CONFIDO 結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒815-0083 福岡県福岡市南区高宮３丁目１２−１１",
+   "mapsUri": "https://maps.google.com/?cid=375740950760269851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://confido-fukuoka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-city-other"
+   ],
+   "slug": "CONFIDO-結婚相談所-adff"
+  },
+  {
+   "name": "ブラナビ婚活 JRアミュプラザ博多店",
+   "rating": 3.7,
+   "count": 3,
+   "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街１−１ アミュプラザ博多 6F",
+   "mapsUri": "https://maps.google.com/?cid=701949197512200734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.branavi-mate.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "ブラナビ婚活-JRアミュプラザ博多店-37bd"
+  },
+  {
+   "name": "ゼクシィ小倉リバーウォークカウンター",
+   "rating": 4,
+   "count": 3,
+   "address": "日本、〒803-0812 福岡県北九州市小倉北区室町１丁目１−１ ３階",
+   "mapsUri": "https://maps.google.com/?cid=16666302810759042261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/fukuoka/kokura.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "ゼクシィ小倉リバーウォークカウンター-3ff5"
+  },
+  {
+   "name": "結婚相談所lilas",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒830-0017 福岡県久留米市日吉町２６−３６ 明治通ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=16370486752859373341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.lilas23.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所lilas-ec24"
+  },
+  {
+   "name": "結婚相談所エスポワールマリッジ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒839-0852 福岡県久留米市高良内町７−７",
+   "mapsUri": "https://maps.google.com/?cid=5673300230484209315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://espomarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所エスポワールマリッジ-9dc9"
+  },
+  {
+   "name": "ラポールアンカー福岡",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒812-0018 福岡県福岡市博多区住吉２丁目３−７",
+   "mapsUri": "https://maps.google.com/?cid=13353616311562776926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/fukuoka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "ラポールアンカー福岡-91b8"
+  },
+  {
+   "name": "テノマリ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒812-0036 福岡県福岡市博多区上呉服町１０−１０ 5階",
+   "mapsUri": "https://maps.google.com/?cid=2732667560938400437&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tenomari.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "テノマリ-a59b"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 天神店",
+   "rating": 1,
+   "count": 2,
+   "address": "日本、〒810-0041 福岡県福岡市中央区大名１丁目１−３８ ３階",
+   "mapsUri": "https://maps.google.com/?cid=4501354824099413768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/fukuoka/tenjin.html?vos=dzeksgmbt20052900026",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-天神店-2670"
+  },
+  {
+   "name": "結婚相談所百結び",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒812-0039 福岡県福岡市博多区冷泉町２−２４",
+   "mapsUri": "https://maps.google.com/?cid=8866490528962862044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hyakumusubi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所百結び-0f73"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 博多店",
+   "rating": 1,
+   "count": 2,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前３丁目２−８ 住友生命博多ビル 地下１階",
+   "mapsUri": "https://maps.google.com/?cid=2088900369167781650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/fukuoka/hakata.html?vos=dzeksgmbt20052900025",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-博多店-f7f3"
+  },
+  {
+   "name": "結婚相談所 グレイスクラブ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目１９−１７−５０３",
+   "mapsUri": "https://maps.google.com/?cid=9152485206481800447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-グレイスクラブ-87d2"
+  },
+  {
+   "name": "結婚相談所 uno y solo（ウノ イ ソロ）",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒816-0963 福岡県大野城市宮野台１８",
+   "mapsUri": "https://maps.google.com/?cid=5690741735461366842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.uno-y-solo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-other"
+   ],
+   "slug": "結婚相談所-uno-y-solo-ウノ-イ-ソロ-7e17"
+  },
+  {
+   "name": "マリーシュア",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東１丁目１−３３ はかた近代ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=12683066272059220189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marrysure.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "マリーシュア-a6d2"
+  },
+  {
+   "name": "福岡☆結婚相談所モテラボ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒818-0001 福岡県福岡市中央区天神２丁目２−１２ 7F",
+   "mapsUri": "https://maps.google.com/?cid=11662808671048345598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "福岡☆結婚相談所モテラボ-294e"
+  },
+  {
+   "name": "結婚相談所 運命の赤い糸",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒810-0022 福岡県福岡市中央区薬院２丁目７−２９ アプローズ薬院デュオイースト 207号室 【事務指定窓口】",
+   "mapsUri": "https://maps.google.com/?cid=3343606480228063095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://unmei-no-akaiito.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-運命の赤い糸-d7ba"
+  },
+  {
+   "name": "結婚相談所ロマンスドーン福岡",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒810-0014 福岡県福岡市中央区平尾２丁目５−１６ オネスティ平尾",
+   "mapsUri": "https://maps.google.com/?cid=17564732007965046458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://romancedawn-fuk.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所ロマンスドーン福岡-6eea"
+  },
+  {
+   "name": "結婚相談所TMSパートナー福岡天神店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１−１ B1F",
+   "mapsUri": "https://maps.google.com/?cid=15235843542658283686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/fukuoka/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所TMSパートナー福岡天神店-5475"
+  },
+  {
+   "name": "ご縁結びふくおか",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目３−１０",
+   "mapsUri": "https://maps.google.com/?cid=11736773680766426271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fuk-goen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "ご縁結びふくおか-747f"
+  },
+  {
+   "name": "出張型結婚相談所RIZE福岡（ライズ）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒816-0952 福岡県大野城市下大利２丁目３−６",
+   "mapsUri": "https://maps.google.com/?cid=7876711913266531538&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.instagram.com/rize_fukuoka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-other"
+   ],
+   "slug": "出張型結婚相談所RIZE福岡-ライズ-8e4f"
+  },
+  {
+   "name": "結婚相談所 結-YUI北九州",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒803-0844 福岡県北九州市小倉北区真鶴１丁目１２−１０ 403",
+   "mapsUri": "https://maps.google.com/?cid=17898388629975878992&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://resilience-kitaq.com/yui/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-結-YUI北九州-fb2a"
+  },
+  {
+   "name": "北九州門司結婚相談所 Lights-Wedding",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒800-0025 福岡県北九州市門司区柳町１丁目３−６",
+   "mapsUri": "https://maps.google.com/?cid=17996752575296769758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.lights-wedding.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "北九州門司結婚相談所-Lights-Wedding-e901"
+  },
+  {
+   "name": "結婚相談所 ONE THEORY 北九州サロン",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒802-0001 福岡県北九州市小倉北区浅野３丁目８−１ AIM6階",
+   "mapsUri": "https://maps.google.com/?cid=906850875013069064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-de-one-theory.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-ONE-THEORY-北九州サロン-13a7"
+  },
+  {
+   "name": "結婚相談カフェ フレンチキス",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒802-0063 福岡県北九州市小倉北区若富士町６−１９ 1F",
+   "mapsUri": "https://maps.google.com/?cid=3752063561196520153&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.frenchkiss-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談カフェ-フレンチキス-3cf8"
+  },
+  {
+   "name": "ブラナビ婚活小倉店",
+   "rating": 3,
+   "count": 1,
+   "address": "日本、〒802-0002 福岡県北九州市小倉北区京町３丁目３−１−１",
+   "mapsUri": "https://maps.google.com/?cid=3117985491003272362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.branavi-mate.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "ブラナビ婚活小倉店-9e6a"
+  },
+  {
+   "name": "結婚相談所 サンハーモニー 北九州 小倉駅前サロン",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒802-0001 福岡県北九州市小倉北区浅野３丁目８−１",
+   "mapsUri": "https://maps.google.com/?cid=11176229547216021039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sunharmony-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-サンハーモニー-北九州-小倉駅前サロン-e844"
+  },
+  {
+   "name": "結婚相談所ビューティフルライフ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒800-0037 福岡県北九州市門司区原町別院１２−６",
+   "mapsUri": "https://maps.google.com/?cid=17842106779808941909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.beautifullife-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所ビューティフルライフ-4c39"
+  },
+  {
+   "name": "結婚相談所八女ブライダル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒834-0104 福岡県八女郡広川町吉常４１８−１",
+   "mapsUri": "https://maps.google.com/?cid=513677602986248395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yamebridal.hp.peraichi.com/marriage",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-other"
+   ],
+   "slug": "結婚相談所八女ブライダル-ae83"
+  },
+  {
+   "name": "ブラナビ婚活ゆめタウン久留米店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒839-0865 福岡県久留米市新合川１丁目２−１ 1階",
+   "mapsUri": "https://maps.google.com/?cid=8536603488858155118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "ブラナビ婚活ゆめタウン久留米店-2401"
+  },
+  {
+   "name": "結婚相談所ベルバンク福岡サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒812-0013 福岡県福岡市博多区博多駅東１丁目１０−３０ 冨士機博多駅東ビル 6f",
+   "mapsUri": "https://maps.google.com/?cid=2617916504775484734&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bell-bank.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所ベルバンク福岡サロン-d85a"
+  },
+  {
+   "name": "福岡天神結婚相談所 ブライダル福岡りょうえん結び",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神５丁目２",
+   "mapsUri": "https://maps.google.com/?cid=15022485220698057449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalfukuoka-ryouenmusubi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "福岡天神結婚相談所-ブライダル福岡りょうえん結び-774b"
+  },
+  {
+   "name": "シュガー結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神４丁目３−８ 8階",
+   "mapsUri": "https://maps.google.com/?cid=17982860992344060598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happy-suger.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "シュガー結婚相談所-f949"
+  },
+  {
+   "name": "TMS｜全国結婚相談事業者連盟",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１−１ B1F",
+   "mapsUri": "https://maps.google.com/?cid=14930926669328763229&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nakoudonet.com/lp/kaigyo4/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "TMS-全国結婚相談事業者連盟-ed91"
+  },
+  {
+   "name": "結婚相談所 リーブ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神２丁目１４−３５ 野村不動産天神ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=10966053687169817315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "結婚相談所-リーブ-1581"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 福岡天神サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒810-0001 福岡県福岡市中央区天神１丁目１５−６ 5F センバスグループ本部内",
+   "mapsUri": "https://maps.google.com/?cid=17330735198876175665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/area/kyusyu/fukuoka-tenjin/?utm_source=google&utm_medium=map&utm_campaign=fukuokatenjin&utm_content=maptop",
+   "status": "OPERATIONAL",
+   "areas": [
+    "tenjin"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-福岡天神サロン-07c6"
+  },
+  {
+   "name": "TWOTHREEブライダル",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前４丁目１８−１９ 博多フロントビル 405",
+   "mapsUri": "https://maps.google.com/?cid=4036160909414397994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sites.google.com/view/twothreebridal",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "TWOTHREEブライダル-5b1f"
+  },
+  {
+   "name": "婚活ラボ Another",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒812-0012 福岡県福岡市博多区博多駅中央街５−３ ホテルクリオコート 2階",
+   "mapsUri": "https://maps.google.com/?cid=17148524201595048563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "婚活ラボ-Another-1022"
+  },
+  {
+   "name": "結婚相談所 キズナ・ブライダル博多",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒812-0011 福岡県福岡市博多区博多駅前２丁目１１−１６",
+   "mapsUri": "https://maps.google.com/?cid=15921913138393180548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakata"
+   ],
+   "slug": "結婚相談所-キズナ-ブライダル博多-0438"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 北九州サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0001 福岡県北九州市小倉北区浅野１丁目２−１ 新幹線小倉駅1F 小倉キャンパス内",
+   "mapsUri": "https://maps.google.com/?cid=4788227646845333394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/area/kyusyu/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-北九州サロン-f439"
+  },
+  {
+   "name": "結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒803-0818 福岡県北九州市小倉北区竪町２丁目４−８ サンシャインプリンセス北九州 ４０４",
+   "mapsUri": "https://maps.google.com/?cid=8335789959955977211&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.marriage-yuyu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-8885"
+  },
+  {
+   "name": "エンコネクト 結婚相談",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0003 福岡県北九州市小倉北区米町１丁目１−１ 小倉駅前ひびきビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=8723260964561619645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enconnect-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "エンコネクト-結婚相談-2965"
+  },
+  {
+   "name": "シュガー結婚相談所北九州サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0001 福岡県北九州市小倉北区浅野１丁目２−３９",
+   "mapsUri": "https://maps.google.com/?cid=6901612566049444613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happy-suger.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "シュガー結婚相談所北九州サロン-078d"
+  },
+  {
+   "name": "北九州 結婚相談所 さち婚",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0004 福岡県北九州市小倉北区鍛冶町１丁目１−１ 北九州東洋ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=9094791161251583416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sachi-kon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "北九州-結婚相談所-さち婚-fa61"
+  },
+  {
+   "name": "結婚相談所 セレンディピティ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒803-0846 福岡県北九州市小倉北区下到津４丁目７−５−１４０５",
+   "mapsUri": "https://maps.google.com/?cid=272024404978880869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://serendipity.sunmarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-セレンディピティ-1520"
+  },
+  {
+   "name": "北九州の結婚相談所 マリッジサポート Say-yahセイヤ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0063 福岡県北九州市小倉北区若富士町１−１０ ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=2537924313600950696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "北九州の結婚相談所-マリッジサポート-Say-yahセイヤ-6f50"
+  },
+  {
+   "name": "結婚相談所オークパイン・ダイヤモンドクラブ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0021 福岡県北九州市小倉北区高浜２丁目１−５４ 高浜ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=17545119195929291634&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://odc-deai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所オークパイン-ダイヤモンドクラブ-4c1f"
+  },
+  {
+   "name": "Rubis（リュビ）結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒803-0841 福岡県北九州市小倉北区清水１丁目３−２１",
+   "mapsUri": "https://maps.google.com/?cid=18377585347928452204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "Rubis-リュビ-結婚相談所-b0cd"
+  },
+  {
+   "name": "ハピネス北原結婚相談室",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒800-0044 福岡県北九州市門司区上藤松２丁目１−３２ 藤松スカイマンション",
+   "mapsUri": "https://maps.google.com/?cid=10615364336583583716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hp-ns.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "ハピネス北原結婚相談室-bab3"
+  },
+  {
+   "name": "結婚相談所エニシアス 北九州店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0841 福岡県北九州市小倉南区北方３丁目３８−５",
+   "mapsUri": "https://maps.google.com/?cid=13287397558319999147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://enicias.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所エニシアス-北九州店-f0d0"
+  },
+  {
+   "name": "真鶴結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒803-0844 福岡県北九州市小倉北区真鶴１丁目８−１",
+   "mapsUri": "https://maps.google.com/?cid=1952588748514023368&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.manazuru-br.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "真鶴結婚相談所-a16a"
+  },
+  {
+   "name": "RINO MARRIAGE 結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒805-0061 福岡県北九州市八幡東区西本町３丁目３−２２",
+   "mapsUri": "https://maps.google.com/?cid=5086760578069310388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "RINO-MARRIAGE-結婚相談所-5df4"
+  },
+  {
+   "name": "結婚相談所 marry me 福岡門司店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒800-0054 福岡県北九州市門司区小倉１丁目１６ 社ノ木1-16-13",
+   "mapsUri": "https://maps.google.com/?cid=6203215250607345593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marryme.storeinfo.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚相談所-marry-me-福岡門司店-3c42"
+  },
+  {
+   "name": "結婚情報サービスマリッジストーリー",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒802-0001 福岡県北九州市小倉北区浅野２丁目１７−１ 畠中ビル",
+   "mapsUri": "https://maps.google.com/?cid=7572856342823606221&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kitakyushu"
+   ],
+   "slug": "結婚情報サービスマリッジストーリー-0b2b"
+  },
+  {
+   "name": "結婚相談所TMSパートナー久留米店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒830-0035 福岡県久留米市東和町５−７ パッセージビル ３階Ｆ号室",
+   "mapsUri": "https://maps.google.com/?cid=4781084649146667527&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/fukuoka/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所TMSパートナー久留米店-3c1b"
+  },
+  {
+   "name": "結婚相談所オポ・小郡 久留米",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒838-0141 福岡県小郡市小郡３９１−２",
+   "mapsUri": "https://maps.google.com/?cid=1667429538072085137&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.oppo-love.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuoka-other"
+   ],
+   "slug": "結婚相談所オポ-小郡-久留米-0e5b"
+  },
+  {
+   "name": "大人のための婚活サポート 良縁 今日子",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒830-0061 福岡県久留米市津福今町４９９−２７",
+   "mapsUri": "https://maps.google.com/?cid=15650471783575195689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "大人のための婚活サポート-良縁-今日子-f578"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 久留米サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒839-0862 福岡県久留米市野中町４２０−１ リーベンハオス野中 1Ｆ 西側 ナビ個別指導学院内",
+   "mapsUri": "https://maps.google.com/?cid=8009315326450654285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/?utm_source=google&utm_medium=map&utm_campaign=kurume&utm_content=maptop",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-久留米サロン-1bfc"
+  },
+  {
+   "name": "婚活・結婚相談所 はなえる 久留米第2サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒839-0862 福岡県久留米市野中町４２０−１ リーベンハオス野中 1Ｆ 久留米第2サロン",
+   "mapsUri": "https://maps.google.com/?cid=11576970243554465771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanaeru.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "婚活-結婚相談所-はなえる-久留米第2サロン-a222"
+  },
+  {
+   "name": "結婚相談所きらり",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒830-0063 福岡県久留米市荒木町荒木１３１３−７４",
+   "mapsUri": "https://maps.google.com/?cid=8436215294757355325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "結婚相談所きらり-3df2"
+  },
+  {
+   "name": "ブライダルパートナーシップ Baron",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒830-0032 福岡県久留米市東町１−２０ 大和ビル",
+   "mapsUri": "https://maps.google.com/?cid=2002741996182987840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://b-p-baron.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kurume"
+   ],
+   "slug": "ブライダルパートナーシップ-Baron-1f60"
+  }
+ ]
+}

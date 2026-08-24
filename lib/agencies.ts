@@ -55,6 +55,12 @@ export const AREA_LABELS: Record<string, string> = {
   okazaki: "岡崎・三河",
   "ichinomiya-aichi": "一宮・尾張",
   "aichi-other": "愛知その他",
+  tenjin: "天神・大名・薬院",
+  hakata: "博多",
+  "fukuoka-city-other": "福岡市その他",
+  kitakyushu: "北九州・小倉",
+  kurume: "久留米",
+  "fukuoka-other": "福岡その他",
 };
 
 // 相談所DBを持つ都道府県(横展開時はここに追加)
@@ -63,6 +69,7 @@ export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = 
   { pref: "osaka", prefName: "大阪", areaHref: "/area/osaka/" },
   { pref: "kanagawa", prefName: "神奈川", areaHref: "/area/yokohama/" },
   { pref: "aichi", prefName: "愛知", areaHref: "/area/nagoya/" },
+  { pref: "fukuoka", prefName: "福岡", areaHref: "/area/fukuoka/" },
 ];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)
