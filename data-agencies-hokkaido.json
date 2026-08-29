@@ -1,0 +1,851 @@
+{
+ "surveyedAt": "2026-08-29",
+ "prefName": "北海道",
+ "agencies": [
+  {
+   "name": "結婚相談所オーネット 札幌店",
+   "rating": 4.4,
+   "count": 78,
+   "address": "日本、〒060-0003 北海道札幌市中央区北３条西４丁目1−１ 日本生命札幌ビル 16階",
+   "mapsUri": "https://maps.google.com/?cid=7642660951015086613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/hokkaido/hokkaido/sapporo/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=sapporo",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所オーネット-札幌店-4053"
+  },
+  {
+   "name": "ラポールアンカー札幌",
+   "rating": 4.8,
+   "count": 69,
+   "address": "日本、〒060-0808 北海道札幌市北区北８条西３丁目28",
+   "mapsUri": "https://maps.google.com/?cid=4306609368591127674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/sapporo",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "ラポールアンカー札幌-64e7"
+  },
+  {
+   "name": "婚活サロン other half",
+   "rating": 4.8,
+   "count": 46,
+   "address": "日本、〒059-1263 北海道苫小牧市青雲町１丁目２３−１５",
+   "mapsUri": "https://maps.google.com/?cid=5837561676343002929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://otherhalf-salon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hokkaido-other"
+   ],
+   "slug": "婚活サロン-other-half-7a37"
+  },
+  {
+   "name": "ツヴァイ 札幌店",
+   "rating": 4.5,
+   "count": 43,
+   "address": "日本、〒060-0002 北海道札幌市中央区北２条西３丁目１−１６ 太陽生命ひまわり札幌ビル 7 階",
+   "mapsUri": "https://maps.google.com/?cid=8746821399331213642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/hokkaido/area_hokkaido/sapporo/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "ツヴァイ-札幌店-eb1d"
+  },
+  {
+   "name": "札幌 Marriage Agency ララコンティ",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒060-0002 北海道札幌市中央区北２条西２丁目３２−番地 第３７桂和ビル ６階",
+   "mapsUri": "https://maps.google.com/?cid=191765952773631699&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ralacon.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌-Marriage-Agency-ララコンティ-f4bc"
+  },
+  {
+   "name": "婚活サロン Coco Marry",
+   "rating": 5,
+   "count": 31,
+   "address": "日本、〒060-0063 北海道札幌市中央区南３条西１丁目8−１０ NBF CONNECT SAPPORO 4F",
+   "mapsUri": "https://maps.google.com/?cid=6971932352942524693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cocomarry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "婚活サロン-Coco-Marry-38a5"
+  },
+  {
+   "name": "札幌結婚相談所 ブルースターウェディング",
+   "rating": 5,
+   "count": 28,
+   "address": "日本、〒064-0944 北海道札幌市中央区円山西町３丁目３−７",
+   "mapsUri": "https://maps.google.com/?cid=785059727100510113&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://bluestarweddig.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌結婚相談所-ブルースターウェディング-4257"
+  },
+  {
+   "name": "結婚相談所フィオーレ 札幌店",
+   "rating": 4.7,
+   "count": 27,
+   "address": "日本、〒060-0002 北海道札幌市中央区北２条西２丁目３４ ７Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=4699133113413418477&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/hokkaido/sapporo/?utm_source=googlemaps&utm_medium=organic&utm_campaign=sapporo_gbp_websitebtn",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所フィオーレ-札幌店-8b57"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント札幌店",
+   "rating": 4.2,
+   "count": 22,
+   "address": "日本、〒060-0061 北海道札幌市中央区南１条西６丁目１１ 札幌北辰ビル 8階C室",
+   "mapsUri": "https://maps.google.com/?cid=4074141195279076128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/hokkaido/sapporo.html?cid=se002&argument=wgvYBfWa&dmai=9729",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所パートナーエージェント札幌店-bcff"
+  },
+  {
+   "name": "ラポールアンカー婚活サロン旭川",
+   "rating": 4.6,
+   "count": 19,
+   "address": "日本、〒070-8045 北海道旭川市忠和５条５丁目４−４ サンパティークⅠ",
+   "mapsUri": "https://maps.google.com/?cid=728704197520561929&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "asahikawa"
+   ],
+   "slug": "ラポールアンカー婚活サロン旭川-c140"
+  },
+  {
+   "name": "婚活サロン Hiyorina",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒064-0805 北海道札幌市中央区南５条西１５丁目２−３",
+   "mapsUri": "https://maps.google.com/?cid=12993711817946372179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hiyorina.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "婚活サロン-Hiyorina-24bb"
+  },
+  {
+   "name": "結婚相談所 worthwhile-ワースワイル-",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒003-0023 北海道札幌市白石区南郷通１丁目北５−５",
+   "mapsUri": "https://maps.google.com/?cid=1732426840854561123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://worthwhile-happy.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所-worthwhile-ワースワイル-d995"
+  },
+  {
+   "name": "結婚相談所BCT",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒079-8417 北海道旭川市永山７条３丁目３−７",
+   "mapsUri": "https://maps.google.com/?cid=11505633153766308728&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bct-kekkon.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "asahikawa"
+   ],
+   "slug": "結婚相談所BCT-2727"
+  },
+  {
+   "name": "結婚相談所 Daisy Marriage",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒066-0015 北海道千歳市青葉５丁目９",
+   "mapsUri": "https://maps.google.com/?cid=16480787236628405052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://daisymarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hokkaido-other"
+   ],
+   "slug": "結婚相談所-Daisy-Marriage-bc0f"
+  },
+  {
+   "name": "札幌結婚相談所 かち婚～婚活サロン～",
+   "rating": 4.8,
+   "count": 12,
+   "address": "日本、〒060-0013 北海道札幌市中央区北１３条西１６丁目１−３４",
+   "mapsUri": "https://maps.google.com/?cid=2252019688899514008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kachikon-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌結婚相談所-かち婚-婚活サロン-8a19"
+  },
+  {
+   "name": "結婚相談所 K .mariage（ケイマリアージュ）",
+   "rating": 4.7,
+   "count": 12,
+   "address": "日本、〒060-0007 北海道札幌市中央区北７条西１９丁目２５",
+   "mapsUri": "https://maps.google.com/?cid=13799188356829773880&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kmariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所-K-mariage-ケイマリアージュ-97b3"
+  },
+  {
+   "name": "Re*Knot -marriage concierge-",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒060-0062 北海道札幌市中央区南２条西３丁目12−５ 7F",
+   "mapsUri": "https://maps.google.com/?cid=2972679256918295201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.reknot.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "Re-Knot-marriage-concierge-36b2"
+  },
+  {
+   "name": "マリッジサロンAUBE",
+   "rating": 4.9,
+   "count": 11,
+   "address": "日本、〒064-0917 北海道札幌市中央区南１７条西６丁目４−１８",
+   "mapsUri": "https://maps.google.com/?cid=4980513727040785791&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.aube2020.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "マリッジサロンAUBE-b93b"
+  },
+  {
+   "name": "婚活研究所 Marriage Barista",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒001-0010 北海道札幌市北区北１０条西３丁目23−１ 1階 THE PEAK SAPPORO",
+   "mapsUri": "https://maps.google.com/?cid=14234933921516131660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.maribari.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "婚活研究所-Marriage-Barista-4947"
+  },
+  {
+   "name": "結婚相談所 エソラ札幌",
+   "rating": 4.6,
+   "count": 9,
+   "address": "日本、〒064-0805 北海道札幌市中央区南５条西１５丁目２−３",
+   "mapsUri": "https://maps.google.com/?cid=9918131916772355756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://esora-sapporo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所-エソラ札幌-686a"
+  },
+  {
+   "name": "札幌の結婚相談所 Hana Bridal (ハナブライダル)",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒060-0003 北海道札幌市中央区北３条西１１丁目4−１ マーシャルノース２ビル ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=1245728083201278491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://hana-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌の結婚相談所-Hana-Bridal-ハナブライダル-d343"
+  },
+  {
+   "name": "札幌の結婚相談所Hiroka(札幌の結婚相談所ヒロカ)",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒060-0807 北海道札幌市北区北７条西４丁目1番１ 東カンビル 607",
+   "mapsUri": "https://maps.google.com/?cid=13054869317950244442&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hiroka6sub.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "札幌の結婚相談所Hiroka-札幌の結婚相談所ヒロカ-e1f4"
+  },
+  {
+   "name": "麻生レディース結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒001-0040 北海道札幌市北区北４０条西４丁目２−２０ 麻生むらもとビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=8979482622313248888&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://asabu-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "麻生レディース結婚相談所-6dd4"
+  },
+  {
+   "name": "レベ婚 男のためのレベ上げ結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒060-0062 北海道札幌市中央区南２条西５丁目３１−１ RMBld 701",
+   "mapsUri": "https://maps.google.com/?cid=6892756614412124999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://levekon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "レベ婚-男のためのレベ上げ結婚相談所-94c5"
+  },
+  {
+   "name": "Autumn結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒065-0015 北海道札幌市東区北１５条東４丁目２−７ グランメールＳＵＮ",
+   "mapsUri": "https://maps.google.com/?cid=15160396072568016369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://autumn-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "Autumn結婚相談所-4f60"
+  },
+  {
+   "name": "札幌サン倶楽部",
+   "rating": 4.3,
+   "count": 6,
+   "address": "日本、〒060-0042 北海道札幌市中央区大通西１３丁目４ 中菱ビル 403号",
+   "mapsUri": "https://maps.google.com/?cid=3925657154360657994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sapporo-sunclub.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌サン倶楽部-6614"
+  },
+  {
+   "name": "ひだまりコンシェルジュ",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒040-0005 北海道函館市人見町２５−１１",
+   "mapsUri": "https://maps.google.com/?cid=5166605517902659077&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sustainshop.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "ひだまりコンシェルジュ-79d9"
+  },
+  {
+   "name": "良縁Life M 結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒062-0931 北海道札幌市豊平区平岸１条１０丁目４−１１",
+   "mapsUri": "https://maps.google.com/?cid=14270896382119973579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ryoenn-lifem.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "良縁Life-M-結婚相談所-b042"
+  },
+  {
+   "name": "結婚相談所アストラ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒060-0053 北海道札幌市中央区南３条東３丁目８",
+   "mapsUri": "https://maps.google.com/?cid=3329631021052873003&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://as-tra.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所アストラ-4c0a"
+  },
+  {
+   "name": "婚活サロンBRIMARI",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒065-0015 北海道札幌市東区北１５条東７丁目２−１",
+   "mapsUri": "https://maps.google.com/?cid=13943874657628744269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://brimari.figma.site/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "婚活サロンBRIMARI-3915"
+  },
+  {
+   "name": "結婚相談所KUMiCOM(くみこん）",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒006-0000 北海道札幌市手稲区前田１条３丁目１",
+   "mapsUri": "https://maps.google.com/?cid=13039241358274754326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kumicom2022.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所KUMiCOM-くみこん-666b"
+  },
+  {
+   "name": "スターオブマリッジ",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒064-0806 北海道札幌市中央区南７条西１４丁目１",
+   "mapsUri": "https://maps.google.com/?cid=17443259426512732319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.star-of-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "スターオブマリッジ-98c8"
+  },
+  {
+   "name": "ゼクシィ札幌カウンター",
+   "rating": 3,
+   "count": 3,
+   "address": "日本、〒060-0004 北海道札幌市中央区北４条西５丁目１ ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=11242888765741765733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/hokkaido/sapporo.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "ゼクシィ札幌カウンター-a772"
+  },
+  {
+   "name": "結婚相談所アンドコンシェルジュ函館店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒040-0064 北海道函館市大手町５−１０",
+   "mapsUri": "https://maps.google.com/?cid=9373312180933057827&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://andconcierge.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "結婚相談所アンドコンシェルジュ函館店-dc4c"
+  },
+  {
+   "name": "結婚相談所とこしえ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒004-0003 北海道札幌市厚別区厚別東３条７丁目１９−８",
+   "mapsUri": "https://maps.google.com/?cid=15770881692620409100&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tokoshie-kekkon.jimdofree.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所とこしえ-b9c9"
+  },
+  {
+   "name": "結婚相談所 plus Marriage札幌（プラスマリッジ）",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒063-0802 北海道札幌市西区二十四軒２条４丁目６−２３",
+   "mapsUri": "https://maps.google.com/?cid=5877301844054579518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/hokkaido/18907/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所-plus-Marriage札幌-プラスマリッジ-999d"
+  },
+  {
+   "name": "結婚相談所 ひまわり会",
+   "rating": 3,
+   "count": 2,
+   "address": "日本、〒001-0031 北海道札幌市北区北３１条西１１丁目１−１ A812号",
+   "mapsUri": "https://maps.google.com/?cid=6379721238572609337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sapporohimawarikai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所-ひまわり会-4f54"
+  },
+  {
+   "name": "旭川しんきん結婚相談所 A.YALL【アエール】",
+   "rating": 1.5,
+   "count": 2,
+   "address": "4階, ８丁目-1705-13 ４条通 旭川市 北海道 070-0034 日本",
+   "mapsUri": "https://maps.google.com/?cid=3249645974972324679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "asahikawa"
+   ],
+   "slug": "旭川しんきん結婚相談所-A-YALL-アエール-0b1b"
+  },
+  {
+   "name": "ららぽーとブライダル",
+   "rating": 1,
+   "count": 2,
+   "address": "日本、〒040-0032 北海道函館市新川町１９−８",
+   "mapsUri": "https://maps.google.com/?cid=8506757177548264471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "ららぽーとブライダル-c8ab"
+  },
+  {
+   "name": "婚活カウンセラー すぎやまけいこ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒005-0002 北海道札幌市南区澄川２条２丁目１",
+   "mapsUri": "https://maps.google.com/?cid=1871459298304681769&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.happy-tetote.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "婚活カウンセラー-すぎやまけいこ-8e9a"
+  },
+  {
+   "name": "結婚相談所アンフィ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒064-0805 北海道札幌市中央区南５条西１５丁目２−３",
+   "mapsUri": "https://maps.google.com/?cid=7410339095501392467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://anfy.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所アンフィ-a2f1"
+  },
+  {
+   "name": "公務員特化結婚相談所 官公庁マリッジ札幌",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒060-0004 北海道札幌市中央区北４条西４丁目１ 加森ビル③ 3F",
+   "mapsUri": "https://maps.google.com/?cid=8399258803106723949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-club.co.jp/aboutus/sapporo.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "公務員特化結婚相談所-官公庁マリッジ札幌-c7e3"
+  },
+  {
+   "name": "結婚相談所ムスベル 札幌店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒063-0811 北海道札幌市西区琴似１条３丁目３−１２ しなねん琴似ビル ２階",
+   "mapsUri": "https://maps.google.com/?cid=7479006358494735741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=sapporo&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "結婚相談所ムスベル-札幌店-0896"
+  },
+  {
+   "name": "結婚相談所 ホワイトマリッジ 札幌店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒060-0063 北海道札幌市中央区南３条西２丁目６−２ ＫＴ三条ビル",
+   "mapsUri": "https://maps.google.com/?cid=17684801189695162517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://whitemarriage.jp/sp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所-ホワイトマリッジ-札幌店-30c7"
+  },
+  {
+   "name": "婚活パートナーズ Anniversary",
+   "rating": 4,
+   "count": 1,
+   "address": "RM Bld., 701 ５丁目-31-1 南２条西 中央区 札幌市 北海道 060-0062 日本",
+   "mapsUri": "https://maps.google.com/?cid=4501653013382222867&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kp-anniversary.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "婚活パートナーズ-Anniversary-fd8c"
+  },
+  {
+   "name": "北海道婚活商店 十勝支店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒080-0101 北海道河東郡音更町大通８丁目4−１０ 2F",
+   "mapsUri": "https://maps.google.com/?cid=16922752418871907895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hokkaido-other"
+   ],
+   "slug": "北海道婚活商店-十勝支店-2757"
+  },
+  {
+   "name": "ブライダルコスチューム函館",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒040-0074 北海道函館市松川町４０−１６",
+   "mapsUri": "https://maps.google.com/?cid=13765788663925528325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.tosei-hakodate.com/bch/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "ブライダルコスチューム函館-919b"
+  },
+  {
+   "name": "Marriage salon 愛ラス",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒007-0836 北海道札幌市東区北３６条東５丁目１−２５",
+   "mapsUri": "https://maps.google.com/?cid=14665449009755484821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ailus-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "Marriage-salon-愛ラス-c3f8"
+  },
+  {
+   "name": "Rosa Angela 札幌",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒060-0807 北海道札幌市北区北７条西４丁目1番１ トーカン札幌第一キャステール 607",
+   "mapsUri": "https://maps.google.com/?cid=13361842882884791324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rosa-angela.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "Rosa-Angela-札幌-604b"
+  },
+  {
+   "name": "札幌結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒064-0820 北海道札幌市中央区大通西２５丁目３−１ G1ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=8054799503821213109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.abc8.org/hokaidou-html/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "札幌結婚相談所-1aed"
+  },
+  {
+   "name": "結婚相談所アンドコンシェルジュ札幌店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒064-0808 北海道札幌市中央区北７条西１９丁目１ 2momijiビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=9579251096386107466&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://andconcierge.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所アンドコンシェルジュ札幌店-27d7"
+  },
+  {
+   "name": "Life Reboot Project｜札幌の40代・50代専門婚活",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒060-0807 北海道札幌市北区北７条西５丁目５ ストークマンション 603",
+   "mapsUri": "https://maps.google.com/?cid=2155852559911595118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://liferebootproject.jimdofree.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-other"
+   ],
+   "slug": "Life-Reboot-Project-札幌の40代-50代専門婚活-4b6a"
+  },
+  {
+   "name": "結婚相談所TMSパートナー札幌店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒060-0002 北海道札幌市中央区北２条西２丁目３４ ７Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=5055150055261429585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/hokkaido/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所TMSパートナー札幌店-38b5"
+  },
+  {
+   "name": "結婚相談所 ライフマップ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒064-0821 北海道札幌市中央区北１条西２４丁目４−１ 東光ストア円山店 2階",
+   "mapsUri": "https://maps.google.com/?cid=16803707693240905259&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lifemap-sapporo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所-ライフマップ-25e1"
+  },
+  {
+   "name": "結婚相談所 Marriage for you",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒060-0061 北海道札幌市中央区南１条西１７丁目１−１８ 白樺ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=12630563241687659241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.marriage-for-you.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所-Marriage-for-you-79dd"
+  },
+  {
+   "name": "フリースタイル結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒060-0041 北海道札幌市中央区大通東２丁目3−１ 第36桂和ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=489080869220530703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://freestyle-mag.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "フリースタイル結婚相談所-e5f7"
+  },
+  {
+   "name": "結婚相談所仲人型 縁結び そりん",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒061-1153 北海道北広島市富ヶ岡９１２−１",
+   "mapsUri": "https://maps.google.com/?cid=4194064751745469405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://marriage-sorin.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hokkaido-other"
+   ],
+   "slug": "結婚相談所仲人型-縁結び-そりん-0824"
+  },
+  {
+   "name": "結婚相談所ティアラ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒064-0804 北海道札幌市中央区南４条西６丁目７−３",
+   "mapsUri": "https://maps.google.com/?cid=3375011641309075988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tiara-sapporo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sapporo-chuo"
+   ],
+   "slug": "結婚相談所ティアラ-27c1"
+  },
+  {
+   "name": "旭川結婚相談所 あさひかわひまわり会",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒070-0033 北海道旭川市３条通８丁目 緑橋商店街ビル 1号館 1階",
+   "mapsUri": "https://maps.google.com/?cid=18131449971822416719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sapporohimawarikai.com/%E6%97%AD%E5%B7%9D%E3%81%B2%E3%81%BE%E3%82%8F%E3%82%8A%E4%BC%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "asahikawa"
+   ],
+   "slug": "旭川結婚相談所-あさひかわひまわり会-35ce"
+  },
+  {
+   "name": "ショパン・マリアージュ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒085-0835 北海道釧路市浦見８丁目２−１６",
+   "mapsUri": "https://maps.google.com/?cid=10224423207635096507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.cherry-piano.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hokkaido-other"
+   ],
+   "slug": "ショパン-マリアージュ-a6b5"
+  },
+  {
+   "name": "あさひかわ縁結びネットワーク",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒070-0031 北海道旭川市１条通８丁目 7 階",
+   "mapsUri": "https://maps.google.com/?cid=4352792473488082873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://asahikawa-enmusubi.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "asahikawa"
+   ],
+   "slug": "あさひかわ縁結びネットワーク-0465"
+  },
+  {
+   "name": "新函館北斗結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒040-0081 北海道函館市田家町７−１６ ルックスビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=15145663740724659251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.shinhakodate-hokuto.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "新函館北斗結婚相談所-58cc"
+  },
+  {
+   "name": "函館結婚相談所 ル・マリエ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒040-0051 北海道函館市弁天町１５−１２",
+   "mapsUri": "https://maps.google.com/?cid=7628481071228038529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rumarie.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "函館結婚相談所-ル-マリエ-2b44"
+  },
+  {
+   "name": "結婚相談所 ラヴェニール",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒040-0073 北海道函館市宮前町２−２３",
+   "mapsUri": "https://maps.google.com/?cid=12562847510861771060&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lavenir1230.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "結婚相談所-ラヴェニール-88bc"
+  },
+  {
+   "name": "結婚相談 芙蓉会",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒042-0932 北海道函館市湯川町２丁目４３−９",
+   "mapsUri": "https://maps.google.com/?cid=3721652979824803175&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hakodate"
+   ],
+   "slug": "結婚相談-芙蓉会-92a1"
+  }
+ ]
+}

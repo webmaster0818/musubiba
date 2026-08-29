@@ -61,6 +61,11 @@ export const AREA_LABELS: Record<string, string> = {
   kitakyushu: "北九州・小倉",
   kurume: "久留米",
   "fukuoka-other": "福岡その他",
+  "sapporo-chuo": "札幌・大通(中央区)",
+  "sapporo-other": "札幌市その他",
+  asahikawa: "旭川",
+  hakodate: "函館",
+  "hokkaido-other": "北海道その他",
 };
 
 // 相談所DBを持つ都道府県(横展開時はここに追加)
@@ -70,6 +75,7 @@ export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = 
   { pref: "kanagawa", prefName: "神奈川", areaHref: "/area/yokohama/" },
   { pref: "aichi", prefName: "愛知", areaHref: "/area/nagoya/" },
   { pref: "fukuoka", prefName: "福岡", areaHref: "/area/fukuoka/" },
+  { pref: "hokkaido", prefName: "北海道", areaHref: "/area/sapporo/" },
 ];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)
