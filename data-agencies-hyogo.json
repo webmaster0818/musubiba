@@ -1,0 +1,1631 @@
+{
+ "surveyedAt": "2026-09-01",
+ "prefName": "兵庫",
+ "agencies": [
+  {
+   "name": "結婚相談所 関西ブライダル神戸明石店 ベルノース",
+   "rating": 4.8,
+   "count": 129,
+   "address": "日本、〒673-0885 兵庫県明石市桜町１４−１７ 中島ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=3789762482776052347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-akashi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-関西ブライダル神戸明石店-ベルノース-21f1"
+  },
+  {
+   "name": "IBJMatching 神戸(PARTY☆PARTY)",
+   "rating": 4.1,
+   "count": 127,
+   "address": "日本、〒651-0086 兵庫県神戸市中央区磯上通８丁目３−１０ 井門三宮ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=8751873053313707737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_hyogo/area_kobe/floor_kobe?utm_source=google&utm_medium=maps&utm_campaign=mb_kobe",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "IBJMatching-神戸-PARTY☆PARTY-b008"
+  },
+  {
+   "name": "結婚相談所オーネット 神戸店",
+   "rating": 4.8,
+   "count": 119,
+   "address": "日本、〒651-0096 兵庫県神戸市中央区雲井通７丁目１−１ ミント神戸 16階",
+   "mapsUri": "https://maps.google.com/?cid=7338328548132003506&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/hyogo/kobe/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=kobe",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所オーネット-神戸店-fa70"
+  },
+  {
+   "name": "結婚相談所エンサポート尼崎",
+   "rating": 4.9,
+   "count": 95,
+   "address": "日本、〒661-0976 兵庫県尼崎市潮江１丁目１−6番地",
+   "mapsUri": "https://maps.google.com/?cid=28740289319065412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://en-support.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所エンサポート尼崎-6aee"
+  },
+  {
+   "name": "イルソーレブライダル",
+   "rating": 5,
+   "count": 88,
+   "address": "日本、〒650-0011 兵庫県神戸市中央区下山手通２丁目１２−２６ 藤本ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=9203136388235070324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ilsole-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "イルソーレブライダル-c1c7"
+  },
+  {
+   "name": "結婚相談所オーネット 姫路店",
+   "rating": 4.9,
+   "count": 88,
+   "address": "日本、〒670-0965 兵庫県姫路市東延末１丁目１ 姫路NKビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=8668564417354965944&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/hyogo/himeji/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=himeji",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所オーネット-姫路店-598c"
+  },
+  {
+   "name": "結婚相談所IBJメンバーズ 神戸店",
+   "rating": 4.9,
+   "count": 77,
+   "address": "日本、〒651-0086 兵庫県神戸市中央区磯上通８丁目３−１０ 井門三宮ビル 9F",
+   "mapsUri": "https://maps.google.com/?cid=16442607754877894126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.loungemembers.com/kobe/?utm_source=mybusiness&utm_medium=other&utm_campaign=mb_kobe",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所IBJメンバーズ-神戸店-f92b"
+  },
+  {
+   "name": "結婚相談所 縁結びサロン Must be",
+   "rating": 4.9,
+   "count": 70,
+   "address": "日本、〒662-0051 兵庫県西宮市羽衣町７−３０ 夙川グリーンタウン310A ホーム 2",
+   "mapsUri": "https://maps.google.com/?cid=4182979984324735602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.must-be0702.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-縁結びサロン-Must-be-9b2e"
+  },
+  {
+   "name": "神戸のお見合い相談所 えんむすび屋",
+   "rating": 5,
+   "count": 66,
+   "address": "日本、〒654-0141 兵庫県神戸市須磨区竜が台１丁目１−２−３５ 105",
+   "mapsUri": "https://maps.google.com/?cid=10874340593148023597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmusubi-ya.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "神戸のお見合い相談所-えんむすび屋-fafd"
+  },
+  {
+   "name": "結婚相談所 婚活サロンEnne",
+   "rating": 5,
+   "count": 66,
+   "address": "日本、〒662-0051 兵庫県西宮市羽衣町７−３０ 夙川グリーンタウン 3階",
+   "mapsUri": "https://maps.google.com/?cid=16625730403489564852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enne-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-婚活サロンEnne-43ba"
+  },
+  {
+   "name": "縁結びカフェーあんだん亭ー",
+   "rating": 4.9,
+   "count": 57,
+   "address": "日本、〒664-0852 兵庫県伊丹市南本町２丁目２−１４",
+   "mapsUri": "https://maps.google.com/?cid=3511615203641810904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://enmusubicafe-andantei.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "縁結びカフェーあんだん亭ー-1ef2"
+  },
+  {
+   "name": "ゴンちゃんの結婚相談所",
+   "rating": 4.8,
+   "count": 54,
+   "address": "日本、〒673-0892 兵庫県明石市本町１丁目２−３３ 興生ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=14907041728048858251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gon-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "ゴンちゃんの結婚相談所-fc35"
+  },
+  {
+   "name": "結婚相談所ツヴァイ 姫路店",
+   "rating": 4.5,
+   "count": 45,
+   "address": "日本、〒670-0964 兵庫県姫路市豊沢町１３７ 姫路センタービル 6階",
+   "mapsUri": "https://maps.google.com/?cid=15244893408566762512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/hyogo/himeji/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所ツヴァイ-姫路店-86a6"
+  },
+  {
+   "name": "結婚相談所 婚活サロン ラポルテ",
+   "rating": 5,
+   "count": 43,
+   "address": "日本、〒662-0051 兵庫県西宮市羽衣町７−３０",
+   "mapsUri": "https://maps.google.com/?cid=13234153521694643279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-laporte.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-婚活サロン-ラポルテ-9f71"
+  },
+  {
+   "name": "結婚相談所 千代屋net 神戸三田店",
+   "rating": 4.4,
+   "count": 39,
+   "address": "日本、〒651-1522 兵庫県神戸市北区大沢町上大沢２１５０",
+   "mapsUri": "https://maps.google.com/?cid=10209441444490815445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.chiyoya-navi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所-千代屋net-神戸三田店-62ba"
+  },
+  {
+   "name": "西宮 結婚相談所 婚活サロン felicion",
+   "rating": 5,
+   "count": 37,
+   "address": "日本、〒662-0084 兵庫県西宮市樋之池町１０−１４",
+   "mapsUri": "https://maps.google.com/?cid=2469578061342893231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-felicion.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "西宮-結婚相談所-婚活サロン-felicion-3204"
+  },
+  {
+   "name": "ツヴァイ 神戸店",
+   "rating": 4.6,
+   "count": 32,
+   "address": "日本、〒650-0033 兵庫県神戸市中央区江戸町９５ 井門神戸ビル 12階",
+   "mapsUri": "https://maps.google.com/?cid=3411469388110070868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/hyogo/kobe/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "ツヴァイ-神戸店-5940"
+  },
+  {
+   "name": "結婚相談所フィオーレ 神戸店",
+   "rating": 4.2,
+   "count": 32,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目２−１ ３Ｆ 旧三神ビル",
+   "mapsUri": "https://maps.google.com/?cid=14235667005654803224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/hyogo/kobe/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所フィオーレ-神戸店-d2b8"
+  },
+  {
+   "name": "結婚相談所 Cheerful 尼崎",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒661-0033 兵庫県尼崎市南武庫之荘３丁目２４−２０ エスト第一ビル",
+   "mapsUri": "https://maps.google.com/?cid=4339999096004949031&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cheerful-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-Cheerful-尼崎-667a"
+  },
+  {
+   "name": "結婚相談所サロン・ド・ユニール",
+   "rating": 4.7,
+   "count": 31,
+   "address": "日本、〒665-0035 兵庫県宝塚市逆瀬川１丁目２−１",
+   "mapsUri": "https://maps.google.com/?cid=9266799643621512380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.salondeunir.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所サロン-ド-ユニール-31a7"
+  },
+  {
+   "name": "結婚相談所ミライノ",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒670-0964 兵庫県姫路市豊沢町１２９ あさひビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=9803556317704372411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miraino-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所ミライノ-cc9d"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント神戸店",
+   "rating": 4.5,
+   "count": 28,
+   "address": "日本、〒651-0086 兵庫県神戸市中央区磯上通６丁目１−１ 磯上公園ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=13460708698043978498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kansai/kobe.html?cid=se002&argument=wgvYBfWa&dmai=9728",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所パートナーエージェント神戸店-66ca"
+  },
+  {
+   "name": "結婚相談所 黄色い花束",
+   "rating": 4.8,
+   "count": 24,
+   "address": "日本、〒662-0828 兵庫県西宮市門戸西町４−２０",
+   "mapsUri": "https://maps.google.com/?cid=16007676741958309335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yellow-bouquet.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-黄色い花束-062f"
+  },
+  {
+   "name": "F&P BRIDAL(結婚相談所)",
+   "rating": 4.9,
+   "count": 24,
+   "address": "日本、〒675-1378 兵庫県小野市王子町４０４−２",
+   "mapsUri": "https://maps.google.com/?cid=5571941798602989881&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.f-and-p.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "F-P-BRIDAL-結婚相談所-dfb2"
+  },
+  {
+   "name": "結婚相談所 Rio Marriage",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒658-0072 兵庫県神戸市東灘区岡本１丁目２",
+   "mapsUri": "https://maps.google.com/?cid=9103489731465251767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://rio-marriage.jimdosite.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所-Rio-Marriage-564f"
+  },
+  {
+   "name": "CHARMY(結婚相談所)",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒650-0023 兵庫県神戸市中央区栄町通４丁目３−５ 毎日新聞神戸ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=12652654357909693393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://charmy7770.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "CHARMY-結婚相談所-a4e6"
+  },
+  {
+   "name": "天使のうさぎ結婚相談所",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒650-0022 兵庫県神戸市中央区元町通５丁目７−４ ＳＥＹＣＨＥＬＬ ＫＯＢＥ 1階",
+   "mapsUri": "https://maps.google.com/?cid=10157716295683079683&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tensi.club/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "天使のうさぎ結婚相談所-b329"
+  },
+  {
+   "name": "結婚相談所 Loving Days",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒673-0001 兵庫県明石市本町１丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=12695398552287688933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://loving-days.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-Loving-Days-c68e"
+  },
+  {
+   "name": "結婚相談所 Irida イリーダ",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒662-0832 兵庫県西宮市甲風園１丁目８−１１ エビータの森ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=11743262119994447055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.irida.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-Irida-イリーダ-2026"
+  },
+  {
+   "name": "Forever Mate-結婚相談所-",
+   "rating": 4.9,
+   "count": 16,
+   "address": "日本、〒661-0003 兵庫県尼崎市富松町１丁目２６−２９",
+   "mapsUri": "https://maps.google.com/?cid=5911955866342682292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/hyogo/27188/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "Forever-Mate-結婚相談所-3072"
+  },
+  {
+   "name": "結婚相談所 マリアージュ芦屋",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒659-0093 兵庫県芦屋市船戸町５−２６",
+   "mapsUri": "https://maps.google.com/?cid=4588875087292412954&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://mariage-ashiya.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-マリアージュ芦屋-25e4"
+  },
+  {
+   "name": "結婚相談所 marieje（マリエジェ）",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒650-0004 兵庫県神戸市中央区中山手通１丁目５−７ 丸岩ビル 101",
+   "mapsUri": "https://maps.google.com/?cid=5473992305906288746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marieje.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所-marieje-マリエジェ-43ce"
+  },
+  {
+   "name": "サンマリエ神戸サロン",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒651-0086 兵庫県神戸市中央区磯上通８丁目３−１０ 井門三宮ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=9726418385509055891&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kinki/kobe/?utm_source=kobe&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "サンマリエ神戸サロン-5132"
+  },
+  {
+   "name": "結婚相談所GRACE-ai グレイス-アイ",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒662-0918 兵庫県西宮市六湛寺町９−３１ EXCELLENT六湛寺ビル １０2号",
+   "mapsUri": "https://maps.google.com/?cid=13578668778762953174&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://grace-ai.net/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所GRACE-ai-グレイス-アイ-c6fe"
+  },
+  {
+   "name": "縁結びサロン edge.",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒675-0064 兵庫県加古川市加古川町溝之口２２３−１５",
+   "mapsUri": "https://maps.google.com/?cid=16257912267271956341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmusubi-salon-edge.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "縁結びサロン-edge-a4e5"
+  },
+  {
+   "name": "MarriageSalonプリムラ",
+   "rating": 4.6,
+   "count": 14,
+   "address": "日本、〒670-0922 兵庫県姫路市二階町８０ ２階",
+   "mapsUri": "https://maps.google.com/?cid=9339770266751577040&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://primula-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "MarriageSalonプリムラ-67b0"
+  },
+  {
+   "name": "結婚相談所 infinity ring 婚活ブライダルサロン",
+   "rating": 4.8,
+   "count": 13,
+   "address": "日本、〒675-0008 兵庫県加古川市新神野３丁目１−１３",
+   "mapsUri": "https://maps.google.com/?cid=8804843236218482611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://infinityring.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-infinity-ring-婚活ブライダルサロン-fb2c"
+  },
+  {
+   "name": "結婚相談所ココハナ",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒666-0225 兵庫県川辺郡猪名川町木津御所垣内",
+   "mapsUri": "https://maps.google.com/?cid=4676857675982981556&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://cocohana2525.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所ココハナ-e65f"
+  },
+  {
+   "name": "明石市の結婚相談所Alami",
+   "rating": 4.7,
+   "count": 12,
+   "address": "日本、〒673-0892 兵庫県明石市本町２丁目１−２９ みなとメゾン明石本町 2F",
+   "mapsUri": "https://maps.google.com/?cid=17470172745916672591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://alami-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "明石市の結婚相談所Alami-82ad"
+  },
+  {
+   "name": "結婚相談所Bordeaux（ボルドー）",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒661-0045 兵庫県尼崎市武庫豊町２丁目９−９",
+   "mapsUri": "https://maps.google.com/?cid=11504478837473454610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-bordeaux.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所Bordeaux-ボルドー-d3d9"
+  },
+  {
+   "name": "兵庫の結婚相談所 アスマリ神戸店",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通４丁目２−１９ アムズ元町 1F",
+   "mapsUri": "https://maps.google.com/?cid=4811770928475018790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://asmari.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "兵庫の結婚相談所-アスマリ神戸店-0264"
+  },
+  {
+   "name": "結婚相談所ブーケMIZUIKE",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒675-1323 兵庫県小野市榊町８８２",
+   "mapsUri": "https://maps.google.com/?cid=1929027708633923426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://machi-zu.net/ono/bouquet/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所ブーケMIZUIKE-a521"
+  },
+  {
+   "name": "神戸の結婚相談所 JUNブライダル・ラボ",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒651-0086 兵庫県神戸市中央区磯上通８丁目１−２９ カサベラビル C&M403号",
+   "mapsUri": "https://maps.google.com/?cid=5202781111065562776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-labo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "神戸の結婚相談所-JUNブライダル-ラボ-4a80"
+  },
+  {
+   "name": "婚活サポート BLUE STAR",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒658-0047 兵庫県神戸市東灘区御影３丁目２−１１−１１０",
+   "mapsUri": "https://maps.google.com/?cid=622489572942780939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://blue-star.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "婚活サポート-BLUE-STAR-141b"
+  },
+  {
+   "name": "結婚相談所 幸せわくわく婚活塾",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒667-0021 兵庫県養父市八鹿町八鹿１６８５−２",
+   "mapsUri": "https://maps.google.com/?cid=6485702080688779387&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.wakuwakukonkatu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-幸せわくわく婚活塾-b1fe"
+  },
+  {
+   "name": "結婚相談所 アクリウェディング 神戸元町",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒650-0022 兵庫県神戸市中央区元町通１丁目１０−１１ 元町エビスビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=8747224593480465052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://acri-wedding.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所-アクリウェディング-神戸元町-f3c1"
+  },
+  {
+   "name": "結婚相談所WeBCon神戸店",
+   "rating": 3.8,
+   "count": 8,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町３丁目９−１５ 東亜ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=9666392996401888636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/kobe/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所WeBCon神戸店-72ff"
+  },
+  {
+   "name": "婚活サポート ひまわり結都 結婚相談所",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒660-0861 兵庫県尼崎市御園町２７",
+   "mapsUri": "https://maps.google.com/?cid=2283211216063712011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://himawari-yuito.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "婚活サポート-ひまわり結都-結婚相談所-dfa5"
+  },
+  {
+   "name": "結婚相談所 FIRST FLOOR",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒663-8175 兵庫県西宮市甲子園五番町１３−３３",
+   "mapsUri": "https://maps.google.com/?cid=3570638355948481814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://first-floor.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-FIRST-FLOOR-cfc4"
+  },
+  {
+   "name": "結婚相談所 ル・マリアージュさくら苦楽園",
+   "rating": 4.5,
+   "count": 8,
+   "address": "日本、〒662-0075 兵庫県西宮市南越木岩町３−１９ 202",
+   "mapsUri": "https://maps.google.com/?cid=3114012040973268639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-kurakuen.online/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-ル-マリアージュさくら苦楽園-aa86"
+  },
+  {
+   "name": "結婚相談所 芦屋ウェディング",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒659-0093 兵庫県芦屋市船戸町５−２６",
+   "mapsUri": "https://maps.google.com/?cid=4065041853563334363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ashiya-wedding.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-芦屋ウェディング-02f4"
+  },
+  {
+   "name": "婚活相談 ふたり旅（結婚相談所）",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒655-0006 兵庫県神戸市垂水区本多聞７丁目１１−２２",
+   "mapsUri": "https://maps.google.com/?cid=8859479811836705315&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://futaritabi-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "婚活相談-ふたり旅-結婚相談所-3883"
+  },
+  {
+   "name": "ゼクシィ神戸三宮カウンター",
+   "rating": 4.6,
+   "count": 7,
+   "address": "日本、〒651-0096 兵庫県神戸市中央区雲井通７丁目１−１ １６階",
+   "mapsUri": "https://maps.google.com/?cid=83892138109950627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/hyogo/kobe.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "ゼクシィ神戸三宮カウンター-9930"
+  },
+  {
+   "name": "婚活サロンNeo",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒657-0068 兵庫県神戸市灘区篠原北町４丁目３",
+   "mapsUri": "https://maps.google.com/?cid=11885736032655871284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsusalon-neo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "婚活サロンNeo-5513"
+  },
+  {
+   "name": "結婚相談所 マリアド 西宮北口店",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒662-0834 兵庫県西宮市南昭和町９−１４",
+   "mapsUri": "https://maps.google.com/?cid=1873747522851267049&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariad.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所-マリアド-西宮北口店-d0e3"
+  },
+  {
+   "name": "婚活サポート be marry net |IBJ加盟店",
+   "rating": 4.9,
+   "count": 7,
+   "address": "日本、〒670-0912 兵庫県姫路市南町７６ 姫路城陽ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=4564463411651377163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bemarrynet.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "婚活サポート-be-marry-net-IBJ加盟店-5b32"
+  },
+  {
+   "name": "神戸結婚相談所 エトワールマリッジナオ",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒657-0035 兵庫県神戸市灘区友田町２丁目３−７ アルカイック六甲 203",
+   "mapsUri": "https://maps.google.com/?cid=16605624189396189309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://etoile-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "神戸結婚相談所-エトワールマリッジナオ-4e0d"
+  },
+  {
+   "name": "結婚相談所SOLESTE KOBE",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒655-0892 兵庫県神戸市垂水区平磯３丁目７−７",
+   "mapsUri": "https://maps.google.com/?cid=1771619790517566615&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nakoudonet.com/nakoudo/hyogo/kobe/139735/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所SOLESTE-KOBE-1ae5"
+  },
+  {
+   "name": "ズッキーニ結婚相談所",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒676-0013 兵庫県高砂市荒井町蓮池３丁目７−２２",
+   "mapsUri": "https://maps.google.com/?cid=18133215528822377698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zuckybridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "ズッキーニ結婚相談所-ae89"
+  },
+  {
+   "name": "婚活サポートHIMEMARI",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒670-0912 兵庫県姫路市南町７６ 城陽ビル ４F",
+   "mapsUri": "https://maps.google.com/?cid=13350835855152301661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.himemari.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "婚活サポートHIMEMARI-b87b"
+  },
+  {
+   "name": "結婚相談所ムスベル 姫路店",
+   "rating": 4.2,
+   "count": 6,
+   "address": "日本、〒670-0935 兵庫県姫路市北条口２丁目７ グラン姫路 9階",
+   "mapsUri": "https://maps.google.com/?cid=3409318209804760162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=himeji&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所ムスベル-姫路店-5a2c"
+  },
+  {
+   "name": "STORIA",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒651-0064 兵庫県神戸市中央区大日通２丁目４−１３ 3F",
+   "mapsUri": "https://maps.google.com/?cid=10121222536298747776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://dp-storia.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "STORIA-482c"
+  },
+  {
+   "name": "マリッジマネジメントセンター",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒650-0033 兵庫県神戸市中央区江戸町１０４ 104ビル 502号",
+   "mapsUri": "https://maps.google.com/?cid=5807816554633259213&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.mmc-kobe.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "マリッジマネジメントセンター-9a6b"
+  },
+  {
+   "name": "からっとブライダル",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒675-1333 兵庫県小野市垂井町１０２８−２",
+   "mapsUri": "https://maps.google.com/?cid=13580293929850432518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.karattolife.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "からっとブライダル-647d"
+  },
+  {
+   "name": "結婚相談所 神戸婚活LABO",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒653-0885 兵庫県神戸市長田区堀切町１７",
+   "mapsUri": "https://maps.google.com/?cid=5642757999074963812&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://chouchou-labo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所-神戸婚活LABO-4b23"
+  },
+  {
+   "name": "結婚相談所 Aimarry",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒650-0027 兵庫県神戸市中央区中町通３丁目１−１６ 502",
+   "mapsUri": "https://maps.google.com/?cid=5630793399761275012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aimarry-kobe.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所-Aimarry-cfaa"
+  },
+  {
+   "name": "NDA恋愛結婚相談所",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒658-0022 兵庫県神戸市東灘区深江南町４丁目１２−２０ 深江ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=14218299394967583561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sunmarriage-nda.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "NDA恋愛結婚相談所-6faf"
+  },
+  {
+   "name": "関西ブライダル神戸三宮 ベルノース",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１４ トロアー神戸ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=2242446470531508480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-akashi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "関西ブライダル神戸三宮-ベルノース-3d04"
+  },
+  {
+   "name": "AQUA BRIDALSALON【アクアブライダルサロン】神戸",
+   "rating": 4,
+   "count": 4,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目１−６ 上月ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=15946262277181328545&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aqua-bridal-salon-kobe.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "AQUA-BRIDALSALON-アクアブライダルサロン-神戸-2655"
+  },
+  {
+   "name": "婚活サポートFP事務所 ライフプランサポーターズ",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒670-0061 兵庫県姫路市西今宿２丁目１−３４ えいしんビル 3F 3-C",
+   "mapsUri": "https://maps.google.com/?cid=9787559790700783964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lpsapo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "婚活サポートFP事務所-ライフプランサポーターズ-7a77"
+  },
+  {
+   "name": "わいわい結婚相談",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒662-0825 兵庫県西宮市門戸荘７−２５",
+   "mapsUri": "https://maps.google.com/?cid=15190931253807387074&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://waiwai-happy.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "わいわい結婚相談-4a59"
+  },
+  {
+   "name": "結び花 結婚相談所",
+   "rating": 4.3,
+   "count": 3,
+   "address": "日本、〒657-0037 兵庫県神戸市灘区備後町１丁目２−１５ 301",
+   "mapsUri": "https://maps.google.com/?cid=2634117755947449586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musubibanaen.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結び花-結婚相談所-573a"
+  },
+  {
+   "name": "神戸ポートピアホテル 結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒650-0046 兵庫県神戸市中央区港島中町６丁目１０−１",
+   "mapsUri": "https://maps.google.com/?cid=16810577057375324285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.portopia.co.jp/marriage-life/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "神戸ポートピアホテル-結婚相談所-97c6"
+  },
+  {
+   "name": "結婚相談所ルリエ/須磨本店・神戸住吉支店",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒654-0063 兵庫県神戸市須磨区月見山町３丁目６",
+   "mapsUri": "https://maps.google.com/?cid=1104442319497068650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ruriered.wixsite.com/my-site",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所ルリエ-須磨本店-神戸住吉支店-1a9e"
+  },
+  {
+   "name": "株式会社ブライダルプロデュース・ピープル",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒650-0023 兵庫県神戸市中央区栄町通１丁目３−１７",
+   "mapsUri": "https://maps.google.com/?cid=12594166598563728909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "株式会社ブライダルプロデュース-ピープル-1db0"
+  },
+  {
+   "name": "【IBJ公式】結婚相談所 縁をつむぐ KUSURIYUBI",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒670-0935 兵庫県姫路市北条口２丁目１０６ うめおか本社ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=11211545244136901059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://peraichi.com/landing_pages/view/62wsi",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "IBJ公式-結婚相談所-縁をつむぐ-KUSURIYUBI-b8a4"
+  },
+  {
+   "name": "結婚相談所LINO AGENCY(リノエージェンシー)",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒661-0982 兵庫県尼崎市食満６丁目８",
+   "mapsUri": "https://maps.google.com/?cid=10339496218097112865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lino-agency.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所LINO-AGENCY-リノエージェンシー-04f2"
+  },
+  {
+   "name": "結婚相談所マリサポ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒650-0003 兵庫県神戸市中央区山本通２丁目１３−１５ WALLSQUARE北野坂 1F",
+   "mapsUri": "https://maps.google.com/?cid=15675203864791419731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-service.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所マリサポ-2951"
+  },
+  {
+   "name": "結婚相談所ライフ企画ＹU I 星野千恵子",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒651-1103 兵庫県神戸市北区中里町１丁目8−９６",
+   "mapsUri": "https://maps.google.com/?cid=10165396818584071102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://lifeplan-yui.holy.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "結婚相談所ライフ企画YU-I-星野千恵子-144d"
+  },
+  {
+   "name": "フィオーレパーティー 婚活パーティー・街コン 神戸・三宮個室会場",
+   "rating": 3,
+   "count": 2,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目２−１ 3F 日住神戸三宮ビルディング3F",
+   "mapsUri": "https://maps.google.com/?cid=6210345753957794377&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.fiore-party.com/pref/pref_hyogohttps://www.fiore-party.com/pref/pref_hokkaido?utm_source=maps&utm_medium=gbp",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "フィオーレパーティー-婚活パーティー-街コン-神戸-三宮個室会場-099c"
+  },
+  {
+   "name": "関西ブライダル三田店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒669-1321 兵庫県三田市けやき台１丁目10−１ センチュリープラザ C103",
+   "mapsUri": "https://maps.google.com/?cid=3425640933778335970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kb-sanda.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "関西ブライダル三田店-cd1b"
+  },
+  {
+   "name": "結婚相談所 AsuMe (アスミー)",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒665-0022 兵庫県宝塚市野上３丁目８",
+   "mapsUri": "https://maps.google.com/?cid=4916159911168842547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-AsuMe-アスミー-cfeb"
+  },
+  {
+   "name": "結婚相談所 Marry Bell マリーベル",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒674-0074 兵庫県明石市魚住町清水２１８５−４ 福田ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=2575771496423658165&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marry-bell.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hyogo-other"
+   ],
+   "slug": "結婚相談所-Marry-Bell-マリーベル-1219"
+  },
+  {
+   "name": "癒しの結婚相談所 真愛（まな）",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒671-1156 兵庫県姫路市広畑区小坂１５０−５",
+   "mapsUri": "https://maps.google.com/?cid=2592072286992404750&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "癒しの結婚相談所-真愛-まな-1c90"
+  },
+  {
+   "name": "結婚相談所Ｌ２＋【エル】姫路店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒670-0012 兵庫県姫路市本町BLD68・3階",
+   "mapsUri": "https://maps.google.com/?cid=6513765789353357197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/VWZrY0o2",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所L2-エル-姫路店-9631"
+  },
+  {
+   "name": "ゼクシィ姫路イオンタウンカウンター",
+   "rating": 4,
+   "count": 2,
+   "address": "日本、〒670-0966 兵庫県姫路市延末４３５−３ イオンタウン姫路 2階",
+   "mapsUri": "https://maps.google.com/?cid=11233117725098231318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/hyogo/himeji.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "ゼクシィ姫路イオンタウンカウンター-22ed"
+  },
+  {
+   "name": "結婚相談所R&Y",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒663-8141 兵庫県西宮市高須町１丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=17330489587672765024&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ry0916marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所R-Y-7751"
+  },
+  {
+   "name": "Best Lian(ベストリアン)",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒651-0093 兵庫県神戸市中央区二宮町１丁目４−７ リーガル三宮東ビル ６F",
+   "mapsUri": "https://maps.google.com/?cid=5069521814103391411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bestlian.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "Best-Lian-ベストリアン-b626"
+  },
+  {
+   "name": "結婚相談所JUNON Marriage",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒651-0084 兵庫県神戸市中央区磯辺通１丁目１−１８ 707号室",
+   "mapsUri": "https://maps.google.com/?cid=16933038822009062528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.junon-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所JUNON-Marriage-94e9"
+  },
+  {
+   "name": "婚活ラウンジ ウィズダム",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒650-0032 兵庫県神戸市中央区伊藤町１１０−２ 7F",
+   "mapsUri": "https://maps.google.com/?cid=4946032774808221383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://wisdomm.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "婚活ラウンジ-ウィズダム-c1cd"
+  },
+  {
+   "name": "結婚相談所ムスベル 神戸店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒651-0096 兵庫県神戸市中央区御幸通４丁目２−２ マークラー神戸ビル ５階",
+   "mapsUri": "https://maps.google.com/?cid=10818192444037288167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kobe&asp=none&popup=none&dcta=none&fd=nonehttps://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kobe&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所ムスベル-神戸店-f800"
+  },
+  {
+   "name": "結婚相談所マリッヂサポート神戸サテライト店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒651-0087 兵庫県神戸市中央区御幸通８丁目１−６ 神戸国際会館 22階",
+   "mapsUri": "https://maps.google.com/?cid=12913767935599473539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonjoho.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所マリッヂサポート神戸サテライト店-818f"
+  },
+  {
+   "name": "Famille KOBE 結婚相談所",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒655-0883 兵庫県神戸市垂水区王居殿３丁目１９−１０",
+   "mapsUri": "https://maps.google.com/?cid=6468283438314903521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.famille-kobe.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kobe-other"
+   ],
+   "slug": "Famille-KOBE-結婚相談所-13c9"
+  },
+  {
+   "name": "結婚相談所リアンシェル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒659-0067 兵庫県芦屋市茶屋之町７−１２ ２",
+   "mapsUri": "https://maps.google.com/?cid=6758940452293324130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lianciel.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所リアンシェル-a3fe"
+  },
+  {
+   "name": "結婚相談所MarryBelle",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒671-2214 兵庫県姫路市西夢前台１丁目78−３ 進行堂 F3",
+   "mapsUri": "https://maps.google.com/?cid=11270164875365838064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marrybelle.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所MarryBelle-cd94"
+  },
+  {
+   "name": "Astrum Marriage 結婚相談所",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒671-1242 兵庫県姫路市網干区浜田２１０−２",
+   "mapsUri": "https://maps.google.com/?cid=8857944044681450987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.astrum716.com/marriage",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "Astrum-Marriage-結婚相談所-0ec8"
+  },
+  {
+   "name": "阪神ブライダルセンター",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒663-8175 兵庫県西宮市甲子園五番町１４−１７ シャルマン5番館 305号",
+   "mapsUri": "https://maps.google.com/?cid=7587764044934506531&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hansin-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "阪神ブライダルセンター-f0ac"
+  },
+  {
+   "name": "結婚相談所みらいている",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒662-0099 兵庫県西宮市剣谷町１１−２１",
+   "mapsUri": "https://maps.google.com/?cid=11111997735557697901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariagekr.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所みらいている-46a8"
+  },
+  {
+   "name": "結婚相談アヒルヤミニマル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒650-0022 兵庫県神戸市中央区元町通７丁目２−１７ 好永ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=16057445317604464268&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ahiruyaminimal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談アヒルヤミニマル-dbdf"
+  },
+  {
+   "name": "KIZUNA",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通４丁目２−１９ アムズ元町 1F",
+   "mapsUri": "https://maps.google.com/?cid=615305563564882566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://weddingkizuna-kobe.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "KIZUNA-9822"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 神戸店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒651-0096 兵庫県神戸市中央区雲井通７丁目１−１ １６階",
+   "mapsUri": "https://maps.google.com/?cid=4386013088355657551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/hyogo/kobe.html?vos=dzeksgmbt20052900022",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-神戸店-0b88"
+  },
+  {
+   "name": "神戸 結婚相談所 Heart to Heart",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒650-0035 兵庫県神戸市中央区浪速町 56Kip内",
+   "mapsUri": "https://maps.google.com/?cid=9513148961748831342&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hearttoheartmarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "神戸-結婚相談所-Heart-to-Heart-8157"
+  },
+  {
+   "name": "結婚相談所 PRIME 神戸三宮店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒650-0032 兵庫県神戸市中央区伊藤町１１０−２",
+   "mapsUri": "https://maps.google.com/?cid=6003492457607044106&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://prime-mariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所-PRIME-神戸三宮店-5963"
+  },
+  {
+   "name": "結婚相談所TMSパートナー神戸三宮店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒650-0021 兵庫県神戸市中央区三宮町１丁目２−１ ３Ｆ 旧三神ビル",
+   "mapsUri": "https://maps.google.com/?cid=9681414615715240308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/hyogo/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "結婚相談所TMSパートナー神戸三宮店-e9e6"
+  },
+  {
+   "name": "婚活結婚相談所Close givers",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒650-0012 兵庫県神戸市中央区北長狭通１丁目１０−９ 生田新道ビル 地下１階",
+   "mapsUri": "https://maps.google.com/?cid=5903009017616114261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "婚活結婚相談所Close-givers-de9e"
+  },
+  {
+   "name": "兵庫県 神戸 結婚相談所 hurrayu フレイユ ［婚活ならフレイユにお任せ下さい］",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒651-0085 兵庫県神戸市中央区八幡通４丁目２−１３ フラワーロード青山ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=7690331093302107994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://5315s.hp.peraichi.com/hurrayu",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "兵庫県-神戸-結婚相談所-hurrayu-フレイユ-婚活ならフレイユにお任せ下さい-d96b"
+  },
+  {
+   "name": "結婚相談所 マリッジアン姫路",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0055 兵庫県姫路市神子岡前３丁目３−５",
+   "mapsUri": "https://maps.google.com/?cid=15823000479706680061&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-anne.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所-マリッジアン姫路-13ec"
+  },
+  {
+   "name": "みらいゆ結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0085 兵庫県姫路市山吹１丁目１２−５",
+   "mapsUri": "https://maps.google.com/?cid=15944916537581122732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miraiyu8.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "みらいゆ結婚相談所-83dc"
+  },
+  {
+   "name": "結婚相談所 リアンアークメグミ IBJ加盟店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0093 兵庫県姫路市南新在家２０−５",
+   "mapsUri": "https://maps.google.com/?cid=14995524887732741905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lienarc-megumi-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所-リアンアークメグミ-IBJ加盟店-ff0f"
+  },
+  {
+   "name": "結婚相談所ジェイ・エム姫路",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒671-2217 兵庫県姫路市町田６−１",
+   "mapsUri": "https://maps.google.com/?cid=14455666607717016548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://jm-kakogawa.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所ジェイ-エム姫路-f744"
+  },
+  {
+   "name": "サンマリエ姫路サロン",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0964 兵庫県姫路市豊沢町１２９ あさひビル",
+   "mapsUri": "https://maps.google.com/?cid=4833341042578071021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kinki/himeji/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "サンマリエ姫路サロン-ad9c"
+  },
+  {
+   "name": "結婚相談所：LOVINSON.PARTNERS",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒671-0101 兵庫県姫路市大塩町２８５−１１",
+   "mapsUri": "https://maps.google.com/?cid=16314433677043049714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lovinson-partners.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所-LOVINSON-PARTNERS-1717"
+  },
+  {
+   "name": "京山ブライダルen to en",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒671-1154 兵庫県姫路市広畑区吾妻町３丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=15670834488616272575&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-entoen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "京山ブライダルen-to-en-9d60"
+  },
+  {
+   "name": "結婚相談所 クレアスト",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0035 兵庫県姫路市琴岡町２７４−３ 琴丘ビル １０９",
+   "mapsUri": "https://maps.google.com/?cid=3907221786440283082&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所-クレアスト-0193"
+  },
+  {
+   "name": "姫路結婚相談所ヒカリエ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒670-0921 兵庫県姫路市綿町１５３ マンエイビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=16721219391552064710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hikariehimeji.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "姫路結婚相談所ヒカリエ-366a"
+  },
+  {
+   "name": "結婚相談所 アイデアルマリッジ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒671-0111 兵庫県姫路市的形町的形３８９３−５４",
+   "mapsUri": "https://maps.google.com/?cid=13505824000661328084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "himeji"
+   ],
+   "slug": "結婚相談所-アイデアルマリッジ-7412"
+  },
+  {
+   "name": "Lien Marie 己書ご縁結び道場",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒661-0977 兵庫県尼崎市久々知３丁目３",
+   "mapsUri": "https://maps.google.com/?cid=3349866789115922374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lienmarie-japan.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "Lien-Marie-己書ご縁結び道場-5317"
+  },
+  {
+   "name": "マリアージュ花詩【尼崎】結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒661-0012 兵庫県尼崎市南塚口町２丁目６−７",
+   "mapsUri": "https://maps.google.com/?cid=6561560004348283883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.m-hanauta.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "マリアージュ花詩-尼崎-結婚相談所-5d5e"
+  },
+  {
+   "name": "Liberté+1 結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒663-8123 兵庫県西宮市小松東町３丁目９−１１ 202",
+   "mapsUri": "https://maps.google.com/?cid=13198146070641091989&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.instagram.com/liberte.plus1?igsh=MTVydXk3aHgzOWJmeQ==&utm_source=qr",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "Liberté-1-結婚相談所-e78d"
+  },
+  {
+   "name": "結婚相談所フラワーシャワー",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒661-0012 兵庫県尼崎市南塚口町３丁目６−２９",
+   "mapsUri": "https://maps.google.com/?cid=17130035558513359865&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://flowershower.amebaownd.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所フラワーシャワー-f00f"
+  },
+  {
+   "name": "東洋ブライダル",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒663-8022 兵庫県西宮市日野町１７−２２−３０１",
+   "mapsUri": "https://maps.google.com/?cid=4017197206300293863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.toyobridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "東洋ブライダル-85d3"
+  },
+  {
+   "name": "結婚相談所くすの木",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒660-0881 兵庫県尼崎市昭和通２丁目６−６８ ３階 アビーズ内",
+   "mapsUri": "https://maps.google.com/?cid=2268119368921661979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "結婚相談所くすの木-6f81"
+  },
+  {
+   "name": "ブライダル彩雅",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒662-0077 兵庫県西宮市久出ケ谷町１０−５３ ロイヤル夙川ザ・レジデンス ４０１",
+   "mapsUri": "https://maps.google.com/?cid=4679392824126973433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalsaiga.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "ブライダル彩雅-4d44"
+  },
+  {
+   "name": "ブライダルハウス・リングス",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒660-0083 兵庫県尼崎市道意町６丁目２９−２５",
+   "mapsUri": "https://maps.google.com/?cid=12584356883934327602&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "nishinomiya-hyogo"
+   ],
+   "slug": "ブライダルハウス-リングス-3165"
+  },
+  {
+   "name": "あなたの婚活日和",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒650-0011 兵庫県神戸市中央区下山手通２丁目１２−12J タワー神戸 602",
+   "mapsUri": "https://maps.google.com/?cid=2917448607699868911&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.linkx-s.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sannomiya"
+   ],
+   "slug": "あなたの婚活日和-c34e"
+  }
+ ]
+}

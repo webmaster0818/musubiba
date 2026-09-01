@@ -27,7 +27,7 @@ const STATIC_ROUTES = [
 
 function agencySlugs(): string[] {
   const slugs: string[] = [];
-  for (const pref of ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido"]) {
+  for (const pref of ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo"]) {
     const p = path.join(process.cwd(), `data-agencies-${pref}.json`);
     if (!fs.existsSync(p)) continue;
     const d = JSON.parse(fs.readFileSync(p, "utf-8"));
