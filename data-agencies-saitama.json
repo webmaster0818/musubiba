@@ -1,0 +1,1215 @@
+{
+ "surveyedAt": "2026-09-02",
+ "prefName": "埼玉",
+ "agencies": [
+  {
+   "name": "結婚相談所オーネット 大宮店",
+   "rating": 4.4,
+   "count": 169,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町３丁目42−５ 太陽生命大宮ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=8842098116861169169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/saitama/omiya/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=omiya",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所オーネット-大宮店-b3d3"
+  },
+  {
+   "name": "いち婚",
+   "rating": 4.8,
+   "count": 103,
+   "address": "日本、〒332-0014 埼玉県川口市金山町１２−１ サウスゲートタワー川口 ２F Mio川口",
+   "mapsUri": "https://maps.google.com/?cid=2286946131886203069&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ichicon.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "いち婚-bd9b"
+  },
+  {
+   "name": "IBJMatching 大宮 (PARTY☆PARTY)",
+   "rating": 4.4,
+   "count": 86,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目１５ 松屋ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=17926985062523142398&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_saitama/area_omiya/floor_omiya?utm_source=google&utm_medium=maps&utm_campaign=mb_omiya",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "IBJMatching-大宮-PARTY☆PARTY-4880"
+  },
+  {
+   "name": "ツヴァイ 大宮店",
+   "rating": 4.5,
+   "count": 79,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目7−５ ソニックシティビル 21階",
+   "mapsUri": "https://maps.google.com/?cid=16148808617490136002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/saitama/saitama/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "ツヴァイ-大宮店-476f"
+  },
+  {
+   "name": "結婚相談所ムスベル 川越店",
+   "rating": 4.7,
+   "count": 75,
+   "address": "日本、〒350-1122 埼玉県川越市脇田町17−８ アトランタビル壱番館 弐号館 3階",
+   "mapsUri": "https://maps.google.com/?cid=16384801807910904832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kawagoe&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所ムスベル-川越店-34aa"
+  },
+  {
+   "name": "結婚相談所Owen（オーウェン）",
+   "rating": 4.9,
+   "count": 62,
+   "address": "日本、〒330-9501 埼玉県さいたま市大宮区桜木町２丁目３ 大宮マルイ 7階",
+   "mapsUri": "https://maps.google.com/?cid=10283738623280886730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hide-owen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所Owen-オーウェン-4e72"
+  },
+  {
+   "name": "結婚相談所ZUTTO",
+   "rating": 5,
+   "count": 60,
+   "address": "日本、〒336-0021 埼玉県さいたま市南区別所４丁目１３−２０ ガーデンカフェ別所内",
+   "mapsUri": "https://maps.google.com/?cid=2353709660935494056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所ZUTTO-9109"
+  },
+  {
+   "name": "結婚相談所ムスベル 大宮店",
+   "rating": 4.6,
+   "count": 53,
+   "address": "日本、〒330-0844 埼玉県さいたま市大宮区下町１丁目6−２ TS-1ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=4133756796090201332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/shop/saitama/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=omiya&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所ムスベル-大宮店-ffd7"
+  },
+  {
+   "name": "結婚相談所 デュオマリアージュ",
+   "rating": 4.8,
+   "count": 52,
+   "address": "日本、〒350-1308 埼玉県狭山市中央１丁目２９−６",
+   "mapsUri": "https://maps.google.com/?cid=12367119395840790160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.duomariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所-デュオマリアージュ-8a30"
+  },
+  {
+   "name": "結婚相談所アクト",
+   "rating": 5,
+   "count": 48,
+   "address": "日本、〒350-0056 埼玉県川越市小中居３３９−９",
+   "mapsUri": "https://maps.google.com/?cid=17854992918263857395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-act.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所アクト-9427"
+  },
+  {
+   "name": "あなたの結婚相談所BUDDY BRIDAL和光市本店",
+   "rating": 4.7,
+   "count": 46,
+   "address": "日本、〒351-0111 埼玉県和光市下新倉４丁目２７−１０−４１０",
+   "mapsUri": "https://maps.google.com/?cid=569844257804641273&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://home.tsuku2.jp/storeDetail.php?scd=0000113509",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "あなたの結婚相談所BUDDY-BRIDAL和光市本店-4de9"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント大宮店",
+   "rating": 4,
+   "count": 39,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目８１ いちご大宮ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=16744140615954905692&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kanto/omiya.html?cid=se002&argument=wgvYBfWa&dmai=9720",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所パートナーエージェント大宮店-c29d"
+  },
+  {
+   "name": "マリッジコンシェルジュ Sweet Color",
+   "rating": 4.9,
+   "count": 39,
+   "address": "日本、〒350-1133 埼玉県川越市砂811番地1",
+   "mapsUri": "https://maps.google.com/?cid=13393084499684732804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sweetcolor.love/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "マリッジコンシェルジュ-Sweet-Color-f5b2"
+  },
+  {
+   "name": "結婚相談所 コティブライダル 大宮店",
+   "rating": 4.6,
+   "count": 37,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目３",
+   "mapsUri": "https://maps.google.com/?cid=6724715245736862515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.koti-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-コティブライダル-大宮店-d4a8"
+  },
+  {
+   "name": "結婚相談所 ポルトヌール",
+   "rating": 4.6,
+   "count": 34,
+   "address": "日本、〒330-0846 埼玉県さいたま市大宮区大門町２丁目２０−２",
+   "mapsUri": "https://maps.google.com/?cid=6813278230907203626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.portnheur.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-ポルトヌール-eee3"
+  },
+  {
+   "name": "埼玉結婚相談所オハナマリッジ浦和",
+   "rating": 4.9,
+   "count": 34,
+   "address": "日本、〒330-0052 埼玉県さいたま市浦和区本太１丁目１３−１３",
+   "mapsUri": "https://maps.google.com/?cid=17555167624950290393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ohanamarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "埼玉結婚相談所オハナマリッジ浦和-c237"
+  },
+  {
+   "name": "あなたの結婚相談所BUDDY BRIDAL埼玉・所沢店",
+   "rating": 4.9,
+   "count": 34,
+   "address": "日本、〒359-0037 埼玉県所沢市くすのき台１丁目１３−２ 2F",
+   "mapsUri": "https://maps.google.com/?cid=3882658549580430640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://buddy-bridal.tokyo/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "あなたの結婚相談所BUDDY-BRIDAL埼玉-所沢店-c4b7"
+  },
+  {
+   "name": "浦和結婚相談所ハッピーユニオン",
+   "rating": 5,
+   "count": 28,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町１丁目１０−７ 尾張屋第１ビル 5F 5F「ONVO SALON内」",
+   "mapsUri": "https://maps.google.com/?cid=1068845148735678152&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://happyunion.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "浦和結婚相談所ハッピーユニオン-c00a"
+  },
+  {
+   "name": "結婚相談室 恵（めぐみ）",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒343-0808 埼玉県越谷市赤山本町３−２４",
+   "mapsUri": "https://maps.google.com/?cid=11147778223400352417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.megumi4122.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談室-恵-めぐみ-6d56"
+  },
+  {
+   "name": "結婚相談所ciel lien",
+   "rating": 4.9,
+   "count": 24,
+   "address": "日本、〒340-0011 埼玉県草加市栄町２丁目８−３０",
+   "mapsUri": "https://maps.google.com/?cid=14980414271077349116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ciellienmariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所ciel-lien-58d6"
+  },
+  {
+   "name": "結婚相談所 Jun marriage",
+   "rating": 4.7,
+   "count": 23,
+   "address": "日本、〒332-0012 埼玉県川口市本町４丁目3−１４ 小峰第一ビル4F",
+   "mapsUri": "https://maps.google.com/?cid=17744401859814153551&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.junmarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所-Jun-marriage-8119"
+  },
+  {
+   "name": "結婚相談 株式会社KMA",
+   "rating": 4.5,
+   "count": 22,
+   "address": "日本、〒330-0061 埼玉県さいたま市浦和区常盤９丁目３１−６ ＡＴビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=8278037385719443541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kma-h.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談-株式会社KMA-5fa1"
+  },
+  {
+   "name": "埼玉結婚相談所 SAITA Mariage",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒362-0072 埼玉県上尾市中妻１丁目14番地16",
+   "mapsUri": "https://maps.google.com/?cid=5536208173998581914&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.tenshi-no-kon-sapoto.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "埼玉結婚相談所-SAITA-Mariage-d804"
+  },
+  {
+   "name": "結婚相談所サンマリエ大宮サロン",
+   "rating": 4.7,
+   "count": 19,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町１丁目１５−１５ 5階",
+   "mapsUri": "https://maps.google.com/?cid=5346222503062972649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kanto/omiya/?utm_source=omiya&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所サンマリエ大宮サロン-7096"
+  },
+  {
+   "name": "トータル婚活サポート 【 縁～port 】(えんぽーと)",
+   "rating": 4.9,
+   "count": 19,
+   "address": "日本、〒364-0006 埼玉県北本市北本１丁目",
+   "mapsUri": "https://maps.google.com/?cid=11051343569286004758&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://en-port.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "トータル婚活サポート-縁-port-えんぽーと-cf1e"
+  },
+  {
+   "name": "結婚相談所ベルＭｅ",
+   "rating": 5,
+   "count": 19,
+   "address": "日本、〒343-0045 埼玉県越谷市下間久里７５５−４ 埼玉住販 2F",
+   "mapsUri": "https://maps.google.com/?cid=17119347554645588582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bell-me.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所ベルMe-074c"
+  },
+  {
+   "name": "ブローテマリアージュ",
+   "rating": 4.8,
+   "count": 18,
+   "address": "日本、〒342-0056 埼玉県吉川市平沼１丁目21−２８",
+   "mapsUri": "https://maps.google.com/?cid=1330244981379351329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.brotemariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "ブローテマリアージュ-43e8"
+  },
+  {
+   "name": "ブライダルサロンYCM mariage さいたま大宮日進サロン",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒331-0823 埼玉県さいたま市北区日進町２丁目１９３",
+   "mapsUri": "https://maps.google.com/?cid=6014045442984781710&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ycm-mariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "ブライダルサロンYCM-mariage-さいたま大宮日進サロン-d0f2"
+  },
+  {
+   "name": "クリックマリー 結婚相談所",
+   "rating": 5,
+   "count": 16,
+   "address": "日本、〒356-0030 埼玉県ふじみ野市新駒林２丁目４−２０",
+   "mapsUri": "https://maps.google.com/?cid=7092904916277044130&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kurickmarry.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "クリックマリー-結婚相談所-8cae"
+  },
+  {
+   "name": "川口結婚相談所",
+   "rating": 4.9,
+   "count": 15,
+   "address": "日本、〒332-0012 埼玉県川口市本町２丁目１１−２２",
+   "mapsUri": "https://maps.google.com/?cid=10454095590014464050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kawaguchi-kekkon-soudan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "川口結婚相談所-7cc1"
+  },
+  {
+   "name": "With Owl（ウィズ・アウル）結婚相談所",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒332-0035 埼玉県川口市西青木１丁目１２−１２",
+   "mapsUri": "https://maps.google.com/?cid=8700810295129939852&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://with-owl.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "With-Owl-ウィズ-アウル-結婚相談所-c667"
+  },
+  {
+   "name": "結婚相談所 デュオマリアージュ さいたま店",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目３７８",
+   "mapsUri": "https://maps.google.com/?cid=15444226095224756124&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.duomariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-デュオマリアージュ-さいたま店-ddda"
+  },
+  {
+   "name": "Ｍ＆Ｆパートナー 結婚相談所",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒358-0002 埼玉県入間市東町７丁目２−２",
+   "mapsUri": "https://maps.google.com/?cid=16110675154917670904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mf-partner.net/lp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "M-Fパートナー-結婚相談所-4386"
+  },
+  {
+   "name": "県民結婚相談埼玉",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒360-0018 埼玉県熊谷市中央１丁目２２１ ベアハウス ２F",
+   "mapsUri": "https://maps.google.com/?cid=16270256683978683403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kenminkekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "県民結婚相談埼玉-f5f9"
+  },
+  {
+   "name": "オープンハートさいたま浦和婚活サロン",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂３丁目１７−２１ 高砂武蔵ビルディング 2階",
+   "mapsUri": "https://maps.google.com/?cid=17868905306890850200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.open-heart.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "オープンハートさいたま浦和婚活サロン-665f"
+  },
+  {
+   "name": "婚活サロンDoors",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒332-0021 埼玉県川口市西川口３丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=7934531849648085584&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsusalon-doors.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "婚活サロンDoors-8726"
+  },
+  {
+   "name": "結婚相談所コラボ大宮",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町２丁目３ 大宮マルイ 7階",
+   "mapsUri": "https://maps.google.com/?cid=8876189414774160884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-collabo.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所コラボ大宮-fb26"
+  },
+  {
+   "name": "大宮結婚相談所 イケダマリープレイス",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒337-0015 埼玉県さいたま市見沼区蓮沼１７３４−２",
+   "mapsUri": "https://maps.google.com/?cid=13126183761928325920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ikedamarryplace.com/home",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "大宮結婚相談所-イケダマリープレイス-5891"
+  },
+  {
+   "name": "Sent DIEM (結婚相談所)",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町２丁目９３−２",
+   "mapsUri": "https://maps.google.com/?cid=6912834523185548733&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.sentdiem.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "Sent-DIEM-結婚相談所-8c66"
+  },
+  {
+   "name": "埼玉県仲人協会",
+   "rating": 2.6,
+   "count": 7,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目９−４ 5F",
+   "mapsUri": "https://maps.google.com/?cid=6510321901479632355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://saitama-nakodo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "埼玉県仲人協会-6366"
+  },
+  {
+   "name": "ゼクシィ大宮カウンター",
+   "rating": 3.2,
+   "count": 6,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目７−５ ソニックシティビル １２階",
+   "mapsUri": "https://maps.google.com/?cid=9454791708353367771&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/saitama/omiya.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "ゼクシィ大宮カウンター-5faf"
+  },
+  {
+   "name": "結婚相談所 4C CLUB(フォーシークラブ)",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒330-0061 埼玉県さいたま市浦和区常磐３丁目16−２ パーク常磐 202",
+   "mapsUri": "https://maps.google.com/?cid=2909402418262976864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://4c-club.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-4C-CLUB-フォーシークラブ-78f0"
+  },
+  {
+   "name": "かぎしっぽ園 保育士専門の結婚相談所 埼玉県朝霞市",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒351-0023 埼玉県朝霞市溝沼３丁目５",
+   "mapsUri": "https://maps.google.com/?cid=16534597777241383118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kagishippo1150.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "かぎしっぽ園-保育士専門の結婚相談所-埼玉県朝霞市-7776"
+  },
+  {
+   "name": "埼玉結婚相談所 motto-もっと-",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒330-0052 埼玉県さいたま市浦和区本太２丁目１３",
+   "mapsUri": "https://maps.google.com/?cid=14729939418340897122&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://motto-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "埼玉結婚相談所-motto-もっと-6816"
+  },
+  {
+   "name": "結婚相談所 こぐまりっじ",
+   "rating": 4.4,
+   "count": 5,
+   "address": "日本、〒150-0021 東京都渋谷区恵比寿西２丁目８−４ Ex恵比寿西ビル 5階 埼玉県羽生市",
+   "mapsUri": "https://maps.google.com/?cid=13507601151241799541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kogumarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所-こぐまりっじ-dddc"
+  },
+  {
+   "name": "婚活サロン ATHENA TERRACE【結婚相談所】",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒332-0034 埼玉県川口市並木４丁目２−８ ライオンズマンション川口並木第２ 102B",
+   "mapsUri": "https://maps.google.com/?cid=4629683822564630782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://athenaterrace.hp.peraichi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "婚活サロン-ATHENA-TERRACE-結婚相談所-3e42"
+  },
+  {
+   "name": "結婚相談所 BestWishes - ベスト・ウィッシーズ",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒350-0065 埼玉県川越市仲町１５番地５",
+   "mapsUri": "https://maps.google.com/?cid=17870230756771827294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bestwishes-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所-BestWishes-ベスト-ウィッシーズ-bd90"
+  },
+  {
+   "name": "結婚相談所 縁beauty",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒337-0051 埼玉県さいたま市見沼区東大宮７丁目２８−２１ 2F",
+   "mapsUri": "https://maps.google.com/?cid=2154112575356072515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.enbeauty.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-縁beauty-7a5a"
+  },
+  {
+   "name": "結婚相談所 Greage(グレアージュ)",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒330-9501 埼玉県さいたま市大宮区桜木町２丁目３ 大宮マルイ 7階",
+   "mapsUri": "https://maps.google.com/?cid=8593488655996936663&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://greage-wedding.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-Greage-グレアージュ-b967"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 大宮ソニックシティ店",
+   "rating": 1,
+   "count": 3,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目７−５ ソニックシティビル １２階",
+   "mapsUri": "https://maps.google.com/?cid=4842453588220789044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/saitama/omiya.html?vos=dzeksgmbt20052900009",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-大宮ソニックシティ店-c8db"
+  },
+  {
+   "name": "朝霞駅前 結婚相談所 El Dorado（ エルドラード ）",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒351-0011 埼玉県朝霞市本町２丁目５−２５ エリジェ浅川 1F",
+   "mapsUri": "https://maps.google.com/?cid=17566788171974213405&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/TqvxUcGk",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "朝霞駅前-結婚相談所-El-Dorado-エルドラード-cc3d"
+  },
+  {
+   "name": "結婚相談所Pair Treeペアツリー",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒333-0813 埼玉県川口市西立野５５５−５",
+   "mapsUri": "https://maps.google.com/?cid=17687526968589576517&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.pairtree.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所Pair-Treeペアツリー-f714"
+  },
+  {
+   "name": "婚活サロン マリグレース",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒330-9501 埼玉県さいたま市大宮区桜木町２丁目３ 大宮マルイ 7階",
+   "mapsUri": "https://maps.google.com/?cid=14873120684995414759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marrigrace.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "婚活サロン-マリグレース-a53c"
+  },
+  {
+   "name": "埼玉ベルの会 結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒331-0812 埼玉県さいたま市北区宮原町３丁目５６９−２ シティプラザ宮原 １０３",
+   "mapsUri": "https://maps.google.com/?cid=15711162118035366763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bellnokai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "埼玉ベルの会-結婚相談所-0532"
+  },
+  {
+   "name": "結婚相談所ラムール上尾店",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒362-0035 埼玉県上尾市仲町１丁目７−２７ アークエムビル 7F-A",
+   "mapsUri": "https://maps.google.com/?cid=14668904509986071436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lamour-kekkon.com/shiten/22374/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所ラムール上尾店-f5bf"
+  },
+  {
+   "name": "婚活サロン クローバー",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒340-0802 埼玉県八潮市鶴ケ曽根１８９４",
+   "mapsUri": "https://maps.google.com/?cid=8603104669752950332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konkatu-clover.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "婚活サロン-クローバー-8d79"
+  },
+  {
+   "name": "マリッジ・コンシェル花音",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒350-1123 埼玉県川越市脇田本町１５−１３ 東上パールビル ３F シェアアップ川越",
+   "mapsUri": "https://maps.google.com/?cid=3650689381752458341&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marricon-kanon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "マリッジ-コンシェル花音-15e1"
+  },
+  {
+   "name": "川口ラプンツェル結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒333-0811 埼玉県川口市戸塚２丁目２１−８",
+   "mapsUri": "https://maps.google.com/?cid=10345281494843013790&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "川口ラプンツェル結婚相談所-74ee"
+  },
+  {
+   "name": "結婚相談所Lacco",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目３７８",
+   "mapsUri": "https://maps.google.com/?cid=17761548207117134180&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lacco.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所Lacco-9d6d"
+  },
+  {
+   "name": "結婚相談所TMSパートナー大宮店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目９−４ エクセレント大宮ビル",
+   "mapsUri": "https://maps.google.com/?cid=2484825815113485469&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/saitama/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所TMSパートナー大宮店-a2e2"
+  },
+  {
+   "name": "銀座Premium Le Marriage 大宮店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒330-0854 埼玉県さいたま市大宮区桜木町１丁目１−１８ 誠ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=1120177074649569248&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kekkon-omiya.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "銀座Premium-Le-Marriage-大宮店-b5c1"
+  },
+  {
+   "name": "結婚相談所 和音",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒330-0056 埼玉県さいたま市浦和区東仲町３０−２１",
+   "mapsUri": "https://maps.google.com/?cid=12299476360828341004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://kekkon-waon.jp/contact",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-和音-2828"
+  },
+  {
+   "name": "結婚相談所 婚活伴走",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒336-0026 埼玉県さいたま市南区辻７丁目１２−５",
+   "mapsUri": "https://maps.google.com/?cid=15901231881917085032&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsubansou.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-婚活伴走-718d"
+  },
+  {
+   "name": "結婚相談所 プリンス プリンセス マリアージュ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒336-0017 埼玉県さいたま市南区南浦和３丁目１１−１６",
+   "mapsUri": "https://maps.google.com/?cid=1169772627214552038&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://r.goope.jp/m-salon/free/ppm",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚相談所-プリンス-プリンセス-マリアージュ-b561"
+  },
+  {
+   "name": "関東婚活支援協会 KMA総本部 事務局",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒330-0061 埼玉県さいたま市浦和区常盤９丁目３１ 6ＡＴビル 3Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=11413413567470833596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kma-h.co.jp/recruitment/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "関東婚活支援協会-KMA総本部-事務局-70aa"
+  },
+  {
+   "name": "結婚相談所LINOAH",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒335-0003 埼玉県蕨市南町４丁目１６−７",
+   "mapsUri": "https://maps.google.com/?cid=1425256509232766500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.linoah32.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所LINOAH-cf87"
+  },
+  {
+   "name": "結婚相談所 埼玉",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒355-0036 埼玉県東松山市下野本９６７−３ モール内",
+   "mapsUri": "https://maps.google.com/?cid=2204045509374658936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-saitan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "saitama-other"
+   ],
+   "slug": "結婚相談所-埼玉-9999"
+  },
+  {
+   "name": "高山 結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒332-0001 埼玉県川口市朝日２丁目１",
+   "mapsUri": "https://maps.google.com/?cid=17416590917515703925&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://takayama-dating-agency.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "高山-結婚相談所-d437"
+  },
+  {
+   "name": "ブライダルサロンLOA",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒350-1114 埼玉県川越市東田町",
+   "mapsUri": "https://maps.google.com/?cid=9788144291180053285&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://loa-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "ブライダルサロンLOA-2230"
+  },
+  {
+   "name": "カノンマリッジコンサルティング（Kanon）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒350-0056 埼玉県川越市松江町１丁目21−４",
+   "mapsUri": "https://maps.google.com/?cid=2027035085438315275&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "カノンマリッジコンサルティング-Kanon-7ff3"
+  },
+  {
+   "name": "（有）結婚相談室ひまわり",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒332-0015 埼玉県川口市川口３丁目２",
+   "mapsUri": "https://maps.google.com/?cid=2433605716986287521&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ehimawari.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "有-結婚相談室ひまわり-7792"
+  },
+  {
+   "name": "LindaMarriage結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町４丁目９０−２４ ウィークリーセンター大宮パート１",
+   "mapsUri": "https://maps.google.com/?cid=3129841807362107975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lindamarriage.net/contact.php",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "LindaMarriage結婚相談所-d307"
+  },
+  {
+   "name": "『結婚相談所』赤い糸ダイニング～さいたまの縁結び～",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒331-0069 埼玉県さいたま市西区湯木町１丁目１０",
+   "mapsUri": "https://maps.google.com/?cid=5414139937516920848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "『結婚相談所』赤い糸ダイニング-さいたまの縁結び-abae"
+  },
+  {
+   "name": "アモーレ結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0851 埼玉県さいたま市大宮区櫛引町１丁目",
+   "mapsUri": "https://maps.google.com/?cid=5931551498834564151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "アモーレ結婚相談所-4b21"
+  },
+  {
+   "name": "幸先が良い結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0062 埼玉県さいたま市浦和区仲町２丁目１４−１９",
+   "mapsUri": "https://maps.google.com/?cid=7528855874177834412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.saisakigayoi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "幸先が良い結婚相談所-348f"
+  },
+  {
+   "name": "Dream Support結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒336-0963 埼玉県さいたま市緑区大門４丁目",
+   "mapsUri": "https://maps.google.com/?cid=9557392059231139081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "Dream-Support結婚相談所-2387"
+  },
+  {
+   "name": "埼玉同胞結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0064 埼玉県さいたま市浦和区岸町３丁目３−２３ 在日朝鮮人総合会本部",
+   "mapsUri": "https://maps.google.com/?cid=984651917102500700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "埼玉同胞結婚相談所-076f"
+  },
+  {
+   "name": "マリアージュ・絆会",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0071 埼玉県さいたま市浦和区上木崎６丁目２８−１０",
+   "mapsUri": "https://maps.google.com/?cid=9628153662567912279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kizunakai.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "マリアージュ-絆会-a914"
+  },
+  {
+   "name": "婚活相談所 Heiwa marriage",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0063 埼玉県さいたま市浦和区高砂２丁目４−６",
+   "mapsUri": "https://maps.google.com/?cid=4896544763634654657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.heiwamarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "婚活相談所-Heiwa-marriage-d705"
+  },
+  {
+   "name": "結婚相談所いち婚 川越店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒350-1123 埼玉県川越市脇田本町１５−１３ 東上パールビル ３階 SHARE UP",
+   "mapsUri": "https://maps.google.com/?cid=3115417663513656561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kawagoe.ichicon.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所いち婚-川越店-57c8"
+  },
+  {
+   "name": "えにし結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒350-1152 埼玉県川越市砂久保１６２−７６",
+   "mapsUri": "https://maps.google.com/?cid=11292778827448633518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishi-nukumori.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "えにし結婚相談所-a4e4"
+  },
+  {
+   "name": "結婚相談所マリッジテラス Hidamarry",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒350-0001 埼玉県川越市古谷上６０８３−８ ３０６",
+   "mapsUri": "https://maps.google.com/?cid=6851281421346492395&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hidamarry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所マリッジテラス-Hidamarry-26c5"
+  },
+  {
+   "name": "パンダ結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒350-1103 埼玉県川越市霞ケ関東３丁目3−２６",
+   "mapsUri": "https://maps.google.com/?cid=1695312068685953479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.panda-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "パンダ結婚相談所-5c8c"
+  },
+  {
+   "name": "結婚相談所プレシャス・ハート",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒350-0024 埼玉県川越市並木新町１６−５ １F",
+   "mapsUri": "https://maps.google.com/?cid=17559200289905861991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://preciousheart-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawagoe"
+   ],
+   "slug": "結婚相談所プレシャス-ハート-0b59"
+  },
+  {
+   "name": "埼玉県結婚相談所オリーブ川口",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒333-0813 埼玉県川口市西立野",
+   "mapsUri": "https://maps.google.com/?cid=4921852121682600459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://olivekawaguchi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "埼玉県結婚相談所オリーブ川口-3856"
+  },
+  {
+   "name": "結婚相談所キスハグ｜Kiss Hug",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒332-0023 埼玉県川口市飯塚１丁目２−１６",
+   "mapsUri": "https://maps.google.com/?cid=8204749616103665681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kiss-hug.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所キスハグ-Kiss-Hug-709d"
+  },
+  {
+   "name": "結婚相談所-縁来",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒332-0021 埼玉県川口市西川口３丁目１４−１４ フドウ 西川口 ハイツ 408",
+   "mapsUri": "https://maps.google.com/?cid=17382551239344967896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所-縁来-08b8"
+  },
+  {
+   "name": "結婚相談所 優縁",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒332-0012 埼玉県川口市本町４丁目３−１４ 小峰第一ビル5F-G2",
+   "mapsUri": "https://maps.google.com/?cid=3583422522467171514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所-優縁-1a5a"
+  },
+  {
+   "name": "結婚相談所 mon-stera（モンステラ） 東川口",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒333-0801 埼玉県川口市東川口４丁目１８−１９ 204",
+   "mapsUri": "https://maps.google.com/?cid=7736136426646848605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所-mon-stera-モンステラ-東川口-8f1e"
+  },
+  {
+   "name": "結婚相談所Eternal",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒333-0807 埼玉県川口市長蔵２丁目２３−３ パームガーデン 302",
+   "mapsUri": "https://maps.google.com/?cid=3121247464106035487&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "結婚相談所Eternal-0486"
+  },
+  {
+   "name": "パートナーシップコンサル The Greatest Happiness",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒333-0866 埼玉県川口市芝４丁目２８−１９",
+   "mapsUri": "https://maps.google.com/?cid=6039867467844992994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ultra-communication.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kawaguchi-saitama"
+   ],
+   "slug": "パートナーシップコンサル-The-Greatest-Happiness-e93e"
+  },
+  {
+   "name": "さいたま婚活支援センター",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒336-0026 埼玉県さいたま市南区辻２丁目２５−１０",
+   "mapsUri": "https://maps.google.com/?cid=9808954038238915665&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkonshien.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "さいたま婚活支援センター-0828"
+  },
+  {
+   "name": "結婚情報アルファライフ大宮",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒330-0802 埼玉県さいたま市大宮区宮町３丁目１−７ HSビル2F C",
+   "mapsUri": "https://maps.google.com/?cid=6825903740547552544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.alphalife-marriage.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "omiya-urawa"
+   ],
+   "slug": "結婚情報アルファライフ大宮-c4e6"
+  }
+ ]
+}

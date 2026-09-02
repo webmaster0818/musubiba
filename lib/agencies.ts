@@ -71,6 +71,14 @@ export const AREA_LABELS: Record<string, string> = {
   himeji: "姫路",
   "nishinomiya-hyogo": "西宮・尼崎・芦屋",
   "hyogo-other": "兵庫その他",
+  "omiya-urawa": "大宮・浦和(さいたま市)",
+  kawagoe: "川越",
+  "kawaguchi-saitama": "川口・蕨・戸田",
+  "saitama-other": "埼玉その他",
+  "chiba-city": "千葉市",
+  "funabashi-chiba": "船橋・市川・浦安",
+  "kashiwa-chiba": "柏・松戸・流山",
+  "chiba-other": "千葉その他",
 };
 
 // 相談所DBを持つ都道府県(横展開時はここに追加)
@@ -82,6 +90,8 @@ export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = 
   { pref: "fukuoka", prefName: "福岡", areaHref: "/area/fukuoka/" },
   { pref: "hokkaido", prefName: "北海道", areaHref: "/area/sapporo/" },
   { pref: "hyogo", prefName: "兵庫", areaHref: "/area/kobe/" },
+  { pref: "saitama", prefName: "埼玉", areaHref: "/area/saitama/" },
+  { pref: "chiba", prefName: "千葉", areaHref: "/area/chiba/" },
 ];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)

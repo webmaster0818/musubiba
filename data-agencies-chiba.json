@@ -1,0 +1,1371 @@
+{
+ "surveyedAt": "2026-09-02",
+ "prefName": "千葉",
+ "agencies": [
+  {
+   "name": "ツヴァイ 船橋店",
+   "rating": 4.7,
+   "count": 125,
+   "address": "日本、〒273-0005 千葉県船橋市本町２丁目１−１ 船橋スクエア21 9階",
+   "mapsUri": "https://maps.google.com/?cid=12508802446512634871&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/chiba/funabashi/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ツヴァイ-船橋店-47ab"
+  },
+  {
+   "name": "結婚相談所オーネット 千葉店",
+   "rating": 4.4,
+   "count": 100,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町１−１７ ＪＰＲ千葉ビル 10階",
+   "mapsUri": "https://maps.google.com/?cid=13505846008357693600&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/chiba/chiba/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=chiba",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所オーネット-千葉店-d545"
+  },
+  {
+   "name": "サンマリエ千葉サロン",
+   "rating": 4.6,
+   "count": 93,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町３−１３ 日本生命千葉駅前ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=13700275849304549883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kanto/chiba/?utm_source=chiba&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "サンマリエ千葉サロン-797a"
+  },
+  {
+   "name": "結婚相談所オーネット 柏店",
+   "rating": 4.3,
+   "count": 83,
+   "address": "日本、〒277-0005 千葉県柏市柏４丁目２−１ メットライフ柏ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=303917384136018838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kanto/chiba/kashiwa/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=kashiwa",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所オーネット-柏店-c20e"
+  },
+  {
+   "name": "Marriage joy",
+   "rating": 4.9,
+   "count": 63,
+   "address": "日本、〒260-0045 千葉県千葉市中央区弁天１丁目１５−３",
+   "mapsUri": "https://maps.google.com/?cid=15428461774521934109&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriagejoy.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "Marriage-joy-2ab6"
+  },
+  {
+   "name": "流山おおたかの森結婚相談所",
+   "rating": 4.9,
+   "count": 53,
+   "address": "日本、〒270-0119 千葉県流山市おおたかの森北３丁目48−２２",
+   "mapsUri": "https://maps.google.com/?cid=11850161927528876266&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://n-otakanomori.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "流山おおたかの森結婚相談所-d5aa"
+  },
+  {
+   "name": "ツヴァイ 千葉店",
+   "rating": 4.3,
+   "count": 42,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町3丁目３−１３ 日本生命千葉駅前ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=9631061065292299940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/chiba/chiba/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "ツヴァイ-千葉店-db1d"
+  },
+  {
+   "name": "結婚相談所ムスベル 柏店",
+   "rating": 5,
+   "count": 41,
+   "address": "日本、〒277-0023 千葉県柏市中央１丁目１−１ ちばぎん柏ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=16009066243386083955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=kashiwa&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所ムスベル-柏店-9159"
+  },
+  {
+   "name": "IBJMatching 千葉(PARTY☆PARTY)",
+   "rating": 4.3,
+   "count": 41,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町3−１３ 日本生命千葉駅前ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=1447307203860022717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.partyparty.jp/pref_chiba/area_chiba/floor_chiba?utm_source=google&utm_medium=maps&utm_campaign=mb_chiba",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "IBJMatching-千葉-PARTY☆PARTY-1ef5"
+  },
+  {
+   "name": "ツヴァイ 柏店",
+   "rating": 4.2,
+   "count": 39,
+   "address": "日本、〒277-0842 千葉県柏市末広町１４−１ SK柏ビル 8階",
+   "mapsUri": "https://maps.google.com/?cid=7371589359548936655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kantou/chiba/kashiwa/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "ツヴァイ-柏店-6507"
+  },
+  {
+   "name": "葵良縁センター千葉",
+   "rating": 4.8,
+   "count": 38,
+   "address": "日本、〒260-0031 千葉県千葉市中央区新千葉１丁目７−２ ペリエ+Plusビル",
+   "mapsUri": "https://maps.google.com/?cid=13561995854627671536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aoiryouen.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "葵良縁センター千葉-219b"
+  },
+  {
+   "name": "結婚相談所 婚活レッツ",
+   "rating": 4.9,
+   "count": 38,
+   "address": "日本、〒273-0005 千葉県船橋市本町２丁目２−７ 船橋本町プラザビル ６Ｂ",
+   "mapsUri": "https://maps.google.com/?cid=14722149988020250019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-lets.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-婚活レッツ-d029"
+  },
+  {
+   "name": "結婚相談所ムスベル 千葉店",
+   "rating": 4.5,
+   "count": 33,
+   "address": "日本、〒260-0013 千葉県千葉市中央区中央１丁目１０−７ 日進中央ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=11012366857593778608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=chiba&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所ムスベル-千葉店-ddaa"
+  },
+  {
+   "name": "結婚相談所プティアンシャンテ",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒277-0941 千葉県柏市高柳１６６８",
+   "mapsUri": "https://maps.google.com/?cid=3267312577817377748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://petite-enchanter.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所プティアンシャンテ-cf6a"
+  },
+  {
+   "name": "結婚相談所ハレマリー柏サロン",
+   "rating": 4.9,
+   "count": 31,
+   "address": "日本、〒277-0005 千葉県柏市柏２丁目７−２３ コササビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=8057108357447121140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hallemarry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所ハレマリー柏サロン-fb43"
+  },
+  {
+   "name": "Red string",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒260-0834 千葉県千葉市中央区今井１丁目５−２",
+   "mapsUri": "https://maps.google.com/?cid=4640016912549840443&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.redstring1122.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "Red-string-f5d7"
+  },
+  {
+   "name": "GRAND JOY",
+   "rating": 5,
+   "count": 26,
+   "address": "日本、〒273-0011 千葉県船橋市湊町２丁目８−１",
+   "mapsUri": "https://maps.google.com/?cid=13129081749747163358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.grand-joy.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "GRAND-JOY-61c8"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント船橋店",
+   "rating": 4.2,
+   "count": 24,
+   "address": "日本、〒273-0005 千葉県船橋市本町６丁目４−２８ 竹内ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=5028278420013053656&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kanto/funabashi.html?cid=se002&argument=wgvYBfWa&dmai=9721",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所パートナーエージェント船橋店-dad3"
+  },
+  {
+   "name": "結婚相談所 Lala Well-being(ララウェル)",
+   "rating": 5,
+   "count": 24,
+   "address": "日本、〒279-0011 千葉県浦安市美浜３丁目２６−８ 1階",
+   "mapsUri": "https://maps.google.com/?cid=11073615167104463530&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lalawell-being.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-Lala-Well-being-ララウェル-2a5b"
+  },
+  {
+   "name": "リードリンクス婚活相談所",
+   "rating": 4.9,
+   "count": 23,
+   "address": "日本、〒273-0003 千葉県船橋市宮本６丁目１７",
+   "mapsUri": "https://maps.google.com/?cid=14236847176356962557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://leadlinks.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "リードリンクス婚活相談所-5599"
+  },
+  {
+   "name": "結婚相談所 リボンスクエア",
+   "rating": 4.5,
+   "count": 23,
+   "address": "日本、〒262-0023 千葉県千葉市花見川区検見川町３丁目３１５−１７",
+   "mapsUri": "https://maps.google.com/?cid=11066453318849851382&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ribbonsquare.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所-リボンスクエア-f9dd"
+  },
+  {
+   "name": "縁結びサロンリリーベル",
+   "rating": 5,
+   "count": 21,
+   "address": "日本、〒270-0157 千葉県流山市平和台３丁目4−１１",
+   "mapsUri": "https://maps.google.com/?cid=2473465711913506318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lily-bell-salon.jimdofree.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "縁結びサロンリリーベル-1a2c"
+  },
+  {
+   "name": "ブライダルオフィスSAKURA",
+   "rating": 4.9,
+   "count": 20,
+   "address": "日本、〒270-0013 千葉県松戸市小金きよしケ丘３丁目12−１５",
+   "mapsUri": "https://maps.google.com/?cid=5619767230272464167&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridaloffice-sakura.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "ブライダルオフィスSAKURA-3a7e"
+  },
+  {
+   "name": "結婚相談所 Air Lokahi｜印西・千葉ニュータウンの大人の婚活",
+   "rating": 4.8,
+   "count": 18,
+   "address": "日本、〒270-1327 千葉県印西市大森４１３４−１",
+   "mapsUri": "https://maps.google.com/?cid=2846536140373338075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://airlokahi2020.my.canva.site/air-lokahi",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "結婚相談所-Air-Lokahi-印西-千葉ニュータウンの大人の婚活-0b7e"
+  },
+  {
+   "name": "SHIHO結婚相談所",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒261-0023 千葉県千葉市美浜区中瀬１丁目３ 幕張テクノガーデン CB棟 3階 ＭＢＰ",
+   "mapsUri": "https://maps.google.com/?cid=9351376374273994388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shiho-kekkon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "SHIHO結婚相談所-4e7a"
+  },
+  {
+   "name": "結婚相談所エンナビ・ブライダルパートナーズ",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒270-0101 千葉県流山市東深井４５４番地の１９",
+   "mapsUri": "https://maps.google.com/?cid=6067623454565012624&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ennvp.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所エンナビ-ブライダルパートナーズ-f863"
+  },
+  {
+   "name": "結婚相談所 アイマリッジ",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒292-0814 千葉県木更津市太田４丁目１９−６ YSビル 310",
+   "mapsUri": "https://maps.google.com/?cid=16433789489220293444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mc4122.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "結婚相談所-アイマリッジ-8ccd"
+  },
+  {
+   "name": "結婚相談所｜婚活コンシェルジュ Raise【IBJ正規加盟店】",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒292-0827 千葉県木更津市港南台４丁目16−７",
+   "mapsUri": "https://maps.google.com/?cid=8129982704844724406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://raise-info.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "結婚相談所-婚活コンシェルジュ-Raise-IBJ正規加盟店-7de5"
+  },
+  {
+   "name": "結婚相談所フィオーレ 千葉店",
+   "rating": 3.7,
+   "count": 13,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見２丁目３−１ 4F",
+   "mapsUri": "https://maps.google.com/?cid=7941778806554997884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/chiba/chiba/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所フィオーレ-千葉店-598d"
+  },
+  {
+   "name": "Le Soleil ～ル・ソレイユ～",
+   "rating": 4.8,
+   "count": 13,
+   "address": "日本、〒272-0111 千葉県市川市妙典５丁目６−２８ 市川妙典パークホームズ",
+   "mapsUri": "https://maps.google.com/?cid=8108868940980777363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lesoleil-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "Le-Soleil-ル-ソレイユ-6545"
+  },
+  {
+   "name": "千葉県習志野市の結婚相談所 結び115",
+   "rating": 4.8,
+   "count": 12,
+   "address": "日本、〒275-0025 千葉県習志野市秋津１丁目４−４ 302",
+   "mapsUri": "https://maps.google.com/?cid=14049545923352023181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.instagram.com/musubi115?igsh=em4xa2w3dzlqY3I4",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "千葉県習志野市の結婚相談所-結び115-7d6a"
+  },
+  {
+   "name": "婚活サロン EMO",
+   "rating": 4.7,
+   "count": 12,
+   "address": "日本、〒272-0033 千葉県市川市市川南１丁目１−１ ザタワーズイースト",
+   "mapsUri": "https://maps.google.com/?cid=8850379818709710515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.emo-kon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "婚活サロン-EMO-da8e"
+  },
+  {
+   "name": "結婚相談所ステラノット",
+   "rating": 4.9,
+   "count": 11,
+   "address": "日本、〒271-0092 千葉県松戸市松戸付近",
+   "mapsUri": "https://maps.google.com/?cid=6431770951459272920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://stellaknot.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所ステラノット-7b19"
+  },
+  {
+   "name": "ゼクシィ船橋ららぽーとカウンター",
+   "rating": 3.5,
+   "count": 11,
+   "address": "日本、〒273-0012 千葉県船橋市浜町２丁目１−１ ららぽーとTOKYO-BAY北館 2階",
+   "mapsUri": "https://maps.google.com/?cid=6245074175490899279&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/chiba/funabashi.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ゼクシィ船橋ららぽーとカウンター-a4c4"
+  },
+  {
+   "name": "結婚相談所 マリッジサロン プールトゥジュール",
+   "rating": 4.5,
+   "count": 11,
+   "address": "日本、〒277-0054 千葉県柏市南増尾６丁目１５−２５",
+   "mapsUri": "https://maps.google.com/?cid=16814396533988057476&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://p-t-kashiwa.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所-マリッジサロン-プールトゥジュール-6dc0"
+  },
+  {
+   "name": "婚活生活 船橋本店",
+   "rating": 4.4,
+   "count": 10,
+   "address": "日本、〒273-0005 千葉県船橋市湊町２丁目１２−２４ 6F",
+   "mapsUri": "https://maps.google.com/?cid=14985002622252098253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mi-kklife.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "婚活生活-船橋本店-b85c"
+  },
+  {
+   "name": "クリスタル・ブーケ",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒277-0063 千葉県柏市西山１丁目１４−６",
+   "mapsUri": "https://maps.google.com/?cid=18025741257182421740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://crystal-bouquet-chiba.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "クリスタル-ブーケ-e7f5"
+  },
+  {
+   "name": "結婚相談所サンクフル",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒262-0032 千葉県千葉市花見川区幕張町１丁目７６９３−３４",
+   "mapsUri": "https://maps.google.com/?cid=16197091330037190666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://two-heart.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所サンクフル-577e"
+  },
+  {
+   "name": "結婚相談所WeBCon市川店",
+   "rating": 3.7,
+   "count": 9,
+   "address": "日本、〒272-0138 千葉県市川市南行徳１丁目１６−２２ ウェブビル １F",
+   "mapsUri": "https://maps.google.com/?cid=4771524088037739181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/ichikawa/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所WeBCon市川店-4e38"
+  },
+  {
+   "name": "結婚相談所 Marry Garden(マリーガーデン)",
+   "rating": 5,
+   "count": 8,
+   "address": "日本、〒267-0061 千葉県千葉市緑区土気町３３９−３ ドメイン土気 507",
+   "mapsUri": "https://maps.google.com/?cid=13142389690639514119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marrygarden.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所-Marry-Garden-マリーガーデン-e43c"
+  },
+  {
+   "name": "婚活生活 勝田台店",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒276-0020 千葉県八千代市勝田台北３丁目１−６ 山崎ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=1770393020958882404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mi-kklife.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "婚活生活-勝田台店-759d"
+  },
+  {
+   "name": "森とうマリッジデザイン",
+   "rating": 4.4,
+   "count": 8,
+   "address": "日本、〒277-8520 千葉県柏市若柴178番地4 148街区2 KOIL6F 柏の葉キャンパス",
+   "mapsUri": "https://maps.google.com/?cid=12126325571831877059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://morito-yuko.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "森とうマリッジデザイン-52b6"
+  },
+  {
+   "name": "ミテラスマリッジ",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒290-0011 千葉県市原市能満１８６８",
+   "mapsUri": "https://maps.google.com/?cid=13650332723830326570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miteras-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "ミテラスマリッジ-2e16"
+  },
+  {
+   "name": "結婚相談所 日本官婚推進協会",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒277-0025 千葉県柏市千代田１丁目１−１２ 403",
+   "mapsUri": "https://maps.google.com/?cid=2509408374284760919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.japan-kankon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所-日本官婚推進協会-180e"
+  },
+  {
+   "name": "結婚相談所Les lien ユーカリが丘",
+   "rating": 4.9,
+   "count": 7,
+   "address": "日本、〒285-0858 千葉県佐倉市ユーカリが丘４丁目８−１ ウィシュトンホテル ３階 ブライダルサロン",
+   "mapsUri": "https://maps.google.com/?cid=8272766845127723176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "結婚相談所Les-lien-ユーカリが丘-1cb3"
+  },
+  {
+   "name": "結婚相談所 マッチングパートナー",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒290-0081 千葉県市原市五井中央西１丁目１４",
+   "mapsUri": "https://maps.google.com/?cid=7248621709018992271&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://matching-partner.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "結婚相談所-マッチングパートナー-c2a1"
+  },
+  {
+   "name": "結婚相談所Aira Marie",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒273-0011 千葉県船橋市湊町２丁目１２−２４ 日本橋ビル 6F",
+   "mapsUri": "https://maps.google.com/?cid=7900285314361454172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://airamarie-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所Aira-Marie-3367"
+  },
+  {
+   "name": "恋婚ちばブライダル",
+   "rating": 4.8,
+   "count": 5,
+   "address": "日本、〒270-0114 千葉県流山市東初石１丁目１６２−１８",
+   "mapsUri": "https://maps.google.com/?cid=3865700382008805196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ulight-marry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "恋婚ちばブライダル-b8d7"
+  },
+  {
+   "name": "結婚相談所 アシストワン船橋",
+   "rating": 4.6,
+   "count": 5,
+   "address": "日本、〒273-0005 千葉県船橋市本町６丁目２−１０ ダイアパレスステーションプラザ船橋 1015",
+   "mapsUri": "https://maps.google.com/?cid=15919547041215307638&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.a1-funabashi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-アシストワン船橋-a6bc"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント柏店",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒277-0005 千葉県柏市柏３丁目６−２ 須藤ビル 3階A号室",
+   "mapsUri": "https://maps.google.com/?cid=16896745077041964390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/branch/kanto/kashiwa.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所パートナーエージェント柏店-347f"
+  },
+  {
+   "name": "婚活サポートオフィスlecocon ルココン",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒277-0054 千葉県柏市南増尾１丁目２３−１",
+   "mapsUri": "https://maps.google.com/?cid=17491289001735026879&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.cocon-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "婚活サポートオフィスlecocon-ルココン-4e66"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント千葉店",
+   "rating": 1.5,
+   "count": 4,
+   "address": "日本、〒260-0028 千葉県千葉市中央区新町１０００ センシティタワ ６階",
+   "mapsUri": "https://maps.google.com/?cid=7252403096791611492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/chiba/chiba.html?vos=dzeksgmbt20052900010",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "ゼクシィ縁結びエージェント千葉店-67a2"
+  },
+  {
+   "name": "みろく結婚相談所 船橋サロン",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒273-0012 千葉県船橋市浜町２丁目３−３３",
+   "mapsUri": "https://maps.google.com/?cid=1499568585736462008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://369-miroku.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "みろく結婚相談所-船橋サロン-7dbe"
+  },
+  {
+   "name": "結婚相談所 瑠璃色（るりいろ）の会",
+   "rating": 3.5,
+   "count": 4,
+   "address": "日本、〒273-0047 千葉県船橋市藤原１丁目３０−１ ペアタウン船橋１棟",
+   "mapsUri": "https://maps.google.com/?cid=7947029329804806697&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://ruriironokai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-瑠璃色-るりいろ-の会-82e3"
+  },
+  {
+   "name": "結婚相談所プラナ｜柏の婚活・お見合い相談",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒277-0852 千葉県柏市旭町２丁目１−１１",
+   "mapsUri": "https://maps.google.com/?cid=6031377001339259322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridalsalon-prana.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所プラナ-柏の婚活-お見合い相談-0104"
+  },
+  {
+   "name": "結婚相談所ブランチ",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒277-0051 千葉県柏市加賀３丁目１９−４ 増尾アルファビル3F",
+   "mapsUri": "https://maps.google.com/?cid=1276368355855268902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://brunch-kashiwa.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所ブランチ-323d"
+  },
+  {
+   "name": "婚活処おむすび堂",
+   "rating": 4.5,
+   "count": 4,
+   "address": "日本、〒271-0092 千葉県松戸市松戸１３０７−１ 松戸ビル 13F",
+   "mapsUri": "https://maps.google.com/?cid=16876572075371739693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.k-omusubidou.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "婚活処おむすび堂-7a21"
+  },
+  {
+   "name": "婚活サロンあいゆう",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒290-0081 千葉県市原市五井中央西２丁目８−２６",
+   "mapsUri": "https://maps.google.com/?cid=6969849797962379937&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zero-tiba.com/aiyuu/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "婚活サロンあいゆう-a5b2"
+  },
+  {
+   "name": "結婚相談所 PATEO to PATECO",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒260-0031 千葉県千葉市中央区新千葉１丁目７−２",
+   "mapsUri": "https://maps.google.com/?cid=15612288275314215674&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.pateotopateco.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所-PATEO-to-PATECO-3141"
+  },
+  {
+   "name": "婚活サロンマリアンジュ",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒261-8501 千葉県千葉市美浜区中瀬１丁目３ 幕張テクノガーデン CB棟 3階 MBP",
+   "mapsUri": "https://maps.google.com/?cid=6844613345956736426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marie-ange.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "婚活サロンマリアンジュ-7bfc"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 船橋ららぽーと店",
+   "rating": 1.7,
+   "count": 3,
+   "address": "日本、〒273-0012 千葉県船橋市浜町２丁目１−１ ららぽーとTOKYO-BAY北館２階",
+   "mapsUri": "https://maps.google.com/?cid=14164148172330179711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/chiba/funabashi.html?vos=dzeksgmbt20052900011",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-船橋ららぽーと店-84e4"
+  },
+  {
+   "name": "婚活サロン 結ブライド",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒266-0011 千葉県千葉市緑区鎌取町３丁目",
+   "mapsUri": "https://maps.google.com/?cid=6699703097174783418&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yuibride.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "婚活サロン-結ブライド-4610"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント千葉店",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒260-0015 千葉県千葉市中央区富士見１丁目１−１ 千葉駅前ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=11920546412891383411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kanto/chiba.html?cid=se002&argument=wgvYBfWa&dmai=a677dcbd120ae5",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所パートナーエージェント千葉店-4ad9"
+  },
+  {
+   "name": "結婚相談所 KOKORO lovebridge | 船橋",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒274-0826 千葉県船橋市中野木２丁目１０−１",
+   "mapsUri": "https://maps.google.com/?cid=1817541660497184278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kokoro-lovebridge.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-KOKORO-lovebridge-船橋-e46e"
+  },
+  {
+   "name": "結婚相談所ハレマリー船橋サロン",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒273-0031 千葉県船橋市西船４丁目１９−２ 802号 船橋カウンセリングルーム内",
+   "mapsUri": "https://maps.google.com/?cid=12796399628347333874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hallemarry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所ハレマリー船橋サロン-7389"
+  },
+  {
+   "name": "結婚相談所GRACIA(ｸﾞﾗｼｱ)IBJ AWARD PREMIUM 2025",
+   "rating": 3.5,
+   "count": 2,
+   "address": "日本、〒260-0031 千葉県千葉市中央区新千葉１丁目７−２ ペリエ＋plusビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=14029131577016170322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://gracia2029.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "結婚相談所GRACIA-グラシア-IBJ-AWARD-PREMIUM-2025-3435"
+  },
+  {
+   "name": "縁結び 宿り木 千葉",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒290-0023 千葉県市原市惣社２丁目",
+   "mapsUri": "https://maps.google.com/?cid=3131851218046332239&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.enmusubi-yadorigi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "縁結び-宿り木-千葉-2bea"
+  },
+  {
+   "name": "Grab the DIAMOND",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒267-0067 千葉県千葉市緑区あすみが丘東１丁目13−１９",
+   "mapsUri": "https://maps.google.com/?cid=12014743378580440481&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://grab-the-diamond.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "Grab-the-DIAMOND-21d6"
+  },
+  {
+   "name": "CoCo Agent",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒277-0005 千葉県柏市柏１丁目２ 我孫子市中里",
+   "mapsUri": "https://maps.google.com/?cid=3711021523191520471&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://coco-agent.amebaownd.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "CoCo-Agent-fdb3"
+  },
+  {
+   "name": "Restart結(リスタート・ユイ)「東京・千葉の再婚専門の結婚相談所ならRestart 結｜バツイチ・子持ちの婚活をサポート 」男女対応",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒279-0002 千葉県浦安市北栄１丁目１−３ 柳内ビル 3階 レンタルオフィス 内",
+   "mapsUri": "https://maps.google.com/?cid=1498710121012766876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://restart-yui.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "Restart結-リスタート-ユイ-「東京-千葉の再婚専門の結婚相談所ならRestart-結-バツイチ-子持ちの婚活をサポート-」男女対応-895e"
+  },
+  {
+   "name": "千葉 結婚相談所 「ねむの木」",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒283-0005 千葉県東金市田間２０６４−３１",
+   "mapsUri": "https://maps.google.com/?cid=9803759133424434399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://konkatuchiba.blog.fc2.com/blog-entry-15.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "千葉-結婚相談所-「ねむの木」-7b93"
+  },
+  {
+   "name": "ふくざわ結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒273-0005 千葉県船橋市本町６丁目３−１０ レジデンス船橋 602",
+   "mapsUri": "https://maps.google.com/?cid=14173884641282580905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fukuzawa-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ふくざわ結婚相談所-40b9"
+  },
+  {
+   "name": "Nodokaブライダル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒273-0005 千葉県船橋市本町６丁目３−１７",
+   "mapsUri": "https://maps.google.com/?cid=16276009921991464373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nodoka-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "Nodokaブライダル-527f"
+  },
+  {
+   "name": "結婚相談所 Path to Happiness",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒273-0002 千葉県船橋市東船橋４丁目３１",
+   "mapsUri": "https://maps.google.com/?cid=3232572089123891432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/chiba/65123/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-Path-to-Happiness-282f"
+  },
+  {
+   "name": "縁-Get 船橋婚活相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒274-0814 千葉県船橋市新高根５丁目１９−１ JP 270-0814",
+   "mapsUri": "https://maps.google.com/?cid=14573967747472929554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enget-chiba.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "縁-Get-船橋婚活相談所-c6ac"
+  },
+  {
+   "name": "結婚相談所 婚活Lab CMD",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒273-0011 千葉県船橋市湊町２丁目１２−２４",
+   "mapsUri": "https://maps.google.com/?cid=8300293037080395559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-cmd.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-婚活Lab-CMD-a0b8"
+  },
+  {
+   "name": "結婚相談室おむすび",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒272-0802 千葉県市川市柏井町１丁目１９２６ グラン・コート船橋法典 701",
+   "mapsUri": "https://maps.google.com/?cid=5423795145384614863&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談室おむすび-a81c"
+  },
+  {
+   "name": "マリアージュ・ラシュレ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒277-0842 千葉県柏市末広町１５−１３ アメニティ末広 301",
+   "mapsUri": "https://maps.google.com/?cid=3953444758110483622&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mariage-rassurer.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "マリアージュ-ラシュレ-f5d7"
+  },
+  {
+   "name": "千葉結婚相談所萌(めばえ)",
+   "rating": 1,
+   "count": 1,
+   "address": "日本、〒260-0013 千葉県千葉市中央区中央２丁目２",
+   "mapsUri": "https://maps.google.com/?cid=6646711998704514188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mebae.org/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-city"
+   ],
+   "slug": "千葉結婚相談所萌-めばえ-b90b"
+  },
+  {
+   "name": "Keluarga クルアルガ千葉",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒275-0016 千葉県習志野市津田沼３丁目１３−２ 津田沼ハイム 406",
+   "mapsUri": "https://maps.google.com/?cid=15106917903478616023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://keluarga-chiba.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "Keluarga-クルアルガ千葉-5dc5"
+  },
+  {
+   "name": "Felice結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0864 千葉県船橋市北本町２丁目３９−１ S-FROT船橋塚田 311",
+   "mapsUri": "https://maps.google.com/?cid=2011814692085639972&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://felice-marriage-agency.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "Felice結婚相談所-ea8d"
+  },
+  {
+   "name": "ハピマリ船橋結婚相談所、しばたハピマリ農園直売所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒274-0062 千葉県船橋市坪井町７６０−２５",
+   "mapsUri": "https://maps.google.com/?cid=1303805152763039960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.hapimari-funa.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ハピマリ船橋結婚相談所-しばたハピマリ農園直売所-a236"
+  },
+  {
+   "name": "結婚相談所 インフィニティ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0021 千葉県船橋市海神４丁目４−１９",
+   "mapsUri": "https://maps.google.com/?cid=15784297594605526209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.infinity-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-インフィニティ-f295"
+  },
+  {
+   "name": "アモルエイム【婚活・結婚相談】",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0005 千葉県船橋市本町６丁目２−１０ 1203",
+   "mapsUri": "https://maps.google.com/?cid=3272997639473234533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "アモルエイム-婚活-結婚相談-e337"
+  },
+  {
+   "name": "結婚相談所 つなぎ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒274-0065 千葉県船橋市高根台７丁目３０−１１",
+   "mapsUri": "https://maps.google.com/?cid=13466600013146562802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所-つなぎ-45a5"
+  },
+  {
+   "name": "アモレット 婚活専門salon",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0011 千葉県船橋市湊町２丁目１２−２４ 6F",
+   "mapsUri": "https://maps.google.com/?cid=5525357040959708098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.amokon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "アモレット-婚活専門salon-94dc"
+  },
+  {
+   "name": "結婚相談室 千葉県 船橋市 ブライダル ティアラ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0003 千葉県船橋市宮本１丁目２１−１０ ベイステート安間ビル 202 ベイステートYASUMA",
+   "mapsUri": "https://maps.google.com/?cid=18059594121519363087&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談室-千葉県-船橋市-ブライダル-ティアラ-5e97"
+  },
+  {
+   "name": "ブライダルゆりの会",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒274-0825 千葉県船橋市前原西４丁目８−１８",
+   "mapsUri": "https://maps.google.com/?cid=13925847610759608837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://yurikai.jimdo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "ブライダルゆりの会-1888"
+  },
+  {
+   "name": "結婚相談室タマキ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒274-0824 千葉県船橋市前原東２丁目１１−２",
+   "mapsUri": "https://maps.google.com/?cid=10366541447896658872&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談室タマキ-fba0"
+  },
+  {
+   "name": "結婚相談所リオンズ【REONZ】婚活・恋愛・柏の葉キャンパス駅前",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒277-8520 千葉県柏市若柴１７８−４ パークシティ柏の葉キャンパス二番街ミッドタワーD棟 148街区 ２ショップ＆オフィス棟 ６階",
+   "mapsUri": "https://maps.google.com/?cid=13598086913057119258&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kekkonsoudanjoreonz.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所リオンズ-REONZ-婚活-恋愛-柏の葉キャンパス駅前-3180"
+  },
+  {
+   "name": "千葉結婚相談所・婚活サムシング・ブルー柏店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒277-0005 千葉県柏市柏１丁目１−１０",
+   "mapsUri": "https://maps.google.com/?cid=1090102578432745392&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://someblue.jp/?utm_source=google&utm_medium=maps&utm_campaign=gbp_kashiwa",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "千葉結婚相談所-婚活サムシング-ブルー柏店-cb60"
+  },
+  {
+   "name": "結婚相談所ユテイルプロ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒277-0005 千葉県柏市柏３丁目９−２０",
+   "mapsUri": "https://maps.google.com/?cid=5801072085944028375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.uteilpro.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所ユテイルプロ-afcf"
+  },
+  {
+   "name": "日本ブライダル情報センター 柏・相談室",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒277-0005 千葉県柏市柏３丁目６−２１ 柏ビル 101号室",
+   "mapsUri": "https://maps.google.com/?cid=968426407184751455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "日本ブライダル情報センター-柏-相談室-16a9"
+  },
+  {
+   "name": "パートナー探しの桜の友結婚相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒277-0855 千葉県柏市南柏１丁目１３−１５",
+   "mapsUri": "https://maps.google.com/?cid=15611499562601906774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "パートナー探しの桜の友結婚相談所-e24f"
+  },
+  {
+   "name": "結婚相談松戸良縁センター",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒270-2251 千葉県松戸市金ケ作３４９−４７",
+   "mapsUri": "https://maps.google.com/?cid=16170475997129717255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談松戸良縁センター-d2a2"
+  },
+  {
+   "name": "結婚相談所mariage reve",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒272-0805 千葉県市川市大野町３丁目１７５０−１",
+   "mapsUri": "https://maps.google.com/?cid=7235100852927780578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ichikawa-chiba.mypl.net/shop/00000373033/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所mariage-reve-de1e"
+  },
+  {
+   "name": "結婚相談所リオンズ【REONZ】",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒271-0092 千葉県松戸市松戸１３３３−１ 105",
+   "mapsUri": "https://maps.google.com/?cid=118549105531558990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkonsoudanjoreonz.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所リオンズ-REONZ-ea17"
+  },
+  {
+   "name": "結婚相談所リーウェイ マリッジコンシェルジュ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒271-0051 千葉県松戸市馬橋３２４０−２ はなみずき2 3階",
+   "mapsUri": "https://maps.google.com/?cid=4798181984062614249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "結婚相談所リーウェイ-マリッジコンシェルジュ-99e7"
+  },
+  {
+   "name": "松戸市の結婚相談所ハピキタ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒270-2218 千葉県松戸市五香西１丁目９−４",
+   "mapsUri": "https://maps.google.com/?cid=3476738651397930424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.hapikita.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "松戸市の結婚相談所ハピキタ-0084"
+  },
+  {
+   "name": "結婚相談所ハートボイス",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒272-0025 千葉県市川市大和田３丁目３−１７",
+   "mapsUri": "https://maps.google.com/?cid=14979798632370125340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.heartvoicekonkatu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "結婚相談所ハートボイス-a1e8"
+  },
+  {
+   "name": "エモい結婚相談所「EMO」 市川駅前店",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒272-0033 千葉県市川市市川南１丁目４−２１−２０１",
+   "mapsUri": "https://maps.google.com/?cid=10165949844357891374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.emo-kon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "エモい結婚相談所「EMO」-市川駅前店-07d8"
+  },
+  {
+   "name": "市川の婚活・結婚相談 はごろも",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒272-0031 千葉県市川市平田１丁目１５−３ ベルゾーネ平田",
+   "mapsUri": "https://maps.google.com/?cid=4000500586226397987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://hagoromo.biz/about",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "市川の婚活-結婚相談-はごろも-3362"
+  },
+  {
+   "name": "skycity婚活相談所",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒292-0057 千葉県木更津市東中央１丁目３−１ さくら都市ビル 壱号1F",
+   "mapsUri": "https://maps.google.com/?cid=2178404999627778717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sakuratoshi.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "chiba-other"
+   ],
+   "slug": "skycity婚活相談所-27d3"
+  },
+  {
+   "name": "婚ヴィヴィアル・ライフ",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒273-0021 千葉県船橋市海神６丁目２−７６",
+   "mapsUri": "https://maps.google.com/?cid=12295723941468147693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://con-vivial-life.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "funabashi-chiba"
+   ],
+   "slug": "婚ヴィヴィアル-ライフ-7335"
+  },
+  {
+   "name": "ハーティープラム",
+   "rating": null,
+   "count": null,
+   "address": "日本、〒270-2231 千葉県松戸市稔台７丁目３１−１",
+   "mapsUri": "https://maps.google.com/?cid=939602835324091902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://heartyplum.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kashiwa-chiba"
+   ],
+   "slug": "ハーティープラム-fdde"
+  }
+ ]
+}

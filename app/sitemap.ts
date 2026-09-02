@@ -22,12 +22,12 @@ const STATIC_ROUTES = [
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
-  "/area/sapporo", "/area/sendai", "/area/kyoto", "/area/kobe",
+  "/area/sapporo", "/area/sendai", "/area/kyoto", "/area/kobe", "/area/saitama", "/area/chiba",
 ];
 
 function agencySlugs(): string[] {
   const slugs: string[] = [];
-  for (const pref of ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo"]) {
+  for (const pref of ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba"]) {
     const p = path.join(process.cwd(), `data-agencies-${pref}.json`);
     if (!fs.existsSync(p)) continue;
     const d = JSON.parse(fs.readFileSync(p, "utf-8"));
