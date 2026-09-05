@@ -243,6 +243,16 @@ export default function OnetReview() {
           </ul>
         </section>
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
+          <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
+            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——成婚退会者からの「アドバイザーが親身だった」という感謝が最も多く、「落ち込んだ時に一緒に悩んでくれた」「相談したい時に時間を作ってくれた」など伴走面の評価が中心です。特徴的なのは、<span className="font-medium">オーネット独自システムに加えてIBJ加盟のネットワーク経由で他社会員と成婚した</span>という報告が複数ある点で、出会いの母集団が2系統ある構造が口コミからも確認できます。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>——「申し込みがマッチしない」「返信が返ってこない」という活動初期のつまずきや、「プロフィール更新が数ヶ月反映されなかった」という事務対応への強い不満も見られます。中間的な声として「紹介はあるが、自分で積極的に動かないと成果は出ない」という指摘が複数あり、受け身の活動では差が出やすいサービスと言えそうです。</p>
+            <p className="text-xs text-[#999]">※Googleマップの複数店舗(銀座・大阪梅田・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+          </div>
+        </section>
+
         {/* FAQ */}
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />

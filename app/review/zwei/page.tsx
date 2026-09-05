@@ -247,6 +247,16 @@ export default function ZweiReview() {
           </ul>
         </section>
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
+          <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
+            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>——最も多い不満は<span className="font-medium">「問い合わせへの返信が遅い」「こちらから相談しない限り放っておかれる」</span>というサポートの受け身さです。手厚く介入してほしい人には不向きで、自走型で「必要な時だけ相談したい」人に合う構造と読めます。成婚退会後のトラブル(婚約解消)に触れた声もあり、成婚=入籍ではない点は相談所全般の注意点です。</p>
+            <p className="text-xs text-[#999]">※Googleマップの複数店舗(東京銀座・大阪・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+          </div>
+        </section>
+
         {/* FAQ */}
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
