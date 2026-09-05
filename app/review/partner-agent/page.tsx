@@ -234,6 +234,16 @@ export default function PartnerAgentReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
+            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——成婚退会者から「担当コンシェルジュが親身」「プロフィール作成を一緒に磨いてくれた」という伴走面の感謝が最も多く、「半年以内に成婚できた」というスピード感の報告も複数あります。IBJ併用で出会いを広げた声や、「担当者同士が情報共有して相性の良い相手を引き合わせてくれた」という仲人型ならではの評価も特徴的です。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>——一方で「説明会で担当者の物言いが高圧的だった」「電話対応に不満」という接客面の強い低評価も複数あり、運営側が上席からの謝罪・是正で対応した経緯が口コミ上に残っています。担当者の当たり外れの振れ幅が大きいと読めるため、無料相談の段階で担当者との相性を見極めるのが重要です。</p>
+            <p className="text-xs text-[#999]">※Googleマップ(新宿・大阪・横浜)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">

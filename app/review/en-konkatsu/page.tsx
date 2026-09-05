@@ -221,6 +221,16 @@ export default function EnKonkatsuReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
+            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——「オンライン完結なので仕事と両立して自分のペースで活動できた」「初期費用が手頃」というオンライン型ならではの利便性と価格への評価が中心で、1年〜1年半かけて成婚に至った報告があります。落ち込んだ時に担当者が電話で親身に対応してくれたという声もあります。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>——口コミ件数自体が店舗型より少ない中で、「入会後の対応が遅い」「電話窓口の対応が悪い」「返金保証の期限直前の出来事に不信感を持った」という運営面の低評価の比率が高めです。オンライン型は対面の担当者がいない分、レスポンスの質がそのまま満足度に直結する構造なので、無料体験や初期のやり取りで対応スピードを見極めることをおすすめします。</p>
+            <p className="text-xs text-[#999]">※Googleマップ(オンライン型のため拠点口コミは少数)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">

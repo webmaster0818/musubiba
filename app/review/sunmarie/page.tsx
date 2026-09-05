@@ -227,6 +227,16 @@ export default function SunmarieReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
+        {/* 口コミの傾向(編集部要約) */}
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月6日取得)</h2>
+          <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
+            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——「入会4ヶ月で成婚退会」「心が折れかけた時に月1面談で前向きにしてくれた」など、カウンセラーの手厚い伴走への感謝が中心です。「婚活経験ゼロでも一から丁寧に教えてくれた」という初心者への寄り添いや、20代前半からの長期活動を支えた例など、サポート密度を評価する声が目立ちます。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>——「月会費を1年半払い続けたが成果がなかった」「カウンセラーの提案が自分に合わなかった」という費用対効果への強い不満も見られます。手厚い仲人型はサポート費用が相応にかかるため、活動が長期化した場合の総費用を入会前に試算しておくのが安全です。</p>
+            <p className="text-xs text-[#999]">※Googleマップ(新宿・大阪・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
