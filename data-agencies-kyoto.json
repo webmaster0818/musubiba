@@ -1,0 +1,812 @@
+{
+ "surveyedAt": "2026-09-06",
+ "prefName": "京都",
+ "agencies": [
+  {
+   "name": "結婚相談所サンマリエ京都サロン",
+   "rating": 4.8,
+   "count": 124,
+   "address": "日本、〒600-8216 京都府京都市下京区東塩小路町７３５−１ 京阪京都ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=2966479898674292619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/kinki/kyoto/?utm_source=kyoto&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所サンマリエ京都サロン-64d3"
+  },
+  {
+   "name": "結婚相談所オーネット 京都店",
+   "rating": 4.6,
+   "count": 114,
+   "address": "日本、〒600-8216 京都府京都市下京区塩小路通西洞院東入東塩小路町８４３−２ 日本生命京都ヤサカビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=14680470690129451731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/kansai/kyoto/kyoto/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=kyoto",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所オーネット-京都店-ffea"
+  },
+  {
+   "name": "サニーソウマリッジ",
+   "rating": 4.9,
+   "count": 64,
+   "address": "日本、〒604-8221 京都府京都市中京区天神山町280番地",
+   "mapsUri": "https://maps.google.com/?cid=15772232345428984690&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ssm.support/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "サニーソウマリッジ-8c28"
+  },
+  {
+   "name": "結婚相談所JEWEL 京都店",
+   "rating": 4.9,
+   "count": 52,
+   "address": "日本、〒600-8449 京都府京都市下京区富永町１０７ GROVING BASE37号",
+   "mapsUri": "https://maps.google.com/?cid=739766992821527504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.qm-jewel.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所JEWEL-京都店-b256"
+  },
+  {
+   "name": "ツヴァイ 京都店",
+   "rating": 4.7,
+   "count": 47,
+   "address": "日本、〒600-8008 京都府京都市下京区長刀鉾町８ 京都三井ビルディング 3階",
+   "mapsUri": "https://maps.google.com/?cid=5084584288821496345&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/kinki/kyoto/kyoto/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "ツヴァイ-京都店-7d38"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント京都店",
+   "rating": 4.4,
+   "count": 43,
+   "address": "日本、〒600-8421 京都府京都市下京区綾小路通烏丸西入童侍者町１５９−１ 四条烏丸センタービル 8階",
+   "mapsUri": "https://maps.google.com/?cid=14687208835007407940&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/kansai/kyoto.html?cid=se002&argument=wgvYBfWa&dmai=9730",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所パートナーエージェント京都店-aafc"
+  },
+  {
+   "name": "京都結婚相談所 縁叶",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒612-8431 京都府京都市伏見区深草越後屋敷町６５−１１",
+   "mapsUri": "https://maps.google.com/?cid=6075183695028644640&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://yukarika.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "京都結婚相談所-縁叶-84d8"
+  },
+  {
+   "name": "京都婚活サロンNepisu",
+   "rating": 4.8,
+   "count": 38,
+   "address": "日本、〒604-8054 京都府京都市中京区富小路通錦小路下る西大文字町５９９ 京都錦ＨＫビル 210号室",
+   "mapsUri": "https://maps.google.com/?cid=16699365087978185421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kyoto-konkatsu.nepisu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都婚活サロンNepisu-f703"
+  },
+  {
+   "name": "結婚相談所フィオーレ 京都四条烏丸店",
+   "rating": 4.2,
+   "count": 38,
+   "address": "日本、〒600-8006 京都府京都市下京区四条通柳馬場西入ル立売中之町１０６ ７Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=12162572829685683249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/kyoto/kyoto/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所フィオーレ-京都四条烏丸店-9d8e"
+  },
+  {
+   "name": "京都結婚相談所Laugh",
+   "rating": 5,
+   "count": 36,
+   "address": "日本、〒600-8099 京都府京都市下京区仏光寺通烏丸東入上柳町３３１ タカノハスクエア 4F",
+   "mapsUri": "https://maps.google.com/?cid=13669434090135394598&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-laugh.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都結婚相談所Laugh-bc5d"
+  },
+  {
+   "name": "京都縁結び倶楽部",
+   "rating": 4.8,
+   "count": 30,
+   "address": "日本、〒600-8177 京都府京都市下京区烏丸五条下ル下平野町2F",
+   "mapsUri": "https://maps.google.com/?cid=14595441201696874641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kyoto-enmusubi-club.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都縁結び倶楽部-073a"
+  },
+  {
+   "name": "飲食店のサブスク婚活 あんきょうと",
+   "rating": 4.3,
+   "count": 22,
+   "address": "日本、〒600-8051 京都府京都市下京区富小路四条下ル徳正寺町４２ 笑い屋 二階",
+   "mapsUri": "https://maps.google.com/?cid=12361985160579594092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ankyoto.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "飲食店のサブスク婚活-あんきょうと-64b6"
+  },
+  {
+   "name": "ジュンブライダル",
+   "rating": 4.7,
+   "count": 22,
+   "address": "日本、〒611-0025 京都府宇治市神明石塚１ 番地ウィング 3階 ウィングビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=15779471258438534251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.junbridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "ジュンブライダル-d04b"
+  },
+  {
+   "name": "結婚相談所 縁香 -enca-",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒600-8491 京都府京都市下京区鶏鉾町４９３ ムーンバットビル 701",
+   "mapsUri": "https://maps.google.com/?cid=15472141355829926374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enca.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所-縁香-enca-f846"
+  },
+  {
+   "name": "Arrows Bridal",
+   "rating": 5,
+   "count": 15,
+   "address": "日本、〒604-8494 京都府京都市中京区西ノ京上平町９番１",
+   "mapsUri": "https://maps.google.com/?cid=10696375510108300261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://arrows-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "Arrows-Bridal-fdce"
+  },
+  {
+   "name": "結婚相談所 Marriage・Recipe 京田辺サロン",
+   "rating": 4.9,
+   "count": 15,
+   "address": "日本、〒610-0313 京都府京田辺市三山木中央２丁目２−４",
+   "mapsUri": "https://maps.google.com/?cid=9000514843392946227&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-recipe.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "結婚相談所-Marriage-Recipe-京田辺サロン-b689"
+  },
+  {
+   "name": "婚活サロンhana京都宇治",
+   "rating": 4.7,
+   "count": 14,
+   "address": "日本、〒611-0021 京都府宇治市宇治宇文字",
+   "mapsUri": "https://maps.google.com/?cid=3098047284064005128&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hana-uji.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "婚活サロンhana京都宇治-64eb"
+  },
+  {
+   "name": "きょうと婚活応援センター",
+   "rating": 2.4,
+   "count": 13,
+   "address": "日本、〒604-8161 京都府京都市中京区饅頭屋町５９５−３ 大同生命京都ビル",
+   "mapsUri": "https://maps.google.com/?cid=2853825368934598138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://pref-kyoto-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "きょうと婚活応援センター-d7d8"
+  },
+  {
+   "name": "結婚相談所 紅 絲 線 (こうしせん)",
+   "rating": 4.7,
+   "count": 12,
+   "address": "日本、〒604-8187 京都府京都市中京区御池通東洞院東入笹屋町４３６",
+   "mapsUri": "https://maps.google.com/?cid=8304872839582203467&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kousisen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所-紅-絲-線-こうしせん-4ef4"
+  },
+  {
+   "name": "結婚相談所ことこと",
+   "rating": 5,
+   "count": 11,
+   "address": "日本、〒600-8223 京都府京都市下京区七条通油小路東入大黒町２２７ 第２キョートビル 402",
+   "mapsUri": "https://maps.google.com/?cid=4101821950476126841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kotokoto-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所ことこと-3d4e"
+  },
+  {
+   "name": "結婚相談所エノグ",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒600-8208 京都府京都市下京区小稲荷町85 2Grand-K京都駅前ビル201",
+   "mapsUri": "https://maps.google.com/?cid=3394718585846575502&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://e-nogu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所エノグ-3a18"
+  },
+  {
+   "name": "結婚相談所 Ponoマリアージュ（出張型サービス）",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒615-8107 京都府京都市西京区川島北裏町９７−２",
+   "mapsUri": "https://maps.google.com/?cid=16355403974235611895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pono-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所-Ponoマリアージュ-出張型サービス-5282"
+  },
+  {
+   "name": "婚活さくらんぼ",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒612-8405 京都府京都市伏見区深草勧進橋町119 203",
+   "mapsUri": "https://maps.google.com/?cid=14233602886500402976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-sakuranbo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "婚活さくらんぼ-caae"
+  },
+  {
+   "name": "良縁を結ぶ かささぎの橋",
+   "rating": 4.8,
+   "count": 8,
+   "address": "日本、〒610-0343 京都府京田辺市大住",
+   "mapsUri": "https://maps.google.com/?cid=11155088568335364470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kasasaginohashi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "良縁を結ぶ-かささぎの橋-9559"
+  },
+  {
+   "name": "NAVI.ロマン企画",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒604-0014 京都府京都市中京区大黒町３７ 文明堂ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=800599501467045352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://romankikaku-navi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "NAVI-ロマン企画-9c3c"
+  },
+  {
+   "name": "mirinoBRIDAL 京都の結婚相談所",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒604-8063 京都府京都市中京区油屋町",
+   "mapsUri": "https://maps.google.com/?cid=9972027788558290111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mirino-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "mirinoBRIDAL-京都の結婚相談所-7f99"
+  },
+  {
+   "name": "結婚相談所れお",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒615-0916 京都府京都市右京区梅津中村町11‐4",
+   "mapsUri": "https://maps.google.com/?cid=13342327985684863824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.threads.com/@_takahiro_810",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所れお-26fd"
+  },
+  {
+   "name": "京都の結婚相談所ブライダルサロンHISAYO",
+   "rating": 4.1,
+   "count": 7,
+   "address": "日本、〒600-8051 京都府京都市下京区下京区富小路四条下ル徳正寺町４２ 笑い屋 三階",
+   "mapsUri": "https://maps.google.com/?cid=17129972006353559090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.salon-hisayo.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都の結婚相談所ブライダルサロンHISAYO-04e1"
+  },
+  {
+   "name": "結婚相談所フィオーレ JR京都駅前店",
+   "rating": 2.7,
+   "count": 7,
+   "address": "日本、〒600-8216 京都府京都市下京区新町通七条下ル東塩小路町５９３ トラスコクリスタルビル ２Ｆ",
+   "mapsUri": "https://maps.google.com/?cid=5649860162484661936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/kyoto/kyotosta/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所フィオーレ-JR京都駅前店-8554"
+  },
+  {
+   "name": "結婚相談・婚活サポート 結愛花〜yumeka〜",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒619-0214 京都府木津川市木津南後背",
+   "mapsUri": "https://maps.google.com/?cid=16614538965515846343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konkatuyumeka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "結婚相談-婚活サポート-結愛花-yumeka-7d88"
+  },
+  {
+   "name": "結婚相談所 京都BRネットワーク",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒606-8384 京都府京都市左京区新生洲町104番地 リヴァク鴨川 II 3F",
+   "mapsUri": "https://maps.google.com/?cid=15457779806109020410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kyoto-brnet.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所-京都BRネットワーク-9cf4"
+  },
+  {
+   "name": "結婚相談所 WeBCon京都店",
+   "rating": 4.6,
+   "count": 5,
+   "address": "日本、〒600-8106 京都府京都市下京区五条通烏丸西入醍醐町２９０ 烏丸五条ビル 5F",
+   "mapsUri": "https://maps.google.com/?cid=622087863864435681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/kyoto/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所-WeBCon京都店-18ef"
+  },
+  {
+   "name": "オフィスen",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒606-0862 京都府京都市左京区下鴨本町１１−１ エレファントビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=353166686731981811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.kekkon-en.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "オフィスen-dc51"
+  },
+  {
+   "name": "結婚相談所 つぐみmarriage",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒600-8212 京都府京都市下京区塩小路町５２２",
+   "mapsUri": "https://maps.google.com/?cid=2993166108128106055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://tsugumi-marriage-kyoto.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所-つぐみmarriage-c139"
+  },
+  {
+   "name": "結婚相談所 Enison",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒601-1363 京都府京都市中京区御池通東洞院東入笹屋町４３６ 永和御池ビル 606号",
+   "mapsUri": "https://maps.google.com/?cid=15989707619673264439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enison.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所-Enison-bc19"
+  },
+  {
+   "name": "プレシャスマリー京都烏丸",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒604-8136 京都府京都市中京区三条通り烏丸東入ル梅忠町２４ 三条COHJUビル４階・未来ビューロー（株）内",
+   "mapsUri": "https://maps.google.com/?cid=6782936735531985308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://preciousmarry.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "プレシャスマリー京都烏丸-651d"
+  },
+  {
+   "name": "日本LGBTサポート協会・LGBT専門の仲人型ご縁結び",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒600-8051 京都府京都市下京区徳正寺町４２",
+   "mapsUri": "https://maps.google.com/?cid=14087489744620626895&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lgbt-japan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "日本LGBTサポート協会-LGBT専門の仲人型ご縁結び-67a2"
+  },
+  {
+   "name": "結婚相談所マリッジベル",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒612-0854 京都府京都市伏見区桃山町島津５８−１６",
+   "mapsUri": "https://maps.google.com/?cid=12865734075833911375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriagebell2025.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所マリッジベル-0eaa"
+  },
+  {
+   "name": "ULP結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒604-8221 京都府京都市中京区錦小路通室町西入天神山町280番地",
+   "mapsUri": "https://maps.google.com/?cid=15526044926363713472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ulp-kyoto.jp/?utm_source=kyoto&utm_medium=ulp280533&utm_campaign=googlemb&utm_id=web",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "ULP結婚相談所-bec9"
+  },
+  {
+   "name": "京都婚シェルジュ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒600-8223 京都府京都市下京区七条通油小路東入大黒町２２７ 第２キョートビル 402",
+   "mapsUri": "https://maps.google.com/?cid=12073493181466963194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon-kyoto.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都婚シェルジュ-1ebb"
+  },
+  {
+   "name": "La felice京都(京都伏見区の結婚相談所)",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒612-8025 京都府京都市伏見区桃山与五郎町１−１７８",
+   "mapsUri": "https://maps.google.com/?cid=16631258148687546711&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://la-felice-kyoto.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "La-felice京都-京都伏見区の結婚相談所-ad8f"
+  },
+  {
+   "name": "アムズブライダル",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒602-8319 京都府京都市上京区溝前町９６６−２２",
+   "mapsUri": "https://maps.google.com/?cid=4411059404402499223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.ams-kyoto.jp/ibj.htm",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "アムズブライダル-71a1"
+  },
+  {
+   "name": "京都伏見 結婚相談所Marry",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒612-0889 京都府京都市伏見区深草直違橋２丁目１１６６",
+   "mapsUri": "https://maps.google.com/?cid=8716818337027990488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "京都伏見-結婚相談所Marry-584e"
+  },
+  {
+   "name": "フーフークラブ",
+   "rating": 3.5,
+   "count": 2,
+   "address": "日本、〒604-8154 京都府京都市下京区函谷鉾町７９ ヤサカ四条烏丸ビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=12487558897258790157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fufu-club.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "フーフークラブ-a3b4"
+  },
+  {
+   "name": "婚活サポート 入縁",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒618-0071 京都府乙訓郡大山崎町大山崎尻江",
+   "mapsUri": "https://maps.google.com/?cid=16167464084577515323&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.irien.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "婚活サポート-入縁-ecef"
+  },
+  {
+   "name": "結婚相談所WO（ダブリュオー）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒602-8312 京都府京都市上京区末広町７",
+   "mapsUri": "https://maps.google.com/?cid=16905609112981924702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.wosoudan.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所WO-ダブリュオー-b75a"
+  },
+  {
+   "name": "京都婚活｜京都結婚相談所｜ブライダルサポートネットワーク",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒617-0002 京都府向日市寺戸町西野２３−１５",
+   "mapsUri": "https://maps.google.com/?cid=10628292893605323603&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bridal-net-work.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "京都婚活-京都結婚相談所-ブライダルサポートネットワーク-c807"
+  },
+  {
+   "name": "結婚相談所婚活ウェディング",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒612-8248 京都府京都市伏見区下鳥羽上三栖町１２１−１０１",
+   "mapsUri": "https://maps.google.com/?cid=11356208536710475834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所婚活ウェディング-2e94"
+  },
+  {
+   "name": "未来創造型結婚相談所 Happy tears",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒600-8411 京都府京都市下京区四条烏丸COCON烏丸 ４F シティラボ内",
+   "mapsUri": "https://maps.google.com/?cid=2516492318444559232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://happytears.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "未来創造型結婚相談所-Happy-tears-216d"
+  },
+  {
+   "name": "アトリエ古都婚",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒600-8491 京都府京都市下京区鶏鉾町４９３ ムーンバットビル 7F",
+   "mapsUri": "https://maps.google.com/?cid=6385394924475695935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kyoto-kotocon.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "アトリエ古都婚-dca0"
+  },
+  {
+   "name": "ブライダルドア",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒611-0021 京都府宇治市宇治弐番１ 一の坂ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=15365785622322006578&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridal-door.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "ブライダルドア-c1ad"
+  },
+  {
+   "name": "結婚相談所 Japan Internathional Marrige（ジャパンインターナショナルマリッジ）",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒613-0906 京都府京都市伏見区淀新町５８９−２７",
+   "mapsUri": "https://maps.google.com/?cid=7958800169039215454&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rifomicjapan.com/jim/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-city-other"
+   ],
+   "slug": "結婚相談所-Japan-Internathional-Marrige-ジャパンイ-d979"
+  },
+  {
+   "name": "京都の結婚相談所 アスマリ京都店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒604-8221 京都府京都市中京区錦小路通室町西入天神山町２８０ 4F・5F",
+   "mapsUri": "https://maps.google.com/?cid=15360976230292887570&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://asmari.jp/shops/kansai-region/kyoto/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "京都の結婚相談所-アスマリ京都店-813e"
+  },
+  {
+   "name": "さくら咲ク結婚相談所京都サロン【IBJアワード10期連続受賞中】",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒600-8427 京都府京都市下京区玉津島町２９４ コモンルーム四条烏丸",
+   "mapsUri": "https://maps.google.com/?cid=506248264412556171&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sakurasaku-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "さくら咲ク結婚相談所京都サロン-IBJアワード10期連続受賞中-91dd"
+  },
+  {
+   "name": "結婚相談所エンマリ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒604-8241 京都府京都市中京区三条通西洞院東入釜座町４−１ 釡座町4-1 三条スクエアビル4階",
+   "mapsUri": "https://maps.google.com/?cid=5571184784782947566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmarri.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "結婚相談所エンマリ-5142"
+  },
+  {
+   "name": "Carillon Bell 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒205 京都府京都市下京区烏丸通仏光寺下る大政所町680ー1 第八長谷ビル 2階 JP 600-8413",
+   "mapsUri": "https://maps.google.com/?cid=1347361315705117354&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.carillonbell.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-chuo"
+   ],
+   "slug": "Carillon-Bell-結婚相談所-4b1a"
+  },
+  {
+   "name": "京都宇治結婚相談所フォーエバー",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒611-0041 京都府宇治市槇島町一ノ坪３１８−４９",
+   "mapsUri": "https://maps.google.com/?cid=2744956786305953554&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://forever.web-smart.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "京都宇治結婚相談所フォーエバー-4463"
+  },
+  {
+   "name": "結婚相談所待ち人来る",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒611-0041 京都府宇治市槇島町月夜６−１ 朝日プラザ宇治124",
+   "mapsUri": "https://maps.google.com/?cid=2072717746197193731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://matibito2023.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "結婚相談所待ち人来る-5f30"
+  },
+  {
+   "name": "Encounters 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒611-0033 京都府宇治市大久保町平盛１０４−２−３１０",
+   "mapsUri": "https://maps.google.com/?cid=3518429884282611652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "Encounters-結婚相談所-6980"
+  },
+  {
+   "name": "結婚相談所 Marriage・Recipe 城陽サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒610-0116 京都府城陽市奈島長尾８−１",
+   "mapsUri": "https://maps.google.com/?cid=369620843157732329&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriage-recipe.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "結婚相談所-Marriage-Recipe-城陽サロン-db6a"
+  },
+  {
+   "name": "婚活サロンhana京都宇治・京田辺サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒610-0361 京都府京田辺市河原平田",
+   "mapsUri": "https://maps.google.com/?cid=14401370393389590373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hana-uji.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "婚活サロンhana京都宇治-京田辺サロン-5f06"
+  },
+  {
+   "name": "まりい結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒611-0021 京都府宇治市宇治蓮華",
+   "mapsUri": "https://maps.google.com/?cid=2820911600493494016&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "kyoto-other"
+   ],
+   "slug": "まりい結婚相談所-b90c"
+  }
+ ]
+}

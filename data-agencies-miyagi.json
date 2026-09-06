@@ -1,0 +1,604 @@
+{
+ "surveyedAt": "2026-09-06",
+ "prefName": "宮城",
+ "agencies": [
+  {
+   "name": "リリィマリアージュ",
+   "rating": 5,
+   "count": 104,
+   "address": "日本、〒980-0012 宮城県仙台市青葉区錦町１丁目１０−３",
+   "mapsUri": "https://maps.google.com/?cid=8820759548554147189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lilymariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "リリィマリアージュ-7aba"
+  },
+  {
+   "name": "仙台結婚相談所マリッジサンライズ",
+   "rating": 4.8,
+   "count": 82,
+   "address": "日本、〒981-1105 宮城県仙台市太白区西中田７丁目１２−３８ 薪ストーブ店カントリーログ内",
+   "mapsUri": "https://maps.google.com/?cid=11245286153599882196&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-sunrise.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "仙台結婚相談所マリッジサンライズ-ddff"
+  },
+  {
+   "name": "メリージュ結婚相談所",
+   "rating": 4.9,
+   "count": 74,
+   "address": "日本、〒981-3133 宮城県仙台市泉区泉中央３丁目３６ 6SHDビル",
+   "mapsUri": "https://maps.google.com/?cid=5871284395883518605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.merieges.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "メリージュ結婚相談所-8a51"
+  },
+  {
+   "name": "結婚相談所オーネット 仙台店",
+   "rating": 4.1,
+   "count": 71,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目９−２７ プライムスクエア広瀬通 ホーム 14",
+   "mapsUri": "https://maps.google.com/?cid=17794912113603075618&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/tohoku/miyagi/sendai/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=sendai",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所オーネット-仙台店-f59f"
+  },
+  {
+   "name": "結婚相談所サンマリエ仙台サロン",
+   "rating": 4.6,
+   "count": 58,
+   "address": "日本、〒980-0013 宮城県仙台市青葉区花京院１丁目１−６ 7階",
+   "mapsUri": "https://maps.google.com/?cid=10451756142121573755&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/hokkaido-tohoku/sendai/?utm_source=sendai&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所サンマリエ仙台サロン-5225"
+  },
+  {
+   "name": "ツヴァイ 仙台店",
+   "rating": 4.6,
+   "count": 49,
+   "address": "日本、〒980-0811 宮城県仙台市青葉区一番町３丁目６−１ 一番町平和ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=13109188116459993351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/hokkaido/miyagi/sendai/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "ツヴァイ-仙台店-5720"
+  },
+  {
+   "name": "仙台 結婚相談所 30年以上 鈴木恵美相談室",
+   "rating": 5,
+   "count": 40,
+   "address": "日本、〒980-0824 宮城県仙台市青葉区支倉町１−２３ 東急ドエルアルス支倉 1F",
+   "mapsUri": "https://maps.google.com/?cid=10014415209234276055&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://suzukiemi.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "仙台-結婚相談所-30年以上-鈴木恵美相談室-91f5"
+  },
+  {
+   "name": "結婚相談所 The marriage(ザ.マリッジ)",
+   "rating": 4.8,
+   "count": 32,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目５−２８ カーニープレイス仙台駅前通 603号室",
+   "mapsUri": "https://maps.google.com/?cid=5519227670678658869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.the-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所-The-marriage-ザ-マリッジ-6c6d"
+  },
+  {
+   "name": "結婚相談所ムスベル 仙台店",
+   "rating": 4.6,
+   "count": 32,
+   "address": "日本、〒981-0924 宮城県仙台市青葉区双葉ケ丘１丁目２２−５ ガーデンシティ 6F",
+   "mapsUri": "https://maps.google.com/?cid=2923227001115583394&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=sendai&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所ムスベル-仙台店-359d"
+  },
+  {
+   "name": "Story Heart",
+   "rating": 5,
+   "count": 30,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目６−２５ 1203",
+   "mapsUri": "https://maps.google.com/?cid=16821674472655350904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.storyheart.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "Story-Heart-8b7d"
+  },
+  {
+   "name": "㈱スマイルモーメント 仙台支店",
+   "rating": 4.9,
+   "count": 28,
+   "address": "日本、〒980-0811 宮城県仙台市青葉区一番町１丁目１６−２３ 一番町スクエア6階",
+   "mapsUri": "https://maps.google.com/?cid=15077527393459279364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://s-moment.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "スマイルモーメント-仙台支店-290b"
+  },
+  {
+   "name": "結婚相談所 縁むすび えん",
+   "rating": 4.8,
+   "count": 23,
+   "address": "日本、〒981-3341 宮城県富谷市成田６丁目9−１１",
+   "mapsUri": "https://maps.google.com/?cid=15078310103458733977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmusubi-en.happytry.online/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "結婚相談所-縁むすび-えん-95ab"
+  },
+  {
+   "name": "グッデイ結婚相談所",
+   "rating": 5,
+   "count": 22,
+   "address": "日本、〒980-0013 宮城県仙台市青葉区花京院１丁目２−１５ 3F",
+   "mapsUri": "https://maps.google.com/?cid=13072496973749104497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://goodday-tohoku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "グッデイ結婚相談所-d8c5"
+  },
+  {
+   "name": "結婚相談所マリッジ",
+   "rating": 4.4,
+   "count": 22,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央１丁目３−１ アエル 17階",
+   "mapsUri": "https://maps.google.com/?cid=8244141962754756178&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mpartners.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所マリッジ-21e1"
+  },
+  {
+   "name": "LINO(リノ)",
+   "rating": 5,
+   "count": 19,
+   "address": "3階, ２丁目-８-11 中央 青葉区 仙台市 宮城県 980-0021 日本",
+   "mapsUri": "https://maps.google.com/?cid=8165880574249766693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lino-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "LINO-リノ-847a"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント仙台店",
+   "rating": 4.7,
+   "count": 18,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目１−１ 大樹生命 仙台本町ビル １４階",
+   "mapsUri": "https://maps.google.com/?cid=18091996260243479629&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/tohoku/sendai.html?cid=se002&argument=wgvYBfWa&dmai=9739",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所パートナーエージェント仙台店-0c11"
+  },
+  {
+   "name": "マリッジバウ",
+   "rating": 4.9,
+   "count": 18,
+   "address": "日本、〒981-3524 宮城県黒川郡大郷町中村北浦 宮城郡利府町",
+   "mapsUri": "https://maps.google.com/?cid=14020028729909439650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.marriage-vow.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "マリッジバウ-e97b"
+  },
+  {
+   "name": "マリッジメディア",
+   "rating": 4.7,
+   "count": 15,
+   "address": "日本、〒980-0011 宮城県仙台市青葉区青葉区上杉１丁目６ 上杉1丁目6番10号仙台北辰ビル1階",
+   "mapsUri": "https://maps.google.com/?cid=10158985351902486383&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://media-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "マリッジメディア-1c1f"
+  },
+  {
+   "name": "オバマの婚活",
+   "rating": 4.9,
+   "count": 14,
+   "address": "日本、〒980-0821 宮城県仙台市青葉区春日町９−１５ THE6 3F",
+   "mapsUri": "https://maps.google.com/?cid=14216630158833451181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.obama-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "オバマの婚活-4986"
+  },
+  {
+   "name": "結婚相談所 仙台縁結びサポート",
+   "rating": 5,
+   "count": 13,
+   "address": "日本、〒981-3112 宮城県仙台市泉区八乙女１丁目３−１１ ｃｕｔ１０００／ｃｏｌｏｒ２０００",
+   "mapsUri": "https://maps.google.com/?cid=11800631474358132116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kekkon.blog/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "結婚相談所-仙台縁結びサポート-2f66"
+  },
+  {
+   "name": "結婚相談所WeBCon仙台店",
+   "rating": 4,
+   "count": 13,
+   "address": "日本、〒981-3133 宮城県仙台市泉区泉中央１丁目１４−１ インテレクト２１ 3階",
+   "mapsUri": "https://maps.google.com/?cid=14644397849140737068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/sendai/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "結婚相談所WeBCon仙台店-9294"
+  },
+  {
+   "name": "婚活サロン結Ring",
+   "rating": 4.7,
+   "count": 11,
+   "address": "日本、〒982-0034 宮城県仙台市太白区西多賀１丁目９−２０",
+   "mapsUri": "https://maps.google.com/?cid=8911523714018926138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.yuiring-sendai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "婚活サロン結Ring-068c"
+  },
+  {
+   "name": "宮城県仲人協会",
+   "rating": 2,
+   "count": 9,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目２−１０ 4F",
+   "mapsUri": "https://maps.google.com/?cid=10870640292468590256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miyagi-nakodo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "宮城県仲人協会-31df"
+  },
+  {
+   "name": "みやぎ結婚支援センター",
+   "rating": 1.5,
+   "count": 8,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目１１−11番19 仙南ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=14219185044714419823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://miya-mari.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "みやぎ結婚支援センター-244a"
+  },
+  {
+   "name": "結婚相談所フィオーレ 仙台店",
+   "rating": 4.3,
+   "count": 3,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目２−１０ 4F",
+   "mapsUri": "https://maps.google.com/?cid=1947572895087469020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.total-marriage.com/salon/miyagi/sendai/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所フィオーレ-仙台店-bbb2"
+  },
+  {
+   "name": "イングレイス",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒989-3122 宮城県仙台市青葉区栗生３丁目10−１７−１０１",
+   "mapsUri": "https://maps.google.com/?cid=3778024592975536091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.nakoudonet.com/nakoudo/miyagi/sendai/110165/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "イングレイス-37f9"
+  },
+  {
+   "name": "merry nadge メリナッジ結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒989-5502 宮城県栗原市若柳川南南町１０２",
+   "mapsUri": "https://maps.google.com/?cid=14803046698494330237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://merry-nadge.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "merry-nadge-メリナッジ結婚相談所-9a55"
+  },
+  {
+   "name": "Mariage・Salon 縁",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒981-3341 宮城県富谷市成田７丁目15−４７",
+   "mapsUri": "https://maps.google.com/?cid=2343024244902795853&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariage-enm.com/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "Mariage-Salon-縁-e890"
+  },
+  {
+   "name": "みやびMarriage Agent",
+   "rating": 4.7,
+   "count": 3,
+   "address": "日本、〒986-0822 宮城県石巻市中央２丁目１０−２ IRORI内ミーティングスペース ※仙台面談ルームについて開設準備中となっており、当面仙台市内においては面談場所を都度調整させて頂きます",
+   "mapsUri": "https://maps.google.com/?cid=17303883043092315960&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.miyabi-ma.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "みやびMarriage-Agent-8de7"
+  },
+  {
+   "name": "結婚相談所 セシボン マリアージュ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒980-0011 宮城県仙台市青葉区上杉３丁目９",
+   "mapsUri": "https://maps.google.com/?cid=12094526556517867823&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://cestsibon-mariage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所-セシボン-マリアージュ-9e24"
+  },
+  {
+   "name": "結婚相談所ヨル",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒982-0011 宮城県仙台市太白区長町２丁目９−４３ 5",
+   "mapsUri": "https://maps.google.com/?cid=10683503743582680594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "結婚相談所ヨル-470c"
+  },
+  {
+   "name": "結婚相談所 ハイグレードクラブ 仙台",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒983-0852 宮城県仙台市宮城野区榴岡４丁目６−２３ 今野ビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=15124295048247817851&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://high.ec-access.com/miyagi/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "結婚相談所-ハイグレードクラブ-仙台-6ca1"
+  },
+  {
+   "name": "マリアージュ lily of the valley",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目１３−２３ ハナサク本店ビル 内",
+   "mapsUri": "https://maps.google.com/?cid=7973765131462881941&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.from-atoz.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "マリアージュ-lily-of-the-valley-7d18"
+  },
+  {
+   "name": "婚勝salon IROHA",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒981-0911 宮城県仙台市青葉区台原２丁目１−１２",
+   "mapsUri": "https://maps.google.com/?cid=11631199552904970468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.iroha-deai.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "婚勝salon-IROHA-e2fd"
+  },
+  {
+   "name": "暮らし舎つきひ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目５−２８ カーニープレイス仙台駅前通 603号室",
+   "mapsUri": "https://maps.google.com/?cid=2553002764823537702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kurashisha-tsukihi.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "暮らし舎つきひ-ea13"
+  },
+  {
+   "name": "アルファライフ仙台",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒980-0014 宮城県仙台市青葉区本町１丁目13−２４ 錦ビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=4890463031287386519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.alphalife-marriage.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "アルファライフ仙台-0ddc"
+  },
+  {
+   "name": "ChouchouLaviemarriage宮城・仙南の自己分析型結婚相談所・婚活相談",
+   "rating": 4,
+   "count": 1,
+   "address": "日本、〒989-1305 宮城県柴田郡村田町村田西24−付近",
+   "mapsUri": "https://maps.google.com/?cid=2174714614931663759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.chouchoulaviemarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "ChouchouLaviemarriage宮城-仙南の自己分析型結婚相談所-婚活-2ce3"
+  },
+  {
+   "name": "結婚相談所SIG",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目１１−１９",
+   "mapsUri": "https://maps.google.com/?cid=16065726980037878810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://sig-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所SIG-4675"
+  },
+  {
+   "name": "仙台結婚センター",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目７−３０ 604",
+   "mapsUri": "https://maps.google.com/?cid=7764743573926622513&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.skc604.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "仙台結婚センター-cc3c"
+  },
+  {
+   "name": "結婚相談所TMSパートナー仙台店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒980-0021 宮城県仙台市青葉区中央２丁目２−１０ 4F",
+   "mapsUri": "https://maps.google.com/?cid=3794717536354211033&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.tms-p.co.jp/salonpref/miyagi/?utm_source=google&utm_medium=maps",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "結婚相談所TMSパートナー仙台店-b36e"
+  },
+  {
+   "name": "愛の架け橋 結婚相談所 仙台サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒981-0922 宮城県仙台市青葉区鷺ケ森１丁目１５−４５ コーポ鷺ヶ森２１ 210",
+   "mapsUri": "https://maps.google.com/?cid=5420401302820122364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nihonbashi-konkatu.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "愛の架け橋-結婚相談所-仙台サロン-4a95"
+  },
+  {
+   "name": "【実績20年】鈴木功子の結婚相談",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒980-0845 宮城県仙台市青葉区荒巻青葉４２７",
+   "mapsUri": "https://maps.google.com/?cid=14735975015407510379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "実績20年-鈴木功子の結婚相談-9095"
+  },
+  {
+   "name": "BLOOM仙台結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒980-0811 宮城県仙台市青葉区一番町３丁目３−１ クラックス仙台 ４階",
+   "mapsUri": "https://maps.google.com/?cid=14899660770565373111&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-aoba"
+   ],
+   "slug": "BLOOM仙台結婚相談所-ead3"
+  },
+  {
+   "name": "グランクールマリアージュ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒983-0852 宮城県仙台市宮城野区榴岡４丁目５−１ 福島屋ビル 3F",
+   "mapsUri": "https://maps.google.com/?cid=13103236616754397462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.grand-coeur.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "グランクールマリアージュ-6d8b"
+  },
+  {
+   "name": "婚活サロンmoe",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒983-0852 宮城県仙台市宮城野区榴岡４丁目６−２３ 今野ビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=15033117535122513004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "sendai-other"
+   ],
+   "slug": "婚活サロンmoe-6c71"
+  },
+  {
+   "name": "結婚相談所ブリッジハート",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒981-0504 宮城県東松島市矢本上浮足 小松上浮足43",
+   "mapsUri": "https://maps.google.com/?cid=8512596604258383802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bridgeheart.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "miyagi-other"
+   ],
+   "slug": "結婚相談所ブリッジハート-16a2"
+  }
+ ]
+}
