@@ -1,0 +1,1280 @@
+{
+ "surveyedAt": "2026-09-08",
+ "prefName": "静岡",
+ "agencies": [
+  {
+   "name": "婚活ができるシアワセニナリタイカフェ",
+   "rating": 4.7,
+   "count": 393,
+   "address": "日本、〒432-8032 静岡県浜松市中央区海老塚町１−５ ルミシアII 2F",
+   "mapsUri": "https://maps.google.com/?cid=2687637761670390162&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.konkatsucafe.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "婚活ができるシアワセニナリタイカフェ-9cd6"
+  },
+  {
+   "name": "結婚相談所アイクル",
+   "rating": 4.7,
+   "count": 345,
+   "address": "日本、〒432-8032 静岡県浜松市中央区海老塚町１−５ ルミシアII 2F",
+   "mapsUri": "https://maps.google.com/?cid=11248761386618784645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://aikul.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所アイクル-b0ef"
+  },
+  {
+   "name": "結婚相談所オーネット 静岡店",
+   "rating": 4.6,
+   "count": 106,
+   "address": "日本、〒420-0857 静岡県静岡市葵区御幸町11−３０ エクセルワード静岡ビル 6階",
+   "mapsUri": "https://maps.google.com/?cid=7210203832477126209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chubu/shizuoka/shizuoka/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=shizuoka",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所オーネット-静岡店-a5ce"
+  },
+  {
+   "name": "結婚相談所キャンマリアージュ 静岡浜松店",
+   "rating": 4.8,
+   "count": 85,
+   "address": "日本、〒430-0928 静岡県浜松市中央区板屋町１０２−８ 板屋町Amsビル 2F",
+   "mapsUri": "https://maps.google.com/?cid=14315699793574388894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kekkon-canmariage.com/hamamatsu/?utm_source=mybusiness_h",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所キャンマリアージュ-静岡浜松店-f502"
+  },
+  {
+   "name": "結婚相談所ラポールアンカー静岡",
+   "rating": 4.3,
+   "count": 73,
+   "address": "日本、〒420-0834 静岡県静岡市葵区音羽町１２−５ アヴェニール 103",
+   "mapsUri": "https://maps.google.com/?cid=12027232849520106625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/shizuoka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所ラポールアンカー静岡-9f67"
+  },
+  {
+   "name": "結婚相談所オーネット 浜松店",
+   "rating": 4.5,
+   "count": 58,
+   "address": "日本、〒430-7715 静岡県浜松市中央区板屋町１１１−２ 浜松アクトタワー 15階",
+   "mapsUri": "https://maps.google.com/?cid=1793305291074194303&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chubu/shizuoka/hamamatsu/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=hamamatsu",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所オーネット-浜松店-c78c"
+  },
+  {
+   "name": "ラポールアンカー婚活サロン 富士市の結婚相談所",
+   "rating": 4.8,
+   "count": 46,
+   "address": "日本、〒417-0841 静岡県富士市富士岡２９１−５ ペクラスB201",
+   "mapsUri": "https://maps.google.com/?cid=12936245484296506068&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/fuji/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "ラポールアンカー婚活サロン-富士市の結婚相談所-9ba7"
+  },
+  {
+   "name": "ツヴァイ 静岡店",
+   "rating": 4.7,
+   "count": 45,
+   "address": "日本、〒420-0857 静岡県静岡市葵区御幸町11−３０ エクセルワード静岡ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=7236854242268014412&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chubu/shizuoka/shizuoka/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "ツヴァイ-静岡店-3cfd"
+  },
+  {
+   "name": "BAP結婚情報サービス",
+   "rating": 4.9,
+   "count": 37,
+   "address": "日本、〒410-0801 静岡県沼津市大手町５丁目８−１ 仲見世ビルウエスト 1階",
+   "mapsUri": "https://maps.google.com/?cid=16139321777019055333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.bap-n.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "BAP結婚情報サービス-64db"
+  },
+  {
+   "name": "縁結びコンシェルジュ福良",
+   "rating": 4.9,
+   "count": 32,
+   "address": "日本、〒430-0906 静岡県浜松市中央区住吉５丁目１６−３ CARAVANログハウス",
+   "mapsUri": "https://maps.google.com/?cid=11529891952760011806&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.fukra.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "縁結びコンシェルジュ福良-f625"
+  },
+  {
+   "name": "婚活サロン CHERIE",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒410-2201 静岡県伊豆の国市古奈1160ｰ3",
+   "mapsUri": "https://maps.google.com/?cid=18315557442324832317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://mycherie.me/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "婚活サロン-CHERIE-3233"
+  },
+  {
+   "name": "婚活サロンコラージュ佐鳴台店",
+   "rating": 4.9,
+   "count": 30,
+   "address": "日本、〒432-8021 静岡県浜松市中央区佐鳴台３丁目５４−４５ ダウントン 102号",
+   "mapsUri": "https://maps.google.com/?cid=12540658516169489961&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://collage-hamamatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "婚活サロンコラージュ佐鳴台店-0954"
+  },
+  {
+   "name": "エンマレッジ 静岡サロン",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒422-8067 静岡県静岡市駿河区南町１９−１０",
+   "mapsUri": "https://maps.google.com/?cid=14464810264010565420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmarriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "エンマレッジ-静岡サロン-0594"
+  },
+  {
+   "name": "ツヴァイ 浜松店",
+   "rating": 5,
+   "count": 27,
+   "address": "日本、〒430-7706 静岡県浜松市中央区板屋町１１１−２ 浜松アクトタワー 17階",
+   "mapsUri": "https://maps.google.com/?cid=9976292787676118312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chubu/shizuoka/hamamatsu/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ツヴァイ-浜松店-d474"
+  },
+  {
+   "name": "結婚相談所ムスベル 浜松店",
+   "rating": 4.2,
+   "count": 23,
+   "address": "日本、〒430-0944 静岡県浜松市中央区田町３３１−３ サン・ステップ田町ビル 3階",
+   "mapsUri": "https://maps.google.com/?cid=16591477480564794704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=hamamatsu&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所ムスベル-浜松店-dec1"
+  },
+  {
+   "name": "結婚相談所ムスベル 三島店",
+   "rating": 4.5,
+   "count": 23,
+   "address": "日本、〒411-0847 静岡県三島市西本町１１−５ TOKENビル 2階",
+   "mapsUri": "https://maps.google.com/?cid=6024393580909191729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=mishima&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所ムスベル-三島店-d177"
+  },
+  {
+   "name": "サンマリエ静岡沼津（縁結び屋Lashiku）",
+   "rating": 5,
+   "count": 22,
+   "address": "日本、〒410-0048 静岡県沼津市新宿町２−１２",
+   "mapsUri": "https://maps.google.com/?cid=17312138440675709369&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lashiku-mrg.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "サンマリエ静岡沼津-縁結び屋Lashiku-4825"
+  },
+  {
+   "name": "静岡県仲人協会",
+   "rating": 3.9,
+   "count": 21,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町１１−１ 4F",
+   "mapsUri": "https://maps.google.com/?cid=9315105508044146010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://shizuoka-nakodo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡県仲人協会-2917"
+  },
+  {
+   "name": "結婚相談所 婚活エージェント インディー",
+   "rating": 4.9,
+   "count": 21,
+   "address": "日本、〒410-0802 静岡県沼津市上土町51番地3 階ｃ号室",
+   "mapsUri": "https://maps.google.com/?cid=17697729135721859235&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shizuoka-independent.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所-婚活エージェント-インディー-5285"
+  },
+  {
+   "name": "結婚相談所ムスベル 静岡店",
+   "rating": 3.9,
+   "count": 20,
+   "address": "日本、〒420-0858 静岡県静岡市葵区伝馬町９−７ 塚本ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=1408830217618300126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=shizuoka&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所ムスベル-静岡店-e97f"
+  },
+  {
+   "name": "Matching BASE 結婚相談所",
+   "rating": 4.9,
+   "count": 18,
+   "address": "日本、〒420-0085 静岡県静岡市駿河区登呂３丁目１−１ 静岡 新聞放送会館",
+   "mapsUri": "https://maps.google.com/?cid=8115074168550451107&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "Matching-BASE-結婚相談所-cbaf"
+  },
+  {
+   "name": "静岡婚活コンシェルジュ",
+   "rating": 4.9,
+   "count": 17,
+   "address": "日本、〒422-8032 静岡県静岡市駿河区有東２丁目１１−１５",
+   "mapsUri": "https://maps.google.com/?cid=5891854147912292869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.shizuoka-concierge.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡婚活コンシェルジュ-7fea"
+  },
+  {
+   "name": "結婚相談所花咲マリッジ",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒420-0905 静岡県静岡市葵区南沼上１丁目１３−９",
+   "mapsUri": "https://maps.google.com/?cid=552061133183986798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanasaki-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所花咲マリッジ-c65e"
+  },
+  {
+   "name": "静岡婚活サロン クローバー",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒420-0032 静岡県静岡市葵区両替町２丁目６−６ 河村ビル",
+   "mapsUri": "https://maps.google.com/?cid=3424451376415165090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shizuoka-konkatsu-clover.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡婚活サロン-クローバー-80bc"
+  },
+  {
+   "name": "ハルマリ HARUmarriage(ハルマリアージュ)浜松店",
+   "rating": 4.8,
+   "count": 17,
+   "address": "日本、〒430-0944 静岡県浜松市中央区田町３２７−１４ 万年橋パークビル 5階 HARUラウンジ",
+   "mapsUri": "https://maps.google.com/?cid=1129159864004780876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haru-marriage.com/hamamatsu/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ハルマリ-HARUmarriage-ハルマリアージュ-浜松店-e6da"
+  },
+  {
+   "name": "Twinklemate",
+   "rating": 4.9,
+   "count": 17,
+   "address": "日本、〒417-0801 静岡県富士市大淵６３６−１８",
+   "mapsUri": "https://maps.google.com/?cid=1679552448390152921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu.twinklemate.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "Twinklemate-b04d"
+  },
+  {
+   "name": "あんしん縁結び",
+   "rating": 5,
+   "count": 17,
+   "address": "日本、〒438-0083 静岡県磐田市富士見町３丁目１５−１",
+   "mapsUri": "https://maps.google.com/?cid=9641969096237712027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "あんしん縁結び-de71"
+  },
+  {
+   "name": "結婚相談所WeBCon浜松店",
+   "rating": 4.1,
+   "count": 16,
+   "address": "日本、〒430-0929 静岡県浜松市中央区中央１丁目１５−１ グランドメゾン浜松 2F",
+   "mapsUri": "https://maps.google.com/?cid=6904391772152716916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/hamamatsu/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所WeBCon浜松店-7795"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント静岡店",
+   "rating": 4.3,
+   "count": 15,
+   "address": "日本、〒420-0857 静岡県静岡市葵区御幸町11−３０ エクセルワード静岡ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=5564919310433183566&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/chubu/shizuoka.html?cid=se002&argument=wgvYBfWa&dmai=9727",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所パートナーエージェント静岡店-2b36"
+  },
+  {
+   "name": "サンマリエ浜松（Sweet Partners スウィートパートナーズ）",
+   "rating": 4.9,
+   "count": 15,
+   "address": "日本、〒430-0926 静岡県浜松市中央区砂山町３６１−１ グランメゾン芙蓉 406号室",
+   "mapsUri": "https://maps.google.com/?cid=3028915674584837725&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sweetpartners22.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "サンマリエ浜松-Sweet-Partners-スウィートパートナーズ-b07c"
+  },
+  {
+   "name": "JOYマリッジ.com 静岡の婚活・結婚相談所",
+   "rating": 5,
+   "count": 14,
+   "address": "日本、〒420-0859 静岡県静岡市葵区栄町2番地5 ＡＲＫ ＢＵＩＬＤＩＮＧ 502",
+   "mapsUri": "https://maps.google.com/?cid=14720067048311944617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://joyマリッジ.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "JOYマリッジ-com-静岡の婚活-結婚相談所-caf9"
+  },
+  {
+   "name": "結婚相談所 uno two",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒420-0033 静岡県静岡市葵区昭和町１０−４ 昭和町ビル 401",
+   "mapsUri": "https://maps.google.com/?cid=9009767811521012559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://uno2.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所-uno-two-6f97"
+  },
+  {
+   "name": "婚活サロンCarry happiness",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒424-0005 静岡県静岡市清水区石川７１",
+   "mapsUri": "https://maps.google.com/?cid=15698732486126765255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.salon-carryhappiness.jp/?utm_source=GBP&utm_medium=GBP&utm_term=GBP&utm_content=GBP&utm_campaign=GBP",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "婚活サロンCarry-happiness-ef98"
+  },
+  {
+   "name": "結婚相談所Enishell富士",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒417-0053 静岡県富士市依田原新田１０３−６ 2F 株）PANDORA 内",
+   "mapsUri": "https://maps.google.com/?cid=16741486001223446105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enishell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所Enishell富士-186a"
+  },
+  {
+   "name": "結婚相談所 ハジマリ Haji-mari 沼津駅前店",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒410-0801 静岡県沼津市大手町２丁目１−５ Kレジデンス大手町",
+   "mapsUri": "https://maps.google.com/?cid=10777575410503075186&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://haji-mari.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所-ハジマリ-Haji-mari-沼津駅前店-0b56"
+  },
+  {
+   "name": "ラポールアンカー婚活サロン 沼津の結婚相談所",
+   "rating": 4.5,
+   "count": 10,
+   "address": "日本、〒410-0801 静岡県沼津市大手町１丁目１−６",
+   "mapsUri": "https://maps.google.com/?cid=12853921974227091293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rapport-anchor.jp/numazu",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "ラポールアンカー婚活サロン-沼津の結婚相談所-8e8b"
+  },
+  {
+   "name": "結婚相談所WeBCon静岡店",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町12ｰ6 シャンソンビル紺屋町 5F",
+   "mapsUri": "https://maps.google.com/?cid=15347083706821857261&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/shizuoka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所WeBCon静岡店-2fca"
+  },
+  {
+   "name": "婚活結婚相談所ユコル",
+   "rating": 5,
+   "count": 9,
+   "address": "日本、〒426-0046 静岡県藤枝市与左衛門１４９",
+   "mapsUri": "https://maps.google.com/?cid=4420244281362665134&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://yucoru.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "婚活結婚相談所ユコル-e9c4"
+  },
+  {
+   "name": "オークラアクトシティホテル浜松ブライダル",
+   "rating": 4.3,
+   "count": 8,
+   "address": "日本、〒430-7733 静岡県浜松市中央区板屋町１１１−２",
+   "mapsUri": "https://maps.google.com/?cid=4036994593194822244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.act-okura.co.jp/wedd/?utm_source=Google&utm_medium=map&utm_campaign=gbp_wedd",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "オークラアクトシティホテル浜松ブライダル-f494"
+  },
+  {
+   "name": "結婚相談所 ピュアマリー",
+   "rating": 4.9,
+   "count": 8,
+   "address": "日本、〒421-3203 静岡県静岡市清水区蒲原１丁目１２−８",
+   "mapsUri": "https://maps.google.com/?cid=14455846455439223875&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所-ピュアマリー-0ac4"
+  },
+  {
+   "name": "ふるみ結婚相談所",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒432-8068 静岡県浜松市中央区大平台３丁目２８−５ 1F",
+   "mapsUri": "https://maps.google.com/?cid=7925005878990170526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.furumi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ふるみ結婚相談所-69f7"
+  },
+  {
+   "name": "Two be one 結婚相談所",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒435-0048 静岡県浜松市中央区上西町１２５３−１ テラスハウス小栗 A2",
+   "mapsUri": "https://maps.google.com/?cid=7054021315675853242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://twobeone.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "Two-be-one-結婚相談所-4bc9"
+  },
+  {
+   "name": "婚活応援サロン TOWANY",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒432-8002 静岡県浜松市中央区富塚町１９−１",
+   "mapsUri": "https://maps.google.com/?cid=15585285724679677054&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmusubi-towany.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "婚活応援サロン-TOWANY-c112"
+  },
+  {
+   "name": "お見合いノッツェ. 静岡支店",
+   "rating": 1.7,
+   "count": 6,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町１７−１ 葵タワー 15F",
+   "mapsUri": "https://maps.google.com/?cid=7720364596804003187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.nozze.com/access/list/17.php",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "お見合いノッツェ-静岡支店-6d12"
+  },
+  {
+   "name": "浜松婚活結婚相談サービス",
+   "rating": 4.2,
+   "count": 6,
+   "address": "日本、〒430-0944 静岡県浜松市中央区田町２２３−２１",
+   "mapsUri": "https://maps.google.com/?cid=6501934888199557164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://浜松婚活結婚相談所.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "浜松婚活結婚相談サービス-7ed4"
+  },
+  {
+   "name": "婚活サロン 実夢結び",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒432-8001 静岡県浜松市中央区西山町",
+   "mapsUri": "https://maps.google.com/?cid=2477357166554125722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.miyu-musubi.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "婚活サロン-実夢結び-f964"
+  },
+  {
+   "name": "サロンブーケ",
+   "rating": 4.8,
+   "count": 6,
+   "address": "日本、〒435-0022 静岡県浜松市中央区鶴見町１１６ 悠久庵",
+   "mapsUri": "https://maps.google.com/?cid=10897064285203368936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://salon-bouquet.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "サロンブーケ-5d1f"
+  },
+  {
+   "name": "ゼクシィ静岡パルコカウンター",
+   "rating": 2.8,
+   "count": 5,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町 県 6-7 静岡PARCO3階",
+   "mapsUri": "https://maps.google.com/?cid=18191125803589152740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/shizuoka/shizuoka.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "ゼクシィ静岡パルコカウンター-16c7"
+  },
+  {
+   "name": "静岡の結婚相談所Romance",
+   "rating": 5,
+   "count": 5,
+   "address": "日本、〒416-0921 静岡県沼津市白銀町８−１０ 1階",
+   "mapsUri": "https://maps.google.com/?cid=2794520458687280389&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://lin.ee/dnjJZds",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "静岡の結婚相談所Romance-ebbf"
+  },
+  {
+   "name": "婚活「あいうえお」",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒420-0859 静岡県静岡市葵区栄町2番地5 ＡＲＫ ＢＵＩＬＤＩＮＧ 502",
+   "mapsUri": "https://maps.google.com/?cid=699273566699071559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://shizuoka-konkatsu-aiueo.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "婚活-あいうえお-c413"
+  },
+  {
+   "name": "婚活サポート パートナーサーチ",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒421-3203 静岡県静岡市清水区蒲原５９２０番地",
+   "mapsUri": "https://maps.google.com/?cid=18215543421971734027&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://partner-search-shizuoka.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "婚活サポート-パートナーサーチ-4923"
+  },
+  {
+   "name": "結婚相談所アンジェリア",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒434-0015 静岡県浜松市浜名区於呂２００５−３",
+   "mapsUri": "https://maps.google.com/?cid=10260884569351705125&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://angelia.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所アンジェリア-54d0"
+  },
+  {
+   "name": "浜松湖西婚活サービス結い",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒432-8002 静岡県浜松市中央区富塚町４４０７−２",
+   "mapsUri": "https://maps.google.com/?cid=5596332507470535540&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hamakonyui.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "浜松湖西婚活サービス結い-7c56"
+  },
+  {
+   "name": "結婚相談所パートナーエージェント浜松店",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒430-7710 静岡県浜松市中央区板屋町１１１−２ 浜松アクトタワー 10F",
+   "mapsUri": "https://maps.google.com/?cid=1972931976101800555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.p-a.jp/sp/branch/chubu/hamamatsu.html?cid=se002&argument=wgvYBfWa&dmai=a6717458f65447",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所パートナーエージェント浜松店-2c6c"
+  },
+  {
+   "name": "夏目",
+   "rating": 4.5,
+   "count": 4,
+   "address": "日本、〒430-0853 静岡県浜松市中央区三島町１４６１",
+   "mapsUri": "https://maps.google.com/?cid=14549216946307775497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://natsume-kekkon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "夏目-6082"
+  },
+  {
+   "name": "マリアージュ",
+   "rating": 3.3,
+   "count": 4,
+   "address": "日本、〒430-0901 静岡県浜松市中区曳馬６丁目２３−１６ モリショウ第１ビル 3F（302",
+   "mapsUri": "https://maps.google.com/?cid=16340389539885209850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "マリアージュ-0bde"
+  },
+  {
+   "name": "理想の婚活-掛川島田サロン",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒436-0342 静岡県掛川市上西郷５０８−１ しずてつストア掛川店内 結婚相談所 婚活",
+   "mapsUri": "https://maps.google.com/?cid=2376138054418053138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "理想の婚活-掛川島田サロン-03a0"
+  },
+  {
+   "name": "結マリッジパートナー",
+   "rating": 5,
+   "count": 3,
+   "address": "2-5 Sakaecho, Aoi Ward, Shizuoka, 420-0859, ＡＲＫ ＢＵＩＬＤＩＮＧ 502, 栄町 葵区 静岡市 静岡県 420-0859 日本",
+   "mapsUri": "https://maps.google.com/?cid=6581447098494036314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yuimarriagepartner.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結マリッジパートナー-afc5"
+  },
+  {
+   "name": "婚活サロンペア探",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒420-0881 静岡県静岡市葵区北安東５丁目２４−２４",
+   "mapsUri": "https://maps.google.com/?cid=284447325306751955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pairtan.netlify.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "婚活サロンペア探-ca1d"
+  },
+  {
+   "name": "婚活サロンいっしょに歩こう",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒420-0015 静岡県静岡市葵区錦町７−８ イチナナビル",
+   "mapsUri": "https://maps.google.com/?cid=6879800266852557843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.konkatsu-isshoni.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "婚活サロンいっしょに歩こう-f27f"
+  },
+  {
+   "name": "MUSUBU Marriage",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒422-8067 静岡県静岡市駿河区南町１４−２５ 405号室",
+   "mapsUri": "https://maps.google.com/?cid=3567608404896276869&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://musubu-marriage.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "MUSUBU-Marriage-95dd"
+  },
+  {
+   "name": "結婚相談所 婚活エージェント インディ― 静岡店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒420-0858 静岡県静岡市葵区伝馬町１−２ ホテルシティオ静岡 3F",
+   "mapsUri": "https://maps.google.com/?cid=9990163056839017588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shizuoka-independent.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所-婚活エージェント-インディ-静岡店-7a02"
+  },
+  {
+   "name": "ゴールド・マリッジ",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒430-0935 静岡県浜松市中央区伝馬町３１３−２４",
+   "mapsUri": "https://maps.google.com/?cid=5107806674856055793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.gold-m.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ゴールド-マリッジ-0baf"
+  },
+  {
+   "name": "結婚相談所Marielle",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒412-0026 静岡県御殿場市東田中１９９８−６",
+   "mapsUri": "https://maps.google.com/?cid=6068338356067481655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mari-elle.info/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所Marielle-baa9"
+  },
+  {
+   "name": "婚活サポートMerry Marry(メリーマリー) 静岡県の結婚相談所",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒410-0822 静岡県沼津市下香貫八重２３−１ 恵季工房ベルル",
+   "mapsUri": "https://maps.google.com/?cid=14034406636142839995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://merry-marry.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "婚活サポートMerry-Marry-メリーマリー-静岡県の結婚相談所-88e0"
+  },
+  {
+   "name": "エンゼルブーケ静岡",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒420-0839 静岡県静岡市葵区鷹匠２丁目８−１０ 2F",
+   "mapsUri": "https://maps.google.com/?cid=6607500003000829456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.angel-bouquet.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "エンゼルブーケ静岡-181e"
+  },
+  {
+   "name": "浜松の結婚相談所コスモスプリマリエ",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒430-0944 静岡県浜松市中央区田町２２３−２１ ビオラ田町 ３F 浜松オフィス",
+   "mapsUri": "https://maps.google.com/?cid=11646054351530761901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.cosmosp.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "浜松の結婚相談所コスモスプリマリエ-2974"
+  },
+  {
+   "name": "結婚相談所 Angelic",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒430-0901 静岡県浜松市中央区曳馬４丁目１３−３５",
+   "mapsUri": "https://maps.google.com/?cid=17800707296736078045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-angelic.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所-Angelic-ce93"
+  },
+  {
+   "name": "ゼクシィ浜松アクトタワーカウンター",
+   "rating": 2,
+   "count": 2,
+   "address": "日本、〒430-7703 静岡県浜松市中区板屋町１１１−２ 浜松アクトタワー ３階",
+   "mapsUri": "https://maps.google.com/?cid=10477320675678222726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/shizuoka/hamamatsu.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ゼクシィ浜松アクトタワーカウンター-d7a6"
+  },
+  {
+   "name": "静岡婚活サロン マイエンゲージ",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒420-0032 静岡県静岡市葵区両替町１丁目3−１８ ル・プラド 504",
+   "mapsUri": "https://maps.google.com/?cid=15197538915822682282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://myengage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡婚活サロン-マイエンゲージ-288a"
+  },
+  {
+   "name": "しずおかマリッジ・ふじのくに出会いサポートセンター",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒420-0857 静岡県静岡市葵区御幸町８−１ ＪＡＤＥビル 4F",
+   "mapsUri": "https://maps.google.com/?cid=7264897624262579705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.shizuoka-msc.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "しずおかマリッジ-ふじのくに出会いサポートセンター-5f36"
+  },
+  {
+   "name": "株式会社サロン すずらん",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒420-0805 静岡県静岡市葵区城北２丁目２３−２",
+   "mapsUri": "https://maps.google.com/?cid=6588925059874410358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.salon-suzuran.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "株式会社サロン-すずらん-c3ca"
+  },
+  {
+   "name": "藤枝結婚相談所 シバタ事務所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒426-0087 静岡県藤枝市音羽町３丁目２１−３",
+   "mapsUri": "https://maps.google.com/?cid=9401362970517914996&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://shibata.club/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "藤枝結婚相談所-シバタ事務所-b414"
+  },
+  {
+   "name": "マリッジラボ浜松",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒435-0048 静岡県浜松市中央区上西町１０９９ 稲垣不動産ビル 2",
+   "mapsUri": "https://maps.google.com/?cid=6268670740360147559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-lab.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "マリッジラボ浜松-dff4"
+  },
+  {
+   "name": "渡邉管財（株）きらめき婚活アドバイザー",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒430-0852 静岡県浜松市中央区領家２丁目２０−２７ プリヴェ",
+   "mapsUri": "https://maps.google.com/?cid=17340083484825114209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://kirameki-marriage.jp/information/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "渡邉管財-株-きらめき婚活アドバイザー-e24e"
+  },
+  {
+   "name": "ミッション マリアージュ ジャパン MISSION MARIAGE JAPAN",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒432-8011 静岡県浜松市中区城北２丁目５−１４ ナイスアーバン城北ヒルズ ５０２",
+   "mapsUri": "https://maps.google.com/?cid=3610998073500771192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mission-mariage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ミッション-マリアージュ-ジャパン-MISSION-MARIAGE-JAPAN-0971"
+  },
+  {
+   "name": "袋井結婚相談YOSHI",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒437-1121 静岡県袋井市諸井１９６５−１",
+   "mapsUri": "https://maps.google.com/?cid=12913505652688925967&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "袋井結婚相談YOSHI-e2f0"
+  },
+  {
+   "name": "結婚相談所Match-maker.M＆S",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒437-1423 静岡県掛川市浜川新田",
+   "mapsUri": "https://maps.google.com/?cid=5656892156400485902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.matchmaker-mands.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "結婚相談所Match-maker-M-S-5e8b"
+  },
+  {
+   "name": "静岡結婚相談所 パルチェ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒421-0122 静岡県静岡市駿河区用宗５丁目１−１０",
+   "mapsUri": "https://maps.google.com/?cid=2921859520728229250&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.palche.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡結婚相談所-パルチェ-9cad"
+  },
+  {
+   "name": "仲人おばさんの結婚相談室",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒420-0061 静岡県静岡市葵区新富町３丁目７−２",
+   "mapsUri": "https://maps.google.com/?cid=15141696277400057410&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://anatanoshiawase.com/meetatshizuoka/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "仲人おばさんの結婚相談室-af87"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 静岡店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒420-0852 静岡県静岡市葵区紺屋町６−７ パルコ 三階",
+   "mapsUri": "https://maps.google.com/?cid=8698827502001824237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/shizuoka/shizuoka.html?vos=dzeksgmbt20052900014",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-静岡店-250a"
+  },
+  {
+   "name": "静岡結相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒424-0817 静岡県静岡市清水区銀座８−１４",
+   "mapsUri": "https://maps.google.com/?cid=13152770628685837138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://shizuka-wedding.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "静岡結相談所-8746"
+  },
+  {
+   "name": "結婚相談所マリッジアオキ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒420-0014 静岡県静岡市葵区上桶屋町４０",
+   "mapsUri": "https://maps.google.com/?cid=18217997686823507362&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marriage-aoki.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所マリッジアオキ-ced6"
+  },
+  {
+   "name": "スマイルツリー結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒420-0046 静岡県静岡市葵区吉野町４−７",
+   "mapsUri": "https://maps.google.com/?cid=9974546178322472700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.smiletree1982.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "スマイルツリー結婚相談所-e914"
+  },
+  {
+   "name": "結婚相談所プロローグ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒422-8044 静岡県静岡市駿河区西脇６８２",
+   "mapsUri": "https://maps.google.com/?cid=6803674599887830062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.prologue-shizuoka.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "結婚相談所プロローグ-e8ec"
+  },
+  {
+   "name": "40代50代独身男性専門の婚活コンサルティング「ＥＳＴ」",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒420-0845 静岡県静岡市葵区太田町１２ 2-A 中央観光トラベル内",
+   "mapsUri": "https://maps.google.com/?cid=9068761110994719105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://est.ckt.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-city"
+   ],
+   "slug": "40代50代独身男性専門の婚活コンサルティング-ＥＳＴ-99b4"
+  },
+  {
+   "name": "【入会金成婚料無料】静岡県浜松市の結婚相談所-婚活パーティ｜理想の婚活-浜松雄踏婚活サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒431-0103 静岡県浜松市中央区雄踏１丁目３２−１ カインズホーム浜松雄踏店 敷地内",
+   "mapsUri": "https://maps.google.com/?cid=18131920672688087291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://shizuoka-konkatsu.com/yuto-salon/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "入会金成婚料無料-静岡県浜松市の結婚相談所-婚活パーティ-理想の婚活-浜松雄踏婚-b10d"
+  },
+  {
+   "name": "エンマレッジ 浜松サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒430-0934 静岡県浜松市中区千歳町９１−１ 遠鉄モール街ビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=3942922614667092526&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://enmarriage.com/hamamatsu",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "エンマレッジ-浜松サロン-b066"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 浜松店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒430-0928 静岡県浜松市中央区板屋町１１１−２ 浜松アクトタワー アクトプラザ３階",
+   "mapsUri": "https://maps.google.com/?cid=15037607816981080207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/shizuoka/hamamatsu.html?vos=dzeksgmbt20052900015",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-浜松店-0867"
+  },
+  {
+   "name": "結婚相談所 フタリミライ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒430-0944 静岡県浜松市中央区田町３２９−２０ 竹内ビル ２F",
+   "mapsUri": "https://maps.google.com/?cid=3454991997546646553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://futarimirai.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所-フタリミライ-c68b"
+  },
+  {
+   "name": "マリアージュ浜松駅前相談室",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒430-0926 静岡県浜松市中央区砂山町１０９１",
+   "mapsUri": "https://maps.google.com/?cid=10076457233417073842&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "マリアージュ浜松駅前相談室-5eeb"
+  },
+  {
+   "name": "磐田結婚相談サービス 浜松営業所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒435-0013 静岡県浜松市東区中央区天竜川町３０３−３ 211",
+   "mapsUri": "https://maps.google.com/?cid=8735650251657603485&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://iwatakon.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "磐田結婚相談サービス-浜松営業所-c2fa"
+  },
+  {
+   "name": "結婚相談所 マリッジベル",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒434-0044 静岡県浜松市浜北区内野４２５７ 2F",
+   "mapsUri": "https://maps.google.com/?cid=17090121345178336523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所-マリッジベル-b865"
+  },
+  {
+   "name": "浜名湖結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒431-0214 静岡県浜松市中央区舞阪町弁天島３２８５−１５ 201 号室",
+   "mapsUri": "https://maps.google.com/?cid=660024004971328307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ameblo.jp/hamanako2/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "浜名湖結婚相談所-817f"
+  },
+  {
+   "name": "マリエールMUSUHI",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒431-2212 静岡県浜松市浜名区引佐町井伊谷８００−１４",
+   "mapsUri": "https://maps.google.com/?cid=1074127486025917224&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.e-glanz-musuhi.website/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "マリエールMUSUHI-eb03"
+  },
+  {
+   "name": "結婚相談所DUSK",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒430-0936 静岡県浜松市中央区大工町３１１ 22Dビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=2150243838676305363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.dusk-marriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所DUSK-d088"
+  },
+  {
+   "name": "結婚相談所ウェブ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒435-0052 静岡県浜松市中央区天王町１６７６",
+   "mapsUri": "https://maps.google.com/?cid=17854468082156448635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hamamatsu-shizuoka"
+   ],
+   "slug": "結婚相談所ウェブ-6233"
+  },
+  {
+   "name": "リアルリンクス結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒418-0066 静岡県富士宮市大宮町３１−３１ 澤田ビル １F",
+   "mapsUri": "https://maps.google.com/?cid=36485338923592804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://reallinks-konkatsu.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "shizuoka-other"
+   ],
+   "slug": "リアルリンクス結婚相談所-98f2"
+  }
+ ]
+}

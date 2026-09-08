@@ -85,6 +85,13 @@ export const AREA_LABELS: Record<string, string> = {
   "sendai-aoba": "仙台駅前・青葉区",
   "sendai-other": "仙台市その他",
   "miyagi-other": "宮城その他",
+  "hiroshima-naka": "紙屋町・八丁堀(広島市中区)",
+  "hiroshima-city-other": "広島市その他",
+  "fukuyama": "福山",
+  "hiroshima-other": "広島その他",
+  "shizuoka-city": "静岡市",
+  "hamamatsu-shizuoka": "浜松",
+  "shizuoka-other": "静岡その他(沼津・富士など)",
 };
 
 // 相談所DBを持つ都道府県(横展開時はここに追加)
@@ -100,6 +107,8 @@ export const DB_PREFS: { pref: string; prefName: string; areaHref: string }[] = 
   { pref: "chiba", prefName: "千葉", areaHref: "/area/chiba/" },
   { pref: "kyoto", prefName: "京都", areaHref: "/area/kyoto/" },
   { pref: "miyagi", prefName: "宮城", areaHref: "/area/sendai/" },
+  { pref: "hiroshima", prefName: "広島", areaHref: "/area/hiroshima/" },
+  { pref: "shizuoka", prefName: "静岡", areaHref: "/area/shizuoka/" },
 ];
 
 // 自社レビューがある大手ブランド(未提携の相談所はGoogleマップへリンクする方針)

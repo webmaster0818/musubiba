@@ -1,0 +1,851 @@
+{
+ "surveyedAt": "2026-09-08",
+ "prefName": "広島",
+ "agencies": [
+  {
+   "name": "エンエール",
+   "rating": 4.9,
+   "count": 204,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ 7F",
+   "mapsUri": "https://maps.google.com/?cid=11794639789225588832&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://en-yell.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "エンエール-de0c"
+  },
+  {
+   "name": "結婚相談所オーネット 広島店",
+   "rating": 4.7,
+   "count": 141,
+   "address": "日本、〒730-0015 広島県広島市中区橋本町１０−１０ 広島インテス 2階",
+   "mapsUri": "https://maps.google.com/?cid=1064380769019114650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://onet.co.jp/branch/chugoku/hiroshima/hiroshima/?utm_source=google&utm_medium=organic&utm_campaign=mybusiness&utm_content=hiroshima",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所オーネット-広島店-047c"
+  },
+  {
+   "name": "結婚相談所Presia",
+   "rating": 4.7,
+   "count": 137,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ アイビービル 7F",
+   "mapsUri": "https://maps.google.com/?cid=4006639972461478097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://presia.jp/agent/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所Presia-c780"
+  },
+  {
+   "name": "結婚相談所チアーズ広島",
+   "rating": 5,
+   "count": 74,
+   "address": "日本、〒730-0802 広島県広島市中区本川町２丁目４−２２ ウィンディア本川 702号室",
+   "mapsUri": "https://maps.google.com/?cid=8742349118142775343&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://cheer-s.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所チアーズ広島-db04"
+  },
+  {
+   "name": "結婚相談所ムスベル 広島店",
+   "rating": 4.7,
+   "count": 57,
+   "address": "日本、〒732-0824 広島県広島市南区的場町１丁目８−１５ アートビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=16511004584779677731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.musbell.co.jp/?channel_id=8&m_source=google&m_media=map&m_category=none&m_detail=hiroshima&asp=none&popup=none&dcta=none&fd=none",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結婚相談所ムスベル-広島店-ff9f"
+  },
+  {
+   "name": "結婚相談所ブランズ広島サロン",
+   "rating": 4.7,
+   "count": 54,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町２丁目２−２ 4F",
+   "mapsUri": "https://maps.google.com/?cid=17001251292945988015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://brans.jp/salon/hiroshima/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所ブランズ広島サロン-14e0"
+  },
+  {
+   "name": "ライフデザインラボ 青い鳥",
+   "rating": 5,
+   "count": 51,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ アイビービル 7F",
+   "mapsUri": "https://maps.google.com/?cid=2482624880339810156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lifedesignlab-aoitori.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ライフデザインラボ-青い鳥-4f21"
+  },
+  {
+   "name": "エルサマアト",
+   "rating": 4.8,
+   "count": 46,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ アイビービル 7F",
+   "mapsUri": "https://maps.google.com/?cid=14065067922994210686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariage.elusamaat.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "エルサマアト-1811"
+  },
+  {
+   "name": "ツヴァイ 広島店",
+   "rating": 4.6,
+   "count": 45,
+   "address": "日本、〒730-0035 広島県広島市中区本通６−１１ 明治安田生命広島本通ビル 7階",
+   "mapsUri": "https://maps.google.com/?cid=2844061284687663798&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.zwei.com/branch/chugoku_shikoku/hiroshima/hiroshima/?utm_medium=organic&utm_source=GMB",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ツヴァイ-広島店-e901"
+  },
+  {
+   "name": "結婚相談所サンマリエ広島サロン",
+   "rating": 4.6,
+   "count": 42,
+   "address": "日本、〒730-0037 広島県広島市中区中町７−４１ 広島三栄ビル 9階",
+   "mapsUri": "https://maps.google.com/?cid=11945115405494627248&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.sunmarie.co.jp/store/chugoku-shikoku/hiroshima/?utm_source=hiroshima&utm_medium=googlemb_salon&utm_campaign=mb_main",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所サンマリエ広島サロン-e1eb"
+  },
+  {
+   "name": "アスマリ広島店",
+   "rating": 4.9,
+   "count": 38,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町１丁目６−９ 5F",
+   "mapsUri": "https://maps.google.com/?cid=10262936227461399028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://asmari.jp/shops/chugoku-region/hiroshima/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "アスマリ広島店-b5aa"
+  },
+  {
+   "name": "みくる結婚相談所",
+   "rating": 5,
+   "count": 34,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ 7F",
+   "mapsUri": "https://maps.google.com/?cid=857935984265860331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.mikuru-nakoudo-hiroshima.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "みくる結婚相談所-41c1"
+  },
+  {
+   "name": "広島サポートクラブzumi",
+   "rating": 5,
+   "count": 32,
+   "address": "日本、〒730-0032 広島県広島市中区立町４−１５ 英万里ビル 4階",
+   "mapsUri": "https://maps.google.com/?cid=13836692513406212597&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hiroshima-zumi.sakura.ne.jp/index.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "広島サポートクラブzumi-b2cc"
+  },
+  {
+   "name": "結婚相談所グレイスマリー",
+   "rating": 4.6,
+   "count": 28,
+   "address": "日本、〒730-0037 広島県広島市中区中町７−４１ 広島三栄ビル 5階",
+   "mapsUri": "https://maps.google.com/?cid=5632851764546329864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.g-marry.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所グレイスマリー-91eb"
+  },
+  {
+   "name": "ゆめつむぎ",
+   "rating": 4.8,
+   "count": 28,
+   "address": "日本、〒731-0136 広島県広島市安佐南区長束西２丁目４−３４ 1",
+   "mapsUri": "https://maps.google.com/?cid=8843249716038333436&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yumetsumugi.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "ゆめつむぎ-3e33"
+  },
+  {
+   "name": "広島ブライダル館相談カウンター｜アルパーク・バスターミナル店",
+   "rating": 4.7,
+   "count": 18,
+   "address": "日本、〒733-0834 広島県広島市西区草津新町２丁目２６−１ ヒガシトウ 1階 アルパーク",
+   "mapsUri": "https://maps.google.com/?cid=8071248678269908413&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hiroshima-bridalbox.jp/?utm_source=gmb&utm_medium=organic",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "広島ブライダル館相談カウンター-アルパーク-バスターミナル店-05ad"
+  },
+  {
+   "name": "ユウベル 結婚紹介サービス 福山店",
+   "rating": 4.9,
+   "count": 18,
+   "address": "日本、〒721-0907 広島県福山市春日町６丁目３１−１",
+   "mapsUri": "https://maps.google.com/?cid=16663152303447360595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ubell-1150.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "ユウベル-結婚紹介サービス-福山店-569b"
+  },
+  {
+   "name": "婚活サロンCOMPASS 福山サロン（結婚相談所）",
+   "rating": 4.4,
+   "count": 18,
+   "address": "日本、〒720-0066 広島県福山市三之丸町３０−１ さんすて福山 2階",
+   "mapsUri": "https://maps.google.com/?cid=3297444283403649889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.t-compass.net/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=14827496448747658047",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "婚活サロンCOMPASS-福山サロン-結婚相談所-73f4"
+  },
+  {
+   "name": "結婚相談所 Olive Link 三次オフィス",
+   "rating": 5,
+   "count": 18,
+   "address": "日本、〒728-0013 広島県三次市十日市東１丁目１５−１４ K&S 宇津田ビル 1F",
+   "mapsUri": "https://maps.google.com/?cid=6724080525637192231&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://olive-link.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-other"
+   ],
+   "slug": "結婚相談所-Olive-Link-三次オフィス-5c67"
+  },
+  {
+   "name": "結日和結婚相談所",
+   "rating": 5,
+   "count": 12,
+   "address": "日本、〒739-0142 広島県東広島市八本松東６丁目６−２ 八本松ガーデンプレイス10th 2001",
+   "mapsUri": "https://maps.google.com/?cid=651247970686150041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://yuibiyori.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結日和結婚相談所-4d73"
+  },
+  {
+   "name": "広島の婚活結婚相談所虹のしずく",
+   "rating": 4.5,
+   "count": 11,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ アイビービル ７F",
+   "mapsUri": "https://maps.google.com/?cid=2445166355555190544&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nijino-sizuku.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "広島の婚活結婚相談所虹のしずく-a659"
+  },
+  {
+   "name": "婚活サロンCOMPASS 広島サロン（結婚相談所）",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒730-0011 広島県広島市中区基町６−７８ リーガロイヤルホテル広島 2階",
+   "mapsUri": "https://maps.google.com/?cid=16196202713466879782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.t-compass.net/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=8727287440352445089",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "婚活サロンCOMPASS-広島サロン-結婚相談所-cb38"
+  },
+  {
+   "name": "クライム結婚相談所",
+   "rating": 5,
+   "count": 10,
+   "address": "日本、〒731-0103 広島県広島市安佐南区緑井３丁目１−１８",
+   "mapsUri": "https://maps.google.com/?cid=256130643582723739&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.kuraim-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "クライム結婚相談所-5088"
+  },
+  {
+   "name": "良縁の大進 福山サロン",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒720-0067 広島県福山市西町１丁目９−１５",
+   "mapsUri": "https://maps.google.com/?cid=2973674136564537849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ryoen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "良縁の大進-福山サロン-9554"
+  },
+  {
+   "name": "結婚相談所 Rose Bridge",
+   "rating": 4.9,
+   "count": 10,
+   "address": "日本、〒739-0016 広島県東広島市西条岡町９−３ 岡町レジデンスICZ Ⅱ 101",
+   "mapsUri": "https://maps.google.com/?cid=17079375175841335541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.rosebridge194.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結婚相談所-Rose-Bridge-d787"
+  },
+  {
+   "name": "ユウベル結婚紹介サービス 広島店",
+   "rating": 4.9,
+   "count": 9,
+   "address": "日本、〒730-0013 広島県広島市中区袋町７−２５ パルテ 2F",
+   "mapsUri": "https://maps.google.com/?cid=16733728597530431885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://u-b.jp/1150/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ユウベル結婚紹介サービス-広島店-6906"
+  },
+  {
+   "name": "Olive Link",
+   "rating": 5,
+   "count": 9,
+   "address": "あなぶき広島紙屋町ビル 7階, １２-5 基町 中区 広島市 広島県 730-0011 日本",
+   "mapsUri": "https://maps.google.com/?cid=8445546595311883500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://olive-link.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "Olive-Link-0271"
+  },
+  {
+   "name": "結婚相談所マリッジサロンjuju",
+   "rating": 4.8,
+   "count": 8,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目７−２１ THE CUBE OTEMACHI 308",
+   "mapsUri": "https://maps.google.com/?cid=15354765571609200358&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.lianju.co.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所マリッジサロンjuju-a588"
+  },
+  {
+   "name": "広島婚活 結",
+   "rating": 5,
+   "count": 7,
+   "address": "日本、〒730-0847 広島県広島市中区舟入南３丁目４−１",
+   "mapsUri": "https://maps.google.com/?cid=11884484079263762975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hiroshima-konkatsu.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "広島婚活-結-ae1e"
+  },
+  {
+   "name": "良縁の大進 広島サロン",
+   "rating": 4.3,
+   "count": 7,
+   "address": "日本、〒730-0017 広島県広島市中区鉄砲町５−２１",
+   "mapsUri": "https://maps.google.com/?cid=8400976477915095883&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ryoen.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "良縁の大進-広島サロン-e8d8"
+  },
+  {
+   "name": "結婚相談所ラポールプラス【ラポプラ】",
+   "rating": 5,
+   "count": 6,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目１−２６ 大手町一番ビル 305",
+   "mapsUri": "https://maps.google.com/?cid=7907949305550020118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://rapport-plus.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所ラポールプラス-ラポプラ-81a4"
+  },
+  {
+   "name": "結婚相談所ピスティマリー",
+   "rating": 4.7,
+   "count": 6,
+   "address": "日本、〒730-0051 広島県広島市中区大手町１丁目１−２０ 相生橋ビル 7階A号室",
+   "mapsUri": "https://maps.google.com/?cid=14818396119099028612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pistymarry.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所ピスティマリー-3e17"
+  },
+  {
+   "name": "婚活パーティー 恋工房広島",
+   "rating": 2.8,
+   "count": 5,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町２丁目２−２ 4階",
+   "mapsUri": "https://maps.google.com/?cid=2991960767853656666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.koikoubo.co.jp/schedule/list.php?area=5",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "婚活パーティー-恋工房広島-cc36"
+  },
+  {
+   "name": "ハッピーブライダルなび「リエゾン」",
+   "rating": 4.8,
+   "count": 4,
+   "address": "日本、〒734-0003 広島県広島市南区宇品東１丁目４−１７",
+   "mapsUri": "https://maps.google.com/?cid=7913540124143887723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "ハッピーブライダルなび-リエゾン-8143"
+  },
+  {
+   "name": "M＆m",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒733-0821 広島県広島市西区庚午北１丁目５−４",
+   "mapsUri": "https://maps.google.com/?cid=17899201009473536126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.mandm1122.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "M-m-d97c"
+  },
+  {
+   "name": "広島ブライダル館 相談カウンター 広島パルコ店",
+   "rating": 5,
+   "count": 4,
+   "address": "日本、〒730-0034 広島県広島市中区新天地２−１ 広島パルコ新館 5F",
+   "mapsUri": "https://maps.google.com/?cid=16534894229858238637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hiroshima-bridalbox.jp/?utm_source=gmb&utm_medium=organic",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "広島ブライダル館-相談カウンター-広島パルコ店-e002"
+  },
+  {
+   "name": "トータルブライダルコンサルタント hanano",
+   "rating": 4.5,
+   "count": 4,
+   "address": "日本、〒731-0232 広島県広島市安佐北区亀山南２丁目５２−１０",
+   "mapsUri": "https://maps.google.com/?cid=8534668283078690727&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://hanano-hiroshima.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "トータルブライダルコンサルタント-hanano-6bc6"
+  },
+  {
+   "name": "結婚相談所WeBCon広島店",
+   "rating": 5,
+   "count": 3,
+   "address": "日本、〒730-0021 広島県広島市中区胡町４−２８ 胡町ビルディング 6F",
+   "mapsUri": "https://maps.google.com/?cid=991780420969302332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.web-con.com/branch/hiroshima/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所WeBCon広島店-0aae"
+  },
+  {
+   "name": "ル・ボヌール結婚相談所",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒730-0825 広島県広島市中区光南１丁目１−２３ 1F",
+   "mapsUri": "https://maps.google.com/?cid=10548638165271757002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://le-bonheur.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ル-ボヌール結婚相談所-c2b0"
+  },
+  {
+   "name": "結婚相談所Mirabell",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒739-1743 広島県広島市安佐北区倉掛２丁目１−１０",
+   "mapsUri": "https://maps.google.com/?cid=2973002306765857751&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結婚相談所Mirabell-7e57"
+  },
+  {
+   "name": "ゼクシィ広島カウンター",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒730-0031 広島県広島市中区紙屋町１丁目２−２２ ３階",
+   "mapsUri": "https://maps.google.com/?cid=13235689360755322197&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy.net/navi/shop/hiroshima/hiroshima.html/?vos=nxywprss20191203001",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ゼクシィ広島カウンター-9bdc"
+  },
+  {
+   "name": "プランタン福山",
+   "rating": 5,
+   "count": 2,
+   "address": "日本、〒720-0031 広島県福山市三吉町４丁目２−４５",
+   "mapsUri": "https://maps.google.com/?cid=7012885958734042839&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://pr-fukuyama.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "プランタン福山-222e"
+  },
+  {
+   "name": "Mizuiro結婚相談所",
+   "rating": 4.5,
+   "count": 2,
+   "address": "日本、〒729-3431 広島県府中市上下町上下１４１１",
+   "mapsUri": "https://maps.google.com/?cid=4990519679755691569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-other"
+   ],
+   "slug": "Mizuiro結婚相談所-f04f"
+  },
+  {
+   "name": "ありちゃんの結婚相談所",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒731-0111 広島県広島市安佐南区東野３丁目６−３８ 9",
+   "mapsUri": "https://maps.google.com/?cid=16539017880814670306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.ibjapan.com/area/hiroshima/31341/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "ありちゃんの結婚相談所-4e6c"
+  },
+  {
+   "name": "ゼクシィ縁結びエージェント 広島店",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒730-0051 広島県広島市中区大手町２丁目７−２ Balcom大手町ビル ８階",
+   "mapsUri": "https://maps.google.com/?cid=15263732144792952215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://zexy-en-soudan.net/shop/hiroshima/hiroshima.html?vos=dzeksgmbt20052900024",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "ゼクシィ縁結びエージェント-広島店-e37e"
+  },
+  {
+   "name": "結婚相談所アイビー",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒730-0856 広島県広島市中区河原町１２−９",
+   "mapsUri": "https://maps.google.com/?cid=6695662288268185140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://ivy-bridal.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所アイビー-e635"
+  },
+  {
+   "name": "結婚相談所 ご縁デザイン",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒731-0137 広島県広島市安佐南区山本４丁目１２−３５",
+   "mapsUri": "https://maps.google.com/?cid=2148102462373180795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://konkatsu-goen-design.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結婚相談所-ご縁デザイン-964b"
+  },
+  {
+   "name": "マリッジサポート リンガーベル",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒739-1732 広島県広島市安佐北区落合南２丁目４２−２",
+   "mapsUri": "https://maps.google.com/?cid=7227038038178791062&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://marriage-ringabell.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "マリッジサポート-リンガーベル-3fd4"
+  },
+  {
+   "name": "婚活サロン mari hun",
+   "rating": 5,
+   "count": 1,
+   "address": "日本、〒720-2413 広島県福山市駅家町法成寺４２６ ２F 株式会社田和コーポレーション内",
+   "mapsUri": "https://maps.google.com/?cid=13535212439523410071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marihun.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "婚活サロン-mari-hun-4e4b"
+  },
+  {
+   "name": "結婚相談所はるむすび",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒730-0025 広島県広島市中区東平塚町９−１０ 502",
+   "mapsUri": "https://maps.google.com/?cid=11084576773337454118&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所はるむすび-bdc6"
+  },
+  {
+   "name": "結婚相談所ベルバンク広島サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒732-0828 広島県広島市南区京橋町７−１８ 新井ビル 303",
+   "mapsUri": "https://maps.google.com/?cid=8118709604885494583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://bell-bank.net/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-city-other"
+   ],
+   "slug": "結婚相談所ベルバンク広島サロン-c1ad"
+  },
+  {
+   "name": "結婚相談所Marriage Salon ガジュマル",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒730-0802 広島県広島市中区本川町２丁目１−９ WAKO川本ビル3F",
+   "mapsUri": "https://maps.google.com/?cid=3710952640896699340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.gajumarriage.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所Marriage-Salon-ガジュマル-521f"
+  },
+  {
+   "name": "サプライド 結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒730-0845 広島県広島市中区舟入川口町６−９ ＳＴビル Ⅱ",
+   "mapsUri": "https://maps.google.com/?cid=17687933261819709002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://supride-bridal.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "サプライド-結婚相談所-47da"
+  },
+  {
+   "name": "広島の結婚相談所 広島結婚相談プラザ・ブーケ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒730-0035 広島県広島市中区本通７−２９ アイビービル ７F",
+   "mapsUri": "https://maps.google.com/?cid=11527802407518630873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://nomura-stn.jp/index.html",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "広島の結婚相談所-広島結婚相談プラザ-ブーケ-6eaa"
+  },
+  {
+   "name": "結婚相談所マリパレット",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒721-0903 広島県福山市坪生町６丁目１９−１５",
+   "mapsUri": "https://maps.google.com/?cid=18088759851258676753&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://marripalette.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "結婚相談所マリパレット-7f98"
+  },
+  {
+   "name": "結婚相談所 かおりんマリッジ福山",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒721-0903 広島県福山市坪生町４丁目１１",
+   "mapsUri": "https://maps.google.com/?cid=11967462760530454667&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://note.com/kaorinmarrijif",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "結婚相談所-かおりんマリッジ福山-3148"
+  },
+  {
+   "name": "マリアベール福山結婚相談所",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒720-2121 広島県福山市神辺町湯野１４４２−８６",
+   "mapsUri": "https://maps.google.com/?cid=12018968836573055919&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://mariaveil787.wixsite.com/top-index",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "マリアベール福山結婚相談所-33cd"
+  },
+  {
+   "name": "結婚相談所グレイスマリー 福山サロン",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒720-0067 広島県福山市西町１丁目１−１",
+   "mapsUri": "https://maps.google.com/?cid=1227434850035728390&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.g-marry.jp/office/fukuyama/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "結婚相談所グレイスマリー-福山サロン-3dc7"
+  },
+  {
+   "name": "福山結婚相談所ロイヤル",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒721-0973 広島県福山市南蔵王町５丁目１９−２ エステサロンゲットレディ 内",
+   "mapsUri": "https://maps.google.com/?cid=9107920028019021574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://fukuyama.mypl.net/shop/00000384202/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "福山結婚相談所ロイヤル-2e3f"
+  },
+  {
+   "name": "ブライダル福山",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒720-2121 広島県福山市神辺町湯野５２−３８",
+   "mapsUri": "https://maps.google.com/?cid=18113244071604830254&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "http://www.jba-e.com/jba_jr/34008/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "ブライダル福山-b0fa"
+  },
+  {
+   "name": "福山ニューキャッスルホテルマリッジデスク",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒720-0066 広島県福山市三之丸町８−１６",
+   "mapsUri": "https://maps.google.com/?cid=3527770936921609688&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.marriagedesk.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "福山ニューキャッスルホテルマリッジデスク-6283"
+  },
+  {
+   "name": "結婚相談ローズ春マリエ",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒720-2126 広島県福山市神辺町徳田４３０−４",
+   "mapsUri": "https://maps.google.com/?cid=15067395531057998716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "fukuyama"
+   ],
+   "slug": "結婚相談ローズ春マリエ-5e18"
+  },
+  {
+   "name": "結婚相談所ファミーユ広島支店",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒731-4312 広島県安芸郡坂町平成ヶ浜２丁目２−７２ 101",
+   "mapsUri": "https://maps.google.com/?cid=977146609343729868&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": null,
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-other"
+   ],
+   "slug": "結婚相談所ファミーユ広島支店-1a2d"
+  },
+  {
+   "name": "BELLE BOUQUET 結婚相談所広島",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒738-0027 広島県廿日市市平良山手１１−８ 905",
+   "mapsUri": "https://maps.google.com/?cid=14913282396262683260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://belle-bouquet.jp/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-other"
+   ],
+   "slug": "BELLE-BOUQUET-結婚相談所広島-9a7d"
+  },
+  {
+   "name": "結婚相談所 みらいパートナーズ広島",
+   "rating": null,
+   "count": 0,
+   "address": "日本、〒730-0012 広島県広島市中区上八丁堀７−２０ 庁舎前ビル",
+   "mapsUri": "https://maps.google.com/?cid=4052168025330169396&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+   "website": "https://www.miraipartners-hiroshima.com/",
+   "status": "OPERATIONAL",
+   "areas": [
+    "hiroshima-naka"
+   ],
+   "slug": "結婚相談所-みらいパートナーズ広島-71cf"
+  }
+ ]
+}
