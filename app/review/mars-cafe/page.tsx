@@ -108,7 +108,7 @@ export default function MarsCafeReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
         <p className="mb-6 text-sm">
-          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#8B7355] underline hover:text-[#7A6548] tracking-wider">マーズカフェ の公式サイトはこちら</a>
+          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">マーズカフェ の公式サイトはこちら</a>
         </p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
@@ -118,7 +118,7 @@ export default function MarsCafeReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -141,13 +141,13 @@ export default function MarsCafeReview() {
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             マーズカフェの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -188,7 +188,7 @@ export default function MarsCafeReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">マーズカフェ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">マーズカフェ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">エン婚活エージェント</th>
                 </tr>
@@ -205,7 +205,7 @@ export default function MarsCafeReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             マーズカフェの評判・口コミの傾向まとめ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -234,17 +234,17 @@ export default function MarsCafeReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             マーズカフェと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             マーズカフェが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
-            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#A08447] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジの評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -252,7 +252,7 @@ export default function MarsCafeReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -260,7 +260,7 @@ export default function MarsCafeReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -281,7 +281,7 @@ export default function MarsCafeReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -293,7 +293,7 @@ export default function MarsCafeReview() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">マーズカフェの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談でカフェ型の婚活を体験してみましょう</p>
-          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
+          <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
         </section>
 
         {/* Related */}
@@ -304,7 +304,7 @@ export default function MarsCafeReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

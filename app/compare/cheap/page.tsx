@@ -195,17 +195,17 @@ export default function CheapComparePage() {
         </p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論（検証済み10社・税込）</h2>
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論（検証済み10社・税込）</h2>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>1年総額の最安はスマリッジ 125,400円</strong>（成婚料0円なので成婚しても増えません）</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>仲人サポート付きで安く始めるなら<strong>エクセレンス青山（1年147,400円・ただしお見合い料都度）</strong>か<strong>ウェルスマ（1年191,400円・お見合い料0円）</strong>が検証済みの安値圏</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>⚠️ <strong>月会費の安さに注意</strong>：月7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量次第で総額が数万円単位で増えます</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>成婚時総額の検証レンジは12.5万〜55.8万円＝<strong>差は最大約4.5倍</strong>。仲人型は高いぶん伴走サポートが厚く、<strong>「安さ」と「手厚さ」はトレードオフ</strong>です</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>1年総額の最安はスマリッジ 125,400円</strong>（成婚料0円なので成婚しても増えません）</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>仲人サポート付きで安く始めるなら<strong>エクセレンス青山（1年147,400円・ただしお見合い料都度）</strong>か<strong>ウェルスマ（1年191,400円・お見合い料0円）</strong>が検証済みの安値圏</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>⚠️ <strong>月会費の安さに注意</strong>：月7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量次第で総額が数万円単位で増えます</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>成婚時総額の検証レンジは12.5万〜55.8万円＝<strong>差は最大約4.5倍</strong>。仲人型は高いぶん伴走サポートが厚く、<strong>「安さ」と「手厚さ」はトレードオフ</strong>です</span></li>
           </ul>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">1年総額の安い順ランキング（検証済み10社）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">1年総額の安い順ランキング（検証済み10社）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
@@ -224,14 +224,14 @@ export default function CheapComparePage() {
                 {rows.map((r) => (
                   <tr key={r.slug} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-3 font-medium whitespace-nowrap">
-                      <Link href={`/review/${r.slug}/`} className="text-[#8B7355] underline">{r.name}</Link>
+                      <Link href={`/review/${r.slug}/`} className="text-[#A08447] underline">{r.name}</Link>
                     </td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.type}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.initial}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.monthly}</td>
                     <td className="px-3 py-3">{r.omiai}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.seikon}</td>
-                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#8B7355]">{r.total1y}</td>
+                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#A08447]">{r.total1y}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.totalSeikon}</td>
                   </tr>
                 ))}
@@ -246,47 +246,47 @@ export default function CheapComparePage() {
         <A8Banner ad="wellsma" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">各社の特徴と割引・返金保証</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">各社の特徴と割引・返金保証</h2>
           <div className="space-y-4">
             {rows.map((r) => (
               <div key={r.slug} className="bg-white rounded-xl border border-gray-100 p-5">
                 <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-                  <h3 className="font-medium text-[#8B7355] tracking-wider">{r.name}</h3>
+                  <h3 className="font-medium text-[#A08447] tracking-wider">{r.name}</h3>
                   <span className="text-sm font-semibold">{r.total1y}<span className="text-xs text-[#2C2C2C]/50">／1年</span></span>
                 </div>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">{r.note}</p>
-                <Link href={`/review/${r.slug}/`} className="text-sm text-[#8B7355] underline">詳しい口コミ・評判を見る →</Link>
+                <Link href={`/review/${r.slug}/`} className="text-sm text-[#A08447] underline">詳しい口コミ・評判を見る →</Link>
               </div>
             ))}
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">安さで選ぶときの3つの注意点</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">安さで選ぶときの3つの注意点</h2>
           <div className="space-y-4">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">1. 総額は「成婚料込み」で見る</h3>
+              <h3 className="font-medium text-[#A08447] mb-1">1. 総額は「成婚料込み」で見る</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">仲人型は月会費が1万円前後でも、成婚退会時に220,000円の成婚料がかかる体系が一般的です。「月いくら」ではなく「出口までの総額」で比較しましょう。</p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">2. 安さの理由＝サポートの範囲を理解する</h3>
-              <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">オンライン型が安いのは店舗と専任仲人のコストがないから。検索・申し込み・交際の進行を自分で回せる人には十分ですが、伴走してほしい人は仲人型のほうが結果的に早く安く済むこともあります。来店不要のオンライン型4社（スマリッジ・ウェルスマ・エン婚活・naco-do）のサポート形式・会員基盤まで含めた比較は<Link href="/compare/online/" className="text-[#8B7355] underline">オンライン結婚相談所の比較</Link>で確認できます。</p>
+              <h3 className="font-medium text-[#A08447] mb-1">2. 安さの理由＝サポートの範囲を理解する</h3>
+              <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">オンライン型が安いのは店舗と専任仲人のコストがないから。検索・申し込み・交際の進行を自分で回せる人には十分ですが、伴走してほしい人は仲人型のほうが結果的に早く安く済むこともあります。来店不要のオンライン型4社（スマリッジ・ウェルスマ・エン婚活・naco-do）のサポート形式・会員基盤まで含めた比較は<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>で確認できます。</p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">3. 返金保証と割引の条件を必ず確認</h3>
+              <h3 className="font-medium text-[#A08447] mb-1">3. 返金保証と割引の条件を必ず確認</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">オンライン3社にはいずれも返金保証があり（スマリッジ・エン婚活=3ヶ月お見合い不成立、naco-do=90日間出会えなければ全額）、乗りかえ割・年齢割などの割引も随時あります。適用条件は入会前に書面で確認しましょう。</p>
             </div>
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-5 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider text-sm">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-5 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -297,10 +297,10 @@ export default function CheapComparePage() {
         <section>
           <h2 className="text-lg font-light mb-4 tracking-widest">あわせて読みたい</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link href="/compare/online/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">オンライン型比較</Link>
-            <Link href="/knowledge/cost/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">料金相場の解説</Link>
-            <Link href="/knowledge/how-to-choose/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">相談所の選び方</Link>
-            <Link href="/compare/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">料金比較一覧</Link>
+            <Link href="/compare/online/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">オンライン型比較</Link>
+            <Link href="/knowledge/cost/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">料金相場の解説</Link>
+            <Link href="/knowledge/how-to-choose/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">相談所の選び方</Link>
+            <Link href="/compare/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">料金比較一覧</Link>
           </div>
         </section>
 

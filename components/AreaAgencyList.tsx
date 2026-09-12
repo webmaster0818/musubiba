@@ -65,7 +65,7 @@ export default function AreaAgencyList({ area, areaName }: { area: string; areaN
               <p className="text-sm text-[#555] mt-2">{a.address}</p>
               <div className="flex flex-wrap gap-3 mt-3 text-sm font-bold">
                 {b && (
-                  <Link href={b.href} className="text-[#8B7355] underline underline-offset-2">
+                  <Link href={b.href} className="text-[#A08447] underline underline-offset-2">
                     {b.label}
                   </Link>
                 )}
@@ -89,8 +89,8 @@ export default function AreaAgencyList({ area, areaName }: { area: string; areaN
         <p className="font-bold text-[#2C2C2C] mb-2">結婚相談所選びに迷ったら</p>
         <p className="text-sm text-[#555] leading-relaxed">
           大手相談所は当サイトで料金・サービスを詳しく解説しています。
-          <Link href="/compare/cheap/" className="text-[#8B7355] underline mx-1">料金の安い相談所ランキング</Link>や
-          <Link href="/faq/" className="text-[#8B7355] underline mx-1">よくある質問</Link>もあわせてご覧ください。
+          <Link href="/compare/cheap/" className="text-[#A08447] underline mx-1">料金の安い相談所ランキング</Link>や
+          <Link href="/faq/" className="text-[#A08447] underline mx-1">よくある質問</Link>もあわせてご覧ください。
         </p>
       </div>
     </section>

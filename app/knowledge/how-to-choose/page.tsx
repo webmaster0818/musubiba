@@ -86,20 +86,20 @@ export default function KnowledgeHowToChoose() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：まず「タイプ」を知ってから比較する
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：まず「タイプ」を知ってから比較する
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>結婚相談所は大きく<strong>仲人型・データマッチング型・ハイブリッド型</strong>に分けられ、サポートの手厚さと自由度が異なります。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>相談しながら進めたいなら仲人型</strong>、<strong>自分のペースで探したいならデータマッチング型</strong>が向く傾向があります。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>会員数・成婚率は<strong>あくまで一つの目安</strong>。会員層・料金・カウンセラーとの相性も含めて総合的に選びましょう。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span>タイプ別の実例は<Link href="/compare/" className="text-[#8B7355] underline">料金比較</Link>や個別レビューで確認できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>結婚相談所は大きく<strong>仲人型・データマッチング型・ハイブリッド型</strong>に分けられ、サポートの手厚さと自由度が異なります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>相談しながら進めたいなら仲人型</strong>、<strong>自分のペースで探したいならデータマッチング型</strong>が向く傾向があります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>会員数・成婚率は<strong>あくまで一つの目安</strong>。会員層・料金・カウンセラーとの相性も含めて総合的に選びましょう。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>タイプ別の実例は<Link href="/compare/" className="text-[#A08447] underline">料金比較</Link>や個別レビューで確認できます。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページは一般的な傾向をまとめたものです。各社のサービス内容・料金は異なるため、詳細は公式サイトおよび無料相談でご確認ください。</p>
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">結婚相談所の3つのタイプと違い</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の3つのタイプと違い</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             結婚相談所は運営スタイルによって主に3つのタイプに分けられます。それぞれ、サポートの手厚さ・自由度・料金の傾向が異なります。
           </p>
@@ -123,30 +123,30 @@ export default function KnowledgeHowToChoose() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">タイプ別・向いている人</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">タイプ別・向いている人</h2>
 
-          <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">仲人型が向いている人</h3>
+          <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">仲人型が向いている人</h3>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-6">
-            自分から積極的にアプローチするのが苦手な人、婚活の進め方に不安があり相談しながら進めたい人、対面での手厚いサポートを重視する人に向いています。仲人型の例は<Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルのレビュー</Link>などで確認できます。
+            自分から積極的にアプローチするのが苦手な人、婚活の進め方に不安があり相談しながら進めたい人、対面での手厚いサポートを重視する人に向いています。仲人型の例は<Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルのレビュー</Link>などで確認できます。
           </p>
 
-          <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">データマッチング型が向いている人</h3>
+          <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">データマッチング型が向いている人</h3>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-6">
-            費用を抑えたい人、自分のペースで多くの相手を検索して活動したい人、オンライン中心で活動したい人に向いています。<Link href="/compare/" className="text-[#8B7355] underline">料金比較ページ</Link>でオンライン型・低価格の相談所を見比べられます。
+            費用を抑えたい人、自分のペースで多くの相手を検索して活動したい人、オンライン中心で活動したい人に向いています。<Link href="/compare/" className="text-[#A08447] underline">料金比較ページ</Link>でオンライン型・低価格の相談所を見比べられます。
           </p>
 
-          <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">ハイブリッド型が向いている人</h3>
+          <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">ハイブリッド型が向いている人</h3>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
-            サポートも欲しいが自分でも相手を探したい人、出会いの数と質のバランスを取りたい人に向いています。仲人とデータマッチングを併用できる例は<Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルのレビュー</Link>で確認できます。
+            サポートも欲しいが自分でも相手を探したい人、出会いの数と質のバランスを取りたい人に向いています。仲人とデータマッチングを併用できる例は<Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルのレビュー</Link>で確認できます。
           </p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">失敗しないためのチェックポイント</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">失敗しないためのチェックポイント</h2>
           <div className="space-y-3">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">①料金は総額と内訳を確認する</h3>
-              <p className="text-sm text-[#2C2C2C]/70">月会費だけでなく、初期費用・お見合い料・成婚料を含めた総額で比較します。詳しくは<Link href="/knowledge/cost/" className="text-[#8B7355] underline">料金相場の記事</Link>を参考にしてください。</p>
+              <p className="text-sm text-[#2C2C2C]/70">月会費だけでなく、初期費用・お見合い料・成婚料を含めた総額で比較します。詳しくは<Link href="/knowledge/cost/" className="text-[#A08447] underline">料金相場の記事</Link>を参考にしてください。</p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">②会員層が自分に合うか確認する</h3>
@@ -164,13 +164,13 @@ export default function KnowledgeHowToChoose() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -179,10 +179,10 @@ export default function KnowledgeHowToChoose() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">関連ページ・タイプ別に相談所を見る</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">関連ページ・タイプ別に相談所を見る</h2>
           <ul className="space-y-2 text-sm">
             {relatedLinks.map((l) => (
-              <li key={l.href}><Link href={l.href} className="text-[#8B7355] underline">{l.label}</Link></li>
+              <li key={l.href}><Link href={l.href} className="text-[#A08447] underline">{l.label}</Link></li>
             ))}
           </ul>
         </section>
@@ -190,7 +190,7 @@ export default function KnowledgeHowToChoose() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">タイプ別に相談所を比較する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">主要13社をタイプ・料金・特徴で一覧比較できます</p>
-          <Link href="/compare/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">料金比較を見る</Link>
+          <Link href="/compare/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">料金比較を見る</Link>
         </section>
 
         <AuthorBox />

@@ -167,17 +167,17 @@ export default function OnlineComparePage() {
         </p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論：目的別の選び方（検証済み4社・税込）</h2>
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論：目的別の選び方（検証済み4社・税込）</h2>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>とにかく安く始めたい → スマリッジ</strong>（1年総額125,400円・検証済みで最安。成婚料0円なので成婚しても増えません）</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>専任カウンセラーの仲人サポートも欲しい → ウェルスマ</strong>（完全オンラインの仲人型・IBJ約10.8万名・1年総額191,400円）</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>大手グループの安心感と紹介保証 → エン婚活エージェント</strong>（エン・ジャパン系・毎月6名以上紹介・1年総額231,000円）</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>出会いの母数を最大化したい → naco-do</strong>（3連盟連携で約12.1万人・90日間出会えなければ全額返金・1年総額267,600円）</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>とにかく安く始めたい → スマリッジ</strong>（1年総額125,400円・検証済みで最安。成婚料0円なので成婚しても増えません）</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>専任カウンセラーの仲人サポートも欲しい → ウェルスマ</strong>（完全オンラインの仲人型・IBJ約10.8万名・1年総額191,400円）</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>大手グループの安心感と紹介保証 → エン婚活エージェント</strong>（エン・ジャパン系・毎月6名以上紹介・1年総額231,000円）</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>出会いの母数を最大化したい → naco-do</strong>（3連盟連携で約12.1万人・90日間出会えなければ全額返金・1年総額267,600円）</span></li>
           </ul>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">オンライン結婚相談所4社の横断比較表</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">オンライン結婚相談所4社の横断比較表</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
@@ -196,13 +196,13 @@ export default function OnlineComparePage() {
                 {agencies.map((a) => (
                   <tr key={a.slug} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-3 font-medium whitespace-nowrap">
-                      <Link href={`/review/${a.slug}/`} className="text-[#8B7355] underline">{a.name}</Link>
+                      <Link href={`/review/${a.slug}/`} className="text-[#A08447] underline">{a.name}</Link>
                     </td>
                     <td className="px-3 py-3 whitespace-nowrap">{a.initial}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{a.monthly}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{a.seikon}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{a.omiai}</td>
-                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#8B7355]">{a.total1y}</td>
+                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#A08447]">{a.total1y}</td>
                     <td className="px-3 py-3 text-xs">{a.support}</td>
                     <td className="px-3 py-3 text-xs">{a.members}</td>
                   </tr>
@@ -211,23 +211,23 @@ export default function OnlineComparePage() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">
-            ※1年総額＝初期費用＋月会費×12ヶ月（各社の最安プラン基準・成婚料0円の場合）。ウェルスマは成婚退会時に成婚料149,800円が加わります（成婚した場合の総額341,200円）。料金は当サイトが各公式サイトで確認した公表値（スマリッジ・エン婚活・naco-do=2026年7月5日／ウェルスマ=2026年7月31日確認・税込）ですが、改定・キャンペーンにより変わる場合があるため、申込前に各公式サイトでご確認ください。10社まで広げた総額ランキングは<Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所の総額比較</Link>をご覧ください。
+            ※1年総額＝初期費用＋月会費×12ヶ月（各社の最安プラン基準・成婚料0円の場合）。ウェルスマは成婚退会時に成婚料149,800円が加わります（成婚した場合の総額341,200円）。料金は当サイトが各公式サイトで確認した公表値（スマリッジ・エン婚活・naco-do=2026年7月5日／ウェルスマ=2026年7月31日確認・税込）ですが、改定・キャンペーンにより変わる場合があるため、申込前に各公式サイトでご確認ください。10社まで広げた総額ランキングは<Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所の総額比較</Link>をご覧ください。
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">各社の特徴とおすすめな人</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">各社の特徴とおすすめな人</h2>
           <div className="space-y-4">
             {agencies.map((a) => (
               <div key={a.slug} className="bg-white rounded-xl border border-gray-100 p-5">
                 <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-                  <h3 className="font-medium text-[#8B7355] tracking-wider">
+                  <h3 className="font-medium text-[#A08447] tracking-wider">
                     <Link href={`/review/${a.slug}/`} className="hover:underline">{a.name}</Link>
                   </h3>
                   <span className="text-sm font-semibold">{a.total1y}<span className="text-xs text-[#2C2C2C]/50">／1年</span></span>
                 </div>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">{a.point}</p>
-                <Link href={`/review/${a.slug}/`} className="text-sm text-[#8B7355] underline">詳しい口コミ・評判を見る →</Link>
+                <Link href={`/review/${a.slug}/`} className="text-sm text-[#A08447] underline">詳しい口コミ・評判を見る →</Link>
               </div>
             ))}
           </div>
@@ -236,26 +236,26 @@ export default function OnlineComparePage() {
         <A8Banner ad="wellsma" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">オンライン型と店舗型の違い</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">オンライン型と店舗型の違い</h2>
           <div className="space-y-4">
             {differences.map((p) => (
               <div key={p.t} className="bg-white rounded-xl border border-gray-100 p-5">
-                <h3 className="font-medium text-[#8B7355] mb-1">{p.t}</h3>
+                <h3 className="font-medium text-[#A08447] mb-1">{p.t}</h3>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">{p.d}</p>
               </div>
             ))}
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">
-            ※仲人型・大手型を含む料金相場の全体像は<Link href="/knowledge/cost/" className="text-[#8B7355] underline">結婚相談所の料金相場</Link>で詳しく解説しています。
+            ※仲人型・大手型を含む料金相場の全体像は<Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場</Link>で詳しく解説しています。
           </p>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">オンライン結婚相談所の選び方3ステップ</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">オンライン結婚相談所の選び方3ステップ</h2>
           <div className="space-y-4">
             {steps.map((s) => (
               <div key={s.t} className="bg-white rounded-xl border border-gray-100 p-5">
-                <h3 className="font-medium text-[#8B7355] mb-1">{s.t}</h3>
+                <h3 className="font-medium text-[#A08447] mb-1">{s.t}</h3>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">{s.d}</p>
               </div>
             ))}
@@ -265,13 +265,13 @@ export default function OnlineComparePage() {
         <A8Banner ad="nacodo" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-5 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider text-sm">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-5 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -282,13 +282,13 @@ export default function OnlineComparePage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（検証済み10社ランキング）</Link></li>
-            <li><Link href="/knowledge/cost/" className="text-[#8B7355] underline">結婚相談所の料金相場（初期費用・月会費・成婚料の実額データ）</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの口コミ・評判</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの口コミ・評判</Link></li>
-            <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの口コミ・評判</Link></li>
-            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの口コミ・評判</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（検証済み10社ランキング）</Link></li>
+            <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場（初期費用・月会費・成婚料の実額データ）</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジの口コミ・評判</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの口コミ・評判</Link></li>
+            <li><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェントの口コミ・評判</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの口コミ・評判</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）</Link></li>
           </ul>
         </section>
       </main>

@@ -113,8 +113,8 @@ export default function BellroadReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月（料金・実績は2026年8月6日時点の公式サイト掲載情報を基に作成）</p>
 
         {/* Conclusion box */}
-        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#8B7355]/20">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論：ベルロード縁結びサポートはこんな人に向く相談所</h2>
+        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論：ベルロード縁結びサポートはこんな人に向く相談所</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             ベルロード縁結びサポートは、<strong>月9,800円（税込・1ヶ月プラン）の定額サブスク</strong>でIBJの会員基盤（公式掲載で9万人以上）を使えるオンライン完結型の結婚相談所です。お見合い料・更新料0円で、仲人紹介1名/月・AI紹介2名/月・申込50件/月まで定額に含まれるため、「大手連盟の出会いの母数を、月1万円以下で使いたい」人に向いています。
           </p>
@@ -125,7 +125,7 @@ export default function BellroadReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-8">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -150,7 +150,7 @@ export default function BellroadReview() {
 
         {/* Pricing */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ベルロード縁結びサポートの料金プラン（税込）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -161,14 +161,14 @@ export default function BellroadReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">1ヶ月プラン</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">3ヶ月プラン（一番人気）</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">6ヶ月プラン</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">1ヶ月プラン</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">3ヶ月プラン（一番人気）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">6ヶ月プラン</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">入会金</td><td className="px-4 py-3 text-center" colSpan={3}>30,000円（入会時のみ・全プラン共通）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">プラン費</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">27,600円<br /><span className="text-xs text-[#8B7355]">実質9,200円/月</span></td><td className="px-4 py-3 text-center">49,800円<br /><span className="text-xs text-[#8B7355]">実質8,300円/月</span></td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">プラン費</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">27,600円<br /><span className="text-xs text-[#A08447]">実質9,200円/月</span></td><td className="px-4 py-3 text-center">49,800円<br /><span className="text-xs text-[#A08447]">実質8,300円/月</span></td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">お見合い料</td><td className="px-4 py-3 text-center" colSpan={3}>0円（更新料も0円）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center" colSpan={3}>80,000円（成婚退会時のみ・全プラン共通）</td></tr>
               </tbody>
@@ -179,21 +179,21 @@ export default function BellroadReview() {
           </p>
 
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6 mt-6">
-            <h3 className="font-medium text-[#8B7355] mb-3 tracking-wider">1年活動した場合の総額試算</h3>
+            <h3 className="font-medium text-[#A08447] mb-3 tracking-wider">1年活動した場合の総額試算</h3>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/80 list-disc pl-5 mb-3">
               <li>1年総額（成婚料なし）: 入会金30,000円＋9,800円×12ヶ月＝<strong>147,600円</strong></li>
               <li>1年活動して成婚退会した場合: 147,600円＋成婚料80,000円＝<strong>227,600円</strong></li>
               <li>6ヶ月プラン×2回で1年活動し成婚した場合: 30,000円＋49,800円×2＋80,000円＝<strong>209,600円</strong></li>
             </ul>
             <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-              ※当サイトの<Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所の総額比較</Link>と同じ計算方式（初期費用＋月会費×12＋成婚料）です。お見合い料0円のため活動量が増えても総額は変わりません。
+              ※当サイトの<Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所の総額比較</Link>と同じ計算方式（初期費用＋月会費×12＋成婚料）です。お見合い料0円のため活動量が増えても総額は変わりません。
             </p>
           </div>
         </section>
 
         {/* Subscription vs traditional */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             「サブスク型」と従来型の結婚相談所は何が違う？
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -204,7 +204,7 @@ export default function BellroadReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">サブスク型（ベルロード）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">サブスク型（ベルロード）</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">従来型（店舗仲人型の一般的傾向）</th>
                 </tr>
               </thead>
@@ -217,19 +217,19 @@ export default function BellroadReview() {
             </table>
           </div>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
-            重要なのは、<strong>IBJ加盟店であれば会員データベースとIBJアプリはどの相談所でも共通</strong>だという点です（ベルロード公式サイトにも同旨の記載があります）。つまり「出会える相手の母数」は大手仲人型と変わらず、違いは料金とサポートの手厚さに集約されます。手厚い対面伴走が不要でコストを抑えたい人にはサブスク型が合理的ですが、写真撮影やお見合い練習まで任せたい人は従来型のほうが合います。オンライン型どうしの比較は<Link href="/compare/online/" className="text-[#8B7355] underline">オンライン結婚相談所の比較</Link>も参考にしてください。
+            重要なのは、<strong>IBJ加盟店であれば会員データベースとIBJアプリはどの相談所でも共通</strong>だという点です（ベルロード公式サイトにも同旨の記載があります）。つまり「出会える相手の母数」は大手仲人型と変わらず、違いは料金とサポートの手厚さに集約されます。手厚い対面伴走が不要でコストを抑えたい人にはサブスク型が合理的ですが、写真撮影やお見合い練習まで任せたい人は従来型のほうが合います。オンライン型どうしの比較は<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>も参考にしてください。
           </p>
         </section>
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ベルロード縁結びサポートの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -270,7 +270,7 @@ export default function BellroadReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ベルロード縁結びサポート</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ベルロード縁結びサポート</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">ウェルスマ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">スマリッジ</th>
                 </tr>
@@ -289,20 +289,20 @@ export default function BellroadReview() {
 
         {/* Reviews / How to verify */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ベルロード縁結びサポートの評判・口コミについて（正直な調査結果）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             当サイトで「ベルロード縁結びサポート 評判」「ベルロード縁結びサポート 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（2026年8月6日時点）。ネット上には紹介記事が複数ありますが、出典の示されていない口コミや古い情報が混在しています。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
-            <h3 className="font-medium text-[#8B7355] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
+            <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span>最新の料金表（入会金30,000円・1ヶ月プラン9,800円・成婚料80,000円の現行料金と一致するか）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span>自動更新の仕組みと退会連絡の期限（契約満了日の1日前まで。プラン費用の返金はない）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span>仲人チャット相談の返信スピード・対応時間の目安（オンライン型で最重要）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span>仲人紹介1名/月・AI紹介2名/月の紹介品質（自分の希望条件がどこまで反映されるか）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">5.</span>自分の居住エリアのIBJ会員数（公式FAQから都道府県別会員数を確認できる）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>最新の料金表（入会金30,000円・1ヶ月プラン9,800円・成婚料80,000円の現行料金と一致するか）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>自動更新の仕組みと退会連絡の期限（契約満了日の1日前まで。プラン費用の返金はない）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>仲人チャット相談の返信スピード・対応時間の目安（オンライン型で最重要）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>仲人紹介1名/月・AI紹介2名/月の紹介品質（自分の希望条件がどこまで反映されるか）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>自分の居住エリアのIBJ会員数（公式FAQから都道府県別会員数を確認できる）</li>
             </ul>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト（online.bell-road.com・bell-road.com）掲載情報および特定商取引法に基づく表記を基に作成しています。サービス内容・料金は変更される場合があります。</p>
@@ -310,17 +310,17 @@ export default function BellroadReview() {
 
         {/* Compare links */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ベルロード縁結びサポートと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             月額は安くても成婚料の有無で総額は逆転します。成婚料込みの総額と会員基盤をあわせて比較するのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所の1年総額比較を見る</Link></li>
-            <li><Link href="/compare/online/" className="text-[#8B7355] underline">オンライン結婚相談所の比較を見る</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマ（IBJ加盟オンライン仲人型）の評判・料金を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジ（成婚料0円）の評判・料金を見る</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所の1年総額比較を見る</Link></li>
+            <li><Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較を見る</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマ（IBJ加盟オンライン仲人型）の評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジ（成婚料0円）の評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -330,7 +330,7 @@ export default function BellroadReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -338,7 +338,7 @@ export default function BellroadReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -353,7 +353,7 @@ export default function BellroadReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -370,7 +370,7 @@ export default function BellroadReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

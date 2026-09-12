@@ -114,20 +114,20 @@ export default function CodeForMarriageReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：Code For Marriageはこんな人に向く
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：Code For Marriageはこんな人に向く
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>特徴</strong>：ITエンジニア専門×<strong>仲人が全員元SE</strong>×100%リモートという、他にない組み合わせの相談所。IBJ正規加盟で出会いの母数は全国規模です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：入会77,000円＋月11,000円＋成婚費220,000円（税込）。<strong>1年で成婚した場合の総額目安は約42.9万円</strong>。U-30プランなら若手はさらに割安です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：仕事や技術の話を「説明しなくても分かってくれる」担当者が欲しいエンジニア。地方・リモート勤務で通所が難しい人。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：2022年設立で第三者口コミが少ないため、無料相談での相性確認が判断の中心になります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：ITエンジニア専門×<strong>仲人が全員元SE</strong>×100%リモートという、他にない組み合わせの相談所。IBJ正規加盟で出会いの母数は全国規模です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会77,000円＋月11,000円＋成婚費220,000円（税込）。<strong>1年で成婚した場合の総額目安は約42.9万円</strong>。U-30プランなら若手はさらに割安です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：仕事や技術の話を「説明しなくても分かってくれる」担当者が欲しいエンジニア。地方・リモート勤務で通所が難しい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：2022年設立で第三者口コミが少ないため、無料相談での相性確認が判断の中心になります。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年8月17日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name, タイプ: overview.type, 会員数: overview.members,
@@ -143,11 +143,11 @@ export default function CodeForMarriageReview() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">Code For Marriageの強み・特徴</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">Code For Marriageの強み・特徴</h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -170,7 +170,7 @@ export default function CodeForMarriageReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年8月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年8月公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
@@ -185,33 +185,33 @@ export default function CodeForMarriageReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※お見合い料等の細部条件は無料相談でご確認ください。仲人型の相場（<Link href="/knowledge/cost/" className="underline text-[#8B7355]">料金相場の解説</Link>）と比べ、初期費用が抑えめの構成です。
+            ※お見合い料等の細部条件は無料相談でご確認ください。仲人型の相場（<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>）と比べ、初期費用が抑えめの構成です。
           </p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミがまだ少ない専門相談所の見極め方（正直な解説）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミがまだ少ない専門相談所の見極め方（正直な解説）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             当サイトの調査（2026年7月時点）では、Code For Marriageの<strong>第三者による口コミ・体験談はWeb上にまだほとんど存在しません</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりにエンジニアが専門特化型の相談所を見極めるポイントを整理します。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span><span><strong>「元SE」の具体度を無料相談で確認</strong>：担当仲人の経歴（開発経験・業界）を聞き、自分の職種・働き方をどこまで理解して提案してくれるかを見ます。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span><span><strong>IBJ加盟という客観的事実を土台にする</strong>：出会いの母数はIBJネットワークに依存するため、相談所の規模より「サポートの質」で選ぶのが専門特化型の正しい評価軸です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span><span><strong>リモート完結の相性を試す</strong>：無料相談自体がオンラインなので、「画面越しで本音を話せるか」をそのままテストできます。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span><span><strong>契約条件を書面で確認</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は必ず書面で確認しましょう。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>「元SE」の具体度を無料相談で確認</strong>：担当仲人の経歴（開発経験・業界）を聞き、自分の職種・働き方をどこまで理解して提案してくれるかを見ます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>IBJ加盟という客観的事実を土台にする</strong>：出会いの母数はIBJネットワークに依存するため、相談所の規模より「サポートの質」で選ぶのが専門特化型の正しい評価軸です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>リモート完結の相性を試す</strong>：無料相談自体がオンラインなので、「画面越しで本音を話せるか」をそのままテストできます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>契約条件を書面で確認</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は必ず書面で確認しましょう。</span></li>
           </ul>
         </section>
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -220,11 +220,11 @@ export default function CodeForMarriageReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/knowledge/cost/" className="text-[#8B7355] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
-            <li><Link href="/knowledge/how-to-choose/" className="text-[#8B7355] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
-            <li><Link href="/knowledge/flow/" className="text-[#8B7355] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
+            <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
+            <li><Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
+            <li><Link href="/knowledge/flow/" className="text-[#A08447] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
           </ul>
         </section>
 
@@ -232,7 +232,7 @@ export default function CodeForMarriageReview() {
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">{s.name}</Link>
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">{s.name}</Link>
             ))}
           </div>
         </section>

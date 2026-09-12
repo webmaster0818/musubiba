@@ -71,14 +71,14 @@ export default function TulipVsMusbellPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">基本スペック比較表</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">基本スペック比較表</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ブライダルチューリップ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ブライダルチューリップ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -95,14 +95,14 @@ export default function TulipVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">総額の目安を比較（公表料金ベース）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">総額の目安を比較（公表料金ベース）</h2>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#FAF7F2]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">ケース</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ブライダルチューリップ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ブライダルチューリップ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -122,7 +122,7 @@ export default function TulipVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">成婚率の「公表定義」で比べる</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">成婚率の「公表定義」で比べる</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             ブライダルチューリップは<strong>成婚率60%以上・1年以内成婚率70%以上</strong>（いずれも自社公称）を公表し、算出定義（成婚率＝成婚退会者数÷全退会者数、2010年〜2026年1月の実績）まで開示しています。定義次第で数値が大きく変わる指標のため、定義を明示している点は判断材料として評価できます。一方、<strong>ムスベルは成婚率を非公開</strong>としています。非公開が悪いわけではありませんが、数字で比較したい場合は無料相談で「直近1年の成婚退会数」を直接質問するのがおすすめです。
           </p>
@@ -133,30 +133,30 @@ export default function TulipVsMusbellPage() {
 
         <section className="mb-10 grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">ブライダルチューリップが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ブライダルチューリップが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚まで含めた総額を抑えたい（成婚料180,000円）</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>月会費7,550円〜の低め月額で仲人型を始めたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚率の定義など数字の根拠を開示する相談所を選びたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>面談回数無制限＋サブカウンセラーの体制で進めたい（オンライン対応）</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/bridal-tulip/" className="text-[#8B7355] underline">ブライダルチューリップの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/bridal-tulip/" className="text-[#A08447] underline">ブライダルチューリップの評判・料金を詳しく見る</Link></p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">ムスベルが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ムスベルが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用33,000円〜で低く始めたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住で全国拠点の対面サポートを受けたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介とデータ検索を併用して幅広く探したい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を詳しく見る</Link></p>
           </div>
         </section>
 
         <A8Banner ad="tulip" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((f, i) => (
               <details key={i} className="bg-white border border-gray-100 rounded-lg p-4">
@@ -170,12 +170,12 @@ export default function TulipVsMusbellPage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/bridal-tulip/" className="text-[#8B7355] underline">ブライダルチューリップの評判・料金を見る（3連盟・成婚率の定義まで検証）</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
-            <li><Link href="/compare/folli-vs-musbell/" className="text-[#8B7355] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
-            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/bridal-tulip/" className="text-[#A08447] underline">ブライダルチューリップの評判・料金を見る（3連盟・成婚率の定義まで検証）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
+            <li><Link href="/compare/folli-vs-musbell/" className="text-[#A08447] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
       </main>

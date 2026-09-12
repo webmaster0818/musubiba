@@ -427,7 +427,7 @@ export default function ConciergePage() {
       onClick={onClick}
       className={`w-full text-left px-4 py-3 rounded-lg border text-sm transition-all duration-200 ${
         selected
-          ? 'border-[#8B7355] bg-[#F5F0EB] text-[#8B7355] font-medium ring-1 ring-[#C9B99A]'
+          ? 'border-[#A08447] bg-[#F5F0EB] text-[#A08447] font-medium ring-1 ring-[#C9B99A]'
           : 'border-gray-200 bg-white text-gray-700 hover:border-[#C9B99A] hover:bg-[#F5F0EB]/40'
       }`}
     >
@@ -459,7 +459,7 @@ export default function ConciergePage() {
         onClick={onNext ?? next}
         className={`ml-auto px-6 py-2.5 text-sm rounded-lg font-medium transition-colors tracking-wider ${
           canNext
-            ? 'bg-[#8B7355] text-white hover:bg-[#7A6548]'
+            ? 'bg-[#A08447] text-white hover:bg-[#8A7239]'
             : 'bg-gray-200 text-gray-400 cursor-not-allowed'
         }`}
       >
@@ -491,7 +491,7 @@ export default function ConciergePage() {
             </div>
             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
               <div
-                className="h-full bg-[#8B7355] rounded-full transition-all duration-500 ease-out"
+                className="h-full bg-[#A08447] rounded-full transition-all duration-500 ease-out"
                 style={{ width: `${progressPct}%` }}
               />
             </div>
@@ -502,7 +502,7 @@ export default function ConciergePage() {
         {step === 0 && (
           <div className="w-full max-w-lg mx-auto text-center py-12" style={{ animation: 'fadeIn 0.4s ease-out' }}>
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F5F0EB] mb-6">
-              <svg className="w-8 h-8 text-[#8B7355]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+              <svg className="w-8 h-8 text-[#A08447]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
               </svg>
             </div>
@@ -515,7 +515,7 @@ export default function ConciergePage() {
             <button
               type="button"
               onClick={next}
-              className="inline-flex items-center gap-2 px-8 py-3 bg-[#8B7355] text-white font-normal rounded-full hover:bg-[#7A6548] transition-colors shadow-md tracking-widest"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-[#A08447] text-white font-normal rounded-full hover:bg-[#8A7239] transition-colors shadow-md tracking-widest"
             >
               診断スタート
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -660,7 +660,7 @@ export default function ConciergePage() {
                 <button
                   type="button"
                   onClick={() => { setStep(0); setResults(null); }}
-                  className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
+                  className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
                 >
                   もう一度診断する
                 </button>
@@ -689,7 +689,7 @@ export default function ConciergePage() {
                       {/* Header */}
                       <div className="flex items-center justify-between px-5 pt-4 pb-2">
                         <div className="flex items-center gap-3">
-                          <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#8B7355] text-white text-sm font-medium">
+                          <span className="flex items-center justify-center w-8 h-8 rounded-full bg-[#A08447] text-white text-sm font-medium">
                             {i + 1}
                           </span>
                           <div>
@@ -700,7 +700,7 @@ export default function ConciergePage() {
                           </div>
                         </div>
                         <div className="text-right">
-                          <p className="text-2xl font-light text-[#8B7355]">
+                          <p className="text-2xl font-light text-[#A08447]">
                             {r.matchPct}<span className="text-sm">%</span>
                           </p>
                           <p className="text-[10px] text-[#2C2C2C]/40 tracking-wider">マッチ度</p>
@@ -711,7 +711,7 @@ export default function ConciergePage() {
                         {/* Features */}
                         <div className="flex flex-wrap gap-1.5 mb-3">
                           {r.features.map((f) => (
-                            <span key={f} className="bg-[#F5F0EB] text-[#8B7355] text-xs px-2.5 py-1 rounded-full tracking-wider">
+                            <span key={f} className="bg-[#F5F0EB] text-[#A08447] text-xs px-2.5 py-1 rounded-full tracking-wider">
                               {f}
                             </span>
                           ))}
@@ -724,7 +724,7 @@ export default function ConciergePage() {
                         </div>
 
                         {/* Reason */}
-                        <p className="text-sm text-[#2C2C2C]/70 bg-[#FAFAF8] border border-[#8B7355]/15 rounded-lg p-3 mb-4 leading-relaxed">
+                        <p className="text-sm text-[#2C2C2C]/70 bg-[#FAFAF8] border border-[#A08447]/15 rounded-lg p-3 mb-4 leading-relaxed">
                           {r.reason}
                         </p>
 
@@ -735,14 +735,14 @@ export default function ConciergePage() {
                               href={r.affiliateUrl}
                               target="_blank"
                               rel="noopener noreferrer nofollow"
-                              className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
+                              className="flex-1 text-center bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
                             >
                               公式サイトへ
                             </a>
                           ) : (
                             <Link
                               href={`/review/${r.slug}/`}
-                              className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
+                              className="flex-1 text-center bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
                             >
                               口コミ・詳細を見る
                             </Link>
@@ -750,7 +750,7 @@ export default function ConciergePage() {
                           {isAffiliate && (
                             <Link
                               href={`/review/${r.slug}/`}
-                              className="flex-1 text-center border border-[#8B7355] text-[#8B7355] hover:bg-[#F5F0EB] font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
+                              className="flex-1 text-center border border-[#A08447] text-[#A08447] hover:bg-[#F5F0EB] font-normal py-3 px-6 rounded-lg transition-colors tracking-widest text-sm"
                             >
                               口コミ・詳細を見る
                             </Link>
@@ -766,7 +766,7 @@ export default function ConciergePage() {
                   <button
                     type="button"
                     onClick={() => { setStep(0); setResults(null); setAnswers({ prefecture: '', age: '', budget: '', priority: '', style: '' }); }}
-                    className="inline-flex items-center gap-2 text-sm text-[#8B7355] hover:text-[#7A6548] tracking-widest"
+                    className="inline-flex items-center gap-2 text-sm text-[#A08447] hover:text-[#8A7239] tracking-widest"
                   >
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -774,7 +774,7 @@ export default function ConciergePage() {
                     もう一度診断する
                   </button>
                   <div className="mt-4">
-                    <Link href="/#ranking" className="text-sm text-[#2C2C2C]/50 hover:text-[#8B7355] tracking-wider">
+                    <Link href="/#ranking" className="text-sm text-[#2C2C2C]/50 hover:text-[#A08447] tracking-wider">
                       ランキングページへ戻る
                     </Link>
                   </div>

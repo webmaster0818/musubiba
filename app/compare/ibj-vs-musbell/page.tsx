@@ -72,14 +72,14 @@ export default function IbjVsMusbellPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">基本スペック比較表</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">基本スペック比較表</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">IBJメンバーズ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">IBJメンバーズ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -96,7 +96,7 @@ export default function IbjVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">「IBJ直営」と「IBJ加盟店」の仕組みの違い</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">「IBJ直営」と「IBJ加盟店」の仕組みの違い</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             「IBJ」と名の付く婚活サービスには、株式会社IBJ（東証プライム上場）が直接運営する<strong>直営店＝IBJメンバーズ</strong>と、IBJ連盟に加盟して同じ会員ネットワークを使う<strong>独立した結婚相談所＝IBJ加盟店</strong>の2種類があります。ムスベルは後者にあたり、IBJに加えてBIU（日本ブライダル連盟）・良縁ネットなど<strong>複数の連盟に同時加盟</strong>しているのが特徴です。
           </p>
@@ -105,8 +105,8 @@ export default function IbjVsMusbellPage() {
               <thead>
                 <tr className="bg-[#FAF7F2]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">観点</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">IBJメンバーズ（直営）</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル（加盟店）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">IBJメンバーズ（直営）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル（加盟店）</th>
                 </tr>
               </thead>
               <tbody>
@@ -127,14 +127,14 @@ export default function IbjVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">成婚退会までの総額を試算比較（公表料金ベース）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">成婚退会までの総額を試算比較（公表料金ベース）</h2>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#FAF7F2]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">ケース</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">IBJメンバーズ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">IBJメンバーズ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -158,31 +158,31 @@ export default function IbjVsMusbellPage() {
 
         <section className="mb-10 grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">IBJメンバーズが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">IBJメンバーズが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>「成婚＝婚約」定義のフルサポートで婚約まで伴走してほしい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚退会者の割合1/2以上など定義つきの公表実績で選びたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>上場企業直営・全店共通料金の分かりやすさを重視したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚料は低め（220,000円）の体系で出口の負担を抑えたい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/ibj-members/" className="text-[#8B7355] underline">IBJメンバーズの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/ibj-members/" className="text-[#A08447] underline">IBJメンバーズの評判・料金を詳しく見る</Link></p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">ムスベルが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ムスベルが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用33,000円〜で入口の負担を抑えて始めたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>IBJに加えBIU・良縁ネットなど複数連盟の会員にも会いたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住で全国拠点の対面サポートを受けたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介とデータ検索を併用して幅広く探したい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を詳しく見る</Link></p>
           </div>
         </section>
 
         <A8Banner ad="ibj-members" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((f, i) => (
               <details key={i} className="bg-white border border-gray-100 rounded-lg p-4">
@@ -196,12 +196,12 @@ export default function IbjVsMusbellPage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/ibj-members/" className="text-[#8B7355] underline">IBJメンバーズの評判・料金を見る（直営と加盟店の違いを詳しく解説）</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
-            <li><Link href="/compare/sunmarie-vs-musbell/" className="text-[#8B7355] underline">サンマリエとムスベルを比較する（仲人型どうしの総額・サポート）</Link></li>
-            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#8B7355] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/ibj-members/" className="text-[#A08447] underline">IBJメンバーズの評判・料金を見る（直営と加盟店の違いを詳しく解説）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
+            <li><Link href="/compare/sunmarie-vs-musbell/" className="text-[#A08447] underline">サンマリエとムスベルを比較する（仲人型どうしの総額・サポート）</Link></li>
+            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#A08447] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
       </main>

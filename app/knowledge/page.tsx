@@ -62,31 +62,31 @@ export default function KnowledgeHub() {
         </p>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">基礎知識の記事一覧</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">基礎知識の記事一覧</h2>
           <div className="space-y-4">
             {articles.map((a) => (
               <Link
                 key={a.href}
                 href={a.href}
-                className="block bg-white rounded-2xl border border-gray-100 p-6 hover:border-[#8B7355] transition-colors"
+                className="block bg-white rounded-2xl border border-gray-100 p-6 hover:border-[#A08447] transition-colors"
               >
-                <h3 className="font-medium text-lg text-[#8B7355] tracking-wider mb-2">{a.title}</h3>
+                <h3 className="font-medium text-lg text-[#A08447] tracking-wider mb-2">{a.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{a.desc}</p>
-                <p className="text-xs text-[#8B7355] mt-3 font-medium">記事を読む →</p>
+                <p className="text-xs text-[#A08447] mt-3 font-medium">記事を読む →</p>
               </Link>
             ))}
           </div>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">気になる相談所を比較・チェックする</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">気になる相談所を比較・チェックする</h2>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-4">
             基礎知識をつかんだら、実際の相談所の料金や評判を見比べてみましょう。料金比較や個別レビューで、自分の条件に合う相談所を探せます。
           </p>
           <ul className="space-y-2 text-sm">
             {relatedLinks.map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="text-[#8B7355] underline">{l.label}</Link>
+                <Link href={l.href} className="text-[#A08447] underline">{l.label}</Link>
               </li>
             ))}
           </ul>
@@ -95,7 +95,7 @@ export default function KnowledgeHub() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">まずはランキングから探す</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">料金・成婚率・サポート体制で厳選した結婚相談所ランキングをチェックしましょう</p>
-          <Link href="/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングを見る</Link>
+          <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングを見る</Link>
         </section>
 
         <AuthorBox />

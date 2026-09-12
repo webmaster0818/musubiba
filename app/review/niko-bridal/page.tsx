@@ -113,20 +113,20 @@ export default function NikoBridalReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月7日に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：nikoブライダルはこんな人に向く
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：nikoブライダルはこんな人に向く
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>特徴</strong>：大阪の1名運営×IBJ正規加盟。<strong>成婚率56.3%を算出条件付きで公表</strong>（2025年・成婚退会÷全退会）し、IBJ AWARDを5年連続受賞している実績型の小規模相談所です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：初期110,000円＋月13,200円＋成婚料220,000円（税込・お見合い料無料）。<strong>1年で成婚した場合の総額目安は約48.8万円</strong>。男性向けプラン（総額約48.4万円・お見合い同行付き）もあります。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：大阪市内（梅田・難波・天王寺）で、数字の根拠を示す相談所を選びたい人。仕事帰りに出張面談で活動したい人。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：固定店舗なし・電話番号非公表（フォーム/LINE中心）。店舗の安心感を重視する人には不向きです。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：大阪の1名運営×IBJ正規加盟。<strong>成婚率56.3%を算出条件付きで公表</strong>（2025年・成婚退会÷全退会）し、IBJ AWARDを5年連続受賞している実績型の小規模相談所です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期110,000円＋月13,200円＋成婚料220,000円（税込・お見合い料無料）。<strong>1年で成婚した場合の総額目安は約48.8万円</strong>。男性向けプラン（総額約48.4万円・お見合い同行付き）もあります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：大阪市内（梅田・難波・天王寺）で、数字の根拠を示す相談所を選びたい人。仕事帰りに出張面談で活動したい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：固定店舗なし・電話番号非公表（フォーム/LINE中心）。店舗の安心感を重視する人には不向きです。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報（2026年7月7日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name, タイプ: overview.type, 会員数: overview.members,
@@ -142,11 +142,11 @@ export default function NikoBridalReview() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">nikoブライダルの強み・特徴</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">nikoブライダルの強み・特徴</h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -169,7 +169,7 @@ export default function NikoBridalReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月7日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月7日公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
@@ -198,12 +198,12 @@ export default function NikoBridalReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※男性婚活プランは30〜40代男性向け設計で、お見合い同行・プロポーズ相談が含まれます。仲人型の相場は<Link href="/knowledge/cost/" className="underline text-[#8B7355]">料金相場の解説</Link>、より安い選択肢は<Link href="/compare/cheap/" className="underline text-[#8B7355]">総額の安い結婚相談所比較</Link>をご覧ください。
+            ※男性婚活プランは30〜40代男性向け設計で、お見合い同行・プロポーズ相談が含まれます。仲人型の相場は<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>、より安い選択肢は<Link href="/compare/cheap/" className="underline text-[#A08447]">総額の安い結婚相談所比較</Link>をご覧ください。
           </p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">「成婚率56.3%」の正しい読み方（正直な解説）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">「成婚率56.3%」の正しい読み方（正直な解説）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             nikoブライダルの成婚率は<strong>「成婚退会人数÷全退会人数」（2025年1〜12月・自社会員実績）</strong>という条件付きで公表されています。これはIBJ標準の算出方法で、「退会した人のうち成婚して辞めた人の割合」を意味します。入会者全員の56.3%が成婚するという意味ではありませんが、算出条件を明示しない相談所が多い中で検証可能な公表姿勢は評価できます。あわせて公表されている平均活動期間8.4ヶ月は<strong>2024年実績で、成婚率と対象年が異なる</strong>点だけ留意してください。
           </p>
@@ -215,13 +215,13 @@ export default function NikoBridalReview() {
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -233,7 +233,7 @@ export default function NikoBridalReview() {
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">{s.name}</Link>
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">{s.name}</Link>
             ))}
           </div>
         </section>

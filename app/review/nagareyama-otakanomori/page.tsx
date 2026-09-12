@@ -115,20 +115,20 @@ export default function NagareyamaOtakanomoriReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：流山おおたかの森結婚相談所はこんな人に向く
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：流山おおたかの森結婚相談所はこんな人に向く
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>特徴</strong>：カウンセラー歴23年の代表による<strong>1名運営×IBJ加盟</strong>の地域密着型。担当交代なしの伴走と、IBJ全国ネットワークの出会いを両立できます。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：初期165,000円＋月9,900円＋成婚料220,000円（税込・単一プラン）。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>。月会費は仲人型の相場より低めです。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：流山・柏・野田・松戸エリアで、大手より「同じ担当者にずっと見てほしい」人。TX沿線で対面相談したい人。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：第三者口コミがまだ少ないため、判断は無料相談での相性確認が中心になります（本文で見極めポイントを解説）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：カウンセラー歴23年の代表による<strong>1名運営×IBJ加盟</strong>の地域密着型。担当交代なしの伴走と、IBJ全国ネットワークの出会いを両立できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期165,000円＋月9,900円＋成婚料220,000円（税込・単一プラン）。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>。月会費は仲人型の相場より低めです。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：流山・柏・野田・松戸エリアで、大手より「同じ担当者にずっと見てほしい」人。TX沿線で対面相談したい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：第三者口コミがまだ少ないため、判断は無料相談での相性確認が中心になります（本文で見極めポイントを解説）。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年7月確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name, タイプ: overview.type, 会員数: overview.members,
@@ -144,11 +144,11 @@ export default function NagareyamaOtakanomoriReview() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">流山おおたかの森結婚相談所の強み・特徴</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">流山おおたかの森結婚相談所の強み・特徴</h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -171,7 +171,7 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握しましょう。
           </p>
@@ -187,45 +187,45 @@ export default function NagareyamaOtakanomoriReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※金額はすべて税込・2026年7月に公式サイトで確認した公表値です。お見合い料の有無など細部の条件は無料相談でご確認ください。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#8B7355]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
+            ※金額はすべて税込・2026年7月に公式サイトで確認した公表値です。お見合い料の有無など細部の条件は無料相談でご確認ください。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
           </p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミがまだ少ない相談所の見極め方（正直な解説）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミがまだ少ない相談所の見極め方（正直な解説）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             当サイトの調査（2026年7月時点）では、流山おおたかの森結婚相談所の<strong>第三者による口コミ・体験談はWeb上にまだほとんど存在しません</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりに「口コミが少ない小規模相談所を検討するときの見極めポイント」を整理します。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：IBJ加盟（公式サイトに明記・IBJ公式の加盟店ページも存在）、料金の内訳公開など、検証可能な事実は揃っています。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span><span><strong>無料相談で「具体性」を見る</strong>：あなたの条件での活動プラン・お見合い成立の見込み・過去の成婚事例を、どこまで具体的に話せるかが力量の判断材料になります。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）を必ず書面で確認しましょう。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span><span><strong>1名運営との相性を最重視する</strong>：担当交代がない分、「この人に本音を話せるか」が大手以上に重要です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：IBJ加盟（公式サイトに明記・IBJ公式の加盟店ページも存在）、料金の内訳公開など、検証可能な事実は揃っています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>無料相談で「具体性」を見る</strong>：あなたの条件での活動プラン・お見合い成立の見込み・過去の成婚事例を、どこまで具体的に話せるかが力量の判断材料になります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）を必ず書面で確認しましょう。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>1名運営との相性を最重視する</strong>：担当交代がない分、「この人に本音を話せるか」が大手以上に重要です。</span></li>
           </ul>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">他社と比較して選ぶ</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">他社と比較して選ぶ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             千葉・首都圏で仲人型を検討するなら、大手・中堅とも比較して、料金総額とサポート体制の違いを見ておくと判断しやすくなります。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟の仲人型大手）</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー特化）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較一覧を見る</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟の仲人型大手）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（プロカウンセラー特化）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較一覧を見る</Link></li>
           </ul>
         </section>
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -234,11 +234,11 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/knowledge/cost/" className="text-[#8B7355] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
-            <li><Link href="/knowledge/how-to-choose/" className="text-[#8B7355] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
-            <li><Link href="/knowledge/flow/" className="text-[#8B7355] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
+            <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
+            <li><Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
+            <li><Link href="/knowledge/flow/" className="text-[#A08447] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
           </ul>
         </section>
 
@@ -246,7 +246,7 @@ export default function NagareyamaOtakanomoriReview() {
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">{s.name}</Link>
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">{s.name}</Link>
             ))}
           </div>
         </section>

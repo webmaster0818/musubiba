@@ -117,14 +117,14 @@ export default function RingbellReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年6月</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：リングベルはこんな人に向く相談所
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：リングベルはこんな人に向く相談所
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>評判・口コミ</strong>：仲人による1対1の手厚いサポートと、地域密着で生活圏が近い相手と出会いやすい点を評価する声が中心です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：初期費用88,000円〜＋月会費13,200円〜＋成婚料220,000円。1年で成婚した場合の総額目安は<strong>約466,400円〜</strong>（公表料金にもとづく試算・要確認）。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：成婚料がやや高めで、大手と比べると会員数・展開エリアは限定的。総額は事前確認が大切です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：数より質を重視したい人、地元で結婚相手を探したい人、仲人に手厚く伴走してほしい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：仲人による1対1の手厚いサポートと、地域密着で生活圏が近い相手と出会いやすい点を評価する声が中心です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用88,000円〜＋月会費13,200円〜＋成婚料220,000円。1年で成婚した場合の総額目安は<strong>約466,400円〜</strong>（公表料金にもとづく試算・要確認）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：成婚料がやや高めで、大手と比べると会員数・展開エリアは限定的。総額は事前確認が大切です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：数より質を重視したい人、地元で結婚相手を探したい人、仲人に手厚く伴走してほしい人。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
@@ -135,7 +135,7 @@ export default function RingbellReview() {
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -157,11 +157,11 @@ export default function RingbellReview() {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルの強み・特徴</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルの強み・特徴</h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -194,7 +194,7 @@ export default function RingbellReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">リングベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">リングベル</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">サンマリエ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">パートナーエージェント</th>
                 </tr>
@@ -211,7 +211,7 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルの料金プランと総額の目安</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルの料金プランと総額の目安</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             「リングベル 料金」で気になるのは、月会費だけでなく<strong>入会から成婚までにかかる総額</strong>です。公表されている料金をもとに、1年間活動した場合の総額の目安を整理しました。
           </p>
@@ -230,13 +230,13 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルの口コミ・評判の傾向</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルの口コミ・評判の傾向</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             「リングベル 結婚相談所 口コミ」で調べる方向けに、評判の傾向を実情報をもとに整理しました（個々の体験には差があります）。
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <p className="font-medium text-[#8B7355] mb-2">良い評判の傾向</p>
+              <p className="font-medium text-[#A08447] mb-2">良い評判の傾向</p>
               <ul className="text-sm text-[#2C2C2C]/70 space-y-1 list-disc pl-4">
                 <li>仲人による1対1の手厚いサポートが心強い</li>
                 <li>地域密着で、生活圏が近い相手と出会いやすい</li>
@@ -256,41 +256,41 @@ export default function RingbellReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">リングベルと他社を比較して選ぶ</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルと他社を比較して選ぶ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             仲人型は相談所ごとに料金総額や対象エリアが異なります。リングベルが自分に合うか、他社と見比べて検討しましょう。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
-            <li><Link href="/review/bridal-tulip/" className="text-[#8B7355] underline">ブライダルチューリップの評判・料金を見る（3連盟・月会費7,550円〜の仲人型）</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの評判・料金を見る（来店不要のオンライン仲人型・月11,800円〜）</Link></li>
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/review/bridal-tulip/" className="text-[#A08447] underline">ブライダルチューリップの評判・料金を見る（3連盟・月会費7,550円〜の仲人型）</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（来店不要のオンライン仲人型・月11,800円〜）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">リングベルが自分に合うか迷ったら、料金の相場やタイプの違い、活動の流れといった基礎知識もあわせて確認すると判断しやすくなります。</p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/knowledge/cost/" className="text-[#8B7355] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
-            <li><Link href="/knowledge/how-to-choose/" className="text-[#8B7355] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
-            <li><Link href="/knowledge/flow/" className="text-[#8B7355] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
+            <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
+            <li><Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
+            <li><Link href="/knowledge/flow/" className="text-[#A08447] underline">結婚相談所の入会から成婚までの流れ・活動期間の目安</Link></li>
           </ul>
         </section>
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -304,7 +304,7 @@ export default function RingbellReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -316,14 +316,14 @@ export default function RingbellReview() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">リングベルの無料相談を予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは仲人との無料面談で婚活の第一歩を踏み出しましょう</p>
-          <Link href="/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
+          <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">{s.name}</Link>
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">{s.name}</Link>
             ))}
           </div>
         </section>

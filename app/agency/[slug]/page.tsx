@@ -83,7 +83,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       </p>
 
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-8">
-        <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報(Googleマップ・{db.surveyedAt}取得)</div>
+        <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報(Googleマップ・{db.surveyedAt}取得)</div>
         <div className="divide-y divide-gray-50 text-sm">
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">名称</span><span className="text-[#2C2C2C]">{a.name}</span></div>
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">Gマップ評点</span><span className="text-[#2C2C2C] font-semibold">{a.rating ?? "－"} <span className="font-normal text-[#2C2C2C]/60">(口コミ{a.count}件)</span></span></div>
@@ -94,12 +94,12 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
 
       <div className="flex flex-col sm:flex-row gap-3 mb-10">
         {a.mapsUri && (
-          <a href={a.mapsUri} target="_blank" rel="nofollow noopener noreferrer" className="inline-block rounded-lg bg-[#8B7355] px-6 py-3 text-sm font-bold text-white text-center hover:opacity-90">
+          <a href={a.mapsUri} target="_blank" rel="nofollow noopener noreferrer" className="inline-block rounded-lg bg-[#A08447] px-6 py-3 text-sm font-bold text-white text-center hover:opacity-90">
             Googleマップで口コミ・地図を見る
           </a>
         )}
         {brand && (
-          <Link href={brand.href} className="inline-block rounded-lg border border-[#8B7355] px-6 py-3 text-sm font-bold text-[#8B7355] text-center hover:bg-[#FAF7F2]">
+          <Link href={brand.href} className="inline-block rounded-lg border border-[#A08447] px-6 py-3 text-sm font-bold text-[#A08447] text-center hover:bg-[#FAF7F2]">
             {brand.label}(当サイト)
           </Link>
         )}
@@ -107,32 +107,32 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
 
       {brand && (
         <p className="text-sm text-[#555] leading-relaxed mb-8 bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-4">
-          この相談所は当サイトでレビュー記事を公開しているブランドの店舗です。料金体系・向いている人の詳細は<Link href={brand.href} className="text-[#8B7355] underline">{brand.label}</Link>をご覧ください。
+          この相談所は当サイトでレビュー記事を公開しているブランドの店舗です。料金体系・向いている人の詳細は<Link href={brand.href} className="text-[#A08447] underline">{brand.label}</Link>をご覧ください。
         </p>
       )}
 
       <section className="mb-10">
-        <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">はじめて結婚相談所を検討する方へ</h2>
+        <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">はじめて結婚相談所を検討する方へ</h2>
         <p className="text-sm text-[#555] leading-relaxed mb-3">
           結婚相談所は「無料相談→入会(独身証明書等の書類)→プロフィール作成→お見合い→交際→成婚退会」という流れで進みます。
           費用は①入会時②毎月③成婚退会時の3タイミングで発生するのが標準形で、総額で比較するのが失敗しないコツです。
         </p>
         <p className="text-sm">
-          <Link href="/knowledge/flow/" className="text-[#8B7355] underline">→ 入会から成婚までの流れ(初めての方向け)</Link>
+          <Link href="/knowledge/flow/" className="text-[#A08447] underline">→ 入会から成婚までの流れ(初めての方向け)</Link>
           <span className="mx-2 text-gray-300">|</span>
-          <Link href="/knowledge/cost/" className="text-[#8B7355] underline">→ 料金相場と総額の考え方</Link>
+          <Link href="/knowledge/cost/" className="text-[#A08447] underline">→ 料金相場と総額の考え方</Link>
           <span className="mx-2 text-gray-300">|</span>
-          <Link href="/knowledge/how-to-choose/" className="text-[#8B7355] underline">→ 選び方ガイド</Link>
+          <Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">→ 選び方ガイド</Link>
         </p>
       </section>
 
       {nearby.length > 0 && (
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">{AREA_LABELS[primaryArea] || "同じエリア"}の他の結婚相談所</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">{AREA_LABELS[primaryArea] || "同じエリア"}の他の結婚相談所</h2>
           <ul className="space-y-2 text-sm">
             {nearby.map((x) => (
               <li key={x.slug} className="bg-white rounded-lg border border-gray-100 px-4 py-3 flex flex-wrap items-center gap-x-3">
-                <Link href={`/agency/${encodeURIComponent(x.slug)}/`} className="font-medium text-[#8B7355] underline">{x.name}</Link>
+                <Link href={`/agency/${encodeURIComponent(x.slug)}/`} className="font-medium text-[#A08447] underline">{x.name}</Link>
                 <span className="text-[#2C2C2C]/60">評点{x.rating ?? "－"}・口コミ{x.count}件</span>
               </li>
             ))}
@@ -141,7 +141,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       )}
 
       <section className="mb-10">
-        <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+        <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
         <div className="space-y-3">
           {faqs.map((f, i) => (
             <details key={i} className="rounded-lg border border-gray-100 bg-white p-4">
@@ -153,9 +153,9 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       </section>
 
       <p className="text-sm mb-8">
-        <Link href={areaHref} className="text-[#8B7355] underline">→ {prefName}の結婚相談所一覧に戻る</Link>
+        <Link href={areaHref} className="text-[#A08447] underline">→ {prefName}の結婚相談所一覧に戻る</Link>
         <span className="mx-2 text-gray-300">|</span>
-        <Link href="/compare/" className="text-[#8B7355] underline">→ 大手結婚相談所の比較</Link>
+        <Link href="/compare/" className="text-[#A08447] underline">→ 大手結婚相談所の比較</Link>
       </p>
 
       <p className="text-xs text-[#999] leading-relaxed">

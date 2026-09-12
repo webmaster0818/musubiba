@@ -126,13 +126,13 @@ export default function MensHubPage() {
         </p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：男性が結婚相談所を選ぶ3基準
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：男性が結婚相談所を選ぶ3基準
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span><span><strong>男性会員としての費用実額で比べる</strong>：お見合い料が男女別の相談所があります（例：エクセレンス青山は男性8,800円／女性5,500円）。検証5社の「男性の1年成婚総額」試算は<strong>約34.1万〜67.7万円</strong>で、差は約2倍です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span><span><strong>男女比・会員構成の公表有無を確認する</strong>：当サイト検証の範囲では<strong>男女比を数値公表している相談所は確認できませんでした</strong>。公表データがあるのはIBJメンバーズの会員構成（男性の90.2%が年収500万円以上・2026年1月1日時点）など一部のみ。非公表の相談所は無料相談で「自分の年代の実績」を質問して補いましょう。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span><span><strong>男性向けサポートの有無で選ぶ</strong>：男性専門の<strong>ヒーローマリッジ</strong>は写真撮影何度でも無料＋ABテストなど男性特化の設計。男女両方対応の相談所でも、写真・プロフィール添削のサポート範囲は無料相談で確認できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>男性会員としての費用実額で比べる</strong>：お見合い料が男女別の相談所があります（例：エクセレンス青山は男性8,800円／女性5,500円）。検証5社の「男性の1年成婚総額」試算は<strong>約34.1万〜67.7万円</strong>で、差は約2倍です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>男女比・会員構成の公表有無を確認する</strong>：当サイト検証の範囲では<strong>男女比を数値公表している相談所は確認できませんでした</strong>。公表データがあるのはIBJメンバーズの会員構成（男性の90.2%が年収500万円以上・2026年1月1日時点）など一部のみ。非公表の相談所は無料相談で「自分の年代の実績」を質問して補いましょう。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>男性向けサポートの有無で選ぶ</strong>：男性専門の<strong>ヒーローマリッジ</strong>は写真撮影何度でも無料＋ABテストなど男性特化の設計。男女両方対応の相談所でも、写真・プロフィール添削のサポート範囲は無料相談で確認できます。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は各公式サイトの公表情報（2026年7月〜8月に当サイト確認・税込）にもとづきます。最新の数値・契約条件は必ず公式サイトおよび無料相談でご確認ください。</p>
         </div>
@@ -140,7 +140,7 @@ export default function MensHubPage() {
         <A8Banner ad="hero" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">男性向け比較表（検証済み5社・男性の実額）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">男性向け比較表（検証済み5社・男性の実額）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             「男性の1年成婚総額」は<strong>初期費用＋月会費×12ヶ月＋男性のお見合い料（都度払いは月1件＝年12件で試算）＋成婚料</strong>の当サイト試算です。安い順に並べています。
           </p>
@@ -161,14 +161,14 @@ export default function MensHubPage() {
                 {rows.map((r) => (
                   <tr key={r.slug} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-3 font-medium whitespace-nowrap">
-                      <Link href={`/review/${r.slug}/`} className="text-[#8B7355] underline">{r.name}</Link>
+                      <Link href={`/review/${r.slug}/`} className="text-[#A08447] underline">{r.name}</Link>
                     </td>
                     <td className="px-3 py-3">{r.type}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.initial}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.monthly}</td>
                     <td className="px-3 py-3">{r.omiai}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.seikon}</td>
-                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#8B7355]">{r.totalMen}</td>
+                    <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#A08447]">{r.totalMen}</td>
                   </tr>
                 ))}
               </tbody>
@@ -180,7 +180,7 @@ export default function MensHubPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">男女比・会員構成は公表されている？（正直な整理）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">男女比・会員構成は公表されている？（正直な整理）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             男性にとって「相手候補となる女性会員がどれだけいるか」は重要ですが、当サイトが検証した範囲では、<strong>男女比の数値を公式サイトで公表している相談所は確認できませんでした</strong>。存在しない数字を掲載しない方針のため、確認できた公式データのみを整理します。
           </p>
@@ -208,22 +208,22 @@ export default function MensHubPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">30代男性は何から始めるべきか（データで進める3ステップ）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">30代男性は何から始めるべきか（データで進める3ステップ）</h2>
           <div className="space-y-4">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">STEP1. 総額の予算レンジを先に決める（検証実額：約34.1万〜67.7万円）</h3>
+              <h3 className="font-medium text-[#A08447] mb-1">STEP1. 総額の予算レンジを先に決める（検証実額：約34.1万〜67.7万円）</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
-                結婚相談所の費用は「初期費用＋月会費×活動月数＋お見合い料＋成婚料」で決まります。当サイト検証5社の男性1年成婚総額の試算は<strong>約341,200円〜約677,050円</strong>。まず「成婚まで出せる総額」を決めると、候補は自動的に絞れます。月会費の安さだけで選ぶと、お見合い料都度払い（男性8,800円／回の例あり）や成婚料で総額が逆転する点に注意してください。詳細は<Link href="/compare/cheap/" className="text-[#8B7355] underline">1年総額の10社比較</Link>で確認できます。
+                結婚相談所の費用は「初期費用＋月会費×活動月数＋お見合い料＋成婚料」で決まります。当サイト検証5社の男性1年成婚総額の試算は<strong>約341,200円〜約677,050円</strong>。まず「成婚まで出せる総額」を決めると、候補は自動的に絞れます。月会費の安さだけで選ぶと、お見合い料都度払い（男性8,800円／回の例あり）や成婚料で総額が逆転する点に注意してください。詳細は<Link href="/compare/cheap/" className="text-[#A08447] underline">1年総額の10社比較</Link>で確認できます。
               </p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">STEP2. 入会条件と公表データで「自分が戦う環境」を確認する</h3>
+              <h3 className="font-medium text-[#A08447] mb-1">STEP2. 入会条件と公表データで「自分が戦う環境」を確認する</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
                 公開されている数字で環境を把握します。例えばIBJメンバーズの入会条件は<strong>男性25〜49歳・年収基準あり（20代400万円以上〜40代600万円以上などエリアにより異なる）</strong>で、会員データ（2026年1月1日時点）では<strong>男性の90.2%が年収500万円以上・四大/大学院卒85%</strong>と公表されています。つまり大手連盟では、30代男性は同条件帯の男性と比較される前提で活動することになります。写真・プロフィールのサポートが手厚い相談所（例：ヒーローマリッジは撮影何度でも無料＋ABテスト）を選ぶ価値は、この競争環境のデータから判断できます。
               </p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <h3 className="font-medium text-[#8B7355] mb-1">STEP3. 無料相談を2〜3社受けて「定義つきの数字」で比較する</h3>
+              <h3 className="font-medium text-[#A08447] mb-1">STEP3. 無料相談を2〜3社受けて「定義つきの数字」で比較する</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
                 成婚率は各社で定義が異なるため、数字単体では比較できません。IBJメンバーズは「成婚＝婚約」で成婚退会者の割合1/2以上（2025年実績・全退会者のうち成婚退会者の割合）、ブライダルチューリップは成婚率60%以上（成婚退会者数÷全退会者数・2010年〜2026年1月）、ウェルスマは1年以内成婚率86.1%（分母＝成婚退会者）。いずれも自社公称値です。無料相談では「直近1年の成婚退会数」「自分と近い年代・年収の男性の活動事例」「成婚の定義と成婚料の発生時点」を同じ質問で聞き、回答の具体性で比べるのが確実です。活動期間の参考値として、ウェルスマは成婚まで平均7.9ヶ月（自社公称）を公表しています。
               </p>
@@ -232,27 +232,27 @@ export default function MensHubPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">男性向けサポートで選ぶ2社</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">男性向けサポートで選ぶ2社</h2>
           <div className="space-y-4">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-                <h3 className="font-medium text-[#8B7355] tracking-wider">ヒーローマリッジ（男性専門）</h3>
+                <h3 className="font-medium text-[#A08447] tracking-wider">ヒーローマリッジ（男性専門）</h3>
                 <span className="text-sm font-semibold">約583,000円<span className="text-xs text-[#2C2C2C]/50">／1年成婚試算</span></span>
               </div>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">
                 会員を男性に限定したIBJ加盟の男性専門相談所。プロカメラマン撮影が何度でも無料＋写真ABテスト、データ重視の「ロジカル婚活」、月3名紹介＋LINEサポート、お見合い申込み月200件・お見合い料0円。成婚率は非公開（2026年7月確認）のため、無料相談で直近実績の確認を。
               </p>
-              <Link href="/review/hero-marriage/" className="text-sm text-[#8B7355] underline">ヒーローマリッジの評判・料金を詳しく見る →</Link>
+              <Link href="/review/hero-marriage/" className="text-sm text-[#A08447] underline">ヒーローマリッジの評判・料金を詳しく見る →</Link>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
-                <h3 className="font-medium text-[#8B7355] tracking-wider">ブライダルチューリップ（男性の入会歓迎・3連盟）</h3>
+                <h3 className="font-medium text-[#A08447] tracking-wider">ブライダルチューリップ（男性の入会歓迎・3連盟）</h3>
                 <span className="text-sm font-semibold">約481,200円<span className="text-xs text-[#2C2C2C]/50">／1年成婚試算（お見合い年12件）</span></span>
               </div>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">
                 IBJ・SCRUM・CONNECT-shipの3連盟加盟で紹介可能会員は約19万名（2026年1月時点・公式表記）と母集団が広く、男性の入会も受け付けています。月会費7,550円〜と月額を抑えて始められ、面談回数無制限＋サブカウンセラー体制。お見合い料が都度払いのため、月3件以上ならBプラン（月12,950円・お見合い6,100円）が有利な構造です。
               </p>
-              <Link href="/review/bridal-tulip/" className="text-sm text-[#8B7355] underline">ブライダルチューリップの評判・料金を詳しく見る →</Link>
+              <Link href="/review/bridal-tulip/" className="text-sm text-[#A08447] underline">ブライダルチューリップの評判・料金を詳しく見る →</Link>
             </div>
           </div>
         </section>
@@ -260,13 +260,13 @@ export default function MensHubPage() {
         <A8Banner ad="tulip-men" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問（男性の結婚相談所選び）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問（男性の結婚相談所選び）</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-5 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider text-sm">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-5 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -277,10 +277,10 @@ export default function MensHubPage() {
         <section className="mb-8">
           <h2 className="text-lg font-light mb-4 tracking-widest">あわせて読みたい</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            <Link href="/compare/cheap/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">1年総額で10社比較</Link>
-            <Link href="/compare/30s/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">30代向け比較</Link>
-            <Link href="/knowledge/how-to-choose/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">相談所の選び方</Link>
-            <Link href="/knowledge/flow/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">入会から成婚までの流れ</Link>
+            <Link href="/compare/cheap/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">1年総額で10社比較</Link>
+            <Link href="/compare/30s/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">30代向け比較</Link>
+            <Link href="/knowledge/how-to-choose/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">相談所の選び方</Link>
+            <Link href="/knowledge/flow/" className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">入会から成婚までの流れ</Link>
           </div>
         </section>
 

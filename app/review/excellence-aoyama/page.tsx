@@ -110,8 +110,8 @@ export default function ExcellenceAoyamaReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月31日時点の公式サイト掲載情報を基に作成）</p>
 
         {/* Conclusion box */}
-        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#8B7355]/20">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論：エクセレンス青山はこんな人に向く相談所</h2>
+        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論：エクセレンス青山はこんな人に向く相談所</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             エクセレンス青山は、医師・経営者など<strong>ハイクラス層向けの仲人型結婚相談所</strong>です。IBJ・BIU・TMS・NNRの<strong>4連盟加盟で紹介可能約33万人</strong>という母集団の広さと、業界25年の運営実績（2003年設立・IBJ AWARD PREMIUM受賞歴あり）が特徴で、条件を広げてお相手を探したいエグゼクティブ層に向いています。
           </p>
@@ -124,7 +124,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -147,7 +147,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Pricing */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山の料金コース（税込）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -180,7 +180,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Success rate caution */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             成婚率85.7%の「注意点」を正しく理解する
           </h2>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
@@ -198,13 +198,13 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山の強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -245,7 +245,7 @@ export default function ExcellenceAoyamaReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">エクセレンス青山</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">エクセレンス青山</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">ウェルスマ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
                 </tr>
@@ -264,20 +264,20 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Reviews / How to verify */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山の評判・口コミについて（正直な調査結果）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             当サイトで「エクセレンス青山 評判」「エクセレンス青山 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。確認できない口コミを紹介する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
-            <h3 className="font-medium text-[#8B7355] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
+            <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span>直近の成婚実績（公称85.7%は2019年実績のため、最新年の実績と算出定義を必ず質問する）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span>お見合い料込みの想定総額（月に何回お見合いする想定か。回数次第でプライムコースとの損益分岐が変わる）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span>プライム・エグゼクティブコースの月会費など、公式サイトに詳細掲載のない費用項目</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span>4連盟（IBJ/BIU/TMS/NNR）をどう使い分けて紹介してくれるのかの具体的な運用</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">5.</span>担当カウンセラーとの相性（専属仲人型は担当者次第で活動の質が大きく変わるため、面談で必ず確認）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>直近の成婚実績（公称85.7%は2019年実績のため、最新年の実績と算出定義を必ず質問する）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>お見合い料込みの想定総額（月に何回お見合いする想定か。回数次第でプライムコースとの損益分岐が変わる）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>プライム・エグゼクティブコースの月会費など、公式サイトに詳細掲載のない費用項目</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>4連盟（IBJ/BIU/TMS/NNR）をどう使い分けて紹介してくれるのかの具体的な運用</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>担当カウンセラーとの相性（専属仲人型は担当者次第で活動の質が大きく変わるため、面談で必ず確認）</li>
             </ul>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成しています。サービス内容・料金は変更される場合があります。</p>
@@ -285,17 +285,17 @@ export default function ExcellenceAoyamaReview() {
 
         {/* Compare links */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山と他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             エクセレンス青山が自分に合うか迷ったら、お見合い料込みの総額・紹介可能な会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（一覧）を見る</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの評判・料金を見る</Link></li>
-            <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
-            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（一覧）を見る</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る</Link></li>
+            <li><Link href="/review/partner-agent/" className="text-[#A08447] underline">パートナーエージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -303,7 +303,7 @@ export default function ExcellenceAoyamaReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -311,7 +311,7 @@ export default function ExcellenceAoyamaReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -326,7 +326,7 @@ export default function ExcellenceAoyamaReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -343,7 +343,7 @@ export default function ExcellenceAoyamaReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

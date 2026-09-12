@@ -128,14 +128,14 @@ export default function FolliPartnerReview() {
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
-          <h2 className="text-base font-medium text-[#8B7355] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#8B7355] rounded-full" />結論：東京フォリパートナーはこんな人に向く
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：東京フォリパートナーはこんな人に向く
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>特徴</strong>：IBJ正規加盟・優良認定加盟店の仲人型相談所。<strong>成婚率71.5%（自社公称）を算出定義つきで公表</strong>（直近1年の成婚退会者÷全退会者・相談所以外での成婚を除く）し、IBJサミット2023で成婚数/成婚率2部門TOP7表彰、IBJ Award 2025も受賞しています。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>料金</strong>：5コース制で初期110,000円〜・月16,500円〜・成婚料250,000円〜（税込・全コースお見合い料0円）。<strong>スタンダードで1年活動した場合の総額目安は約63.4万円</strong>です。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>注意点</strong>：広告で見かける「会員数・成婚数No.1」は<strong>IBJ連盟自体の実績（日本マーケティングリサーチ機構調べ）であり、フォリパートナー単体のNo.1ではありません</strong>。この区別を理解した上で検討しましょう（詳細は本文で解説）。</span></li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span><span><strong>向く人</strong>：首都圏（東京・横浜）で店舗面談を受けたい人、数字の算出根拠を示す相談所を選びたい人、お見合い回数を気にせず活動したい人。Zoom対応のため地方からの利用も可能です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ正規加盟・優良認定加盟店の仲人型相談所。<strong>成婚率71.5%（自社公称）を算出定義つきで公表</strong>（直近1年の成婚退会者÷全退会者・相談所以外での成婚を除く）し、IBJサミット2023で成婚数/成婚率2部門TOP7表彰、IBJ Award 2025も受賞しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：5コース制で初期110,000円〜・月16,500円〜・成婚料250,000円〜（税込・全コースお見合い料0円）。<strong>スタンダードで1年活動した場合の総額目安は約63.4万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：広告で見かける「会員数・成婚数No.1」は<strong>IBJ連盟自体の実績（日本マーケティングリサーチ機構調べ）であり、フォリパートナー単体のNo.1ではありません</strong>。この区別を理解した上で検討しましょう（詳細は本文で解説）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：首都圏（東京・横浜）で店舗面談を受けたい人、数字の算出根拠を示す相談所を選びたい人、お見合い回数を気にせず活動したい人。Zoom対応のため地方からの利用も可能です。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式公表情報（2026年7月31日確認・税込）にもとづきます。成婚率等は自社公称値です。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
@@ -144,7 +144,7 @@ export default function FolliPartnerReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -168,7 +168,7 @@ export default function FolliPartnerReview() {
 
         {/* No.1表記の読み方 */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             「会員数・成婚数No.1」表記の正しい読み方
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -184,7 +184,7 @@ export default function FolliPartnerReview() {
 
         {/* 料金 */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             料金プラン（税込・全コースお見合い料0円）
           </h2>
           <div className="overflow-x-auto mb-4">
@@ -212,24 +212,24 @@ export default function FolliPartnerReview() {
             </table>
           </div>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/70 mb-4">
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span>総額目安は「初期費用＋月会費12ヶ月＋成婚料」の単純合算（当サイト算出）。オプション費用は含みません。</li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span>毎月の紹介人数保証あり（コース別に1〜3名）。</li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span>オプション例: 担当カウンセラー指名11,000円、プロフィール撮影同行16,500円など。</li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span>会員期間は12ヶ月。2年目以降は月会費のみで継続可能。</li>
-            <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">●</span>クーリングオフは契約書面受領日を含む8日以内。中途解約はサービス提供前なら3万円のみ。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>総額目安は「初期費用＋月会費12ヶ月＋成婚料」の単純合算（当サイト算出）。オプション費用は含みません。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>毎月の紹介人数保証あり（コース別に1〜3名）。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>オプション例: 担当カウンセラー指名11,000円、プロフィール撮影同行16,500円など。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>会員期間は12ヶ月。2年目以降は月会費のみで継続可能。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>クーリングオフは契約書面受領日を含む8日以内。中途解約はサービス提供前なら3万円のみ。</li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年7月31日確認時点の税込価格です。改定される場合があるため、契約前に必ず公式の最新料金表をご確認ください。</p>
         </section>
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -270,7 +270,7 @@ export default function FolliPartnerReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">フォリパートナー</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">フォリパートナー</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">nikoブライダル</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
                 </tr>
@@ -289,7 +289,7 @@ export default function FolliPartnerReview() {
 
         {/* 評判・口コミについて */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーの評判・口コミについて
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -299,13 +299,13 @@ export default function FolliPartnerReview() {
             そこでこの記事では、公式公表情報をもとに<strong>入会前に自分で見極めるためのチェックポイント</strong>を整理しました。無料相談で以下を直接確認すれば、口コミに頼らずに自分との相性を判断できます。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
-            <h3 className="font-medium text-[#8B7355] mb-4 tracking-wider">無料相談で確認したい5つのポイント</h3>
+            <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つのポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70 leading-relaxed">
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span><span><strong>成婚率の最新値と定義</strong>——公表されている71.5%の算出期間（2025年7月〜2026年7月）と定義（成婚退会者÷全退会者）を口頭でも確認し、説明が一貫しているかを見る。</span></li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span><span><strong>担当カウンセラーの受け持ち人数</strong>——公称の「1名30名程度まで」が自分の担当予定者にも当てはまるかを確認する。</span></li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span><span><strong>紹介人数保証の条件</strong>——検討中のコースで毎月何名の紹介が保証されるか（コース別1〜3名）、保証が適用されない条件はあるかを確認する。</span></li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span><span><strong>総額とオプションの線引き</strong>——初期費用・月会費・成婚料の3項目以外に発生しうる費用（指名11,000円・撮影同行16,500円など）を書面で確認する。</span></li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">5.</span><span><strong>解約条件</strong>——クーリングオフ（8日以内）と中途解約（サービス提供前3万円のみ）の条件を契約書面で確認する。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>成婚率の最新値と定義</strong>——公表されている71.5%の算出期間（2025年7月〜2026年7月）と定義（成婚退会者÷全退会者）を口頭でも確認し、説明が一貫しているかを見る。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>担当カウンセラーの受け持ち人数</strong>——公称の「1名30名程度まで」が自分の担当予定者にも当てはまるかを確認する。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>紹介人数保証の条件</strong>——検討中のコースで毎月何名の紹介が保証されるか（コース別1〜3名）、保証が適用されない条件はあるかを確認する。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>総額とオプションの線引き</strong>——初期費用・月会費・成婚料の3項目以外に発生しうる費用（指名11,000円・撮影同行16,500円など）を書面で確認する。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span><span><strong>解約条件</strong>——クーリングオフ（8日以内）と中途解約（サービス提供前3万円のみ）の条件を契約書面で確認する。</span></li>
             </ul>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※当サイトは出典を確認できない体験談・口コミを掲載しない方針です。実際のサポートの質は担当者やコースによっても異なるため、必ず無料相談でご自身で確かめてください。</p>
@@ -313,18 +313,18 @@ export default function FolliPartnerReview() {
 
         {/* 他社比較リンク */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             フォリパートナーが自分に合うか迷ったら、料金総額・成婚率の算出定義・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/compare/folli-vs-musbell/" className="text-[#8B7355] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
-            <li><Link href="/review/niko-bridal/" className="text-[#8B7355] underline">nikoブライダルの評判・料金を見る</Link></li>
-            <li><Link href="/review/zwei/" className="text-[#8B7355] underline">ツヴァイの評判・料金を見る</Link></li>
-            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/folli-vs-musbell/" className="text-[#A08447] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
+            <li><Link href="/review/niko-bridal/" className="text-[#A08447] underline">nikoブライダルの評判・料金を見る</Link></li>
+            <li><Link href="/review/zwei/" className="text-[#A08447] underline">ツヴァイの評判・料金を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -332,7 +332,7 @@ export default function FolliPartnerReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -340,7 +340,7 @@ export default function FolliPartnerReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -356,7 +356,7 @@ export default function FolliPartnerReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

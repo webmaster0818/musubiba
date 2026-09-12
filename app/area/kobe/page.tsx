@@ -17,7 +17,7 @@ export default function AreaPage() {
       <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-4">神戸・兵庫の結婚相談所一覧【125件調査・Google口コミ実データ】</h1>
       <AgencyIndex pref="hyogo" prefName="兵庫" />
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm mt-4">
-        <p className="font-medium text-[#8B7355] mb-2 tracking-wider">はじめての方へ</p>
+        <p className="font-medium text-[#A08447] mb-2 tracking-wider">はじめての方へ</p>
         <p className="leading-relaxed text-[#555]">
           大手(オーネット・ツヴァイ・IBJメンバーズ等)は<Link href="/compare/" className="underline">当サイトの比較レビュー</Link>で費用・仕組みを確認できます。
           個人経営の仲人型相談所は掲載のGoogleマップから雰囲気・口コミをご確認ください。

@@ -83,7 +83,7 @@ export default function FAQPage() {
             >
               <summary className="cursor-pointer px-6 py-5 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                 <span className="pr-4">{faq.q}</span>
-                <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">
+                <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">
                   +
                 </span>
               </summary>
@@ -96,13 +96,13 @@ export default function FAQPage() {
 
         {/* Related links */}
         <section className="mb-12 bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7">
-          <h2 className="text-lg font-medium text-[#8B7355] mb-4 tracking-wider">仲人型の相談所をもっと知りたい方へ</h2>
+          <h2 className="text-lg font-medium text-[#A08447] mb-4 tracking-wider">仲人型の相談所をもっと知りたい方へ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#8B7355] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
-            <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
 
@@ -116,7 +116,7 @@ export default function FAQPage() {
           </p>
           <Link
             href="/"
-            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
+            className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
           >
             ランキングを見る
           </Link>

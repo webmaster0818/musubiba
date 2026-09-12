@@ -17,16 +17,16 @@ export default function AreaPage() {
       <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-4">東京の結婚相談所一覧【300件調査・Google口コミ実データ】</h1>
       <AgencyIndex pref="tokyo" prefName="東京" />
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm mt-4">
-        <p className="font-medium text-[#8B7355] mb-2 tracking-wider">はじめての方へ</p>
+        <p className="font-medium text-[#A08447] mb-2 tracking-wider">はじめての方へ</p>
         <p className="text-[#2C2C2C]/70 leading-relaxed mb-2">
           結婚相談所は「無料相談→入会(独身証明書等)→お見合い→交際→成婚退会」の流れで進み、費用は入会時・毎月・成婚退会時の3タイミングで発生するのが標準形です。
         </p>
         <p>
-          <Link href="/knowledge/flow/" className="text-[#8B7355] underline">→ 入会から成婚までの流れ</Link>
+          <Link href="/knowledge/flow/" className="text-[#A08447] underline">→ 入会から成婚までの流れ</Link>
           <span className="mx-2 text-gray-300">|</span>
-          <Link href="/knowledge/cost/" className="text-[#8B7355] underline">→ 料金相場の考え方</Link>
+          <Link href="/knowledge/cost/" className="text-[#A08447] underline">→ 料金相場の考え方</Link>
           <span className="mx-2 text-gray-300">|</span>
-          <Link href="/compare/" className="text-[#8B7355] underline">→ 大手の比較</Link>
+          <Link href="/compare/" className="text-[#A08447] underline">→ 大手の比較</Link>
         </p>
       </div>
     </main>

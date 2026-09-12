@@ -77,7 +77,7 @@ const faqs = [
 export default function FlowGuide({ name, initialFee, monthlyFee, matchingFee }: Props) {
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-light mb-3 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+      <h2 className="text-xl font-light mb-3 border-l-4 border-[#A08447] pl-4 tracking-widest">
         {name}のご利用の流れ【初めての方向け】
       </h2>
       <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-6">
@@ -88,11 +88,11 @@ export default function FlowGuide({ name, initialFee, monthlyFee, matchingFee }:
       <ol className="space-y-3 mb-6">
         {steps.map((s, i) => (
           <li key={i} className="bg-white rounded-xl border border-gray-100 p-4 flex gap-4">
-            <span className="shrink-0 w-8 h-8 rounded-full bg-[#8B7355] text-white text-sm font-medium flex items-center justify-center">{i + 1}</span>
+            <span className="shrink-0 w-8 h-8 rounded-full bg-[#A08447] text-white text-sm font-medium flex items-center justify-center">{i + 1}</span>
             <div>
               <p className="font-medium text-[#2C2C2C] mb-1">{s.t}</p>
               <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.d}</p>
-              <p className="text-xs text-[#8B7355] mt-1.5">POINT: {s.tip}</p>
+              <p className="text-xs text-[#A08447] mt-1.5">POINT: {s.tip}</p>
             </div>
           </li>
         ))}
@@ -100,7 +100,7 @@ export default function FlowGuide({ name, initialFee, monthlyFee, matchingFee }:
 
       {(initialFee || monthlyFee || matchingFee) && (
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 mb-6 text-sm">
-          <p className="font-medium text-[#8B7355] mb-2 tracking-wider">{name}の場合に発生する費用(流れとの対応)</p>
+          <p className="font-medium text-[#A08447] mb-2 tracking-wider">{name}の場合に発生する費用(流れとの対応)</p>
           <ul className="space-y-1.5 text-[#2C2C2C]/75">
             {initialFee && <li>・STEP2(入会時): {initialFee}</li>}
             {monthlyFee && <li>・活動中(毎月): {monthlyFee}</li>}
@@ -121,9 +121,9 @@ export default function FlowGuide({ name, initialFee, monthlyFee, matchingFee }:
           ))}
         </div>
         <p className="text-sm mt-4">
-          <Link href="/knowledge/flow/" className="text-[#8B7355] underline">→ 入会から成婚までの流れをもっと詳しく</Link>
+          <Link href="/knowledge/flow/" className="text-[#A08447] underline">→ 入会から成婚までの流れをもっと詳しく</Link>
           <span className="mx-2 text-gray-300">|</span>
-          <Link href="/knowledge/cost/" className="text-[#8B7355] underline">→ 料金相場の考え方</Link>
+          <Link href="/knowledge/cost/" className="text-[#A08447] underline">→ 料金相場の考え方</Link>
         </p>
       </div>
     </section>

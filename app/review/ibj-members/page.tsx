@@ -120,7 +120,7 @@ export default function IbjMembersReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月（料金・実績は2026年8月3日に公式サイトで確認）</p>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name, タイプ: overview.type, 会員数: overview.members,
@@ -139,11 +139,11 @@ export default function IbjMembersReview() {
         <A8Banner ad="ibj-members" />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">IBJメンバーズの強み・特徴</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの強み・特徴</h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -166,13 +166,13 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年8月3日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年8月3日公式確認）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">金額（税込）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">金額（税込）</th>
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">支払いタイミング</th>
                 </tr>
               </thead>
@@ -193,7 +193,7 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             IBJメンバーズ（直営）とIBJ加盟店（連盟）の違い
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -204,7 +204,7 @@ export default function IbjMembersReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">IBJメンバーズ（直営）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">IBJメンバーズ（直営）</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">IBJ加盟店（連盟）</th>
                 </tr>
               </thead>
@@ -221,13 +221,13 @@ export default function IbjMembersReview() {
             広告でよく見る「会員数No.1」「成婚数No.1」といった表記は、多くの場合<strong>IBJ連盟全体の実績</strong>を指しています。直営・加盟店それぞれの良さがあるので、「どの主体の数字か」を確認しながら、サポート体制と料金のバランスで比較するのがおすすめです。当サイトではIBJ加盟店のレビューも公開しています。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベル（IBJ含む複数連盟加盟・全国展開）の評判・料金を見る</Link></li>
-            <li><Link href="/review/folli-partner/" className="text-[#8B7355] underline">東京フォリパートナー（IBJ正規加盟・優良認定加盟店）の評判・料金を見る</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベル（IBJ含む複数連盟加盟・全国展開）の評判・料金を見る</Link></li>
+            <li><Link href="/review/folli-partner/" className="text-[#A08447] underline">東京フォリパートナー（IBJ正規加盟・優良認定加盟店）の評判・料金を見る</Link></li>
           </ul>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             IBJメンバーズの評判・口コミの傾向まとめ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -256,18 +256,18 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             IBJメンバーズと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             IBJメンバーズが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。同じIBJネットワークで活動できる加盟店との比較も判断材料になります。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/ibj-vs-musbell/" className="text-[#8B7355] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・成婚までの総額試算）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を見る</Link></li>
-            <li><Link href="/review/folli-partner/" className="text-[#8B7355] underline">東京フォリパートナーの評判・料金を見る</Link></li>
-            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
+            <li><Link href="/compare/ibj-vs-musbell/" className="text-[#A08447] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・成婚までの総額試算）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る</Link></li>
+            <li><Link href="/review/folli-partner/" className="text-[#A08447] underline">東京フォリパートナーの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -276,13 +276,13 @@ export default function IbjMembersReview() {
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -296,7 +296,7 @@ export default function IbjMembersReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -308,14 +308,14 @@ export default function IbjMembersReview() {
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">IBJメンバーズの無料カウンセリングを予約する</h2>
           <p className="text-white/50 text-sm mb-8 tracking-wider">上場企業直営・業界最大級ネットワークの婚活を無料相談で体験してみましょう</p>
-          <Link href="/" className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
+          <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 
         <section>
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {relatedServices.map((s) => (
-              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider">{s.name}</Link>
+              <Link key={s.name} href={s.path} className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider">{s.name}</Link>
             ))}
           </div>
         </section>

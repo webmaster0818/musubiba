@@ -17,7 +17,7 @@ export default function Header() {
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="text-xl font-medium tracking-widest text-[#2C2C2C]">
-          <span className="text-[#8B7355]">ムスビバ</span>
+          <span className="text-[#A08447]">ムスビバ</span>
         </Link>
 
         {/* Desktop nav */}
@@ -26,7 +26,7 @@ export default function Header() {
             <Link
               key={link.label}
               href={link.href}
-              className="text-sm font-light text-[#2C2C2C]/70 hover:text-[#8B7355] transition-colors tracking-wider"
+              className="text-sm font-light text-[#2C2C2C]/70 hover:text-[#A08447] transition-colors tracking-wider"
             >
               {link.label}
             </Link>
@@ -56,7 +56,7 @@ export default function Header() {
             <Link
               key={link.label}
               href={link.href}
-              className="block px-6 py-3 text-sm text-[#2C2C2C]/70 hover:text-[#8B7355] hover:bg-[#FAFAF8] transition-colors tracking-wider"
+              className="block px-6 py-3 text-sm text-[#2C2C2C]/70 hover:text-[#A08447] hover:bg-[#FAFAF8] transition-colors tracking-wider"
               onClick={() => setMenuOpen(false)}
             >
               {link.label}

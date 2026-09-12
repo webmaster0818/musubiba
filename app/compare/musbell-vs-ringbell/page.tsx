@@ -74,14 +74,14 @@ export default function MusbellVsRingbellPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">基本スペック比較表</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">基本スペック比較表</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">リングベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">リングベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -98,14 +98,14 @@ export default function MusbellVsRingbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">総額の目安を比較（公表料金ベース）</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">総額の目安を比較（公表料金ベース）</h2>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#FAF7F2]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">ケース</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">リングベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">リングベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -126,27 +126,27 @@ export default function MusbellVsRingbellPage() {
 
         <section className="mb-10 grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">ムスベルが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ムスベルが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>出会いの母数・選択肢の多さを重視したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住で全国対応・対面サポートを受けたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介とデータ検索を併用したい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を詳しく見る</Link></p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">リングベルが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">リングベルが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>数より質の仲人サポートを重視したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>関東・関西で地元の出会いを探したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚まで進んだ場合の総額を抑えたい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を詳しく見る</Link></p>
           </div>
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((f, i) => (
               <details key={i} className="bg-white border border-gray-100 rounded-lg p-4">
@@ -160,11 +160,11 @@ export default function MusbellVsRingbellPage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・口コミ・料金を見る</Link></li>
-            <li><Link href="/review/ringbell/" className="text-[#8B7355] underline">リングベルの評判・口コミ・料金を見る</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#8B7355] underline">マリッジプロの評判・口コミ・料金を見る（プロカウンセラー専任）</Link></li>
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・口コミ・料金を見る</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・口コミ・料金を見る</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・口コミ・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
       </main>

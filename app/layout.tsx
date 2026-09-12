@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Link from "next/link";
 import Header from "@/components/Header";
 import FloatingCTA from "@/components/FloatingCTA";
@@ -11,6 +11,14 @@ const notoSansJP = Noto_Sans_JP({
   weight: ["300", "400", "500", "700"],
   display: "swap",
   preload: true,
+});
+
+const notoSerifJP = Noto_Serif_JP({
+  variable: "--font-noto-serif-jp",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
@@ -32,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={`${notoSansJP.variable} h-full antialiased`}>
+    <html lang="ja" className={`${notoSansJP.variable} ${notoSerifJP.variable} h-full antialiased`}>
       <head>
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
@@ -41,7 +49,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" sizes="192x192" href="/android-chrome-192x192.png" />
-        <meta name="theme-color" content="#8B7355" />
+        <meta name="theme-color" content="#A08447" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -85,7 +93,7 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
               <div>
-                <h4 className="font-medium text-[#8B7355] mb-4 text-sm tracking-widest">ムスビバ</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">ムスビバ</h4>
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/" className="hover:text-white transition-colors">トップページ</Link></li>
                   <li><Link href="/faq/" className="hover:text-white transition-colors">よくある質問</Link></li>
@@ -96,7 +104,7 @@ export default function RootLayout({
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-[#8B7355] mb-4 text-sm tracking-widest">ランキング</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">ランキング</h4>
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/review/zwei/" className="hover:text-white transition-colors">ツヴァイ</Link></li>
                   <li><Link href="/review/onet/" className="hover:text-white transition-colors">オーネット</Link></li>
@@ -104,14 +112,14 @@ export default function RootLayout({
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-[#8B7355] mb-4 text-sm tracking-widest">サービス</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">サービス</h4>
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/review/mars-cafe/" className="hover:text-white transition-colors">マーズカフェ</Link></li>
                   <li><Link href="/review/sunmarie/" className="hover:text-white transition-colors">サンマリエ</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-[#8B7355] mb-4 text-sm tracking-widest">情報</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">情報</h4>
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/faq/" className="hover:text-white transition-colors">FAQ</Link></li>
                 </ul>

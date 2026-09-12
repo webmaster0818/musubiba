@@ -1,11 +1,11 @@
 export default function AuthorBox() {
   return (
     <div className="border border-gray-200 bg-[#FAFAF8] rounded-lg p-6 mt-10">
-      <p className="text-xs font-medium text-[#8B7355] tracking-wider mb-4">
+      <p className="text-xs font-medium text-[#A08447] tracking-wider mb-4">
         この記事の監修者
       </p>
       <div className="flex flex-col sm:flex-row gap-4">
-        <div className="w-16 h-16 rounded-full bg-[#8B7355]/10 border-2 border-[#8B7355] flex items-center justify-center text-[#8B7355] text-xl font-bold shrink-0">
+        <div className="w-16 h-16 rounded-full bg-[#A08447]/10 border-2 border-[#A08447] flex items-center justify-center text-[#A08447] text-xl font-bold shrink-0">
           鈴
         </div>
         <div className="flex-1">
@@ -14,10 +14,10 @@ export default function AuthorBox() {
             <span className="text-xs font-normal text-[#2C2C2C]/50 ml-2">（すずき まりこ）</span>
           </p>
           <div className="flex flex-wrap gap-2 mb-3">
-            <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#8B7355] text-[#8B7355]">
+            <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#A08447] text-[#A08447]">
               婚活アドバイザー資格保持
             </span>
-            <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#8B7355] text-[#8B7355]">
+            <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#A08447] text-[#A08447]">
               結婚相談所カウンセラー歴6年
             </span>
           </div>

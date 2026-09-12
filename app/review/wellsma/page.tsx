@@ -110,8 +110,8 @@ export default function WellsmaReview() {
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月31日時点の公式サイト掲載情報を基に作成）</p>
 
         {/* Conclusion box */}
-        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#8B7355]/20">
-          <h2 className="text-base font-medium text-[#8B7355] mb-3 tracking-widest">結論：ウェルスマはこんな人に向く相談所</h2>
+        <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論：ウェルスマはこんな人に向く相談所</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             ウェルスマは、<strong>来店不要の完全オンライン</strong>で専任カウンセラーの仲人型サポートを受けられるIBJ正規加盟の結婚相談所です。月会費11,800円〜（税込）と仲人型としては始めやすい水準で、店舗に通う時間が取れない方・地方在住の方に向いています。
           </p>
@@ -124,7 +124,7 @@ export default function WellsmaReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -147,7 +147,7 @@ export default function WellsmaReview() {
 
         {/* Pricing */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマの料金プラン（税込）
           </h2>
           <div className="overflow-x-auto">
@@ -155,9 +155,9 @@ export default function WellsmaReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">マイペースプラン</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">サポートプラン</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">プレミアムプラン</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">マイペースプラン</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">サポートプラン</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">プレミアムプラン</th>
                 </tr>
               </thead>
               <tbody>
@@ -174,7 +174,7 @@ export default function WellsmaReview() {
 
         {/* Success rate definition */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             成婚率86.1%の「定義」を正しく理解する
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -197,13 +197,13 @@ export default function WellsmaReview() {
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -244,7 +244,7 @@ export default function WellsmaReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ウェルスマ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ウェルスマ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">naco-do</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">エン婚活エージェント</th>
                 </tr>
@@ -263,20 +263,20 @@ export default function WellsmaReview() {
 
         {/* Reviews / How to verify */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマの評判・口コミについて（正直な調査結果）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             当サイトで「ウェルスマ 評判」「ウェルスマ 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。ネット上には口コミを紹介する記事もありますが、出典が示されていないものや、現行と異なる旧料金が記載された古い情報も見られます。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
-            <h3 className="font-medium text-[#8B7355] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
+            <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">1.</span>最新の料金表（入会金49,800円・月会費11,800円〜・成婚料149,800円の現行料金と一致するか）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">2.</span>プランごとのサポート内容の違い（マイペース／サポート／プレミアムで何が変わるか）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">3.</span>成婚率86.1%の算出定義の説明が公式掲載どおりか（分母＝成婚退会者）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">4.</span>専任カウンセラーとの連絡頻度・返信スピードの目安（オンライン型で最重要）</li>
-              <li className="flex gap-2"><span className="text-[#8B7355] shrink-0">5.</span>中途退会時の手続き・費用の扱い（契約書面で必ず確認）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>最新の料金表（入会金49,800円・月会費11,800円〜・成婚料149,800円の現行料金と一致するか）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>プランごとのサポート内容の違い（マイペース／サポート／プレミアムで何が変わるか）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>成婚率86.1%の算出定義の説明が公式掲載どおりか（分母＝成婚退会者）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>専任カウンセラーとの連絡頻度・返信スピードの目安（オンライン型で最重要）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>中途退会時の手続き・費用の扱い（契約書面で必ず確認）</li>
             </ul>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成しています。サービス内容・料金は変更される場合があります。</p>
@@ -284,17 +284,17 @@ export default function WellsmaReview() {
 
         {/* Compare links */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             ウェルスマが自分に合うか迷ったら、料金総額（成婚料込み）・会員基盤・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（一覧）を見る</Link></li>
-            <li><Link href="/review/naco-do/" className="text-[#8B7355] underline">naco-doの評判・料金を見る</Link></li>
-            <li><Link href="/review/smartread/" className="text-[#8B7355] underline">スマリッジの評判・料金を見る</Link></li>
-            <li><Link href="/review/en-konkatsu/" className="text-[#8B7355] underline">エン婚活エージェントの評判・料金を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（一覧）を見る</Link></li>
+            <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
+            <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジの評判・料金を見る</Link></li>
+            <li><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェントの評判・料金を見る</Link></li>
           </ul>
         </section>
 
@@ -302,7 +302,7 @@ export default function WellsmaReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -310,7 +310,7 @@ export default function WellsmaReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -325,7 +325,7 @@ export default function WellsmaReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -342,7 +342,7 @@ export default function WellsmaReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

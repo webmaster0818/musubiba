@@ -182,7 +182,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="#ranking"
-              className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-4 px-10 rounded-full text-base transition-colors tracking-widest"
+              className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-4 px-10 rounded-full text-base transition-colors tracking-widest"
             >
               ランキングを見る
             </Link>
@@ -210,7 +210,7 @@ export default function Home() {
               { value: "成婚率", label: "掲載あり" },
             ].map((stat) => (
               <div key={stat.label} className="p-4">
-                <div className="text-2xl sm:text-3xl font-light text-[#8B7355] tracking-wider">
+                <div className="text-2xl sm:text-3xl font-light text-[#A08447] tracking-wider">
                   {stat.value}
                 </div>
                 <div className="text-sm text-[#2C2C2C]/50 mt-2 tracking-wider">{stat.label}</div>
@@ -237,8 +237,8 @@ export default function Home() {
                 className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden"
               >
                 {/* Rank header */}
-                <div className="bg-[#8B7355] text-white px-6 py-3.5 flex items-center gap-3">
-                  <span className="bg-white text-[#8B7355] font-medium w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                <div className="bg-[#A08447] text-white px-6 py-3.5 flex items-center gap-3">
+                  <span className="bg-white text-[#A08447] font-medium w-8 h-8 rounded-full flex items-center justify-center text-sm">
                     {s.rank}
                   </span>
                   <span className="font-medium text-lg tracking-wider">{s.name}</span>
@@ -254,14 +254,14 @@ export default function Home() {
                 <p className="text-[10px] text-gray-400 px-6 pt-2">画像引用: 公式サイトより</p>
 
                 <div className="p-7 pt-4">
-                  <p className="text-[#8B7355] font-normal mb-4 tracking-wider">{s.tagline}</p>
+                  <p className="text-[#A08447] font-normal mb-4 tracking-wider">{s.tagline}</p>
 
                   {/* Features */}
                   <div className="flex flex-wrap gap-2 mb-6">
                     {s.features.map((f) => (
                       <span
                         key={f}
-                        className="bg-[#F5F0EB] text-[#8B7355] text-xs font-normal px-3 py-1.5 rounded-full tracking-wider"
+                        className="bg-[#F5F0EB] text-[#A08447] text-xs font-normal px-3 py-1.5 rounded-full tracking-wider"
                       >
                         {f}
                       </span>
@@ -304,7 +304,7 @@ export default function Home() {
                   </div>
 
                   {/* Recommend */}
-                  <p className="text-sm bg-[#FAFAF8] border border-[#8B7355]/15 rounded-lg p-4 mb-6 text-[#2C2C2C]/70">
+                  <p className="text-sm bg-[#FAFAF8] border border-[#A08447]/15 rounded-lg p-4 mb-6 text-[#2C2C2C]/70">
                     {s.recommend}
                   </p>
 
@@ -315,14 +315,14 @@ export default function Home() {
                         href={s.affiliateUrl}
                         target="_blank"
                         rel="noopener noreferrer nofollow"
-                        className="flex-1 text-center bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
+                        className="flex-1 text-center bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
                       >
                         公式サイトへ
                       </a>
                     )}
                     <Link
                       href={s.reviewPath}
-                      className="flex-1 text-center border border-[#8B7355] text-[#8B7355] hover:bg-[#F5F0EB] font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
+                      className="flex-1 text-center border border-[#A08447] text-[#A08447] hover:bg-[#F5F0EB] font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
                     >
                       口コミ・詳細を見る
                     </Link>
@@ -348,7 +348,7 @@ export default function Home() {
               >
                 <summary className="cursor-pointer px-6 py-5 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">
                     +
                   </span>
                 </summary>
@@ -405,7 +405,7 @@ export default function Home() {
                 <div className="p-4">
                   <h3 className="font-bold text-gray-800 text-sm">{agency.name}</h3>
                   <p className="text-xs text-gray-500 mt-1">{agency.fee}</p>
-                  <p className="text-xs text-[#8B7355] mt-2 font-medium">詳細を見る →</p>
+                  <p className="text-xs text-[#A08447] mt-2 font-medium">詳細を見る →</p>
                 </div>
                 <p className="text-[10px] text-gray-400 px-4 pb-2">画像引用: 公式サイトより</p>
               </Link>
@@ -424,20 +424,20 @@ export default function Home() {
             仲人サポートのある相談所の評判・料金と、人気2社の比較をチェック
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            <Link href="/compare/musbell-vs-ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">ムスベルとリングベルを比較する</p>
+            <Link href="/compare/musbell-vs-ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">ムスベルとリングベルを比較する</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">料金総額・対象年代・特徴の違いを中立解説</p>
             </Link>
-            <Link href="/review/musbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">ムスベルの評判・料金を見る</p>
+            <Link href="/review/musbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">ムスベルの評判・料金を見る</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">全国・複数連盟加盟／「やばい」の真相も解説</p>
             </Link>
-            <Link href="/review/ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">リングベルの評判・料金を見る</p>
+            <Link href="/review/ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">リングベルの評判・料金を見る</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">仲人型・地域密着で数より質の紹介</p>
             </Link>
-            <Link href="/review/marriage-pro/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">マリッジプロの評判・料金を見る</p>
+            <Link href="/review/marriage-pro/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">マリッジプロの評判・料金を見る</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">プロカウンセラーが専任で戦略的にサポート</p>
             </Link>
           </div>
@@ -454,32 +454,32 @@ export default function Home() {
             料金の安さ・専門性・エリアなど、重視したい軸から候補を絞り込む
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            <Link href="/compare/cheap/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">安い結婚相談所を1年総額で比較</p>
+            <Link href="/compare/cheap/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">安い結婚相談所を1年総額で比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用＋月会費＋成婚料で検証した料金ランキング</p>
             </Link>
-            <Link href="/area/tokyo/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">東京の結婚相談所を比較</p>
+            <Link href="/area/tokyo/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">東京の結婚相談所を比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">東京で通いやすい相談所を料金実額と拠点で検証</p>
             </Link>
-            <Link href="/area/osaka/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">大阪の結婚相談所を比較</p>
+            <Link href="/area/osaka/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">大阪の結婚相談所を比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">大阪・梅田エリアの相談所を実額で比較</p>
             </Link>
-            <Link href="/mens/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">男性の結婚相談所おすすめ比較</p>
+            <Link href="/mens/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">男性の結婚相談所おすすめ比較</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">男性の費用実額・男性向けサポートで検証／30代は何から始めるか</p>
             </Link>
-            <Link href="/review/code-for-marriage/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">Code For Marriageの評判・料金</p>
+            <Link href="/review/code-for-marriage/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">Code For Marriageの評判・料金</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">ITエンジニア専門・全員元SEの仲人／リモート対応</p>
             </Link>
-            <Link href="/review/niko-bridal/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">nikoブライダル（大阪）の評判・料金</p>
+            <Link href="/review/niko-bridal/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">nikoブライダル（大阪）の評判・料金</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">成婚率56.3%を算出条件付きで公表／IBJ加盟</p>
             </Link>
-            <Link href="/review/nagareyama-otakanomori/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">流山おおたかの森結婚相談所の評判・料金</p>
+            <Link href="/review/nagareyama-otakanomori/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">流山おおたかの森結婚相談所の評判・料金</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">IBJ加盟・月会費9,900円のシンプルな料金体系</p>
             </Link>
           </div>
@@ -496,20 +496,20 @@ export default function Home() {
             料金の相場・タイプの選び方・活動の流れをはじめての方にもわかりやすく解説
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            <Link href="/knowledge/cost/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">結婚相談所の料金相場は？</p>
+            <Link href="/knowledge/cost/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">結婚相談所の料金相場は？</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用・月会費・成婚料の目安と総額の考え方</p>
             </Link>
-            <Link href="/knowledge/how-to-choose/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">結婚相談所の選び方</p>
+            <Link href="/knowledge/how-to-choose/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">結婚相談所の選び方</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">仲人型とデータマッチング型の違い・失敗しないコツ</p>
             </Link>
-            <Link href="/knowledge/flow/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">入会から成婚までの流れ</p>
+            <Link href="/knowledge/flow/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">入会から成婚までの流れ</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">活動のステップと活動期間の目安</p>
             </Link>
-            <Link href="/knowledge/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#8B7355] transition-colors">
-              <p className="font-medium text-[#8B7355] tracking-wider">基礎知識をまとめて見る</p>
+            <Link href="/knowledge/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+              <p className="font-medium text-[#A08447] tracking-wider">基礎知識をまとめて見る</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">結婚相談所の基礎知識カテゴリの記事一覧へ</p>
             </Link>
           </div>
@@ -528,7 +528,7 @@ export default function Home() {
           </p>
           <Link
             href="#ranking"
-            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-4 px-12 rounded-full text-base transition-colors tracking-widest"
+            className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-4 px-12 rounded-full text-base transition-colors tracking-widest"
           >
             ランキングに戻る
           </Link>

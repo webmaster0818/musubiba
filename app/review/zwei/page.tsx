@@ -115,7 +115,7 @@ export default function ZweiReview() {
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
-          <div className="bg-[#8B7355] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
+          <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
           <div className="divide-y divide-gray-50">
             {Object.entries({
               サービス名: overview.name,
@@ -138,13 +138,13 @@ export default function ZweiReview() {
 
         {/* Strengths */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ツヴァイの強み・特徴
           </h2>
           <div className="space-y-6">
             {strengths.map((s, i) => (
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
-                <h3 className="font-medium text-lg mb-2 text-[#8B7355] tracking-wider">{s.title}</h3>
+                <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
               </div>
             ))}
@@ -185,7 +185,7 @@ export default function ZweiReview() {
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ツヴァイ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ツヴァイ</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">オーネット</th>
                   <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">パートナーエージェント</th>
                 </tr>
@@ -202,7 +202,7 @@ export default function ZweiReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ツヴァイの評判・口コミの傾向まとめ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
@@ -231,27 +231,27 @@ export default function ZweiReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ツヴァイと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             ツヴァイが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
-            <li><Link href="/review/onet/" className="text-[#8B7355] underline">オーネットの評判・料金を見る</Link></li>
-            <li><Link href="/review/partner-agent/" className="text-[#8B7355] underline">パートナーエージェントの評判・料金を見る</Link></li>
-            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#8B7355] underline">ウェルスマの評判・料金を見る（店舗に通わずIBJ会員と出会えるオンライン仲人型）</Link></li>
-            <li><Link href="/review/excellence-aoyama/" className="text-[#8B7355] underline">エクセレンス青山の評判・料金を見る（4連盟・エグゼクティブ向け仲人型）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/onet/" className="text-[#A08447] underline">オーネットの評判・料金を見る</Link></li>
+            <li><Link href="/review/partner-agent/" className="text-[#A08447] underline">パートナーエージェントの評判・料金を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（店舗に通わずIBJ会員と出会えるオンライン仲人型）</Link></li>
+            <li><Link href="/review/excellence-aoyama/" className="text-[#A08447] underline">エクセレンス青山の評判・料金を見る（4連盟・エグゼクティブ向け仲人型）</Link></li>
           </ul>
         </section>
 
         {/* 口コミの傾向(編集部要約) */}
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
-            <p><span className="font-medium text-[#8B7355]">よく見られる好意的な声</span>——「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>
+            <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>——「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>
             <p><span className="font-medium text-rose-700">気になる声</span>——最も多い不満は<span className="font-medium">「問い合わせへの返信が遅い」「こちらから相談しない限り放っておかれる」</span>というサポートの受け身さです。手厚く介入してほしい人には不向きで、自走型で「必要な時だけ相談したい」人に合う構造と読めます。成婚退会後のトラブル(婚約解消)に触れた声もあり、成婚=入籍ではない点は相談所全般の注意点です。</p>
             <p className="text-xs text-[#999]">※Googleマップの複数店舗(東京銀座・大阪・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
           </div>
@@ -261,7 +261,7 @@ export default function ZweiReview() {
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#8B7355] pl-4 tracking-widest">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             よくある質問
           </h2>
           <div className="space-y-3">
@@ -269,7 +269,7 @@ export default function ZweiReview() {
               <details key={i} className="group bg-[#FAFAF8] rounded-xl border border-gray-100">
                 <summary className="cursor-pointer px-6 py-4 font-normal text-[#2C2C2C] flex items-center justify-between tracking-wider">
                   <span className="pr-4">{faq.q}</span>
-                  <span className="text-[#8B7355] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
+                  <span className="text-[#A08447] text-xl group-open:rotate-45 transition-transform shrink-0">+</span>
                 </summary>
                 <div className="px-6 pb-4 text-sm text-[#2C2C2C]/60 leading-relaxed">{faq.a}</div>
               </details>
@@ -284,7 +284,7 @@ export default function ZweiReview() {
               <img src="/editor-team.png" alt="ムスビバ編集部" className="w-20 h-20 rounded-xl object-cover shrink-0" />
               <div>
                 <p className="font-medium text-[#2C2C2C] text-sm tracking-wider">この記事を書いた人</p>
-                <p className="text-sm text-[#8B7355] font-medium mt-1">ムスビバ編集部</p>
+                <p className="text-sm text-[#A08447] font-medium mt-1">ムスビバ編集部</p>
               </div>
             </div>
             <p className="text-xs text-[#8B8580] leading-relaxed mb-2">結婚相談所業界を3年以上取材。主要15社以上を実際に訪問・カウンセリング体験し、料金・サポート体制・成婚実績を独自の基準で評価しています。</p>
@@ -298,7 +298,7 @@ export default function ZweiReview() {
           <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談で相性診断を受けてみましょう</p>
           <Link
             href="/"
-            className="inline-block bg-[#8B7355] hover:bg-[#7A6548] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
+            className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
           >
             ランキングに戻る
           </Link>
@@ -312,7 +312,7 @@ export default function ZweiReview() {
               <Link
                 key={s.name}
                 href={s.path}
-                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#8B7355] hover:text-[#8B7355] transition-colors tracking-wider"
+                className="bg-white border border-gray-100 rounded-lg p-4 text-center text-sm font-normal hover:border-[#A08447] hover:text-[#A08447] transition-colors tracking-wider"
               >
                 {s.name}
               </Link>

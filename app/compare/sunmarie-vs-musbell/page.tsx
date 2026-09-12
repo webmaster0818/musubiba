@@ -71,14 +71,14 @@ export default function SunmarieVsMusbellPage() {
         </p>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">基本スペック比較表</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">基本スペック比較表</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#F5F0EB]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">比較項目</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">サンマリエ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">サンマリエ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -95,14 +95,14 @@ export default function SunmarieVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">実質総額を比較（公表料金ベース）— 比べる時点で順位が入れ替わる</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">実質総額を比較（公表料金ベース）— 比べる時点で順位が入れ替わる</h2>
           <div className="overflow-x-auto mb-3">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
                 <tr className="bg-[#FAF7F2]">
                   <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">ケース</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">サンマリエ</th>
-                  <th className="px-4 py-3 text-center font-medium text-[#8B7355]">ムスベル</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">サンマリエ</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#A08447]">ムスベル</th>
                 </tr>
               </thead>
               <tbody>
@@ -125,7 +125,7 @@ export default function SunmarieVsMusbellPage() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">サポートの「型」の違い — 完全代行の仲人型 vs 検索も使えるハイブリッド型</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">サポートの「型」の違い — 完全代行の仲人型 vs 検索も使えるハイブリッド型</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
             サンマリエは<strong>仲人型の老舗</strong>で、お見合いの日程調整・場所の手配・当日の流れの説明・お見合い後のフォローまで仲人がセッティングを完全代行します。婚活に不慣れでも余計なストレスなくお相手との時間に集中できる「お任せ」設計です。一方ムスベルは<strong>仲人＋データマッチングのハイブリッド型</strong>で、専任仲人の紹介を受けつつ、複数連盟の会員データから自分でも検索・申込みができます。「待つ」と「攻める」を併用できる分、活動の主導権を自分で持ちたい人に向いた設計です。
           </p>
@@ -136,31 +136,31 @@ export default function SunmarieVsMusbellPage() {
 
         <section className="mb-10 grid md:grid-cols-2 gap-6">
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">サンマリエが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">サンマリエが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>お見合いのセッティングを完全代行でお任せしたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚退会まで見据えた総額を抑えたい（成婚料220,000円）</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の歴史がある老舗の安心感を重視したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数（約8.7万人）を開示している分かりやすさで選びたい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を詳しく見る</Link></p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-6">
-            <h2 className="text-lg font-medium text-[#8B7355] mb-3 tracking-wider">ムスベルが向いている人</h2>
+            <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ムスベルが向いている人</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用33,000円〜で活動中の負担を抑えて始めたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>複数連盟加盟の業界最大級の会員基盤から幅広く出会いたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介だけでなくデータ検索でも自分から動きたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住で全国拠点の対面サポートを受けたい</li>
             </ul>
-            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・料金を詳しく見る</Link></p>
+            <p className="mt-4 text-sm"><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を詳しく見る</Link></p>
           </div>
         </section>
 
         <A8Banner ad="sunmarie" />
 
         <section className="mb-10">
-          <h2 className="text-xl font-light mb-4 border-l-4 border-[#8B7355] pl-4 tracking-widest">よくある質問</h2>
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((f, i) => (
               <details key={i} className="bg-white border border-gray-100 rounded-lg p-4">
@@ -174,12 +174,12 @@ export default function SunmarieVsMusbellPage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/review/sunmarie/" className="text-[#8B7355] underline">サンマリエの評判・料金を見る（仲人型老舗・お見合い完全代行）</Link></li>
-            <li><Link href="/review/musbell/" className="text-[#8B7355] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
-            <li><Link href="/compare/ibj-vs-musbell/" className="text-[#8B7355] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・総額）</Link></li>
-            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#8B7355] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
-            <li><Link href="/compare/cheap/" className="text-[#8B7355] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#8B7355] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る（仲人型老舗・お見合い完全代行）</Link></li>
+            <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・口コミ・料金を見る（複数連盟・全国拠点）</Link></li>
+            <li><Link href="/compare/ibj-vs-musbell/" className="text-[#A08447] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・総額）</Link></li>
+            <li><Link href="/compare/tulip-vs-musbell/" className="text-[#A08447] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
           </ul>
         </section>
       </main>
