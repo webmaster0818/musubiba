@@ -51,9 +51,19 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   const { a, db, prefName, areaHref } = r;
   const brand = findBrand(a.name);
   const primaryArea = a.areas[0];
-  const nearby = indexableAgencies(db)
+  const main = indexableAgencies(db);
+  const nearby = main
     .filter((x) => x.slug !== a.slug && x.areas.includes(primaryArea))
     .slice(0, 5);
+
+  // 実測DBからの機械集計(創作値なし): 県内順位・平均評点・件数中央値
+  const sorted = [...main].sort((x, y) => (y.count || 0) - (x.count || 0));
+  const rank = sorted.findIndex((x) => x.slug === a.slug) + 1;
+  const ratings = main.filter((x) => typeof x.rating === "number").map((x) => x.rating as number);
+  const avgRating = ratings.length ? ratings.reduce((s, v) => s + v, 0) / ratings.length : 0;
+  const counts = main.map((x) => x.count || 0).sort((x, y) => x - y);
+  const medCount = counts.length ? (counts.length % 2 ? counts[(counts.length - 1) / 2] : Math.round((counts[counts.length / 2 - 1] + counts[counts.length / 2]) / 2)) : 0;
+  const mapQuery = encodeURIComponent(`${a.name} ${shortAddress(a.address)}`);
 
   const faqs = [
     {
@@ -91,6 +101,35 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">検索エリア</span><span className="text-[#2C2C2C]">{a.areas.map((ar) => AREA_LABELS[ar] || ar).join("・")}</span></div>
         </div>
       </div>
+
+      <section className="mb-8">
+        <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">データで見る{a.name}</h2>
+        <div className="grid grid-cols-3 gap-3 mb-3">
+          <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
+            <p className="text-xl font-bold text-[#A08447]">{rank}位<span className="text-xs font-normal text-[#555]">/{main.length}件</span></p>
+            <p className="text-xs text-[#555] mt-1">{prefName}内の口コミ件数順位</p>
+          </div>
+          <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
+            <p className="text-xl font-bold text-[#A08447]">{a.rating ?? "－"}<span className="text-xs font-normal text-[#555]"> vs 平均{avgRating.toFixed(2)}</span></p>
+            <p className="text-xs text-[#555] mt-1">評点({prefName}の収録平均と比較)</p>
+          </div>
+          <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
+            <p className="text-xl font-bold text-[#A08447]">{a.count}件<span className="text-xs font-normal text-[#555]"> vs 中央値{medCount}件</span></p>
+            <p className="text-xs text-[#555] mt-1">口コミ件数({prefName}の中央値と比較)</p>
+          </div>
+        </div>
+        <p className="text-xs text-[#999] leading-relaxed mb-4">
+          ※当サイトが{prefName}で実在確認した口コミ3件以上の{main.length}件({db.surveyedAt}取得)内での機械集計です。評点は高評価が集まりやすい傾向があるため、件数(実績の量)と口コミ本文をあわせて確認するのがおすすめです。
+        </p>
+        <div className="rounded-xl overflow-hidden border border-gray-100">
+          <iframe
+            src={`https://maps.google.com/maps?q=${mapQuery}&output=embed&z=16`}
+            className="w-full h-64"
+            loading="lazy"
+            title={`${a.name}の地図`}
+          />
+        </div>
+      </section>
 
       <div className="flex flex-col sm:flex-row gap-3 mb-10">
         {a.mapsUri && (
