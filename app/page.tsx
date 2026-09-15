@@ -167,7 +167,7 @@ export default function Home() {
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/design-c.jpg')" }}
+          style={{ backgroundImage: "url('/hero-couple.jpg')" }}
         />
         <div className="absolute inset-0 bg-[#1a1510]/60" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
