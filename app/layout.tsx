@@ -24,7 +24,7 @@ const notoSerifJP = Noto_Serif_JP({
 export const metadata: Metadata = {
   title: "結婚相談所おすすめランキング比較 | ムスビバ",
   description:
-    "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
+    "結婚相談所24社のレビューと13都道府県1,543件の実測データベースで比較。料金・成婚率・会員数・サポート体制からあなたに合う相談所が見つかります。",
   metadataBase: new URL("https://mu-su-bi-ba.com"),
   icons: {
     icon: [
@@ -58,7 +58,7 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "ムスビバ",
               url: "https://mu-su-bi-ba.com",
-              description: "厳選15社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。",
+              description: "結婚相談所24社のレビューと13都道府県1,543件の実測データベースで比較。",
               publisher: {
                 "@type": "Organization",
                 name: "ムスビバ",
@@ -99,6 +99,17 @@ export default function RootLayout({
                   <li><Link href="/faq/" className="hover:text-white transition-colors">よくある質問</Link></li>
                   <li><Link href="/area/tokyo/" className="hover:text-white transition-colors">東京の結婚相談所</Link></li>
                   <li><Link href="/area/osaka/" className="hover:text-white transition-colors">大阪の結婚相談所</Link></li>
+                  <li><Link href="/area/yokohama/" className="hover:text-white transition-colors">神奈川(横浜)の結婚相談所</Link></li>
+                  <li><Link href="/area/nagoya/" className="hover:text-white transition-colors">愛知(名古屋)の結婚相談所</Link></li>
+                  <li><Link href="/area/fukuoka/" className="hover:text-white transition-colors">福岡の結婚相談所</Link></li>
+                  <li><Link href="/area/sapporo/" className="hover:text-white transition-colors">北海道(札幌)の結婚相談所</Link></li>
+                  <li><Link href="/area/kobe/" className="hover:text-white transition-colors">兵庫(神戸)の結婚相談所</Link></li>
+                  <li><Link href="/area/saitama/" className="hover:text-white transition-colors">埼玉の結婚相談所</Link></li>
+                  <li><Link href="/area/chiba/" className="hover:text-white transition-colors">千葉の結婚相談所</Link></li>
+                  <li><Link href="/area/kyoto/" className="hover:text-white transition-colors">京都の結婚相談所</Link></li>
+                  <li><Link href="/area/sendai/" className="hover:text-white transition-colors">宮城(仙台)の結婚相談所</Link></li>
+                  <li><Link href="/area/hiroshima/" className="hover:text-white transition-colors">広島の結婚相談所</Link></li>
+                  <li><Link href="/area/shizuoka/" className="hover:text-white transition-colors">静岡の結婚相談所</Link></li>
                   <li><Link href="/about/" className="hover:text-white transition-colors">このサイトについて</Link></li>
                   <li><Link href="/editorial-policy/" className="hover:text-white transition-colors">編集方針・掲載基準</Link></li>
                 </ul>

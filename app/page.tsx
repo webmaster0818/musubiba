@@ -2,9 +2,9 @@ import Link from "next/link";
 import AuthorBox from "@/components/AuthorBox";
 
 export const metadata = {
-  title: "結婚相談所おすすめランキング13社比較【2026年最新】| ムスビバ",
+  title: "結婚相談所おすすめ比較【2026年最新】24社レビュー×全国1,500件超の実測データ | ムスビバ",
   description:
-    "厳選13社の結婚相談所を徹底比較。料金・成婚率・会員数・サポート体制を分かりやすくランキング。あなたにぴったりの結婚相談所が見つかります。",
+    "結婚相談所24社のレビューと、13都道府県1,543件(詳細データ933件)のGoogleマップ実測データベースで比較。料金・成婚率・会員数・サポート体制からあなたに合う相談所が見つかります。",
 };
 
 const services = [
@@ -204,10 +204,10 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { value: "13社", label: "厳選比較" },
-              { value: "全国", label: "対応エリア" },
-              { value: "料金", label: "徹底比較" },
-              { value: "成婚率", label: "掲載あり" },
+              { value: "24社", label: "レビュー掲載" },
+              { value: "1,543件", label: "実在確認データベース" },
+              { value: "13都道府県", label: "エリア別に実測" },
+              { value: "933件", label: "詳細データページ" },
             ].map((stat) => (
               <div key={stat.label} className="p-4">
                 <div className="text-2xl sm:text-3xl font-light text-[#A08447] tracking-wider">
@@ -368,7 +368,7 @@ export default function Home() {
             全結婚相談所一覧
           </h2>
           <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
-            掲載中の全13社の結婚相談所をご覧いただけます
+            掲載中の全24社のレビューと、都道府県別の全店データベースをご覧いただけます
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
             {[
