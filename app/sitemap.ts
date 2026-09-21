@@ -18,7 +18,7 @@ const STATIC_ROUTES = [
   "/review/folli-partner", "/review/excellence-aoyama", "/review/ibj-members",
   "/review/pitto", "/review/bellroad", "/compare/online", "/compare/30s",
   "/about", "/editorial-policy", "/knowledge", "/knowledge/cost",
-  "/knowledge/how-to-choose", "/knowledge/flow",
+  "/knowledge/how-to-choose", "/knowledge/flow", "/knowledge/seikon-ritsu",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
