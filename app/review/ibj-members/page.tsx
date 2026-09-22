@@ -264,7 +264,7 @@ export default function IbjMembersReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/ibj-vs-musbell/" className="text-[#A08447] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・成婚までの総額試算）</Link></li>
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る</Link></li>
             <li><Link href="/review/folli-partner/" className="text-[#A08447] underline">東京フォリパートナーの評判・料金を見る</Link></li>
             <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る</Link></li>

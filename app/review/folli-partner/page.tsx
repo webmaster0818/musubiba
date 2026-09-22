@@ -320,7 +320,7 @@ export default function FolliPartnerReview() {
             フォリパートナーが自分に合うか迷ったら、料金総額・成婚率の算出定義・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
             <li><Link href="/compare/folli-vs-musbell/" className="text-[#A08447] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/review/niko-bridal/" className="text-[#A08447] underline">nikoブライダルの評判・料金を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#A08447] underline">ツヴァイの評判・料金を見る</Link></li>

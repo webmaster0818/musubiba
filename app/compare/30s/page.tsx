@@ -96,7 +96,7 @@ export default function ThirtiesComparePage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）</Link></li>
             <li><Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所おすすめ比較</Link></li>
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る</Link></li>

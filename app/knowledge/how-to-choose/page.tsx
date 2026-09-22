@@ -63,7 +63,7 @@ const breadcrumbJsonLd = {
 };
 
 const relatedLinks = [
-  { href: "/compare/", label: "結婚相談所の料金比較（13社一覧）でタイプ別に見比べる" },
+  { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）でタイプ別に見比べる" },
   { href: "/review/musbell/", label: "ムスベルの評判・料金を見る（仲人＋データ併用のハイブリッド型）" },
   { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（仲人型・地域密着）" },
   { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（プロカウンセラー専任）" },
@@ -189,7 +189,7 @@ export default function KnowledgeHowToChoose() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">タイプ別に相談所を比較する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">主要13社をタイプ・料金・特徴で一覧比較できます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">実査24社をタイプ・料金・特徴で一覧比較できます</p>
           <Link href="/compare/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">料金比較を見る</Link>
         </section>
 

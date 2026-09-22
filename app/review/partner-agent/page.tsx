@@ -223,7 +223,7 @@ export default function PartnerAgentReview() {
             パートナーエージェントが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
             <li><Link href="/review/zwei/" className="text-[#A08447] underline">ツヴァイの評判・料金を見る</Link></li>
             <li><Link href="/review/onet/" className="text-[#A08447] underline">オーネットの評判・料金を見る</Link></li>
             <li><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を見る</Link></li>

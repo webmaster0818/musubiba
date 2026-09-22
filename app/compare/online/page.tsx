@@ -288,7 +288,7 @@ export default function OnlineComparePage() {
             <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの口コミ・評判</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェントの口コミ・評判</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの口コミ・評判</Link></li>
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）</Link></li>
           </ul>
         </section>
       </main>

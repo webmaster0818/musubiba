@@ -76,7 +76,7 @@ const breadcrumbJsonLd = {
 
 const relatedLinks = [
   { href: "/compare/cheap/", label: "安い結婚相談所を1年総額で比較する（検証済み10社ランキング）" },
-  { href: "/compare/", label: "結婚相談所の料金比較（13社一覧）で実際の料金を見比べる" },
+  { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）で実際の料金を見比べる" },
   { href: "/review/wellsma/", label: "ウェルスマの料金・評判を見る（月11,800円〜のオンライン仲人型）" },
   { href: "/review/musbell/", label: "ムスベルの料金・評判を見る（成婚料を含む総額の目安）" },
   { href: "/review/ringbell/", label: "リングベルの料金・評判を見る（仲人型・地域密着）" },
@@ -254,7 +254,7 @@ export default function KnowledgeCost() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">料金を見比べて相談所を選ぶ</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">主要13社の月会費・初期費用・タイプを一覧で比較できます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">実査24社の月会費・入会金・成婚料を一覧で比較できます</p>
           <Link href="/compare/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">料金比較を見る</Link>
         </section>
 

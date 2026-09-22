@@ -239,7 +239,7 @@ export default function SmartreadReview() {
             スマリッジが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェントの評判・料金を見る</Link></li>
             <li><Link href="/review/fiore/" className="text-[#A08447] underline">フィオーレの評判・料金を見る</Link></li>

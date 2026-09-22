@@ -34,7 +34,7 @@ const articles = [
 ];
 
 const relatedLinks = [
-  { href: "/compare/", label: "結婚相談所の料金比較（13社一覧）を見る" },
+  { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）を見る" },
   { href: "/review/musbell/", label: "ムスベルの評判・料金を見る（全国・複数連盟加盟）" },
   { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（仲人型・地域密着）" },
   { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（プロカウンセラー専任）" },

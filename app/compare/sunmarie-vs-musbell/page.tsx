@@ -179,7 +179,7 @@ export default function SunmarieVsMusbellPage() {
             <li><Link href="/compare/ibj-vs-musbell/" className="text-[#A08447] underline">IBJメンバーズとムスベルを比較する（直営と加盟店の違い・総額）</Link></li>
             <li><Link href="/compare/tulip-vs-musbell/" className="text-[#A08447] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
           </ul>
         </section>
       </main>

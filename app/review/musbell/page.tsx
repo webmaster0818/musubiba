@@ -287,7 +287,7 @@ export default function MusbellReview() {
             <li><Link href="/review/folli-partner/" className="text-[#A08447] underline">フォリパートナーの評判・料金を見る（同じIBJ仲人型・毎月の紹介人数保証つき）</Link></li>
             <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（仲人サポートを月11,800円〜のオンラインで受けたい方向け）</Link></li>
             <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
-            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（13社一覧）を見る</Link></li>
+            <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
           </ul>
         </section>
 
