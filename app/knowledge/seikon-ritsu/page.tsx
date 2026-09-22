@@ -108,6 +108,11 @@ export default function KnowledgeSeikonRitsu() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年9月22日</p>
 
+        <div className="rounded-2xl overflow-hidden mb-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/mb-seikon.jpg" alt="成婚（結婚指輪とブーケ）のイメージ" className="w-full h-auto" />
+        </div>
+
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：24社を実査した結果

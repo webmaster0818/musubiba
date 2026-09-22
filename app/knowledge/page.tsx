@@ -64,6 +64,11 @@ export default function KnowledgeHub() {
         <h1 className="text-2xl sm:text-3xl font-light mb-6 tracking-wider text-[#2C2C2C]">
           結婚相談所の基礎知識
         </h1>
+
+        <div className="rounded-2xl overflow-hidden mb-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/mb-knowledge.jpg" alt="結婚相談所の基礎知識のイメージ" className="w-full h-auto" />
+        </div>
         <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-4">
           はじめて結婚相談所を検討する方に向けて、料金の相場・タイプの選び方・活動の流れといった基礎知識をまとめました。全体像をつかんだうえで、各社の料金や評判は個別のレビューページや料金比較で見比べるのがおすすめです。
         </p>
