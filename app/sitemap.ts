@@ -20,6 +20,7 @@ const STATIC_ROUTES = [
   "/about", "/editorial-policy", "/knowledge", "/knowledge/cost",
   "/knowledge/how-to-choose", "/knowledge/flow", "/knowledge/seikon-ritsu",
   "/knowledge/kaiyaku",
+  "/knowledge/renmei",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
