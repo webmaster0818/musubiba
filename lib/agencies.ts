@@ -148,3 +148,26 @@ export function findBrand(name: string) {
 export function shortAddress(address: string): string {
   return address.replace(/^日本、?/, "").replace(/^〒\d{3}-\d{4}\s*/, "");
 }
+
+// 同じブランドの他店舗を都道府県をまたいで集める(2026-09-30 追加)。
+//
+// GSCを見ると、流入は「ツヴァイ 京都店 レビュー」「ツヴァイ 仙台店 レビュー」
+// 「ツヴァイ 千葉店 レビュー」のように、同じブランドの別店舗名で分散して発生している。
+// これまで店舗ページの回遊は「同一エリア内」だけで、ブランド横断のリンクがなかったため、
+// 同じ検索意図で入ってきた読者が他店舗のページに移れなかった。
+export function sameBrandAgencies(name: string, selfSlug: string, limit = 8) {
+  const brand = findBrand(name);
+  if (!brand) return [] as { slug: string; name: string; prefName: string; count: number; rating: number | null }[];
+  const out: { slug: string; name: string; prefName: string; count: number; rating: number | null }[] = [];
+  for (const { pref, prefName } of DB_PREFS) {
+    const db = loadAgencyDb(pref);
+    if (!db) continue;
+    for (const a of indexableAgencies(db)) {
+      if (a.slug === selfSlug) continue;
+      if (!brand.match.test(a.name)) continue;
+      out.push({ slug: a.slug, name: a.name, prefName, count: a.count || 0, rating: (a.rating as number) ?? null });
+    }
+  }
+  out.sort((x, y) => y.count - x.count);
+  return out.slice(0, limit);
+}

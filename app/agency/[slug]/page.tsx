@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { loadAgencyDb, indexableAgencies, findBrand, shortAddress, AREA_LABELS, DB_PREFS, type Agency, type AgencyDb } from "@/lib/agencies";
+import { loadAgencyDb, indexableAgencies, findBrand, sameBrandAgencies, shortAddress, AREA_LABELS, DB_PREFS, type Agency, type AgencyDb } from "@/lib/agencies";
 
 /*
  * 相談所ごとの個別ページ(Google Places API実測データのみ・捏造ゼロ)。
@@ -38,8 +38,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!r) return {};
   const { a, db, prefName } = r;
   return {
-    title: `${a.name}の口コミ評点・所在地【Googleマップ実数】${prefName}の結婚相談所`,
-    description: `${a.name}(${prefName})のGoogleマップ実データ: 評点${a.rating ?? "－"}・口コミ${a.count}件(${db.surveyedAt}取得)。所在地・周辺の結婚相談所・選び方ガイドまで。評点は当サイトの評価ではなくGoogleマップの実数です。`,
+    // GSC実測(2026-09)では、この種のページへの流入クエリは「◯◯ 評判」「◯◯ レビュー」
+    // 「◯◯ 口コミ」の形がほとんどだった。titleに「評判」が入っていなかったため追加し、
+    // 検証できる実数(評点・件数)を前に出す。
+    title: `${a.name}の評判・口コミ【Googleマップ評点${a.rating ?? "－"}／${a.count}件】${prefName}の結婚相談所`,
+    description: `${a.name}(${prefName})の評判をGoogleマップの実データで確認できます。評点${a.rating ?? "－"}・口コミ${a.count}件(${db.surveyedAt}取得)。所在地、同じエリアの相談所、同じブランドの他店舗との比較まで。評点は当サイトの評価ではなくGoogleマップの実数です。`,
     alternates: { canonical: `https://mu-su-bi-ba.com/agency/${encodeURIComponent(a.slug)}/` },
   };
 }
@@ -55,6 +58,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   const nearby = main
     .filter((x) => x.slug !== a.slug && x.areas.includes(primaryArea))
     .slice(0, 5);
+  const sameBrand = sameBrandAgencies(a.name, a.slug, 8);
 
   // 実測DBからの機械集計(創作値なし): 県内順位・平均評点・件数中央値
   const sorted = [...main].sort((x, y) => (y.count || 0) - (x.count || 0));
@@ -172,6 +176,27 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
             {nearby.map((x) => (
               <li key={x.slug} className="bg-white rounded-lg border border-gray-100 px-4 py-3 flex flex-wrap items-center gap-x-3">
                 <Link href={`/agency/${encodeURIComponent(x.slug)}/`} className="font-medium text-[#A08447] underline">{x.name}</Link>
+                <span className="text-[#2C2C2C]/60">評点{x.rating ?? "－"}・口コミ{x.count}件</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* 同じブランドの他店舗。GSC上、流入は「ツヴァイ 京都店」「ツヴァイ 仙台店」のように
+          同ブランドの別店舗名で分散して発生しているため、ブランド横断で回遊できるようにする。
+          件数はGoogleマップ実数。 */}
+      {sameBrand.length > 0 && (
+        <section className="mb-10">
+          <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">同じブランドの他店舗</h2>
+          <p className="text-sm text-[#2C2C2C]/60 leading-relaxed mb-3">
+            同じブランドでも、店舗によって口コミの評点・件数は違います（Googleマップ実数・{db.surveyedAt}取得）。
+          </p>
+          <ul className="space-y-2 text-sm">
+            {sameBrand.map((x) => (
+              <li key={x.slug} className="bg-white rounded-lg border border-gray-100 px-4 py-3 flex flex-wrap items-center gap-x-3">
+                <Link href={`/agency/${encodeURIComponent(x.slug)}/`} className="font-medium text-[#A08447] underline">{x.name}</Link>
+                <span className="text-xs text-[#2C2C2C]/45">{x.prefName}</span>
                 <span className="text-[#2C2C2C]/60">評点{x.rating ?? "－"}・口コミ{x.count}件</span>
               </li>
             ))}
