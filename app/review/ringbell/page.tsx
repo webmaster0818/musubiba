@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "リングベル（結婚相談所）の口コミ・評判｜料金・成婚料を中立解説【2026年】",
@@ -328,6 +329,8 @@ export default function RingbellReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/ringbell/" brandName="リングベル" />
+
       </article>
     </>
   );

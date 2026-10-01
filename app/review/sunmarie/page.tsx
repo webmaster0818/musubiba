@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "サンマリエの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -282,6 +283,8 @@ export default function SunmarieReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/sunmarie/" brandName="サンマリエ" />
+
       </article>
     </>
   );

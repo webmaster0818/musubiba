@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "ツヴァイの口コミ・評判｜料金・会員数・サポートを徹底解説【2026年】",
@@ -320,6 +321,8 @@ export default function ZweiReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/zwei/" brandName="ツヴァイ" />
+
       </article>
     </>
   );

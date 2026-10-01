@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "ムスベルの評判・口コミ・料金｜「やばい」の真相を中立解説【2026年】",
@@ -348,6 +349,8 @@ export default function MusbellReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/musbell/" brandName="ムスベル" />
+
       </article>
     </>
   );

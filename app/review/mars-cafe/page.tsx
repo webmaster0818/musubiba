@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "マーズカフェの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
@@ -312,6 +313,8 @@ export default function MarsCafeReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/mars-cafe/" brandName="Mars cafe" />
+
       </article>
     </>
   );

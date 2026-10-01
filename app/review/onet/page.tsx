@@ -2,6 +2,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "オーネットの口コミ・評判｜料金・会員数・特徴を徹底解説【2026年】",
@@ -307,6 +308,8 @@ export default function OnetReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/onet/" brandName="オーネット" />
+
       </article>
     </>
   );

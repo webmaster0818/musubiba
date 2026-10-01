@@ -171,3 +171,31 @@ export function sameBrandAgencies(name: string, selfSlug: string, limit = 8) {
   out.sort((x, y) => y.count - x.count);
   return out.slice(0, limit);
 }
+
+// ブランドの実店舗を全都道府県DBから集める(2026-10-01 追加)。
+//
+// なぜ: 提携ブランドのレビューページ15本の合計が172表示・0クリックで、うち4本は
+// インデックスすらされていなかった(naco-do/partner-agent/sunmarie=Discovered、
+// ibj-members=Crawled - not indexed)。ページに「そのブランド固有の検証できる事実」が
+// 薄いことが原因と見て、実店舗のGoogleマップ実測値(評点・口コミ件数)を載せる。
+//
+// 誤ヒット対策: 「スマリッジ」が「ミテラスマリッジ」に一致してしまうため、
+// マッチ位置の直前がカタカナ/英字の場合は別ブランドとみなして除外する。
+export function brandStores(href: string, limit = 30) {
+  const brand = BRAND_REVIEWS.find((b) => b.href === href);
+  if (!brand) return [];
+  const out: { slug: string; name: string; prefName: string; count: number; rating: number | null }[] = [];
+  for (const { pref, prefName } of DB_PREFS) {
+    const db = loadAgencyDb(pref);
+    if (!db) continue;
+    for (const a of indexableAgencies(db)) {
+      const m = brand.match.exec(a.name);
+      if (!m) continue;
+      const before = m.index > 0 ? a.name[m.index - 1] : "";
+      if (before && /[ァ-ヶーA-Za-z]/.test(before)) continue; // 別ブランドの一部に一致した
+      out.push({ slug: a.slug, name: a.name, prefName, count: a.count || 0, rating: (a.rating as number) ?? null });
+    }
+  }
+  out.sort((x, y) => y.count - x.count);
+  return out.slice(0, limit);
+}

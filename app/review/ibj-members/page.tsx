@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "IBJメンバーズの口コミ・評判｜料金・成婚率の定義・加盟店との違いを徹底解説【2026年】",
@@ -320,6 +321,8 @@ export default function IbjMembersReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/ibj-members/" brandName="IBJメンバーズ" />
+
       </article>
     </>
   );

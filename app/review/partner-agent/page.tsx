@@ -3,6 +3,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
   title: "パートナーエージェントの口コミ・評判｜料金・成婚率27%・特徴を徹底解説【2026年】",
@@ -289,6 +290,8 @@ export default function PartnerAgentReview() {
           </div>
         </section>
       <AuthorBox />
+      <BrandStores href="/review/partner-agent/" brandName="パートナーエージェント" />
+
       </article>
     </>
   );
