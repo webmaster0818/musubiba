@@ -32,3 +32,28 @@ h1, h2, h3 {
   letter-spacing: 0.05em;
   font-weight: 600;
 }
+
+/* スクロールで現れる演出(2026-10-02)。
+   初期状態は JS が data-rv を付けたときだけ適用する。
+   JSが動かない環境では何も隠れないので、本文は常に読める。 */
+[data-rv] {
+  opacity: 0;
+  transform: translateY(18px);
+  will-change: opacity, transform;
+}
+[data-rv],
+[data-rv="in"] {
+  transition: opacity 0.7s cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+[data-rv="in"] {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-rv], [data-rv="in"] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}

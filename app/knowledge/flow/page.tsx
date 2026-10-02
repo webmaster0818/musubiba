@@ -62,14 +62,17 @@ const breadcrumbJsonLd = {
   ],
 };
 
+// 2026-10-02: 各ステップに画像を追加(施主指示)。
+// 画像は nano banana pro で生成した静物写真。人物・文字は入れない方針で、
+// 既存の mb-*.jpg と同じトーン(自然光・木のテーブル・ベージュ基調)に揃えている。
 const steps = [
-  { n: 1, t: "無料相談・カウンセリング", d: "サービス内容や料金の説明を受け、婚活の希望をヒアリングしてもらいます。入会を強制されることはなく、相性や雰囲気を確認する場です。複数社を比較検討するのがおすすめです。" },
-  { n: 2, t: "入会・書類提出・プロフィール作成", d: "独身証明書・本人確認書類などの必要書類を提出し、プロフィールを作成します。写真やプロフィールの充実度は出会いの数に影響しやすい重要な準備です。" },
-  { n: 3, t: "お相手探し・お見合いの申し込み", d: "紹介やデータ検索でお相手を探し、お見合いを申し込みます。仲人型ではカウンセラーからの紹介、データマッチング型では自分で検索して申し込むのが中心です。" },
-  { n: 4, t: "お見合い", d: "実際に会って会話し、お互いの印象を確かめます。両者が「もっと知りたい」と合意すると次の交際段階へ進みます。" },
-  { n: 5, t: "仮交際", d: "複数の相手と並行してお付き合いを進める段階です。デートを重ねながら相性を見極めます。カウンセラーに相談しながら進められます。" },
-  { n: 6, t: "真剣交際", d: "お互いに一人に絞り、結婚を前提に交際を深めます。原則として他の相手との交際は終了します。" },
-  { n: 7, t: "成婚退会", d: "結婚の意思が固まった段階で成婚退会となります。成婚料が発生する相談所ではこのタイミングで支払います。成婚の定義は相談所ごとに異なる場合があります。" },
+  { n: 1, img: "/flow-01-soudan.jpg", t: "無料相談・カウンセリング", d: "サービス内容や料金の説明を受け、婚活の希望をヒアリングしてもらいます。入会を強制されることはなく、相性や雰囲気を確認する場です。複数社を比較検討するのがおすすめです。" },
+  { n: 2, img: "/flow-02-nyukai.jpg", t: "入会・書類提出・プロフィール作成", d: "独身証明書・本人確認書類などの必要書類を提出し、プロフィールを作成します。写真やプロフィールの充実度は出会いの数に影響しやすい重要な準備です。" },
+  { n: 3, img: "/flow-03-sagasu.jpg", t: "お相手探し・お見合いの申し込み", d: "紹介やデータ検索でお相手を探し、お見合いを申し込みます。仲人型ではカウンセラーからの紹介、データマッチング型では自分で検索して申し込むのが中心です。" },
+  { n: 4, img: "/flow-04-omiai.jpg", t: "お見合い", d: "実際に会って会話し、お互いの印象を確かめます。両者が「もっと知りたい」と合意すると次の交際段階へ進みます。" },
+  { n: 5, img: "/flow-05-kari.jpg", t: "仮交際", d: "複数の相手と並行してお付き合いを進める段階です。デートを重ねながら相性を見極めます。カウンセラーに相談しながら進められます。" },
+  { n: 6, img: "/flow-06-shinken.jpg", t: "真剣交際", d: "お互いに一人に絞り、結婚を前提に交際を深めます。原則として他の相手との交際は終了します。" },
+  { n: 7, img: "/flow-07-seikon.jpg", t: "成婚退会", d: "結婚の意思が固まった段階で成婚退会となります。成婚料が発生する相談所ではこのタイミングで支払います。成婚の定義は相談所ごとに異なる場合があります。" },
 ];
 
 const relatedLinks = [
@@ -117,11 +120,20 @@ export default function KnowledgeFlow() {
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">入会から成婚までの7ステップ</h2>
           <div className="space-y-4">
             {steps.map((s) => (
-              <div key={s.n} className="bg-white rounded-xl border border-gray-100 p-5 flex gap-4">
-                <span className="bg-[#A08447] text-white font-medium w-8 h-8 rounded-full flex items-center justify-center text-sm shrink-0">{s.n}</span>
-                <div>
-                  <h3 className="font-medium text-[#A08447] tracking-wider mb-1">{s.t}</h3>
-                  <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">{s.d}</p>
+              <div key={s.n} className="bg-white rounded-xl border border-gray-100 overflow-hidden">
+                <img
+                  src={s.img}
+                  alt=""
+                  aria-hidden="true"
+                  loading="lazy"
+                  className="w-full h-40 sm:h-48 object-cover"
+                />
+                <div className="p-5 flex gap-4">
+                  <span className="bg-[#A08447] text-white font-medium w-8 h-8 rounded-full flex items-center justify-center text-sm shrink-0">{s.n}</span>
+                  <div>
+                    <h3 className="font-medium text-[#A08447] tracking-wider mb-1">{s.t}</h3>
+                    <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">{s.d}</p>
+                  </div>
                 </div>
               </div>
             ))}

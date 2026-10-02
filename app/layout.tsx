@@ -3,6 +3,7 @@ import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
 import Link from "next/link";
 import Header from "@/components/Header";
 import FloatingCTA from "@/components/FloatingCTA";
+import ScrollReveal from "@/components/ScrollReveal";
 import "./globals.css";
 
 const notoSansJP = Noto_Sans_JP({
@@ -87,6 +88,7 @@ export default function RootLayout({
 
         {/* Floating CTA */}
         <FloatingCTA />
+        <ScrollReveal />
 
         {/* Footer */}
         <footer className="bg-[#333333] text-white/60 mt-16">
