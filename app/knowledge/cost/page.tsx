@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import { FeeAllTable, FeeTotalTable } from "@/components/FeeTables";
 
 export const metadata: Metadata = {
-  title: "結婚相談所の料金相場は？初期費用・月会費・成婚料の目安【2026年】",
+  title: "結婚相談所の料金を24社実査｜1年の総額は22万〜67万円【2026年】",
   description:
-    "結婚相談所の料金相場を初期費用・月会費・お見合い料・成婚料に分けて解説。オンライン型と仲人型でどれくらい違うのか、1年活動した場合の総額の目安、費用を抑えるポイントまでわかりやすくまとめました。金額は目安で、正確な料金は各公式でご確認ください。",
+    "当サイトが公式サイトを実査した結婚相談所24社の初期費用・月会費・成婚料を一覧で掲載。3項目すべてを公表している12社について1年で成婚退会した場合の総額を計算すると227,600円〜677,050円（中央値434,500円）でした。月会費の中央値、成婚料なしの社数まで実数で示します。",
   alternates: { canonical: "/knowledge/cost/" },
 };
 
@@ -155,64 +156,13 @@ export default function KnowledgeCost() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">【実データ】当サイト検証済み10社の実際の料金</h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            相場の「目安」だけでは実感が湧きにくいため、当サイトが各公式サイトで実際に確認した10社の料金（税込・2026年7月確認）を一覧にしました。同じ「仲人型」でも料金体系は大きく異なることがわかります。
-          </p>
-          <div className="overflow-x-auto mb-4">
-            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
-              <thead>
-                <tr className="bg-[#F5F0EB] text-left">
-                  <th className="px-3 py-3 font-medium text-[#2C2C2C]">相談所</th>
-                  <th className="px-3 py-3 font-medium text-[#2C2C2C]">タイプ</th>
-                  <th className="px-3 py-3 font-medium text-[#2C2C2C]">初期費用</th>
-                  <th className="px-3 py-3 font-medium text-[#2C2C2C]">月会費</th>
-                  <th className="px-3 py-3 font-medium text-[#2C2C2C]">成婚料</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジ</Link></td><td className="px-3 py-3">オンライン</td><td className="px-3 py-3 whitespace-nowrap">6,600円</td><td className="px-3 py-3 whitespace-nowrap">9,900円</td><td className="px-3 py-3 whitespace-nowrap">0円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェント</Link></td><td className="px-3 py-3">オンライン</td><td className="px-3 py-3 whitespace-nowrap">33,000円</td><td className="px-3 py-3 whitespace-nowrap">16,500円</td><td className="px-3 py-3 whitespace-nowrap">0円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-do</Link></td><td className="px-3 py-3">オンライン</td><td className="px-3 py-3 whitespace-nowrap">66,000円</td><td className="px-3 py-3 whitespace-nowrap">16,800円</td><td className="px-3 py-3 whitespace-nowrap">0円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマ</Link></td><td className="px-3 py-3">オンライン仲人型</td><td className="px-3 py-3 whitespace-nowrap">49,800円</td><td className="px-3 py-3 whitespace-nowrap">11,800円〜</td><td className="px-3 py-3 whitespace-nowrap">149,800円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/excellence-aoyama/" className="text-[#A08447] underline">エクセレンス青山</Link></td><td className="px-3 py-3">仲人型</td><td className="px-3 py-3 whitespace-nowrap">55,000円〜</td><td className="px-3 py-3 whitespace-nowrap">7,700円※</td><td className="px-3 py-3 whitespace-nowrap">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/bridal-tulip/" className="text-[#A08447] underline">ブライダルチューリップ</Link></td><td className="px-3 py-3">仲人型</td><td className="px-3 py-3 whitespace-nowrap">105,000円〜</td><td className="px-3 py-3 whitespace-nowrap">7,550円〜※</td><td className="px-3 py-3 whitespace-nowrap">180,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/code-for-marriage/" className="text-[#A08447] underline">Code For Marriage</Link></td><td className="px-3 py-3">仲人型</td><td className="px-3 py-3 whitespace-nowrap">77,000円</td><td className="px-3 py-3 whitespace-nowrap">11,000円</td><td className="px-3 py-3 whitespace-nowrap">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/folli-partner/" className="text-[#A08447] underline">フォリパートナー</Link></td><td className="px-3 py-3">仲人型</td><td className="px-3 py-3 whitespace-nowrap">110,000円〜</td><td className="px-3 py-3 whitespace-nowrap">16,500円〜</td><td className="px-3 py-3 whitespace-nowrap">250,000円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/hero-marriage/" className="text-[#A08447] underline">ヒーローマリッジ</Link></td><td className="px-3 py-3">仲人型（男性専門）</td><td className="px-3 py-3 whitespace-nowrap">165,000円</td><td className="px-3 py-3 whitespace-nowrap">14,300円〜</td><td className="px-3 py-3 whitespace-nowrap">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-3 py-3"><Link href="/review/nagareyama-otakanomori/" className="text-[#A08447] underline">流山おおたかの森</Link></td><td className="px-3 py-3">仲人型</td><td className="px-3 py-3 whitespace-nowrap">165,000円</td><td className="px-3 py-3 whitespace-nowrap">9,900円</td><td className="px-3 py-3 whitespace-nowrap">220,000円</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed mb-4">
-            ※各社の最安プラン基準・税込。エクセレンス青山とブライダルチューリップは<strong>お見合い料が1回ごとに発生</strong>（5,500〜8,800円／回）するため、月会費が安くても活動量次第で総額が増えます。料金は当サイトが各公式サイトで確認した公表値（2026年7月確認）ですが、改定される場合があるため申込前に必ず各公式サイトでご確認ください。
-          </p>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
-            この実データからわかる重要なポイントは2つ。①<strong>「オンライン型＝成婚料0円」「仲人型＝成婚料15万〜30万円」という構造</strong>が実際の料金にもはっきり表れていること。②仲人型の月会費には7,550円〜22,000円と約3倍の開きがあり、<strong>月会費が安い相談所はお見合い料など別の費用項目がある場合が多い</strong>こと。1年総額に換算した安い順ランキングは<Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所の総額比較</Link>で、来店不要・成婚料0円中心のオンライン型4社に絞った比較は<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>で確認できます。
-          </p>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">【実データ】公式サイトを実査した24社の料金</h2>
+          <FeeAllTable />
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">1年活動した場合の総額イメージ</h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            料金は総額で比較するのが基本です。あくまで相場感をつかむための目安ですが、タイプ別に1年活動したときのイメージを整理しました。
-          </p>
-          <div className="overflow-x-auto mb-4">
-            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
-              <thead>
-                <tr className="bg-[#F5F0EB]">
-                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">タイプ</th>
-                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">1年活動の総額の目安</th>
-                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">特徴</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">オンライン型</td><td className="px-4 py-3">おおよそ10万〜25万円程度</td><td className="px-4 py-3 text-xs">低価格で自分のペースで活動しやすい</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">仲人型・大手型</td><td className="px-4 py-3">おおよそ30万〜60万円程度</td><td className="px-4 py-3 text-xs">手厚いサポート。成婚料が加わる場合が多い</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※上記は一般的な相場から算出したおおよその目安です。実際の総額は活動期間・お見合い料・成婚料の有無・プランにより大きく変わります。正確な総額は各社の無料相談での見積もりでご確認ください。各社の具体的な料金は<Link href="/compare/" className="text-[#A08447] underline">料金比較ページ</Link>をご覧ください。</p>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">【実データ】1年活動した場合の総額ランキング</h2>
+          <FeeTotalTable />
         </section>
 
         <section className="mb-12">

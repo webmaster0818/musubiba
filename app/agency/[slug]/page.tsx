@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import PartnerPicks from "@/components/PartnerPicks";
 import { loadAgencyDb, indexableAgencies, findBrand, sameBrandAgencies, shortAddress, AREA_LABELS, DB_PREFS, type Agency, type AgencyDb } from "@/lib/agencies";
 
 /*
@@ -51,7 +52,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   const { slug } = await params;
   const r = resolve(decodeURIComponent(slug));
   if (!r) return null;
-  const { a, db, prefName, areaHref } = r;
+  const { a, db, pref, prefName, areaHref } = r;
   const brand = findBrand(a.name);
   const primaryArea = a.areas[0];
   const main = indexableAgencies(db);
@@ -153,6 +154,10 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
           この相談所は当サイトでレビュー記事を公開しているブランドの店舗です。料金体系・向いている人の詳細は<Link href={brand.href} className="text-[#A08447] underline">{brand.label}</Link>をご覧ください。
         </p>
       )}
+
+      {/* 提携先への導線(2026-10-08)。GSC上、このサイトの流入の76%がこの個別ページに
+          来ているのに受け皿が無かったため設置。未提携社の外部リンクを出さない方針は不変。 */}
+      <PartnerPicks pref={pref} seed={a.slug} prefName={prefName} />
 
       <section className="mb-10">
         <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">はじめて結婚相談所を検討する方へ</h2>

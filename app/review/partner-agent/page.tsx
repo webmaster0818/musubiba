@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FeePosition from "@/components/FeePosition";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -245,7 +246,9 @@ export default function PartnerAgentReview() {
           </div>
         </section>
 
-        <section className="mb-12">
+              <FeePosition slug="partner-agent" />
+
+<section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">よくある質問</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
@@ -249,7 +250,9 @@ export default function ZweiReview() {
         </section>
 
         {/* 口コミの傾向(編集部要約) */}
-        <section className="mb-12">
+              <FeePosition slug="zwei" />
+
+<section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
             <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>——「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>

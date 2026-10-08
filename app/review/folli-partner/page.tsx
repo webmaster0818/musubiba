@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
@@ -312,7 +313,9 @@ export default function FolliPartnerReview() {
         </section>
 
         {/* 他社比較リンク */}
-        <section className="mb-12">
+              <FeePosition slug="folli-partner" />
+
+<section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーと他社を比較して選ぶ
           </h2>

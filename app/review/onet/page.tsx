@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
@@ -245,7 +246,9 @@ export default function OnetReview() {
         </section>
 
         {/* 口コミの傾向(編集部要約) */}
-        <section className="mb-12">
+              <FeePosition slug="onet" />
+
+<section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
             <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>——成婚退会者からの「アドバイザーが親身だった」という感謝が最も多く、「落ち込んだ時に一緒に悩んでくれた」「相談したい時に時間を作ってくれた」など伴走面の評価が中心です。特徴的なのは、<span className="font-medium">オーネット独自システムに加えてIBJ加盟のネットワーク経由で他社会員と成婚した</span>という報告が複数ある点で、出会いの母集団が2系統ある構造が口コミからも確認できます。</p>

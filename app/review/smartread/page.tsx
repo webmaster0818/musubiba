@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
@@ -301,7 +302,8 @@ export default function SmartreadReview() {
           </div>
         </section>
       <AuthorBox />
-      </article>
+            <FeePosition slug="smartread" />
+</article>
     </>
   );
 }
