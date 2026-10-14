@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   description:
     "結婚相談所24社のレビューと13都道府県1,543件の実測データベースで比較。料金・成婚率・会員数・サポート体制からあなたに合う相談所が見つかります。",
   metadataBase: new URL("https://mu-su-bi-ba.com"),
+  alternates: { canonical: "./" },
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
