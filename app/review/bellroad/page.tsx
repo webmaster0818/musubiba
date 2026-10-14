@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +7,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "ベルロード縁結びサポートの評判は？月9,800円のサブスク婚活を公式情報で検証【IBJ加盟】",
+  title: "ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活・成婚料8万円【2026年10月】",
   description:
     "ベルロード縁結びサポート（IBJ加盟のオンライン結婚相談所）の料金・「婚活のサブスク」の内実・運営会社を公式情報ベースで検証。月9,800円（税込）に含まれるサービス、成婚料8万円、解約・休会規定、口コミの一次情報の有無まで正直に整理します。",
 };
@@ -109,9 +110,9 @@ export default function BellroadReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ベルロード縁結びサポートの評判は？月9,800円のサブスク婚活を公式情報で検証
+          ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月（料金・実績は2026年8月6日時点の公式サイト掲載情報を基に作成）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（口コミの掲載状況と公式表記を追記。料金は2026年8月6日時点の公式サイト掲載情報）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -289,6 +290,12 @@ export default function BellroadReview() {
         </section>
 
         {/* Reviews / How to verify */}
+        <ReviewVoices
+          name="ベルロード縁結びサポート"
+          checkedOn="2026年10月14日"
+          reviewNote="ベルロード縁結びサポートは滋賀・彦根本店とオンライン（online.bell-road.com）で運営されており、当サイトのGoogleマップ調査（13都道府県・滋賀は対象外）には口コミのある店舗がありませんでした。2026年10月14日の公式サイトには「お見合い料や更新料などは一切かかりません」「プランによるサービスの違いはありません」「90,000人以上の会員を検索」と記載されています（料金表は画像のため金額は8月時点の確認値を掲載）。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ベルロード縁結びサポートの評判・口コミについて（正直な調査結果）

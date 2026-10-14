@@ -5,79 +5,79 @@ import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
+import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "サンマリエの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "サンマリエの口コミ・評判｜料金・1年総額・「1年以内の成婚率86.3%」の意味【2026年10月】",
   description:
-    "サンマリエの口コミ・評判を徹底調査。仲人型老舗・お見合いセッティング代行・月会費16,500円〜が特徴のサンマリエの料金やサポート体制を詳しく解説します。",
+    "結婚相談所サンマリエ（sunmarie）の口コミ・評判をオリコン顧客満足度調査・Googleマップ（13サロン913件）の掲載内容つきで整理。月会費18,700円・成婚料220,000円などの料金（2026年10月14日公式確認）と1年総額も。",
 };
 
 const overview = {
   name: "サンマリエ",
-  type: "仲人型（老舗）",
-  members: "約8.7万人",
-  area: "全国対応（約30拠点）",
-  initialFee: "103,400円〜",
-  monthlyFee: "16,500円〜",
-  matchingFee: "220,000円",
-  age: "20〜60代（中心は30代〜40代）",
-  successRate: "非公開",
+  type: "仲人型（1981年創業）",
+  members: "101,240名（IBJで活動中の会員・2025年8月時点）",
+  area: "全国23店舗＋オンライン相談",
+  initialFee: "入会金33,000円＋初期活動費132,000円（ベーシック）",
+  monthlyFee: "18,700円（全コース共通）",
+  matchingFee: "220,000円（全コース共通）",
+  age: "公式に年齢層の公表なし",
+  successRate: "1年以内の成婚率86.3%（2023年1月〜2024年12月の成婚退会者実績・自社発表）",
 };
 
 const strengths = [
   {
-    title: "40年以上の歴史を持つ仲人型老舗結婚相談所",
-    desc: "1981年の創業以来40年以上の歴史を持つ老舗結婚相談所です。長年の実績とノウハウに基づいた仲人型のサポートが最大の特徴で、安心感と信頼性は業界でもトップクラスです。",
+    title: "1981年（昭和56年）創業の仲人型",
+    desc: "公式サイトは「昭和56年創業」「東証プライム上場グループが運営」と表記しています。担当の仲人が紹介・お見合い調整・交際中の相談まで伴走する仲人型です。",
   },
   {
-    title: "お見合いのセッティングを完全代行",
-    desc: "日程調整、場所の手配、当日の流れの説明まで、お見合いに関するセッティングを全て代行してくれます。婚活初心者でも安心してお見合いに臨むことができ、余計なストレスなく活動に集中できます。",
+    title: "全国23店舗とオンライン相談",
+    desc: "公式サイトによると全国23店舗を展開し、オンラインでのカウンセリングにも対応しています（2026年10月14日確認）。",
   },
   {
-    title: "連盟連携で約8.7万人の会員基盤にアクセス",
-    desc: "自社会員に加え、大手結婚相談所連盟と連携しており、約8.7万人の会員基盤にアクセスできます。仲人型の手厚いサポートと大規模な会員ネットワークの両方を活用できます。",
+    title: "IBJの約10万人から探せる",
+    desc: "IBJで活動中の会員101,240名（2025年8月時点）からお相手を探せます。お見合い料は全コース0円です。",
   },
 ];
 
 const pros = [
-  "40年以上の歴史と実績による安心感",
-  "お見合いのセッティングを完全代行",
-  "連盟連携で約8.7万人と出会える",
+  "担当者の対応を評価する声が多い（オリコン調査）",
+  "お見合い料0円・全国23店舗",
+  "乗り換え割（初期費用30,000円引き）がある",
 ];
 
 const cons = [
-  "初期費用10万円以上とやや高め",
-  "成婚料22万円が発生する",
-  "月会費も16,500円〜と安くはない",
+  "成婚料220,000円で、1年総額は60万円台になる",
+  "月会費18,700円と、オンライン型より高い",
+  "「1年以内の成婚率86.3%」は分母が公表されていない",
 ];
 
 const faqs = [
   {
-    q: "サンマリエの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類、卒業証明書が必要です。",
+    q: "サンマリエの料金はいくらですか？",
+    a: "ベーシックは入会金33,000円・初期活動費132,000円、月会費18,700円、お見合い料0円、成婚料220,000円です（税込・2026年10月14日に公式サイトで確認）。安心セット・プレミアムセットは「定価より約8.2万円／約8.8万円お得」と案内されています。",
   },
   {
-    q: "サンマリエのお見合いセッティング代行とは具体的に何をしてくれますか？",
-    a: "お見合いの日程調整、場所（ホテルラウンジ等）の予約、当日の流れの説明、お見合い後のフォローまで一連の流れを仲人が代行します。会員はお相手との会話に集中するだけで済みます。",
+    q: "「1年以内の成婚率86.3%」とはどういう数字ですか？",
+    a: "公式サイトの注記は「2023年1月〜2024年12月の成婚退会者実績」で、成婚退会者のうち1年以内に成婚した人の割合と読めますが、分母は明記されていません。入会者全体のうち86.3%が成婚するという意味ではない点に注意してください。",
   },
   {
-    q: "サンマリエの無料相談では何ができますか？",
-    a: "無料相談では、仲人との面談、サービスの説明、料金プランの案内、婚活に関するアドバイスが受けられます。来店またはオンラインで対応可能です。入会を強制されることはありません。",
+    q: "サンマリエの口コミ・評判は？",
+    a: "オリコン顧客満足度調査のサンマリエのページでは、担当スタッフが親身で丁寧・相談しやすいという声が多く、紹介が希望に合わない・対応に時間がかかったという声も一部あります。Googleマップでは口コミ3件以上の13サロンに計913件、評価は4.1〜5.0でした（当サイトが2026年8〜9月に取得）。",
   },
   {
     q: "サンマリエの退会方法を教えてください",
-    a: "担当仲人に退会の意思を伝え、所定の手続きを行います。成婚退会の場合は成婚料220,000円が発生します。中途退会の場合、契約内容に応じた精算が行われます。",
+    a: "担当者に退会の意思を伝え、所定の手続きを行います。成婚退会の場合は成婚料220,000円が発生します。中途退会の精算は契約内容によるため、入会前に書面で確認してください。",
   },
   {
-    q: "サンマリエはオンラインでも活動できますか？",
-    a: "カウンセリングやお見合いはオンラインでも対応可能です。来店が難しい方でも、ビデオ通話を通じて活動を進めることができます。ただし、対面でのサポートが充実しているため、可能であれば来店がおすすめです。",
+    q: "サンマリエはオンラインでも相談できますか？",
+    a: "公式サイトは全国23店舗に加えてオンラインでの相談にも対応しています。",
   },
   {
-    q: "サンマリエの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。仲人のきめ細かいサポートにより、効率的に婚活を進められます。",
+    q: "他社から乗り換えると安くなりますか？",
+    a: "公式の料金ページに「乗り換え割：初期費用30,000円OFF」の記載があります（2026年10月14日確認）。",
   },
 ];
-
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -103,9 +103,9 @@ export default function SunmarieReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          サンマリエの口コミ・評判｜料金・特徴・サポートを徹底解説
+          サンマリエの口コミ・評判｜料金・1年総額・成婚率の注記まで公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-sunmarie.jpg" alt="サンマリエ 公式サイト" className="w-full h-auto" />
@@ -159,6 +159,7 @@ export default function SunmarieReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">※サンマリエ以外の数値は各社レビュー掲載時点のものです。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -170,44 +171,50 @@ export default function SunmarieReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">15,400円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">103,400円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約8.7万人</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約16万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">18,700円</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">15,400円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約16万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">お見合い完全代行</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">複数連盟加盟</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">1981年創業・23店舗</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">複数連盟加盟</td></tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            サンマリエの評判・口コミの傾向まとめ
-          </h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「サンマリエ 評判」「サンマリエ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
-          </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の歴史と実績による安心感を評価する声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>お見合いのセッティングを完全代行してもらえる点を挙げる声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟連携で約8.7万人と出会える点を評価する声があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人による手厚い個別サポートを受けられたという声もあります</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用10万円以上とやや高めだと感じる声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>成婚料22万円が発生する点を気にする声が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>月会費も16,500円〜と安くはないという声もあります</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
-        </section>
+        <ReviewFacts
+          name="サンマリエ"
+          checkedOn="2026年10月14日"
+          officialUrl="https://www.sunmarie.co.jp/"
+          feeHead={["項目", "ベーシック（税込）", "補足"]}
+          feeRows={[
+            ["入会金", "33,000円", ""],
+            ["初期活動費", "132,000円", "乗り換え割で30,000円引き"],
+            ["月会費", "18,700円", "全コース共通"],
+            ["お見合い料", "0円", "全コース共通"],
+            ["成婚料", "220,000円", "全コース共通（成功報酬として一律）"],
+          ]}
+          feeNotes={["安心セット・プレミアムセットは、セットにしなかった場合の定価より約8.2万円／約8.8万円お得と案内されています（内容と金額は公式の料金ページで確認してください）。"]}
+          estimate={[{ label: "ベーシック・1年で成婚退会", formula: "33,000円＋132,000円＋18,700円×12＋220,000円", total: "609,400円" }]}
+          company={[
+            ["運営", "東証プライム上場グループが運営（公式サイトの表記）"],
+            ["創業", "1981年（昭和56年）"],
+            ["店舗", "全国23店舗＋オンライン相談"],
+            ["会員", "IBJで活動中の会員101,240名（2025年8月時点）"],
+          ]}
+          reviewNote="Googleマップでは、口コミ3件以上のサンマリエ13サロンに計913件の口コミがあり、評価は4.1〜5.0（口コミ件数で加重した平均4.51）でした（当サイトが2026年8〜9月に取得。サロン別はページ下部）。"
+          good={[
+            { text: "担当スタッフが親身で丁寧、相談しやすいという声が多い", source: "オリコン顧客満足度調査 サンマリエ（利用者コメント19件）" },
+            { text: "落ち着いて利用できたという声", source: "同上" },
+          ]}
+          bad={[
+            { text: "紹介された相手が希望に合わないと感じたという声", source: "オリコン顧客満足度調査 サンマリエ" },
+            { text: "担当者の対応に時間がかかったという声", source: "同上" },
+          ]}
+          sources={[
+            { name: "サンマリエ 料金コース・割引制度（公式）", url: "https://www.sunmarie.co.jp/price/" },
+            { name: "オリコン顧客満足度 サンマリエ", url: "https://life.oricon.co.jp/rank_marriage/company/sunmarie/" },
+          ]}
+        />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
@@ -260,7 +267,7 @@ export default function SunmarieReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">サンマリエの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">40年以上の実績を持つ老舗の無料カウンセリングを受けてみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料カウンセリングで総額と担当者の相性を確認しましょう</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 

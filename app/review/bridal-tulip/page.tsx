@@ -1,4 +1,6 @@
 import Link from "next/link";
+import BrandStores from "@/components/BrandStores";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +8,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "ブライダルチューリップの評判は？料金3プラン・成婚率の定義まで公式情報で検証",
+  title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜料金3プラン・成婚率の定義【2026年10月】",
   description:
     "ブライダルチューリップ（株式会社ナウい運営・高田馬場）の評判・料金を公式情報で検証。IBJ・SCRUM・CONNECT-shipの3連盟で紹介可能会員約19万名、入会金105,000円〜・成婚料180,000円（税込・2026年7月確認）の料金3プラン、成婚率60%以上（自社公称）の算出定義まで正直に解説します。",
   alternates: { canonical: "/review/bridal-tulip/" },
@@ -113,9 +115,9 @@ export default function BridalTulipReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ブライダルチューリップの評判は？料金3プラン・成婚率の定義まで公式情報で検証
+          ブライダルチューリップの口コミ・評判｜料金3プラン・成婚率の定義まで公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・会員数は2026年10月14日に公式サイトで再確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -221,10 +223,16 @@ export default function BridalTulipReview() {
           </p>
         </section>
 
+        <ReviewVoices
+          name="ブライダルチューリップ"
+          checkedOn="2026年10月14日"
+          reviewNote="Googleマップの「Bridalチューリップ」（高田馬場）には口コミ113件・評価4.6がありました（当サイトが2026年8月18日に取得）。公式サイトの料金（Aプラン入会金105,000円・月会費7,550円・お見合い費8,800円/件・成婚料180,000円など）と、IBJ約10.5万名・SCRUM約6.7万名・CONNECT-ship約2.1万名（2026年1月時点）の紹介可能会員数は2026年10月14日に再確認し、7月時点から変更はありませんでした。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミ・評判はある？見極め方（正直な解説）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトの調査（2026年7月時点）では、ブライダルチューリップについて<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりに公式情報から検討時の見極めポイントを整理します。
+            当サイトの調査（2026年7月時点）では、ブライダルチューリップについて<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（10月14日にGoogleマップの口コミ件数・評価を上に追記）。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりに公式情報から検討時の見極めポイントを整理します。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：3連盟（IBJ・SCRUM・CONNECT-ship）加盟、料金・成婚率定義の開示、運営会社情報（株式会社ナウい・高田馬場）など、検証可能な情報は公開されています。</span></li>
@@ -287,6 +295,7 @@ export default function BridalTulipReview() {
 
       <A8Banner ad="tulip" />
       <AuthorBox />
+        <BrandStores href="/review/bridal-tulip/" brandName="ブライダルチューリップ" />
       </article>
     </>
   );

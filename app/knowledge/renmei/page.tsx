@@ -37,8 +37,8 @@ const ibjRows: Row[] = [
 
 const otherRows: Row[] = [
   { slug: "musbell", name: "ムスベル", federation: "BIU・良縁ネットほか複数連盟に加盟", monthly: "15,400円", success: "公式に記載を確認できず" },
-  { slug: "naco-do", name: "naco-do（ナコード）", federation: "JBA（日本結婚相談協会）・CONNECT-ship・良縁ネット（3連携／約12.1万人）", monthly: "6,980円〜", success: "0円（公式明記）" },
-  { slug: "en-konkatsu", name: "エン婚活エージェント", federation: "CONNECT-ship 連携", monthly: "14,300円", success: "0円（公式明記）" },
+  { slug: "naco-do", name: "naco-do（ナコード）", federation: "JBA・CONNECT-ship・SCRUM（3連盟／19.1万人・2026年10月14日公式確認）", monthly: "16,800円", success: "0円（公式明記）" },
+  { slug: "en-konkatsu", name: "エン婚活エージェント", federation: "複数データベース（紹介可能17.4万人以上）・IBJ Online利用可", monthly: "16,500円", success: "0円（公式明記）" },
   { slug: "onet", name: "オーネット", federation: "独自会員システム＋IBJ加盟ネットワークの2系統", monthly: "16,500円", success: "公式に記載を確認できず" },
 ];
 

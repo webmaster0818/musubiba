@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +7,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "ヒーローマリッジの評判は？料金・成婚実績の実態を公式情報で検証【男性専門の結婚相談所】",
+  title: "ヒーローマリッジの口コミ・評判｜料金・成婚実績・返金保証を公式情報で検証【男性専門・2026年10月】",
   description:
     "男性専門の結婚相談所ヒーローマリッジ（株式会社アルファブル運営・IBJ加盟）の評判・料金を公式情報で検証。初期費用165,000円・月会費14,300円〜・成婚料220,000円（税込・2026年7月確認）の総額目安、プロカメラマン撮影無料などの特徴、成婚率が非公開である点まで正直に解説します。",
   alternates: { canonical: "/review/hero-marriage/" },
@@ -39,8 +40,8 @@ const strengths = [
     desc: "感覚ではなくデータ・検証を重視する「ロジカル婚活」を公式に打ち出しており、毎月3名の紹介とLINEでの日常的なサポートが受けられます。お見合い申込みは月200件まで可能で、IBJの全国会員ネットワークが対象です。",
   },
   {
-    title: "IBJ AWARDを4期連続受賞（自社公称）",
-    desc: "公式サイトではIBJ AWARDの4期連続受賞を掲げています（自社公称）。IBJ AWARDはIBJが成婚数などの基準で加盟相談所を表彰する制度で、受賞歴は活動実態の一つの参考になります。ただし受賞基準の詳細や対象期間は公式で確認することをおすすめします。",
+    title: "IBJ AWARDを5期連続受賞（自社公称）",
+    desc: "公式サイトではIBJ AWARDの5期連続受賞を掲げています（自社公称・2026年10月14日確認。7月時点は4期連続）。IBJ AWARDはIBJが成婚数などの基準で加盟相談所を表彰する制度で、受賞歴は活動実態の一つの参考になります。ただし受賞基準の詳細や対象期間は公式で確認することをおすすめします。",
   },
 ];
 
@@ -113,9 +114,9 @@ export default function HeroMarriageReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ヒーローマリッジの評判は？料金・成婚実績の実態を公式情報で検証
+          ヒーローマリッジの口コミ・評判｜料金・成婚実績の実態を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで再確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -215,6 +216,12 @@ export default function HeroMarriageReview() {
             成婚率は相談所ごとに計算方法（分母の取り方）が異なるため、数値がある場合でも定義の確認が欠かせません。数値が非公開の場合は、無料相談で「直近1年の成婚退会数」「自分と近い条件の会員の活動事例」を具体的に質問し、回答の具体性で判断するのが現実的です。
           </p>
         </section>
+
+        <ReviewVoices
+          name="ヒーローマリッジ"
+          checkedOn="2026年10月14日"
+          reviewNote="ヒーローマリッジは新宿の「ヒーローベース」＋全国オンライン対応で、当サイトのGoogleマップ調査（13都道府県）には口コミのある店舗が見つかりませんでした。2026年10月14日に公式サイトを再確認し、料金（入会金165,000円・月額14,300円〜27,500円・成婚退会費220,000円）は7月から変更なし、「1人も会えなかったら返金保証（条件あり）」の記載と、グループ累計支援男性数46,000人以上（ページ内に44,000人以上の表記も混在）を確認しました。"
+        />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミ・評判はある？見極め方（正直な解説）</h2>

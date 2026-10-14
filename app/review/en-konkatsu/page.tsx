@@ -4,79 +4,79 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
+import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "エン婚活エージェントの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "エン婚活エージェントの口コミ・評判｜料金・返金保証・オリコン調査の声【2026年10月】",
   description:
-    "エン婚活エージェントの口コミ・評判を徹底調査。月額14,300円・来店不要・全額返金保証が特徴のエン婚活エージェントの料金やサポート体制を詳しく解説します。",
+    "エン婚活エージェント（エン婚活）の口コミ・評判をオリコン顧客満足度調査・Googleマップの掲載内容つきで整理。登録料33,000円・月16,500円・成婚料0円（2026年10月14日公式確認）、1年総額、返金保証の条件まで。",
 };
 
 const overview = {
   name: "エン婚活エージェント",
-  type: "オンライン完結型",
-  members: "約3万人（コネクトシップ連携）",
+  type: "オンライン完結型（専任アドバイザー制）",
+  members: "紹介可能人数17.4万人以上（利用する全データベースの各社公表会員数の合計・2026年6月時点）",
   area: "全国対応（オンライン）",
-  initialFee: "33,000円（登録料・2026年7月5日公式確認）",
-  monthlyFee: "16,500円（2026年7月5日公式確認）",
-  matchingFee: "0円",
-  age: "20〜50代（中心は30代）",
-  successRate: "非公開（6ヶ月以上活動で30%以上が成婚）",
+  initialFee: "登録料33,000円",
+  monthlyFee: "16,500円（休会中7,150円）",
+  matchingFee: "0円（お見合い料も0円）",
+  age: "公式に年齢層の公表なし",
+  successRate: "成婚率の公表なし（累計成婚3,500組以上と公表）",
 };
 
 const strengths = [
   {
-    title: "全額返金保証で安心してスタートできる",
-    desc: "3ヶ月以内にコンタクト（お見合い）が成立しなかった場合、登録料と3ヶ月分の月会費を全額返金する保証制度があります。結果が出なければ費用が戻ってくるため、リスクを抑えて婚活を始められます。",
+    title: "3ヶ月でお見合いが成立しなければ返金（条件あり）",
+    desc: "公式サイトは「3ヶ月以内にコンタクト（お見合い）が成立しなければ、登録料と3か月分の月会費を返金」としています（2026年10月14日確認）。適用条件は規約で確認が必要です。",
   },
   {
-    title: "月額14,300円で来店不要のオンライン完結型",
-    desc: "月額14,300円、初期費用10,780円、成婚料0円というシンプルな料金体系です。入会から活動まで全てオンラインで完結し、来店の必要がありません。エン・ジャパングループ運営の信頼感もあります。",
+    title: "登録料33,000円・月16,500円・成婚料0円",
+    desc: "お見合い料・成婚料が0円のため、1年活動して成婚退会した場合の単純計算は231,000円です。運営は東証プライム上場のエン・ジャパングループです。",
   },
   {
-    title: "コネクトシップ連携で約3万人の会員と出会える",
-    desc: "大手結婚相談所も参加するコネクトシップと連携しており、約3万人の会員基盤にアクセスできます。毎月6名以上の紹介と10名までの検索申込みが可能で、出会いの機会は十分に確保されています。",
+    title: "IBJ Onlineも追加料金なしで利用可能に",
+    desc: "2026年3月30日の提携発表により、IBJ Onlineを追加料金なしで利用できると公式サイトに記載があります。紹介可能人数は17.4万人以上（2026年6月時点の各社公表値の合計）です。",
   },
 ];
 
 const pros = [
-  "全額返金保証で安心してスタートできる",
-  "月額14,300円・成婚料0円のシンプル料金",
-  "来店不要のオンライン完結型",
+  "お見合い料・成婚料0円で、1年総額231,000円の計算",
+  "3ヶ月お見合い不成立で登録料＋月会費3ヶ月分の返金保証",
+  "オリコン顧客満足度調査のオンライン型で上位評価の掲載あり",
 ];
 
 const cons = [
-  "会員数は大手と比べると少なめ",
-  "対面でのサポートが受けられない",
-  "毎月の紹介人数に上限がある",
+  "対面でのサポートは受けられない",
+  "2026年7月に料金改定の告知があり、古い記事の料金と違う",
+  "オリコン調査ではマッチングの少なさを挙げる声もある",
 ];
 
 const faqs = [
   {
-    q: "エン婚活エージェントの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類が必要で、全てオンラインで提出できます。",
+    q: "エン婚活エージェントの料金はいくらですか？",
+    a: "登録料33,000円、月会費16,500円、お見合い料・成婚料0円です（税込・2026年10月14日に公式サイトで確認）。休会中の月会費は7,150円です。2026年7月1日に料金改定の告知があったため、古い記事の金額（月14,300円など）とは異なります。",
   },
   {
     q: "全額返金保証の条件を教えてください",
-    a: "入会後3ヶ月以内にコンタクト（お見合い）が成立しなかった場合、登録料と3ヶ月分の月会費が全額返金されます。ただし、会員自身が活動に必要な手続きを行っていることが条件です。",
+    a: "3ヶ月以内にコンタクト（お見合い）が成立しなかった場合、登録料と3か月分の月会費が返金されます。適用には条件があるため、公式サイトの規約で確認してください。",
   },
   {
-    q: "エン婚活エージェントの無料相談では何ができますか？",
-    a: "オンラインでの無料カウンセリングが受けられます。サービスの説明、料金プランの案内、婚活に関するアドバイスを行います。入会を強制されることはありません。",
+    q: "エン婚活エージェントの口コミ・評判は？",
+    a: "オリコン顧客満足度調査（回答3,922人）のページには、始めやすさ・アドバイザーの伴走・オンラインお見合いの手軽さを評価する声と、マッチングや返信が少ない・日程調整がわずらわしいという声の両方が掲載されています。Googleマップの事業所には口コミ41件・評価3.3（当サイトが2026年8月に取得）がありました。",
   },
   {
-    q: "エン婚活エージェントの退会方法を教えてください",
-    a: "マイページまたは担当アドバイザーを通じて退会手続きを行います。成婚料は0円なので、成婚退会時の追加費用はかかりません。中途退会の場合も違約金は基本的にかかりません。",
+    q: "エン婚活エージェントは今も入会できますか？",
+    a: "2026年10月14日時点の公式サイトに新規受付の終了やサービス終了の告知はなく、無料相談・キャンペーンの案内が掲載されています。",
   },
   {
-    q: "毎月どのくらいの紹介がありますか？",
-    a: "毎月6名以上の紹介が保証されています。加えて、自分から検索して毎月10名までお見合いの申し込みが可能です。合わせて月16名以上の出会いのチャンスがあります。",
+    q: "エン婚活エージェントの運営会社は？",
+    a: "東証プライム上場のエン・ジャパングループの会社で、公式サイトのフッターには「en-konkatsu agent inc.」と表記されています。",
   },
   {
-    q: "エン婚活エージェントの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。6ヶ月以上活動した方の30%以上が成婚しているとされています。",
+    q: "成婚までの期間や実績は？",
+    a: "公式サイトは累計の成婚数を3,500組以上としていますが、成婚率や平均活動期間の公表は確認できませんでした（2026年10月14日時点）。",
   },
 ];
-
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -102,9 +102,9 @@ export default function EnKonkatsuReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          エン婚活エージェントの口コミ・評判｜料金・特徴・サポートを徹底解説
+          エン婚活エージェントの口コミ・評判｜料金・返金保証・利用者の声の傾向
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式サイトで確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-en-konkatsu.jpg" alt="エン婚活エージェント 公式サイト" className="w-full h-auto" />
@@ -156,6 +156,7 @@ export default function EnKonkatsuReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">※3社とも2026年10月14日に各公式サイトで確認した金額です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -167,44 +168,48 @@ export default function EnKonkatsuReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">14,300円</td><td className="px-4 py-3 text-center">6,980円〜</td><td className="px-4 py-3 text-center">9,900円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">10,780円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約3万人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">9,900円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">17.4万人以上（紹介可能）</td><td className="px-4 py-3 text-center">19.1万人</td><td className="px-4 py-3 text-center">約5.1万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">全額返金保証</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">業界最安クラス</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料0円・3ヶ月返金保証</td><td className="px-4 py-3 text-center">成婚料0円・90日返金保証</td><td className="px-4 py-3 text-center">成婚料0円・3ヶ月返金保証</td></tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            エン婚活エージェントの評判・口コミの傾向まとめ
-          </h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「エン婚活エージェント 評判」「エン婚活エージェント 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
-          </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>全額返金保証があり安心してスタートできたという声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>月額14,300円・成婚料0円のシンプルな料金体系を評価する声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>来店不要のオンライン完結型で活動しやすいという声があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>コネクトシップ連携で出会いの機会を確保しやすいという声が見られます</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数は大手と比べると少なめという指摘が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>対面でのサポートが受けられない点を不安視する声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>毎月の紹介人数に上限がある点を物足りないとする声が見られます</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
-        </section>
+        <ReviewFacts
+          name="エン婚活エージェント"
+          checkedOn="2026年10月14日"
+          officialUrl="https://en-konkatsu.com/"
+          feeHead={["項目", "金額（税込）", "補足"]}
+          feeRows={[
+            ["登録料", "33,000円", ""],
+            ["月会費", "16,500円", "休会中は7,150円"],
+            ["お見合い料", "0円", ""],
+            ["成婚料", "0円", ""],
+          ]}
+          feeNotes={["2026年7月1日に「サービスアップデートおよび料金改定」の告知あり。", "3ヶ月以内にお見合い不成立なら登録料＋月会費3ヶ月分を返金（条件あり）。"]}
+          estimate={[{ label: "1年活動して成婚退会", formula: "33,000円＋16,500円×12＋0円", total: "231,000円" }]}
+          company={[
+            ["運営", "en-konkatsu agent inc.（公式サイトのフッター表記）"],
+            ["グループ", "エン・ジャパングループ（東証プライム上場）"],
+            ["形態", "オンライン完結型"],
+            ["実績", "累計成婚3,500組以上（公式発表）"],
+          ]}
+          reviewNote="オリコン顧客満足度調査（過去5年以内の利用者など3,922人が回答）のエン婚活エージェントのページでは、オンライン型の結婚相談所として1位（70.8点）、2024〜2026年の3年連続と掲載されています（2026年10月14日確認）。Googleマップの事業所は口コミ41件・評価3.3（当サイトが2026年8月18日に取得）でした。"
+          good={[
+            { text: "サービスと入会手続きがシンプルで始めやすいという声", source: "オリコン顧客満足度調査 エン婚活エージェント" },
+            { text: "初回相談から成婚までアドバイザーが伴走してくれて不安が減ったという声", source: "同上" },
+            { text: "オンラインお見合いで移動が減り、忙しくても活動できたという声", source: "同上" },
+          ]}
+          bad={[
+            { text: "マッチングや相手からの返信が少ない・遅いという声", source: "オリコン顧客満足度調査 エン婚活エージェント" },
+            { text: "日程調整の仕組みがわずらわしいという声", source: "同上" },
+            { text: "結果に対して費用が高いと感じた、条件に合う相手が見つかりにくいという声", source: "同上" },
+          ]}
+          sources={[{ name: "オリコン顧客満足度 エン婚活エージェント", url: "https://life.oricon.co.jp/rank_marriage/company/en-konkatsu/" }]}
+        />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

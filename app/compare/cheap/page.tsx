@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 // 全て公式サイトで検証済みの料金（税込）。オンライン3社=2026年7月5日確認／仲人型2社=2026年7月確認／追加5社=2026年7月31日確認。
+// 2026-10-14: セブン・フィオーレ・マーズカフェ・サンマリエ・パートナーエージェントを公式で再確認して修正（旧値は公式と不一致だった）。
 // 総額は各社の最安プラン基準。お見合い料は回数依存のため総額に含めず列で明示。
 type Row = {
   slug: string;
@@ -24,18 +25,18 @@ type Row = {
   totalSeikon: string;
   note: string;
 };
-const rows: Row[] = [
+const rowsRaw: Row[] = [
   {
     slug: "seven",
     name: "結婚相談所セブン",
-    type: "仲人型",
-    initial: "30,000円〜",
-    monthly: "7,700円〜",
-    omiai: "公式に記載を確認できず",
-    seikon: "100,000円〜（成果報酬）",
-    total1y: "122,400円〜",
-    totalSeikon: "222,400円〜",
-    note: "初期費用・月会費とも最安クラス。成婚料は成果報酬型で100,000円〜。お見合い料の記載は公式で確認できなかったため、無料相談で確認を",
+    type: "IBJ加盟・担当カウンセラー制",
+    initial: "9,800円",
+    monthly: "9,800円",
+    omiai: "0円",
+    seikon: "50,000円",
+    total1y: "127,400円",
+    totalSeikon: "177,400円",
+    note: "IBJプラン基準（2026年10月14日公式確認）。活動1年後から更新料16,200円/年、退会・成婚退会の手数料1,800円。SCRUM追加は初回3,300円＋月1,500円",
   },
   {
     slug: "smartread",
@@ -53,13 +54,13 @@ const rows: Row[] = [
     slug: "fiore",
     name: "FIORE（フィオーレ）",
     type: "仲人型",
-    initial: "33,000円〜",
-    monthly: "8,800円〜",
-    omiai: "公式に記載を確認できず",
-    seikon: "110,000円〜",
-    total1y: "138,600円〜",
-    totalSeikon: "248,600円〜",
-    note: "成婚料110,000円〜は仲人型の相場（20万円前後）より低め。プランにより金額が変わるため下限値で計算",
+    initial: "33,000円",
+    monthly: "9,900円",
+    omiai: "AI紹介以外で成立時5,500円",
+    seikon: "110,000円",
+    total1y: "151,800円",
+    totalSeikon: "261,800円",
+    note: "リミテッド プラン2（毎月2名紹介）基準・2026年10月14日公式確認。会員検索のフレキシブル（月7,700円・成婚料220,000円）、成婚料0円のフィオーレコースもあり。フォーム予約で入会登録費半額",
   },
   {
     slug: "excellence-aoyama",
@@ -89,13 +90,13 @@ const rows: Row[] = [
     slug: "mars-cafe",
     name: "マーズカフェ",
     type: "仲人型",
-    initial: "33,000円〜",
-    monthly: "11,000円〜",
-    omiai: "公式に記載を確認できず",
-    seikon: "110,000円",
-    total1y: "165,000円〜",
-    totalSeikon: "275,000円〜",
-    note: "成婚料110,000円は仲人型の相場の半分程度。初期費用も33,000円〜と低め",
+    initial: "88,000円",
+    monthly: "7,700円",
+    omiai: "2,200円／件",
+    seikon: "220,000円",
+    total1y: "180,400円",
+    totalSeikon: "400,400円",
+    note: "Aコース基準（入会金66,000円＋登録料22,000円・2026年10月14日公式確認）。お見合い料0円のBコースは月11,000円。成婚率72.5%（2025年・成婚退会者÷全退会者）を公表",
   },
   {
     slug: "marriage-pro",
@@ -245,13 +246,13 @@ const rows: Row[] = [
     slug: "sunmarie",
     name: "サンマリエ",
     type: "仲人型",
-    initial: "103,400円〜",
-    monthly: "16,500円〜",
-    omiai: "公式に記載を確認できず",
+    initial: "165,000円",
+    monthly: "18,700円",
+    omiai: "0円",
     seikon: "220,000円",
-    total1y: "301,400円〜",
-    totalSeikon: "521,400円〜",
-    note: "40年以上の歴史。お見合いのセッティングを完全代行。連盟連携で約8.7万人にアクセス",
+    total1y: "389,400円",
+    totalSeikon: "609,400円",
+    note: "ベーシック基準（入会金33,000円＋初期活動費132,000円・2026年10月14日公式確認）。1981年創業・全国23店舗。乗り換え割で初期費用30,000円引き",
   },
   {
     slug: "folli-partner",
@@ -292,14 +293,14 @@ const rows: Row[] = [
   {
     slug: "partner-agent",
     name: "パートナーエージェント",
-    type: "仲人型（CONNECT-ship）",
-    initial: "137,500円〜",
-    monthly: "18,700円〜",
-    omiai: "公式に記載を確認できず",
-    seikon: "55,000円",
-    total1y: "361,900円〜",
-    totalSeikon: "416,900円〜",
-    note: "月会費は最も高い部類だが、成婚料55,000円は大手仲人型の中では低め。全国約30店舗",
+    type: "仲人型（専任コンシェルジュ）",
+    initial: "99,000円",
+    monthly: "14,300円",
+    omiai: "0円",
+    seikon: "220,000円",
+    total1y: "270,600円",
+    totalSeikon: "490,600円",
+    note: "オンラインコース基準（登録料33,000円＋初期費用66,000円・2026年10月14日公式確認）。コンシェルジュコースは初期費用132,000円・月18,700円。成婚料は全コース220,000円",
   },
   {
     slug: "ibj-members",
@@ -314,6 +315,8 @@ const rows: Row[] = [
     note: "登録料33,000円＋活動サポート費219,450円。今回の24社で総額は最も高い。中途退会時は未活動分が返金される制度あり",
   },
 ];
+const yen = (t: string) => Number(t.replace(/[^0-9]/g, "")) || 0;
+const rows: Row[] = [...rowsRaw].sort((a, b) => yen(a.total1y) - yen(b.total1y));
 
 const faqs = [
   {
@@ -365,9 +368,9 @@ export default function CheapComparePage() {
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論（検証済み24社・税込）</h2>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>1年総額の最安は結婚相談所セブン 122,400円〜</strong>、次いで<strong>スマリッジ 125,400円</strong>。スマリッジは成婚料0円なので、成婚しても総額が増えません</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>仲人サポート付きで<strong>「成婚まで」いちばん安いのはベルロード縁結びサポート（成婚込227,600円）</strong>。IBJ加盟でありながら<strong>成婚料が80,000円</strong>と、他のIBJ加盟店の多く（220,000円）の約3分の1です</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>⚠️ <strong>「1年総額」と「成婚込み総額」で順位が入れ替わります</strong>：エクセレンス青山は1年総額では4位（147,400円）ですが、成婚料220,000円が乗ると367,400円。逆にベルロードは1年では5位でも、成婚込みでは227,600円で仲人型の最安になります。さらに月7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量次第で総額が増えます</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>1年総額の最安はスマリッジ 125,400円</strong>、次いで<strong>セブン結婚相談所 127,400円</strong>。スマリッジは成婚料0円なので、成婚しても総額が増えません</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>担当者が付く相談所で<strong>「成婚まで」安いのはセブン結婚相談所（成婚込177,400円・成婚料50,000円）とベルロード縁結びサポート（成婚込227,600円・成婚料80,000円）</strong>。どちらもIBJ加盟で、他のIBJ加盟店の多く（成婚料220,000円）より成婚料が大幅に低い水準です</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>⚠️ <strong>「1年総額」と「成婚込み総額」で順位が入れ替わります</strong>：エクセレンス青山は1年総額では3位（147,400円）ですが、成婚料220,000円が乗ると367,400円。逆にベルロードは1年では4位でも、成婚込みでは227,600円まで抑えられます。さらに月7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量次第で総額が増えます</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>成婚時総額の検証レンジは<strong>12.5万円（スマリッジ）〜67.7万円（IBJメンバーズ）＝差は最大約5.4倍</strong>。仲人型は高いぶん伴走サポートが厚く、<strong>「安さ」と「手厚さ」はトレードオフ</strong>です</span></li>
           </ul>
         </div>

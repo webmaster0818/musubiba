@@ -54,8 +54,8 @@ export const PARTNERS: Partner[] = [
     nationwide: true,
     prefs: [],
     area: "全国対応（オンライン）",
-    fee: "月額6,980円〜（6ヶ月プラン）／成婚料0円",
-    point: "成婚料がかからないオンライン型。総額を抑えたい人向け。",
+    fee: "初期費用66,000円／月16,800円／成婚料0円（2026年10月14日公式確認）",
+    point: "成婚料0円のオンライン型。3連盟19.1万人を追加料金なしで検索できる。",
   },
   {
     ad: "bellroad",
@@ -98,8 +98,8 @@ export const PARTNERS: Partner[] = [
     clickUrl: "https://t.felmat.net/fmcl?ak=N4707F.1.T84894Q.Z1361712",
     nationwide: false,
     prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "hiroshima", "shizuoka"],
-    area: "全国対応（約30拠点）",
-    fee: "月会費16,500円〜／成婚料220,000円（税込）",
+    area: "全国23店舗＋オンライン相談",
+    fee: "入会金33,000円＋初期活動費132,000円／月会費18,700円／成婚料220,000円（税込）",
     point: "お見合いのセッティングを代行してくれる仲人型の老舗。",
   },
   {
@@ -109,8 +109,8 @@ export const PARTNERS: Partner[] = [
     clickUrl: "https://t.felmat.net/fmcl?ak=L20406.1.R50563Q.Z1361712",
     nationwide: false,
     prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "hiroshima", "shizuoka"],
-    area: "全国主要都市（約30店舗）",
-    fee: "初期費用137,500円〜／月会費18,700円〜／成婚料55,000円",
+    area: "実店舗23店舗＋オンライン店11店舗",
+    fee: "登録料33,000円＋初期費用66,000円〜／月会費14,300円〜／成婚料220,000円（税込）",
     point: "専任コンシェルジュが活動計画を立てて伴走する体制。",
   },
   {

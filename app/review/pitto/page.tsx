@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +7,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "P!っと縁結びの評判は？ピップ株式会社運営のIBJ正規加盟店を公式情報で検証【料金・1年総額まで】",
+  title: "P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ運営のIBJ加盟店・料金・1年総額【2026年10月】",
   description:
     "P!っと縁結び（ピップエレキバンのピップ株式会社が運営する結婚相談所）の料金・IBJ加盟状況・休会解約規定を公式情報ベースで検証。1年活動した場合の総額試算と、口コミの一次情報の有無まで正直に整理します。",
 };
@@ -108,9 +109,9 @@ export default function PittoReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          P!っと縁結びの評判は？ピップ株式会社運営のIBJ正規加盟店を公式情報で検証
+          P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ株式会社運営のIBJ正規加盟店を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月（料金・実績は2026年8月6日時点の公式サイト掲載情報を基に作成）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（口コミの掲載状況を追記。料金・実績は2026年8月6日時点の公式サイト掲載情報）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -275,6 +276,12 @@ export default function PittoReview() {
         </section>
 
         {/* Reviews / How to verify */}
+        <ReviewVoices
+          name="P!っと縁結び"
+          checkedOn="2026年10月14日"
+          reviewNote="「P!っと縁結び」「ピッと縁結び」「Pっと縁結び」はいずれも同じピップ株式会社の結婚相談所です。当サイトのGoogleマップ調査（13都道府県）では、P!っと縁結びの店舗としての口コミは見つかりませんでした（2026年10月14日時点）。口コミだけで判断せず、下の見極めポイントと料金表で確認してください。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             P!っと縁結びの評判・口コミについて（正直な調査結果）

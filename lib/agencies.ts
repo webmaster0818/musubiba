@@ -128,6 +128,12 @@ export const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [
   { match: /マリッジプロ/i, href: "/review/marriage-pro/", label: "マリッジプロの詳細レビュー" },
   { match: /ナコード|naco-?do/i, href: "/review/naco-do/", label: "naco-doの詳細レビュー" },
   { match: /スマリッジ/i, href: "/review/smartread/", label: "スマリッジの詳細レビュー" },
+  // 2026-10-14 追加: 提携先の店舗ページからレビューへ導線を張るため
+  { match: /セブン結婚相談所/, href: "/review/seven/", label: "セブン結婚相談所の詳細レビュー" },
+  { match: /Bridalチューリップ|ブライダルチューリップ/i, href: "/review/bridal-tulip/", label: "ブライダルチューリップの詳細レビュー" },
+  { match: /ウェルスマ/, href: "/review/wellsma/", label: "ウェルスマの詳細レビュー" },
+  { match: /エクセレンス青山/, href: "/review/excellence-aoyama/", label: "エクセレンス青山の詳細レビュー" },
+  { match: /フォリパートナー/, href: "/review/folli-partner/", label: "フォリパートナーの詳細レビュー" },
 ];
 
 export function loadAgencyDb(pref: string): AgencyDb | null {

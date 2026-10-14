@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 type Row = { item: string; sunmarie: string; musbell: string };
 const rows: Row[] = [
   { item: "タイプ", sunmarie: "仲人型（1981年創業・40年以上の老舗）", musbell: "ハイブリッド型（仲人＋データマッチング・複数連盟加盟）" },
-  { item: "会員数", sunmarie: "約8.7万人（自社会員＋連盟連携）", musbell: "複数連盟加盟で業界最大級（人数は公式参照・要確認）" },
+  { item: "会員数", sunmarie: "101,240名（IBJで活動中・2025年8月時点）", musbell: "複数連盟加盟で業界最大級（人数は公式参照・要確認）" },
   { item: "拠点", sunmarie: "全国対応（約30拠点）", musbell: "全国に拠点を展開（拠点数は公式参照）" },
   { item: "初期費用", sunmarie: "103,400円〜", musbell: "33,000円〜（プランにより115,500円〜の場合あり）" },
   { item: "月会費", sunmarie: "16,500円〜", musbell: "15,400円〜（要確認）" },
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     q: "出会いの数（会員数）で選ぶならどっち？",
-    a: "母数の大きさで選ぶならムスベルが目安です。BIU・良縁ネットなど複数の連盟に加盟し、業界最大級の会員基盤にアクセスできます（正確な人数は公式サイトで要確認）。サンマリエは自社会員に加え大手連盟と連携して約8.7万人の会員基盤で、人数を開示している分かりやすさがあります。ただし会員数が多いほど「絞りにくい」と感じる声もあるため、数の多さを活かすなら検索を併用できるムスベル、仲人の目利きで紹介を受けたいならサンマリエという選び方が現実的です。",
+    a: "母数の大きさで選ぶならムスベルが目安です。BIU・良縁ネットなど複数の連盟に加盟し、業界最大級の会員基盤にアクセスできます（正確な人数は公式サイトで要確認）。サンマリエは自社会員に加えIBJで活動中の会員101,240名（2025年8月時点）という人数を公式に示しており、人数を開示している分かりやすさがあります。ただし会員数が多いほど「絞りにくい」と感じる声もあるため、数の多さを活かすなら検索を併用できるムスベル、仲人の目利きで紹介を受けたいならサンマリエという選び方が現実的です。",
   },
   {
     q: "サポートの手厚さで選ぶならどっち？",
@@ -141,7 +141,7 @@ export default function SunmarieVsMusbellPage() {
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>お見合いのセッティングを完全代行でお任せしたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚退会まで見据えた総額を抑えたい（成婚料220,000円）</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の歴史がある老舗の安心感を重視したい</li>
-              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数（約8.7万人）を開示している分かりやすさで選びたい</li>
+              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数（IBJ 101,240名）を開示している分かりやすさで選びたい</li>
             </ul>
             <p className="mt-4 text-sm"><Link href="/review/sunmarie/" className="text-[#A08447] underline">サンマリエの評判・料金を詳しく見る</Link></p>
           </div>

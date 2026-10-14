@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import A8Banner from "@/components/A8Banner";
@@ -7,7 +8,7 @@ import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
-  title: "IBJメンバーズの口コミ・評判｜料金・成婚率の定義・加盟店との違いを徹底解説【2026年】",
+  title: "IBJメンバーズの口コミ・評判｜料金・1年総額・成婚の定義・加盟店との違い【2026年10月】",
   description:
     "IBJメンバーズ（株式会社IBJ直営）の口コミ・評判を徹底調査。登録会員数110,420名（2026年7月時点）・成婚退会者の割合1/2以上（全退会者のうち成婚退会者の割合）・月会費17,050円の料金体系、IBJ加盟店との違いまで詳しく解説します。",
 };
@@ -117,9 +118,9 @@ export default function IbjMembersReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          IBJメンバーズの口コミ・評判｜料金・成婚率の定義・加盟店との違いを徹底解説
+          IBJメンバーズの口コミ・評判｜料金・成婚の定義・加盟店との違いを公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月（料金・実績は2026年8月3日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式サイトで再確認・口コミの掲載状況を追記）</p>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
@@ -228,34 +229,14 @@ export default function IbjMembersReview() {
           </ul>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            IBJメンバーズの評判・口コミの傾向まとめ
-          </h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「IBJメンバーズ 評判」「IBJメンバーズ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の雰囲気は無料カウンセリングで直接確認することをおすすめします。
-          </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>上場企業直営の安心感と業界最大級の会員数を評価する声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>「成婚＝婚約」まで伴走するサポートの手厚さを挙げる声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員の年収・学歴データが公表されており相手の質に期待できるという声があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>お見合い実現率94%（2025年1〜6月・プロフィール公開会員）など実績の透明性を評価する声もあります</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用252,450円と成婚料220,000円で総額が高めだと感じる声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗が9店舗と主要都市中心のため、通いやすさを事前に確認したという声が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>入会条件（年齢・年収基準）があるため、まず無料相談で自分が対象か確認したという声もあります</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・店舗によっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
-        </section>
+        <ReviewVoices
+          name="IBJメンバーズ"
+          checkedOn="2026年10月14日"
+          reviewNote="Googleマップでは、IBJメンバーズ9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）に計1,444件の口コミがあり、評価は4.7〜4.9（口コミ件数で加重した平均4.72）でした（当サイトが2026年8〜9月に取得。店舗別はページ下部）。料金は登録料33,000円＋活動サポート費219,450円、月会費17,050円、成婚料220,000円（税込・2026年10月14日公式確認）で、1年で成婚退会した場合の単純計算は677,050円です。"
+          good={[{ text: "カウンセラーのサポートが手厚く安心できたという声", source: "オリコン顧客満足度調査 IBJメンバーズ（利用者コメント21件）" }, { text: "厳選された紹介で時間を節約できたという声", source: "同上" }, { text: "運営がしっかりしていて信頼できるという声", source: "同上" }]}
+          bad={[{ text: "自分から動かないと進まず、担当者からの働きかけが少なかったという声", source: "オリコン顧客満足度調査 IBJメンバーズ" }, { text: "紹介の質や人数に物足りなさを感じたという声", source: "同上" }, { text: "費用に見合う結果だったか分からないという声", source: "同上" }]}
+          sources={[{ name: "オリコン顧客満足度 IBJメンバーズ", url: "https://life.oricon.co.jp/rank_marriage/company/loungemembers/" }]}
+        />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
@@ -298,7 +279,7 @@ export default function IbjMembersReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">IBJメンバーズの無料カウンセリングを予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">上場企業直営・業界最大級ネットワークの婚活を無料相談で体験してみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料カウンセリングで総額と担当体制を確認しましょう</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 

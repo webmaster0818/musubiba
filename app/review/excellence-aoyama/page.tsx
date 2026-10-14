@@ -1,4 +1,6 @@
 import Link from "next/link";
+import BrandStores from "@/components/BrandStores";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +8,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "エクセレンス青山の評判は？4連盟33万人・料金コース・成婚率の注意点まで公式情報で検証",
+  title: "エクセレンス青山の口コミ・評判｜4連盟33万人・料金コース・成婚率の注意点【2026年10月】",
   description:
     "エクセレンス青山（エグゼクティブ向け結婚相談所）の料金コース・4連盟約33万人のネットワーク・成婚率85.7%（2019年実績）の注意点を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理します。",
 };
@@ -106,9 +108,9 @@ export default function ExcellenceAoyamaReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          エクセレンス青山の評判は？4連盟33万人・料金コース・成婚率の注意点まで公式情報で検証
+          エクセレンス青山の口コミ・評判｜4連盟33万人・料金コース・成婚率の注意点まで検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月31日時点の公式サイト掲載情報を基に作成）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで再確認）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -253,7 +255,7 @@ export default function ExcellenceAoyamaReview() {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">29,800円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">6,980円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">16,800円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">紹介可能会員</td><td className="px-4 py-3 text-center">約33万人（4連盟）</td><td className="px-4 py-3 text-center">約10.8万人（IBJ）</td><td className="px-4 py-3 text-center">約12.1万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型（ハイクラス向け）</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
@@ -264,12 +266,18 @@ export default function ExcellenceAoyamaReview() {
         </section>
 
         {/* Reviews / How to verify */}
+        <ReviewVoices
+          name="エクセレンス青山"
+          checkedOn="2026年10月14日"
+          reviewNote="Googleマップの「結婚相談所エクセレンス青山」には口コミ31件・評価4.6がありました（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、スタンダード（入会金55,000円・月会費7,700円・成婚料220,000円）ほかの料金は変更なし。キャンペーンとして、男性限定プレミアムコースの初期費用5,500円（通常33,000円・毎月先着10名）、月中の無料オンラインカウンセリングで入会金10%OFFなどが告知されています（併用不可）。定休日は公式サイト内で火曜・水曜の表記が混在しているため、来店前に確認してください。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山の評判・口コミについて（正直な調査結果）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「エクセレンス青山 評判」「エクセレンス青山 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。確認できない口コミを紹介する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
+            当サイトで「エクセレンス青山 評判」「エクセレンス青山 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（10月14日にGoogleマップの口コミ件数・評価を上に追記）。確認できない口コミを紹介する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
@@ -342,6 +350,7 @@ export default function ExcellenceAoyamaReview() {
 
         <A8Banner ad="excellence" />
         <AuthorBox />
+        <BrandStores href="/review/excellence-aoyama/" brandName="エクセレンス青山" />
       </article>
     </>
   );

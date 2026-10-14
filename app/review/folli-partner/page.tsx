@@ -1,4 +1,6 @@
 import Link from "next/link";
+import BrandStores from "@/components/BrandStores";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,8 +8,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title:
-    "東京フォリパートナーの評判は？成婚率71.5%の算出定義・5コース料金・No.1表記の正しい読み方まで検証",
+  title: "東京フォリパートナーの口コミ・評判｜成婚率71.5%の定義・5コース料金・No.1表記の読み方【2026年10月】",
   description:
     "東京フォリパートナー（IBJ正規加盟・優良認定加盟店）の評判を公式公表情報から検証。成婚率71.5%（自社公称）の算出定義、ライト〜メンズ5コースの税込料金と1年総額目安、広告の「No.1」表記がIBJ連盟実績である点の正しい読み方、中途解約条件まで整理しました。",
 };
@@ -123,9 +124,9 @@ export default function FolliPartnerReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          東京フォリパートナーの評判は？成婚率71.5%の算出定義・5コース料金・No.1表記の正しい読み方まで検証
+          東京フォリパートナーの口コミ・評判｜成婚率71.5%の算出定義・5コース料金・No.1表記の正しい読み方まで検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式サイトで再確認）</p>
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
@@ -278,7 +279,7 @@ export default function FolliPartnerReview() {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">110,000円〜（スタンダード150,000円）</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">29,800円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜22,000円</td><td className="px-4 py-3 text-center">13,200円</td><td className="px-4 py-3 text-center">6,980円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜22,000円</td><td className="px-4 py-3 text-center">13,200円</td><td className="px-4 py-3 text-center">16,800円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型（IBJ・首都圏5店舗＋Zoom）</td><td className="px-4 py-3 text-center">仲人型（IBJ・大阪1名運営）</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚率の公表</td><td className="px-4 py-3 text-center">71.5%（自社公称・定義公表あり）</td><td className="px-4 py-3 text-center">56.3%（自社公称・定義公表あり）</td><td className="px-4 py-3 text-center">—</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">紹介人数保証・お見合い料0円</td><td className="px-4 py-3 text-center">出張面談・お見合い料無料</td><td className="px-4 py-3 text-center">業界最安クラス</td></tr>
@@ -289,6 +290,12 @@ export default function FolliPartnerReview() {
         </section>
 
         {/* 評判・口コミについて */}
+        <ReviewVoices
+          name="東京フォリパートナー"
+          checkedOn="2026年10月14日"
+          reviewNote="Googleマップの「結婚相談所 東京フォリパートナー」には口コミ58件・評価4.9がありました（当サイトが2026年8月18日に取得）。2026年10月14日に公式の料金ページを再確認し、ライト（初期費用110,000円・月会費16,500円・成婚料250,000円・紹介1名以上/月）〜スーペリア（250,000円・22,000円・300,000円・3名以上/月）の5コース、全コースお見合い料0円・2年目以降の更新料無料は変更ありませんでした。店舗は代々木（本店）・神田秋葉原・日本橋茅場町・青山・横浜湘南で、Zoom相談は全国対応です。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーの評判・口コミについて
@@ -368,6 +375,7 @@ export default function FolliPartnerReview() {
         </section>
       <A8Banner ad="folli" />
       <AuthorBox />
+        <BrandStores href="/review/folli-partner/" brandName="東京フォリパートナー" />
       </article>
     </>
   );

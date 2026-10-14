@@ -5,6 +5,16 @@ export const dynamic = "force-static";
 
 const BASE = "https://mu-su-bi-ba.com";
 const LASTMOD = "2026-08-23";
+// 個別に更新したページの lastmod（2026-10-14: 提携16社のレビューを公式再確認・口コミの出典追記）
+const UPDATED: Record<string, string> = Object.fromEntries(
+  [
+    "/review/fiore", "/review/smartread", "/review/seven", "/review/mars-cafe", "/review/naco-do",
+    "/review/en-konkatsu", "/review/sunmarie", "/review/partner-agent", "/review/ibj-members",
+    "/review/bridal-tulip", "/review/hero-marriage", "/review/wellsma", "/review/excellence-aoyama",
+    "/review/folli-partner", "/review/pitto", "/review/bellroad",
+    "", "/compare", "/compare/cheap", "/compare/30s", "/compare/sunmarie-vs-musbell", "/review/ringbell", "/review/musbell", "/knowledge/renmei", "/knowledge/seikon-ritsu",
+  ].map((r) => [r, "2026-10-14"]),
+);
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
@@ -42,7 +52,7 @@ function agencySlugs(): string[] {
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = STATIC_ROUTES.map((r) => ({
     url: `${BASE}${r}/`.replace(/\/\/$/, "/"),
-    lastModified: LASTMOD,
+    lastModified: UPDATED[r] ?? LASTMOD,
   }));
   const agencies = agencySlugs().map((s) => ({
     url: `${BASE}/agency/${encodeURIComponent(s)}/`,

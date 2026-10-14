@@ -4,79 +4,79 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
+import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "マーズカフェの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "結婚相談所マーズカフェ（Marz cafe）の口コミ・評判｜料金3コース・成婚率72.5%の定義【2026年10月】",
   description:
-    "マーズカフェの口コミ・評判を徹底調査。カフェ型の気軽な婚活相談所として注目されるマーズカフェの料金・サポート体制・雰囲気を詳しく解説します。",
+    "東京・中野の結婚相談所マーズカフェの口コミ・評判を掲載媒体つきで整理。A/B/乗り換えの3コースの料金（2026年10月14日公式確認）、1年総額、成婚率72.5%の算出方法、運営会社（株式会社マーズ）まで。",
 };
 
 const overview = {
-  name: "マーズカフェ",
-  type: "カフェ型（カジュアル相談所）",
-  members: "非公開",
-  area: "東京・大阪を中心に展開",
-  initialFee: "33,000円〜",
-  monthlyFee: "11,000円〜",
-  matchingFee: "110,000円",
-  age: "20〜40代（中心は20代後半〜30代）",
-  successRate: "非公開",
+  name: "結婚相談所マーズカフェ（Marz cafe）",
+  type: "仲人型（IBJ・TMS加盟）",
+  members: "約18万人（IBJ 104,859人＋TMS 87,430人・重複あり）",
+  area: "東京・中野（Zoom面談で全国対応）",
+  initialFee: "入会金66,000円＋登録料22,000円",
+  monthlyFee: "7,700円（Aコース）／11,000円（Bコース）",
+  matchingFee: "220,000円",
+  age: "公式に年齢層の公表なし",
+  successRate: "72.5%（2025年・成婚退会者÷全退会者／自社発表）",
 };
 
 const strengths = [
   {
-    title: "カフェのようなリラックス空間で婚活相談",
-    desc: "従来の結婚相談所にありがちな堅苦しい雰囲気ではなく、カフェのようなおしゃれな空間でカウンセリングを受けられます。初めての婚活でも緊張せずに相談できる環境が整っています。",
+    title: "成婚率72.5%を算出方法つきで公表",
+    desc: "公式サイトは成婚率を「2025年1〜12月の成婚退会者÷全退会者＝72.5%」と定義つきで公表し、成婚数は250人以上としています（2026年10月14日確認）。分母が「全退会者」の算出方法なので、他社の成婚率と比べるときは定義をそろえて見てください。",
   },
   {
-    title: "初期費用を抑えた始めやすい料金設定",
-    desc: "初期費用33,000円〜、月会費11,000円〜と、大手結婚相談所と比較してリーズナブルな料金設定です。婚活を気軽にスタートしたい方に適しています。",
+    title: "IBJとTMSの2団体に加盟し約18万人から探せる",
+    desc: "IBJ（104,859人・2025年12月時点）とTMS（87,430人・2023年11月時点）に加盟。両団体の会員は1〜2割が重複していると公式が注記しています。",
   },
   {
-    title: "20代〜30代の若い世代に特化したマッチング",
-    desc: "会員の中心層が20代後半〜30代のため、同世代のパートナーを探しやすい環境です。価値観の合う相手と出会える確率が高いのが特徴です。",
+    title: "お見合い料の有無でコースを選べる",
+    desc: "月額7,700円でお見合い1件2,200円のAコースと、月額11,000円でお見合い料0円のBコースがあり、どちらも申し込み月100名まで・紹介月3名以上・面談無制限。他社からの乗り換え限定コースは入会金が55,000円です。",
   },
 ];
 
 const pros = [
-  "カフェ型の気軽な雰囲気で婚活をスタートできる",
-  "初期費用・月会費ともにリーズナブル",
-  "若い世代の会員が多く同世代と出会いやすい",
+  "成婚率72.5%を定義つきで公表している",
+  "IBJ＋TMSで約18万人から探せる",
+  "年中無休・10〜21時受付、Zoom面談で全国から相談できる",
 ];
 
 const cons = [
-  "会員数が大手と比べると限定的",
-  "展開エリアが都市部に限られる",
-  "仲人型ほどの手厚いサポートは期待しにくい",
+  "成婚料220,000円で、1年総額は40万円台になる",
+  "拠点は中野の1か所のみ",
+  "Aコースはお見合いのたびに2,200円かかる",
 ];
 
 const faqs = [
   {
-    q: "マーズカフェの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件となります。入会時には独身証明書、本人確認書類、収入証明書が必要です。",
+    q: "マーズカフェの料金はいくらですか？",
+    a: "Aコースは入会金66,000円＋登録料22,000円、月額7,700円、お見合い料1件2,200円、成婚料220,000円。Bコースは月額11,000円でお見合い料0円（他は同じ）。乗り換え限定コースは入会金55,000円です（税込・2026年10月14日に公式サイトで確認）。",
   },
   {
-    q: "マーズカフェのカフェ型とはどういう意味ですか？",
-    a: "従来の結婚相談所のような事務所的な空間ではなく、カフェのようなリラックスできる空間でカウンセリングやお見合いを行うスタイルです。初めての方でも緊張せずに利用できます。",
+    q: "マーズカフェの成婚率72.5%はどう計算されていますか？",
+    a: "公式サイトでは「成婚退会者÷全退会者（2025年1月〜12月）」と定義しています。在籍会員全体を分母にした数字ではないため、他社の成婚率と比べる場合は定義の違いに注意してください。",
   },
   {
-    q: "マーズカフェの無料相談では何ができますか？",
-    a: "無料相談では、婚活に関するカウンセリング、サービスの説明、料金プランの案内を受けられます。カフェのような空間で気軽に相談でき、入会を強制されることはありません。",
+    q: "マーズカフェの口コミ・評判は？",
+    a: "Googleマップの「結婚相談所マーズカフェ」には口コミ39件・評価5.0（当サイトが2026年8月に取得）。比較記事に掲載されたエキテン等の口コミでは、条件に合わせたアドバイスや気持ちに寄り添うサポートを評価する声が見られます。",
   },
   {
-    q: "マーズカフェの退会方法を教えてください",
-    a: "担当カウンセラーに退会の意思を伝え、所定の手続きを行います。成婚退会の場合は成婚料が発生します。中途退会の場合、違約金は基本的にかかりません。",
+    q: "マーズカフェはカフェなのですか？",
+    a: "いいえ、飲食店ではなく東京都中野区の結婚相談所です（運営は株式会社マーズ）。中野駅南口から徒歩3分のオルド中野ビル2Fにあります。",
   },
   {
     q: "マーズカフェはオンラインでも活動できますか？",
-    a: "一部オンライン対応もありますが、基本的にはカフェ型の対面カウンセリングが中心です。お見合いもカフェスペースで行われることが多いです。",
+    a: "Zoomでの面談に全国から対応しています。受付は10:00〜21:00で定休日はありません（公式サイトより）。",
   },
   {
-    q: "マーズカフェの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。カジュアルな雰囲気で活動しやすいため、比較的スムーズに進む方もいます。",
+    q: "マーズカフェで成婚するまでの期間と費用の目安は？",
+    a: "公式サイトは、成婚者の活動期間の最頻値6か月・平均お見合い回数11回を前提に、合計378,400円（約38万円前後）という目安を掲載しています。",
   },
 ];
-
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -105,9 +105,9 @@ export default function MarsCafeReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          マーズカフェの口コミ・評判｜料金・特徴・サポートを徹底解説
+          結婚相談所マーズカフェの口コミ・評判｜料金3コース・成婚率の定義・運営会社
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで確認）</p>
 
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">マーズカフェ の公式サイトはこちら</a>
@@ -196,44 +196,56 @@ export default function MarsCafeReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,000円〜</td><td className="px-4 py-3 text-center">6,980円〜</td><td className="px-4 py-3 text-center">14,300円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円〜</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">カフェ型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">カジュアルな雰囲気</td><td className="px-4 py-3 text-center">業界最安クラス</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜11,000円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">88,000円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約18万人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率72.5%（自社発表）</td><td className="px-4 py-3 text-center">業界最安クラス</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            マーズカフェの評判・口コミの傾向まとめ
-          </h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「マーズカフェ 評判」「マーズカフェ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
-          </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>カフェ型の気軽な雰囲気で婚活をスタートしやすいという声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用・月会費ともにリーズナブルな点を評価する声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>若い世代の会員が多く同世代と出会いやすいという声があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>カウンセラーがフレンドリーで相談しやすかったという声もあります</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が大手と比べると限定的だと感じる声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>展開エリアが都市部に限られる点を気にする声が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>仲人型ほどの手厚いサポートは期待しにくいという声もあります</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
-        </section>
+        <ReviewFacts
+          name="マーズカフェ"
+          checkedOn="2026年10月14日"
+          officialUrl="https://marzcafe.com/"
+          feeHead={["項目", "Aコース", "Bコース", "乗り換え限定"]}
+          feeRows={[
+            ["入会金", "66,000円", "66,000円", "55,000円"],
+            ["登録料", "22,000円", "22,000円", "22,000円"],
+            ["月額費", "7,700円", "11,000円", "11,000円"],
+            ["お見合い料", "2,200円／件", "0円", "0円"],
+            ["成婚料", "220,000円", "220,000円", "220,000円"],
+          ]}
+          feeNotes={["金額は税込。各コースともお見合い申し込み月100名まで・紹介月3名以上・面談無制限。", "公式の目安：活動6か月・お見合い11回で合計378,400円。"]}
+          estimate={[
+            { label: "Aコース（お見合い料は件数分を別途）", formula: "66,000円＋22,000円＋7,700円×12＋220,000円", total: "400,400円＋お見合い料" },
+            { label: "Bコース", formula: "66,000円＋22,000円＋11,000円×12＋220,000円", total: "440,000円" },
+          ]}
+          company={[
+            ["運営", "株式会社マーズ（運営組織名：マーズカフェ）"],
+            ["代表", "増田修蔵"],
+            ["設立", "2009年4月"],
+            ["所在地", "東京都中野区中野2丁目28-3 オルド中野ビル2F（中野駅南口 徒歩3分）"],
+            ["加盟", "IBJ・TMS"],
+            ["受付", "10:00〜21:00・定休日なし"],
+          ]}
+          reviewNote="Googleマップの「結婚相談所マーズカフェ」は口コミ39件・評価5.0でした（当サイトが2026年8月18日に取得）。口コミ件数が少ない段階の評価なので、件数とあわせて見てください。"
+          good={[
+            { text: "一人ひとりの考えや条件に合わせてアドバイスしてくれるという声", source: "比較記事（M2W）に掲載のエキテン口コミ・独自アンケート" },
+            { text: "不安な気持ちに寄り添い励ましてくれたという声", source: "同上" },
+            { text: "他社から乗り換えて成婚できたという声", source: "同上" },
+          ]}
+          bad={[
+            { text: "否定的な口コミは確認した範囲では見当たりませんでした。比較記事が挙げる注意点は「入会書類が多い」「Aコースはお見合い料がかかる」の2点です", source: "比較記事（M2W）" },
+          ]}
+          sources={[
+            { name: "マーズカフェ 料金（公式）", url: "https://marzcafe.com/price/" },
+            { name: "マーズカフェ 相談所概要（公式）", url: "https://marzcafe.com/company/" },
+            { name: "M2W マーズカフェの口コミ・評判", url: "https://matching-two.com/marzcafe/" },
+          ]}
+        />
 
               <FeePosition slug="mars-cafe" />
 
@@ -283,7 +295,7 @@ export default function MarsCafeReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">マーズカフェの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談でカフェ型の婚活を体験してみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談でコースの違いと総額を確認しましょう</p>
           <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">公式サイトへ</a>
         </section>
 
@@ -303,7 +315,7 @@ export default function MarsCafeReview() {
           </div>
         </section>
       <AuthorBox />
-      <BrandStores href="/review/mars-cafe/" brandName="Mars cafe" />
+      <BrandStores href="/review/mars-cafe/" brandName="マーズカフェ" />
 
       </article>
     </>

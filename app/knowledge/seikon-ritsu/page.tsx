@@ -17,7 +17,7 @@ const rows = [
   { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年7月〜2026年7月)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
   { slug: "bridal-tulip", name: "ブライダルチューリップ", value: "60%以上", scope: "自社公称(算出の定義は公式ページに記載)", surveyed: "2026年7月", type: "公表" },
   { slug: "niko-bridal", name: "nikoブライダル", value: "56.3%", scope: "2025年1〜12月の成婚退会人数 ÷ 全退会人数", surveyed: "2026年7月7日", type: "公表" },
-  { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.8%", scope: "自社発表", surveyed: "2026年5月", type: "公表" },
+  { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.0%", scope: "2012〜2025年の全退会者16,692名のうち成婚退会8,684名の割合(公式注記)", surveyed: "2026年10月14日", type: "公表" },
   { slug: "naco-do", name: "naco-do(ナコード)", value: "41.3%", scope: "自社発表", surveyed: "2026年7月5日", type: "公表" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", value: "30%以上", scope: "「6ヶ月以上活動した会員のうち30%以上が成婚」という活動期間つきの表現。率そのものは非公開", surveyed: "2026年7月5日", type: "条件つき" },
   { slug: "partner-agent", name: "パートナーエージェント", value: "27%", scope: "2022年10月〜2023年3月のコンシェルジュコース・エグゼクティブコースにおける成婚退会者数 ÷ 総退会者数(公式注記・2026年9月22日再確認)", surveyed: "2026年9月6日", type: "公表" },

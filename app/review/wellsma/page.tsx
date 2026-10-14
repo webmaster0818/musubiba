@@ -1,4 +1,6 @@
 import Link from "next/link";
+import BrandStores from "@/components/BrandStores";
+import { ReviewVoices } from "@/components/ReviewFacts";
 import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
@@ -6,7 +8,7 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "ウェルスマの評判は？月11,800円〜のオンライン仲人型を公式情報で検証【成婚率の定義まで】",
+  title: "ウェルスマの口コミ・評判｜月11,800円〜のオンライン仲人型・成婚率86.1%の定義【2026年10月】",
   description:
     "ウェルスマ（完全オンラインの結婚相談所）の料金・成婚率86.1%の定義・IBJ加盟状況を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理し、入会前に確認すべきポイントを解説します。",
 };
@@ -106,9 +108,9 @@ export default function WellsmaReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ウェルスマの評判は？月11,800円〜のオンライン仲人型を公式情報で検証
+          ウェルスマの口コミ・評判｜月11,800円〜のオンライン仲人型を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月31日時点の公式サイト掲載情報を基に作成）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで再確認）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -252,7 +254,7 @@ export default function WellsmaReview() {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">6,980円〜</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">専任カウンセラーの仲人型</td><td className="px-4 py-3 text-center">業界最安クラス</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
@@ -263,12 +265,18 @@ export default function WellsmaReview() {
         </section>
 
         {/* Reviews / How to verify */}
+        <ReviewVoices
+          name="ウェルスマ"
+          checkedOn="2026年10月14日"
+          reviewNote="Googleマップの「結婚相談所ウェルスマ」には口コミ163件・評価4.5がありました（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、料金（入会金49,800円・月会費11,800円〜19,800円・成婚料149,800円・お見合い料なし）は7月から変更なし。会員数はIBJ 110,885名＋IBJオンライン会員35,665名（オンラインは有料オプション）、2025年の成婚退会者のうち1年以内に成婚した割合86.1%・平均在籍7.9ヶ月と公表されています。"
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマの評判・口コミについて（正直な調査結果）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「ウェルスマ 評判」「ウェルスマ 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。ネット上には口コミを紹介する記事もありますが、出典が示されていないものや、現行と異なる旧料金が記載された古い情報も見られます。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
+            当サイトで「ウェルスマ 評判」「ウェルスマ 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（10月14日にGoogleマップの口コミ件数・評価を上に追記）。ネット上には口コミを紹介する記事もありますが、出典が示されていないものや、現行と異なる旧料金が記載された古い情報も見られます。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
@@ -341,6 +349,7 @@ export default function WellsmaReview() {
 
         <A8Banner ad="wellsma" />
         <AuthorBox />
+        <BrandStores href="/review/wellsma/" brandName="ウェルスマ" />
       </article>
     </>
   );

@@ -3,33 +3,34 @@ import Breadcrumb from "@/components/Breadcrumb";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "スマリッジの口コミ・評判｜料金・特徴・サポートを徹底解説【2026年】",
+  title: "スマリッジ（smarriage）の口コミ・評判｜料金・全額返金保証の条件・運営会社【2026年10月】",
   description:
-    "スマリッジの口コミ・評判を徹底調査。オンライン完結型・低価格・コネクトシップ連携が特徴のスマリッジの料金やサポート体制を詳しく解説します。",
+    "オンライン結婚相談所スマリッジの口コミ・評判と、登録料6,600円・月会費9,900円・成婚料0円の料金（2026年10月14日公式確認）、全額返金保証の対象外条件、1年総額、運営会社を整理。",
 };
 
 const overview = {
   name: "スマリッジ",
   type: "オンライン完結型",
-  members: "約3万人（コネクトシップ連携含む）",
+  members: "利用事業者会員数 約51,000人（2026年10月時点・公式）",
   area: "全国対応（オンライン）",
   initialFee: "6,600円",
-  monthlyFee: "9,900円〜",
+  monthlyFee: "9,900円（割引適用で毎月1,100円引き）",
   matchingFee: "0円",
-  age: "20〜50代（中心は30代）",
+  age: "20歳以上（U28割引は20〜28歳）",
   successRate: "非公開",
 };
 
 const strengths = [
   {
-    title: "業界最安クラスの料金設定でコスパ抜群",
-    desc: "初期費用6,600円、月会費9,900円〜、成婚料0円という破格の料金設定です。一般的な結婚相談所と比較して年間コストを大幅に抑えられるため、婚活にかける予算が限られている方でも安心して始められます。",
+    title: "登録料6,600円・月会費9,900円・成婚料0円のワンプラン",
+    desc: "料金は1プランのみで、公式サイトの半年間の費用イメージは66,000円です（2026年10月14日確認）。成婚料がかからないため、1年活動して成婚退会しても総額は125,400円の計算です。当サイトの24社料金データでも初期費用は最も低い水準です。",
   },
   {
-    title: "コネクトシップ連携で約3万人の会員と出会える",
-    desc: "大手結婚相談所が参加するコネクトシップ（CONNECT-ship）と連携しており、自社会員だけでなく他社の会員ともマッチングが可能です。低価格ながら出会いの選択肢が広いのが魅力です。",
+    title: "IBJ online／コネクトシップの2つから活動先を選べる",
+    desc: "IBJ online（チームサポート・お相手検索40名まで）と、コネクトシップ（担当制・お相手検索10名まで）の2つのプラットフォームで活動できます。紹介は毎月最大6名で、利用事業者会員数は約51,000人（2026年10月時点）と公表されています。",
   },
   {
     title: "完全オンライン完結で忙しい方にも最適",
@@ -38,14 +39,14 @@ const strengths = [
 ];
 
 const pros = [
-  "初期費用6,600円・成婚料0円で業界最安クラス",
-  "コネクトシップ連携で出会いの幅が広い",
+  "登録料6,600円・成婚料0円で1年総額125,400円の計算",
+  "3ヶ月でお見合いが成立しなければ登録料と月会費3ヶ月分を返金する保証あり（条件つき）",
   "完全オンライン完結で来店不要",
 ];
 
 const cons = [
   "対面でのサポートが受けられない",
-  "自社会員数は大手ほど多くない",
+  "全額返金保証は割引・のりかえ割と併用できない",
   "カウンセラーとの関係構築に時間がかかる場合がある",
 ];
 
@@ -56,7 +57,7 @@ const faqs = [
   },
   {
     q: "コネクトシップとは何ですか？",
-    a: "複数の結婚相談所が会員データベースを共有するプラットフォームです。スマリッジの自社会員だけでなく、コネクトシップに参加する他社の会員ともお見合いが可能になります。",
+    a: "複数の結婚相談所が会員データベースを共有するプラットフォームです。スマリッジではコネクトシップのお見合い（コンタクト）成立は毎月8件まで無料、9件目以降は1件1,100円です（2026年10月14日公式確認）。",
   },
   {
     q: "スマリッジの無料相談では何ができますか？",
@@ -72,7 +73,15 @@ const faqs = [
   },
   {
     q: "スマリッジの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。低コストで長期活動しやすいため、焦らず自分のペースで進められます。",
+    a: "公式サイトに平均期間の公表は見当たりませんでした（2026年10月14日確認）。月会費制で成婚料が0円のため、期間が延びた分だけ月会費9,900円が加算されます。",
+  },
+  {
+    q: "スマリッジの全額返金保証の条件は？",
+    a: "紹介可能な状態になった月から3ヶ月目の末日までにお見合いが成立しなかった場合、登録料と3ヶ月分の月会費が返金されます。期間中の退会、紹介を自分から断った場合、U28・エリア・シングル親・のりかえ等の割引を使った場合は対象外で、申し出は期間満了の翌日から2週間以内です（2026年10月14日公式確認）。",
+  },
+  {
+    q: "スマリッジは安いけど大丈夫？やばい？",
+    a: "運営はSEモバイル・アンド・オンライン株式会社（東証スタンダード上場のSEH&Iグループ）です。安さの理由は来店型の店舗を持たないオンライン専業である点と、サポートがチーム制（IBJ online）または担当制（コネクトシップ）に絞られている点です。手厚い仲人型サポートを求める人には物足りない可能性があります。",
   },
 ];
 
@@ -104,9 +113,9 @@ export default function SmartreadReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          スマリッジの口コミ・評判｜料金・特徴・サポートを徹底解説
+          スマリッジ（smarriage）の口コミ・評判｜料金・返金保証の条件・運営会社
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・会員数は2026年10月14日に公式サイトで確認）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -180,8 +189,33 @@ export default function SmartreadReview() {
           </div>
         </section>
 
+        <ReviewFacts
+          name="スマリッジ"
+          checkedOn="2026年10月14日"
+          officialUrl="https://s-marriage.jp/"
+          feeHead={["項目", "金額", "補足"]}
+          feeRows={[
+            ["登録料", "6,600円", "のりかえ割（他社で1年以内に活動）の対象者は無料"],
+            ["月会費", "9,900円", "U28・エリア・シングル親の各割引で毎月1,100円引き（併用可）"],
+            ["お見合い料", "IBJ online：0円／コネクトシップ：月8件まで0円・9件目から1件1,100円", "コネクトシップは「コンタクトし放題」月3,300円のオプションあり"],
+            ["成婚料", "0円", ""],
+          ]}
+          feeNotes={["公式サイトの半年間の費用イメージは66,000円。", "キャンペーン「月会費初月0円」の告知あり（2026年10月14日時点）。"]}
+          estimate={[{ label: "割引なし", formula: "6,600円＋9,900円×12＋0円", total: "125,400円" }]}
+          company={[
+            ["運営", "SEモバイル・アンド・オンライン株式会社（東証スタンダード上場 SEH&Iグループ）"],
+            ["形態", "オンライン専業（店舗なし）"],
+            ["活動先", "IBJ online（チームサポート）／コネクトシップ（担当制）"],
+            ["会員数", "利用事業者会員数 約51,000人（2026年10月時点・公式）"],
+          ]}
+          reviewNote="主要な口コミサイトに、スマリッジ単独の口コミページは2026年10月14日時点で確認できませんでした（名前の似た「スマ婚」「スマ留」など別サービスの口コミが混ざりやすいので注意）。店舗が無いためGoogleマップの口コミもありません。判断材料は公式の料金と返金保証の条件が中心になります。"
+          caution={["名前が似た別サービス（スマ婚＝結婚式、スマ留＝留学）の口コミと混同しないようにしてください。"]}
+          sources={[{ name: "スマリッジ 料金案内（公式）", url: "https://s-marriage.jp/price/", note: "全額返金保証・割引の条件" }]}
+        />
+
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">※スマリッジ以外の数値は各社レビュー掲載時点のものです。最新は各レビューをご覧ください。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -193,44 +227,16 @@ export default function SmartreadReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,900円〜</td><td className="px-4 py-3 text-center">6,980円〜</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,900円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">6,600円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約3万人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約51,000人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">初期費用最安</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料0円・返金保証</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            スマリッジの評判・口コミの傾向まとめ
-          </h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「スマリッジ 評判」「スマリッジ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
-          </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>初期費用6,600円・成婚料0円と、料金の安さを評価する声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>コネクトシップ連携により出会いの幅が広いと感じる声があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>完全オンライン完結で来店不要な点を便利とする声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>忙しい方や地方在住の方でも活動しやすいという声が見られます</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>対面でのサポートが受けられない点を不安視する声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>自社会員数は大手ほど多くないという指摘が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>カウンセラーとの関係構築に時間がかかる場合があるという声があります</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
-        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
