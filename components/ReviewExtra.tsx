@@ -33,6 +33,14 @@ const H2 = "text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-wi
 export default function ReviewExtra(p: Props) {
   return (
     <>
+      {(!p.ratings || p.ratings.length === 0) && p.ratingNotes && p.ratingNotes.length > 0 && (
+        <section className="mb-12">
+          <h2 className={H2}>{p.name}の口コミの掲載状況（{p.checkedOn}確認）</h2>
+          <ul className="space-y-2 text-sm text-[#2C2C2C]/80 leading-relaxed list-disc pl-5">
+            {p.ratingNotes.map((n) => (<li key={n}>{n}</li>))}
+          </ul>
+        </section>
+      )}
       {p.ratings && p.ratings.length > 0 && (
         <section className="mb-12">
           <h2 className={H2}>{p.name}の口コミ評価を媒体別に比較（件数・内訳つき）</h2>
