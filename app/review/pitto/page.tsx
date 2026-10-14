@@ -5,11 +5,12 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ運営のIBJ加盟店・料金・1年総額【2026年10月】",
+  title: "P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ運営のIBJ加盟店・料金・入会条件【2026年10月】",
   description:
-    "P!っと縁結び（ピップエレキバンのピップ株式会社が運営する結婚相談所）の料金・IBJ加盟状況・休会解約規定を公式情報ベースで検証。1年活動した場合の総額試算と、口コミの一次情報の有無まで正直に整理します。",
+    "P!っと縁結び（ピップエレキバンのピップ株式会社が運営する結婚相談所）の料金・IBJ加盟状況・休会解約規定を公式情報ベースで検証。1年活動した場合の総額試算と、口コミの一次情報の有無まで正直に整理します。IBJクチコミ9件・入会書類・中途解約の精算も。",
 };
 
 const overview = {
@@ -98,6 +99,59 @@ const relatedServices = [
   { name: "パートナーエージェント", path: "/review/partner-agent/" },
 ];
 
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "P!っと縁結び",
+  "ratings": [
+    {
+      "media": "IBJ公式サイト P!っと縁結びのクチコミ",
+      "score": "平均4.7",
+      "count": "9件",
+      "detail": "星5が78%・星4が22%。件数がまだ少ない段階です。IBJの相談所ページに成婚者エピソード5件。",
+      "url": "https://www.ibjapan.com/area/tokyo/52018/"
+    }
+  ],
+  "ratingNotes": [
+    "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されているクチコミです。",
+    "「P!っと縁結び 口コミ」の上位は運営会社の発表資料が中心で、利用者の口コミをまとめた比較記事は見当たりませんでした。"
+  ],
+  "fitYes": [
+    "運営会社の素性がはっきりした相談所を選びたい人（ピップ株式会社の本体運営）",
+    "お見合い料無料のベーシックで、月40名まで申し込みたい人",
+    "慎重に進めたいならエントリー（月11,000円・月20名まで）を選べる",
+    "看護師など不規則なシフトで、オンライン中心に活動したい人"
+  ],
+  "fitNo": [
+    "成婚料220,000円を避けたい人",
+    "自社の成婚率を見てから決めたい人（非公表）",
+    "お見合いのキャンセル・遅刻の違約金規定が負担な人"
+  ],
+  "entry": [
+    [
+      "料金（公式・税込）",
+      "ベーシック: 初期費用110,000円（入会金22,000＋登録料33,000＋活動サポート費55,000）・月16,500円（月40名まで申込可）・お見合い料無料・成婚料220,000円・定期カウンセリング2ヶ月に1回。エントリー: 初期費用88,000円（活動サポート費33,000）・月11,000円（月20名まで）・お見合い料5,500円/回・成婚料220,000円・定期カウンセリング6ヶ月に1回。都度相談（30分以内）は両プラン無制限。"
+    ],
+    [
+      "必要書類",
+      "住民票・独身証明書（いずれも3ヶ月以内の原本）、最終学歴証明書（短大卒以上）、収入証明書、写真付き本人確認書類、プロフィール写真1枚以上（3ヶ月以内撮影）、国家資格証明書（該当者）。"
+    ],
+    [
+      "中途解約",
+      "クーリング・オフ（契約から8日以内）は全額返金。その後も解除でき、サービス提供開始後は提供済みサービスの対価＋「2万円または契約残額の20%のいずれか低い額」、提供開始前は3万円までの請求。"
+    ],
+    [
+      "追加費用",
+      "プロフィール撮影代、婚活パーティーの参加費は別途（公式FAQ）。"
+    ]
+  ],
+  "entrySource": "P!っと縁結び公式「プラン・料金」（https://pi-enmusubi.pipjapan.co.jp/plan/）・よくあるご質問",
+  "facts": [
+    "IBJ AWARD 2026年上期 PREMIUMを受賞（2026年7月16日の公式お知らせ）。",
+    "『日経トレンディ』2026年6月4日発売号の「最新 結婚相談所調査」特集に掲載（2026年6月10日の公式お知らせ）。",
+    "入会金・初期費用50%OFFの「婚活応援キャンペーン」は2026年8月10日〜10月10日の期間限定で、10月14日時点では終了しています。"
+  ]
+};
+
 export default function PittoReview() {
   return (
     <>
@@ -111,7 +165,7 @@ export default function PittoReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ株式会社運営のIBJ正規加盟店を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（口コミの掲載状況を追記。料金・実績は2026年8月6日時点の公式サイト掲載情報）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式「プラン・料金」ページで再確認。IBJ公式サイトのクチコミ件数・入会条件を追記）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -184,7 +238,7 @@ export default function PittoReview() {
             <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※当サイトによる単純合計の試算です。エントリープランは月4回お見合いすると年264,000円のお見合い料が加わり、ベーシックプランより高くなる計算です。お見合い回数の見込みで選びましょう。このほかプロフィール撮影代・婚活パーティ参加費が別途かかる場合があります（公式FAQに記載）。</p>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年8月6日時点の公式サイト掲載の税込料金です。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年10月14日に公式「プラン・料金」ページ（pi-enmusubi.pipjapan.co.jp/plan/）で再確認した税込料金です（8月6日時点から変更なし）。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
         </section>
 
@@ -299,7 +353,7 @@ export default function PittoReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>休会（月1,100円・最大3ヶ月・10日前申請）と中途退会時の費用の扱い（月会費の日割り返金なし。契約書面で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成し、料金・ニュースは2026年10月14日に再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}
@@ -322,6 +376,7 @@ export default function PittoReview() {
 
         {/* FAQ */}
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

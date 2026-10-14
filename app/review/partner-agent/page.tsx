@@ -6,9 +6,10 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
 import ReviewFacts from "@/components/ReviewFacts";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "パートナーエージェントの口コミ・評判｜3コースの料金・成婚料22万円・成婚率No.1の根拠【2026年10月】",
+  title: "パートナーエージェントの口コミ・評判｜オリコン66.8点・3コースの料金・成婚料22万円【2026年10月】",
   description:
     "パートナーエージェントの口コミ・評判をオリコン顧客満足度調査・Googleマップ（17店舗770件）の掲載内容つきで整理。コンシェルジュ/コミットメント/オンラインの料金（2026年10月14日公式確認）、1年総額、成婚率No.1の調査条件、運営会社タメニーまで。",
 };
@@ -94,6 +95,65 @@ const relatedServices = [
   { name: "サンマリエ", path: "/review/sunmarie/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "パートナーエージェント",
+  "ratings": [
+    {
+      "media": "オリコン顧客満足度 パートナーエージェント",
+      "score": "総合66.8点",
+      "count": "利用者コメント19件（調査全体の回答者3,922人）",
+      "detail": "女性部門66.0点（1位）・40代67.6点（3位）。推奨意向67.5%。項目別では「店舗の雰囲気・清潔さ」70.0点が最も高く、「コストパフォーマンス」63.1点（4位）が最も低い。コメントは「良い点」13件・「気になる点」6件で、気になる点6件はすべて20〜30代女性。",
+      "url": "https://life.oricon.co.jp/rank_marriage/company/p-a/"
+    }
+  ],
+  "ratingNotes": [
+    "上位の比較記事（みんなの結婚相談所 2026年10月1日更新）は、みん評・Googleレビュー・オリコンを出典に挙げていますが、件数・取得日は示していません。"
+  ],
+  "fitYes": [
+    "専任コンシェルジュに毎月の紹介と活動の振り返りを任せたい人",
+    "CONNECT-ship・SCRUM・IBJの複数データベースで探したい人",
+    "店舗に通える人（実店舗23店舗）",
+    "20代・30〜31歳・シングルマザー向け割引の対象になる人"
+  ],
+  "fitNo": [
+    "成婚料220,000円を含む総額を抑えたい人",
+    "担当者との相性に左右されたくない人（オリコンには担当者の交代・相性に触れる声があります）",
+    "対面サポートを受けられる店舗が近くにない人"
+  ],
+  "entry": [
+    [
+      "入会資格",
+      "20歳以上で、結婚・内縁関係のない独身（独身証明書が必要）。入会時に必要な書類を提出できる人。男性は安定した収入があること。再婚の人も入会可。規定の審査あり。"
+    ],
+    [
+      "会員期間",
+      "1年6ヵ月。活動期間内でもコース変更が可能（例: コンシェルジュコース→オンラインコース）。"
+    ],
+    [
+      "成婚の定義",
+      "真剣交際中の2人が婚約したこと。成婚退会者の61.4%が活動開始から1年以内の成婚（2022年10月〜2023年3月の成婚退会者実績）。"
+    ],
+    [
+      "会員プロフィール（公式掲載）",
+      "20〜30代の会員は男性43.8%・女性65.9%。年収500万円以上の男性69.5%。大卒以上は男性76.1%・女性69.0%（公式トップ掲載・時点の記載なし）。"
+    ]
+  ],
+  "entrySource": "パートナーエージェント公式「Q&A」・公式トップ",
+  "outdated": [
+    {
+      "seen": "成婚退会＝婚約ではなく、真剣交際のスタート",
+      "source": "みんなの結婚相談所（2026年10月1日更新）",
+      "now": "公式Q&Aは「成婚とは、真剣交際中のお二人が婚約されたこと」と定義しています。"
+    },
+    {
+      "seen": "成婚料55,000円",
+      "source": "2026年5月以前の比較記事（当サイトの旧記載を含む）",
+      "now": "成婚料220,000円（税込）。"
+    }
+  ]
+};
 
 export default function PartnerAgentReview() {
   return (
@@ -245,6 +305,7 @@ export default function PartnerAgentReview() {
 
         <A8Banner ad="partner-agent" />
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         {/* 口コミの傾向(編集部要約) */}

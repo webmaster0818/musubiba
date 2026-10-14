@@ -5,6 +5,7 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
   title: "ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活・成婚料8万円【2026年10月】",
@@ -58,7 +59,7 @@ const cons = [
 const faqs = [
   {
     q: "ベルロード縁結びサポートの料金はいくらですか？",
-    a: "税込で入会金30,000円（入会時のみ）、プラン費は1ヶ月プラン9,800円・3ヶ月プラン27,600円（実質9,200円/月）・6ヶ月プラン49,800円（実質8,300円/月）、成婚料は80,000円（成婚退会時のみ）です。お見合い料・更新料は一切かかりません。2026年8月6日時点の公式サイト掲載情報のため、最新の金額は公式サイトでご確認ください。",
+    a: "税込で入会金30,000円（入会時のみ）、プラン費は1ヶ月プラン9,800円・3ヶ月プラン27,600円（実質9,200円/月）・6ヶ月プラン49,800円（実質8,300円/月）、成婚料は80,000円（成婚退会時のみ）です。お見合い料・更新料は一切かかりません。2026年10月14日に公式の料金表で再確認した金額です（8月6日時点から変更なし）。最新の金額は公式サイトでご確認ください。",
   },
   {
     q: "ベルロード縁結びサポートはIBJ（日本結婚相談所連盟）に加盟していますか？",
@@ -99,6 +100,29 @@ const relatedServices = [
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
 
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "ベルロード縁結びサポート",
+  "ratingNotes": [
+    "「ベルロード縁結びサポート 口コミ／評判」の上位は運営会社のプレスリリース（2021年）や自治体の縁結び事業のページが中心で、件数・評価を確認できる口コミ媒体は見つかりませんでした（2026年10月14日確認）。公式サイトには「ご成婚者様の声」が画像で6件掲載されています。"
+  ],
+  "fitYes": [
+    "月9,800円の定額で、お見合い料・更新料を気にせず活動したい人",
+    "スマートフォンだけで検索・申し込み・相談を完結したい人",
+    "3ヶ月・6ヶ月の前払いで月額を下げたい人（実質9,200円／8,300円）"
+  ],
+  "fitNo": [
+    "写真撮影同行・服装チェックなど対面の手厚いサポートがほしい人",
+    "中途解約時の返金を重視する人（クーリング・オフ後は返金なし）",
+    "成婚率の数値を比べて選びたい人（公表なし）"
+  ],
+  "facts": [
+    "料金は公式「プランと料金」ページの料金表（画像）で2026年10月14日に再確認: 1ヶ月プラン9,800円・3ヶ月プラン27,600円・6ヶ月プラン49,800円、入会金30,000円（入会時のみ）、成婚料80,000円（成婚退会時のみ）、いずれも税込。プランによるサービスの違いはありません。",
+    "公式サイトに「女性会員のデータ」「男性会員のデータ」「再婚希望の方へ」のページがあります。"
+  ],
+  "factsTitle": "ベルロード縁結びサポートの料金の再確認と公式掲載情報"
+};
+
 export default function BellroadReview() {
   return (
     <>
@@ -112,7 +136,7 @@ export default function BellroadReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（口コミの掲載状況と公式表記を追記。料金は2026年8月6日時点の公式サイト掲載情報）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式「プランと料金」ページの料金表で再確認）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -177,7 +201,7 @@ export default function BellroadReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年8月6日時点の公式サイト掲載の税込料金です。お見合い時の交通費・お茶代は実費、支払いはクレジット決済のみです。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年10月14日に公式「プランと料金」ページの料金表（画像）で再確認した税込料金です。お見合い時の交通費・お茶代は実費、支払いはクレジット決済のみです。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
 
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6 mt-6">
@@ -338,6 +362,7 @@ export default function BellroadReview() {
 
         {/* FAQ */}
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

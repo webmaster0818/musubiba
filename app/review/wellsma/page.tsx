@@ -6,11 +6,12 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "ウェルスマの口コミ・評判｜月11,800円〜のオンライン仲人型・成婚率86.1%の定義【2026年10月】",
+  title: "ウェルスマの口コミ・評判｜IBJクチコミ4.5（223件）・月11,800円〜・成婚率86.1%の定義【2026年10月】",
   description:
-    "ウェルスマ（完全オンラインの結婚相談所）の料金・成婚率86.1%の定義・IBJ加盟状況を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理し、入会前に確認すべきポイントを解説します。",
+    "ウェルスマ（完全オンラインの結婚相談所）の料金・成婚率86.1%の定義・IBJ加盟状況を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理し、入会前に確認すべきポイントを解説します。IBJクチコミ4.5（223件）とプラン別の申込・紹介人数も。",
 };
 
 const overview = {
@@ -96,6 +97,48 @@ const relatedServices = [
   { name: "スマリッジ", path: "/review/smartread/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "ウェルスマ",
+  "ratings": [
+    {
+      "media": "IBJ公式サイト ウェルスマのクチコミ",
+      "score": "平均4.5",
+      "count": "223件",
+      "detail": "星5が70%・星4が23%・星3が4%・星2と星1が各1%。",
+      "url": "https://www.ibjapan.com/area/tokyo/00290/"
+    }
+  ],
+  "ratingNotes": [
+    "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されているクチコミです。ウェルスマの公式サイトは「IBJクチコミランキング 全国4,777社中 第8位」（IBJ公式サイトの口コミが多い順ランキング・2026年4月時点）と表記しています。",
+    "「ウェルスマ 口コミ」の上位には件数を確認できる比較記事がほとんどなく、件数を確認できるのはIBJのページでした。"
+  ],
+  "fitYes": [
+    "来店せずZoom・LINEで活動を完結したい人",
+    "仲人型のサポートを月11,800円〜の料金で受けたい人",
+    "プランごとの申込人数・紹介人数の違いを理解して選びたい人"
+  ],
+  "fitNo": [
+    "対面のカウンセリングを受けたい人",
+    "成婚料149,800円を避け、成婚料0円のサービスを選びたい人",
+    "オンラインツールの操作が負担に感じる人"
+  ],
+  "facts": [
+    "プラン別のお申込み人数（月）: マイペース30名・サポート60名・プレミアム100名（活動状況に応じて最大200名）。申し受けはすべて無制限。",
+    "紹介人数（月）: マイペースなし・サポート3名・プレミアム6名＋都度。",
+    "相談手段: マイペースはLINE、サポート・プレミアムはLINE/電話/ビデオ通話。サポート以上は分析活動レポート付き、プレミアムは成婚戦略面談付き。",
+    "「年間100名以上が成婚」（2025年度実績・自社公称）。"
+  ],
+  "factsTitle": "ウェルスマのプラン別の違い（公式）",
+  "outdated": [
+    {
+      "seen": "月額9,800円〜・7万人以上の会員から月5名を紹介",
+      "source": "2021年9月30日のプレスリリース（サービス一新時）",
+      "now": "月会費11,800円／15,800円／19,800円の3プラン、紹介人数はプランにより0名・3名・6名＋都度。IBJ会員10.8万名（2024年末時点の公式掲載値）。"
+    }
+  ]
+};
 
 export default function WellsmaReview() {
   return (
@@ -311,6 +354,7 @@ export default function WellsmaReview() {
 
         {/* FAQ */}
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

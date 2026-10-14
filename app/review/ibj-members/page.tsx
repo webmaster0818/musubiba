@@ -6,11 +6,12 @@ import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "IBJメンバーズの口コミ・評判｜料金・1年総額・成婚の定義・加盟店との違い【2026年10月】",
+  title: "IBJメンバーズの口コミ・評判｜オリコン男性部門1位・料金・1年総額・加盟店との違い【2026年10月】",
   description:
-    "IBJメンバーズ（株式会社IBJ直営）の口コミ・評判を徹底調査。登録会員数110,420名（2026年7月時点）・成婚退会者の割合1/2以上（全退会者のうち成婚退会者の割合）・月会費17,050円の料金体系、IBJ加盟店との違いまで詳しく解説します。",
+    "IBJメンバーズ（株式会社IBJ直営）の口コミ・評判を徹底調査。登録会員数110,420名（2026年7月時点）・成婚退会者の割合1/2以上（全退会者のうち成婚退会者の割合）・月会費17,050円の料金体系、IBJ加盟店との違いまで詳しく解説します。オリコンの部門別評価も。",
 };
 
 const overview = {
@@ -109,6 +110,46 @@ const relatedServices = [
   { name: "サンマリエ", path: "/review/sunmarie/" },
   { name: "ツヴァイ", path: "/review/zwei/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "IBJメンバーズ",
+  "ratings": [
+    {
+      "media": "オリコン顧客満足度 IBJメンバーズ",
+      "score": "総合67.2点",
+      "count": "利用者コメント21件（調査全体の回答者3,922人）",
+      "detail": "男性部門69.1点（1位）・40代68.3点（1位）・東海66.3点（1位）・関東67.8点（2位）・再婚目的69.5点（2位）。推奨意向68.8%。コメントは「良い点」15件・「気になる点」6件。",
+      "url": "https://life.oricon.co.jp/rank_marriage/company/loungemembers/"
+    }
+  ],
+  "ratingNotes": [
+    "サンマリエも同じ調査で総合67.2点です（2社の比較は /review/sunmarie/ を参照）。"
+  ],
+  "fitYes": [
+    "婚約まで担当カウンセラーに伴走してほしい人",
+    "男性で年収基準を満たし、IBJの会員基盤で活動したい人",
+    "休会制度（最長3ヶ月・月会費なし）を使いながら活動したい人",
+    "オリコンで評価の高い男性・40代の人"
+  ],
+  "fitNo": [
+    "初期費用252,450円・成婚料220,000円を負担したくない人",
+    "男性は25〜49歳、女性は20〜39歳の入会条件に当てはまらない人",
+    "オンライン完結の低価格サービスで十分な人"
+  ],
+  "outdated": [
+    {
+      "seen": "エントリー/アシスト/プライムの3コース・すべてのコースに中途退会時の返金保証・国家公務員割引（初期費用30,000円引き）",
+      "source": "駅探PICKS婚活（2022年11月23日更新）",
+      "now": "公式料金ページは登録料33,000円＋活動サポート費219,450円・月会費17,050円・成婚料220,000円の1体系。返金保証・国家公務員割引の記載はありません（中途退会時の未活動分返金は公式FAQに記載）。"
+    },
+    {
+      "seen": "成婚率50.5%（2021年1〜6月の主要コース実績）",
+      "source": "駅探PICKS婚活（2022年11月23日更新）",
+      "now": "「成婚退会者の割合1/2以上」（2025年1〜12月の主要コース実績・全退会者のうち成婚退会者の割合）。"
+    }
+  ]
+};
 
 export default function IbjMembersReview() {
   return (
@@ -256,6 +297,7 @@ export default function IbjMembersReview() {
 
         <A8Banner ad="ibj-members" />
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
               <FeePosition slug="ibj-members" />

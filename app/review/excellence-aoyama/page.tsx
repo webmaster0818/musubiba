@@ -6,11 +6,12 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "エクセレンス青山の口コミ・評判｜4連盟33万人・料金コース・成婚率の注意点【2026年10月】",
+  title: "エクセレンス青山の口コミ・評判｜IBJクチコミ4.5（40件）・4連盟33万人・料金コース【2026年10月】",
   description:
-    "エクセレンス青山（エグゼクティブ向け結婚相談所）の料金コース・4連盟約33万人のネットワーク・成婚率85.7%（2019年実績）の注意点を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理します。",
+    "エクセレンス青山（エグゼクティブ向け結婚相談所）の料金コース・4連盟約33万人のネットワーク・成婚率85.7%（2019年実績）の注意点を公式情報ベースで検証。口コミの一次情報の有無まで正直に整理します。IBJクチコミ4.5（40件）・入会条件・トライアルも。",
 };
 
 const overview = {
@@ -96,6 +97,58 @@ const relatedServices = [
   { name: "ツヴァイ", path: "/review/zwei/" },
   { name: "サンマリエ", path: "/review/sunmarie/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "エクセレンス青山",
+  "ratings": [
+    {
+      "media": "IBJ公式サイト エクセレンス青山のクチコミ",
+      "score": "平均4.5",
+      "count": "40件",
+      "detail": "星5が88%・星4が3%・星1が10%。",
+      "url": "https://www.ibjapan.com/area/tokyo/66626/"
+    }
+  ],
+  "ratingNotes": [
+    "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されているクチコミです。星5と星1に分かれているため、低評価の内容も確認するのがおすすめです。",
+    "「エクセレンス青山 評判」の上位は、相談所提供のPR記事や同じ「青山」を含む別業種のページが中心で、件数を確認できる口コミはIBJのページでした。"
+  ],
+  "fitYes": [
+    "医師・経営者などハイクラス層の相手を探したい人",
+    "IBJ・BIU・TMS・NNRの4連盟で母数を広げたい人",
+    "南青山の店舗に通える人",
+    "20代で、まず1ヶ月11,000円のトライアルで試したい人"
+  ],
+  "fitNo": [
+    "お見合い料がかからないコースだけで比較したい人（スタンダードはお見合いごとに費用がかかります）",
+    "来店せずに入会まで完結したい人",
+    "最新の成婚率データを重視する人（公称85.7%は2019年実績）"
+  ],
+  "entry": [
+    [
+      "入会資格",
+      "当社規定にもとづく21歳以上（男性は23歳以上）で、現在独身の人。公的機関が発行する独身証明書が必要。"
+    ],
+    [
+      "入会までの流れ",
+      "公式の入会案内では、南青山の店舗での無料見学・無料カウンセリングの後、必要書類の確認を経て入会（オンライン無料カウンセリングの案内もあり）。書類に虚偽があれば入会不可。"
+    ],
+    [
+      "トライアル",
+      "20代限定。初期費用11,000円で1ヶ月利用でき、本会員からのお見合い申し込みも受けられます（会員制パーティーは参加不可）。男性は婚活ファッションのスタイリングが無料。"
+    ],
+    [
+      "キャンペーン",
+      "月中の無料オンラインカウンセリングで入会金10%OFF、エグゼクティブ/プライムコースは提携写真館の基本撮影料が無料（2026年10月14日時点の公式トップの告知）。"
+    ]
+  ],
+  "entrySource": "エクセレンス青山公式「ご入会案内」「お試し入会」・公式トップ",
+  "facts": [
+    "公式「ご成婚者様の声」の1ページ目に20件を掲載。成婚年月の記載がある20件のうち18件が2026年、年齢・婚歴の記載がある19件のうち再婚・再再婚は4件でした。"
+  ],
+  "factsTitle": "エクセレンス青山の公式「ご成婚者様の声」の掲載状況"
+};
 
 export default function ExcellenceAoyamaReview() {
   return (
@@ -312,6 +365,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* FAQ */}
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

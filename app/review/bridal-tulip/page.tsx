@@ -6,9 +6,10 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜料金3プラン・成婚率の定義【2026年10月】",
+  title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜IBJクチコミ4.8・料金3プラン【2026年10月】",
   description:
     "ブライダルチューリップ（株式会社ナウい運営・高田馬場）の評判・料金を公式情報で検証。IBJ・SCRUM・CONNECT-shipの3連盟で紹介可能会員約19万名、入会金105,000円〜・成婚料180,000円（税込・2026年7月確認）の料金3プラン、成婚率60%以上（自社公称）の算出定義まで正直に解説します。",
   alternates: { canonical: "/review/bridal-tulip/" },
@@ -106,6 +107,40 @@ const relatedServices = [
   { name: "ヒーローマリッジ", path: "/review/hero-marriage/" },
   { name: "料金比較一覧", path: "/compare/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "ブライダルチューリップ",
+  "ratings": [
+    {
+      "media": "IBJ公式サイト Bridalチューリップのクチコミ",
+      "score": "平均4.8",
+      "count": "268件",
+      "detail": "星5が91%・星4が6%・星1が3%。IBJの相談所ページには成婚者エピソードも18件掲載されています。",
+      "url": "https://www.ibjapan.com/area/tokyo/80557/"
+    }
+  ],
+  "ratingNotes": [
+    "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されているクチコミです。星5の比率が高いため、星1の内容や本文の具体性もあわせて確認するのがおすすめです。",
+    "上位の検索結果は相談所側の情報（エキテンの店舗ページ・PR表記のインタビュー記事）が中心で、件数を確認できる口コミはIBJのページが最多でした。"
+  ],
+  "fitYes": [
+    "月会費を抑えつつ、仲人型のサポートを受けたい人",
+    "高田馬場に通える人、またはオンライン面談で十分な人",
+    "まず14日間のお試し会員（5,500円）でシステムを確認したい人",
+    "担当者を変えられる制度・サブカウンセラー制度を重視する人"
+  ],
+  "fitNo": [
+    "お見合い料（1件6,100円または8,800円）がかからない相談所がよい人",
+    "42歳以上で、入会金150,800円のプランを避けたい人",
+    "複数の店舗から選びたい人（対面拠点は高田馬場の1ヶ所）"
+  ],
+  "facts": [
+    "14日間お試し会員制度: 5,500円（税込・14日間）。プロフィール作成・お相手検索・担当カウンセラーとの面談ができ、期間中にお見合いが決まった場合は正式入会が必要です。",
+    "担当以外のカウンセラーからも面談でアドバイスを受けられる「サブカウンセラー制度」と「担当者変更制度」があります。",
+    "公式トップに「1年以内の成婚率70%以上」（成婚退会者数÷全退会者数で算出した成婚率のうち1年以内に成婚した割合・2010年〜2026年1月実績）、「登録から最短44日の成婚実績」の記載があります。"
+  ]
+};
 
 export default function BridalTulipReview() {
   return (
@@ -256,6 +291,7 @@ export default function BridalTulipReview() {
           </ul>
         </section>
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
               <FeePosition slug="bridal-tulip" />

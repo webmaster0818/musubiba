@@ -5,11 +5,12 @@ import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 import ReviewFacts from "@/components/ReviewFacts";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "naco-do（ナコード）の口コミ・評判｜料金・成婚料0円・返金保証・運営会社【2026年10月】",
+  title: "naco-do（ナコード）の口コミ・評判｜料金・成婚料0円・返金保証・古い料金情報の注意【2026年10月】",
   description:
-    "naco-do（ナコード）の口コミ・評判を掲載媒体つきで整理。初期費用66,000円・月16,800円・成婚料0円（2026年10月14日公式確認）、1年総額、JBA/CONNECT-ship/SCRUMの19.1万人、90日返金保証、運営会社まで。",
+    "naco-do（ナコード）の口コミ・評判を掲載媒体つきで整理。初期費用66,000円・月16,800円・成婚料0円（2026年10月14日公式確認）、1年総額、JBA/CONNECT-ship/SCRUMの19.1万人、90日返金保証、運営会社まで。古い記事の料金との違いも整理。",
 };
 
 const overview = {
@@ -93,6 +94,57 @@ const relatedServices = [
   { name: "マーズカフェ", path: "/review/mars-cafe/" },
   { name: "結婚相談所セブン", path: "/review/seven/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "naco-do（ナコード）",
+  "ratings": [
+    {
+      "media": "オリコン顧客満足度 naco-do",
+      "score": "総合得点の掲載なし",
+      "count": "利用者コメント1件",
+      "detail": "コメントが1件のみのため、評価の傾向は判断できない状態です。",
+      "url": "https://life.oricon.co.jp/rank_marriage/company/naco-do/"
+    }
+  ],
+  "ratingNotes": [
+    "上位記事の多くは「編集部独自アンケート」の口コミ（回答者数・時期の記載なし）を使っています。当サイトは件数・出典を確認できない口コミは載せていません。"
+  ],
+  "fitYes": [
+    "成婚料0円で、総額を先に計算しておきたい人",
+    "来店せずにオンラインだけで活動したい人",
+    "JBA・CONNECT-ship・SCRUMの3つのデータベースで相手を探したい人",
+    "担当サポーターと一緒に活動の方針を決めたい人"
+  ],
+  "fitNo": [
+    "対面のサロンで相談したい人",
+    "IBJの会員と出会いたい人（naco-doの検索対象はJBA・CONNECT-ship・SCRUM）",
+    "活動が長引きそうで、月16,800円の累計が気になる人"
+  ],
+  "facts": [
+    "公式の利用者インタビューは37件（30代女性12・20代女性9・30代男性9・20代男性4・40代以上男性2・40代以上女性1）。20〜30代女性の事例が多い構成です。",
+    "公式サイトはIBJメンバーズ（直営店）・リングベル（ベーシックプラン）との比較表を掲載し、「成婚までにかかる費用の目安（活動7ヶ月）」をnaco-do 183,600円としています（2026年8月14日時点の各社公式サイト掲載情報より・naco-do調べ）。",
+    "インターネット異性紹介事業の届出済み（受理番号30180080000）、結婚相手紹介サービス業認証制度（IMS）の認定を受けていると公式サイトに記載があります。"
+  ],
+  "factsTitle": "naco-doの公式サイトで確認できた実績・届出",
+  "outdated": [
+    {
+      "seen": "お試し1ヶ月2,980円・初期費用29,800円・月16,800円（3ヶ月一括43,800円）",
+      "source": "駅探PICKS婚活（2023年6月29日更新）",
+      "now": "初期費用66,000円・月16,800円・成婚料0円の1プラン。お試しプランの記載はありません。"
+    },
+    {
+      "seen": "成婚率37.8%／50.5%（期間・定義が異なる2つの数値）",
+      "source": "駅探PICKS婚活（2023年6月29日更新）",
+      "now": "公式トップに成婚率の記載はなく、「成婚までの平均活動期間6.6ヶ月」を公表しています。"
+    },
+    {
+      "seen": "JBA・良縁ネット（Rnet）・コネクトシップの3連盟",
+      "source": "駅探PICKS婚活（2023年6月29日更新）",
+      "now": "JBA・CONNECT-ship・SCRUMの3連盟（合計19.1万人）を追加料金なしで利用できると記載されています。"
+    }
+  ]
+};
 
 export default function NacoDoReview() {
   return (
@@ -223,6 +275,7 @@ export default function NacoDoReview() {
           </ul>
         </section>
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
               <FeePosition slug="naco-do" />

@@ -6,9 +6,10 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
+import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "東京フォリパートナーの口コミ・評判｜成婚率71.5%の定義・5コース料金・No.1表記の読み方【2026年10月】",
+  title: "東京フォリパートナーの口コミ・評判｜IBJクチコミ4.8（87件）・成婚率71.5%の定義・5コース料金【2026年10月】",
   description:
     "東京フォリパートナー（IBJ正規加盟・優良認定加盟店）の評判を公式公表情報から検証。成婚率71.5%（自社公称）の算出定義、ライト〜メンズ5コースの税込料金と1年総額目安、広告の「No.1」表記がIBJ連盟実績である点の正しい読み方、中途解約条件まで整理しました。",
 };
@@ -112,6 +113,50 @@ const relatedServices = [
   { name: "naco-do", path: "/review/naco-do/" },
   { name: "エン婚活エージェント", path: "/review/en-konkatsu/" },
 ];
+
+// 競合上位記事との差分（2026-10-14 競合比較で追加）
+const REVIEW_EXTRA = {
+  "name": "東京フォリパートナー",
+  "ratings": [
+    {
+      "media": "IBJ公式サイト 東京フォリパートナーのクチコミ",
+      "score": "平均4.8",
+      "count": "87件",
+      "detail": "星5が92%・星4が6%・星2と星1が各1%。",
+      "url": "https://www.ibjapan.com/area/tokyo/70545/"
+    }
+  ],
+  "ratingNotes": [
+    "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されているクチコミです。",
+    "「フォリパートナー 口コミ」の上位には件数を確認できる比較記事がほとんどなく、件数を確認できるのはIBJのページでした。"
+  ],
+  "fitYes": [
+    "東京・横浜のサロンに通える人、またはZoomで十分な人",
+    "担当1人あたり30名程度の少人数担当制を重視する人",
+    "お見合い料0円で、毎月の紹介人数保証がほしい人",
+    "外国籍の人・再婚の人（公式FAQで入会可と明記）"
+  ],
+  "fitNo": [
+    "成婚料250,000〜300,000円を避けたい人",
+    "首都圏から離れていて対面サポートを重視する人",
+    "広告の「No.1」表記をフォリパートナー単体の実績と考えていた人（IBJ連盟の実績です）"
+  ],
+  "entry": [
+    [
+      "入会資格",
+      "20歳以上で独身。男性は安定した収入があること。面談・カウンセリングと審査を通った人のみ入会。年齢の上限なし（IBJの入会規定）。"
+    ],
+    [
+      "必要書類",
+      "住民票（3ヶ月以内の原本）、独身証明書（3ヶ月以内の原本）、写真付き身分証明書のコピー、最終学歴証明書（短大卒以上）、収入証明書（源泉徴収票・確定申告書等）など。"
+    ],
+    [
+      "外国籍・再婚",
+      "外国籍の人も入会可能（語学に強いカウンセラー在籍）。婚歴がある人も入会可能。"
+    ]
+  ],
+  "entrySource": "東京フォリパートナー公式「よくある質問」"
+};
 
 export default function FolliPartnerReview() {
   return (
@@ -340,6 +385,7 @@ export default function FolliPartnerReview() {
 
         {/* FAQ */}
 
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
