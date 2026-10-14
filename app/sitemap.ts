@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-import fs from "node:fs";
-import path from "node:path";
+import { DB_PREFS, loadAgencyDb, indexableAgencies } from "@/lib/agencies";
 
 export const dynamic = "force-static";
 
@@ -25,17 +24,17 @@ const STATIC_ROUTES = [
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
   "/area/sapporo", "/area/sendai", "/area/kyoto", "/area/kobe", "/area/saitama", "/area/chiba",
+  "/area/hiroshima", "/area/shizuoka",
 ];
 
+// 店舗ページと同じ DB_PREFS・同じ条件(口コミ3件以上)で列挙する。
+// 以前は都道府県を9つ手書きしていたため、京都・宮城・広島・静岡の店舗ページが漏れていた。
 function agencySlugs(): string[] {
   const slugs: string[] = [];
-  for (const pref of ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba"]) {
-    const p = path.join(process.cwd(), `data-agencies-${pref}.json`);
-    if (!fs.existsSync(p)) continue;
-    const d = JSON.parse(fs.readFileSync(p, "utf-8"));
-    for (const a of d.agencies || []) {
-      if ((a.count || 0) >= 3 && a.slug) slugs.push(a.slug);
-    }
+  for (const { pref } of DB_PREFS) {
+    const db = loadAgencyDb(pref);
+    if (!db) continue;
+    for (const a of indexableAgencies(db)) if (a.slug) slugs.push(a.slug);
   }
   return slugs;
 }

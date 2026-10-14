@@ -33,6 +33,14 @@ function resolve(slug: string): Resolved | null {
   return null;
 }
 
+// 名称が長い店舗は160字を超えるため、超える場合だけ「所在地、…比較まで。」の一文を省く。
+function agencyDescription(a: Agency, prefName: string, surveyedAt: string): string {
+  const head = `${a.name}(${prefName})の評判をGoogleマップの実データで確認できます。評点${a.rating ?? "－"}・口コミ${a.count}件(${surveyedAt}取得)。`;
+  const tail = "評点は当サイトの評価ではなくGoogleマップの実数です。";
+  const full = `${head}所在地、同じエリアの相談所、同じブランドの他店舗との比較まで。${tail}`;
+  return full.length <= 160 ? full : `${head}${tail}`;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const r = resolve(decodeURIComponent(slug));
@@ -43,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // 「◯◯ 口コミ」の形がほとんどだった。titleに「評判」が入っていなかったため追加し、
     // 検証できる実数(評点・件数)を前に出す。
     title: `${a.name}の評判・口コミ【Googleマップ評点${a.rating ?? "－"}／${a.count}件】${prefName}の結婚相談所`,
-    description: `${a.name}(${prefName})の評判をGoogleマップの実データで確認できます。評点${a.rating ?? "－"}・口コミ${a.count}件(${db.surveyedAt}取得)。所在地、同じエリアの相談所、同じブランドの他店舗との比較まで。評点は当サイトの評価ではなくGoogleマップの実数です。`,
+    description: agencyDescription(a, prefName, db.surveyedAt),
     alternates: { canonical: `https://mu-su-bi-ba.com/agency/${encodeURIComponent(a.slug)}/` },
   };
 }
@@ -56,14 +64,19 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   const brand = findBrand(a.name);
   const primaryArea = a.areas[0];
   const main = indexableAgencies(db);
-  const nearby = main
-    .filter((x) => x.slug !== a.slug && x.areas.includes(primaryArea))
-    .slice(0, 5);
+  // 常に先頭5件だと上位店舗にしかリンクが集まらず、残りの店舗ページは一覧からしか
+  // 張られない(実質孤立)。自店舗の位置から後ろへ巡回して5件取り、全店舗に導線が回るようにする。
+  const inArea = main.filter((x) => x.areas.includes(primaryArea));
+  const selfIdx = inArea.findIndex((x) => x.slug === a.slug);
+  const nearby = Array.from({ length: Math.min(5, inArea.length - 1) }, (_, i) => inArea[(selfIdx + 1 + i) % inArea.length]);
   const sameBrand = sameBrandAgencies(a.name, a.slug, 8);
 
   // 実測DBからの機械集計(創作値なし): 県内順位・平均評点・件数中央値
   const sorted = [...main].sort((x, y) => (y.count || 0) - (x.count || 0));
   const rank = sorted.findIndex((x) => x.slug === a.slug) + 1;
+  // 県内の口コミ件数順で前後の店舗(巡回)。エリアに1店舗しかない店舗にも導線が届くようにする。
+  const prevByCount = sorted.length > 1 ? sorted[(rank - 2 + sorted.length) % sorted.length] : null;
+  const nextByCount = sorted.length > 2 ? sorted[rank % sorted.length] : null;
   const ratings = main.filter((x) => typeof x.rating === "number").map((x) => x.rating as number);
   const avgRating = ratings.length ? ratings.reduce((s, v) => s + v, 0) / ratings.length : 0;
   const counts = main.map((x) => x.count || 0).sort((x, y) => x - y);
@@ -126,6 +139,18 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
         <p className="text-xs text-[#999] leading-relaxed mb-4">
           ※当サイトが{prefName}で実在確認した口コミ3件以上の{main.length}件({db.surveyedAt}取得)内での機械集計です。評点は高評価が集まりやすい傾向があるため、件数(実績の量)と口コミ本文をあわせて確認するのがおすすめです。
         </p>
+        {(prevByCount || nextByCount) && (
+          <p className="text-sm text-[#555] leading-relaxed mb-4">
+            {prefName}内で口コミ件数が近い相談所:
+            {prevByCount && (
+              <> <Link href={`/agency/${encodeURIComponent(prevByCount.slug)}/`} className="text-[#A08447] underline">{prevByCount.name}</Link>({prevByCount.count}件)</>
+            )}
+            {prevByCount && nextByCount && <span className="mx-2 text-gray-300">|</span>}
+            {nextByCount && (
+              <><Link href={`/agency/${encodeURIComponent(nextByCount.slug)}/`} className="text-[#A08447] underline">{nextByCount.name}</Link>({nextByCount.count}件)</>
+            )}
+          </p>
+        )}
         <div className="rounded-xl overflow-hidden border border-gray-100">
           <iframe
             src={`https://maps.google.com/maps?q=${mapQuery}&output=embed&z=16`}

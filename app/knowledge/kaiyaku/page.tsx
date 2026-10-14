@@ -6,7 +6,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態【2026年9月実査】",
   description:
-    "結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと、中途解約時に事業者が請求できる違約金の上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法律で定められています。当サイトが実査した24社のうち解約・休会条件を公式サイトに書いていたのは9社だけ。法定ルールと各社の公表状況を確認日つきで整理しました。",
+    "結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと中途解約の違約金上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法定。実査24社で解約・休会条件を公式サイトに書いていたのは9社だけ。法定ルールと公表状況を整理。",
   alternates: { canonical: "/knowledge/kaiyaku/" },
 };
 
@@ -344,6 +344,7 @@ export default function KnowledgeKaiyaku() {
             <Link href="/compare/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">料金比較（確認日つき）を見る</Link>
             <Link href="/knowledge/cost/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">料金相場・総額の目安</Link>
             <Link href="/knowledge/seikon-ritsu/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">成婚率の読み方（24社実査）</Link>
+            <Link href="/knowledge/renmei/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">連盟の違い（24社の加盟状況）</Link>
             <Link href="/knowledge/how-to-choose/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">タイプ別の選び方</Link>
           </div>
         </section>
