@@ -8,7 +8,7 @@
  *  - 掲載する数値は各社レビューページに記載済みの「公式確認値」のみを転記する。
  *    新しい数字は作らない。確認日はレビューページ側に記載があるため、ここでは
  *    「公式サイト掲載の料金」であることを明示するにとどめる。
- *  - prefs は各社が公表している拠点・対応エリアから機械的に決める。
+ *  - prefs は各社が公表している拠点のうち、実店舗を確認できた都道府県（店舗ページの「拠点あり」表示に使う）。
  *    nationwide=true はオンライン完結で全国から利用できると公式に明記があるもの。
  *  - 未提携の相談所の外部リンクを出さない方針は変更しない（従来どおりGoogleマップのみ）。
  */
@@ -86,7 +86,7 @@ export const PARTNERS: Partner[] = [
     clickUrl: "https://px.a8.net/svt/ejp?a8mat=4B8DGP+G69YEQ+4HMW+NTZCH",
     nationwide: true,
     prefs: ["tokyo"],
-    area: "新宿サロン＋全国オンライン対応",
+    area: "東京・新宿の拠点「ヒーローベース」＋全国オンライン対応",
     fee: "初期費用165,000円／月会費14,300円〜／成婚料220,000円（税込）",
     point: "プロカメラマンの撮影が無料。IBJ加盟。",
     caution: "男性専門の相談所です",
@@ -97,7 +97,8 @@ export const PARTNERS: Partner[] = [
     reviewHref: "/review/sunmarie/",
     clickUrl: "https://t.felmat.net/fmcl?ak=N4707F.1.T84894Q.Z1361712",
     nationwide: false,
-    prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "hiroshima", "shizuoka"],
+    // 2026-10-15: 当サイトのGoogleマップ実測DBにサロンがある県だけに絞った（北海道はサロン未確認のため外した）
+    prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "hiroshima", "shizuoka"],
     area: "全国23店舗＋オンライン相談",
     fee: "入会金33,000円＋初期活動費132,000円／月会費18,700円／成婚料220,000円（税込）",
     point: "お見合いのセッティングを代行してくれる仲人型の老舗。",
@@ -108,7 +109,8 @@ export const PARTNERS: Partner[] = [
     reviewHref: "/review/partner-agent/",
     clickUrl: "https://t.felmat.net/fmcl?ak=L20406.1.R50563Q.Z1361712",
     nationwide: false,
-    prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "hiroshima", "shizuoka"],
+    // 2026-10-15: 広島は実店舗ではなく「オンライン店」（公式・10/14確認）のため外した
+    prefs: ["tokyo", "osaka", "kanagawa", "aichi", "fukuoka", "hokkaido", "hyogo", "saitama", "chiba", "kyoto", "miyagi", "shizuoka"],
     area: "実店舗23店舗＋オンライン店11店舗",
     fee: "登録料33,000円＋初期費用66,000円〜／月会費14,300円〜／成婚料220,000円（税込）",
     point: "専任コンシェルジュが活動計画を立てて伴走する体制。",
@@ -157,7 +159,61 @@ export const PARTNERS: Partner[] = [
     fee: "入会金55,000円／月会費7,700円／成婚料220,000円（税込・スタンダード）",
     point: "医師・経営者などを主な対象にした仲人型。",
   },
+  // 2026-10-15 追加: felmat で提携済みだが店舗ページの導線に入っていなかった4社。
+  // 料金・拠点は各社レビュー(2026年10月14日公式確認)からの転記。計測URLは各レビューの既存リンクと同一。
+  {
+    ad: "fiore",
+    name: "フィオーレ",
+    reviewHref: "/review/fiore/",
+    clickUrl: "https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712",
+    nationwide: false,
+    prefs: ["hokkaido", "miyagi", "tokyo", "chiba", "aichi", "osaka", "hyogo", "kyoto", "fukuoka"],
+    area: "全国17店舗（札幌〜大分）。無料相談は店舗またはオンライン",
+    fee: "入会登録費33,000〜66,000円／月会費7,700〜14,300円／成婚料110,000〜220,000円（税込）。成婚料0円のフィオーレコースもあり",
+    point: "AI紹介・会員検索・成婚料0円の3タイプからコースを選ぶ。登録会員75,048名（2026年7月時点）。",
+  },
+  {
+    ad: "seven",
+    name: "セブン結婚相談所",
+    reviewHref: "/review/seven/",
+    clickUrl: "https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712",
+    nationwide: true,
+    prefs: ["tokyo", "osaka"],
+    area: "五反田サロン（東京）・梅田サロン（大阪）＋オンラインで全国",
+    fee: "入会金9,800円／月会費9,800円／成婚料50,000円（税込）",
+    point: "IBJ加盟の担当カウンセラー制。お見合い料0円。",
+    caution: "活動1年後から更新料16,200円（年1回）がかかります",
+  },
+  {
+    ad: "mars-cafe",
+    name: "マーズカフェ",
+    reviewHref: "/review/mars-cafe/",
+    clickUrl: "https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712",
+    nationwide: true,
+    prefs: ["tokyo"],
+    area: "東京・中野1拠点（Zoom面談で全国対応）",
+    fee: "入会金66,000円＋登録料22,000円／月額7,700円または11,000円／成婚料220,000円（税込）",
+    point: "IBJ・TMS加盟の仲人型。紹介は月3名以上・面談無制限（A/Bコース共通）。",
+  },
+  {
+    ad: "smartread",
+    name: "スマリッジ",
+    reviewHref: "/review/smartread/",
+    clickUrl: "https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712",
+    nationwide: true,
+    prefs: [],
+    area: "全国対応（オンライン専業・店舗なし）",
+    fee: "登録料6,600円／月会費9,900円／成婚料0円（税込）",
+    point: "IBJ online／コネクトシップで活動するオンライン専業。条件つきの返金保証あり。",
+  },
 ];
+
+export type Pick = Partner & {
+  /** この都道府県に拠点がある */
+  local: boolean;
+  /** 表示中の店舗と同じブランド */
+  self: boolean;
+};
 
 /** その都道府県で利用できる提携先を返す。拠点がある社を先に、次にオンライン全国対応。 */
 export function partnersFor(pref: string): Partner[] {
@@ -166,12 +222,40 @@ export function partnersFor(pref: string): Partner[] {
   return [...local, ...online];
 }
 
-/** ページごとに出す順番を散らす（全ページ同じ並びにしないため）。slugから決まるので毎回同じ結果になる。 */
-export function pickPartners(pref: string, seed: string, count = 3): Partner[] {
-  const list = partnersFor(pref);
-  if (list.length <= count) return list;
+function rotate<T>(list: T[], h: number): T[] {
+  if (list.length === 0) return list;
+  const start = h % list.length;
+  return list.map((_, i) => list[(start + i) % list.length]);
+}
+
+/**
+ * 店舗ページに出す提携先を選ぶ（2026-10-15 改訂）。
+ *
+ * 旧版は「拠点あり＋オンライン」を1本の輪にしてslugで開始位置を散らしていたため、
+ * 拠点のある県でもオンライン専業ばかり出るページがあり、見出しの「近くで」と合わなかった。
+ *  1. 表示中の店舗が提携ブランドの店舗なら、そのブランドを先頭に出す
+ *  2. 次に、その都道府県に拠点がある提携先（slugで開始位置を散らす）
+ *  3. 最後の1枠はオンライン全国対応の提携先（あれば）
+ * slugから決まるので毎回同じ結果になる。順位・優劣は付けない。
+ */
+export function pickPartners(pref: string, seed: string, count = 3, selfReviewHref?: string): Pick[] {
   let h = 0;
   for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
-  const start = h % list.length;
-  return Array.from({ length: count }, (_, i) => list[(start + i) % list.length]);
+  const self = selfReviewHref ? PARTNERS.find((p) => p.reviewHref === selfReviewHref) : undefined;
+  const rest = PARTNERS.filter((p) => p !== self);
+  const local = rotate(rest.filter((p) => p.prefs.includes(pref)), h);
+  const online = rotate(rest.filter((p) => !p.prefs.includes(pref) && p.nationwide), h);
+
+  const out: Pick[] = [];
+  if (self) out.push({ ...self, local: self.prefs.includes(pref), self: true });
+  const onlineSlots = online.length > 0 ? 1 : 0;
+  for (const p of local) {
+    if (out.length >= count - onlineSlots) break;
+    out.push({ ...p, local: true, self: false });
+  }
+  for (const p of online) {
+    if (out.length >= count) break;
+    out.push({ ...p, local: false, self: false });
+  }
+  return out;
 }

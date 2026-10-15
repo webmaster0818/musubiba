@@ -146,8 +146,18 @@ export function indexableAgencies(db: AgencyDb): Agency[] {
   return db.agencies.filter((a) => (a.count || 0) >= 3);
 }
 
+// 一致位置の直前がカタカナ/英字なら別ブランドの一部(例:「ミテラスマリッジ」の「スマリッジ」)とみなす。
+// 2026-10-15: brandStores と同じ判定に統一(以前は店舗ページだけ判定が無く、ミテラスマリッジ店が
+// スマリッジのレビューへ「同じブランドの店舗」として誘導されていた)。
+function brandMatches(match: RegExp, name: string): boolean {
+  const m = match.exec(name);
+  if (!m) return false;
+  const before = m.index > 0 ? name[m.index - 1] : "";
+  return !(before && /[ァ-ヶーA-Za-z]/.test(before));
+}
+
 export function findBrand(name: string) {
-  return BRAND_REVIEWS.find((b) => b.match.test(name)) || null;
+  return BRAND_REVIEWS.find((b) => brandMatches(b.match, name)) || null;
 }
 
 // 住所から市区部分をざっくり表示用に抜く(表示のみ・分類には使わない)
@@ -170,7 +180,7 @@ export function sameBrandAgencies(name: string, selfSlug: string, limit = 8) {
     if (!db) continue;
     for (const a of indexableAgencies(db)) {
       if (a.slug === selfSlug) continue;
-      if (!brand.match.test(a.name)) continue;
+      if (!brandMatches(brand.match, a.name)) continue;
       out.push({ slug: a.slug, name: a.name, prefName, count: a.count || 0, rating: (a.rating as number) ?? null });
     }
   }
@@ -195,10 +205,7 @@ export function brandStores(href: string, limit = 30) {
     const db = loadAgencyDb(pref);
     if (!db) continue;
     for (const a of indexableAgencies(db)) {
-      const m = brand.match.exec(a.name);
-      if (!m) continue;
-      const before = m.index > 0 ? a.name[m.index - 1] : "";
-      if (before && /[ァ-ヶーA-Za-z]/.test(before)) continue; // 別ブランドの一部に一致した
+      if (!brandMatches(brand.match, a.name)) continue; // 別ブランドの一部に一致したものは除く
       out.push({ slug: a.slug, name: a.name, prefName, count: a.count || 0, rating: (a.rating as number) ?? null });
     }
   }
