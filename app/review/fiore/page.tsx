@@ -8,7 +8,7 @@ import ReviewFacts from "@/components/ReviewFacts";
 export const metadata = {
   title: "結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率52.0%の定義【2026年10月】",
   description:
-    "結婚相談所フィオーレ（FIORE）の口コミ・評判を掲載媒体つきで整理。3コースの料金（2026年10月14日公式確認）、1年総額の計算、成婚率52.0%の定義、運営会社、勧誘・退会のFAQまで。",
+    "結婚相談所フィオーレ（FIORE）の口コミ・評判を掲載媒体つきで整理。3コースの料金（月会費5,830円〜14,300円・2026年10月15日公式再確認）、1年総額の計算、成婚率52.0%の定義、運営会社、勧誘・退会のFAQまで。",
 };
 
 const overview = {
@@ -17,7 +17,7 @@ const overview = {
   members: "75,048名（2026年7月時点・公式）",
   area: "全国17店舗（札幌〜大分。関西発）",
   initialFee: "入会登録費33,000円（フォーム予約で半額）",
-  monthlyFee: "7,700円〜14,300円（コース別）",
+  monthlyFee: "5,830円〜14,300円（コース別）",
   matchingFee: "0円〜220,000円（コース別）",
   age: "20〜50代",
   successRate: "52.0%（2012〜2025年・自社発表）",
@@ -41,7 +41,7 @@ const strengths = [
 const pros = [
   "成婚率52.0%を算出方法つきで公表している",
   "登録会員75,048名（2026年7月時点）・全国17店舗",
-  "月会費7,700円〜のコースがあり、フォーム予約で入会登録費が半額",
+  "月会費はコース別に5,830円〜14,300円。フォーム予約で入会登録費が半額",
 ];
 
 const cons = [
@@ -115,7 +115,7 @@ export default function FioreReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率の定義まで
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月15日（料金・実績は2026年10月14日に公式サイトで確認、料金は10月15日に再確認）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -232,7 +232,7 @@ export default function FioreReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">18,700円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">5,830円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">18,700円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円（入会登録費）</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">75,048名</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
