@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "流山おおたかの森結婚相談所の評判・料金【2026年】IBJ加盟・月会費9,900円の実態を解説",
+  title: "流山おおたかの森結婚相談所の評判・料金【2026年】IBJ加盟・月会費9,900円の料金と特徴を解説",
   description:
-    "流山おおたかの森結婚相談所（千葉県流山市）の評判・料金を中立解説。IBJ加盟、初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年7月公式確認）の総額目安、カウンセラー歴23年の代表による1名運営の特徴、流山・柏・野田・松戸への出張対応まで整理しました。",
+    "流山おおたかの森結婚相談所（千葉県流山市）の評判・料金を、中立的な立場で解説しています。IBJ加盟、初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年7月公式確認）の総額目安、カウンセラー歴23年の代表による1名運営の特徴、流山・柏・野田・松戸への出張対応について整理しています。",
   alternates: { canonical: "/review/nagareyama-otakanomori/" },
 };
 
@@ -26,25 +26,25 @@ const overview = {
 const strengths = [
   {
     title: "カウンセラー歴23年の代表が最初から最後まで担当する1名運営",
-    desc: "公式プロフィールによれば、代表カウンセラーは業界歴23年を経て48歳で独立。大手のように担当が交代する仕組みではなく、入会相談から成婚まで同じ人が伴走します。担当変更リスクがない一方、相性の見極めが重要になるため、入会前の無料相談で話しやすさを確認するのがおすすめです。",
+    desc: "公式プロフィールによれば、代表カウンセラーは業界歴23年を経て48歳で独立しています。大手のように担当が交代する仕組みではなく、入会相談から成婚まで同じカウンセラーが担当します。担当が変わる心配がない一方、相性の見極めが重要になるため、入会前の無料相談で話しやすさを確認することをおすすめします。",
   },
   {
     title: "IBJ加盟で全国規模の会員ネットワークを利用できる",
-    desc: "小規模相談所でも、日本結婚相談所連盟（IBJ）加盟のため、お相手探しはIBJの全国会員ネットワークが対象です。「小さい相談所＝出会いが少ない」とはならないのが連盟加盟型の仕組みです。",
+    desc: "小規模相談所でも、日本結婚相談所連盟（IBJ）加盟のため、お相手探しはIBJの全国会員ネットワークが対象です。相談所の規模が小さくても出会いの数が限られない点が、連盟加盟型の特徴です。",
   },
   {
     title: "月会費9,900円・単一プランのシンプルな料金体系",
-    desc: "料金はプランが1つだけで、月会費9,900円（税込）は仲人型の相場（月1〜2万円程度）と比べて低めの設定です。初期費用の内訳（入会金・登録料・スタートアップ・サポート費）も公式サイトに明記されており、料金の透明性は高い部類です。",
+    desc: "料金はプランが1つだけで、月会費9,900円（税込）は仲人型の相場（月1〜2万円程度）と比べて低めの設定です。初期費用の内訳（入会金・登録料・スタートアップ・サポート費）も公式サイトに明記されており、料金の透明性が高い相談所といえます。",
   },
   {
     title: "流山おおたかの森を拠点にした出張型の地域密着サポート",
-    desc: "TX沿線の流山おおたかの森を中心に、柏・野田・松戸エリアへの出張対応を公式に掲げています。店舗へ通う形ではなく、地域で会って相談できる形を取りたい人に向いています。",
+    desc: "TX沿線の流山おおたかの森を中心に、柏・野田・松戸エリアへの出張対応を公式に掲げています。店舗へ通う形ではなく、地域で会って相談したい方に適しています。",
   },
 ];
 
 const pros = [
   "IBJ加盟で全国の会員ネットワークからお相手を探せる",
-  "月会費9,900円（税込）と仲人型では低めの月額",
+  "月会費9,900円（税込）と、仲人型では低めの設定",
   "単一プラン・内訳明記で料金が分かりやすい",
   "代表が一貫して担当し、担当交代がない",
   "流山・柏・野田・松戸へ出張対応の地域密着型",
@@ -60,11 +60,11 @@ const cons = [
 const faqs = [
   {
     q: "流山おおたかの森結婚相談所の料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年7月確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
+    a: "公式公表の料金（税込・2026年7月確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
   },
   {
-    q: "IBJ加盟とはどういう意味ですか？出会いの数は大丈夫？",
-    a: "IBJ（日本結婚相談所連盟）は国内最大級の結婚相談所ネットワークで、加盟相談所の会員同士がお見合いできます。流山おおたかの森結婚相談所は公式サイトでIBJ加盟を明記しており、お相手探しはIBJの全国会員が対象です。相談所の規模と出会いの数は別物と考えて大丈夫です。",
+    q: "IBJ加盟とはどういう意味ですか？出会いの数に影響はありますか？",
+    a: "IBJ（日本結婚相談所連盟）は、加盟相談所の会員同士がお見合いできる結婚相談所ネットワークです。流山おおたかの森結婚相談所は公式サイトでIBJ加盟を明記しており、お相手探しはIBJの全国会員が対象です。相談所の規模と出会いの数は、別のものとお考えください。",
   },
   {
     q: "どのエリアに対応していますか？",
@@ -72,11 +72,11 @@ const faqs = [
   },
   {
     q: "1名運営の相談所は大手と比べて不安はありませんか？",
-    a: "1名運営には「担当交代がない」「レスポンスや方針が一貫する」という強みがある一方、「相性が合わない場合の逃げ場がない」「サポート量が代表のキャパシティに依存する」という注意点があります。無料相談で話しやすさ・提案の具体性を確かめてから判断するのがおすすめです。",
+    a: "1名運営には、担当が交代しない、対応や方針が一貫するという強みがある一方、相性が合わない場合に担当を替えられない、サポート量が代表の対応可能な範囲に左右されるという注意点があります。無料相談で話しやすさや提案の具体性を確認したうえで、ご判断いただくことをおすすめします。",
   },
   {
-    q: "口コミや評判がほとんど見つからないのですが大丈夫ですか？",
-    a: "開業からの年数が浅い小規模相談所のため、第三者の口コミはWeb上にまだほとんどありません（2026年7月時点の当サイト調査）。口コミの少なさ自体は小規模相談所に共通の特徴で、良し悪しの証拠にはなりません。判断材料は、公式の料金透明性（本相談所は内訳まで明記）、IBJ加盟という客観的事実、無料相談での対応の質に置くのが現実的です。",
+    q: "口コミや評判がほとんど見つからない場合、どのように判断すればよいですか？",
+    a: "開業からの年数が浅い小規模相談所のため、第三者の口コミはWeb上にほとんどありません（2026年7月時点の当サイト調査）。口コミの少なさ自体は小規模相談所に共通の特徴で、良し悪しの証拠にはなりません。判断材料は、公式の料金透明性（本相談所は内訳まで明記）、IBJ加盟という客観的事実、無料相談での対応の質に置くことをおすすめします。",
   },
   {
     q: "入会条件はありますか？",
@@ -111,19 +111,19 @@ export default function NagareyamaOtakanomoriReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          流山おおたかの森結婚相談所の評判・料金｜IBJ加盟・月9,900円の実態を解説
+          流山おおたかの森結婚相談所の評判・料金｜IBJ加盟・月会費9,900円の料金と特徴を解説
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：流山おおたかの森結婚相談所はこんな人に向く
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流山おおたかの森結婚相談所が適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：カウンセラー歴23年の代表による<strong>1名運営×IBJ加盟</strong>の地域密着型。担当交代なしの伴走と、IBJ全国ネットワークの出会いを両立できます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期165,000円＋月9,900円＋成婚料220,000円（税込・単一プラン）。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>。月会費は仲人型の相場より低めです。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：流山・柏・野田・松戸エリアで、大手より「同じ担当者にずっと見てほしい」人。TX沿線で対面相談したい人。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：第三者口コミがまだ少ないため、判断は無料相談での相性確認が中心になります（本文で見極めポイントを解説）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：カウンセラー歴23年の代表による<strong>1名運営・IBJ加盟</strong>の地域密着型の相談所です。担当が交代しない継続的なサポートと、IBJ全国ネットワークでの出会いを両立できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・単一プラン）です。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。月会費は仲人型の相場より低めです。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：流山・柏・野田・松戸エリアで、大手よりも同じ担当者に継続してサポートを受けたい方や、TX沿線で対面相談をご希望の方です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：第三者の口コミが少ないため、判断は無料相談での相性確認が中心になります（見極めのポイントは本文で解説しています）。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年7月確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
@@ -174,7 +174,7 @@ export default function NagareyamaOtakanomoriReview() {
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握しましょう。
+            プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握することをおすすめします。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
@@ -193,22 +193,22 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミがまだ少ない相談所の見極め方（正直な解説）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミが少ない相談所の見極め方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトの調査（2026年7月時点）では、流山おおたかの森結婚相談所の<strong>第三者による口コミ・体験談はWeb上にまだほとんど存在しません</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりに「口コミが少ない小規模相談所を検討するときの見極めポイント」を整理します。
+            当サイトの調査（2026年7月時点）では、流山おおたかの森結婚相談所の<strong>第三者による口コミ・体験談は、Web上でほとんど確認できません</strong>。当サイトでは実在しない口コミを作成・掲載しない方針のため、代わりに口コミが少ない小規模相談所を検討する際の見極めポイントを整理しています。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：IBJ加盟（公式サイトに明記・IBJ公式の加盟店ページも存在）、料金の内訳公開など、検証可能な事実は揃っています。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>無料相談で「具体性」を見る</strong>：あなたの条件での活動プラン・お見合い成立の見込み・過去の成婚事例を、どこまで具体的に話せるかが力量の判断材料になります。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）を必ず書面で確認しましょう。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>1名運営との相性を最重視する</strong>：担当交代がない分、「この人に本音を話せるか」が大手以上に重要です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>無料相談で「具体性」を見る</strong>：ご自身の条件での活動プラン・お見合い成立の見込み・過去の成婚事例を、どこまで具体的に話せるかが力量の判断材料になります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は、必ず書面で確認することをおすすめします。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>担当者との相性を重視する</strong>：担当が交代しない分、担当者に率直に相談できるかどうかが、大手以上に重要です。</span></li>
           </ul>
         </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">他社と比較して選ぶ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            千葉・首都圏で仲人型を検討するなら、大手・中堅とも比較して、料金総額とサポート体制の違いを見ておくと判断しやすくなります。
+            千葉・首都圏で仲人型を検討される場合は、大手・中堅とも比較し、料金総額とサポート体制の違いを確認しておくと判断しやすくなります。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟の仲人型大手）</Link></li>
@@ -237,7 +237,7 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">判断に役立つ結婚相談所の基礎知識</h2>
           <ul className="space-y-2 text-sm">
             <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
             <li><Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>

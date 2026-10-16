@@ -33,7 +33,7 @@ export default function PartnerPicks({
   return (
     <section className="mb-10">
       <h2 className="text-xl font-light mb-2 border-l-4 border-[#A08447] pl-4 tracking-widest">
-        近くで使える提携相談所（{prefName}の店舗・オンライン）
+        近隣で利用できる提携相談所（{prefName}の店舗・オンライン）
       </h2>
       <p className="text-[11px] tracking-widest text-gray-400 mb-4 pl-4">
         PR（当サイトが提携している相談所です）
@@ -42,7 +42,7 @@ export default function PartnerPicks({
         {hasSelf
           ? `「${agencyName}」と同じブランドの相談所と、${prefName}で利用できるほかの提携相談所です。`
           : `「${agencyName}」と比べる候補として、${prefName}に店舗がある、またはオンラインで全国から利用できる提携相談所です。`}
-        各社の口コミ・評判（掲載媒体つき）と公式料金・1年総額は、レビューページにまとめています。
+        各社の口コミ・評判（掲載媒体を明記）と公式料金・1年総額は、各社のレビューページに掲載しています。
         料金はいずれも各社の公式サイトに掲載されている金額で、当サイトの推定は含みません。
       </p>
 

@@ -34,10 +34,10 @@ function resolve(slug: string): Resolved | null {
 }
 
 // 名称が長い店舗は160字を超えるため、超える場合だけ「所在地、…比較まで。」の一文を省く。
-function agencyDescription(a: Agency, prefName: string, surveyedAt: string): string {
-  const head = `${a.name}(${prefName})の評判をGoogleマップの実データで確認できます。評点${a.rating ?? "－"}・口コミ${a.count}件(${surveyedAt}取得)。`;
-  const tail = "評点は当サイトの評価ではなくGoogleマップの実数です。";
-  const full = `${head}所在地、同じエリアの相談所、同じブランドの他店舗との比較まで。${tail}`;
+function agencyDescription(a: Agency, prefName: string, surveyedAt: string, hasSameBrand: boolean): string {
+  const head = `${a.name}(${prefName})の評判を、Googleマップの実データで確認できます。${surveyedAt}取得時点の評点は${a.rating ?? "－"}、口コミは${a.count}件です。`;
+  const tail = "評点は当サイトの評価ではなく、Googleマップに表示される実数です。";
+  const full = `${head}所在地や、同じエリアの相談所${hasSameBrand ? "・同じブランドの他店舗" : ""}との比較も掲載しています。${tail}`;
   return full.length <= 160 ? full : `${head}${tail}`;
 }
 
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // 「◯◯ 口コミ」の形がほとんどだった。titleに「評判」が入っていなかったため追加し、
     // 検証できる実数(評点・件数)を前に出す。
     title: `${a.name}の評判・口コミ【Googleマップ評点${a.rating ?? "－"}／${a.count}件】${prefName}の結婚相談所`,
-    description: agencyDescription(a, prefName, db.surveyedAt),
+    description: agencyDescription(a, prefName, db.surveyedAt, sameBrandAgencies(a.name, a.slug, 1).length > 0),
     alternates: { canonical: `https://mu-su-bi-ba.com/agency/${encodeURIComponent(a.slug)}/` },
   };
 }
@@ -85,12 +85,12 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
 
   const faqs = [
     {
-      q: `${a.name}の評点${a.rating ?? "－"}は誰がつけた評価ですか？`,
-      a: `当サイトの評価ではなく、Googleマップに投稿された利用者の口コミ評点の実数です(${db.surveyedAt}取得時点で評点${a.rating ?? "－"}・${a.count}件)。当サイトでは口コミの創作・独自採点は行っていません。最新の評点・口コミ本文はGoogleマップでご確認ください。`,
+      q: `${a.name}の評点${a.rating ?? "－"}は、誰が付けた評価ですか？`,
+      a: `当サイトの評価ではなく、Googleマップに投稿された利用者の口コミ評点の実数です(${db.surveyedAt}取得時点で評点${a.rating ?? "－"}、口コミ${a.count}件)。当サイトでは口コミの創作・独自採点は行っていません。最新の評点および口コミ本文は、Googleマップにてご確認ください。`,
     },
     {
       q: "料金やサービス内容はどこで確認できますか？",
-      a: "料金・会員数・サポート内容は各相談所の公式情報・無料相談でご確認ください。結婚相談所の一般的な料金構造(初期費用・月会費・成婚料)と総額の考え方は当サイトの料金相場ガイドで解説しています。",
+      a: "料金・会員数・サポート内容は、各相談所の公式サイトまたは無料相談にてご確認ください。結婚相談所の一般的な料金構造(初期費用・月会費・成婚料)と総額の考え方は、当サイトの料金相場ガイドで解説しています。",
     },
   ];
 
@@ -107,14 +107,14 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-3">{a.name}の口コミ評点・基本情報【Googleマップ実数】</h1>
       <p className="text-sm text-[#555] leading-relaxed mb-6">
         {prefName}の結婚相談所「{a.name}」のGoogleマップ実データをまとめたページです({db.surveyedAt}取得)。
-        評点・口コミ件数は<strong>Googleマップの実数</strong>で、当サイトによる評価・創作ではありません。
+        掲載している評点・口コミ件数は<strong>Googleマップに表示される実数</strong>で、当サイトによる評価や創作ではありません。
       </p>
 
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-8">
         <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報(Googleマップ・{db.surveyedAt}取得)</div>
         <div className="divide-y divide-gray-50 text-sm">
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">名称</span><span className="text-[#2C2C2C]">{a.name}</span></div>
-          <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">Gマップ評点</span><span className="text-[#2C2C2C] font-semibold">{a.rating ?? "－"} <span className="font-normal text-[#2C2C2C]/60">(口コミ{a.count}件)</span></span></div>
+          <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">Googleマップ評点</span><span className="text-[#2C2C2C] font-semibold">{a.rating ?? "－"} <span className="font-normal text-[#2C2C2C]/60">(口コミ{a.count}件)</span></span></div>
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">所在地</span><span className="text-[#2C2C2C]">{shortAddress(a.address)}</span></div>
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">検索エリア</span><span className="text-[#2C2C2C]">{a.areas.map((ar) => AREA_LABELS[ar] || ar).join("・")}</span></div>
         </div>
@@ -128,16 +128,16 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
             <p className="text-xs text-[#555] mt-1">{prefName}内の口コミ件数順位</p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-            <p className="text-xl font-bold text-[#A08447]">{a.rating ?? "－"}<span className="text-xs font-normal text-[#555]"> vs 平均{avgRating.toFixed(2)}</span></p>
+            <p className="text-xl font-bold text-[#A08447]">{a.rating ?? "－"}<span className="text-xs font-normal text-[#555]">（平均{avgRating.toFixed(2)}）</span></p>
             <p className="text-xs text-[#555] mt-1">評点({prefName}の収録平均と比較)</p>
           </div>
           <div className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-            <p className="text-xl font-bold text-[#A08447]">{a.count}件<span className="text-xs font-normal text-[#555]"> vs 中央値{medCount}件</span></p>
+            <p className="text-xl font-bold text-[#A08447]">{a.count}件<span className="text-xs font-normal text-[#555]">（中央値{medCount}件）</span></p>
             <p className="text-xs text-[#555] mt-1">口コミ件数({prefName}の中央値と比較)</p>
           </div>
         </div>
         <p className="text-xs text-[#999] leading-relaxed mb-4">
-          ※当サイトが{prefName}で実在確認した口コミ3件以上の{main.length}件({db.surveyedAt}取得)内での機械集計です。評点は高評価が集まりやすい傾向があるため、件数(実績の量)と口コミ本文をあわせて確認するのがおすすめです。
+          ※当サイトが{prefName}で実在を確認した、口コミ3件以上の{main.length}件({db.surveyedAt}取得)を対象に、機械的に集計しています。評点は高評価が集まりやすい傾向があるため、件数(実績の量)と口コミ本文をあわせてご確認いただくことをおすすめします。
         </p>
         {(prevByCount || nextByCount) && (
           <p className="text-sm text-[#555] leading-relaxed mb-4">
@@ -176,7 +176,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
 
       {brand && (
         <p className="text-sm text-[#555] leading-relaxed mb-8 bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-4">
-          この相談所は当サイトでレビュー記事を公開しているブランドの店舗です。料金体系・向いている人の詳細は<Link href={brand.href} className="text-[#A08447] underline">{brand.label}</Link>をご覧ください。
+          この相談所は当サイトでレビュー記事を公開しているブランドの店舗です。料金体系や、どのような方に適しているかについては<Link href={brand.href} className="text-[#A08447] underline">{brand.label}</Link>をご覧ください。
         </p>
       )}
 
@@ -188,7 +188,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
         <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">はじめて結婚相談所を検討する方へ</h2>
         <p className="text-sm text-[#555] leading-relaxed mb-3">
           結婚相談所は「無料相談→入会(独身証明書等の書類)→プロフィール作成→お見合い→交際→成婚退会」という流れで進みます。
-          費用は①入会時②毎月③成婚退会時の3タイミングで発生するのが標準形で、総額で比較するのが失敗しないコツです。
+          費用は①入会時、②毎月、③成婚退会時の3つの時点で発生するのが一般的なため、総額で比較することをおすすめします。
         </p>
         <p className="text-sm">
           <Link href="/knowledge/flow/" className="text-[#A08447] underline">→ 入会から成婚までの流れ(初めての方向け)</Link>
@@ -220,7 +220,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
         <section className="mb-10">
           <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">同じブランドの他店舗</h2>
           <p className="text-sm text-[#2C2C2C]/60 leading-relaxed mb-3">
-            同じブランドでも、店舗によって口コミの評点・件数は違います（Googleマップ実数・{db.surveyedAt}取得）。
+            同じブランドでも、店舗によって口コミの評点・件数は異なります（Googleマップ実数・{db.surveyedAt}取得）。
           </p>
           <ul className="space-y-2 text-sm">
             {sameBrand.map((x) => (
@@ -253,7 +253,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
       </p>
 
       <p className="text-xs text-[#999] leading-relaxed">
-        ※出典: Googleマップ(Google Places API・{db.surveyedAt}時点)。評点・口コミ件数はその後変動する場合があります。掲載情報は実在確認できた店舗の実データのみで、料金・サービス内容の最新情報は各相談所へ直接ご確認ください。
+        ※出典: Googleマップ(Google Places API・{db.surveyedAt}時点)。評点・口コミ件数はその後変動する場合があります。掲載しているのは実在を確認できた店舗の実データのみです。料金・サービス内容の最新情報は、各相談所へ直接ご確認ください。
       </p>
     </main>
   );

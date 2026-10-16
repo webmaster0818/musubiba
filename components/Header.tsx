@@ -7,7 +7,7 @@ const navLinks = [
   { href: "/", label: "ランキング" },
   { href: "/#area", label: "エリア別" },
   { href: "/#type", label: "タイプ別" },
-  { href: "/faq/", label: "お役立ち" },
+  { href: "/faq/", label: "よくある質問" },
 ];
 
 export default function Header() {

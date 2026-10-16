@@ -28,7 +28,7 @@ export type Fee = {
 };
 
 export const FEES: Fee[] = [
-  { slug: "naco-do", name: "naco-do（ナコード）", monthly: 16800, initial: 66000, success: 0, monthlyText: "月額16,800円", initialText: "初期費用66,000円／成婚料0円", type: "オンライン型・成婚料0円" },
+  { slug: "naco-do", name: "naco-do（ナコード）", monthly: 16800, initial: 66000, success: 0, monthlyText: "月会費16,800円", initialText: "初期費用66,000円／成婚料0円", type: "オンライン型・成婚料0円" },
   { slug: "seven", name: "セブン結婚相談所", monthly: 9800, initial: 9800, success: 50000, monthlyText: "月会費9,800円", initialText: "入会金9,800円／成婚料50,000円", type: "IBJ加盟・低価格" },
   { slug: "bridal-tulip", name: "Bridalチューリップ", monthly: 7550, initial: 105000, success: 180000, monthlyText: "月会費7,550円〜12,950円", initialText: "入会金105,000円（42歳以上プランは150,800円）／成婚料180,000円", type: "仲人型・3連盟加盟" },
   { slug: "excellence-aoyama", name: "エクセレンス青山", monthly: 7700, initial: 55000, success: 220000, monthlyText: "月会費7,700円〜", initialText: "入会金55,000円〜220,000円（コース別）／成婚料220,000円", type: "ハイスペック特化" },
@@ -44,18 +44,18 @@ export const FEES: Fee[] = [
   { slug: "hero-marriage", name: "ヒーローマリッジ", monthly: 14300, initial: 165000, success: 220000, monthlyText: "月会費14,300円〜27,500円", initialText: "初期費用165,000円／成婚料220,000円", type: "男性専門" },
   { slug: "musbell", name: "ムスベル", monthly: 15400, initial: null, success: null, monthlyText: "月会費15,400円", initialText: "—", type: "仲人・データ併用型" },
   { slug: "zwei", name: "ツヴァイ", monthly: 15400, initial: null, success: null, monthlyText: "月会費15,400円", initialText: "—", type: "大手・データマッチング" },
-  { slug: "onet", name: "オーネット", monthly: 16500, initial: null, success: null, monthlyText: "月会費16,500円", initialText: "—", type: "大手・会員数多" },
+  { slug: "onet", name: "オーネット", monthly: 16500, initial: null, success: null, monthlyText: "月会費16,500円", initialText: "—", type: "大手・会員数多数" },
   { slug: "sunmarie", name: "サンマリエ", monthly: 18700, initial: 165000, success: 220000, monthlyText: "月会費18,700円", initialText: "入会金33,000円＋初期活動費132,000円／成婚料220,000円", type: "仲人型・1981年創業" },
   { slug: "folli-partner", name: "東京フォリパートナー", monthly: 16500, initial: 110000, success: 250000, monthlyText: "月会費16,500円〜22,000円", initialText: "入会金110,000円〜250,000円／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: 17050, initial: 252450, success: 220000, monthlyText: "月会費17,050円", initialText: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: 14300, initial: 99000, success: 220000, monthlyText: "月会費14,300円〜26,400円", initialText: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
-  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 7700, initial: 33000, success: null, monthlyText: "月会費7,700円〜14,300円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
+  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 5830, initial: 33000, success: null, monthlyText: "月会費5,830円〜14,300円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
   { slug: "marriage-pro", name: "マリッジプロ", monthly: null, initial: null, success: 220000, monthlyText: "—", initialText: "成婚料22万円", type: "プロカウンセラー専任" },
   { slug: "ringbell", name: "リングベル", monthly: null, initial: null, success: null, monthlyText: "—", initialText: "—", type: "仲人型・地域密着" },
 ];
 
 export const FEE_SURVEY_NOTE =
-  "金額はいずれも各社公式サイトの掲載値（税込）を当サイトが実査したものです。レンジで示されている項目は下限を採用しています。";
+  "金額はいずれも、各社公式サイトの掲載値（税込）を当サイトが確認したものです。範囲で示されている項目は、下限の金額を採用しています。";
 
 /** 月会費を公表している社の中での安い順の順位。公表していなければ null */
 export function monthlyRank(slug: string) {

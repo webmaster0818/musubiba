@@ -6,9 +6,9 @@ import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
-  title: "ツヴァイの口コミ・評判｜料金・会員数・サポートを徹底解説【2026年】",
+  title: "ツヴァイの口コミ・評判｜料金・会員数・サポートを解説【2026年】",
   description:
-    "ツヴァイの口コミ・評判を徹底調査。月会費15,400円〜、会員数9.4万人、全国50店舗展開の特徴を詳しく解説します。",
+    "ツヴァイの口コミ・評判を調査し、月会費15,400円〜、会員数9.4万人、全国50店舗展開といった特徴を解説します。",
 };
 
 const overview = {
@@ -25,12 +25,12 @@ const overview = {
 
 const strengths = [
   {
-    title: "業界最大級9.4万人の会員基盤",
-    desc: "複数の結婚相談所ネットワークと連携しており、業界最大級の出会いの選択肢があります。地方在住の方でもお相手が見つかりやすいのが特徴です。",
+    title: "約9.4万人の会員基盤",
+    desc: "複数の結婚相談所ネットワークと連携しており、出会いの選択肢が広がります。地方在住の方でもお相手を探しやすい環境です。",
   },
   {
-    title: "全国50店舗の圧倒的なアクセス",
-    desc: "北海道から沖縄まで全国50店舗を展開。対面でのカウンセリングを受けやすく、転勤や引っ越しがあっても継続して活動できます。",
+    title: "全国50店舗で対面の相談を受けやすい環境",
+    desc: "北海道から沖縄まで全国50店舗を展開しています。対面でのカウンセリングを受けやすく、転勤や引っ越しがあっても継続して活動できます。",
   },
   {
     title: "データマッチングと仲人の両方で出会える",
@@ -39,7 +39,7 @@ const strengths = [
 ];
 
 const pros = [
-  "会員数が業界最大級で出会いの幅が広い",
+  "会員数が約9.4万人と多く、出会いの幅が広い",
   "全国展開で地方でも利用しやすい",
   "データマッチングと仲人型の両方を併用可能",
   "無料相談で相性診断が受けられる",
@@ -106,7 +106,7 @@ export default function ZweiReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ツヴァイの口コミ・評判｜料金・会員数・サポートを徹底解説
+          ツヴァイの口コミ・評判｜料金・会員数・サポートを解説
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
@@ -205,16 +205,16 @@ export default function ZweiReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            ツヴァイの評判・口コミの傾向まとめ
+            ツヴァイの評判・口コミの傾向
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「ツヴァイ 評判」「ツヴァイ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+            「ツヴァイ 評判」「ツヴァイ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しています。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50/50 rounded-xl p-6">
               <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数が業界最大級で出会いの幅が広いという声が見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数が多く出会いの幅が広いという声が見られます</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>全国展開で地方在住でも利用しやすいと評価する傾向があります</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>データマッチングと仲人型を併用できる点を評価する声が多い傾向です</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>無料相談で相性診断が受けられる点を好意的に捉える傾向があります</li>
@@ -234,10 +234,10 @@ export default function ZweiReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            ツヴァイと他社を比較して選ぶ
+            ツヴァイと他社の比較
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            ツヴァイが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+            ツヴァイが自分に合うか迷う場合は、料金総額・会員数・サポート形式を他社と比較することをおすすめします。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
@@ -253,11 +253,11 @@ export default function ZweiReview() {
               <FeePosition slug="zwei" />
 
 <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向（当サイトによる要約・2026年9月5日取得）</h2>
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
-            <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>——「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>
-            <p><span className="font-medium text-rose-700">気になる声</span>——最も多い不満は<span className="font-medium">「問い合わせへの返信が遅い」「こちらから相談しない限り放っておかれる」</span>というサポートの受け身さです。手厚く介入してほしい人には不向きで、自走型で「必要な時だけ相談したい」人に合う構造と読めます。成婚退会後のトラブル(婚約解消)に触れた声もあり、成婚=入籍ではない点は相談所全般の注意点です。</p>
-            <p className="text-xs text-[#999]">※Googleマップの複数店舗(東京銀座・大阪・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+            <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>：「約1年で成婚退会できた」「担当カウンセラーが前向きに支えてくれた」という成婚報告と担当者への感謝が中心です。「条件・価値観・コンサルタント紹介など複数の出会い方を使い分けられる」点を効率面で評価する声や、面談を対面・電話・Webで調整できた柔軟さへの言及もあります。IBJプラン併用で成婚したという報告も複数あります。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>：最も多い不満は<span className="font-medium">「問い合わせへの返信が遅い」「こちらから相談しない限り放っておかれる」</span>というサポートの受け身さです。手厚い介入を希望する方よりも、自分で活動を進め、必要な時だけ相談したい方に適した仕組みといえます。成婚退会後のトラブル（婚約解消）に触れた声もあります。成婚退会は入籍を意味するものではない点は、結婚相談所全般に共通する注意点です。</p>
+            <p className="text-xs text-[#999]">※Googleマップの複数店舗(東京銀座・大阪・名古屋)の直近口コミをPlaces APIで取得し、当サイトが内容を確認したうえで傾向を要約したものです（本文の転載は行っていません）。個々の体験は店舗・担当者・時期により異なります。</p>
           </div>
         </section>
 
@@ -286,7 +286,7 @@ export default function ZweiReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">ツヴァイの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは無料相談で相性診断を受けてみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">無料相談では相性診断を受けられます</p>
           <Link
             href="/"
             className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"

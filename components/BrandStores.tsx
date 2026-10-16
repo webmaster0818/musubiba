@@ -17,21 +17,21 @@ export default function BrandStores({ href, brandName }: { href: string; brandNa
 
   return (
     <section className="mt-10">
-      <h2 className="text-xl font-bold text-gray-900">{brandName}の店舗（Googleマップ実測）</h2>
+      <h2 className="text-xl font-bold text-gray-900">{brandName}の店舗（Googleマップの掲載情報）</h2>
       <p className="mt-2 text-sm leading-relaxed text-gray-600">
         当サイトが収録している{brandName}の店舗は<strong>{stores.length}店舗</strong>、
         口コミは合計<strong>{reviews.toLocaleString()}件</strong>です。
         {avg && (
           <>
-            {" "}評点の平均は<strong>{avg}</strong>、店舗ごとの幅は<strong>{min}〜{max}</strong>でした。
+            {" "}評点の平均は<strong>{avg}</strong>、店舗ごとの幅は<strong>{min}〜{max}</strong>です。
           </>
         )}
-        数値はGoogleマップに表示されていた実数で、当サイトの評価ではありません。
+        数値はGoogleマップに表示されている実数で、当サイトの評価ではありません。
       </p>
       {avg && min !== max && (
         <p className="mt-2 rounded-lg bg-gray-50 p-3 text-sm leading-relaxed text-gray-700">
-          <strong>同じブランドでも店舗によって評点が{min}〜{max}まで違います。</strong>
-          入会を決める前に、実際に通う店舗の評判を確認してください。店舗名をクリックすると所在地と口コミ件数が見られます。
+          <strong>同じブランドでも、店舗によって評点は{min}〜{max}と異なります。</strong>
+          入会前に、実際に利用する店舗の評判をご確認ください。店舗名を選択すると、所在地と口コミ件数をご覧いただけます。
         </p>
       )}
       <ul className="mt-3 grid gap-2 sm:grid-cols-2">
@@ -47,7 +47,7 @@ export default function BrandStores({ href, brandName }: { href: string; brandNa
         ))}
       </ul>
       <p className="mt-2 text-xs text-gray-500">
-        ※ 全店舗を網羅したものではなく、当サイトが収録した範囲です。評点は投稿数が少ないほど振れやすく、店舗の良し悪しをそのまま表すものではありません。
+        ※ 全店舗を網羅したものではなく、当サイトが収録した範囲の店舗です。評点は投稿数が少ないほど変動しやすく、店舗の良し悪しを直接示すものではありません。
       </p>
     </section>
   );

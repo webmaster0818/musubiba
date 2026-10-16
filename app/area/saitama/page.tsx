@@ -6,7 +6,7 @@ import AgencyIndex from "@/components/AgencyIndex";
 export const metadata: Metadata = {
   title: "大宮・浦和など埼玉の結婚相談所一覧【93件調査・Google口コミ実データ】エリア別に比較",
   description:
-    "埼玉県の実在する結婚相談所93件をGoogleマップの実データ(評点・口コミ件数・2026年9月2日取得)で調査し、大宮・浦和・川越・川口など主要エリア別に掲載。式場・ジュエリー店等の別業態は業種データで除外済み。口コミ3件以上の相談所は評点・所在地の詳細ページつき。評点は実数のみで創作はありません。",
+    "埼玉県の実在する結婚相談所93件を、Googleマップの実データ（2026年9月2日取得）にもとづいて調査し、大宮・浦和・川越・川口など主要エリア別に掲載しています。式場・ジュエリー店等の別業態は、業種データにより除外しています。口コミ3件以上の相談所は、詳細ページも掲載しています。",
   alternates: { canonical: "https://mu-su-bi-ba.com/area/saitama/" },
 };
 
@@ -19,9 +19,9 @@ export default function AreaPage() {
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm mt-4">
         <p className="font-medium text-[#A08447] mb-2 tracking-wider">はじめての方へ</p>
         <p className="leading-relaxed text-[#555]">
-          大手(オーネット・ツヴァイ・IBJメンバーズ等)は<Link href="/compare/" className="underline">当サイトの比較レビュー</Link>で費用・仕組みを確認できます。
-          個人経営の仲人型相談所は掲載のGoogleマップから雰囲気・口コミをご確認ください。
-          相談所選びの基本は<Link href="/knowledge/how-to-choose/" className="underline">選び方ガイド</Link>にまとめています。
+          大手(オーネット・ツヴァイ・IBJメンバーズ等)の費用・仕組みは、<Link href="/compare/" className="underline">当サイトの比較レビュー</Link>でご確認いただけます。
+          個人経営の仲人型相談所については、掲載しているGoogleマップのリンクから雰囲気や口コミをご確認ください。
+          相談所選びの基本は、<Link href="/knowledge/how-to-choose/" className="underline">選び方ガイド</Link>にまとめています。
         </p>
       </div>
     </main>

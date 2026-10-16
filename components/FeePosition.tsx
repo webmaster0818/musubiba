@@ -35,7 +35,7 @@ export default function FeePosition({ slug }: { slug: string }) {
         24社の中での料金の位置
       </h2>
       <p className="text-sm text-[#555] leading-relaxed mb-5">
-        当サイトが公式サイトを実査した結婚相談所24社と、同じ基準で並べたときの{self.name}の位置です。
+        当サイトが公式サイトで料金を確認した結婚相談所24社を同じ基準で比較した場合の、{self.name}の位置です。
         {FEE_SURVEY_NOTE}
       </p>
 
@@ -115,7 +115,7 @@ export default function FeePosition({ slug }: { slug: string }) {
 
       <p className="text-sm mt-4">
         <Link href="/compare/" className="text-[#A08447] underline">
-          → 24社の料金を一覧で比べる
+          → 24社の料金を一覧で比較する
         </Link>
         <span className="mx-2 text-gray-300">|</span>
         <Link href="/knowledge/cost/" className="text-[#A08447] underline">

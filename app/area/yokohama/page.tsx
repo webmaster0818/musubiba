@@ -6,7 +6,7 @@ import AgencyIndex from "@/components/AgencyIndex";
 export const metadata: Metadata = {
   title: "横浜・神奈川の結婚相談所一覧【約140件調査・Google口コミ実データ】エリア別に比較",
   description:
-    "横浜・神奈川の実在する結婚相談所約140件をGoogleマップの実データ(評点・口コミ件数・2026年8月20日取得)で調査し、横浜駅・関内・新横浜・川崎・武蔵小杉・藤沢・相模原など主要エリア別に掲載。式場・ジュエリー店等の別業態は業種データで除外済み。口コミ3件以上は評点・所在地の詳細ページつき。評点は実数のみ。",
+    "横浜・神奈川の実在する結婚相談所約140件を、Googleマップの実データ（2026年8月20日取得）にもとづいて調査し、横浜駅・関内・川崎・武蔵小杉・藤沢など主要エリア別に掲載しています。式場・ジュエリー店等の別業態は、業種データにより除外しています。口コミ3件以上の相談所は、詳細ページも掲載しています。",
   alternates: { canonical: "https://mu-su-bi-ba.com/area/yokohama/" },
 };
 
@@ -19,7 +19,7 @@ export default function AreaPage() {
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm mt-4">
         <p className="font-medium text-[#A08447] mb-2 tracking-wider">はじめての方へ</p>
         <p className="text-[#2C2C2C]/70 leading-relaxed mb-2">
-          結婚相談所は「無料相談→入会(独身証明書等)→お見合い→交際→成婚退会」の流れで進み、費用は入会時・毎月・成婚退会時の3タイミングで発生するのが標準形です。
+          結婚相談所は「無料相談→入会(独身証明書等)→お見合い→交際→成婚退会」の流れで進み、費用は入会時・毎月・成婚退会時の3つの時点で発生するのが一般的です。
         </p>
         <p>
           <Link href="/knowledge/flow/" className="text-[#A08447] underline">→ 入会から成婚までの流れ</Link>

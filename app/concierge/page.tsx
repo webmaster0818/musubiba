@@ -56,7 +56,7 @@ const agencies: Agency[] = [
     area: ['北海道', '東北', '関東', '中部', '関西', '中国', '四国', '九州'],
     ageRange: ['20代', '30代前半', '30代後半', '40代', '50代以上'],
     budgetCategory: 'mid',
-    features: ['40年の実績', 'データマッチング', '自社会員のみ', '真剣度が高い'],
+    features: ['40年の実績', 'データマッチング', '自社会員のみ'],
     priority: ['データマッチング', '会員数の多さ'],
     style: ['自分のペースでゆっくり'],
     screenshotSlug: 'onet',
@@ -86,7 +86,7 @@ const agencies: Agency[] = [
     area: ['関東'],
     ageRange: ['20代', '30代前半', '30代後半'],
     budgetCategory: 'budget',
-    features: ['成婚率72.5%（自社発表）', '低価格', '気軽に始められる', 'カウンセラー付き'],
+    features: ['成婚率72.5%（自社発表）', '低価格', '始めやすい料金設定', 'カウンセラー付き'],
     priority: ['カウンセラーのサポート'],
     style: ['自分のペースでゆっくり', '積極的に活動'],
     affiliateUrl: MARS_CAFE_AFF,
@@ -102,7 +102,7 @@ const agencies: Agency[] = [
     area: ['関東', '関西', '中部', '北海道', '東北', '中国', '四国', '九州'],
     ageRange: ['20代', '30代前半', '30代後半', '40代'],
     budgetCategory: 'budget',
-    features: ['低価格', 'オンライン完結', 'コネクトシップ連携', 'コスパ抜群'],
+    features: ['低価格', 'オンライン完結', 'コネクトシップ連携', '月会費9,900円'],
     priority: ['オンライン対応', 'データマッチング'],
     style: ['自分のペースでゆっくり', 'オンライン中心'],
     screenshotSlug: 'smartread',
@@ -118,7 +118,7 @@ const agencies: Agency[] = [
     area: ['関東', '関西'],
     ageRange: ['30代前半', '30代後半', '40代', '50代以上'],
     budgetCategory: 'mid',
-    features: ['丁寧な仲人サポート', 'お見合い保証', '成婚実績豊富', '少人数制'],
+    features: ['仲人によるサポート', 'お見合い保証', '少人数制'],
     priority: ['カウンセラーのサポート', 'お見合い保証'],
     style: ['プロにお任せ'],
     screenshotSlug: 'ringbell',
@@ -127,7 +127,7 @@ const agencies: Agency[] = [
     name: 'フィオーレ',
     slug: 'fiore',
     type: 'ハイブリッド型',
-    monthlyFee: '月会費7,700円〜',
+    monthlyFee: '月会費5,830円〜',
     initialFee: '入会登録費33,000円',
     members: '75,048名（2026年7月時点）',
     area: ['関西', '中国', '四国', '九州'],
@@ -164,7 +164,7 @@ const agencies: Agency[] = [
     area: ['関東', '関西', '中部'],
     ageRange: ['20代', '30代前半', '30代後半', '40代'],
     budgetCategory: 'budget',
-    features: ['低価格', 'IBJ連携', 'オンライン対応', '初期費用が安い'],
+    features: ['低価格', 'IBJ連携', 'オンライン対応', '入会金9,800円'],
     priority: ['オンライン対応', 'データマッチング'],
     style: ['自分のペースでゆっくり', 'オンライン中心'],
     affiliateUrl: SEVEN_AFF,
@@ -176,11 +176,11 @@ const agencies: Agency[] = [
     type: '仲人型',
     monthlyFee: '月会費15,400円〜',
     initialFee: '初期費用165,000円〜',
-    members: '業界最大級（複数連盟・公式参照）',
+    members: '複数連盟の会員（人数は公式サイト参照）',
     area: ['関東', '関西', '中部', '東北', '九州'],
     ageRange: ['30代前半', '30代後半', '40代', '50代以上'],
     budgetCategory: 'premium',
-    features: ['3つの連盟加盟', '出会いの幅が広い', '手厚い仲人', '中高年に強い'],
+    features: ['3つの連盟加盟', '仲人によるサポート', '30代〜50代以上に対応'],
     priority: ['会員数の多さ', 'カウンセラーのサポート'],
     style: ['プロにお任せ'],
     screenshotSlug: 'musbell',
@@ -189,7 +189,7 @@ const agencies: Agency[] = [
     name: 'naco-do',
     slug: 'naco-do',
     type: 'オンライン型',
-    monthlyFee: '月額16,800円',
+    monthlyFee: '月会費16,800円',
     initialFee: '初期費用66,000円',
     members: '19.1万人（3連盟）',
     area: ['北海道', '東北', '関東', '中部', '関西', '中国', '四国', '九州'],
@@ -340,24 +340,24 @@ function buildReason(a: Agency & { score: number }, ans: Answers): string {
   const region = prefectureToRegion[ans.prefecture] || '';
 
   if (a.area.includes(region)) {
-    parts.push(`${ans.prefecture}エリアに対応しており、お近くで活動できます`);
+    parts.push(`${ans.prefecture}を含むエリアに対応しており、お住まいの地域で活動できます`);
   } else {
-    parts.push(`オンラインで全国から利用可能です`);
+    parts.push(`オンラインで全国から利用できます`);
   }
 
   if (a.priority.includes(ans.priority)) {
-    if (ans.priority === '会員数の多さ') parts.push(`${a.members}の豊富な会員数が魅力です`);
-    else if (ans.priority === '成婚率の高さ') parts.push(`成婚実績が豊富で、結果を出しやすい環境です`);
-    else if (ans.priority === 'カウンセラーのサポート') parts.push(`専任カウンセラーが手厚くサポートしてくれます`);
-    else if (ans.priority === 'オンライン対応') parts.push(`オンラインで効率的に婚活を進められます`);
-    else if (ans.priority === 'データマッチング') parts.push(`データマッチングで相性の良いお相手と出会えます`);
-    else if (ans.priority === 'お見合い保証') parts.push(`お見合い保証付きで安心して活動できます`);
+    if (ans.priority === '会員数の多さ') parts.push(`会員数は${a.members}です`);
+    else if (ans.priority === '成婚率の高さ') parts.push(`成婚を重視したサポート体制を整えています`);
+    else if (ans.priority === 'カウンセラーのサポート') parts.push(`カウンセラーのサポートを受けながら活動できます`);
+    else if (ans.priority === 'オンライン対応') parts.push(`オンラインで効率よく婚活を進められます`);
+    else if (ans.priority === 'データマッチング') parts.push(`データマッチングで条件に合うお相手を探せます`);
+    else if (ans.priority === 'お見合い保証') parts.push(`お見合い保証を利用しながら活動できます`);
   }
 
   if (ans.style === 'プロにお任せ' && a.style.includes('プロにお任せ')) {
-    parts.push(`プロの仲人があなたの婚活をリードしてくれます`);
+    parts.push(`仲人のサポートを受けながら婚活を進められます`);
   } else if (ans.style === 'オンライン中心' && a.style.includes('オンライン中心')) {
-    parts.push(`スマホ一つで婚活を始められる手軽さが魅力です`);
+    parts.push(`スマートフォンから手軽に婚活を始められます`);
   }
 
   parts.push(`${a.monthlyFee}から始められます`);
@@ -510,14 +510,14 @@ export default function ConciergePage() {
               結婚相談所コンシェルジュ
             </h1>
             <p className="text-sm sm:text-base text-[#2C2C2C]/60 leading-relaxed mb-8 max-w-sm mx-auto tracking-wider">
-              あなたにぴったりの結婚相談所を診断します。簡単な質問に答えるだけで、最適な3社をご提案します。
+              いくつかの質問にお答えいただくと、ご希望の条件に合う結婚相談所を3社ご提案します。
             </p>
             <button
               type="button"
               onClick={next}
               className="inline-flex items-center gap-2 px-8 py-3 bg-[#A08447] text-white font-normal rounded-full hover:bg-[#8A7239] transition-colors shadow-md tracking-widest"
             >
-              診断スタート
+              診断を始める
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
               </svg>
@@ -576,7 +576,7 @@ export default function ConciergePage() {
 
         {/* ── Step 2: 年齢層 ─────────────────────────────────── */}
         {step === 2 && (
-          <Card title="年齢層" subtitle="あなたの年齢層を教えてください">
+          <Card title="年齢層" subtitle="年齢層を選択してください">
             <div className="grid grid-cols-1 gap-2">
               {ageOpts.map((a) => (
                 <Btn key={a} label={a} selected={answers.age === a} onClick={() => setAnswers((p) => ({ ...p, age: a }))} />
@@ -588,7 +588,7 @@ export default function ConciergePage() {
 
         {/* ── Step 3: 予算 ───────────────────────────────────── */}
         {step === 3 && (
-          <Card title="ご予算" subtitle="月々の予算の目安を教えてください">
+          <Card title="ご予算" subtitle="月々のご予算の目安を選択してください">
             <div className="grid grid-cols-1 gap-2">
               {budgetOpts.map((b) => (
                 <Btn key={b} label={b} selected={answers.budget === b} onClick={() => setAnswers((p) => ({ ...p, budget: b }))} />
@@ -600,7 +600,7 @@ export default function ConciergePage() {
 
         {/* ── Step 4: 重視するポイント ────────────────────────── */}
         {step === 4 && (
-          <Card title="重視するポイント" subtitle="一番重視することを教えてください">
+          <Card title="重視するポイント" subtitle="最も重視する点を選択してください">
             <div className="grid grid-cols-1 gap-2">
               {priorityOpts.map((p) => (
                 <Btn key={p} label={p} selected={answers.priority === p} onClick={() => setAnswers((prev) => ({ ...prev, priority: p }))} />
@@ -612,7 +612,7 @@ export default function ConciergePage() {
 
         {/* ── Step 5: 活動スタイル ────────────────────────────── */}
         {step === 5 && (
-          <Card title="活動スタイル" subtitle="どのように婚活を進めたいですか？">
+          <Card title="活動スタイル" subtitle="ご希望の活動スタイルを選択してください">
             <div className="grid grid-cols-1 gap-2">
               {styleOpts.map((s) => (
                 <Btn key={s} label={s} selected={answers.style === s} onClick={() => setAnswers((p) => ({ ...p, style: s }))} />
@@ -647,7 +647,7 @@ export default function ConciergePage() {
         {step === TOTAL_STEPS + 1 && results && (
           <div className="w-full max-w-2xl mx-auto" style={{ animation: 'fadeIn 0.4s ease-out' }}>
             <div className="text-center mb-8">
-              <h2 className="text-xl sm:text-2xl font-light text-[#2C2C2C] mb-2 tracking-widest">あなたにおすすめの結婚相談所</h2>
+              <h2 className="text-xl sm:text-2xl font-light text-[#2C2C2C] mb-2 tracking-widest">ご回答内容にもとづくおすすめの結婚相談所</h2>
               <p className="text-sm text-[#2C2C2C]/50 tracking-wider">
                 {answers.prefecture} / {answers.age} / {answers.budget}
               </p>

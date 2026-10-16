@@ -43,9 +43,9 @@ export default function ReviewExtra(p: Props) {
       )}
       {p.ratings && p.ratings.length > 0 && (
         <section className="mb-12">
-          <h2 className={H2}>{p.name}の口コミ評価を媒体別に比較（件数・内訳つき）</h2>
+          <h2 className={H2}>{p.name}の口コミ評価の媒体別比較（件数・内訳）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            口コミの点数は媒体ごとに集め方が違うため、1つの数字だけで判断しないことが大切です。各媒体のページ本体で確認できた数字だけを載せています（{p.checkedOn}確認）。
+            口コミの点数は媒体ごとに集計方法が異なるため、1つの数値だけで判断しないことをおすすめします。当サイトでは、各媒体のページで確認できた数値のみを掲載しています（{p.checkedOn}確認）。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100">
@@ -111,7 +111,7 @@ export default function ReviewExtra(p: Props) {
               </div>
             ))}
           </div>
-          {p.entrySource && <p className="text-xs text-[#2C2C2C]/50 mt-3">出典: {p.entrySource}（{p.checkedOn}確認）</p>}
+          {p.entrySource && <p className="text-xs text-[#2C2C2C]/50 mt-3">出典：{p.entrySource}（{p.checkedOn}確認）</p>}
         </section>
       )}
 
@@ -127,22 +127,22 @@ export default function ReviewExtra(p: Props) {
 
       {p.outdated && p.outdated.length > 0 && (
         <section className="mb-12">
-          <h2 className={H2}>ネットの記事でよく見る{p.name}の古い情報と、公式の現在値</h2>
+          <h2 className={H2}>インターネット上の記事に残る{p.name}の古い情報と、公式サイトの現在の記載</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「{p.name} 口コミ」「評判」で上位に表示される記事には、更新が止まったまま古い料金・制度が残っているものがあります。主なものを公式サイトの現在の記載と並べました。
+            「{p.name} 口コミ」「評判」で上位に表示される記事の中には、更新されず古い料金・制度が記載されたままのものがあります。主な記載を、公式サイトの現在の記載と対比して掲載しています。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100">
               <thead>
                 <tr className="bg-[#F5F0EB]">
-                  <th className="px-3 py-2 text-left font-medium">記事でよく見る記載</th>
+                  <th className="px-3 py-2 text-left font-medium">記事に見られる記載</th>
                   <th className="px-3 py-2 text-left font-medium">公式の現在の記載（{p.checkedOn}）</th>
                 </tr>
               </thead>
               <tbody>
                 {p.outdated.map((o) => (
                   <tr key={o.seen} className="border-t border-gray-100 align-top">
-                    <td className="px-3 py-2 text-[#2C2C2C]/75">{o.seen}<span className="block text-xs text-[#2C2C2C]/45">例: {o.source}</span></td>
+                    <td className="px-3 py-2 text-[#2C2C2C]/75">{o.seen}<span className="block text-xs text-[#2C2C2C]/45">例：{o.source}</span></td>
                     <td className="px-3 py-2">{o.now}</td>
                   </tr>
                 ))}

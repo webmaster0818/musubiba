@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "Code For Marriageの評判・料金【2026年】エンジニア専門結婚相談所の実態を解説",
+  title: "Code For Marriageの評判・料金【2026年】エンジニア専門結婚相談所の特徴を解説",
   description:
-    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会77,000円・月11,000円・成婚費220,000円（税込・2026年8月公式確認）、U-30プラン、100%リモート対応の実態と向き不向きを中立解説します。",
+    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会費77,000円・月会費11,000円・成婚費220,000円（税込・2026年8月公式確認）、U-30プラン、リモート対応の特徴を解説しています。",
   alternates: { canonical: "/review/code-for-marriage/" },
 };
 
@@ -26,11 +26,11 @@ const overview = {
 const strengths = [
   {
     title: "日本初を掲げるITエンジニア専門の結婚相談所",
-    desc: "2022年設立で、対象をITエンジニア・IT職に特化。エンジニアの働き方（リモート・裁量労働・技術の話題）を前提にした婚活支援を掲げており、「趣味や仕事を理解してもらえない」という婚活のミスマッチを減らしやすい設計です。",
+    desc: "2022年設立で、対象をITエンジニア・IT職に特化しています。エンジニアの働き方（リモート・裁量労働・技術の話題）を前提にした婚活支援を掲げており、「趣味や仕事を理解してもらえない」という婚活のミスマッチを減らしやすい設計です。",
   },
   {
     title: "仲人（カウンセラー）が全員元SE",
-    desc: "公式サイトによれば、担当する仲人は全員がシステムエンジニア出身。職務内容や繁忙期の事情を説明なしで理解してもらえるのは、他の相談所にはない強みです。技術職特有の「自己PRの言語化」も相談しやすい環境といえます。",
+    desc: "公式サイトによれば、担当する仲人は全員がシステムエンジニア出身です。職務内容や繁忙期の事情を詳しく説明しなくても理解してもらえる点は、この相談所ならではの強みです。技術職特有の「自己PRの言語化」も相談しやすい環境といえます。",
   },
   {
     title: "100%リモート対応で全国から利用できる",
@@ -38,7 +38,7 @@ const strengths = [
   },
   {
     title: "IBJ正規加盟＋U-30向けの割安プラン",
-    desc: "IBJ（日本結婚相談所連盟）の正規加盟店で、お相手探しは全国規模の会員ネットワークが対象。30歳以下限定のU-30プラン（入会33,000円・月7,700円・毎月1名限定と公式明記）があり、若手エンジニアは初期負担を抑えて始められます。",
+    desc: "IBJ（日本結婚相談所連盟）の正規加盟店で、お相手探しは全国規模の会員ネットワークが対象です。30歳以下限定のU-30プラン（入会33,000円・月7,700円・毎月1名限定と公式明記）があり、若手エンジニアは初期負担を抑えて始められます。",
   },
 ];
 
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "Code For Marriageの料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年8月17日確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
+    a: "公式公表の料金（税込・2026年8月17日確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）です。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
   },
   {
     q: "エンジニア以外でも入会できますか？",
@@ -71,16 +71,16 @@ const faqs = [
     a: "利用できます。公式サイトは100%リモート対応を明記しており、カウンセリングやサポートはオンラインで完結します。お見合いはIBJの仕組み上、対面・オンラインの両方があります。",
   },
   {
-    q: "口コミがほとんど見つからないのですが大丈夫ですか？",
-    a: "2022年設立の小規模専門相談所のため、第三者の口コミはWeb上にまだほとんどありません（2026年7月時点の当サイト調査）。判断材料は、IBJ正規加盟という客観的事実、料金の透明性、無料相談での相性確認に置くのが現実的です。当サイトは実在しない口コミを掲載しない方針のため、体験談の紹介はしていません。",
+    q: "口コミがほとんど見つからない場合、どのように判断すればよいですか？",
+    a: "2022年設立の小規模専門相談所のため、第三者の口コミはWeb上にほとんどありません（2026年7月時点の当サイト調査）。判断材料は、IBJ正規加盟という客観的事実、料金の透明性、無料相談での相性確認に置くことをおすすめします。当サイトは実在しない口コミを掲載しない方針のため、体験談の紹介はしていません。",
   },
   {
     q: "IBJ加盟とはどういう意味ですか？",
-    a: "IBJ（日本結婚相談所連盟）は国内最大級の結婚相談所ネットワークで、加盟相談所の会員同士がお見合いできます。Code For Marriageは会社概要等でIBJ正規加盟を明記しており、小規模でも出会いの母数は全国規模です。",
+    a: "IBJ（日本結婚相談所連盟）は全国の結婚相談所が加盟する連盟で、加盟相談所の会員同士がお見合いできます。Code For Marriageは会社概要等でIBJ正規加盟を明記しており、小規模でも出会いの母数は全国規模です。",
   },
   {
-    q: "他のエンジニア向け婚活サービスとの違いは？",
-    a: "マッチングアプリと違い、独身証明書等の提出を前提とする結婚相談所の仕組み（IBJ）の上で、仲人が伴走する点が特徴です。その中でも「仲人が全員元SE」という専門特化は珍しく、職業理解のあるサポートを重視する人に向いています。",
+    q: "他のエンジニア向け婚活サービスとの違いは何ですか？",
+    a: "マッチングアプリと違い、独身証明書等の提出を前提とする結婚相談所の仕組み（IBJ）の上で、仲人が伴走する点が特徴です。その中でも「仲人が全員元SE」という専門特化は珍しく、職業への理解があるサポートを重視する方に適しています。",
   },
 ];
 
@@ -110,18 +110,18 @@ export default function CodeForMarriageReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          Code For Marriageの評判・料金｜エンジニア専門結婚相談所の実態
+          Code For Marriageの評判・料金｜エンジニア専門結婚相談所の特徴
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：Code For Marriageはこんな人に向く
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />Code For Marriageの特徴と適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：ITエンジニア専門×<strong>仲人が全員元SE</strong>×100%リモートという、他にない組み合わせの相談所。IBJ正規加盟で出会いの母数は全国規模です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会77,000円＋月11,000円＋成婚費220,000円（税込）。<strong>1年で成婚した場合の総額目安は約42.9万円</strong>。U-30プランなら若手はさらに割安です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：仕事や技術の話を「説明しなくても分かってくれる」担当者が欲しいエンジニア。地方・リモート勤務で通所が難しい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：ITエンジニア専門×<strong>仲人が全員元SE</strong>×100%リモート対応を組み合わせた相談所です。IBJ正規加盟のため、出会いの母数は全国規模です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会費77,000円＋月会費11,000円＋成婚費220,000円（税込）です。<strong>1年で成婚した場合の総額目安は約42.9万円</strong>。U-30プランなら若手はさらに割安です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：仕事や技術の話を詳しく説明しなくても理解してくれる担当者を求めるエンジニアの方、地方在住やリモート勤務で通所が難しい方に適しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：2022年設立で第三者口コミが少ないため、無料相談での相性確認が判断の中心になります。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年8月17日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
@@ -191,15 +191,15 @@ export default function CodeForMarriageReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミがまだ少ない専門相談所の見極め方（正直な解説）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミが少ない専門相談所の見極め方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトの調査（2026年7月時点）では、Code For Marriageの<strong>第三者による口コミ・体験談はWeb上にまだほとんど存在しません</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりにエンジニアが専門特化型の相談所を見極めるポイントを整理します。
+            当サイトの調査（2026年7月時点）では、Code For Marriageの<strong>第三者による口コミ・体験談はWeb上にほとんど存在しません</strong>。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりにエンジニアが専門特化型の相談所を見極めるポイントを整理しています。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>「元SE」の具体度を無料相談で確認</strong>：担当仲人の経歴（開発経験・業界）を聞き、自分の職種・働き方をどこまで理解して提案してくれるかを見ます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>IBJ加盟という客観的事実を土台にする</strong>：出会いの母数はIBJネットワークに依存するため、相談所の規模より「サポートの質」で選ぶのが専門特化型の正しい評価軸です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>リモート完結の相性を試す</strong>：無料相談自体がオンラインなので、「画面越しで本音を話せるか」をそのままテストできます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>契約条件を書面で確認</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は必ず書面で確認しましょう。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>「元SE」の経歴を無料相談で確認する</strong>：担当仲人の経歴（開発経験・業界）を聞き、自分の職種・働き方をどこまで理解して提案してくれるかを確認します。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>IBJ加盟という客観的事実を土台にする</strong>：出会いの母数はIBJネットワークに依存するため、相談所の規模より「サポートの質」で選ぶことが、専門特化型の相談所を評価する際の適切な基準です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>リモート完結の相性を確かめる</strong>：無料相談自体がオンラインで行われるため、画面越しに本音を話せるかをその場で確認できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（IBJ準拠か）は、必ず書面でご確認ください。</span></li>
           </ul>
         </section>
 

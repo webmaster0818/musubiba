@@ -16,7 +16,7 @@ const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [
   { match: /エン婚活|en-?konkatsu/i, href: "/review/en-konkatsu/", label: "エン婚活エージェントの詳細レビュー" },
   { match: /リングベル|ringbell/i, href: "/review/ringbell/", label: "リングベルの詳細レビュー" },
   { match: /ムスベル|musbell/i, href: "/review/musbell/", label: "ムスベルの詳細レビュー" },
-  { match: /サンマーレ|マーズカフェ|mars ?cafe/i, href: "/review/mars-cafe/", label: "Mars cafeの詳細レビュー" },
+  { match: /サンマーレ|マーズカフェ|mars ?cafe/i, href: "/review/mars-cafe/", label: "マーズカフェの詳細レビュー" },
   { match: /IBJ ?メンバーズ|IBJ ?members/i, href: "/review/ibj-members/", label: "IBJメンバーズの詳細レビュー" },
   { match: /P!?っと縁結び|ピッと縁結び|ピット縁結び/i, href: "/review/pitto/", label: "P!っと縁結びの詳細レビュー" },
   { match: /ベルロード/i, href: "/review/bellroad/", label: "ベルロード縁結びサポートの詳細レビュー" },
@@ -39,11 +39,11 @@ export default function AreaAgencyList({ area, areaName }: { area: string; areaN
   return (
     <section className="my-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
-      <h2 className="text-2xl font-bold mb-3 text-[#2C2C2C]">{areaName}の結婚相談所一覧【Google口コミ実データ】</h2>
+      <h2 className="text-2xl font-bold mb-3 text-[#2C2C2C]">{areaName}の結婚相談所一覧（Googleマップの口コミ情報）</h2>
       <p className="text-sm text-[#555] leading-relaxed mb-2">
-        {areaName}の実在する結婚相談所を、<strong>Googleマップの実データ（評点・口コミ件数）</strong>をもとに口コミ件数順で掲載しています（{surveyedAt}取得・全{all.length}件を調査し口コミ3件以上の{list.length}件を掲載）。評点・件数は当サイトの創作ではなく実数です。料金・サービス内容は各相談所の公式サイト・無料相談でご確認ください。
+        {areaName}の結婚相談所を、<strong>Googleマップの掲載情報（評点・口コミ件数）</strong>をもとに、口コミ件数の多い順に掲載しています（{surveyedAt}取得。全{all.length}件を調査し、口コミ3件以上の{list.length}件を掲載）。評点・口コミ件数はGoogleマップに表示されている数値です。料金・サービス内容は、各相談所の公式サイトまたは無料相談でご確認ください。
       </p>
-      <p className="text-xs text-[#999] mb-8">出典: Google マップ（Google Places API・{surveyedAt}時点）。掲載順＝口コミ件数順。評点・件数はその後変動する場合があります。</p>
+      <p className="text-xs text-[#999] mb-8">出典：Googleマップ（Google Places API・{surveyedAt}時点）。口コミ件数の多い順に掲載しています。評点・口コミ件数は、その後変動する場合があります。</p>
 
       <div className="space-y-4">
         {list.map((a, i) => {
@@ -58,7 +58,7 @@ export default function AreaAgencyList({ area, areaName }: { area: string; areaN
                 {typeof a.rating === "number" && (
                   <div className="shrink-0 text-right">
                     <p className="text-[#C9A227] font-extrabold text-lg">★ {a.rating.toFixed(1)}</p>
-                    <p className="text-xs text-[#999]">Google口コミ {a.count}件</p>
+                    <p className="text-xs text-[#999]">Googleマップの口コミ {a.count}件</p>
                   </div>
                 )}
               </div>
@@ -86,9 +86,9 @@ export default function AreaAgencyList({ area, areaName }: { area: string; areaN
       </div>
 
       <div className="mt-8 bg-[#F5F0EB] rounded-xl p-6 border border-[#E8E0D5]">
-        <p className="font-bold text-[#2C2C2C] mb-2">結婚相談所選びに迷ったら</p>
+        <p className="font-bold text-[#2C2C2C] mb-2">結婚相談所の選び方について</p>
         <p className="text-sm text-[#555] leading-relaxed">
-          大手相談所は当サイトで料金・サービスを詳しく解説しています。
+          大手結婚相談所の料金・サービスは、各社のレビューページで解説しています。
           <Link href="/compare/cheap/" className="text-[#A08447] underline mx-1">料金の安い相談所ランキング</Link>や
           <Link href="/faq/" className="text-[#A08447] underline mx-1">よくある質問</Link>もあわせてご覧ください。
         </p>

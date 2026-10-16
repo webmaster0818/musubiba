@@ -72,7 +72,7 @@ export default function ReviewFacts(p: Props) {
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-[#2C2C2C]/50 mt-3">お見合い料・オプション・キャンペーン割引は含めていません。実際の総額は活動期間とお見合い件数で変わります。</p>
+            <p className="text-xs text-[#2C2C2C]/50 mt-3">お見合い料・オプション・キャンペーン割引は含めていません。実際の総額は、活動期間とお見合い件数によって変わります。</p>
           </div>
         )}
       </section>
@@ -95,9 +95,9 @@ export default function ReviewFacts(p: Props) {
         <h2 className="text-lg font-light mb-4 tracking-widest">出典・確認日</h2>
         <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
           {/* 公式は計測リンク経由の導線が別にあるため、ここではURLを文字で示すだけにする */}
-          <li>公式サイト: {p.officialUrl}（{p.checkedOn}確認）</li>
+          <li>公式サイト：{p.officialUrl}（{p.checkedOn}確認）</li>
           {p.sources.map((s) => (
-            <li key={s.url}>{s.name}: <a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{s.url}</a>{s.note ? `（${s.note}）` : ""}</li>
+            <li key={s.url}>{s.name}：<a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{s.url}</a>{s.note ? `（${s.note}）` : ""}</li>
           ))}
         </ul>
       </section>
@@ -120,10 +120,10 @@ export function ReviewVoices(p: {
   return (
     <section className="mb-12">
       <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-        {p.name}の良い口コミ・悪い口コミ（掲載媒体つき）
+        {p.name}の良い口コミ・悪い口コミ（掲載媒体を明記）
       </h2>
       <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-        口コミサイト・調査に掲載されている声を、本文の転載ではなく「どの媒体にどんな傾向の声があるか」で整理しました（{p.checkedOn}確認）。個別の体験談は各媒体で原文をご確認ください。
+        口コミサイトや調査に掲載されている声を、本文を転載せず、媒体ごとの傾向として整理しています（{p.checkedOn}確認）。個別の体験談は、各媒体で原文をご確認ください。
       </p>
       {p.reviewNote && <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4 bg-[#FAFAF8] border border-gray-100 rounded-xl p-4">{p.reviewNote}</p>}
       {(p.good?.length || p.bad?.length) ? (
@@ -132,7 +132,7 @@ export function ReviewVoices(p: {
           <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い口コミの傾向</h3>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/75">
             {(p.good ?? []).map((g) => (
-              <li key={g.text} className="flex gap-2"><span className="text-green-500 shrink-0">+</span><span>{g.text}<span className="block text-xs text-[#2C2C2C]/45">出典: {g.source}</span></span></li>
+              <li key={g.text} className="flex gap-2"><span className="text-green-500 shrink-0">+</span><span>{g.text}<span className="block text-xs text-[#2C2C2C]/45">出典：{g.source}</span></span></li>
             ))}
           </ul>
         </div>
@@ -140,7 +140,7 @@ export function ReviewVoices(p: {
           <h3 className="font-medium text-red-800 mb-4 tracking-wider">悪い口コミ・気になる声の傾向</h3>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/75">
             {(p.bad ?? []).map((g) => (
-              <li key={g.text} className="flex gap-2"><span className="text-red-400 shrink-0">-</span><span>{g.text}<span className="block text-xs text-[#2C2C2C]/45">出典: {g.source}</span></span></li>
+              <li key={g.text} className="flex gap-2"><span className="text-red-400 shrink-0">-</span><span>{g.text}<span className="block text-xs text-[#2C2C2C]/45">出典：{g.source}</span></span></li>
             ))}
           </ul>
         </div>
@@ -154,7 +154,7 @@ export function ReviewVoices(p: {
       {p.sources && p.sources.length > 0 && (
         <ul className="mt-4 space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
           {p.sources.map((s) => (
-            <li key={s.url}>出典: {s.name} <a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{s.url}</a>{s.note ? `（${s.note}）` : ""}</li>
+            <li key={s.url}>出典：{s.name} <a href={s.url} target="_blank" rel="nofollow noopener noreferrer" className="underline">{s.url}</a>{s.note ? `（${s.note}）` : ""}</li>
           ))}
         </ul>
       )}

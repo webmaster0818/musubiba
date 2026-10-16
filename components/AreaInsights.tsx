@@ -24,15 +24,15 @@ export default function AreaInsights({ db, prefName }: { db: AgencyDb; prefName:
   const faqs = [
     {
       q: `${prefName}には結婚相談所が何件ありますか？`,
-      a: `当サイトの実査(Googleマップ・${db.surveyedAt}取得)では、${prefName}で${all.length}件の結婚相談所を確認できました。うち口コミ3件以上で実データ比較ができるのは${main.length}件です。フォトスタジオ・指輪店など別業態は実査で除外しています。`,
+      a: `当サイトの調査（Googleマップ・${db.surveyedAt}取得）では、${prefName}で${all.length}件の結婚相談所を確認しています。このうち、口コミが3件以上あり数値で比較できる相談所は${main.length}件です。フォトスタジオ・指輪店などの別業態は、調査の段階で除外しています。`,
     },
     {
       q: `${prefName}の結婚相談所は評点で選べますか？`,
-      a: `評点だけでは選びにくいのが実情です。${prefName}で口コミ3件以上の${rated.length}件のうち${hi48}件(${pct(hi48)}%)が評点4.8以上に集中しており、差がつきません。当サイトでは評点よりも「口コミ件数(実績の量)」と「口コミ本文の具体性」で比較することをおすすめしています。`,
+      a: `評点のみで選ぶことは難しいと考えられます。${prefName}で口コミ3件以上の${rated.length}件のうち、${hi48}件（${pct(hi48)}%）の評点が4.8以上に集中しており、相談所間の差が小さいためです。当サイトでは、評点よりも「口コミ件数（実績の量）」と「口コミ本文の具体性」で比較することをおすすめしています。`,
     },
     {
       q: `${prefName}で口コミが多い結婚相談所はどこですか？`,
-      a: `${db.surveyedAt}時点の実測では、${top.map((a) => `${a.name}(${a.count}件)`).join("、")}が口コミ件数の上位です。件数は変動するため、最新はGoogleマップでご確認ください。`,
+      a: `${db.surveyedAt}時点の調査では、${top.map((a) => `${a.name}（${a.count}件）`).join("、")}が口コミ件数の上位です。件数は変動するため、最新の情報はGoogleマップでご確認ください。`,
     },
   ];
 
@@ -48,7 +48,7 @@ export default function AreaInsights({ db, prefName }: { db: AgencyDb; prefName:
       <h2 className="text-xl font-bold text-[#2C2C2C] mb-4 border-l-4 border-[#A08447] pl-3">データで見る{prefName}の結婚相談所</h2>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
         {[
-          { num: `${all.length}件`, label: "実在確認できた相談所" },
+          { num: `${all.length}件`, label: "確認できた相談所" },
           { num: `${main.length}件`, label: "口コミ3件以上" },
           { num: `${medCount}件`, label: "口コミ件数の中央値" },
           { num: `${pct(hi48)}%`, label: "評点4.8以上の割合" },
@@ -61,14 +61,14 @@ export default function AreaInsights({ db, prefName }: { db: AgencyDb; prefName:
       </div>
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm leading-relaxed text-[#555] mb-4">
         <p>
-          {prefName}で口コミ3件以上の{rated.length}件の評点分布は、<strong className="text-[#2C2C2C]">4.8以上が{hi48}件({pct(hi48)}%)</strong>・4.5〜4.7が{hi45}件({pct(hi45)}%)・4.5未満が{lo}件({pct(lo)}%)でした({db.surveyedAt}実測)。
-          結婚相談所の口コミは成婚退会時などの高評価が集まりやすく評点が団子状になるため、
-          <strong className="text-[#2C2C2C]">評点の0.1差よりも「件数の多さ」と「本文に活動内容(お見合い数・サポート・費用)が具体的に書かれているか」</strong>で比べるのが実用的です。
+          {prefName}で口コミ3件以上の{rated.length}件の評点分布は、<strong className="text-[#2C2C2C]">4.8以上が{hi48}件（{pct(hi48)}%）</strong>、4.5〜4.7が{hi45}件（{pct(hi45)}%）、4.5未満が{lo}件（{pct(lo)}%）です（{db.surveyedAt}取得）。
+          結婚相談所の口コミは成婚退会時などの高評価が集まりやすく、評点が近い値に集中する傾向があります。そのため、
+          <strong className="text-[#2C2C2C]">評点の0.1の差よりも、「口コミ件数の多さ」と「本文に活動内容（お見合い数・サポート・費用）が具体的に書かれているか」</strong>で比較することをおすすめします。
         </p>
         <p className="mt-3">
           口コミが多い順では{top.map((a, i) => (
-            <span key={a.slug}>{i > 0 && "、"}<Link href={`/agency/${encodeURIComponent(a.slug)}/`} className="underline text-[#A08447]">{a.name}</Link>({a.count}件)</span>
-          ))}が上位です。大手ブランド(オーネット・ツヴァイ・サンマリエ等)は<Link href="/compare/" className="underline text-[#A08447]">費用・仕組みの比較レビュー</Link>も参考にしてください。
+            <span key={a.slug}>{i > 0 && "、"}<Link href={`/agency/${encodeURIComponent(a.slug)}/`} className="underline text-[#A08447]">{a.name}</Link>（{a.count}件）</span>
+          ))}が上位です。大手ブランド（オーネット・ツヴァイ・サンマリエ等）については、<Link href="/compare/" className="underline text-[#A08447]">費用・仕組みの比較</Link>もあわせてご覧ください。
         </p>
       </div>
       <div className="mb-2">

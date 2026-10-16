@@ -8,9 +8,9 @@ import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活・成婚料8万円【2026年10月】",
+  title: "ベルロード縁結びサポートの口コミ・評判｜月会費9,800円のサブスク婚活・成婚料8万円【2026年10月】",
   description:
-    "ベルロード縁結びサポート（IBJ加盟のオンライン結婚相談所）の料金・「婚活のサブスク」の内実・運営会社を公式情報ベースで検証。月9,800円（税込）に含まれるサービス、成婚料8万円、解約・休会規定、口コミの一次情報の有無まで正直に整理します。",
+    "ベルロード縁結びサポート（IBJ加盟のオンライン結婚相談所）の料金、「婚活のサブスク」の内容、運営会社を公式情報にもとづいて検証しています。月会費9,800円（税込）に含まれるサービス、成婚料8万円、解約・休会規定、口コミの一次情報の有無まで整理しています。",
 };
 
 const overview = {
@@ -27,7 +27,7 @@ const overview = {
 
 const strengths = [
   {
-    title: "月9,800円（税込）の定額サブスクで追加費用が少ない",
+    title: "月会費9,800円（税込）の定額サブスクで追加費用を抑えられます",
     desc: "ベルロード縁結びサポートの料金は入会金30,000円＋プラン費（1ヶ月プラン9,800円）＋成婚料80,000円のみのシンプル構成です。お見合い料・更新料は一切かからず、システムの利用頻度やお見合い回数に関係なく定額で活動できます。写真撮影同行や服装チェックといった付帯サービスを省き、仲人サポートをオンラインに絞ることで低価格を実現していると公式サイトに明記されています。",
   },
   {
@@ -35,13 +35,13 @@ const strengths = [
     desc: "日本結婚相談所連盟（IBJ）の正規加盟店で、スマートフォンから90,000人以上（公式サイト掲載値）の会員検索システムを利用できます。IBJ加盟店はどの相談所でも同じ会員データベース・同じIBJアプリを使うため、低価格でも「出会える相手の母数」は大手仲人型と同じです。会員は独身証明書・本人確認書類の提出が必須です。",
   },
   {
-    title: "定額の中に仲人紹介・AI紹介・申込50件/月まで込み",
+    title: "仲人紹介・AI紹介・申込50件/月までを定額に含みます",
     desc: "プラン料金のみで、お見合い申し込み50件/月・申し受け無制限・お見合い日程調整100件/月・仲人からの紹介1名/月・AIからの紹介2名/月・仲人チャット相談無制限・検索システム無制限が全て使えます。プランによるサービス内容の違いはなく、期間（1ヶ月/3ヶ月/6ヶ月）だけが異なる仕組みです。",
   },
 ];
 
 const pros = [
-  "月9,800円（税込）で仲人紹介・AI紹介・申込50件/月まで定額に含まれる",
+  "月会費9,800円（税込）に仲人紹介・AI紹介・申込50件/月までが含まれる",
   "IBJ加盟で検索可能な会員基盤が大きい（9万人以上・公式掲載値）",
   "お見合い料・更新料0円で活動量が増えても費用が読みやすい",
   "オンライン完結・スマホのみで全国どこからでも活動できる",
@@ -109,7 +109,7 @@ const REVIEW_EXTRA = {
   "fitYes": [
     "月9,800円の定額で、お見合い料・更新料を気にせず活動したい人",
     "スマートフォンだけで検索・申し込み・相談を完結したい人",
-    "3ヶ月・6ヶ月の前払いで月額を下げたい人（実質9,200円／8,300円）"
+    "3ヶ月・6ヶ月の前払いで月々の負担を下げたい人（実質9,200円／8,300円）"
   ],
   "fitNo": [
     "写真撮影同行・服装チェックなど対面の手厚いサポートがほしい人",
@@ -134,18 +134,18 @@ export default function BellroadReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ベルロード縁結びサポートの口コミ・評判｜月9,800円のサブスク婚活を公式情報で検証
+          ベルロード縁結びサポートの口コミ・評判｜月会費9,800円のサブスク婚活を公式情報で検証
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式「プランと料金」ページの料金表で再確認）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
-          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">結論：ベルロード縁結びサポートはこんな人に向く相談所</h2>
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">ベルロード縁結びサポートが適している方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
-            ベルロード縁結びサポートは、<strong>月9,800円（税込・1ヶ月プラン）の定額サブスク</strong>でIBJの会員基盤（公式掲載で9万人以上）を使えるオンライン完結型の結婚相談所です。お見合い料・更新料0円で、仲人紹介1名/月・AI紹介2名/月・申込50件/月まで定額に含まれるため、「大手連盟の出会いの母数を、月1万円以下で使いたい」人に向いています。
+            ベルロード縁結びサポートは、<strong>月会費9,800円（税込・1ヶ月プラン）の定額サブスク</strong>でIBJの会員基盤（公式掲載で9万人以上）を使えるオンライン完結型の結婚相談所です。お見合い料・更新料0円で、仲人紹介1名/月・AI紹介2名/月・申込50件/月まで定額に含まれるため、大手連盟の会員基盤を月1万円以下で利用したい方に適しています。
           </p>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
-            一方で<strong>成婚料80,000円（税込）が別途かかり、成婚率の％数値は公表されていません</strong>。また中途解約時のプラン費用返金はなく、プランは自動更新です。月額の安さだけでなく、成婚時総額と解約規定まで理解したうえで検討しましょう。
+            一方で<strong>成婚料80,000円（税込）が別途かかり、成婚率の％数値は公表されていません</strong>。また、中途解約時のプラン費用の返金はなく、プランは自動更新です。月会費の安さだけでなく、成婚時の総額と解約規定まで確認したうえでご検討ください。
           </p>
         </div>
 
@@ -180,7 +180,7 @@ export default function BellroadReview() {
             ベルロード縁結びサポートの料金プラン（税込）
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            プランは契約期間（1ヶ月/3ヶ月/6ヶ月）の違いのみで、<strong>サービス内容は全プラン共通</strong>です。長期前払いほど実質月額が下がります。
+            プランは契約期間（1ヶ月/3ヶ月/6ヶ月）の違いのみで、<strong>サービス内容は全プラン共通</strong>です。長期の前払いプランほど、1ヶ月あたりの実質負担額が下がります。
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
@@ -220,7 +220,7 @@ export default function BellroadReview() {
         {/* Subscription vs traditional */}
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            「サブスク型」と従来型の結婚相談所は何が違う？
+            「サブスク型」と従来型の結婚相談所の違い
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             ベルロード縁結びサポートが掲げる「婚活のサブスク」とは、<strong>システム利用頻度やお見合い回数に関係なく、プラン費だけの定額で活動できる</strong>という意味です。従来型（店舗仲人型）との違いは次のとおりです。
@@ -243,7 +243,7 @@ export default function BellroadReview() {
             </table>
           </div>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
-            重要なのは、<strong>IBJ加盟店であれば会員データベースとIBJアプリはどの相談所でも共通</strong>だという点です（ベルロード公式サイトにも同旨の記載があります）。つまり「出会える相手の母数」は大手仲人型と変わらず、違いは料金とサポートの手厚さに集約されます。手厚い対面伴走が不要でコストを抑えたい人にはサブスク型が合理的ですが、写真撮影やお見合い練習まで任せたい人は従来型のほうが合います。オンライン型どうしの比較は<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>も参考にしてください。
+            重要なのは、<strong>IBJ加盟店であれば会員データベースとIBJアプリはどの相談所でも共通</strong>だという点です（ベルロード公式サイトにも同旨の記載があります）。そのため「出会える相手の母数」は大手仲人型と変わらず、主な違いは料金とサポートの手厚さです。対面での手厚い伴走よりも費用を抑えることを重視する方にはサブスク型が適しており、写真撮影やお見合いの練習まで任せたい方には従来型が適しています。オンライン型どうしの比較は<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>も参考にしてください。
           </p>
         </section>
 
@@ -322,17 +322,17 @@ export default function BellroadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            ベルロード縁結びサポートの評判・口コミについて（正直な調査結果）
+            ベルロード縁結びサポートの評判・口コミに関する当サイトの調査結果
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「ベルロード縁結びサポート 評判」「ベルロード縁結びサポート 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（2026年8月6日時点）。ネット上には紹介記事が複数ありますが、出典の示されていない口コミや古い情報が混在しています。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理します。
+            当サイトで「ベルロード縁結びサポート 評判」「ベルロード縁結びサポート 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（2026年8月6日時点）。ネット上には紹介記事が複数ありますが、出典の示されていない口コミや古い情報が混在しています。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報をもとにした「入会前の見極め方」を整理しています。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>最新の料金表（入会金30,000円・1ヶ月プラン9,800円・成婚料80,000円の現行料金と一致するか）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>自動更新の仕組みと退会連絡の期限（契約満了日の1日前まで。プラン費用の返金はない）</li>
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>仲人チャット相談の返信スピード・対応時間の目安（オンライン型で最重要）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>仲人チャット相談の返信スピード・対応時間の目安（オンライン型では特に重要）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>仲人紹介1名/月・AI紹介2名/月の紹介品質（自分の希望条件がどこまで反映されるか）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>自分の居住エリアのIBJ会員数（公式FAQから都道府県別会員数を確認できる）</li>
             </ul>
@@ -348,7 +348,7 @@ export default function BellroadReview() {
             ベルロード縁結びサポートと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            月額は安くても成婚料の有無で総額は逆転します。成婚料込みの総額と会員基盤をあわせて比較するのがおすすめです。
+            月会費が安くても、成婚料の有無によって総額が逆転する場合があります。成婚料を含めた総額と会員基盤をあわせて比較することをおすすめします。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所の1年総額比較を見る</Link></li>

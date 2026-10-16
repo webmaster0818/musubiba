@@ -6,7 +6,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年9月】",
   description:
-    "結婚相談所の連盟（IBJ・BIU・TMS・良縁ネット・JBAなど）は紹介される会員の母数を決める仕組み。実査24社中16社が加盟連盟を公表し12社がIBJ系。同じIBJ系でも月会費7,550円〜17,050円、成婚料80,000円〜300,000円と開きがあります。連盟で選んではいけない理由を実額で解説。",
+    "結婚相談所の連盟は、紹介される会員の母数を決める仕組みです。実査24社中16社が加盟連盟を公表しており、そのうち12社がIBJ系でした。同じIBJ系でも月会費7,550円〜17,050円、成婚料80,000円〜300,000円と開きがあります。連盟だけで選ぶことをおすすめしない理由を解説します。",
   alternates: { canonical: "/knowledge/renmei/" },
 };
 
@@ -54,12 +54,12 @@ const faqs = [
     a: "複数の結婚相談所が会員情報を共有するためのネットワークのことです。個々の相談所が抱えている会員だけでは出会いの数に限りがあるため、加盟している相談所どうしで会員を紹介し合う仕組みが作られています。代表的なものにIBJ（日本結婚相談所連盟）、BIU（日本ブライダル連盟）、TMS（全国結婚相談事業者連盟）、JBA（日本結婚相談協会）、良縁ネットなどがあります。CONNECT-ship（コネクトシップ）のように、異なる事業者間で会員を相互に紹介できるようにしたプラットフォームもあります。",
   },
   {
-    q: "どの連盟に加盟している相談所を選べばいいですか？",
-    a: `連盟だけで選ぶのはおすすめしません。当サイトが実査した24社のうち加盟連盟を公表していたのは${disclosed}社で、そのうち${ibjCount}社がIBJ系でした。つまり「IBJ加盟」は差別化要素になりにくく、同じIBJのネットワークを使っていても月会費は7,550円〜17,050円、成婚料は80,000円〜300,000円と開きがあります。見るべきは連盟ではなく、その相談所の料金体系・サポート内容・担当者との相性です。`,
+    q: "どの連盟に加盟している相談所を選べばよいですか？",
+    a: `連盟だけで選ぶのはおすすめしません。当サイトが実査した24社のうち加盟連盟を公表していたのは${disclosed}社で、そのうち${ibjCount}社がIBJ系でした。つまり「IBJ加盟」は差別化要素になりにくく、同じIBJのネットワークを使っていても月会費は7,550円〜17,050円、成婚料は80,000円〜300,000円と開きがあります。重視すべきは連盟ではなく、その相談所の料金体系・サポート内容・担当者との相性です。`,
   },
   {
     q: "複数の連盟に加盟している相談所のほうが有利ですか？",
-    a: "出会える母数という点では有利になり得ます。当サイトの実査では、エクセレンス青山がIBJ・BIU・TMS・NNRの4連盟（紹介可能 約33万人）、Bridalチューリップが IBJ・SCRUM・CONNECT-ship の3連盟（約19万名）と公表していました。ただし母数が増えても、実際にお見合いが組めるかどうかは希望条件と担当者の動き方次第です。また会員数の公表値は連盟ごとに集計時点が異なるため、単純な足し算で比べられる数字ではない点にも注意してください。",
+    a: "出会える母数という点では有利になり得ます。当サイトの実査では、エクセレンス青山がIBJ・BIU・TMS・NNRの4連盟（紹介可能 約33万人）、Bridalチューリップが IBJ・SCRUM・CONNECT-ship の3連盟（約19万名）と公表していました。ただし母数が増えても、実際にお見合いが組めるかどうかは、希望条件と担当者のサポート内容によって変わります。また会員数の公表値は連盟ごとに集計時点が異なるため、単純な足し算で比べられる数字ではない点にもご注意ください。",
   },
   {
     q: "連盟をまたいでお見合いはできますか？",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     q: "連盟に加盟していない結婚相談所は避けるべきですか？",
-    a: "一概には言えません。自社会員だけで十分な規模を持っている大手（オーネットなど）もあり、その場合は独自システムが主な出会いの場になります。確認すべきは「加盟の有無」そのものではなく、『自分が紹介を受けられる会員は何人いるのか』『その数字はいつ時点のものか』です。無料相談で必ず質問してください。",
+    a: "一概には言えません。自社会員だけで十分な規模を持っている大手（オーネットなど）もあり、その場合は独自システムが主な出会いの場になります。確認すべきは「加盟の有無」そのものではなく、『自分が紹介を受けられる会員は何人いるのか』『その数字はいつ時点のものか』です。無料相談で確認することをおすすめします。",
   },
 ];
 
@@ -82,7 +82,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況",
   description:
-    "結婚相談所の連盟の仕組みと、当サイトが実査した24社の加盟状況・料金差を確認日つきで整理しました。",
+    "結婚相談所の連盟の仕組みと、当サイトが実査した24社の加盟状況・料金差を整理しています。",
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-24",
@@ -151,47 +151,47 @@ export default function KnowledgeRenmei() {
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：連盟で選んでも意味がありません
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />連盟だけで相談所を選ぶことはおすすめしません
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>連盟は<strong>紹介してもらえる会員の母数を決める仕組み</strong>です。相談所どうしが会員情報を共有し、お見合いを組めるようにしています。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>当サイトが実査した24社のうち、加盟連盟を公表していたのは<strong>{disclosed}社</strong>。そのうち<strong>{ibjCount}社がIBJ系</strong>でした。<strong>「IBJ加盟」はほとんどの相談所が満たしている条件</strong>で、差別化にはなりません。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>当サイトが実査した24社のうち、加盟連盟を公表していたのは<strong>{disclosed}社</strong>で、そのうち<strong>{ibjCount}社がIBJ系</strong>でした。<strong>「IBJ加盟」は加盟連盟を公表している相談所の多くに共通する条件</strong>であり、それだけでは相談所ごとの違いは分かりません。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>同じIBJのネットワークを使っていても、<strong>月会費は7,550円〜17,050円（約2.3倍）、成婚料は80,000円〜300,000円（約3.8倍）</strong>の開きがあります。差がつくのは連盟ではなく<strong>相談所側の料金とサポート</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>複数連盟に加盟していれば母数は増えます（最大は4連盟・紹介可能約33万人）。ただし<strong>会員数の公表値は連盟ごとに集計時点が違う</strong>ため、単純に足し算して比べられる数字ではありません。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの加盟状況・金額は、当サイトが各社公式サイトを実査して各レビューページに記録したものです（確認日は各レビューページに明記）。公式に記載が見つからなかった項目は「確認できず」と書いています。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの加盟状況・金額は、当サイトが各社公式サイトを実査して各レビューページに記録したものです（確認日は各レビューページに明記）。公式に記載が見つからなかった項目は「確認できず」と表示しています。</p>
         </div>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">そもそも連盟とは何をするところか</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">連盟の役割</h2>
           <div className="space-y-4 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <p>
-              1つの結婚相談所が自前で抱えている会員は、多くても数百人から数千人の規模です。それだけでは希望条件に合う相手が見つかりません。
+              1つの結婚相談所が自社で抱えている会員は、多くても数百人から数千人の規模です。それだけでは、希望条件に合う相手を見つけることは容易ではありません。
               そこで、<strong>複数の相談所が会員情報を持ち寄って共有するネットワーク</strong>が作られています。これが連盟です。
             </p>
             <p>
-              あなたが小さな相談所に入会しても、その相談所が加盟している連盟の会員全員に対してお見合いを申し込めます。
-              逆に言えば、<strong>「その相談所が何人の会員を抱えているか」より「どの連盟に加盟しているか」のほうが、出会える人数には効いてきます</strong>。
+              規模の小さな相談所に入会した場合でも、その相談所が加盟している連盟の会員全員に対してお見合いを申し込めます。
+              そのため、<strong>出会える人数には「その相談所が何人の会員を抱えているか」よりも「どの連盟に加盟しているか」が大きく影響します</strong>。
             </p>
             <div className="border border-[#E5DCCF] rounded-xl p-5">
               <p className="font-medium text-[#2C2C2C] mb-2">主な連盟・プラットフォーム</p>
               <ul className="space-y-1.5">
-                <li>・<strong>IBJ（日本結婚相談所連盟）</strong> — 国内最大規模。加盟相談所数・会員数とも最多とされる</li>
-                <li>・<strong>BIU（日本ブライダル連盟）</strong> — 歴史が長く、仲人型の相談所が多く加盟</li>
+                <li>・<strong>IBJ（日本結婚相談所連盟）</strong> — 株式会社IBJが運営。当サイトの実査では、加盟連盟を公表していた{disclosed}社のうち{ibjCount}社がIBJ系</li>
+                <li>・<strong>BIU（日本ブライダル連盟）</strong> — 仲人型の相談所が多く加盟</li>
                 <li>・<strong>TMS（全国結婚相談事業者連盟）</strong> — 良縁ネットと統合</li>
                 <li>・<strong>JBA（日本結婚相談協会）</strong></li>
                 <li>・<strong>CONNECT-ship（コネクトシップ）</strong> — 連盟ではなく、事業者間で会員を相互紹介できるプラットフォーム</li>
               </ul>
-              <p className="text-xs text-[#2C2C2C]/55 mt-3">※ 連盟ごとの会員数は各連盟が公表していますが、集計時点がそろっていないため、当サイトでは横並びの比較表は作っていません。各社が公表している「紹介可能会員数」を下の表にそのまま記載しています。</p>
+              <p className="text-xs text-[#2C2C2C]/55 mt-3">※ 連盟ごとの会員数は各連盟が公表していますが、集計時点がそろっていないため、当サイトでは横並びの比較表は作成していません。各社が公表している「紹介可能会員数」を下の表にそのまま記載しています。</p>
             </div>
           </div>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">実査24社の加盟状況（確認日つき）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">実査24社の加盟状況</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-6">
             当サイトがレビューしている24社について、公式サイトに書かれていた加盟連盟をそのまま記録しました。
-            あわせて月会費・成婚料を並べています。<strong>同じ連盟を使っていても金額がどれだけ違うか</strong>を見るためです。
+            あわせて月会費・成婚料も掲載しています。<strong>同じ連盟を利用していても金額にどの程度の差があるか</strong>を確認いただくためです。
           </p>
 
           <Table rows={ibjRows} caption={`■ IBJ（日本結婚相談所連盟）系 ${ibjCount}社`} />
@@ -199,9 +199,9 @@ export default function KnowledgeRenmei() {
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 mb-8 text-sm leading-relaxed">
             <p className="font-medium text-[#2C2C2C] mb-2">この表から読み取れること</p>
             <ul className="space-y-2 text-[#2C2C2C]/80">
-              <li>・<strong>月会費は7,550円（Bridalチューリップ）〜17,050円（IBJメンバーズ）で約2.3倍</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
-              <li>・<strong>成婚料は80,000円（ベルロード）〜300,000円（東京フォリパートナー上限）で約3.8倍</strong>。総額でいちばん差がつくのはここです。</li>
-              <li>・<strong>会員数を具体的な人数で公表していたのは4社だけ</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ10.8万名・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とだけ書かれています。</li>
+              <li>・<strong>月会費は7,550円（Bridalチューリップ）〜17,050円（IBJメンバーズ）で約2.3倍です</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
+              <li>・<strong>成婚料は80,000円（ベルロード）〜300,000円（東京フォリパートナー上限）で約3.8倍です</strong>。総額に最も大きく影響する項目です。</li>
+              <li>・<strong>会員数を具体的な人数で公表していたのは4社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ10.8万名・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
             </ul>
           </div>
 
@@ -216,8 +216,8 @@ export default function KnowledgeRenmei() {
             <p className="font-medium text-[#2C2C2C] mb-2">加盟連盟を公式サイトで確認できなかった{unknownNames.length}社</p>
             <p className="text-[#2C2C2C]/75">{unknownNames.join("／")}</p>
             <p className="text-xs text-[#2C2C2C]/55 mt-2">
-              確認できなかった＝加盟していない、という意味ではありません。公式サイト上に記載を見つけられなかった、ということです。
-              自社会員のみで運営している場合もあるため、無料相談で「紹介を受けられる会員は何人か」を直接確認してください。
+              「確認できず」は加盟していないことを意味するものではなく、公式サイト上で記載を確認できなかったことを示しています。
+              自社会員のみで運営している場合もあるため、無料相談で紹介を受けられる会員数を直接ご確認ください。
             </p>
           </div>
         </section>
@@ -255,16 +255,16 @@ export default function KnowledgeRenmei() {
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">無料相談で確認したい3つの質問</h2>
           <ol className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>紹介を受けられる会員は何人で、それはいつ時点の数字ですか</strong>——「業界最大級」ではなく人数と時点で答えてもらいます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>そのうち、私の希望条件に合うのは何人ですか</strong>——母数ではなく、実際に申し込める相手の数が重要です。その場で検索して見せてくれる相談所もあります。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>1か月に何人まで申し込めますか</strong>——連盟の会員数が多くても、申し込み数に上限があると実際の出会いは増えません。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>紹介を受けられる会員は何人で、それはいつ時点の数字ですか</strong>：「業界最大級」といった表現ではなく、人数と時点での回答を求めることをおすすめします。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>そのうち、私の希望条件に合うのは何人ですか</strong>：母数ではなく、実際に申し込める相手の数が重要です。その場で検索して見せてくれる相談所もあります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>1か月に何人まで申し込めますか</strong>：連盟の会員数が多くても、申し込み数に上限があると実際の出会いは増えません。</span></li>
           </ol>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">あわせて読みたい</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">関連ページ</h2>
           <div className="flex flex-wrap gap-3">
-            <Link href="/compare/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">料金比較（24社・確認日つき）</Link>
+            <Link href="/compare/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">料金比較（24社・確認日記載）</Link>
             <Link href="/compare/cheap/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">1年総額の安い順ランキング</Link>
             <Link href="/knowledge/seikon-ritsu/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">成婚率の読み方（24社実査）</Link>
             <Link href="/knowledge/kaiyaku/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">解約・返金のルール</Link>

@@ -24,27 +24,27 @@ export default function AuthorBox() {
           <p className="text-[#2C2C2C] font-bold text-base mb-1">ムスビバ編集部</p>
           <div className="flex flex-wrap gap-2 mb-3">
             <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#A08447] text-[#A08447]">
-              公式一次情報のみを掲載
+              公式情報にもとづく掲載
             </span>
             <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#A08447] text-[#A08447]">
-              確認日を明記
+              確認日の明記
             </span>
             <span className="text-[10px] px-2 py-0.5 rounded-full border border-[#A08447] text-[#A08447]">
-              口コミの創作なし
+              口コミを創作しない方針
             </span>
           </div>
           <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">
             結婚相談所の料金・サービス条件を各社公式サイトで継続的に調査している編集部です。料金や成婚率などの数値は
-            <strong>確認した日付とあわせて</strong>掲載し、公式に記載が見つからない項目は「非公表」「確認できず」と書きます。
-            推測で数字を補ったり、体験談を創作したりはしません。詳しくは
+            <strong>確認した日付とあわせて</strong>掲載し、公式サイトに記載が見つからない項目は「非公表」「確認できず」と表示しています。
+            推測による数値の補完や、体験談の創作は行いません。詳しくは
             <Link href="/editorial-policy/" className="text-[#A08447] underline">編集方針・掲載基準</Link>
             をご覧ください。
           </p>
           <p className="mt-3 text-sm text-[#2C2C2C]/60 leading-relaxed">
-            編集部メンバーの中には、実際に結婚相談所を利用して入籍し、結婚生活6年目を迎えたメンバーも在籍しています。
+            編集部には、結婚相談所を利用して入籍し、結婚生活6年目を迎えたメンバーが在籍しています。
           </p>
           <p className="mt-2 text-sm text-[#2C2C2C]/60 leading-relaxed">
-            「お見合い文化がなくなった日本で、結婚に悩む人を一人でも多く救いたい」「マッチングアプリで出会えても、本気の出会いにつながらない人の力になりたい」という想いで運営しています。
+            当サイトは、「お見合い文化がなくなった日本で、結婚に悩む人を一人でも多く救いたい」「マッチングアプリで出会えても、本気の出会いにつながらない人の力になりたい」という想いで運営しています。
           </p>
         </div>
       </div>

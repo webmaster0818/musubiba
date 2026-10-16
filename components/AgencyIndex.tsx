@@ -29,17 +29,17 @@ export default function AgencyIndex({ pref, prefName }: { pref: string; prefName
     <section className="my-8">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
       <p className="text-sm text-[#555] leading-relaxed mb-2">
-        {prefName}の実在する結婚相談所を、<strong>Googleマップの実データ(評点・口コミ件数)</strong>をもとに掲載しています(
-        {db.surveyedAt}取得・主要{Object.keys(byArea).length}エリアで計{db.agencies.length}件を調査・口コミ3件以上の{main.length}件は詳細ページあり)。
-        評点・件数は当サイトの創作ではなく実数です。未提携の相談所へのリンクはGoogleマップです。
+        {prefName}の結婚相談所を、<strong>Googleマップの掲載情報（評点・口コミ件数）</strong>をもとに掲載しています（
+        {db.surveyedAt}取得。主要{Object.keys(byArea).length}エリアで計{db.agencies.length}件を調査し、口コミ3件以上の{main.length}件には詳細ページを設けています）。
+        評点・口コミ件数はGoogleマップに表示されている数値です。当サイトと提携していない相談所は、Googleマップへのリンクを掲載しています。
       </p>
-      <p className="text-xs text-[#999] mb-8">出典: Googleマップ(Google Places API・{db.surveyedAt}時点)。掲載順=口コミ件数順。評点・件数はその後変動する場合があります。</p>
+      <p className="text-xs text-[#999] mb-8">出典：Googleマップ（Google Places API・{db.surveyedAt}時点）。口コミ件数の多い順に掲載しています。評点・口コミ件数は、その後変動する場合があります。</p>
 
       <AreaInsights db={db} prefName={prefName} />
 
       {Object.entries(byArea).map(([areaKey, list]) => (
         <div key={areaKey} className="mb-10">
-          <h2 className="text-xl font-bold text-[#2C2C2C] mb-4 border-l-4 border-[#A08447] pl-3">{AREA_LABELS[areaKey] || areaKey}エリア({list.length}件)</h2>
+          <h2 className="text-xl font-bold text-[#2C2C2C] mb-4 border-l-4 border-[#A08447] pl-3">{AREA_LABELS[areaKey] || areaKey}エリア（{list.length}件）</h2>
           <div className="space-y-3">
             {list.map((a) => {
               const brand = findBrand(a.name);
@@ -74,8 +74,8 @@ export default function AgencyIndex({ pref, prefName }: { pref: string; prefName
 
       {minor.length > 0 && (
         <div className="mb-6">
-          <h2 className="text-lg font-bold text-[#2C2C2C] mb-3">その他の相談所(口コミ3件未満・{minor.length}件)</h2>
-          <p className="text-xs text-[#999] mb-3">口コミ件数が少なく実データでの比較が難しいため、名称とGoogleマップへのリンクのみ掲載しています。</p>
+          <h2 className="text-lg font-bold text-[#2C2C2C] mb-3">その他の相談所（口コミ3件未満・{minor.length}件）</h2>
+          <p className="text-xs text-[#999] mb-3">口コミ件数が少なく、数値での比較が難しいため、名称とGoogleマップへのリンクのみを掲載しています。</p>
           <ul className="text-sm space-y-1.5">
             {minor.map((a, i) => (
               <li key={i} className="flex flex-wrap gap-x-2">

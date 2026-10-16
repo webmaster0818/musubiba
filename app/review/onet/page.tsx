@@ -6,9 +6,9 @@ import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
-  title: "オーネットの口コミ・評判｜料金・会員数・特徴を徹底解説【2026年】",
+  title: "オーネットの口コミ・評判｜料金・会員数・特徴を解説【2026年】",
   description:
-    "オーネットの口コミ・評判を徹底調査。月会費16,500円〜、会員数4.2万人、データマッチング型、40年の運営実績の特徴を詳しく解説します。",
+    "オーネットの口コミ・評判をまとめています。月会費16,500円〜、会員数4.2万人、データマッチング型、40年の運営実績などの特徴を解説します。",
 };
 
 const overview = {
@@ -26,7 +26,7 @@ const overview = {
 const strengths = [
   {
     title: "40年以上の運営実績による信頼性",
-    desc: "1980年の創業以来、40年以上にわたり結婚相談所を運営してきた業界の老舗。長年のノウハウと実績に基づいたサービスを提供しています。",
+    desc: "1980年の創業以来、40年以上にわたり結婚相談所を運営してきた業界の老舗です。長年のノウハウと実績に基づいたサービスを提供しています。",
   },
   {
     title: "独自のデータマッチングシステム",
@@ -34,7 +34,7 @@ const strengths = [
   },
   {
     title: "成婚料0円の明朗会計",
-    desc: "成婚退会時の成婚料が0円なので、トータルコストが分かりやすいのが特徴。予算計画が立てやすく、安心して活動できます。",
+    desc: "成婚退会時の成婚料が0円なので、トータルコストが分かりやすい点が特徴です。予算計画が立てやすく、安心して活動できます。",
   },
 ];
 
@@ -61,7 +61,7 @@ const faqs = [
     a: "希望条件（年齢、地域、年収、学歴など）や価値観をもとに、コンピューターが相性の良い相手を自動的にマッチングするシステムです。毎月6名以上の紹介が受けられます。",
   },
   {
-    q: "オーネットは本当に成婚料0円ですか？",
+    q: "オーネットの成婚料は0円ですか？",
     a: "はい、オーネットでは成婚退会時の成婚料は0円です。入会金と月会費のみで活動できるため、トータルコストが明確です。",
   },
   {
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "オーネットの無料相談では何ができますか？",
-    a: "無料相談では、結婚チャンステストを受けることができます。自分の条件に合うお相手がどのくらいいるかを事前に確認でき、サービスの説明や料金案内も受けられます。",
+    a: "無料相談では、結婚チャンステストを受けることができます。ご自身の条件に合うお相手がどのくらいいるかを事前に確認でき、サービスの説明や料金案内も受けられます。",
   },
   {
     q: "オーネットの活動はオンラインでもできますか？",
@@ -106,7 +106,7 @@ export default function OnetReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          オーネットの口コミ・評判｜料金・会員数・特徴を徹底解説
+          オーネットの口コミ・評判｜料金・会員数・特徴を解説
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
 
@@ -206,7 +206,7 @@ export default function OnetReview() {
             オーネットの評判・口コミの傾向まとめ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「オーネット 評判」「オーネット 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
+            「オーネット 評判」「オーネット 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しています。感じ方には個人差があるため、実際の評判は無料相談で直接確認することをおすすめします。
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50/50 rounded-xl p-6">
@@ -235,7 +235,7 @@ export default function OnetReview() {
             オーネットと他社を比較して選ぶ
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            オーネットが自分に合うか迷ったら、料金総額・会員数・サポート形式を他社と見比べるのがおすすめです。
+            オーネットがご自身に合うか迷われた場合は、料金総額・会員数・サポート形式を他社と比較することをおすすめします。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
@@ -249,11 +249,11 @@ export default function OnetReview() {
               <FeePosition slug="onet" />
 
 <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミの傾向——実際の口コミを読んだ編集部要約(2026年9月5日取得)</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">Googleマップの口コミの傾向（2026年9月5日取得・当サイトによる要約）</h2>
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 space-y-3 text-sm leading-relaxed text-[#555]">
-            <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>——成婚退会者からの「アドバイザーが親身だった」という感謝が最も多く、「落ち込んだ時に一緒に悩んでくれた」「相談したい時に時間を作ってくれた」など伴走面の評価が中心です。特徴的なのは、<span className="font-medium">オーネット独自システムに加えてIBJ加盟のネットワーク経由で他社会員と成婚した</span>という報告が複数ある点で、出会いの母集団が2系統ある構造が口コミからも確認できます。</p>
-            <p><span className="font-medium text-rose-700">気になる声</span>——「申し込みがマッチしない」「返信が返ってこない」という活動初期のつまずきや、「プロフィール更新が数ヶ月反映されなかった」という事務対応への強い不満も見られます。中間的な声として「紹介はあるが、自分で積極的に動かないと成果は出ない」という指摘が複数あり、受け身の活動では差が出やすいサービスと言えそうです。</p>
-            <p className="text-xs text-[#999]">※Googleマップの複数店舗(銀座・大阪梅田・名古屋)の直近口コミをPlaces APIで取得し、編集部が読んだ上で傾向を要約したものです(本文の転載はしていません)。個々の体験は店舗・担当者・時期により異なります。</p>
+            <p><span className="font-medium text-[#A08447]">よく見られる好意的な声</span>：成婚退会者からの「アドバイザーが親身だった」という感謝が最も多く、「落ち込んだ時に一緒に悩んでくれた」「相談したい時に時間を作ってくれた」など伴走面の評価が中心です。特徴的なのは、<span className="font-medium">オーネット独自システムに加えてIBJ加盟のネットワーク経由で他社会員と成婚した</span>という報告が複数ある点で、出会いの母集団が2系統ある構造が口コミからも確認できます。</p>
+            <p><span className="font-medium text-rose-700">気になる声</span>：「申し込みがマッチしない」「返信が返ってこない」という活動初期のつまずきや、「プロフィール更新が数ヶ月反映されなかった」という事務対応への強い不満も見られます。中間的な声として「紹介はあるが、自分で積極的に動かないと成果は出ない」という指摘が複数あり、受け身の活動では成果に差が出やすいサービスといえます。</p>
+            <p className="text-xs text-[#999]">※Googleマップの複数店舗(銀座・大阪梅田・名古屋)の直近の口コミをPlaces APIで取得し、当サイトで内容を確認したうえで傾向を要約したものです（本文の転載は行っていません）。個々の体験は店舗・担当者・時期により異なります。</p>
           </div>
         </section>
 
@@ -280,7 +280,7 @@ export default function OnetReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">オーネットの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">まずは結婚チャンステストを受けてみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">無料相談では結婚チャンステストを受けることができます</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">
             ランキングに戻る
           </Link>

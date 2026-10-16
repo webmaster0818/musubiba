@@ -25,7 +25,7 @@ const notoSerifJP = Noto_Serif_JP({
 export const metadata: Metadata = {
   title: "結婚相談所おすすめランキング比較 | ムスビバ",
   description:
-    "結婚相談所24社のレビューと13都道府県1,543件の実測データベースで比較。料金・成婚率・会員数・サポート体制からあなたに合う相談所が見つかります。",
+    "結婚相談所24社のレビューと、13都道府県1,543件の店舗データベースを掲載しています。料金・成婚率・会員数・サポート体制から、ご自身に合う結婚相談所を比較できます。",
   metadataBase: new URL("https://mu-su-bi-ba.com"),
   alternates: { canonical: "./" },
   icons: {
@@ -60,7 +60,7 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "ムスビバ",
               url: "https://mu-su-bi-ba.com",
-              description: "結婚相談所24社のレビューと13都道府県1,543件の実測データベースで比較。",
+              description: "結婚相談所24社のレビューと、13都道府県1,543件の店舗データベースを掲載する結婚相談所の比較サイトです。",
               publisher: {
                 "@type": "Organization",
                 name: "ムスビバ",
@@ -94,12 +94,10 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="bg-[#333333] text-white/60 mt-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mb-10">
               <div>
-                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">ムスビバ</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">エリアから探す</h4>
                 <ul className="space-y-2.5 text-xs">
-                  <li><Link href="/" className="hover:text-white transition-colors">トップページ</Link></li>
-                  <li><Link href="/faq/" className="hover:text-white transition-colors">よくある質問</Link></li>
                   <li><Link href="/area/tokyo/" className="hover:text-white transition-colors">東京の結婚相談所</Link></li>
                   <li><Link href="/area/osaka/" className="hover:text-white transition-colors">大阪の結婚相談所</Link></li>
                   <li><Link href="/area/yokohama/" className="hover:text-white transition-colors">神奈川(横浜)の結婚相談所</Link></li>
@@ -113,29 +111,25 @@ export default function RootLayout({
                   <li><Link href="/area/sendai/" className="hover:text-white transition-colors">宮城(仙台)の結婚相談所</Link></li>
                   <li><Link href="/area/hiroshima/" className="hover:text-white transition-colors">広島の結婚相談所</Link></li>
                   <li><Link href="/area/shizuoka/" className="hover:text-white transition-colors">静岡の結婚相談所</Link></li>
-                  <li><Link href="/about/" className="hover:text-white transition-colors">このサイトについて</Link></li>
-                  <li><Link href="/editorial-policy/" className="hover:text-white transition-colors">編集方針・掲載基準</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">ランキング</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">結婚相談所のレビュー</h4>
                 <ul className="space-y-2.5 text-xs">
                   <li><Link href="/review/zwei/" className="hover:text-white transition-colors">ツヴァイ</Link></li>
                   <li><Link href="/review/onet/" className="hover:text-white transition-colors">オーネット</Link></li>
                   <li><Link href="/review/partner-agent/" className="hover:text-white transition-colors">パートナーエージェント</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">サービス</h4>
-                <ul className="space-y-2.5 text-xs">
                   <li><Link href="/review/mars-cafe/" className="hover:text-white transition-colors">マーズカフェ</Link></li>
                   <li><Link href="/review/sunmarie/" className="hover:text-white transition-colors">サンマリエ</Link></li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">情報</h4>
+                <h4 className="font-medium text-[#A08447] mb-4 text-sm tracking-widest">サイトについて</h4>
                 <ul className="space-y-2.5 text-xs">
-                  <li><Link href="/faq/" className="hover:text-white transition-colors">FAQ</Link></li>
+                  <li><Link href="/" className="hover:text-white transition-colors">トップページ</Link></li>
+                  <li><Link href="/faq/" className="hover:text-white transition-colors">よくある質問</Link></li>
+                  <li><Link href="/about/" className="hover:text-white transition-colors">このサイトについて</Link></li>
+                  <li><Link href="/editorial-policy/" className="hover:text-white transition-colors">編集方針・掲載基準</Link></li>
                 </ul>
               </div>
             </div>

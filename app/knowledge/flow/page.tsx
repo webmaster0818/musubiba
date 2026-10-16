@@ -6,14 +6,14 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "結婚相談所の入会から成婚までの流れ・活動期間の目安【2026年】",
   description:
-    "結婚相談所の入会から成婚退会までの流れを、無料相談・入会・お見合い・仮交際・真剣交際・成婚のステップごとに解説。活動期間の一般的な目安や、スムーズに進めるためのコツもわかりやすくまとめました。各社の詳細は個別レビューでご確認いただけます。",
+    "結婚相談所の入会から成婚退会までの流れを、無料相談・入会・お見合い・仮交際・真剣交際・成婚のステップごとに解説しています。活動期間の一般的な目安や、円滑に進めるためのポイントも分かりやすくまとめました。各社の詳細は個別レビューでご確認いただけます。",
   alternates: { canonical: "/knowledge/flow/" },
 };
 
 const faqs = [
   {
     q: "入会から成婚までどのくらいかかりますか？",
-    a: "個人差が大きいですが、一般的には活動開始からおおよそ6ヶ月〜1年程度で成婚退会される方が多いとされます。早い方では数ヶ月、じっくり活動される方は1年以上かかることもあります。会員層や活動の積極性、相性によって変わります。",
+    a: "個人差がありますが、一般的には活動開始からおおよそ6ヶ月〜1年程度で成婚退会される方が多いとされます。早い方では数ヶ月、じっくり活動される方は1年以上かかることもあります。会員層や活動の積極性、相性によって変わります。",
   },
   {
     q: "お見合いから交際までどう進みますか？",
@@ -24,12 +24,12 @@ const faqs = [
     a: "仮交際は複数の相手と並行してお付き合いを進める段階、真剣交際はお互いに一人に絞って結婚を前提に交際を深める段階を指すのが一般的です。真剣交際に入ると原則として他の相手との交際は終了します。",
   },
   {
-    q: "活動をスムーズに進めるコツはありますか？",
-    a: "プロフィールを丁寧に整える、お見合いの申し込み・受諾を積極的に行う、担当カウンセラーに悩みを相談する、フィードバックを次に活かすことなどが挙げられます。活動期間が長引くと費用も積み上がるため、早めに動くことも一つのポイントです。",
+    q: "活動を円滑に進めるためのポイントはありますか？",
+    a: "プロフィールを丁寧に整える、お見合いの申し込み・受諾を積極的に行う、担当カウンセラーに悩みを相談する、フィードバックを次に活かすことなどが挙げられます。活動期間が長引くと費用も積み上がるため、早めに行動することも1つのポイントです。",
   },
   {
     q: "成婚退会とはどういう状態を指しますか？",
-    a: "多くの相談所では、お互いに結婚の意思が固まった段階を「成婚」とし、退会手続きを行います。ただし成婚の定義（婚約・交際成立など）は相談所ごとに異なる場合があるため、入会前に確認しておくと安心です。",
+    a: "多くの相談所では、お互いに結婚の意思が固まった段階を「成婚」とし、退会手続きを行います。ただし成婚の定義（婚約・交際成立など）は相談所ごとに異なる場合があるため、入会前に確認しておくことをおすすめします。",
   },
 ];
 
@@ -44,7 +44,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: "結婚相談所の入会から成婚までの流れ・活動期間の目安【2026年】",
   description:
-    "結婚相談所の入会から成婚退会までの流れをステップごとに解説。活動期間の一般的な目安とスムーズに進めるコツをまとめました。",
+    "結婚相談所の入会から成婚退会までの流れをステップごとに解説しています。活動期間の一般的な目安と、円滑に進めるためのポイントをまとめました。",
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-07-01",
@@ -66,7 +66,7 @@ const breadcrumbJsonLd = {
 // 画像は nano banana pro で生成した静物写真。人物・文字は入れない方針で、
 // 既存の mb-*.jpg と同じトーン(自然光・木のテーブル・ベージュ基調)に揃えている。
 const steps = [
-  { n: 1, img: "/flow-01-soudan.jpg", t: "無料相談・カウンセリング", d: "サービス内容や料金の説明を受け、婚活の希望をヒアリングしてもらいます。入会を強制されることはなく、相性や雰囲気を確認する場です。複数社を比較検討するのがおすすめです。" },
+  { n: 1, img: "/flow-01-soudan.jpg", t: "無料相談・カウンセリング", d: "サービス内容や料金の説明を受け、婚活のご希望を担当者に伝えます。入会を強制されることはなく、相性や雰囲気を確認する場です。複数社を比較検討することをおすすめします。" },
   { n: 2, img: "/flow-02-nyukai.jpg", t: "入会・書類提出・プロフィール作成", d: "独身証明書・本人確認書類などの必要書類を提出し、プロフィールを作成します。写真やプロフィールの充実度は出会いの数に影響しやすい重要な準備です。" },
   { n: 3, img: "/flow-03-sagasu.jpg", t: "お相手探し・お見合いの申し込み", d: "紹介やデータ検索でお相手を探し、お見合いを申し込みます。仲人型ではカウンセラーからの紹介、データマッチング型では自分で検索して申し込むのが中心です。" },
   { n: 4, img: "/flow-04-omiai.jpg", t: "お見合い", d: "実際に会って会話し、お互いの印象を確かめます。両者が「もっと知りたい」と合意すると次の交際段階へ進みます。" },
@@ -105,11 +105,11 @@ export default function KnowledgeFlow() {
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：流れを知れば婚活の見通しが立つ
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流れを把握すると婚活の見通しが立てやすくなります
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>一般的な流れは<strong>無料相談 → 入会 → お相手探し → お見合い → 仮交際 → 真剣交際 → 成婚退会</strong>です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>入会から成婚までの活動期間は<strong>おおよそ6ヶ月〜1年程度</strong>が一つの目安（個人差が大きい）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>入会から成婚までの活動期間は<strong>おおよそ6ヶ月〜1年程度</strong>が1つの目安です（個人差があります）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>活動が長引くと<strong>月会費が積み上がる</strong>ため、流れを理解して早めに動くことが費用面でも有利です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>各社のサポート内容は<Link href="/compare/" className="text-[#A08447] underline">料金比較</Link>や個別レビューで確認できます。</span></li>
           </ul>
@@ -148,17 +148,17 @@ export default function KnowledgeFlow() {
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2] w-40">短めのケース</td><td className="px-4 py-3">数ヶ月程度で成婚に至る場合もある</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">一般的な目安</td><td className="px-4 py-3">おおよそ6ヶ月〜1年程度</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">じっくり活動するケース</td><td className="px-4 py-3">1年以上かかることもある</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2] w-40">短めのケース</td><td className="px-4 py-3">数ヶ月程度で成婚に至る場合もあります</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">一般的な目安</td><td className="px-4 py-3">おおよそ6ヶ月〜1年程度です</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">じっくり活動するケース</td><td className="px-4 py-3">1年以上かかる場合もあります</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※上記は一般的な目安で、成婚を保証するものではありません。月会費は活動期間に比例して積み上がるため、<Link href="/knowledge/cost/" className="text-[#A08447] underline">料金相場の記事</Link>とあわせて総額を把握しておくと安心です。</p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※上記は一般的な目安で、成婚を保証するものではありません。月会費は活動期間に比例して積み上がるため、<Link href="/knowledge/cost/" className="text-[#A08447] underline">料金相場の記事</Link>とあわせて総額を把握しておくことをおすすめします。</p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">活動をスムーズに進めるためのコツ</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">活動を円滑に進めるためのポイント</h2>
           <div className="space-y-3">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">プロフィール・写真を丁寧に整える</h3>
@@ -170,7 +170,7 @@ export default function KnowledgeFlow() {
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">カウンセラーに相談し、フィードバックを活かす</h3>
-              <p className="text-sm text-[#2C2C2C]/70">うまくいかないときこそ、担当者に相談して次に活かすことが成婚への近道です。サポートの手厚さは相談所選びの重要な観点でもあります（<Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">選び方の記事</Link>を参照）。</p>
+              <p className="text-sm text-[#2C2C2C]/70">うまくいかないときこそ、担当者に相談して次に活かすことが成婚につながります。サポートの手厚さは相談所選びの重要な観点でもあります（<Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">選び方の記事</Link>を参照）。</p>
             </div>
           </div>
         </section>
@@ -191,7 +191,7 @@ export default function KnowledgeFlow() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">関連ページ・サポート内容を見比べる</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">関連ページ</h2>
           <ul className="space-y-2 text-sm">
             {relatedLinks.map((l) => (
               <li key={l.href}><Link href={l.href} className="text-[#A08447] underline">{l.label}</Link></li>
@@ -201,7 +201,7 @@ export default function KnowledgeFlow() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">サポート内容で相談所を選ぶ</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">実査24社のサポート・料金・タイプを一覧で比較できます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">実査24社のサポート・料金・タイプを一覧で比較いただけます</p>
           <Link href="/compare/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">料金比較を見る</Link>
         </section>
 

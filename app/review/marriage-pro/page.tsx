@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "マリッジプロの評判・口コミ・料金｜プロカウンセラーの実態を中立解説【2026年】",
+  title: "マリッジプロの評判・口コミ・料金｜プロカウンセラーによるサポートを解説【2026年】",
   description:
-    "マリッジプロの評判・口コミ・料金を実態ベースで解説。月会費9,000〜11,500円・成婚料180,000〜220,000円(プラン別・2026年8月公式確認)、お見合い料無料・申込100件/月の料金体系と、プロカウンセラーによる戦略的サポート、向いている人まで中立にまとめました。",
+    "マリッジプロの評判・口コミ・料金を解説しています。月会費9,000〜11,500円・成婚料180,000〜220,000円（プラン別・2026年8月公式確認）、お見合い料無料・申込100件/月の料金体系、プロカウンセラーによる戦略的なサポート、適している方について、中立的な立場で整理しています。",
 };
 
 const overview = {
@@ -29,18 +29,18 @@ const strengths = [
   },
   {
     title: "婚活戦略の立案から実行までトータルサポート",
-    desc: "漠然と活動するのではなく、会員一人ひとりの強みや課題を分析した上で婚活戦略を立案します。PDCAサイクルを回しながら、効率的に成婚へと導くプロフェッショナルなアプローチが特徴です。",
+    desc: "漠然と活動するのではなく、会員一人ひとりの強みや課題を分析した上で婚活戦略を立案します。PDCAサイクルに沿って活動内容を見直しながら進める点が特徴です。",
   },
   {
-    title: "結婚相談所連盟加盟で大規模な会員ネットワークにアクセス",
-    desc: "大手結婚相談所連盟に加盟しているため、連盟ネットワークの会員とお見合いが可能です。プロカウンセラーの手厚いサポートと大規模な会員基盤の両方を活用できます。",
+    title: "結婚相談所連盟に加盟し、連盟の会員ネットワークを利用可能",
+    desc: "大手結婚相談所連盟に加盟しているため、連盟ネットワークの会員とお見合いが可能です。カウンセラーのサポートと連盟の会員ネットワークの両方を活用できます。",
   },
 ];
 
 const pros = [
   "経験豊富なプロカウンセラーによる専任サポート",
   "婚活戦略の立案から実行まで一貫した支援",
-  "連盟加盟で大規模な会員ネットワークを活用可能",
+  "連盟加盟で会員ネットワークを活用可能",
 ];
 
 const cons = [
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "マリッジプロの料金は総額いくらかかりますか？",
-    a: "公式サイトの料金（税込・2026年8月17日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費11,500円＋成婚料220,000円（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約468,000円です。女性プランは初期100,000円＋月11,000円＋成婚料200,000円（同・約432,000円）、U-28（28歳以下女性）・地方プラン・ひとり親限定プランはさらに抑えられます。最新の料金は公式サイトでご確認ください。",
+    a: "公式サイトの料金（税込・2026年8月17日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費11,500円＋成婚料220,000円です（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約468,000円です。女性プランは初期費用100,000円＋月会費11,000円＋成婚料200,000円（同・約432,000円）、U-28（28歳以下女性）・地方プラン・ひとり親限定プランはさらに費用を抑えられます。ご利用前に、公式サイトにて最新の料金をご確認ください。",
   },
   {
     q: "マリッジプロの入会条件はありますか？",
@@ -80,7 +80,7 @@ const faqs = [
   },
   {
     q: "マリッジプロの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、プロカウンセラーの戦略的なサポートにより、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。",
+    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。",
   },
 ];
 
@@ -111,21 +111,21 @@ export default function MarriageProReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          マリッジプロの口コミ・評判｜料金・特徴・サポートを徹底解説
+          マリッジプロの口コミ・評判｜料金・特徴・サポートを解説
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月17日（料金は公式サイトで再確認済み）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />結論：マリッジプロはこんな人に向く相談所
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />マリッジプロの特徴と適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：プロカウンセラーによる戦略的な手厚いサポートを評価する声が中心。一方で初期費用・月会費がやや高めという声もあります。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：婚活のプロが専任で担当し、<strong>プロフィール改善・お見合い対策・婚活戦略の立案</strong>まで一貫サポート。連盟加盟で会員ネットワークも活用できます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜11,500円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年8月17日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約46.8万円</strong>。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>向く人</strong>：他社で結果が出ず手厚いサポートを求める人、自分の課題を客観的に分析してほしい人、東京・大阪で対面サポートを受けたい人。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：プロカウンセラーによる戦略的な手厚いサポートを評価する声が中心です。一方で初期費用・月会費がやや高めという声もあります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：婚活のプロが専任で担当し、<strong>プロフィール改善・お見合い対策・婚活戦略の立案</strong>まで一貫してサポートします。連盟に加盟しているため、会員ネットワークも活用できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜11,500円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年8月17日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約46.8万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：他社で結果が出ず手厚いサポートを求める方、ご自身の課題を客観的に分析してほしい方、東京・大阪で対面サポートを受けたい方に適しています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
@@ -203,7 +203,7 @@ export default function MarriageProReview() {
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">マリッジプロの料金プランと総額の目安</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「マリッジプロ 料金」で気になるのは、月会費だけでなく<strong>入会から成婚までにかかる総額</strong>です。公表されている料金をもとに、1年間活動した場合の総額の目安を整理しました。
+            「マリッジプロ 料金」で確認しておきたいのは、月会費だけでなく<strong>入会から成婚までにかかる総額</strong>です。公表されている料金をもとに、1年間活動した場合の総額の目安を整理しています。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
@@ -219,31 +219,31 @@ export default function MarriageProReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※全て税込・マリッジプロ公式サイトの料金ページで2026年8月17日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくのが大切です。
+            ※すべて税込で、マリッジプロ公式サイトの料金ページにて2026年8月17日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
           </p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">マリッジプロの評判・口コミの傾向まとめ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「マリッジプロ 評判」「マリッジプロ 口コミ」で調べる方向けに、寄せられる声の<strong>良い評判・気になる評判</strong>を傾向ごとに整理しました。個別の体験談は下のセクションに掲載しています。
+            「マリッジプロ 評判」「マリッジプロ 口コミ」で調べる方に向けて、寄せられている声を<strong>良い評判・気になる評判</strong>の傾向ごとに整理しています。個別の体験談は下のセクションに掲載しています。
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-green-50/50 rounded-xl p-6">
               <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>プロカウンセラーのサポートが手厚いという声</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>プロフィール・お見合い対策が具体的で改善につながった</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>プロフィール・お見合い対策が具体的で改善につながったという声</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>他社で結果が出ず乗り換えて成婚できたという声</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟加盟で出会いの機会は十分にあった</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟加盟により出会いの機会は十分にあったという声</li>
               </ul>
             </div>
             <div className="bg-red-50/50 rounded-xl p-6">
               <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
                 <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用・月会費がやや高めと感じる声</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗が東京・大阪中心で地方は通いにくい</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が非公開で出会いの規模が分かりにくい</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗が東京・大阪中心で地方からは通いにくいという声</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が非公開で出会いの規模が分かりにくいという声</li>
               </ul>
             </div>
           </div>
@@ -253,7 +253,7 @@ export default function MarriageProReview() {
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">マリッジプロと他社を比較して選ぶ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            手厚い仲人サポートを求める場合は、料金総額や対象エリア・特徴を他社と見比べて選ぶのがおすすめです。
+            手厚い仲人サポートを求める場合は、料金総額や対象エリア・特徴を他社と比較して選ぶことをおすすめします。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
@@ -266,7 +266,7 @@ export default function MarriageProReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">結婚相談所の基礎知識で判断材料を増やす</h2>
-          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">マリッジプロが自分に合うか迷ったら、料金の相場やタイプの違い、活動の流れといった基礎知識もあわせて確認すると判断しやすくなります。</p>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">マリッジプロがご自身に合うかを判断する際は、料金の相場やタイプの違い、活動の流れといった基礎知識もあわせて確認すると判断しやすくなります。</p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場は？初期費用・月会費・成婚料の目安</Link></li>
             <li><Link href="/knowledge/how-to-choose/" className="text-[#A08447] underline">結婚相談所の選び方｜仲人型とデータマッチング型の違い</Link></li>
@@ -297,7 +297,7 @@ export default function MarriageProReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">マリッジプロの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">プロカウンセラーによる無料カウンセリングを体験してみましょう</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">プロカウンセラーによる無料相談をご利用いただけます</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 

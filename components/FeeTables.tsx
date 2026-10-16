@@ -21,12 +21,12 @@ export function FeeAllTable() {
   return (
     <>
       <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-        当サイトが各公式サイトを実査した<strong>24社</strong>の料金です。
-        月会費を公表していたのは<strong>{monthlies.length}社</strong>で、
+        当サイトが各社の公式サイトで確認した<strong>24社</strong>の料金です。
+        月会費を公表しているのは<strong>{monthlies.length}社</strong>で、
         中央値は<strong>{yen(med(monthlies))}</strong>、
         もっとも安い{yen(Math.min(...monthlies))}ともっとも高い{yen(Math.max(...monthlies))}で
         <strong>約{(Math.max(...monthlies) / Math.min(...monthlies)).toFixed(1)}倍</strong>の開きがあります。
-        成婚料を公表していたのは{successes.length}社で、そのうち<strong>{zero}社が「成婚料なし」</strong>でした。
+        成婚料を公表しているのは{successes.length}社で、そのうち<strong>{zero}社は成婚料がかかりません</strong>。
       </p>
       <div className="overflow-x-auto mb-3">
         <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden bg-white">
@@ -66,10 +66,10 @@ export function FeeTotalTable() {
   return (
     <>
       <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-        「入会時の費用」「月会費」「成婚料」の3つをすべて公表しているのは24社中<strong>{rows.length}社</strong>でした。
+        「入会時の費用」「月会費」「成婚料」の3つをすべて公表しているのは、24社中<strong>{rows.length}社</strong>です。
         その{rows.length}社について<strong>1年で成婚退会した場合（入会時の費用＋月会費×12ヶ月＋成婚料）</strong>を計算すると、
         もっとも安い{yen(Math.min(...totals))}からもっとも高い{yen(Math.max(...totals))}まで
-        <strong>{yen(Math.max(...totals) - Math.min(...totals))}の差</strong>がありました。中央値は<strong>{yen(med(totals))}</strong>です。
+        <strong>{yen(Math.max(...totals) - Math.min(...totals))}の差</strong>があります。中央値は<strong>{yen(med(totals))}</strong>です。
       </p>
       <div className="overflow-x-auto mb-3">
         <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden bg-white">

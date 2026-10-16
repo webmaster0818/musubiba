@@ -6,7 +6,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "結婚相談所の基礎知識｜料金相場・選び方・活動の流れ【2026年】| ムスビバ",
   description:
-    "結婚相談所の料金相場、仲人型とデータマッチング型の選び方、入会から成婚までの流れをわかりやすく解説。はじめての婚活で知っておきたい基礎知識をまとめました。各社の詳しい料金・評判は個別レビューでご確認いただけます。",
+    "結婚相談所の料金相場、仲人型とデータマッチング型の選び方、入会から成婚までの流れを分かりやすく解説しています。はじめて婚活をされる方が押さえておきたい基礎知識をまとめました。各社の詳しい料金・評判は個別レビューでご確認いただけます。",
   alternates: { canonical: "/knowledge/" },
 };
 
@@ -14,27 +14,27 @@ const articles = [
   {
     href: "/knowledge/cost/",
     title: "結婚相談所の料金相場は？初期費用・月会費・成婚料の目安【2026年】",
-    desc: "初期費用・月会費・成婚料の一般的な相場レンジを整理。総額の考え方と、費用を抑えるポイントを解説します。",
+    desc: "初期費用・月会費・成婚料の一般的な相場の範囲を整理しています。総額の考え方と、費用を抑えるポイントを解説します。",
   },
   {
     href: "/knowledge/how-to-choose/",
-    title: "結婚相談所の選び方｜仲人型とデータマッチング型の違い・失敗しないコツ",
-    desc: "仲人型・データマッチング型・ハイブリッド型の違いと、自分に合うタイプの見極め方をわかりやすく解説します。",
+    title: "結婚相談所の選び方｜仲人型とデータマッチング型の違いと比較のポイント",
+    desc: "仲人型・データマッチング型・ハイブリッド型の違いと、自分に合うタイプの見極め方を分かりやすく解説します。",
   },
   {
     href: "/knowledge/seikon-ritsu/",
     title: "結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと",
-    desc: "24社のうち数値を公表しているのは9社だけ。分母も対象期間もバラバラな成婚率の読み方と、入会前に確認したい4つの質問を実査データでまとめました。",
+    desc: "24社のうち成婚率の数値を公表しているのは9社です。分母や対象期間が各社で異なる成婚率の読み方と、入会前に確認したい4つの質問を、実査データにもとづいてまとめました。",
   },
   {
     href: "/knowledge/kaiyaku/",
     title: "結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態",
-    desc: "中途解約の違約金は提供開始前3万円、開始後は2万円か契約残額の20%の低いほうが法定の上限。24社のうち解約・休会条件を公式サイトに書いていたのは9社だけでした。",
+    desc: "中途解約の違約金は提供開始前3万円、開始後は2万円か契約残額の20%の低いほうが法定の上限です。24社のうち、解約・休会の条件を公式サイトに記載していたのは9社でした。",
   },
   {
     href: "/knowledge/renmei/",
     title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況",
-    desc: "連盟は紹介を受けられる会員の母数を決める仕組み。実査24社のうち16社がIBJ系で、同じネットワークでも月会費は約2.3倍、成婚料は約3.8倍の開きがありました。",
+    desc: "連盟は、紹介を受けられる会員の母数を決める仕組みです。実査24社のうち16社がIBJ系で、同じネットワークでも月会費は約2.3倍、成婚料は約3.8倍の開きがありました。",
   },
   {
     href: "/knowledge/flow/",
@@ -75,7 +75,7 @@ export default function KnowledgeHub() {
           <img src="/mb-knowledge.jpg" alt="結婚相談所の基礎知識のイメージ" className="w-full h-auto" />
         </div>
         <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-4">
-          はじめて結婚相談所を検討する方に向けて、料金の相場・タイプの選び方・活動の流れといった基礎知識をまとめました。全体像をつかんだうえで、各社の料金や評判は個別のレビューページや料金比較で見比べるのがおすすめです。
+          はじめて結婚相談所を検討する方に向けて、料金の相場・タイプの選び方・活動の流れといった基礎知識をまとめました。全体像をつかんだうえで、各社の料金や評判は個別のレビューページや料金比較で見比べることをおすすめします。
         </p>
         <p className="text-xs text-[#2C2C2C]/50 mb-10 leading-relaxed">
           ※本カテゴリの内容は一般的な傾向・目安をまとめたものです。料金や条件は各社・プラン・時期により異なります。最新かつ正確な情報は各公式サイトおよび無料相談でご確認ください。
@@ -99,9 +99,9 @@ export default function KnowledgeHub() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">気になる相談所を比較・チェックする</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">気になる相談所の料金と評判を比較する</h2>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-4">
-            基礎知識をつかんだら、実際の相談所の料金や評判を見比べてみましょう。料金比較や個別レビューで、自分の条件に合う相談所を探せます。
+            基礎知識を把握されたら、実際の相談所の料金や評判を見比べることをおすすめします。料金比較や個別レビューから、ご自身の条件に合う相談所を探すことができます。
           </p>
           <ul className="space-y-2 text-sm">
             {relatedLinks.map((l) => (
@@ -113,8 +113,8 @@ export default function KnowledgeHub() {
         </section>
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
-          <h2 className="text-xl font-light mb-4 tracking-widest">まずはランキングから探す</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">料金・成婚率・サポート体制で厳選した結婚相談所ランキングをチェックしましょう</p>
+          <h2 className="text-xl font-light mb-4 tracking-widest">ランキングから相談所を探す</h2>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">料金・成婚率・サポート体制をもとに選定した結婚相談所のランキングをご覧いただけます</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングを見る</Link>
         </section>
 
