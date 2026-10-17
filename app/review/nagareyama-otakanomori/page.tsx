@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "流山おおたかの森結婚相談所の評判・料金【2026年】IBJ加盟・月会費9,900円の料金と特徴を解説",
+  title: "流山おおたかの森結婚相談所の料金・評判｜月会費9,900円・お見合い料0円【2026年10月公式確認】",
   description:
-    "流山おおたかの森結婚相談所（千葉県流山市）の評判・料金を、中立的な立場で解説しています。IBJ加盟、初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年7月公式確認）の総額目安、カウンセラー歴23年の代表による1名運営の特徴、流山・柏・野田・松戸への出張対応について整理しています。",
+    "流山おおたかの森結婚相談所（千葉県流山市・IBJ加盟）の料金と評判をまとめています。初期費用165,000円・月会費9,900円・お見合い料0円・成婚料220,000円（税込・2026年10月17日公式確認）と1年総額、カフェでの面談・オンライン相談、Googleマップの評点、流山市内のほかの相談所を掲載しています。",
   alternates: { canonical: "/review/nagareyama-otakanomori/" },
 };
 
@@ -15,11 +15,11 @@ const overview = {
   name: "流山おおたかの森結婚相談所",
   type: "仲人型（IBJ＝日本結婚相談所連盟 加盟）",
   members: "IBJ会員ネットワークを利用（相談所単体の会員数は非公開）",
-  area: "千葉県流山市を拠点に、流山・柏・野田・松戸エリアへ出張対応（公式記載）",
+  area: "千葉県流山市を拠点に、流山・柏・野田・松戸エリアへ出張対応（駅近くのカフェで面談）。初回・2回目のカウンセリングは電話・オンラインにも対応（公式記載）",
   initialFee: "165,000円（入会金38,000＋登録料34,000＋スタートアップ30,000＋サポート63,000・税込）",
   monthlyFee: "9,900円（税込）",
   matchingFee: "220,000円（成婚退会時・税込）",
-  age: "公式に限定の記載なし（要確認）",
+  age: "公式に年齢制限の記載なし。公式FAQでは20代半ば〜70代が在籍し、30代が最も多いと記載",
   successRate: "非公開（IBJの成婚定義に準拠）",
 };
 
@@ -54,13 +54,13 @@ const cons = [
   "初期費用165,000円は月会費の安さに比べるとまとまった額",
   "成婚料220,000円が成婚退会時に発生する",
   "1名運営のため、担当者との相性がそのまま活動の質に直結する",
-  "開業から日が浅く、第三者の口コミがWeb上にほとんどない",
+  "入会カウンセリングが審査を兼ねており、入会を断られる場合がある（公式FAQ）",
 ];
 
 const faqs = [
   {
     q: "流山おおたかの森結婚相談所の料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年7月確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
+    a: "公式公表の料金（税込・2026年10月17日確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円で、お見合い料は0円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
   },
   {
     q: "IBJ加盟とはどういう意味ですか？出会いの数に影響はありますか？",
@@ -68,19 +68,19 @@ const faqs = [
   },
   {
     q: "どのエリアに対応していますか？",
-    a: "公式サイトでは千葉県流山市（流山おおたかの森）を拠点に、柏・野田・松戸エリアへの出張対応を掲げています。それ以外の地域やオンライン面談の可否は公式に明記がないため、無料相談時にご確認ください。",
+    a: "公式サイトでは千葉県流山市（流山おおたかの森）を拠点に、柏・野田・松戸エリアへの出張対応を掲げています。面談は流山おおたかの森駅・柏駅近くのカフェで行い、オンラインでのカウンセリングにも対応しています。公式FAQでは、千葉県外（東京・埼玉・茨城など）の会員も在籍していると記載されています（2026年10月17日確認）。",
   },
   {
     q: "1名運営の相談所は大手と比べて不安はありませんか？",
     a: "1名運営には、担当が交代しない、対応や方針が一貫するという強みがある一方、相性が合わない場合に担当を替えられない、サポート量が代表の対応可能な範囲に左右されるという注意点があります。無料相談で話しやすさや提案の具体性を確認したうえで、ご判断いただくことをおすすめします。",
   },
   {
-    q: "口コミや評判がほとんど見つからない場合、どのように判断すればよいですか？",
-    a: "開業からの年数が浅い小規模相談所のため、第三者の口コミはWeb上にほとんどありません（2026年7月時点の当サイト調査）。口コミの少なさ自体は小規模相談所に共通の特徴で、良し悪しの証拠にはなりません。判断材料は、公式の料金透明性（本相談所は内訳まで明記）、IBJ加盟という客観的事実、無料相談での対応の質に置くことをおすすめします。",
+    q: "口コミ・評判はどのように確認すればよいですか？",
+    a: "Googleマップでの評点は4.9、口コミは53件です（2026年9月2日 当サイト取得）。評点は高評価が集まりやすい傾向があるため、件数と口コミ本文をあわせて確認し、最終的には公式の料金内訳、IBJ加盟という客観的事実、無料カウンセリングでの対応の質で判断することをおすすめします。",
   },
   {
     q: "入会条件はありますか？",
-    a: "公式サイトに詳細な入会条件の明記は確認できませんでした（2026年7月時点）。一般にIBJ加盟相談所では独身証明書・本人確認書類等の提出が必要です。詳細は無料相談でご確認ください。",
+    a: "公式FAQでは年齢制限の記載はなく、入会カウンセリングが審査を兼ねていると記載されています。必要書類は、独身証明書（3か月以内の原本）、住民票（3か月以内の原本・マイナンバーの記載がないもの）、身分証明書のコピー、卒業証明書（短大卒以上の方）、収入証明書（女性は任意）などです（2026年10月17日 公式サイトで確認）。",
   },
 ];
 
@@ -111,21 +111,31 @@ export default function NagareyamaOtakanomoriReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          流山おおたかの森結婚相談所の評判・料金｜IBJ加盟・月会費9,900円の料金と特徴を解説
+          流山おおたかの森結婚相談所の料金・評判｜月会費9,900円・お見合い料0円・IBJ加盟
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月17日（料金・サービス内容は2026年10月17日に<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流山おおたかの森結婚相談所が適している方
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流山おおたかの森結婚相談所の料金と特徴
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：カウンセラー歴23年の代表による<strong>1名運営・IBJ加盟</strong>の地域密着型の相談所です。担当が交代しない継続的なサポートと、IBJ全国ネットワークでの出会いを両立できます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・単一プラン）です。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。月会費は仲人型の相場より低めです。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：流山・柏・野田・松戸エリアで、大手よりも同じ担当者に継続してサポートを受けたい方や、TX沿線で対面相談をご希望の方です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：第三者の口コミが少ないため、判断は無料相談での相性確認が中心になります（見極めのポイントは本文で解説しています）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・1プラン）です。<strong>お見合い料は0円</strong>で、2年目以降の更新料はありません。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>面談の形式</strong>：事務所ではなく、流山おおたかの森駅・柏駅近くのカフェで面談する出張型です（流山・柏・野田・松戸エリア）。初回・2回目のカウンセリングは電話・オンラインでも受けられます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>担当</strong>：公式サイトで「婚活カウンセラー歴23年」と紹介されている代表が1名で担当します。IBJ加盟のため、お相手探しはIBJの会員ネットワークが対象です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判</strong>：Googleマップの評点は<strong>4.9（口コミ53件）</strong>です（2026年9月2日 当サイト取得、<Link href={`/agency/${encodeURIComponent("流山おおたかの森結婚相談所-d5aa")}/`} className="underline text-[#A08447]">店舗ページ</Link>に掲載）。評点は高評価が集まりやすいため、口コミ本文と無料カウンセリングでの相性確認をあわせてご判断ください。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：公式FAQでは、入会カウンセリングが審査を兼ねており、入会をお断りする場合があると記載されています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年7月確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・面談形式・必要書類は<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト（料金ページ・よくある質問）</a>の掲載内容（2026年10月17日確認・税込）にもとづきます。料金は改定される場合があるため、最新の金額と契約条件は公式サイトおよび無料カウンセリングでご確認ください。</p>
+          <div className="mt-5 pt-4 border-t border-[#E5DCCF] text-sm">
+            <p className="font-medium text-[#2C2C2C] mb-2">流山市内のほかの結婚相談所（Googleマップ・2026年9月2日 当サイト取得）</p>
+            <ul className="space-y-1.5 text-[#2C2C2C]/80">
+              <li><Link href={`/agency/${encodeURIComponent("縁結びサロンリリーベル-1a2c")}/`} className="text-[#A08447] underline">縁結びサロンリリーベル</Link>（流山市平和台／評点5.0・口コミ21件）</li>
+              <li><Link href={`/agency/${encodeURIComponent("結婚相談所エンナビ-ブライダルパートナーズ-f863")}/`} className="text-[#A08447] underline">結婚相談所エンナビ・ブライダルパートナーズ</Link>（流山市東深井／評点5.0・口コミ15件）</li>
+              <li><Link href={`/agency/${encodeURIComponent("恋婚ちばブライダル-b8d7")}/`} className="text-[#A08447] underline">恋婚ちばブライダル</Link>（流山市東初石／評点4.8・口コミ5件）</li>
+            </ul>
+            <p className="text-xs text-[#2C2C2C]/50 mt-2">柏・松戸を含む千葉県内の結婚相談所は<Link href="/area/chiba/" className="underline text-[#A08447]">千葉の結婚相談所一覧</Link>に掲載しています。</p>
+          </div>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
@@ -172,7 +182,7 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月17日公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握することをおすすめします。
           </p>
@@ -188,14 +198,14 @@ export default function NagareyamaOtakanomoriReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※金額はすべて税込・2026年7月に公式サイトで確認した公表値です。お見合い料の有無など細部の条件は無料相談でご確認ください。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
+            ※金額はすべて税込・2026年10月17日に公式サイトで確認した公表値です。お見合い料は0円、休会は年1か月まで（休会中は月会費に代えてデータ維持費1,100円）と公式に記載されています。中途解約時の精算などの細部は、契約前に書面でご確認ください。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
           </p>
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミが少ない相談所の見極め方</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">小規模相談所の見極め方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトの調査（2026年7月時点）では、流山おおたかの森結婚相談所の<strong>第三者による口コミ・体験談は、Web上でほとんど確認できません</strong>。当サイトでは実在しない口コミを作成・掲載しない方針のため、代わりに口コミが少ない小規模相談所を検討する際の見極めポイントを整理しています。
+            流山おおたかの森結婚相談所のGoogleマップの口コミは53件（2026年9月2日 当サイト取得）です。当サイトでは口コミを作成・掲載しない方針のため、口コミに加えて確認していただきたい、1名運営の小規模相談所を検討する際の見極めポイントを整理しています。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：IBJ加盟（公式サイトに明記・IBJ公式の加盟店ページも存在）、料金の内訳公開など、検証可能な事実は揃っています。</span></li>
