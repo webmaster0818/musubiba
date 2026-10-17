@@ -15,6 +15,8 @@ const UPDATED: Record<string, string> = Object.fromEntries(
     "", "/compare", "/compare/cheap", "/compare/30s", "/compare/sunmarie-vs-musbell", "/review/ringbell", "/review/musbell", "/knowledge/renmei", "/knowledge/seikon-ritsu",
   ].map((r) => [r, "2026-10-14"]),
 );
+// 2026-10-17: セブン（公式で確認できない記載のFAQ追加）・流山おおたかの森（title/冒頭の改善）
+for (const r of ["/review/seven", "/review/nagareyama-otakanomori"]) UPDATED[r] = "2026-10-17";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
