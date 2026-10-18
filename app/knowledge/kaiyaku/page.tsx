@@ -6,7 +6,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata: Metadata = {
   title: "結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態【2026年9月実査】",
   description:
-    "結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと中途解約の違約金上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法律で定められています。実査24社のうち、解約・休会の条件を公式サイトに記載していたのは9社でした。法定のルールと各社の公表状況を整理しています。",
+    "結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと中途解約の違約金上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法律で定められています。実査24社のうち、解約・休会の条件を公式サイトに記載していたのは10社でした。法定のルールと各社の公表状況を整理しています。",
   alternates: { canonical: "/knowledge/kaiyaku/" },
 };
 
@@ -117,7 +117,16 @@ const rows: Row[] = [
   { slug: "excellence-aoyama", name: "エクセレンス青山", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月31日", status: "未確認" },
   { slug: "bridal-tulip", name: "ブライダルチューリップ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月", status: "未確認" },
   { slug: "code-for-marriage", name: "Code For Marriage", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年8月17日", status: "未確認" },
-  { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月", status: "未確認" },
+  // 2026-10-18 公式「料金」ページ(https://n-otakanomori.com/price/)の〈クーリングオフ〉〈中途解約〉〈休会〉欄で確認
+  {
+    slug: "nagareyama-otakanomori",
+    name: "流山おおたかの森の相談所",
+    cooling: "入会申込契約書の受領日から8日間は、書面または電磁的記録で契約を解除でき、受領済みの金銭は全額返還",
+    midterm: "8日経過後も将来に向かって解約可。プロフィール公開前は受領済みの金額から3万円を差し引いて返金、公開後は残存月の活動サポート費から「2万円」か「残存月の活動サポート費の20%」の低いほうを差し引いて返金。成婚退会時は活動サポート費の返金なし",
+    rest: "1年間の活動期間のうち1ヶ月休会可。休会中の月会費は不要で、データ維持費1,100円が必要。当月25日までに申請し翌月から1ヶ月。お見合い予定・交際中・申込中の案件が未確定の場合は休会不可",
+    surveyed: "2026年10月18日（公式料金ページ）",
+    status: "確認",
+  },
   { slug: "mars-cafe", name: "マーズカフェ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
   { slug: "seven", name: "結婚相談所セブン", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
 ];
@@ -133,7 +142,7 @@ const faqs = [
   },
   {
     q: "クーリング・オフは結婚相談所でも使えますか？",
-    a: "使えます。契約書面（法定書面）を受け取った日から数えて8日以内であれば、理由を問わず契約を解除でき、支払った金額は全額返金されます。当サイトが実査した24社のうち、8日間のクーリング・オフを公式サイトに明記していたのは8社でした。なおムスベルは「プラスコース（ご家族へのサポート含む）」について14日以内と公表しており（2026年9月22日確認）、これは法定の8日を上回る自主的な設定です。",
+    a: "使えます。契約書面（法定書面）を受け取った日から数えて8日以内であれば、理由を問わず契約を解除でき、支払った金額は全額返金されます。当サイトが実査した24社のうち、8日間のクーリング・オフを公式サイトに明記していたのは9社でした。なおムスベルは「プラスコース（ご家族へのサポート含む）」について14日以内と公表しており（2026年9月22日確認）、これは法定の8日を上回る自主的な設定です。",
   },
   {
     q: "公式サイトに「中途解約しても返金しません」と書かれていました。その記載に従う必要がありますか？",
@@ -164,7 +173,7 @@ const articleJsonLd = {
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-22",
-  dateModified: "2026-09-22",
+  dateModified: "2026-10-18",
   mainEntityOfPage: "https://mu-su-bi-ba.com/knowledge/kaiyaku/",
 };
 
@@ -190,7 +199,7 @@ export default function KnowledgeKaiyaku() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年9月22日</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月18日</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}

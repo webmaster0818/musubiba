@@ -17,6 +17,8 @@ const UPDATED: Record<string, string> = Object.fromEntries(
 );
 // 2026-10-17: セブン（公式で確認できない記載のFAQ追加）・流山おおたかの森（title/冒頭の改善）
 for (const r of ["/review/seven", "/review/nagareyama-otakanomori"]) UPDATED[r] = "2026-10-17";
+// 2026-10-18: 解約・返金のルール（流山おおたかの森の解約・休会条件を公式で確認し更新）
+UPDATED["/knowledge/kaiyaku"] = "2026-10-18";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
