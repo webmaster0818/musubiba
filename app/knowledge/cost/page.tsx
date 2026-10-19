@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import { FeeAllTable, FeeTotalTable } from "@/components/FeeTables";
 
 export const metadata: Metadata = {
-  title: "結婚相談所の料金を24社実査｜1年の総額は22万〜67万円【2026年】",
+  title: "結婚相談所の料金を24社実査｜1年の総額は約13万〜68万円【2026年】",
   description:
-    "当サイトが公式サイトを実査した結婚相談所24社の初期費用・月会費・成婚料を一覧で掲載。3項目すべてを公表している12社について1年で成婚退会した場合の総額を計算すると227,600円〜677,050円（中央値434,500円）でした。月会費の中央値、成婚料なしの社数まで実数で示します。",
+    "当サイトが公式サイトを実査した結婚相談所24社の初期費用・月会費・成婚料を一覧で掲載。3項目すべてを公表している18社について1年で成婚退会した場合の総額を計算すると125,400円〜677,050円（中央値414,700円）でした。月会費の中央値、成婚料なしの社数まで実数で示します。",
   alternates: { canonical: "/knowledge/cost/" },
 };
 
@@ -76,7 +76,7 @@ const breadcrumbJsonLd = {
 };
 
 const relatedLinks = [
-  { href: "/compare/cheap/", label: "安い結婚相談所を1年総額で比較する（検証済み10社ランキング）" },
+  { href: "/compare/cheap/", label: "安い結婚相談所を1年総額で比較する（検証済み24社ランキング）" },
   { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）で実際の料金を見比べる" },
   { href: "/review/wellsma/", label: "ウェルスマの料金・評判を見る（月会費11,800円〜のオンライン仲人型）" },
   { href: "/review/musbell/", label: "ムスベルの料金・評判を見る（成婚料を含む総額の目安）" },
@@ -98,7 +98,7 @@ export default function KnowledgeCost() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の料金相場は？初期費用・月会費・成婚料の目安【2026年】
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月19日（「月会費が一番安い相談所」のよくある質問を24社の料金データに合わせて更新）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月19日（よくある質問・ページ説明の金額を24社の料金データに合わせて更新）</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}

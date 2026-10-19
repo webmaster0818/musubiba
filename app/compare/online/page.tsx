@@ -282,7 +282,7 @@ export default function OnlineComparePage() {
         <section className="rounded-lg bg-[#FAF7F2] border border-gray-100 p-6">
           <h2 className="font-medium mb-3">関連ページ</h2>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（検証済み10社ランキング）</Link></li>
+            <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（検証済み24社ランキング）</Link></li>
             <li><Link href="/knowledge/cost/" className="text-[#A08447] underline">結婚相談所の料金相場（初期費用・月会費・成婚料の実額データ）</Link></li>
             <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジの口コミ・評判</Link></li>
             <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの口コミ・評判</Link></li>

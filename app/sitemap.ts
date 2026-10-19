@@ -23,6 +23,8 @@ UPDATED["/knowledge/kaiyaku"] = "2026-10-18";
 UPDATED["/review/fiore"] = "2026-10-19";
 // 2026-10-19: 費用ガイド（「月会費が一番安い」FAQを24社の料金データと一致させた）
 UPDATED["/knowledge/cost"] = "2026-10-19";
+// 2026-10-19: オンライン比較（/compare/cheap/ へのリンク文言の掲載社数を24社に修正）
+UPDATED["/compare/online"] = "2026-10-19";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
