@@ -21,6 +21,8 @@ for (const r of ["/review/seven", "/review/nagareyama-otakanomori"]) UPDATED[r] 
 UPDATED["/knowledge/kaiyaku"] = "2026-10-18";
 // 2026-10-19: フィオーレ（料金ページを公式で再確認・確認日を更新）
 UPDATED["/review/fiore"] = "2026-10-19";
+// 2026-10-19: 費用ガイド（「月会費が一番安い」FAQを24社の料金データと一致させた）
+UPDATED["/knowledge/cost"] = "2026-10-19";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",
