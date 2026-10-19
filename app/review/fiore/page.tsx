@@ -8,7 +8,7 @@ import ReviewFacts from "@/components/ReviewFacts";
 export const metadata = {
   title: "結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率52.0%の定義【2026年10月】",
   description:
-    "結婚相談所フィオーレ（FIORE）の口コミ・評判を、掲載媒体を明記して整理しています。3コースの料金（月会費5,830円〜14,300円・2026年10月15日公式再確認）、1年総額の計算、成婚率52.0%の定義、運営会社、勧誘・退会に関するよくある質問も掲載しています。",
+    "結婚相談所フィオーレ（FIORE）の口コミ・評判を、掲載媒体を明記して整理しています。3コースの料金（月会費5,830円〜14,300円・2026年10月19日公式再確認）、1年総額の計算、成婚率52.0%の定義、運営会社、勧誘・退会に関するよくある質問も掲載しています。",
 };
 
 const overview = {
@@ -115,7 +115,7 @@ export default function FioreReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率の定義まで
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月15日（料金・実績は2026年10月14日に公式サイトで確認、料金は10月15日に再確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月19日（料金・実績は2026年10月14日に公式サイトで確認、料金は10月19日に再確認）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
