@@ -110,6 +110,35 @@ const services = [
   },
 ];
 
+type AgencyCard = { name: string; slug: string; path: string; fee: string; noImage?: boolean };
+
+const allAgencies: AgencyCard[] = [
+  { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,400円〜" },
+  { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
+  { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費14,300円〜" },
+  { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費7,700円〜" },
+  { name: "スマリッジ", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円" },
+  { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
+  { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費5,830円〜" },
+  { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
+  { name: "結婚相談所セブン", slug: "seven", path: "/review/seven/", fee: "月会費9,800円" },
+  { name: "ムスベル", slug: "musbell", path: "/review/musbell/", fee: "月会費15,400円〜" },
+  { name: "naco-do", slug: "naco-do", path: "/review/naco-do/", fee: "月会費16,800円" },
+  { name: "サンマリエ", slug: "sunmarie", path: "/review/sunmarie/", fee: "月会費18,700円" },
+  { name: "エン婚活エージェント", slug: "en-konkatsu", path: "/review/en-konkatsu/", fee: "月会費16,500円" },
+  { name: "ウェルスマ", slug: "wellsma", path: "/review/wellsma/", fee: "月会費11,800円〜" },
+  { name: "ブライダルチューリップ", slug: "bridal-tulip", path: "/review/bridal-tulip/", fee: "月会費7,550円〜" },
+  { name: "東京フォリパートナー", slug: "folli-partner", path: "/review/folli-partner/", fee: "月会費16,500円〜" },
+  { name: "ヒーローマリッジ", slug: "hero-marriage", path: "/review/hero-marriage/", fee: "月会費14,300円〜" },
+  { name: "エクセレンス青山", slug: "excellence-aoyama", path: "/review/excellence-aoyama/", fee: "月会費7,700円〜" },
+  { name: "IBJメンバーズ", slug: "ibj-members", path: "/review/ibj-members/", fee: "月会費17,050円" },
+  { name: "P!っと縁結び", slug: "pitto", path: "/review/pitto/", fee: "月会費7,700円〜" },
+  { name: "ベルロード縁結びサポート", slug: "bellroad", path: "/review/bellroad/", fee: "月会費9,800円（サブスク型）" },
+  { name: "流山おおたかの森結婚相談所", slug: "nagareyama-otakanomori", path: "/review/nagareyama-otakanomori/", fee: "月会費9,900円", noImage: true },
+  { name: "Code For Marriage", slug: "code-for-marriage", path: "/review/code-for-marriage/", fee: "月会費11,000円（スタンダード）", noImage: true },
+  { name: "nikoブライダル", slug: "niko-bridal", path: "/review/niko-bridal/", fee: "月会費13,200円〜", noImage: true },
+];
+
 const faqs = [
   {
     q: "結婚相談所の料金相場はどのくらいですか？",
@@ -368,46 +397,30 @@ export default function Home() {
             全結婚相談所一覧
           </h2>
           <p className="text-center text-[#2C2C2C]/50 mb-12 tracking-wider">
-            掲載している24社のレビューと、都道府県別の店舗データベースをご覧いただけます
+            {`掲載している${allAgencies.length}社のレビューと、都道府県別の店舗データベースをご覧いただけます`}
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-            {[
-              { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,400円〜" },
-              { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
-              { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費14,300円〜" },
-{ name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費7,700円〜" },
-              { name: "スマリッジ", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円" },
-              { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
-              { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費5,830円〜" },
-              { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
-              { name: "結婚相談所セブン", slug: "seven", path: "/review/seven/", fee: "月会費9,800円" },
-              { name: "ムスベル", slug: "musbell", path: "/review/musbell/", fee: "月会費15,400円〜" },
-              { name: "naco-do", slug: "naco-do", path: "/review/naco-do/", fee: "月会費16,800円" },
-              { name: "サンマリエ", slug: "sunmarie", path: "/review/sunmarie/", fee: "月会費18,700円" },
-              { name: "エン婚活エージェント", slug: "en-konkatsu", path: "/review/en-konkatsu/", fee: "月会費16,500円" },
-              { name: "ウェルスマ", slug: "wellsma", path: "/review/wellsma/", fee: "月会費11,800円〜" },
-              { name: "ブライダルチューリップ", slug: "bridal-tulip", path: "/review/bridal-tulip/", fee: "月会費7,550円〜" },
-              { name: "東京フォリパートナー", slug: "folli-partner", path: "/review/folli-partner/", fee: "月会費16,500円〜" },
-              { name: "ヒーローマリッジ", slug: "hero-marriage", path: "/review/hero-marriage/", fee: "月会費14,300円〜" },
-              { name: "エクセレンス青山", slug: "excellence-aoyama", path: "/review/excellence-aoyama/", fee: "月会費7,700円〜" },
-              { name: "IBJメンバーズ", slug: "ibj-members", path: "/review/ibj-members/", fee: "月会費17,050円" },
-              { name: "P!っと縁結び", slug: "pitto", path: "/review/pitto/", fee: "月会費7,700円〜" },
-              { name: "ベルロード縁結びサポート", slug: "bellroad", path: "/review/bellroad/", fee: "月会費9,800円（サブスク型）" },
-            ].map((agency) => (
+            {allAgencies.map((agency) => (
               <Link
                 key={agency.name}
                 href={agency.path}
                 className="block bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow"
               >
-                <div className="aspect-video overflow-hidden">
-                  <img src={`/ss-${agency.slug}.jpg`} alt={`${agency.name} 公式サイト`} className="w-full h-full object-cover object-top" />
-                </div>
+                {agency.noImage ? (
+                  <div className="aspect-video flex items-center justify-center bg-[#FAF7F2] px-3 text-center">
+                    <span className="text-xs text-[#A08447] tracking-wider leading-relaxed">{agency.name}</span>
+                  </div>
+                ) : (
+                  <div className="aspect-video overflow-hidden">
+                    <img src={`/ss-${agency.slug}.jpg`} alt={`${agency.name} 公式サイト`} className="w-full h-full object-cover object-top" />
+                  </div>
+                )}
                 <div className="p-4">
                   <h3 className="font-bold text-gray-800 text-sm">{agency.name}</h3>
                   <p className="text-xs text-gray-500 mt-1">{agency.fee}</p>
                   <p className="text-xs text-[#A08447] mt-2 font-medium">詳細を見る →</p>
                 </div>
-                <p className="text-[10px] text-gray-400 px-4 pb-2">画像引用：公式サイトより</p>
+                {!agency.noImage && <p className="text-[10px] text-gray-400 px-4 pb-2">画像引用：公式サイトより</p>}
               </Link>
             ))}
           </div>
