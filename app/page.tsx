@@ -353,7 +353,7 @@ export default function Home() {
                       href={s.reviewPath}
                       className="flex-1 text-center border border-[#A08447] text-[#A08447] hover:bg-[#F5F0EB] font-normal py-3.5 px-6 rounded-lg transition-colors tracking-wider"
                     >
-                      口コミ・詳細を見る
+                      {s.name}の口コミ・評判を見る
                     </Link>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function Home() {
                 <div className="p-4">
                   <h3 className="font-bold text-gray-800 text-sm">{agency.name}</h3>
                   <p className="text-xs text-gray-500 mt-1">{agency.fee}</p>
-                  <p className="text-xs text-[#A08447] mt-2 font-medium">詳細を見る →</p>
+                  <p className="text-xs text-[#A08447] mt-2 font-medium">口コミ・評判を見る →</p>
                 </div>
                 {!agency.noImage && <p className="text-[10px] text-gray-400 px-4 pb-2">画像引用：公式サイトより</p>}
               </Link>

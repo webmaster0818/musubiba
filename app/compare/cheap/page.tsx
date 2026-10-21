@@ -451,7 +451,7 @@ export default function CheapComparePage() {
                 </div>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">{r.note}</p>
                 {checkedLabel(r.slug) && <p className="text-xs text-[#2C2C2C]/50 mb-2">料金の確認日：{checkedLabel(r.slug)}</p>}
-                <Link href={`/review/${r.slug}/`} className="text-sm text-[#A08447] underline">詳しい口コミ・評判を見る →</Link>
+                <Link href={`/review/${r.slug}/`} className="text-sm text-[#A08447] underline">{r.name}の口コミ・評判を見る →</Link>
               </div>
             ))}
           </div>

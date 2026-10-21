@@ -157,7 +157,7 @@ export default function ComparePage() {
           <h2 className="text-lg font-bold text-gray-900 mb-4">各相談所の詳しい口コミ・評判</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
             {agencies.map((a) => (
-              <Link key={a.slug} href={`/review/${a.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center font-medium text-gray-700 hover:border-rose-400 hover:text-rose-700 transition-colors">{a.name}</Link>
+              <Link key={a.slug} href={`/review/${a.slug}/`} className="block bg-white border border-gray-200 rounded-lg p-3 text-center font-medium text-gray-700 hover:border-rose-400 hover:text-rose-700 transition-colors">{a.name}の口コミ・評判</Link>
             ))}
           </div>
         </section>
