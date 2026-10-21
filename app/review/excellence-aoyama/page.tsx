@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: "お見合い料がかからないコースはありますか？",
-    a: "プライムコース（入会金110,000円）では、お見合いが月4名まで無料と公式サイトに記載されています。お見合い回数が多くなりそうな方は、スタンダードコースとの総額を比較することをおすすめします。詳細な条件は公式サイト・無料相談でご確認ください。",
+    a: "公式の料金ページ（2026年10月21日確認）では、女性のプライム・エグゼクティブ、男性のエグゼクティブ、ラグジュアリーコースで、お見合い料が月4名まで無料（5名以降は1名5,500円）です。男性のプライムコースはお見合い料5,500円/回で、無料の対象ではありません。お見合い回数が多くなりそうな方は、スタンダードコースとの総額を比較することをおすすめします。",
   },
   {
     q: "20代でも入会しやすいプランはありますか？",
@@ -145,7 +145,7 @@ const REVIEW_EXTRA = {
   ],
   "entrySource": "エクセレンス青山公式「ご入会案内」「お試し入会」・公式トップ",
   "facts": [
-    "公式「ご成婚者様の声」の1ページ目には20件が掲載されています。成婚年月の記載がある20件のうち18件が2026年、年齢・婚歴の記載がある19件のうち再婚・再再婚は4件でした。"
+    "公式「ご成婚者様の声」の1ページ目には20件が掲載されています。成婚年月の記載がある20件のうち19件が2026年（2026年10月が2件）、婚歴の記載がある19件のうち再婚・再再婚は3件でした（2026年10月21日確認。1ページ目は更新されるため、件数は確認日時点のものです）。"
   ],
   "factsTitle": "エクセレンス青山の公式「ご成婚者様の声」の掲載状況"
 };
@@ -163,7 +163,7 @@ export default function ExcellenceAoyamaReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           エクセレンス青山の口コミ・評判｜4連盟33万人・料金コース・成婚率の注意点まで検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで再確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金を公式サイトで再確認し、プライム・エグゼクティブ・ラグジュアリーの男女別料金を反映）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -223,14 +223,17 @@ export default function ExcellenceAoyamaReview() {
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">スタンダード（女性）</td><td className="px-4 py-3 text-center">55,000円</td><td className="px-4 py-3 text-center">7,700円</td><td className="px-4 py-3 text-center">5,500円/回</td><td className="px-4 py-3 text-center">220,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">スタンダード（男性）</td><td className="px-4 py-3 text-center">55,000円</td><td className="px-4 py-3 text-center">7,700円</td><td className="px-4 py-3 text-center">8,800円/回</td><td className="px-4 py-3 text-center">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">プライム</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">公式サイト参照</td><td className="px-4 py-3 text-center">月4名まで無料</td><td className="px-4 py-3 text-center">220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">エグゼクティブ</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">公式サイト参照</td><td className="px-4 py-3 text-center">公式サイト参照</td><td className="px-4 py-3 text-center">220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">プライム（女性）</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">14,300円</td><td className="px-4 py-3 text-center">月4名まで無料（5名以降5,500円/名）</td><td className="px-4 py-3 text-center">220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">プライム（男性）</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">7,700円</td><td className="px-4 py-3 text-center">5,500円/回</td><td className="px-4 py-3 text-center">220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">エグゼクティブ（女性・2年間）</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">7,700円</td><td className="px-4 py-3 text-center">月4名まで無料（5名以降5,500円/名）</td><td className="px-4 py-3 text-center">220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">エグゼクティブ（男性・2年間）</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">11,000円</td><td className="px-4 py-3 text-center">月4名まで無料（5名以降5,500円/名）</td><td className="px-4 py-3 text-center">220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">ラグジュアリー（男女とも）</td><td className="px-4 py-3 text-center">55,000円</td><td className="px-4 py-3 text-center">22,000円（月5名紹介）／33,000円（月10名紹介）。本交際中は11,000円</td><td className="px-4 py-3 text-center">月4名まで無料（5名以降5,500円/名）</td><td className="px-4 py-3 text-center">220,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">20代限定トライアル</td><td className="px-4 py-3 text-center" colSpan={3}>11,000円（1ヶ月）</td><td className="px-4 py-3 text-center">220,000円</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年7月31日時点の公式サイト掲載の税込料金です。「公式サイト参照」の項目は当サイトで金額を確認できなかったため掲載していません。料金は改定される場合があるため、最新の金額・条件は必ず公式サイトまたは無料相談でご確認ください。
+            ※2026年10月21日に公式の料金ページで確認した税込料金です（以前「公式サイト参照」としていたプライム・エグゼクティブの月会費は、今回の確認で公式に男女別の金額が載っていたため反映しました）。このほか、女性限定の花形プラン・医師/歯科医師向けのドクターコース（いずれもプライムの初期費用が66,000円になる特別限定）、誕生月の方の入会金10%OFFなどのキャンペーンが告知されています（併用不可）。料金は改定される場合があるため、最新の金額・条件は必ず公式サイトまたは無料相談でご確認ください。
           </p>
         </section>
 
@@ -321,7 +324,7 @@ export default function ExcellenceAoyamaReview() {
         {/* Reviews / How to verify */}
         <ReviewVoices
           name="エクセレンス青山"
-          checkedOn="2026年10月14日"
+          checkedOn="2026年10月21日"
           reviewNote="Googleマップの「結婚相談所エクセレンス青山」には口コミ31件・評価4.6がありました（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、スタンダード（入会金55,000円・月会費7,700円・成婚料220,000円）ほかの料金に変更はありませんでした。キャンペーンとして、男性限定プレミアムコースの初期費用5,500円（通常33,000円・毎月先着10名）、月中の「無料オンラインカウンセリング」で入会金10%OFFなどが告知されています（併用不可）。定休日は公式サイト内で火曜・水曜の表記が混在しているため、来店前にご確認ください。"
         />
 
@@ -337,7 +340,7 @@ export default function ExcellenceAoyamaReview() {
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>直近の成婚実績（公称85.7%は2019年実績のため、最新年の実績と算出定義を必ず質問する）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>お見合い料込みの想定総額（月に何回お見合いする想定か。回数次第でプライムコースとの損益分岐が変わる）</li>
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>プライム・エグゼクティブコースの月会費など、公式サイトに詳細掲載のない費用項目</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>コースごとの月会費・お見合い料が男女で違う点（例：プライムは女性が月14,300円・お見合い月4名まで無料、男性が月7,700円・お見合い5,500円/回）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>4連盟（IBJ/BIU/TMS/NNR）をどう使い分けて紹介してくれるのかの具体的な運用</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>担当カウンセラーとの相性（専属仲人型は担当者次第で活動の質が大きく変わるため、面談で必ず確認）</li>
             </ul>
@@ -365,7 +368,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月21日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

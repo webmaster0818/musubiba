@@ -30,6 +30,8 @@ UPDATED["/compare/cheap"] = "2026-10-21";
 UPDATED["/knowledge/kaiyaku"] = "2026-10-21";
 // 2026-10-21: フィオーレ（公式料金表の改定＝スマートコース・お見合い回数保証・活動制限1,100円を反映、解約・返金条件を追記）・料金比較一覧
 for (const r of ["/review/fiore", "/compare", ""]) UPDATED[r] = "2026-10-21";
+// 2026-10-21: 4社の公式再確認（チューリップ交際成立時の手数料・エクセレンス青山の男女別料金・ウェルスマIBJ会員数・フォリ成婚率期間/受賞）
+for (const r of ["/review/bridal-tulip", "/review/excellence-aoyama", "/review/wellsma", "/review/folli-partner", "/mens", "/compare/online", "/knowledge/renmei", "/knowledge/seikon-ritsu", "/compare/folli-vs-musbell"]) UPDATED[r] = "2026-10-21";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

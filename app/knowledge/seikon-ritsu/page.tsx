@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const rows = [
   { slug: "wellsma", name: "ウェルスマ", value: "86.1%", scope: "「1年以内成婚率」として公称", surveyed: "2026年7月31日", type: "公表" },
   { slug: "excellence-aoyama", name: "エクセレンス青山", value: "85.7%", scope: "自社公称。2019年実績として掲載", surveyed: "2026年7月31日", type: "公表" },
-  { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年7月〜2026年7月)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
+  { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年10月〜2026年10月（2026年10月21日時点の公式表記）)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
   { slug: "bridal-tulip", name: "ブライダルチューリップ", value: "60%以上", scope: "自社公称(算出の定義は公式ページに記載)", surveyed: "2026年7月", type: "公表" },
   { slug: "niko-bridal", name: "nikoブライダル", value: "56.3%", scope: "2025年1〜12月の成婚退会人数 ÷ 全退会人数", surveyed: "2026年7月7日", type: "公表" },
   { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.0%", scope: "2012〜2025年の全退会者16,692名のうち成婚退会8,684名の割合(公式注記)", surveyed: "2026年10月14日", type: "公表" },
@@ -177,7 +177,7 @@ export default function KnowledgeSeikonRitsu() {
             <div className="border border-[#E5DCCF] rounded-xl p-5">
               <h3 className="font-medium text-[#A08447] mb-2 tracking-wider">東京フォリパートナー 71.5%</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
-                「直近1年（2025年7月〜2026年7月）の<strong>成婚退会者 ÷ 全退会者</strong>、ただし<strong>相談所以外での成婚を除く</strong>」と定義が明示されています。分母の考え方はパートナーエージェントと近い一方、対象期間が新しく、コース限定もありません。
+                「直近1年（2025年10月〜2026年10月（2026年10月21日時点の公式表記））の<strong>成婚退会者 ÷ 全退会者</strong>、ただし<strong>相談所以外での成婚を除く</strong>」と定義が明示されています。分母の考え方はパートナーエージェントと近い一方、対象期間が新しく、コース限定もありません。
               </p>
             </div>
             <div className="border border-[#E5DCCF] rounded-xl p-5">

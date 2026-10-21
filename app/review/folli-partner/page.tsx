@@ -25,7 +25,7 @@ const overview = {
   matchingFee: "250,000円〜300,000円（コース別・税込）",
   omiaiFee: "全コース0円",
   successRate:
-    "71.5%（自社公称。直近1年〈2025年7月〜2026年7月〉の成婚退会者÷全退会者〈相談所以外での成婚を除く〉）",
+    "71.5%（自社公称。直近1年〈公式の算出期間の表記は2025年10月〜2026年10月・2026年10月21日確認〉の成婚退会者÷全退会者〈相談所以外での成婚を除く〉）",
 };
 
 const plans = [
@@ -39,7 +39,7 @@ const plans = [
 const strengths = [
   {
     title: "成婚率71.5%を算出定義とあわせて公表（自社公称）",
-    desc: "公表されている成婚率71.5%は「直近1年（2025年7月〜2026年7月）の成婚退会者÷全退会者（相談所以外での成婚を除く）」という算出定義が明示されています。在籍300名以上の大手基準での算出で、定義を示さずに高い数字だけを掲げる相談所と比べて検証しやすいのが特徴です。平均成婚期間は10ヶ月（自社公称）とされています。",
+    desc: "公表されている成婚率71.5%は「直近1年（公式の算出期間の表記は2025年10月〜2026年10月。同じ公式サイト内に「2025年9月〜2026年9月実績」の表記も残っています・2026年10月21日確認）の成婚退会者÷全退会者（相談所以外での成婚を除く）」という算出定義が明示されています。在籍300名以上の大手基準での算出で、定義を示さずに高い数字だけを掲げる相談所と比べて検証しやすいのが特徴です。平均成婚期間は10ヶ月（自社公称）とされています。",
   },
   {
     title: "マーケティングの考え方を取り入れた婚活設計と少人数担当制",
@@ -51,7 +51,7 @@ const strengths = [
   },
   {
     title: "IBJサミット・IBJ Awardの受賞実績",
-    desc: "IBJサミット2023では成婚数・成婚率の2部門でTOP7表彰、さらにIBJ Award 2025を受賞しています。IBJ加盟店の中での相対的な実績を第三者（IBJ連盟）の表彰制度で確認できる点は、数字の裏付けとして参考になります。",
+    desc: "IBJサミット2023では成婚数・成婚率の2部門でTOP7表彰、さらに「IBJ AWARD 2026上期」を受賞したと公式サイトで告知しています（2026年7月9日のお知らせ）。IBJ加盟店の中での相対的な実績を第三者（IBJ連盟）の表彰制度で確認できる点は、数字の裏付けとして参考になります。",
   },
 ];
 
@@ -73,7 +73,7 @@ const cons = [
 const faqs = [
   {
     q: "フォリパートナーの成婚率71.5%はどうやって算出されていますか？",
-    a: "自社公称の数値で、算出定義は「直近1年（2025年7月〜2026年7月）の成婚退会者÷全退会者（相談所以外での成婚を除く）」です。在籍300名以上の大手基準での算出とされています。なお一部の紹介記事に見られる「成婚率68%」は旧数値です。最新の数値と定義は無料相談で直接確認することをおすすめします。",
+    a: "自社公称の数値で、算出定義は「直近1年（公式の算出期間の表記は2025年10月〜2026年10月・2026年10月21日確認）の成婚退会者÷全退会者（相談所以外での成婚を除く）」です。在籍300名以上の大手基準での算出とされています。なお一部の紹介記事に見られる「成婚率68%」は旧数値です。最新の数値と定義は無料相談で直接確認することをおすすめします。",
   },
   {
     q: "広告の「会員数・成婚数No.1」はフォリパートナーがNo.1という意味ですか？",
@@ -171,7 +171,7 @@ export default function FolliPartnerReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           東京フォリパートナーの口コミ・評判｜成婚率71.5%の算出定義・5コース料金・No.1表記の読み方を検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式サイトで再確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金・成婚率の算出期間・受賞歴を公式サイトで再確認）</p>
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
@@ -179,7 +179,7 @@ export default function FolliPartnerReview() {
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />東京フォリパートナーの特徴と適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ正規加盟・優良認定加盟店の仲人型相談所です。<strong>成婚率71.5%（自社公称）を算出定義とあわせて公表</strong>（直近1年の成婚退会者÷全退会者・相談所以外での成婚を除く）しており、IBJサミット2023で成婚数/成婚率2部門TOP7表彰、IBJ Award 2025も受賞しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ正規加盟・優良認定加盟店の仲人型相談所です。<strong>成婚率71.5%（自社公称）を算出定義とあわせて公表</strong>（直近1年の成婚退会者÷全退会者・相談所以外での成婚を除く）しており、IBJサミット2023で成婚数/成婚率2部門TOP7表彰、IBJ AWARD 2026上期も受賞しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：5コース制で初期費用110,000円〜・月会費16,500円〜・成婚料250,000円〜（税込・全コースお見合い料0円）。<strong>スタンダードで1年活動した場合の総額目安は約63.4万円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：広告で見かける「会員数・成婚数No.1」は<strong>IBJ連盟自体の実績（日本マーケティングリサーチ機構調べ）で、フォリパートナー単体のNo.1ではありません</strong>。この点を踏まえてご検討ください（詳細は本文で説明しています）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：首都圏（東京・横浜）で店舗面談を受けたい方、数字の算出根拠を示す相談所を選びたい方、お見合いの回数を気にせず活動したい方に適しています。Zoomに対応しているため、地方からも利用できます。</span></li>
@@ -225,7 +225,7 @@ export default function FolliPartnerReview() {
             これはフォリパートナーに限ったことではなく、IBJ加盟店の多く（全国4,000社以上）が同様の連盟実績を広告に使用しています。そのため「No.1」の部分は<strong>どのIBJ加盟店に入会しても共通して得られる会員ネットワークの規模</strong>を表しており、相談所ごとの違いはそこには表れません。
           </p>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
-            相談所を比較する際は、連盟の実績ではなく<strong>その相談所固有の情報</strong>（成婚率の算出定義、担当制の体制、料金の内訳、解約条件）で判断することをおすすめします。フォリパートナーの場合、成婚率71.5%（自社公称・定義公表あり）やIBJサミット2023のTOP7表彰、IBJ Award 2025受賞といった「加盟店単体としての実績」が比較対象になります。
+            相談所を比較する際は、連盟の実績ではなく<strong>その相談所固有の情報</strong>（成婚率の算出定義、担当制の体制、料金の内訳、解約条件）で判断することをおすすめします。フォリパートナーの場合、成婚率71.5%（自社公称・定義公表あり）やIBJサミット2023のTOP7表彰、IBJ AWARD 2026上期受賞といった「加盟店単体としての実績」が比較対象になります。
           </p>
         </section>
 
@@ -337,7 +337,7 @@ export default function FolliPartnerReview() {
         {/* 評判・口コミについて */}
         <ReviewVoices
           name="東京フォリパートナー"
-          checkedOn="2026年10月14日"
+          checkedOn="2026年10月21日"
           reviewNote="Googleマップの「結婚相談所 東京フォリパートナー」には口コミ58件・評価4.9が掲載されていました（当サイトが2026年8月18日に取得）。2026年10月14日に公式の料金ページを再確認し、ライト（初期費用110,000円・月会費16,500円・成婚料250,000円・紹介1名以上/月）〜スーペリア（250,000円・22,000円・300,000円・3名以上/月）の5コース、全コースお見合い料0円・2年目以降の更新料無料は変更ありませんでした。店舗は代々木（本店）・神田秋葉原・日本橋茅場町・青山・横浜湘南で、Zoom相談は全国対応です。"
         />
 
@@ -354,7 +354,7 @@ export default function FolliPartnerReview() {
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つのポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70 leading-relaxed">
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>成婚率の最新値と定義</strong>：公表されている71.5%の算出期間（2025年7月〜2026年7月）と定義（成婚退会者÷全退会者）を口頭でも確認し、説明が一貫しているかをご確認ください。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>成婚率の最新値と定義</strong>：公表されている71.5%の算出期間（2026年10月21日時点の公式表記は2025年10月〜2026年10月）と定義（成婚退会者÷全退会者）を口頭でも確認し、説明が一貫しているかをご確認ください。</span></li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>担当カウンセラーの受け持ち人数</strong>：公称の「1名30名程度まで」がご自身の担当予定者にも当てはまるかをご確認ください。</span></li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>紹介人数保証の条件</strong>：検討中のコースで毎月何名の紹介が保証されるか（コース別1〜3名）、保証が適用されない条件があるかをご確認ください。</span></li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>総額とオプションの線引き</strong>：初期費用・月会費・成婚料の3項目以外に発生しうる費用（指名11,000円・撮影同行16,500円など）を書面でご確認ください。</span></li>
@@ -385,7 +385,7 @@ export default function FolliPartnerReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月21日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

@@ -27,7 +27,7 @@ const ibjRows: Row[] = [
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森結婚相談所", federation: "IBJ加盟", monthly: "9,900円", success: "220,000円" },
   { slug: "code-for-marriage", name: "Code For Marriage", federation: "IBJ正規加盟", monthly: "11,000円〜", success: "220,000円" },
   { slug: "pitto", name: "P!っと縁結び", federation: "IBJ正規加盟", monthly: "11,000円〜16,500円", success: "220,000円" },
-  { slug: "wellsma", name: "ウェルスマ", federation: "IBJ正規加盟（会員10.8万名・2024年末時点の公式掲載値）", monthly: "11,800円〜19,800円", success: "149,800円" },
+  { slug: "wellsma", name: "ウェルスマ", federation: "IBJ正規加盟（IBJ会員110,885名・2026年10月21日公式確認）", monthly: "11,800円〜19,800円", success: "149,800円" },
   { slug: "niko-bridal", name: "nikoブライダル", federation: "IBJ正規加盟（ネットワーク 104,859名）", monthly: "13,200円〜", success: "220,000円" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", federation: "IBJ加盟", monthly: "14,300円〜27,500円", success: "220,000円" },
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },
@@ -201,7 +201,7 @@ export default function KnowledgeRenmei() {
             <ul className="space-y-2 text-[#2C2C2C]/80">
               <li>・<strong>月会費は7,550円（Bridalチューリップ）〜17,050円（IBJメンバーズ）で約2.3倍です</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
               <li>・<strong>成婚料は80,000円（ベルロード）〜300,000円（東京フォリパートナー上限）で約3.8倍です</strong>。総額に最も大きく影響する項目です。</li>
-              <li>・<strong>会員数を具体的な人数で公表していたのは4社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ10.8万名・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
+              <li>・<strong>会員数を具体的な人数で公表していたのは4社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ110,885名（IBJ会員）・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
             </ul>
           </div>
 
@@ -239,7 +239,7 @@ export default function KnowledgeRenmei() {
               </div>
               <div className="border border-[#E5DCCF] rounded-xl p-5">
                 <p className="font-medium text-[#2C2C2C] mb-1">naco-do（ナコード）</p>
-                <p className="text-xs">JBA・CONNECT-ship・良縁ネットの<strong>3連携</strong>／約12.1万人</p>
+                <p className="text-xs">JBA・CONNECT-ship・SCRUMの<strong>3連盟</strong>／19.1万人（2026年10月21日公式確認）</p>
               </div>
               <div className="border border-[#E5DCCF] rounded-xl p-5">
                 <p className="font-medium text-[#2C2C2C] mb-1">ムスベル</p>

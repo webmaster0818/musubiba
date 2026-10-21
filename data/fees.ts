@@ -65,7 +65,7 @@ export type FeeChecked = { date: string; approx?: boolean };
 export const FEE_CHECKED: Record<string, FeeChecked> = {
   "naco-do": { date: "2026-10-14" },
   seven: { date: "2026-10-14" },
-  "bridal-tulip": { date: "2026-10-14" },
+  "bridal-tulip": { date: "2026-10-21" },
   "excellence-aoyama": { date: "2026-10-14" },
   smartread: { date: "2026-10-14" },
   bellroad: { date: "2026-10-14" },
