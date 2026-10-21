@@ -54,6 +54,64 @@ export const FEES: Fee[] = [
   { slug: "ringbell", name: "リングベル", monthly: null, initial: null, success: null, monthlyText: "—", initialText: "—", type: "仲人型・地域密着" },
 ];
 
+/**
+ * 各社の料金を公式サイトで最後に確認した日（2026-10-21 新設）。
+ * 根拠は各レビューページの「最終更新／料金は○月○日に公式サイトで確認」の記載。
+ * 日付は "YYYY-MM-DD"。確認日の記録がなく月しか分からない社は "YYYY-MM" とし、approx を立てる
+ * （画面では「○月時点の当サイト調査値」と表示し、公式確認日とは書かない）。
+ * 料金を再確認したら、ここを更新すれば /compare/cheap/ の確認日表記がすべて追従する。
+ */
+export type FeeChecked = { date: string; approx?: boolean };
+export const FEE_CHECKED: Record<string, FeeChecked> = {
+  "naco-do": { date: "2026-10-14" },
+  seven: { date: "2026-10-14" },
+  "bridal-tulip": { date: "2026-10-14" },
+  "excellence-aoyama": { date: "2026-10-14" },
+  smartread: { date: "2026-10-14" },
+  bellroad: { date: "2026-10-14" },
+  "nagareyama-otakanomori": { date: "2026-10-17" },
+  "mars-cafe": { date: "2026-10-14" },
+  "code-for-marriage": { date: "2026-08-17" },
+  pitto: { date: "2026-10-14" },
+  wellsma: { date: "2026-10-14" },
+  "niko-bridal": { date: "2026-07-07" },
+  "en-konkatsu": { date: "2026-10-14" },
+  "hero-marriage": { date: "2026-10-14" },
+  musbell: { date: "2026-06", approx: true },
+  zwei: { date: "2026-05", approx: true },
+  onet: { date: "2026-05", approx: true },
+  sunmarie: { date: "2026-10-14" },
+  "folli-partner": { date: "2026-10-14" },
+  "ibj-members": { date: "2026-10-14" },
+  "partner-agent": { date: "2026-10-14" },
+  fiore: { date: "2026-10-19" },
+  "marriage-pro": { date: "2026-08-17" },
+  ringbell: { date: "2026-06", approx: true },
+};
+
+/** "2026-10-14" → "2026年10月14日"、"2026-06" → "2026年6月" */
+export function jpDate(d: string) {
+  const [y, m, day] = d.split("-").map(Number);
+  return day ? `${y}年${m}月${day}日` : `${y}年${m}月`;
+}
+
+/** 画面表示用の確認日ラベル。記録がない社は null */
+export function checkedLabel(slug: string) {
+  const c = FEE_CHECKED[slug];
+  if (!c) return null;
+  return c.approx ? `${jpDate(c.date)}時点の当サイト調査値（公式での確認日の記録なし）` : `${jpDate(c.date)}に公式サイトで確認`;
+}
+
+/** 指定した社の確認時期の範囲（"2026年5月〜10月" 形式） */
+export function checkedRange(slugs: string[]) {
+  const ds = slugs.map((s) => FEE_CHECKED[s]?.date).filter((d): d is string => !!d).sort();
+  if (!ds.length) return null;
+  const [y1, m1] = ds[0].split("-").map(Number);
+  const [y2, m2] = ds[ds.length - 1].split("-").map(Number);
+  if (y1 === y2) return m1 === m2 ? `${y1}年${m1}月` : `${y1}年${m1}月〜${m2}月`;
+  return `${y1}年${m1}月〜${y2}年${m2}月`;
+}
+
 export const FEE_SURVEY_NOTE =
   "金額はいずれも、各社公式サイトの掲載値（税込）を当サイトが確認したものです。範囲で示されている項目は、下限の金額を採用しています。";
 

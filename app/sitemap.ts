@@ -25,6 +25,9 @@ UPDATED["/review/fiore"] = "2026-10-19";
 UPDATED["/knowledge/cost"] = "2026-10-19";
 // 2026-10-19: オンライン比較（/compare/cheap/ へのリンク文言の掲載社数を24社に修正）
 UPDATED["/compare/online"] = "2026-10-19";
+// 2026-10-21: 安い相談所の比較（確認日の表記を社ごとの実データに統一）・解約・返金のルール（未確認12社を公式で再確認）
+UPDATED["/compare/cheap"] = "2026-10-21";
+UPDATED["/knowledge/kaiyaku"] = "2026-10-21";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",

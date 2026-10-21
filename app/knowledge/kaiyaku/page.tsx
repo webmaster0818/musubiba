@@ -3,15 +3,8 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
-export const metadata: Metadata = {
-  title: "結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態【2026年9月実査】",
-  description:
-    "結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと中途解約の違約金上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法律で定められています。実査24社のうち、解約・休会の条件を公式サイトに記載していたのは10社でした。法定のルールと各社の公表状況を整理しています。",
-  alternates: { canonical: "/knowledge/kaiyaku/" },
-};
-
 // 各社の解約・休会に関する「公式サイトに書かれていた内容」。
-// 出所は各レビューページの実査記録、または本ページ作成時(2026年9月22日)の公式サイト実査。
+// 出所は各レビューページの実査記録、または本ページ作成時(2026年9月22日)・2026年10月21日の公式サイト実査。
 // 確認できなかった社は空欄にせず「公式サイトで確認できず」と書く(推測で埋めない)。
 type Row = {
   slug: string;
@@ -21,6 +14,8 @@ type Row = {
   rest: string;
   surveyed: string;
   status: "確認" | "未確認";
+  /** 休会欄が「制度なし」(none)または休会に近い別制度のみ(partial)の場合。休会制度ありの社数から除く */
+  restFlag?: "none" | "partial";
 };
 
 const rows: Row[] = [
@@ -105,17 +100,27 @@ const rows: Row[] = [
     surveyed: "2026年7月5日",
     status: "確認",
   },
-  { slug: "onet", name: "オーネット", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年9月22日", status: "未確認" },
-  { slug: "partner-agent", name: "パートナーエージェント", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年9月22日", status: "未確認" },
-  { slug: "sunmarie", name: "サンマリエ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年9月22日", status: "未確認" },
-  { slug: "naco-do", name: "naco-do（ナコード）", cooling: "公式サイトで確認できず", midterm: "中途退会時はプランの残期間に応じた精算（金額の記載は確認できず）", rest: "公式サイトで確認できず", surveyed: "2026年9月22日", status: "未確認" },
+  // 2026-10-21 公式「入会・料金」(https://onet.co.jp/service/entry/)の〈ご契約に関する注意事項〉と「よくある質問」(https://onet.co.jp/service/qa/)で確認
+  { slug: "onet", name: "オーネット", cooling: "契約書面の交付から8日以内は、書面または電磁的記録による通知で無条件に入会契約を解除でき、支払済みの料金は全額返金", midterm: "クーリング・オフ期間の経過後も解除可。サービス提供開始前は3万円、開始後は提供済みサービスの対価相当額＋「2万円」か「契約残額の20%」のいずれか低い額（特定商取引法にもとづく）", rest: "一般的な休会制度の記載は確認できず。オーネット会員同士で交際に進んだ場合は「会員間交際休止」（毎月申請制・最大12ヶ月、休止中の月会費2,200円・交際サポート料27,500円が1回）を利用可", surveyed: "2026年10月21日（公式 入会・料金ページ／よくある質問）", status: "確認", restFlag: "partial" },
+  // 2026-10-21 公式「よくある質問」(https://www.p-a.jp/visitor/questions/)と「コースと料金」(https://www.p-a.jp/guide/course/)で確認
+  { slug: "partner-agent", name: "パートナーエージェント", cooling: "契約後8日以内に書面で申し出れば、契約を無条件で解約可", midterm: "会員期間中の途中退会も可能（精算方法・金額の記載は確認できず）", rest: "休会制度あり。月2,200円（税込）・1ヶ月単位で、休会期間も会員期間に含まれる", surveyed: "2026年10月21日（公式 よくある質問／コースと料金）", status: "確認" },
+  // 2026-10-21 公式「よくあるご質問」(https://www.sunmarie.co.jp/qa/)で確認。休会は同ページ・料金ページとも記載なし
+  { slug: "sunmarie", name: "サンマリエ", cooling: "入会契約日を含む8日間は、書面または電磁的記録による通知で無条件に解除でき、支払済みの料金は全額返金", midterm: "会員期間中の途中退会が可能。解約手数料は発生せず、未払金や返金がある場合は精算後に退会手続き", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 よくあるご質問）", status: "確認" },
+  // 2026-10-21 公式「よくある質問」(https://naco-do.com/question/)で確認。クーリング・オフはトップの比較表注記に一般的な記載のみ
+  { slug: "naco-do", name: "naco-do（ナコード）", cooling: "公式サイトで確認できず（比較表の注記に「特定商取引法にもとづき各社に適用」との一般的な記載のみ）", midterm: "お見合いの予定や交際中のお相手がいなければ即日退会手続きが可能。契約期間の定めがある間（毎月更新ではない場合）は、利用規約にもとづき違約金がかかる", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 よくある質問）", status: "確認" },
   { slug: "ringbell", name: "リングベル", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年6月", status: "未確認" },
-  { slug: "smartread", name: "スマリッジ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
-  { slug: "wellsma", name: "ウェルスマ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月31日", status: "未確認" },
-  { slug: "fiore", name: "FIORE（フィオーレ）", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
-  { slug: "niko-bridal", name: "nikoブライダル", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月7日", status: "未確認" },
-  { slug: "excellence-aoyama", name: "エクセレンス青山", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月31日", status: "未確認" },
-  { slug: "bridal-tulip", name: "ブライダルチューリップ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年7月", status: "未確認" },
+  // 2026-10-21 公式「利用規約」(https://s-marriage.jp/userpolicy/)第16条・第17条・第19条で確認
+  { slug: "smartread", name: "スマリッジ", cooling: "契約書面の受領日から8日間以内は、書面または電磁的記録（メール・問い合わせフォーム）で解除可。支払済みの対価は返金され、違約金等の請求はない", midterm: "クーリング・オフ期間の経過後も退会・解約可。毎月15日までの申し出で当月末退会。役務提供開始前の退会は、登録料と在籍中の月会費以外は請求されない。月途中の退会でも日割り計算はない", rest: "毎月15日までにメールで申し出ると翌月1日から休会可（1ヶ月単位）。休会中の月会費は4,400円（税込）で、休会期間も会員期間に含まれる", surveyed: "2026年10月21日（公式 利用規約）", status: "確認" },
+  // 2026-10-21 公式「よくある質問」(https://www.wealsma.com/faq/)と「料金プラン」(https://www.wealsma.com/plan-2/)で確認
+  { slug: "wellsma", name: "ウェルスマ", cooling: "公式サイトで確認できず", midterm: "契約期間の縛りはなく、中途解約料はかからない（1ヶ月で退会しても解約料は発生しないと明記）。退会の申し出には特定商取引法に則り対応", rest: "3ヶ月×2回まで取得可。休会中はシステム利用料2,200円/月", surveyed: "2026年10月21日（公式 よくある質問／料金プラン）", status: "確認" },
+  // 2026-10-21 公式「料金・コース」(https://www.total-marriage.com/pricing/course/)の〈ご入会にあたって〉とQ&A、「よくある質問」(https://www.total-marriage.com/faq/)で確認
+  { slug: "fiore", name: "FIORE（フィオーレ）", cooling: "入会契約書面を受領した日を含む8日間は、書面または電磁的記録により無条件で入会契約を解除可", midterm: "会員活動開始日の前日までは30,000円（税込）を除く支払済み料金を全額返金。活動開始日以降は、入会登録費・提供済みの活動費用・特定商取引法にもとづく中途解約手数料を除いて返金", rest: "「休会」の名称の制度は確認できず。活動開始から6ヶ月経過後（7ヶ月目以降）は、月額1,100円（税込）で活動を一部制限可（リミテッドコースを除く）", surveyed: "2026年10月21日（公式 料金・コース／よくある質問）", status: "確認", restFlag: "partial" },
+  // 2026-10-21 公式「よくあるご質問」(https://www.niko-bridal.jp/faq)で休会を確認。クーリング・オフ・中途解約は同ページ・プランページとも記載なし
+  { slug: "niko-bridal", name: "nikoブライダル", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "契約期間に1回限り、最長3ヶ月休止可。開始日の10日前までに連絡が必要で、申込中・お見合い予定あり・交際進行中は原則不可。休会中はプロフィール非公開、休会費2,200円（税込）/月", surveyed: "2026年10月21日（公式 よくあるご質問）", status: "確認" },
+  // 2026-10-21 公式「よくある質問」(https://www.excellence-aoyama.jp/question.html)で確認。休会の記載はなし
+  { slug: "excellence-aoyama", name: "エクセレンス青山", cooling: "入会時の契約書面の受領から8日以内は解約金なしで、支払済みの入会金等は全額返還", midterm: "理由を問わずいつでも解約可。8日以降の解約は、法の定める計算式にもとづいて返戻金を計算し返金", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 よくある質問）", status: "確認" },
+  // 2026-10-21 公式トップのQ&A(https://bridal-tulip.info/)と「料金プラン」(https://bridal-tulip.info/BasicPlan.htm)で確認
+  { slug: "bridal-tulip", name: "ブライダルチューリップ", cooling: "公式サイトで確認できず", midterm: "退会はいつでも可能。契約期間内の成婚以外の理由による退会は、時期により中途解約費が発生する場合あり。登録費・活動初期費は中途解約時の返金対象外と料金ページに明記", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 トップQ&A／料金プラン）", status: "確認" },
   { slug: "code-for-marriage", name: "Code For Marriage", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年8月17日", status: "未確認" },
   // 2026-10-18 公式「料金」ページ(https://n-otakanomori.com/price/)の〈クーリングオフ〉〈中途解約〉〈休会〉欄で確認
   {
@@ -127,13 +132,26 @@ const rows: Row[] = [
     surveyed: "2026年10月18日（公式料金ページ）",
     status: "確認",
   },
-  { slug: "mars-cafe", name: "マーズカフェ", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
-  { slug: "seven", name: "結婚相談所セブン", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年5月", status: "未確認" },
+  // 2026-10-21 公式「よくある質問」(https://marzcafe.com/qa/)と「料金プラン」(https://marzcafe.com/price/)で確認
+  { slug: "mars-cafe", name: "マーズカフェ", cooling: "公式サイトで確認できず", midterm: "退会に費用は発生しないと公式Q&Aに記載（返金・精算方法の記載は確認できず）", rest: "休会費は月300円（料金ページではIBJのみ月額300円）。休会は原則3か月", surveyed: "2026年10月21日（公式 よくある質問／料金プラン）", status: "確認" },
+  // 2026-10-21 公式「料金」(https://seven-007.net/price/)と「よくあるご質問」(https://seven-007.net/qa/)で確認
+  { slug: "seven", name: "結婚相談所セブン", cooling: "入会契約日から8日以内は無条件で入会契約を解除可", midterm: "進行中の案件がなくなればいつでも退会可（来社不要）。退会・成婚退会の手数料1,800円。退会当月の月会費は日割り返金なし、翌月以降分は返金。短期間の退会でも違約金は一切かからない", rest: "休会制度はないと公式に明記", surveyed: "2026年10月21日（公式 料金／よくあるご質問）", status: "確認", restFlag: "none" },
 ];
 
 const confirmed = rows.filter((r) => r.status === "確認").length;
 const unconfirmed = rows.filter((r) => r.status === "未確認").length;
-const withRest = rows.filter((r) => r.rest !== "公式サイトで確認できず").length;
+const UNK = "公式サイトで確認できず";
+const withRest = rows.filter((r) => !r.rest.startsWith(UNK) && !r.restFlag).length;
+const withCooling = rows.filter((r) => !r.cooling.startsWith(UNK)).length;
+const allThree = rows.filter((r) => !r.cooling.startsWith(UNK) && !r.midterm.startsWith(UNK) && !r.rest.startsWith(UNK) && r.restFlag !== "partial").length;
+
+export const metadata: Metadata = {
+  title: "結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態【2026年10月更新】",
+  description:
+    `結婚相談所は特定商取引法の「特定継続的役務提供」にあたり、8日間のクーリング・オフと中途解約の違約金上限（提供開始前3万円／開始後は2万円か契約残額の20%の低いほう）が法律で定められています。実査24社のうち、解約・休会の条件を公式サイトに記載していたのは${confirmed}社でした。法定のルールと各社の公表状況を整理しています。`,
+  alternates: { canonical: "/knowledge/kaiyaku/" },
+};
+
 
 const faqs = [
   {
@@ -142,7 +160,7 @@ const faqs = [
   },
   {
     q: "クーリング・オフは結婚相談所でも使えますか？",
-    a: "使えます。契約書面（法定書面）を受け取った日から数えて8日以内であれば、理由を問わず契約を解除でき、支払った金額は全額返金されます。当サイトが実査した24社のうち、8日間のクーリング・オフを公式サイトに明記していたのは9社でした。なおムスベルは「プラスコース（ご家族へのサポート含む）」について14日以内と公表しており（2026年9月22日確認）、これは法定の8日を上回る自主的な設定です。",
+    a: `使えます。契約書面（法定書面）を受け取った日から数えて8日以内であれば、理由を問わず契約を解除でき、支払った金額は全額返金されます。当サイトが実査した24社のうち、8日間のクーリング・オフを公式サイトに明記していたのは${withCooling}社でした。なおムスベルは「プラスコース（ご家族へのサポート含む）」について14日以内と公表しており（2026年9月22日確認）、これは法定の8日を上回る自主的な設定です。`,
   },
   {
     q: "公式サイトに「中途解約しても返金しません」と書かれていました。その記載に従う必要がありますか？",
@@ -150,7 +168,7 @@ const faqs = [
   },
   {
     q: "休会制度がある相談所はどこですか？",
-    a: `当サイトが実査した24社のうち、休会（活動の一時停止）の条件を公式サイトで確認できたのは${withRest}社です。IBJメンバーズは1ヶ月単位で最長3ヶ月・休会中の月会費は不要、P!っと縁結びは月1,100円（税込）で最大3ヶ月・開始希望日の10日前までに申請、ツヴァイは最大1ヶ月の活動休止を累計6ヶ月まで、ムスベルは契約期間内であれば休会可と公表しています。ベルロードは休会中もプラン費用の減額・期間延長はないと明記しています。条件は各社で大きく異なるため、繁忙期や転勤の可能性がある方は、入会前に必ずご確認ください。`,
+    a: `当サイトが実査した24社のうち、休会（活動の一時停止）の条件を公式サイトで確認できたのは${withRest}社です。IBJメンバーズは1ヶ月単位で最長3ヶ月・休会中の月会費は不要、P!っと縁結びは月1,100円（税込）で最大3ヶ月・開始希望日の10日前までに申請、ツヴァイは最大1ヶ月の活動休止を累計6ヶ月まで、ムスベルは契約期間内であれば休会可、パートナーエージェントは月2,200円（税込）・1ヶ月単位、スマリッジは休会中の月会費4,400円（税込）・1ヶ月単位と公表しています（2026年10月21日確認）。一方、結婚相談所セブンは休会制度がないと明記しています。ベルロードは休会中もプラン費用の減額・期間延長はないと明記しています。条件は各社で大きく異なるため、繁忙期や転勤の可能性がある方は、入会前に必ずご確認ください。`,
   },
   {
     q: "入会前に解約条件のどこを確認すればよいですか？",
@@ -173,7 +191,7 @@ const articleJsonLd = {
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-22",
-  dateModified: "2026-10-18",
+  dateModified: "2026-10-21",
   mainEntityOfPage: "https://mu-su-bi-ba.com/knowledge/kaiyaku/",
 };
 
@@ -199,7 +217,7 @@ export default function KnowledgeKaiyaku() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月18日</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -302,9 +320,9 @@ export default function KnowledgeKaiyaku() {
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">一覧から分かること</h2>
           <div className="space-y-4 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <div className="border border-[#E5DCCF] rounded-xl p-5">
-              <p className="font-medium text-[#2C2C2C] mb-2">① 解約条件を公式サイトに記載している相談所は、24社中{confirmed}社でした</p>
+              <p className="font-medium text-[#2C2C2C] mb-2">① 解約・休会のいずれかの条件を公式サイトに記載している相談所は、24社中{confirmed}社でした</p>
               <p>
-                料金は多くの相談所が公開しています。一方で、<strong>退会時のルール</strong>まで記載している相談所は、当サイトの実査では{confirmed}社にとどまりました。
+                ただし記載の詳しさには差があります。<strong>クーリング・オフ・中途解約・休会の3項目すべて</strong>を公式サイトで確認できたのは、当サイトの実査では{allThree}社にとどまりました。
                 法律で保護された権利であっても、公式サイトに記載がなければ、入会前に条件を確認することはできません。
                 無料相談の場で途中退会時の扱いを質問し、口頭ではなく<strong>書面で</strong>回答を受け取ることをおすすめします。
               </p>

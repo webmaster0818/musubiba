@@ -2,16 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
+import { FEE_CHECKED, jpDate, checkedLabel, checkedRange } from "@/data/fees";
 
 export const metadata: Metadata = {
   title: "安い結婚相談所はどこ？1年総額で24社比較【2026年10月更新】検証済み料金ランキング",
   description:
-    "結婚相談所の「安さ」を、1年活動した場合の総額（初期費用＋月会費×12＋成婚料）で、24社を比較しています。掲載しているのは、当サイトが各公式サイトで確認した料金のみです（2026年7月〜10月確認・税込）。最安はスマリッジの125,400円です。お見合い料や成婚料の有無による総額の違いも解説します。",
+    `結婚相談所の「安さ」を、1年活動した場合の総額（初期費用＋月会費×12＋成婚料）で、24社を比較しています。掲載しているのは、当サイトが各公式サイトで確認した料金です（${checkedRange(Object.keys(FEE_CHECKED))}確認・税込）。最安はスマリッジの125,400円です。お見合い料や成婚料の有無による総額の違いも解説します。`,
   alternates: { canonical: "/compare/cheap/" },
 };
 
-// 全て公式サイトで検証済みの料金（税込）。オンライン3社=2026年7月5日確認／仲人型2社=2026年7月確認／追加5社=2026年7月31日確認。
+// 料金は各社公式サイトの公表値（税込）。社ごとの確認日は data/fees.ts の FEE_CHECKED に持ち、本文の確認日表記はすべてそこから生成する。
 // 2026-10-14: セブン・フィオーレ・マーズカフェ・サンマリエ・パートナーエージェントを公式で再確認して修正（旧値は公式と不一致だった）。
+// 2026-10-21: 本文中の確認日（7月のまま残っていた表記）を FEE_CHECKED 由来に置き換え。
 // 総額は各社の最安プラン基準。お見合い料は回数依存のため総額に含めず列で明示。
 type Row = {
   slug: string;
@@ -36,7 +38,7 @@ const rowsRaw: Row[] = [
     seikon: "50,000円",
     total1y: "127,400円",
     totalSeikon: "177,400円",
-    note: "IBJプランを基準としています（2026年10月14日公式確認）。活動1年後から更新料16,200円/年、退会・成婚退会の手数料1,800円がかかります。SCRUMの追加は初回3,300円＋月1,500円です。",
+    note: "IBJプランを基準としています。活動1年後から更新料16,200円/年、退会・成婚退会の手数料1,800円がかかります。SCRUMの追加は初回3,300円＋月1,500円です。",
   },
   {
     slug: "smartread",
@@ -60,7 +62,7 @@ const rowsRaw: Row[] = [
     seikon: "110,000円",
     total1y: "151,800円",
     totalSeikon: "261,800円",
-    note: "リミテッド プラン2（毎月2名紹介）を基準としています（2026年10月14日公式確認）。会員検索型のフレキシブル（月会費7,700円・成婚料220,000円）や、成婚料0円のフィオーレコースもあります。フォームから予約すると入会登録費が半額になります。",
+    note: "リミテッド プラン2（毎月2名紹介）を基準としています。会員検索型のフレキシブル（月会費7,700円・成婚料220,000円）や、成婚料0円のフィオーレコースもあります。フォームから予約すると入会登録費が半額になります。",
   },
   {
     slug: "excellence-aoyama",
@@ -96,7 +98,7 @@ const rowsRaw: Row[] = [
     seikon: "220,000円",
     total1y: "180,400円",
     totalSeikon: "400,400円",
-    note: "Aコースを基準としています（入会金66,000円＋登録料22,000円・2026年10月14日公式確認）。お見合い料0円のBコースは月会費11,000円です。成婚率72.5%（2025年・成婚退会者÷全退会者）を公表しています。",
+    note: "Aコースを基準としています（入会金66,000円＋登録料22,000円）。お見合い料0円のBコースは月会費11,000円です。成婚率72.5%（2025年・成婚退会者÷全退会者）を公表しています。",
   },
   {
     slug: "marriage-pro",
@@ -108,7 +110,7 @@ const rowsRaw: Row[] = [
     seikon: "180,000〜220,000円",
     total1y: "188,000円〜",
     totalSeikon: "368,000円〜",
-    note: "男性・女性・U-28・地方でプランが分かれています（2026年8月17日公式確認）。総額は最も安い組み合わせ（地方プラン＋U-28成婚料）で計算しています。ご自身が該当するプランで見積もりをご確認ください。",
+    note: "男性・女性・U-28・地方でプランが分かれています。総額は最も安い組み合わせ（地方プラン＋U-28成婚料）で計算しています。ご自身が該当するプランで見積もりをご確認ください。",
   },
   {
     slug: "wellsma",
@@ -252,7 +254,7 @@ const rowsRaw: Row[] = [
     seikon: "220,000円",
     total1y: "389,400円",
     totalSeikon: "609,400円",
-    note: "ベーシックを基準としています（入会金33,000円＋初期活動費132,000円・2026年10月14日公式確認）。1981年創業で、全国23店舗を展開しています。乗り換え割で初期費用が30,000円引きになります。",
+    note: "ベーシックを基準としています（入会金33,000円＋初期活動費132,000円）。1981年創業で、全国23店舗を展開しています。乗り換え割で初期費用が30,000円引きになります。",
   },
   {
     slug: "folli-partner",
@@ -300,7 +302,7 @@ const rowsRaw: Row[] = [
     seikon: "220,000円",
     total1y: "270,600円",
     totalSeikon: "490,600円",
-    note: "オンラインコースを基準としています（登録料33,000円＋初期費用66,000円・2026年10月14日公式確認）。コンシェルジュコースは初期費用132,000円・月会費18,700円です。成婚料は全コース220,000円です。",
+    note: "オンラインコースを基準としています（登録料33,000円＋初期費用66,000円）。コンシェルジュコースは初期費用132,000円・月会費18,700円です。成婚料は全コース220,000円です。",
   },
   {
     slug: "ibj-members",
@@ -318,10 +320,30 @@ const rowsRaw: Row[] = [
 const yen = (t: string) => Number(t.replace(/[^0-9]/g, "")) || 0;
 const rows: Row[] = [...rowsRaw].sort((a, b) => yen(a.total1y) - yen(b.total1y));
 
+// 確認日ごとに社名をまとめる（新しい順）。確認日の記録がない社は最後にまとめる。
+const RANGE = checkedRange(rowsRaw.map((r) => r.slug)) ?? "2026年";
+const exactGroups = (() => {
+  const m = new Map<string, string[]>();
+  for (const r of rowsRaw) {
+    const c = FEE_CHECKED[r.slug];
+    if (!c || c.approx) continue;
+    m.set(c.date, [...(m.get(c.date) ?? []), r.name]);
+  }
+  return [...m.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+})();
+const approxRows = rowsRaw.filter((r) => !FEE_CHECKED[r.slug] || FEE_CHECKED[r.slug].approx);
+const approxRange = checkedRange(approxRows.map((r) => r.slug));
+const CHECKED_SUMMARY =
+  exactGroups.map(([d, names]) => `${jpDate(d)}＝${names.length >= 5 ? `${names.length}社（${names.join("・")}）` : names.join("・")}`).join("／") +
+  (approxRows.length
+    ? `／確認日の記録がない${approxRows.length}社（${approxRows.map((r) => r.name).join("・")}）＝${approxRange}時点の当サイト調査値`
+    : "");
+const LATEST = exactGroups.length ? jpDate(exactGroups[0][0]) : null;
+
 const faqs = [
   {
     q: "一番安い結婚相談所はどこですか？",
-    a: "当サイトが公式サイトで検証した24社の範囲（2026年7月〜10月確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。専任カウンセラーによる仲人サポートを受けながら費用を抑えたい場合は、ウェルスマ（1年総額191,400円・お見合い料0円）が検証済みの相談所の中で最安水準です。",
+    a: `当サイトが公式サイトで検証した24社の範囲（${RANGE}確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。専任カウンセラーによる仲人サポートを受けながら費用を抑えたい場合は、ウェルスマ（1年総額191,400円・お見合い料0円）が検証済みの相談所の中で最安水準です。`,
   },
   {
     q: "「月会費が安い」と「総額が安い」は違うのですか？",
@@ -333,7 +355,7 @@ const faqs = [
   },
   {
     q: "表の料金は正確ですか？",
-    a: "掲載料金はすべて当サイトが各公式サイトで確認した公表値です（オンライン3社は2026年7月5日、仲人型2社は2026年7月、追加5社［エクセレンス青山・ウェルスマ・ブライダルチューリップ・フォリパートナー・ヒーローマリッジ］は2026年7月31日確認・税込）。ただし料金は改定されることがあり、キャンペーン（初月0円等）も随時変わるため、申し込み前に必ず公式サイト・無料相談で最新の料金をご確認ください。",
+    a: `掲載料金は当サイトが各公式サイトで確認した公表値です（税込）。社ごとの確認日は次のとおりです：${CHECKED_SUMMARY}。確認日の記録がない社は、無料相談で最新の金額をご確認ください。ただし料金は改定されることがあり、キャンペーン（初月0円等）も随時変わるため、申し込み前に必ず公式サイト・無料相談で最新の料金をご確認ください。`,
   },
   {
     q: "もっと安く始める方法はありますか？",
@@ -360,7 +382,7 @@ export default function CheapComparePage() {
         <h1 className="text-2xl md:text-3xl font-light mb-4 tracking-wide text-[#2C2C2C]">
           安い結婚相談所はどこ？1年総額で比較【2026年】
         </h1>
-        <p className="text-xs text-[#8B8580] mb-4">料金はすべて公式サイトで確認しています（オンライン3社=2026年7月5日・仲人型=2026年7月確認・税込）</p>
+        <p className="text-xs text-[#8B8580] mb-4">料金は各社の公式サイトで確認した公表値です（{RANGE}確認・税込）。確認日は各社の欄に記載しています{LATEST ? `（最新の確認は${LATEST}）` : ""}。</p>
         <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-6">
           結婚相談所の「安さ」は月会費だけでは分かりません。<strong>初期費用＋月会費×12ヶ月＋成婚料</strong>の「1年総額」で並べ替えると、順位が大きく入れ替わります。本ページでは、当サイトが公式サイトで料金を確認できた相談所のみを、総額の安い順に掲載しています。
         </p>
@@ -389,6 +411,7 @@ export default function CheapComparePage() {
                   <th className="px-3 py-3">成婚料</th>
                   <th className="px-3 py-3">1年総額</th>
                   <th className="px-3 py-3">成婚した場合</th>
+                  <th className="px-3 py-3">料金の確認日</th>
                 </tr>
               </thead>
               <tbody>
@@ -404,13 +427,14 @@ export default function CheapComparePage() {
                     <td className="px-3 py-3 whitespace-nowrap">{r.seikon}</td>
                     <td className="px-3 py-3 whitespace-nowrap font-semibold text-[#A08447]">{r.total1y}</td>
                     <td className="px-3 py-3 whitespace-nowrap">{r.totalSeikon}</td>
+                    <td className="px-3 py-3 text-xs text-[#2C2C2C]/60">{FEE_CHECKED[r.slug] ? (FEE_CHECKED[r.slug].approx ? `${jpDate(FEE_CHECKED[r.slug].date)}時点（記録なし）` : jpDate(FEE_CHECKED[r.slug].date)) : "—"}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">
-            ※1年総額＝初期費用＋月会費×12ヶ月（各社の最安プラン基準・成婚料0円の場合）。「成婚した場合」＝1年活動して成婚退会したときの総額（成婚料を加算）。<strong>お見合い料（都度払いの相談所）・オプション・キャンペーンは含みません</strong>。料金は当サイトが各公式サイトで確認した公表値です（オンライン3社=2026年7月5日／仲人型2社=2026年7月／エクセレンス青山・ウェルスマ・ブライダルチューリップ・フォリパートナー・ヒーローマリッジ=2026年7月31日確認・税込）。改定される場合があるため、お申し込み前に各公式サイトでご確認ください。
+            ※1年総額＝初期費用＋月会費×12ヶ月（各社の最安プラン基準・成婚料0円の場合）。「成婚した場合」＝1年活動して成婚退会したときの総額（成婚料を加算）。<strong>お見合い料（都度払いの相談所）・オプション・キャンペーンは含みません</strong>。料金は当サイトが各公式サイトで確認した公表値です（税込）。確認日：{CHECKED_SUMMARY}。改定される場合があるため、お申し込み前に各公式サイトでご確認ください。
           </p>
         </section>
 
@@ -426,6 +450,7 @@ export default function CheapComparePage() {
                   <span className="text-sm font-semibold">{r.total1y}<span className="text-xs text-[#2C2C2C]/50">／1年</span></span>
                 </div>
                 <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">{r.note}</p>
+                {checkedLabel(r.slug) && <p className="text-xs text-[#2C2C2C]/50 mb-2">料金の確認日：{checkedLabel(r.slug)}</p>}
                 <Link href={`/review/${r.slug}/`} className="text-sm text-[#A08447] underline">詳しい口コミ・評判を見る →</Link>
               </div>
             ))}
