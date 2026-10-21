@@ -33,7 +33,7 @@ const agencies: Agency[] = [
   { slug: "folli-partner", name: "東京フォリパートナー", monthly: "月会費16,500円〜22,000円", initial: "入会金110,000円〜250,000円／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: "月会費17,050円", initial: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: "月会費14,300円〜26,400円", initial: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
-  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: "月会費5,830円〜14,300円", initial: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索（成婚率52.0%・自社発表）" },
+  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: "月会費5,830円〜17,600円", initial: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索（成婚率52.0%・自社発表）" },
   { slug: "marriage-pro", name: "マリッジプロ", monthly: "—", initial: "成婚料22万円", type: "プロカウンセラー専任" },
   { slug: "ringbell", name: "リングベル", monthly: "—", initial: "—", type: "仲人型・地域密着" },
 ];

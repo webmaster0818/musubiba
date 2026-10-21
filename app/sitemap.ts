@@ -28,6 +28,8 @@ UPDATED["/compare/online"] = "2026-10-19";
 // 2026-10-21: 安い相談所の比較（確認日の表記を社ごとの実データに統一）・解約・返金のルール（未確認12社を公式で再確認）
 UPDATED["/compare/cheap"] = "2026-10-21";
 UPDATED["/knowledge/kaiyaku"] = "2026-10-21";
+// 2026-10-21: フィオーレ（公式料金表の改定＝スマートコース・お見合い回数保証・活動制限1,100円を反映、解約・返金条件を追記）・料金比較一覧
+for (const r of ["/review/fiore", "/compare"]) UPDATED[r] = "2026-10-21";
 
 const STATIC_ROUTES = [
   "", "/faq", "/compare",

@@ -49,7 +49,7 @@ export const FEES: Fee[] = [
   { slug: "folli-partner", name: "東京フォリパートナー", monthly: 16500, initial: 110000, success: 250000, monthlyText: "月会費16,500円〜22,000円", initialText: "入会金110,000円〜250,000円／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: 17050, initial: 252450, success: 220000, monthlyText: "月会費17,050円", initialText: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: 14300, initial: 99000, success: 220000, monthlyText: "月会費14,300円〜26,400円", initialText: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
-  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 5830, initial: 33000, success: null, monthlyText: "月会費5,830円〜14,300円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
+  { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 5830, initial: 33000, success: null, monthlyText: "月会費5,830円〜17,600円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
   { slug: "marriage-pro", name: "マリッジプロ", monthly: null, initial: null, success: 220000, monthlyText: "—", initialText: "成婚料22万円", type: "プロカウンセラー専任" },
   { slug: "ringbell", name: "リングベル", monthly: null, initial: null, success: null, monthlyText: "—", initialText: "—", type: "仲人型・地域密着" },
 ];
@@ -84,7 +84,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   "folli-partner": { date: "2026-10-14" },
   "ibj-members": { date: "2026-10-14" },
   "partner-agent": { date: "2026-10-14" },
-  fiore: { date: "2026-10-19" },
+  fiore: { date: "2026-10-21" },
   "marriage-pro": { date: "2026-08-17" },
   ringbell: { date: "2026-06", approx: true },
 };
