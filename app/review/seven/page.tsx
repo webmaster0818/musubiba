@@ -73,6 +73,10 @@ const faqs = [
     a: "どちらも公式サイトでは確認できませんでした（2026年10月17日確認）。一部の比較記事・口コミサイトには「LINEで相談できる」「会員1名に専任カウンセラー2名」と書かれていますが、公式サイトに記載されている相談方法は電話・メッセージ・ZOOM面談で、体制は「いつでも専任担当のスタッフに相談できる」という説明です。入会前の無料相談で確認することをおすすめします。",
   },
   {
+    q: "セブン結婚相談所の悪い口コミにはどのような内容がありますか？",
+    a: "口コミサイト（jm-h.com）に掲載されている投稿8件（2022〜2026年）を当サイトで分類すると、相談への返答が定型的・サポートがほとんど無いという内容が5件、運営側の対応が高圧的だったという内容が2件、Googleマップの高評価に疑問を示す内容が2件、値上げや手数料に触れた内容が1件でした（1件に複数の論点を含みます）。公式サイトは「会員から依頼があった場合だけサポートする」運営で費用を抑えていると説明しており、自分で活動を進めたい方向けの相談所といえます（2026年10月22日確認）。",
+  },
+  {
     q: "どこにサロンがありますか？",
     a: "東京エリアの五反田サロンと、関西エリアの梅田サロンです。相談は電話・メッセージ・ZOOMでもでき、オンラインで全国から活動できます。",
   },
@@ -108,7 +112,7 @@ export default function SevenReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           セブン結婚相談所（結婚相談所セブン）の口コミ・評判｜料金・1年総額・サロンを公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月17日（料金は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月22日（料金は2026年10月14日に公式サイトで確認）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -188,6 +192,33 @@ export default function SevenReview() {
           </div>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
+            口コミの評価が媒体によって分かれる理由
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            セブン結婚相談所の口コミは、Googleマップでは高評価が中心である一方、口コミ専門サイトでは否定的な投稿が中心です。当サイトが確認した媒体ごとの傾向は次のとおりです。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">媒体（確認日）</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">件数・傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">Googleマップ 五反田サロン（2026年8月18日）</td><td className="px-4 py-3">55件・評価4.3。カウンセラーの対応を評価する投稿が中心</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">口コミ評判サイト jm-h.com（2026年10月22日）</td><td className="px-4 py-3">表示10件のうち本文を確認できた8件（2022年4月〜2026年1月投稿）を分類：返答が定型的・サポートがほとんど無い 5件／運営側の対応が高圧的 2件／Googleマップの高評価への疑問 2件／値上げ・手数料 1件／スタッフのミス・ルール変更 1件（重複あり）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">みん評（2026年10月22日）</td><td className="px-4 py-3">当サイトからは閲覧できず（アクセス制限）。2026年8月の確認時は、サポートを評価する声と期待と違った点に触れる声の両方が掲載されていました</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
+            否定的な投稿の多くは「サポートの少なさ」に関するものです。公式サイトは、会員から依頼があった場合だけサポートする運営で料金を抑えていると説明しています。担当者に活動を主導してほしい方は仲人型の相談所と、自分で申し込みを進めたい方はセブン結婚相談所と、料金総額をあわせて比較することをおすすめします。口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。
+          </p>
+        </section>
+
         <ReviewFacts
           name="セブン結婚相談所"
           checkedOn="2026年10月14日"
@@ -217,11 +248,13 @@ export default function SevenReview() {
           ]}
           bad={[
             { text: "期待と違った点や改善を求める声", source: "みん評 セブン結婚相談所（批判的な声を多く掲載する方針のサイト）" },
+            { text: "相談への返答が定型的・サポートがほとんど無いと感じたという声（8件中5件）", source: "結婚相談所の口コミ評判サイト（jm-h.com）掲載の投稿8件を当サイトで分類" },
             { text: "希望条件が多く相手が見つからずに退会したという声", source: "みん評 セブン結婚相談所" },
           ]}
           sources={[
             { name: "セブン結婚相談所 料金・システム（公式）", url: "https://seven-007.net/price/" },
             { name: "みん評 セブン結婚相談所", url: "https://minhyo.jp/seven-marriagecounselor" },
+            { name: "結婚相談所の口コミ評判サイト セブン（2026年10月22日確認）", url: "https://jm-h.com/kuchikomi-seven" },
           ]}
         />
 

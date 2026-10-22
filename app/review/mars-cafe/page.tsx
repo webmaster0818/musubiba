@@ -7,15 +7,15 @@ import BrandStores from "@/components/BrandStores";
 import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "結婚相談所マーズカフェ（Marz cafe）の口コミ・評判｜料金3コース・成婚率72.5%の定義【2026年10月】",
+  title: "結婚相談所マーズカフェ（Marz cafe）の口コミ・評判｜エキテン13件の集計・料金3コース・成婚率72.5%の定義【2026年10月】",
   description:
-    "東京・中野の結婚相談所マーズカフェの口コミ・評判を、掲載媒体を明記して整理しています。A/B/乗り換えの3コースの料金（2026年10月14日公式確認）、1年総額、成婚率72.5%の算出方法、運営会社（株式会社マーズ）についても掲載しています。",
+    "東京・中野の結婚相談所マーズカフェの口コミ・評判を、掲載媒体を明記して整理しています。エキテンの口コミ13件の集計、3コースの料金と2団体加盟オプション（2026年10月22日公式確認）、1年総額、成婚率72.5%の算出方法、運営会社も掲載しています。",
 };
 
 const overview = {
   name: "結婚相談所マーズカフェ（Marz cafe）",
   type: "仲人型（IBJ・TMS加盟）",
-  members: "約18万人（IBJ 104,859人＋TMS 87,430人・重複あり）",
+  members: "IBJ 104,859人。TMS（87,430人）にも加盟すると約18万人（2団体加盟は月額＋2,200円のオプション・重複あり）",
   area: "東京・中野（Zoom面談で全国対応）",
   initialFee: "入会金66,000円＋登録料22,000円",
   monthlyFee: "7,700円（Aコース）／11,000円（Bコース）",
@@ -30,8 +30,8 @@ const strengths = [
     desc: "公式サイトは成婚率を「2025年1〜12月の成婚退会者÷全退会者＝72.5%」と定義を明記して公表し、成婚数は250人以上としています（2026年10月14日確認）。分母が「全退会者」の算出方法なので、他社の成婚率と比べるときは定義をそろえて比較することをおすすめします。",
   },
   {
-    title: "IBJとTMSの2団体に加盟し約18万人から探せる",
-    desc: "IBJ（104,859人・2025年12月時点）とTMS（87,430人・2023年11月時点）に加盟しています。両団体の会員は1〜2割が重複していると公式が注記しています。",
+    title: "IBJとTMSの2団体に加盟し、オプションで約18万人から探せる",
+    desc: "IBJ（104,859人・2025年12月時点）とTMS（87,430人・2023年11月時点）に加盟しています。両団体の会員は1〜2割が重複していると公式が注記しています。なお、料金ページでは2団体で活動する場合を「オプション」とし、月額費に2,200円を加算（最初の2か月は無料）としています（2026年10月22日確認）。公式サイトは、IBJの「最優秀成婚賞」を2019年から6年連続で受賞し、IBJ AWARD（2025年下半期）で10期連続の受賞と掲載しています。",
   },
   {
     title: "お見合い料の有無でコースを選べる",
@@ -41,7 +41,7 @@ const strengths = [
 
 const pros = [
   "成婚率72.5%を定義とあわせて公表している",
-  "IBJ＋TMSで約18万人から探せる",
+  "IBJ＋TMSで約18万人から探せる（TMS併用は月額＋2,200円）",
   "年中無休・10〜21時受付、Zoom面談で全国から相談できる",
 ];
 
@@ -49,6 +49,7 @@ const cons = [
   "成婚料220,000円で、1年総額は40万円台になる",
   "拠点は中野の1か所のみ",
   "Aコースはお見合いのたびに2,200円かかる",
+  "2団体（IBJ＋TMS）で活動する場合は月額費に2,200円が加算される（最初の2か月は無料）",
 ];
 
 const faqs = [
@@ -62,7 +63,15 @@ const faqs = [
   },
   {
     q: "マーズカフェの口コミ・評判を教えてください",
-    a: "Googleマップの「結婚相談所マーズカフェ」には口コミ39件・評価5.0が掲載されています（当サイトが2026年8月に取得）。比較記事に掲載されたエキテン等の口コミでは、条件に合わせたアドバイスや気持ちに寄り添うサポートを評価する声が見られます。",
+    a: "Googleマップの「結婚相談所マーズカフェ」には口コミ39件・評価5.0が掲載されています（当サイトが2026年8月に取得）。エキテンの口コミ13件（2026年10月22日確認・2019〜2023年投稿）は、初回面談で問題点を率直に指摘された、交際が途切れたときに励まされた、といったカウンセラーの対応に関する内容が中心で、否定的な内容の投稿は確認できませんでした。",
+  },
+  {
+    q: "マーズカフェの2団体加盟（IBJ＋TMS）に追加料金はかかりますか？",
+    a: "料金ページでは、2団体加盟の場合は月額費に2,200円を加算し、最初の2か月は無料としています。休会費はIBJのみの場合で月額300円です（2026年10月22日に公式サイトで確認）。",
+  },
+  {
+    q: "マーズカフェの口コミでは、成婚までの期間はどのくらいですか？",
+    a: "エキテンに掲載されている口コミ13件（2019〜2023年投稿）のうち、活動期間に触れている9件を当サイトで集計すると、6か月以内が4件、7か月〜1年が4件、1年半が1件でした。投稿は成婚退会した方のものが中心で、全会員の平均ではありません。",
   },
   {
     q: "マーズカフェはカフェなのですか？",
@@ -107,7 +116,7 @@ export default function MarsCafeReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所マーズカフェの口コミ・評判｜料金3コース・成婚率の定義・運営会社
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月22日（料金・実績は2026年10月22日に公式サイトで確認）</p>
 
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">マーズカフェ の公式サイトはこちら</a>
@@ -182,6 +191,40 @@ export default function MarsCafeReview() {
           </div>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
+            エキテンの口コミ13件を当サイトで集計
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            口コミサイト「エキテン」に掲載されているマーズカフェの口コミ13件（投稿日2019年1月〜2023年7月）を、当サイトが2026年10月22日に確認し、活動期間と費用に触れた記述を数えました。本文は転載せず、件数のみを掲載しています。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">集計項目</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">件数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">投稿年（2019年／2020年／2021年／2022年／2023年）</td><td className="px-4 py-3 text-center">3／3／3／3／1件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">成婚・婚約までの活動期間に触れている口コミ</td><td className="px-4 py-3 text-center">9件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">　うち6か月以内（3か月・4か月・5か月・半年）</td><td className="px-4 py-3 text-center">4件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">　うち7か月〜1年（7か月×2・1年以内・1年近く）</td><td className="px-4 py-3 text-center">4件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">　うち1年超（1年半）</td><td className="px-4 py-3 text-center">1件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">費用の総額に触れている口コミ（「20万円ちょっと」「25万円くらい」・いずれも2019〜2020年投稿）</td><td className="px-4 py-3 text-center">2件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">否定的な内容の口コミ</td><td className="px-4 py-3 text-center">0件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">相談所からの返信が付いている口コミ</td><td className="px-4 py-3 text-center">13件</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="text-xs text-[#2C2C2C]/60 leading-relaxed space-y-1">
+            <li>※ 投稿は成婚・婚約に至った方のものが中心で、退会者全体の傾向を示すものではありません。</li>
+            <li>※ 費用に触れた2件は現在の料金（入会金66,000円・登録料22,000円・成婚料220,000円）より前の投稿です。現在の総額は料金表と1年総額の試算をご確認ください。</li>
+            <li>※ 出典：<a href="https://www.ekiten.jp/shop_19195293/review/" target="_blank" rel="noopener noreferrer" className="underline">エキテン「結婚相談所マーズカフェ」の口コミ</a>（2026年10月22日確認）</li>
+          </ul>
+        </section>
+
         {/* Reviews */}
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
@@ -198,7 +241,7 @@ export default function MarsCafeReview() {
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜11,000円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">88,000円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約18万人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約18万人（2団体加盟時）</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約3万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率72.5%（自社発表）</td><td className="px-4 py-3 text-center">低価格帯のオンライン型</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>
@@ -208,7 +251,7 @@ export default function MarsCafeReview() {
 
         <ReviewFacts
           name="マーズカフェ"
-          checkedOn="2026年10月14日"
+          checkedOn="2026年10月22日"
           officialUrl="https://marzcafe.com/"
           feeHead={["項目", "Aコース", "Bコース", "乗り換え限定"]}
           feeRows={[
@@ -218,7 +261,7 @@ export default function MarsCafeReview() {
             ["お見合い料", "2,200円／件", "0円", "0円"],
             ["成婚料", "220,000円", "220,000円", "220,000円"],
           ]}
-          feeNotes={["金額は税込です。各コースとも、お見合い申し込みは月100名まで、紹介は月3名以上、面談は無制限です。", "公式の目安：活動6か月・お見合い11回で合計378,400円。"]}
+          feeNotes={["金額は税込です。各コースとも、お見合い申し込みは月100名まで、紹介は月3名以上、面談は無制限です。", "公式の目安：活動6か月・お見合い11回で合計378,400円。", "オプション：2団体加盟（IBJ＋TMS）は月額費＋2,200円（最初の2か月は無料）、休会費はIBJのみ月額300円。"]}
           estimate={[
             { label: "Aコース（お見合い料は件数分を別途）", formula: "66,000円＋22,000円＋7,700円×12＋220,000円", total: "400,400円＋お見合い料" },
             { label: "Bコース", formula: "66,000円＋22,000円＋11,000円×12＋220,000円", total: "440,000円" },
@@ -244,6 +287,7 @@ export default function MarsCafeReview() {
             { name: "マーズカフェ 料金（公式）", url: "https://marzcafe.com/price/" },
             { name: "マーズカフェ 相談所概要（公式）", url: "https://marzcafe.com/company/" },
             { name: "M2W マーズカフェの口コミ・評判", url: "https://matching-two.com/marzcafe/" },
+            { name: "エキテン 結婚相談所マーズカフェの口コミ（2026年10月22日確認）", url: "https://www.ekiten.jp/shop_19195293/review/" },
           ]}
         />
 

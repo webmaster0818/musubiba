@@ -34,6 +34,10 @@ for (const r of ["/review/fiore", "/compare", ""]) UPDATED[r] = "2026-10-21";
 for (const r of ["/review/bridal-tulip", "/review/excellence-aoyama", "/review/wellsma", "/review/folli-partner", "/mens", "/compare/online", "/knowledge/renmei", "/knowledge/seikon-ritsu", "/compare/folli-vs-musbell"]) UPDATED[r] = "2026-10-21";
 // 2026-10-22: レビューの確認日表記を最終更新・公式で確認した日にそろえた（Code For Marriageは公式で再確認）
 UPDATED["/review/code-for-marriage"] = "2026-10-22";
+// 2026-10-22: マーズカフェ（2団体加盟オプション＋2,200円・休会費を公式で確認、エキテン口コミ13件の集計）
+UPDATED["/review/mars-cafe"] = "2026-10-22";
+// 2026-10-22: セブン（媒体別の口コミ傾向・悪い口コミの分類を追加）
+UPDATED["/review/seven"] = "2026-10-22";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
