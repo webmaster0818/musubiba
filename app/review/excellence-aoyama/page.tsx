@@ -345,7 +345,7 @@ export default function ExcellenceAoyamaReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>担当カウンセラーとの相性（専属仲人型は担当者次第で活動の質が大きく変わるため、面談で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金は2026年10月21日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}

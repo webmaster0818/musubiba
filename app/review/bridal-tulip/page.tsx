@@ -11,7 +11,7 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜IBJ口コミ評価4.8・料金3プラン【2026年10月】",
   description:
-    "ブライダルチューリップ（株式会社ナウい運営・高田馬場）の評判・料金を公式情報にもとづいて検証しています。3連盟の紹介可能会員約19万名、入会金105,000円〜・成婚料180,000円（税込・2026年7月確認）の料金3プラン、成婚率60%以上（自社公称）の算出定義まで解説しています。",
+    "ブライダルチューリップ（株式会社ナウい運営・高田馬場）の評判・料金を公式情報にもとづいて検証しています。3連盟の紹介可能会員約19万名、入会金105,000円〜・成婚料180,000円（税込・2026年10月21日公式確認）の料金3プラン、成婚率60%以上（自社公称）の算出定義まで解説しています。",
   alternates: { canonical: "/review/bridal-tulip/" },
 };
 
@@ -164,7 +164,7 @@ export default function BridalTulipReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績</strong>：成婚率60%以上・1年以内成婚率70%以上（<strong>自社公称</strong>・定義＝成婚退会者数÷全退会者数、うち1年以内成婚の割合・2010年〜2026年1月実績）、成婚500組以上（2010年1月〜2026年10月の実績）、最短成婚44日と公表されています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：お見合い料が都度かかるため活動量で総額が変動します。第三者の口コミ一次情報は少なく、判断は無料相談での確認が中心になります（見極めのポイントは本文で解説しています）。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績等は公式サイトの公表情報（2026年7月確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・成婚実績は2026年10月21日、紹介可能会員数は2026年10月14日に公式サイトで確認した公表情報（税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <A8Banner ad="tulip" />
@@ -220,7 +220,7 @@ export default function BridalTulipReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金3プランと総額の目安（税込・2026年7月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金3プランと総額の目安（税込・2026年10月21日公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             プランは年齢と活動ペースで3つに分かれます。<strong>お見合い料が都度払い</strong>のため、総額は「入会金＋月会費×活動月数＋お見合い料×件数＋交際成立時の手数料×件数＋成婚料」で見積もることをおすすめします。お見合い申込みは月30件まで（20件単位で追加でき、月200件が上限）、面談は回数無制限です。
           </p>
@@ -262,7 +262,7 @@ export default function BridalTulipReview() {
         <ReviewVoices
           name="ブライダルチューリップ"
           checkedOn="2026年10月21日"
-          reviewNote="Googleマップの「Bridalチューリップ」（高田馬場）には口コミ113件・評価4.6がありました（当サイトが2026年8月18日に取得）。公式サイトの料金（Aプラン入会金105,000円・月会費7,550円・お見合い費8,800円/件・成婚料180,000円など）と、IBJ約10.5万名・SCRUM約6.7万名・CONNECT-ship約2.1万名（2026年1月時点）の紹介可能会員数は2026年10月14日に再確認し、7月時点から変更はありませんでした。"
+          reviewNote="Googleマップの「Bridalチューリップ」（高田馬場）には口コミ113件・評価4.6がありました（当サイトが2026年8月18日に取得）。公式サイトの料金（Aプラン入会金105,000円・月会費7,550円・お見合い費8,800円/件・成婚料180,000円など）と、IBJ約10.5万名・SCRUM約6.7万名・CONNECT-ship約2.1万名（2026年1月時点）の紹介可能会員数は2026年10月14日に再確認し、7月時点から変更はありませんでした。料金表は2026年10月21日にも公式サイトで再確認し、交際成立時の手数料を反映しています。"
         />
 
         <section className="mb-12">

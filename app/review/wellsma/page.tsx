@@ -153,7 +153,7 @@ export default function WellsmaReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ウェルスマの口コミ・評判｜月会費11,800円〜のオンライン仲人型を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで再確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金・実績は2026年10月14日、IBJ会員数は2026年10月21日に公式サイトで確認）</p>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -331,7 +331,7 @@ export default function WellsmaReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>中途退会時の手続き・費用の扱い（契約書面で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金・実績は2026年10月14日、IBJ会員数は2026年10月21日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}

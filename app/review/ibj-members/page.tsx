@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     q: "IBJメンバーズの1年間の活動費用総額はいくらですか？",
-    a: "初期費用252,450円＋月会費17,050円×12ヶ月＝約457,050円が活動費用の目安です（税込・2026年8月3日時点の公式料金）。婚約に至って成婚退会する場合は成婚料220,000円が加わり、総額の目安は約677,050円です。最新の料金・キャンペーンは無料相談で確認することをおすすめします。",
+    a: "初期費用252,450円＋月会費17,050円×12ヶ月＝約457,050円が活動費用の目安です（税込・2026年10月14日に公式サイトで確認した料金）。婚約に至って成婚退会する場合は成婚料220,000円が加わり、総額の目安は約677,050円です。最新の料金・キャンペーンは無料相談で確認することをおすすめします。",
   },
 ];
 
@@ -177,7 +177,7 @@ export default function IbjMembersReview() {
               </div>
             ))}
           </div>
-          <p className="px-6 pb-4 text-xs text-[#2C2C2C]/50 leading-relaxed">※成婚率の定義: 2025年1月〜12月の主要コース実績。全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）。IBJメンバーズの「成婚」はプロポーズ成功後の「婚約」時点を指します。料金はすべて税込で、2026年8月3日に公式サイトで確認しています。</p>
+          <p className="px-6 pb-4 text-xs text-[#2C2C2C]/50 leading-relaxed">※成婚率の定義: 2025年1月〜12月の主要コース実績。全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）。IBJメンバーズの「成婚」はプロポーズ成功後の「婚約」時点を指します。料金はすべて税込で、2026年10月14日に公式サイトで再確認しています（成婚率の公表値は2026年8月3日確認）。</p>
         </div>
 
         <A8Banner ad="ibj-members" />
@@ -210,7 +210,7 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年8月3日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年10月14日公式確認）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>

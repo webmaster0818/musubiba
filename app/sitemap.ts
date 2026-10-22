@@ -32,6 +32,8 @@ UPDATED["/knowledge/kaiyaku"] = "2026-10-21";
 for (const r of ["/review/fiore", "/compare", ""]) UPDATED[r] = "2026-10-21";
 // 2026-10-21: 4社の公式再確認（チューリップ交際成立時の手数料・エクセレンス青山の男女別料金・ウェルスマIBJ会員数・フォリ成婚率期間/受賞）
 for (const r of ["/review/bridal-tulip", "/review/excellence-aoyama", "/review/wellsma", "/review/folli-partner", "/mens", "/compare/online", "/knowledge/renmei", "/knowledge/seikon-ritsu", "/compare/folli-vs-musbell"]) UPDATED[r] = "2026-10-21";
+// 2026-10-22: レビューの確認日表記を最終更新・公式で確認した日にそろえた（Code For Marriageは公式で再確認）
+UPDATED["/review/code-for-marriage"] = "2026-10-22";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

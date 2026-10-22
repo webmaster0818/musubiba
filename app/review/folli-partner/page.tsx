@@ -171,7 +171,7 @@ export default function FolliPartnerReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           東京フォリパートナーの口コミ・評判｜成婚率71.5%の算出定義・5コース料金・No.1表記の読み方を検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金・成婚率の算出期間・受賞歴を公式サイトで再確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（成婚率の算出期間・受賞歴は2026年10月21日、料金は2026年10月14日に公式サイトで確認）</p>
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
@@ -184,7 +184,7 @@ export default function FolliPartnerReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：広告で見かける「会員数・成婚数No.1」は<strong>IBJ連盟自体の実績（日本マーケティングリサーチ機構調べ）で、フォリパートナー単体のNo.1ではありません</strong>。この点を踏まえてご検討ください（詳細は本文で説明しています）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：首都圏（東京・横浜）で店舗面談を受けたい方、数字の算出根拠を示す相談所を選びたい方、お見合いの回数を気にせず活動したい方に適しています。Zoomに対応しているため、地方からも利用できます。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式公表情報（2026年7月31日確認・税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月14日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認した公表情報（税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
         <A8Banner ad="folli" />
@@ -265,7 +265,7 @@ export default function FolliPartnerReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>会員期間は12ヶ月です。2年目以降は月会費のみで継続できます。</li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>クーリングオフは契約書面受領日を含む8日以内です。中途解約の負担は、サービス提供前であれば3万円のみです。</li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年7月31日確認時点の税込価格です。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年10月14日に公式の料金ページで確認した税込価格です（7月31日の確認時から変更はありません）。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
         </section>
 
         {/* Strengths */}

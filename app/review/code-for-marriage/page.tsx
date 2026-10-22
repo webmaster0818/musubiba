@@ -7,7 +7,7 @@ import FlowGuide from "@/components/FlowGuide";
 export const metadata = {
   title: "Code For Marriageの評判・料金【2026年】エンジニア専門結婚相談所の特徴を解説",
   description:
-    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会費77,000円・月会費11,000円・成婚費220,000円（税込・2026年8月公式確認）、U-30プラン、リモート対応の特徴を解説しています。",
+    "Code For Marriage（コードフォーマリッジ）はITエンジニア専門・仲人が全員元SEの結婚相談所。IBJ正規加盟、スタンダード入会費77,000円・月会費11,000円・成婚費220,000円（税込・2026年10月22日公式確認）、U-30プラン、リモート対応の特徴を解説しています。",
   alternates: { canonical: "/review/code-for-marriage/" },
 };
 
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "Code For Marriageの料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年8月17日確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）です。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
+    a: "公式公表の料金（税込・2026年10月22日確認）は、スタンダードプランで入会費77,000円＋月会費11,000円＋成婚費220,000円です。1年活動して成婚した場合の総額目安は約429,000円（77,000＋11,000×12＋220,000）です。30歳未満はU-30プラン（入会33,000円・月7,700円）でさらに抑えられます。最新の料金は公式サイトでご確認ください。",
   },
   {
     q: "エンジニア以外でも入会できますか？",
@@ -112,7 +112,7 @@ export default function CodeForMarriageReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           Code For Marriageの評判・料金｜エンジニア専門結婚相談所の特徴
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金は2026年7月に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月22日（料金は2026年10月22日に公式サイトの料金ページとIBJの相談所ページで再確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -124,7 +124,7 @@ export default function CodeForMarriageReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：仕事や技術の話を詳しく説明しなくても理解してくれる担当者を求めるエンジニアの方、地方在住やリモート勤務で通所が難しい方に適しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：2022年設立で第三者口コミが少ないため、無料相談での相性確認が判断の中心になります。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年8月17日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は公式サイトの公表情報（2026年10月22日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
@@ -171,7 +171,7 @@ export default function CodeForMarriageReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年8月公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月22日公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
@@ -186,7 +186,7 @@ export default function CodeForMarriageReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※お見合い料等の細部条件は無料相談でご確認ください。仲人型の相場（<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>）と比べ、初期費用が抑えめの構成です。
+            ※料金は2026年10月22日に公式サイトの料金ページで確認しました（8月17日の確認時から変更はありません）。公式の料金ページでは、ライトU-30・スタンダードはお見合い料無料・お申込みは月100名まで、いずれのプランもクーリング・オフと休会制度ありと記載されています。中途解約時の精算などの細部条件は無料相談でご確認ください。仲人型の相場（<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>）と比べ、初期費用が抑えめの構成です。
           </p>
         </section>
 
