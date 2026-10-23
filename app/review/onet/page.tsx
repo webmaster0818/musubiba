@@ -8,73 +8,75 @@ import BrandStores from "@/components/BrandStores";
 export const metadata = {
   title: "オーネットの口コミ・評判｜料金・会員数・特徴を解説【2026年】",
   description:
-    "オーネットの口コミ・評判をまとめています。月会費16,500円〜、会員数4.2万人、データマッチング型、40年の運営実績などの特徴を解説します。",
+    "オーネットの口コミ・評判と料金を解説しています。アクティブプランは入会時費用99,000円・月会費13,200円、成婚料はIBJ会員と成婚した場合のみ220,000円です（2026年10月23日公式確認）。会員数12.1万人の内訳も掲載しています。",
 };
 
+// 2026-10-23: 公式サイト（料金・プランページ／トップページ）で再確認し、料金改定後の3プラン・IBJ加盟後の会員数・店舗数に更新。
+// 旧記載（月会費16,500円・初期費用116,600円・成婚料0円・自社会員のみ約4.2万人・毎月6名以上の紹介）は公式と一致しないため削除。
 const overview = {
   name: "オーネット",
-  type: "データマッチング型",
-  members: "約4.2万人（自社会員のみ）",
-  area: "全国40店舗以上",
-  initialFee: "116,600円〜",
-  monthlyFee: "16,500円〜",
-  matchingFee: "0円",
-  age: "20〜50代（中心は30代）",
-  successRate: "非公開",
+  type: "データマッチング型（IBJ加盟）",
+  members: "12.1万人（オーネット登録会員30,181名とIBJ会員104,859名の合計から重複13,313名を除いた人数・2026年1月1日時点の公式発表）",
+  area: "全国39店舗（公式発表）・オンライン相談可",
+  initialFee: "99,000円（アクティブ）／129,800円（スタンダード）／143,000円（プレステージ・招待制）",
+  monthlyFee: "13,200円（アクティブ）／20,790円（スタンダード）／24,200円（プレステージ）",
+  matchingFee: "IBJ会員と成婚した場合のみ220,000円（オーネット会員同士の成婚は0円。本交際に進む際に交際サポート料27,500円）",
+  age: "公式に年齢層の公表なし（20代向けプランあり）",
+  successRate: "公式に成婚率の公表なし（平成元年以降の成婚退会者163,031名と公表）",
 };
 
 const strengths = [
   {
-    title: "40年以上の運営実績による信頼性",
-    desc: "1980年の創業以来、40年以上にわたり結婚相談所を運営してきた業界の老舗です。長年のノウハウと実績に基づいたサービスを提供しています。",
+    title: "1980年創業・運営実績45年以上",
+    desc: "公式サイトでは、1980年の創業以来、累計343,885名が入会し、平成元年以降163,031名が成婚退会したと公表しています（2026年10月23日確認）。",
   },
   {
-    title: "独自のデータマッチングシステム",
-    desc: "希望条件や価値観に基づいた独自のマッチングシステムで、効率的にお相手を探すことができます。毎月6名以上の紹介が受けられます。",
+    title: "オーネット会員とIBJ会員の両方から探せる",
+    desc: "オーネットはIBJの加盟相談所です。公式発表の会員数12.1万人は、オーネット登録会員とIBJ会員の合計から重複を除いた人数です。スタンダードプランでは、IBJ会員の検索が毎月20名まで利用できます。",
   },
   {
-    title: "成婚料0円の明朗会計",
-    desc: "成婚退会時の成婚料が0円なので、トータルコストが分かりやすい点が特徴です。予算計画が立てやすく、安心して活動できます。",
+    title: "サポートの手厚さで選べる3プラン",
+    desc: "自分で相手を探すアクティブプラン、担当アドバイザーと仲人が併走するスタンダードプラン（公式の「おすすめNo.1」）、専任アドバイザーが付く招待制のプレステージプランがあります。",
   },
 ];
 
 const pros = [
-  "40年以上の運営実績で信頼性が高い",
-  "データマッチングで効率的に相手を探せる",
-  "成婚料0円で追加費用の心配がない",
-  "自社会員のみなので真剣度が高い",
+  "1980年創業で、成婚退会者数（平成元年以降163,031名）を公表している",
+  "オーネット会員とIBJ会員の両方から相手を探せる",
+  "オーネット会員同士の成婚は成婚料0円",
+  "全国39店舗に加え、オンラインでも相談できる",
 ];
 
 const cons = [
-  "会員数が大手と比べると少なめ",
-  "カウンセラーのサポートは手厚くない",
-  "仲人型のきめ細かいフォローは期待しづらい",
+  "IBJ会員と成婚した場合は成婚料220,000円がかかる",
+  "オーネット会員同士で本交際に進む際に交際サポート料27,500円がかかる",
+  "スタンダードプランは月会費20,790円で、大手の中でも高めの水準",
 ];
 
 const faqs = [
   {
-    q: "オーネットの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は定職に就いていることが条件です。入会時には独身証明書、収入証明書、本人確認書類などが必要です。",
-  },
-  {
-    q: "オーネットのデータマッチングとは何ですか？",
-    a: "希望条件（年齢、地域、年収、学歴など）や価値観をもとに、コンピューターが相性の良い相手を自動的にマッチングするシステムです。毎月6名以上の紹介が受けられます。",
+    q: "オーネットの料金はいくらですか？",
+    a: "公式サイトの料金（税込・2026年10月23日確認）は、アクティブプランが入会時費用99,000円・月会費13,200円、スタンダードプランが入会時費用129,800円・月会費20,790円、招待制のプレステージプランが入会時費用143,000円・月会費24,200円です。全プラン共通で、本交際に進む際の交際サポート料27,500円と、IBJ会員と成婚した場合の成婚料220,000円がかかります。休止中の月会費は2,200円です。",
   },
   {
     q: "オーネットの成婚料は0円ですか？",
-    a: "はい、オーネットでは成婚退会時の成婚料は0円です。入会金と月会費のみで活動できるため、トータルコストが明確です。",
+    a: "お相手によって異なります。オーネット会員同士の成婚は成婚料0円ですが、IBJ会員と成婚した場合は220,000円（税込）がかかります。また、オーネット会員同士で本交際に進む際には、交際サポート料27,500円（税込）がかかります（2026年10月23日公式確認）。",
   },
   {
-    q: "オーネットと他の大手結婚相談所の違いは？",
-    a: "オーネットは自社会員のみのデータマッチング型です。他社は複数の相談所の会員ネットワークを共有するため会員数が多い場合がありますが、オーネットは自社で完結するためサービスの一貫性があります。",
+    q: "オーネットで1年活動するといくらかかりますか？",
+    a: "アクティブプランで1年間活動した場合、入会時費用99,000円＋月会費13,200円×12ヶ月＝257,400円です。オーネット会員と成婚した場合は交際サポート料27,500円を加えて284,900円、IBJ会員と成婚した場合は成婚料220,000円を加えて477,400円が目安です（お見合い料・オプションを除く当サイトの試算）。",
   },
   {
-    q: "オーネットの無料相談では何ができますか？",
-    a: "無料相談では、結婚チャンステストを受けることができます。ご自身の条件に合うお相手がどのくらいいるかを事前に確認でき、サービスの説明や料金案内も受けられます。",
+    q: "オーネットの会員数は何人ですか？",
+    a: "公式サイトでは会員数12.1万人と公表しています。これは2026年1月1日時点のオーネット登録会員数30,181名とIBJ会員数104,859名の合計から、重複13,313名を除いた人数です。",
+  },
+  {
+    q: "オーネットの入会条件はありますか？",
+    a: "20歳以上の独身の方が対象です。入会時には独身証明書・収入証明書・本人確認書類などの提出が必要です。詳しい条件は公式サイトまたは無料相談でご確認ください。",
   },
   {
     q: "オーネットの活動はオンラインでもできますか？",
-    a: "はい、オンラインでのお見合いやカウンセリングに対応しています。来店が難しい方でも自宅からビデオ通話で活動を進めることができます。",
+    a: "公式サイトでは、店舗での来店相談に加えてオンラインでの相談にも対応しています。来店が難しい方もご自宅から相談できます。",
   },
 ];
 
@@ -108,7 +110,7 @@ export default function OnetReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           オーネットの口コミ・評判｜料金・会員数・特徴を解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・会員数は2026年10月23日に公式サイトで確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-onet.jpg" alt="オーネット 公式サイト" className="w-full h-auto" />
@@ -191,11 +193,11 @@ export default function OnetReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">18,700円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">116,600円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">137,500円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約4.2万人</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約2.9万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">13,200円〜</td><td className="px-4 py-3 text-center">15,950円〜</td><td className="px-4 py-3 text-center">14,300円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">99,000円〜</td><td className="px-4 py-3 text-center">118,800円〜</td><td className="px-4 py-3 text-center">99,000円〜（登録料込み）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">12.1万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">11.7万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">192,000人（3連盟の合計）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">データマッチング型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料0円</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">成婚率27%</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">オーネット会員同士の成婚は成婚料0円</td><td className="px-4 py-3 text-center">ご紹介プランは成婚料0円</td><td className="px-4 py-3 text-center">成婚料220,000円</td></tr>
               </tbody>
             </table>
           </div>
@@ -212,22 +214,19 @@ export default function OnetReview() {
             <div className="bg-green-50/50 rounded-xl p-6">
               <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>40年以上の運営実績で信頼性が高いと評価する声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>データマッチングで効率的に相手を探せるという声が見られます</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚料0円で追加費用の心配がない点を好意的に捉える傾向があります</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>自社会員のみで真剣度が高いと感じるという声があります</li>
-              </ul>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚退会した方から「アドバイザーが親身だった」という声が多く見られます</li>
+                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>IBJのネットワーク経由で他社の会員と成婚したという報告が複数あります</li>
+                                              </ul>
             </div>
             <div className="bg-red-50/50 rounded-xl p-6">
               <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が大手と比べると少なめに感じるという声があります</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>カウンセラーのサポートが手厚くないという指摘が見られます</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>仲人型のようなきめ細かいフォローは期待しづらいという声があります</li>
+                                                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>申し込みが成立しない・返信が来ないなど、活動初期につまずいたという声が見られます</li>
+                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>プロフィールの更新が反映されないなど、事務対応への不満も見られます</li>
               </ul>
             </div>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。特定の個人の体験談ではなく一般的な傾向としてご参照ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は、下の「Googleマップの口コミの傾向」（2026年9月5日取得）を当サイトが要約したものです。感じ方には個人差があり、評価は担当者・プランによっても異なります。</p>
         </section>
 
         <section className="mb-12">
@@ -280,7 +279,7 @@ export default function OnetReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">オーネットの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">無料相談では結婚チャンステストを受けることができます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">料金・プランの詳細は無料相談でご確認ください</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">
             ランキングに戻る
           </Link>

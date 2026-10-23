@@ -6,6 +6,8 @@
  * 2026-10-14: 提携先のうち naco-do・セブン・スマリッジ・マーズカフェ・エン婚活・サンマリエ・
  * パートナーエージェント・フィオーレを公式サイトで再確認し、食い違っていた値を修正。下限がレンジで示されているものは下限を取り、
  * 公表が確認できなかった項目は null にして「非公表」と表示する。
+ * 2026-10-23: ムスベル・ツヴァイ・オーネット・nikoブライダルを公式サイトで再確認。ムスベル・ツヴァイ・オーネットは料金改定後の値に更新。
+ * オーネットの成婚料は相手により0円/220,000円に分かれるため null（順位・総額の計算から外す）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -42,9 +44,9 @@ export const FEES: Fee[] = [
   { slug: "niko-bridal", name: "nikoブライダル", monthly: 13200, initial: 110000, success: 220000, monthlyText: "月会費13,200円（男性婚活プラン16,500円）", initialText: "初期費用110,000円／成婚料220,000円", type: "大阪・仲人型" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", monthly: 16500, initial: 33000, success: 0, monthlyText: "月会費16,500円", initialText: "登録料33,000円／成婚料0円", type: "オンライン型" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", monthly: 14300, initial: 165000, success: 220000, monthlyText: "月会費14,300円〜27,500円", initialText: "初期費用165,000円／成婚料220,000円", type: "男性専門" },
-  { slug: "musbell", name: "ムスベル", monthly: 15400, initial: null, success: null, monthlyText: "月会費15,400円", initialText: "—", type: "仲人・データ併用型" },
-  { slug: "zwei", name: "ツヴァイ", monthly: 15400, initial: null, success: null, monthlyText: "月会費15,400円", initialText: "—", type: "大手・データマッチング" },
-  { slug: "onet", name: "オーネット", monthly: 16500, initial: null, success: null, monthlyText: "月会費16,500円", initialText: "—", type: "大手・会員数多数" },
+  { slug: "musbell", name: "ムスベル", monthly: 16500, initial: 181500, success: 330000, monthlyText: "月会費16,500円〜17,000円", initialText: "初期費用33,000円＋入会金148,500円〜451,000円（コース別）／成婚料330,000円", type: "仲人・データ併用型" },
+  { slug: "zwei", name: "ツヴァイ", monthly: 15950, initial: 118800, success: 0, monthlyText: "月会費15,950円（ご紹介プラン）／18,700円（IBJプラン）", initialText: "入会初期費用118,800円（ご紹介プラン・成婚料0円）／129,800円（IBJプラン・IBJ会員との成婚時のみ成婚料220,000円）", type: "大手・データマッチング" },
+  { slug: "onet", name: "オーネット", monthly: 13200, initial: 99000, success: null, monthlyText: "月会費13,200円〜24,200円", initialText: "入会時費用99,000円〜143,000円／成婚料はIBJ会員との成婚時のみ220,000円（オーネット会員同士は0円・別途交際サポート料27,500円）", type: "大手・会員数多数" },
   { slug: "sunmarie", name: "サンマリエ", monthly: 18700, initial: 165000, success: 220000, monthlyText: "月会費18,700円", initialText: "入会金33,000円＋初期活動費132,000円／成婚料220,000円", type: "仲人型・1981年創業" },
   { slug: "folli-partner", name: "東京フォリパートナー", monthly: 16500, initial: 110000, success: 250000, monthlyText: "月会費16,500円〜22,000円", initialText: "入会金110,000円〜250,000円／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: 17050, initial: 252450, success: 220000, monthlyText: "月会費17,050円", initialText: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
@@ -74,12 +76,12 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   "code-for-marriage": { date: "2026-10-22" },
   pitto: { date: "2026-10-14" },
   wellsma: { date: "2026-10-14" },
-  "niko-bridal": { date: "2026-07-07" },
+  "niko-bridal": { date: "2026-10-23" },
   "en-konkatsu": { date: "2026-10-14" },
   "hero-marriage": { date: "2026-10-14" },
-  musbell: { date: "2026-06", approx: true },
-  zwei: { date: "2026-05", approx: true },
-  onet: { date: "2026-05", approx: true },
+  musbell: { date: "2026-10-23" },
+  zwei: { date: "2026-10-23" },
+  onet: { date: "2026-10-23" },
   sunmarie: { date: "2026-10-14" },
   "folli-partner": { date: "2026-10-14" },
   "ibj-members": { date: "2026-10-14" },

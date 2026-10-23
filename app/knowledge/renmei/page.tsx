@@ -36,10 +36,10 @@ const ibjRows: Row[] = [
 ];
 
 const otherRows: Row[] = [
-  { slug: "musbell", name: "ムスベル", federation: "BIU・良縁ネットほか複数連盟に加盟", monthly: "15,400円", success: "公式に記載を確認できず" },
+  { slug: "musbell", name: "ムスベル", federation: "JBU・BIU・IBJ・TMSの4連盟を利用可能（公式記載）", monthly: "16,500円〜", success: "330,000円" },
   { slug: "naco-do", name: "naco-do（ナコード）", federation: "JBA・CONNECT-ship・SCRUM（3連盟／19.1万人・2026年10月14日公式確認）", monthly: "16,800円", success: "0円（公式明記）" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", federation: "複数データベース（紹介可能17.4万人以上）・IBJ Online利用可", monthly: "16,500円", success: "0円（公式明記）" },
-  { slug: "onet", name: "オーネット", federation: "独自会員システム＋IBJ加盟ネットワークの2系統", monthly: "16,500円", success: "公式に記載を確認できず" },
+  { slug: "onet", name: "オーネット", federation: "独自会員システム＋IBJ加盟ネットワークの2系統", monthly: "13,200円〜", success: "IBJ会員と成婚時220,000円（オーネット会員同士は0円）" },
 ];
 
 const unknownNames = ["ツヴァイ", "サンマリエ", "パートナーエージェント", "スマリッジ", "FIORE（フィオーレ）", "リングベル", "マーズカフェ", "結婚相談所セブン"];
@@ -243,7 +243,7 @@ export default function KnowledgeRenmei() {
               </div>
               <div className="border border-[#E5DCCF] rounded-xl p-5">
                 <p className="font-medium text-[#2C2C2C] mb-1">ムスベル</p>
-                <p className="text-xs">BIU・良縁ネットほか<strong>複数連盟</strong>（正確な会員数は非公表）</p>
+                <p className="text-xs">JBU・BIU・IBJ・TMSの<strong>4連盟</strong>／94,763人（公式掲載の2024年10月時点の値・2026年10月23日確認）</p>
               </div>
             </div>
             <p className="text-xs text-[#2C2C2C]/55">

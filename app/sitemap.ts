@@ -38,6 +38,23 @@ UPDATED["/review/code-for-marriage"] = "2026-10-22";
 UPDATED["/review/mars-cafe"] = "2026-10-22";
 // 2026-10-22: セブン（媒体別の口コミ傾向・悪い口コミの分類を追加）
 UPDATED["/review/seven"] = "2026-10-22";
+// 2026-10-23: ムスベル・ツヴァイ・オーネット・nikoブライダルの料金を公式で再確認（3社は料金改定後の値に更新）。関連する比較・知識ページも更新
+UPDATED["/review/musbell"] = "2026-10-23";
+UPDATED["/review/zwei"] = "2026-10-23";
+UPDATED["/review/onet"] = "2026-10-23";
+UPDATED["/review/niko-bridal"] = "2026-10-23";
+UPDATED["/compare"] = "2026-10-23";
+UPDATED["/compare/cheap"] = "2026-10-23";
+UPDATED["/knowledge/cost"] = "2026-10-23";
+UPDATED["/knowledge/renmei"] = "2026-10-23";
+UPDATED["/knowledge/seikon-ritsu"] = "2026-10-23";
+UPDATED["/compare/folli-vs-musbell"] = "2026-10-23";
+UPDATED["/compare/musbell-vs-ringbell"] = "2026-10-23";
+UPDATED["/compare/tulip-vs-musbell"] = "2026-10-23";
+UPDATED["/compare/sunmarie-vs-musbell"] = "2026-10-23";
+UPDATED["/compare/ibj-vs-musbell"] = "2026-10-23";
+UPDATED["/concierge"] = "2026-10-23";
+UPDATED[""] = "2026-10-23";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

@@ -8,73 +8,75 @@ import BrandStores from "@/components/BrandStores";
 export const metadata = {
   title: "ツヴァイの口コミ・評判｜料金・会員数・サポートを解説【2026年】",
   description:
-    "ツヴァイの口コミ・評判を調査し、月会費15,400円〜、会員数9.4万人、全国50店舗展開といった特徴を解説します。",
+    "ツヴァイの口コミ・評判と料金を解説しています。ご紹介プランは入会初期費用118,800円・月会費15,950円・成婚料0円、IBJプランは月会費18,700円です（2026年10月23日公式確認）。会員数11.7万人・全国54店舗の内訳も掲載しています。",
 };
 
+// 2026-10-23: 公式サイト（料金プランページ／トップページ）で再確認し、料金改定後の2プラン・会員数・店舗数に更新。
+// 旧記載（月会費15,400円・初期費用115,500円・約9.4万人・全国50店舗）は公式と一致しないため差し替え。
 const overview = {
   name: "ツヴァイ",
-  type: "ハイブリッド型（データマッチング＋仲人型）",
-  members: "約9.4万人",
-  area: "全国50店舗",
-  initialFee: "115,500円〜",
-  monthlyFee: "15,400円〜",
-  matchingFee: "0円〜220,000円",
-  age: "20〜60代（中心は30代）",
-  successRate: "非公開",
+  type: "ハイブリッド型（データマッチング＋仲人型・IBJ加盟）",
+  members: "11.7万人（ZWEI登録会員25,949名とIBJ会員109,712名の合計から重複18,866名を除いた人数・2026年6月末時点の公式発表）",
+  area: "全国54店舗（公式発表）",
+  initialFee: "118,800円（ご紹介プラン）／129,800円（IBJプラン）",
+  monthlyFee: "15,950円（ご紹介プラン）／18,700円（IBJプラン）",
+  matchingFee: "ご紹介プランは0円／IBJプランはIBJ会員と成婚した場合のみ220,000円（ツヴァイ会員同士は0円）",
+  age: "公式に年齢層の公表なし（20代割あり）",
+  successRate: "公式に成婚率の公表なし（2025年の成婚組数3,628組と公表）",
 };
 
 const strengths = [
   {
-    title: "約9.4万人の会員基盤",
-    desc: "複数の結婚相談所ネットワークと連携しており、出会いの選択肢が広がります。地方在住の方でもお相手を探しやすい環境です。",
+    title: "ツヴァイ会員とIBJ会員を合わせた11.7万人から探せる",
+    desc: "ツヴァイはIBJの加盟相談所です。公式発表の会員数11.7万人は、ZWEI登録会員とIBJ会員の合計から重複を除いた人数（2026年6月末時点）です。",
   },
   {
-    title: "全国50店舗で対面の相談を受けやすい環境",
-    desc: "北海道から沖縄まで全国50店舗を展開しています。対面でのカウンセリングを受けやすく、転勤や引っ越しがあっても継続して活動できます。",
+    title: "全国54店舗で対面の相談を受けやすい",
+    desc: "公式サイトでは全国54店舗を展開していると公表しています。転勤や引っ越しがあっても、近くの店舗で相談を続けやすい環境です。",
   },
   {
-    title: "データマッチングと仲人の両方で出会える",
-    desc: "AIを活用したデータマッチングに加え、専任アドバイザーによる紹介もあり、自分に合ったスタイルで婚活を進められます。",
+    title: "成婚料0円のプランとIBJプランを選べる",
+    desc: "自分で動いて費用を抑えるご紹介プラン（成婚料0円）と、IBJ会員とのお見合いが何度でも0円でカウンセラーが伴走するIBJプランがあります。",
   },
 ];
 
 const pros = [
-  "会員数が約9.4万人と多く、出会いの幅が広い",
-  "全国展開で地方でも利用しやすい",
-  "データマッチングと仲人型の両方を併用可能",
-  "無料相談で相性診断が受けられる",
+  "ツヴァイ会員とIBJ会員を合わせた11.7万人から探せる",
+  "全国54店舗で対面の相談を受けやすい",
+  "ご紹介プランは成婚料0円",
+  "20代割・のりかえ割など入会費用の割引制度がある",
 ];
 
 const cons = [
-  "初期費用が11万円以上とやや高め",
-  "店舗によってアドバイザーの質に差がある",
-  "成婚料が最大22万円かかるプランもある",
+  "入会初期費用は118,800円からで、初期負担は軽くない",
+  "IBJプランでIBJ会員と成婚した場合は成婚料220,000円がかかる",
+  "店舗によってアドバイザーの対応に差を感じるという声がある",
 ];
 
 const faqs = [
   {
+    q: "ツヴァイの料金はいくらですか？",
+    a: "公式サイトの料金（税込・2026年10月23日確認）は、ご紹介プランが入会初期費用118,800円・月会費15,950円・成婚料0円、IBJプランが入会初期費用129,800円・月会費18,700円・成婚料220,000円です。IBJプランの成婚料は、IBJ会員と成婚した場合のみかかり、ツヴァイ会員同士の成婚は0円です。活動休止期間中の月会費は1,650円です。",
+  },
+  {
+    q: "ツヴァイで1年活動するといくらかかりますか？",
+    a: "ご紹介プランで1年間活動した場合、入会初期費用118,800円＋月会費15,950円×12ヶ月＝310,200円で、成婚料はかかりません。IBJプランでは129,800円＋18,700円×12ヶ月＝354,200円で、IBJ会員と成婚した場合は成婚料220,000円を加えて574,200円が目安です（オプションを除く当サイトの試算）。",
+  },
+  {
+    q: "ツヴァイの割引制度はありますか？",
+    a: "公式サイトでは、20代割（ご紹介プランの入会初期費用60,500円・月会費12,100円）、のりかえ割（入会料金85,800円・IBJ加盟店からののりかえは対象外）、再入会割（59,400円）、医療に従事する女性向けのメディカルワーカー割（107,800円）を案内しています（2026年10月23日確認）。",
+  },
+  {
+    q: "ツヴァイの会員数は何人ですか？",
+    a: "公式サイトでは11.7万人と公表しています。これは2026年6月末時点のZWEI登録会員数25,949名とIBJ会員数109,712名の合計から、重複18,866名を除いた人数です。",
+  },
+  {
     q: "ツヴァイの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は定職に就いていることが条件となります。入会時には独身証明書、収入証明書、本人確認書類が必要です。",
-  },
-  {
-    q: "ツヴァイの会員ネットワークとは何ですか？",
-    a: "ツヴァイの自社会員に加え、提携先の結婚相談所連盟に加盟する他社の会員とも出会えるシステムです。これにより約9.4万人の会員基盤にアクセスできます。",
-  },
-  {
-    q: "ツヴァイの無料相談では何ができますか？",
-    a: "無料相談では、婚活に関するカウンセリング、サービスの説明、料金プランの案内に加え、無料の相性診断を受けることができます。入会を強制されることはありません。",
-  },
-  {
-    q: "ツヴァイの退会方法を教えてください",
-    a: "担当アドバイザーに退会の意思を伝え、所定の手続きを行います。成婚退会の場合は成婚料が発生するプランもあります。中途退会の場合、違約金は基本的にかかりません。",
+    a: "20歳以上の独身の方が対象です。入会時には独身証明書・収入証明書・本人確認書類などの提出が必要です。詳しい条件は公式サイトまたは無料相談でご確認ください。",
   },
   {
     q: "ツヴァイはオンラインでも活動できますか？",
-    a: "はい、オンラインでのお見合いやカウンセリングに対応しています。来店が難しい方でもビデオ通話を通じて活動を進めることができます。",
-  },
-  {
-    q: "ツヴァイの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。積極的に活動される方は3〜4ヶ月で成婚に至るケースもあります。",
+    a: "公式サイトではマッチング無料体験の予約を受け付けており、店舗での相談に加えてオンラインでの活動にも対応しています。詳しい活動方法は無料相談でご確認ください。",
   },
 ];
 
@@ -108,7 +110,7 @@ export default function ZweiReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ツヴァイの口コミ・評判｜料金・会員数・サポートを解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年5月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・会員数は2026年10月23日に公式サイトで確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-zwei.jpg" alt="ツヴァイ 公式サイト" className="w-full h-auto" />
@@ -193,11 +195,11 @@ export default function ZweiReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">18,700円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">116,600円〜</td><td className="px-4 py-3 text-center">137,500円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">約4.2万人</td><td className="px-4 py-3 text-center">約2.9万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">15,950円〜</td><td className="px-4 py-3 text-center">13,200円〜</td><td className="px-4 py-3 text-center">14,300円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">118,800円〜</td><td className="px-4 py-3 text-center">99,000円〜</td><td className="px-4 py-3 text-center">99,000円〜（登録料込み）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">11.7万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">12.1万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">192,000人（3連盟の合計）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">データマッチング型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">成婚料0円</td><td className="px-4 py-3 text-center">成婚率27%</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">全国54店舗・ご紹介プランは成婚料0円</td><td className="px-4 py-3 text-center">オーネット会員同士の成婚は成婚料0円</td><td className="px-4 py-3 text-center">成婚料220,000円</td></tr>
               </tbody>
             </table>
           </div>
@@ -217,8 +219,7 @@ export default function ZweiReview() {
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>会員数が多く出会いの幅が広いという声が見られます</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>全国展開で地方在住でも利用しやすいと評価する傾向があります</li>
                 <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>データマッチングと仲人型を併用できる点を評価する声が多い傾向です</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>無料相談で相性診断が受けられる点を好意的に捉える傾向があります</li>
-              </ul>
+                              </ul>
             </div>
             <div className="bg-red-50/50 rounded-xl p-6">
               <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
@@ -286,7 +287,7 @@ export default function ZweiReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">ツヴァイの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">無料相談では相性診断を受けられます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">マッチング無料体験の予約は公式サイトから行えます</p>
           <Link
             href="/"
             className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"

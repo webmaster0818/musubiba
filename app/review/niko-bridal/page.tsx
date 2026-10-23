@@ -7,7 +7,7 @@ import FlowGuide from "@/components/FlowGuide";
 export const metadata = {
   title: "nikoブライダル（大阪）の評判・料金【2026年】成婚率56.3%の算出条件を確認",
   description:
-    "nikoブライダル（大阪市・IBJ正規加盟）の評判・料金を、中立的な立場で解説しています。初期費用110,000円・月会費13,200円・成婚料220,000円（税込・2026年7月7日公式確認）、成婚率56.3%（2025年実績・成婚退会÷全退会）の算出条件、出張面談型の特徴を解説しています。",
+    "nikoブライダル（大阪市・IBJ正規加盟）の評判・料金を、中立的な立場で解説しています。初期費用110,000円・月会費13,200円・成婚料220,000円（税込・2026年10月23日公式確認）、成婚率56.3%（2025年実績・成婚退会÷全退会）の算出条件、出張面談型の特徴を解説しています。",
   alternates: { canonical: "/review/niko-bridal/" },
 };
 
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "nikoブライダルの料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年7月7日確認）は、niko婚活プランで初期費用110,000円（入会金33,000円＋登録料77,000円）＋月会費13,200円＋成婚料220,000円、お見合い料は無料です。1年活動して成婚した場合の総額目安は約488,400円です。男性婚活プラン（初期費用88,000円・月会費16,500円・成婚料198,000円）は約484,000円です。",
+    a: "公式公表の料金（税込・2026年10月23日確認）は、niko婚活プランで初期費用110,000円（入会金33,000円＋登録料77,000円）＋月会費13,200円＋成婚料220,000円、お見合い料は無料です。1年活動して成婚した場合の総額目安は約488,400円です。男性婚活プラン（初期費用88,000円・月会費16,500円・成婚料198,000円）は約484,000円です。",
   },
   {
     q: "成婚率56.3%はどのように算出されていますか？",
@@ -111,7 +111,7 @@ export default function NikoBridalReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           nikoブライダル（大阪）の評判・料金｜成婚率56.3%の算出条件を確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年7月（料金・実績は2026年7月7日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・実績は2026年10月23日に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -123,7 +123,7 @@ export default function NikoBridalReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：大阪市内（梅田・難波・天王寺）で、数値の根拠を示す相談所を選びたい方や、仕事帰りに出張面談で活動したい方です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：固定店舗はなく、電話番号も公表されていません（フォーム/LINE中心）。店舗での相談を重視する方には適していません。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報（2026年7月7日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報（2026年10月23日確認・税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
@@ -170,7 +170,7 @@ export default function NikoBridalReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年7月7日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月23日公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>

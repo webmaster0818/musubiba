@@ -113,16 +113,16 @@ const services = [
 type AgencyCard = { name: string; slug: string; path: string; fee: string; noImage?: boolean };
 
 const allAgencies: AgencyCard[] = [
-  { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,400円〜" },
-  { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費16,500円〜" },
+  { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,950円〜" },
+  { name: "オーネット", slug: "onet", path: "/review/onet/", fee: "月会費13,200円〜" },
   { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費14,300円〜" },
   { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費7,700円〜" },
   { name: "スマリッジ", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円" },
   { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費13,200円〜" },
   { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費5,830円〜" },
-  { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費16,500円〜" },
+  { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費9,000円〜" },
   { name: "結婚相談所セブン", slug: "seven", path: "/review/seven/", fee: "月会費9,800円" },
-  { name: "ムスベル", slug: "musbell", path: "/review/musbell/", fee: "月会費15,400円〜" },
+  { name: "ムスベル", slug: "musbell", path: "/review/musbell/", fee: "月会費16,500円〜" },
   { name: "naco-do", slug: "naco-do", path: "/review/naco-do/", fee: "月会費16,800円" },
   { name: "サンマリエ", slug: "sunmarie", path: "/review/sunmarie/", fee: "月会費18,700円" },
   { name: "エン婚活エージェント", slug: "en-konkatsu", path: "/review/en-konkatsu/", fee: "月会費16,500円" },

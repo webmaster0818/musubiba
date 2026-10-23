@@ -8,17 +8,17 @@ import BrandStores from "@/components/BrandStores";
 export const metadata = {
   title: "ムスベルの評判・口コミ・料金｜「やばい」と検索される理由を解説【2026年】",
   description:
-    "ムスベルの評判・口コミ・料金を解説しています。月会費15,400円〜＋成婚料330,000円の総額目安、「やばい」と検索される理由、全国展開・複数連盟加盟の特徴について、中立的な立場で整理しています。ご利用前に、公式サイトにて最新の料金・会員数をご確認ください。",
+    "ムスベルの評判・口コミ・料金を解説しています。3コースの入会時費用181,500円〜484,000円・月会費16,500円〜・成婚料330,000円（2026年10月23日公式確認）と1年総額、「やばい」と検索される理由、4連盟が使える特徴を整理しています。",
 };
 
 const overview = {
   name: "ムスベル",
   type: "ハイブリッド型（仲人＋データマッチング）",
-  members: "複数連盟（BIU・良縁ネットなど）の会員ネットワークを利用（人数は公式サイトで要確認）",
+  members: "94,763人（4連盟の合計として公式サイトに掲載・2024年10月時点の値）",
   area: "全国対応（拠点数は公式サイト参照）",
-  initialFee: "33,000円〜（プランにより変動・要確認）",
-  monthlyFee: "15,400円〜（要確認）",
-  matchingFee: "330,000円（成婚退会時・要確認）",
+  initialFee: "初期費用33,000円＋入会金148,500円（カジュアル）／330,000円（レギュラー）／451,000円（エクセレント）",
+  monthlyFee: "16,500円（カジュアル・レギュラー）／17,000円（エクセレント）",
+  matchingFee: "330,000円（成婚退会時・全コース共通）",
   age: "20〜60代（中心は30代〜40代）",
   successRate: "非公開",
 };
@@ -26,7 +26,7 @@ const overview = {
 const strengths = [
   {
     title: "複数の結婚相談所連盟に加盟した会員基盤",
-    desc: "BIU、良縁ネットなど複数の結婚相談所連盟に加盟しており、各連盟の会員とお見合いができます。1つの連盟のみに加盟する相談所と比べて、出会いの選択肢を広げやすい点が特徴です（正確な会員数は公式サイトでご確認ください）。",
+    desc: "公式サイトでは、JBU・BIU・IBJ・TMSの4連盟を利用できると記載しています（一部の連盟は地域により利用不可、または別途オプション費用が必要）。1つの連盟のみに加盟する相談所と比べて、出会いの選択肢を広げやすい点が特徴です（公式掲載の会員数は94,763人・2024年10月時点の値）。",
   },
   {
     title: "仲人型とデータマッチングのハイブリッド対応",
@@ -39,21 +39,22 @@ const strengths = [
 ];
 
 const pros = [
-  "複数連盟の会員ネットワークを利用できる（会員数は公式参照・要確認）",
+  "4つの連盟の会員ネットワークを利用できる（公式掲載の会員数は94,763人）",
   "仲人型+データマッチングの両方が使える",
   "全国に拠点があり地方でも利用可能",
 ];
 
 const cons = [
   "成婚料33万円は業界でも高めの水準",
-  "プランによっては初期費用が高額になる",
+  "入会時費用は最も安いカジュアルコースでも181,500円かかる",
+  "カジュアルコースはお見合い1回ごとに11,000円かかる",
   "拠点によりカウンセラーの対応に差が出る場合がある",
 ];
 
 const faqs = [
   {
     q: "ムスベルが「やばい」と検索されるのはなぜですか？",
-    a: "「ムスベル やばい」と検索されることがありますが、詐欺的という意味ではなく、成婚料330,000円を含む総額への不安が主な理由と考えられます。ムスベルは全国展開・複数連盟加盟の正規の結婚相談所です。無料相談で料金体系を確認しておくことで、入会後のミスマッチを防げます（料金は2026年時点の調査値です。最新情報は公式サイトにてご確認ください）。",
+    a: "「ムスベル やばい」と検索されることがありますが、詐欺的という意味ではなく、成婚料330,000円を含む総額への不安が主な理由と考えられます。ムスベルは全国展開・複数連盟加盟の正規の結婚相談所です。無料相談で料金体系を確認しておくことで、入会後のミスマッチを防げます（料金は2026年10月23日に公式サイトで確認した値です）。",
   },
   {
     q: "ムスベルの評判・口コミはどうですか？",
@@ -61,7 +62,7 @@ const faqs = [
   },
   {
     q: "ムスベルの料金は総額いくらかかりますか？",
-    a: "公表料金にもとづくと、初期費用33,000円〜＋月会費15,400円〜＋成婚料330,000円が基本です。1年活動して成婚した場合の総額目安は約55万円〜です。プラン・連盟・拠点により異なり、お見合い料が別途かかる場合もあるため、正確な総額は無料相談での見積もりにてご確認ください（2026年時点の調査値です）。",
+    a: "公式サイトの料金（税込・2026年10月23日確認）は、カジュアルコースが初期費用33,000円＋入会金148,500円・月会費16,500円・お見合い料11,000円/回、レギュラーコースが初期費用33,000円＋入会金330,000円・月会費16,500円（お見合い料無料）、エクセレントコースが初期費用33,000円＋入会金451,000円・月会費17,000円です。成婚料は全コース共通で330,000円、更新時は更新料55,000円がかかります。カジュアルコースで1年活動して成婚した場合の総額目安は約709,500円（お見合い料を除く）です。",
   },
   {
     q: "ムスベルの入会条件はありますか？",
@@ -69,7 +70,7 @@ const faqs = [
   },
   {
     q: "ムスベルが加盟している連盟はどこですか？",
-    a: "BIU（日本ブライダル連盟）、良縁ネットなど複数の連盟に加盟しています。これにより、各連盟の会員とお見合いができます。",
+    a: "公式サイトでは、JBU・BIU・IBJ・TMSの4連盟を利用できると記載しています。一部の連盟は地域により利用できず、利用に別途オプション申込と費用が必要な連盟もあります（2026年10月23日確認）。",
   },
   {
     q: "ムスベルの無料相談では何ができますか？",
@@ -117,7 +118,7 @@ export default function MusbellReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ムスベルの口コミ・評判｜料金・特徴・サポートを解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年6月</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金は2026年10月23日に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -126,10 +127,10 @@ export default function MusbellReview() {
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：複数連盟加盟による「出会いの多さ」と仲人サポートを評価する声が中心です。一方で成婚料を含む総額の高さを指摘する声もあります。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>「やばい」と検索される理由</strong>：詐欺的という意味ではなく、<strong>成婚料330,000円を含む総額への不安</strong>が主な理由と考えられます。ムスベルは正規の結婚相談所です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費15,400円〜＋成婚料330,000円。1年で成婚した場合の総額目安は<strong>約55万円〜</strong>です（公表料金にもとづく試算・要確認）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会時費用181,500円〜＋月会費16,500円〜＋成婚料330,000円。カジュアルコースで1年で成婚した場合の総額目安は<strong>約70.9万円</strong>です（2026年10月23日公式確認・お見合い料を除く試算）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：会員数の多さを重視する方、地方在住で対面サポートを受けたい方、仲人とデータ検索を併用したい方に適しています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月23日に公式サイトで確認した値（税込）です。会員数は公式サイト掲載の2024年10月時点の値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
@@ -193,11 +194,11 @@ export default function MusbellReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">16,500円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円〜</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">複数連盟加盟（人数は公式参照・要確認）</td><td className="px-4 py-3 text-center">約9.4万人（公式参照）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">15,950円〜</td><td className="px-4 py-3 text-center">18,700円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">181,500円〜（初期費用＋入会金）</td><td className="px-4 py-3 text-center">118,800円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">94,763人（4連盟・2024年10月時点の掲載値）</td><td className="px-4 py-3 text-center">11.7万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">複数連盟加盟</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">1981年創業・23店舗</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">4連盟を利用可能</td><td className="px-4 py-3 text-center">全国54店舗</td><td className="px-4 py-3 text-center">1981年創業・23店舗</td></tr>
               </tbody>
             </table>
           </div>
@@ -211,16 +212,16 @@ export default function MusbellReview() {
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">初期費用</td><td className="px-4 py-3">33,000円〜（プランにより115,500円〜の場合あり）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">月会費</td><td className="px-4 py-3">15,400円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">初期費用</td><td className="px-4 py-3">181,500円〜（初期費用33,000円＋入会金148,500円・カジュアルコース。レギュラーは363,000円、エクセレントは484,000円）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">月会費</td><td className="px-4 py-3">16,500円〜（エクセレントは17,000円）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">成婚料</td><td className="px-4 py-3">330,000円（成婚退会時）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年活動の総額目安（成婚なし）</td><td className="px-4 py-3">約217,800円〜（初期33,000＋月15,400×12）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">約547,800円〜（上記＋成婚料330,000）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年活動の総額目安（成婚なし）</td><td className="px-4 py-3">約379,500円〜（初期181,500＋月16,500×12・カジュアルコース）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">約709,500円〜（上記＋成婚料330,000）</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※月会費・初期費用はプラン・連盟・拠点により異なります。お見合い料などが別途かかる場合があります。上記は公表料金にもとづく目安で、正確な総額は無料相談での見積もりにてご確認ください（金額は2026年時点）。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
+            ※金額はすべて税込で、2026年10月23日にムスベル公式サイトの「コース・料金」ページで確認した値です。カジュアルコースはお見合い1回ごとに11,000円がかかり、更新時には更新料55,000円がかかります。一部の連盟の利用には別途オプション費用が必要です。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
           </p>
         </section>
 
@@ -232,7 +233,7 @@ export default function MusbellReview() {
           <div className="space-y-3">
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">理由①：成婚料33万円は業界でも高めの水準</h3>
-              <p className="text-sm text-[#2C2C2C]/70">ムスベルは成婚退会時に成婚料330,000円が発生します。月会費15,400円〜と合わせ、活動が長引くほど総額が上がるため「高い＝やばい」と感じる方がいます。ただし複数連盟加盟による出会いの多さと仲人サポートを評価する声も多く、費用に見合うかどうかは、何を重視するかによって異なります。</p>
+              <p className="text-sm text-[#2C2C2C]/70">ムスベルは成婚退会時に成婚料330,000円が発生します。入会時費用181,500円〜・月会費16,500円〜と合わせ、活動が長引くほど総額が上がるため「高い＝やばい」と感じる方がいます。一方で、4連盟の会員から探せる点や専任仲人の少人数担当制を重視する方もおり、費用に見合うかどうかは、何を重視するかによって異なります。</p>
             </div>
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <h3 className="font-medium text-[#2C2C2C] mb-1">理由②：複数連盟加盟により会員数が多く、相手を選びにくい</h3>
@@ -243,7 +244,7 @@ export default function MusbellReview() {
               <p className="text-sm text-[#2C2C2C]/70">ムスベルは全国に拠点を持ち、複数の連盟に加盟する正規の結婚相談所です（拠点数・会員数は公式参照）。「やばい」と検索される主な理由は、成婚料を含む総額への不安です。<strong>無料相談で総額（初期費用＋月会費×想定活動月数＋成婚料）の見積もりを確認</strong>しておくことで、入会後のミスマッチを防げます。</p>
             </div>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-3">※料金は2026年時点の調査値です。最新の料金・契約条件は公式サイトおよび無料相談でご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-3">※料金は2026年10月23日に公式サイトで確認した値です。契約条件は公式サイトおよび無料相談でご確認ください。</p>
         </section>
 
         <section className="mb-12">
