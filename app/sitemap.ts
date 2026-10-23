@@ -55,6 +55,8 @@ UPDATED["/compare/sunmarie-vs-musbell"] = "2026-10-23";
 UPDATED["/compare/ibj-vs-musbell"] = "2026-10-23";
 UPDATED["/concierge"] = "2026-10-23";
 UPDATED[""] = "2026-10-23";
+// 2026-10-23 12:00成長: スマリッジ・ヒーローマリッジ・P!っと縁結び（競合比較で不足していた口コミのテーマ別集計・悪い口コミFAQ等を追加）・成婚率（スマリッジ69%）
+for (const r of ["/review/smartread", "/review/hero-marriage", "/review/pitto", "/knowledge/seikon-ritsu"]) UPDATED[r] = "2026-10-23";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

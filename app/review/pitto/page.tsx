@@ -10,14 +10,14 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ運営のIBJ加盟店・料金・入会条件【2026年10月】",
   description:
-    "P!っと縁結び（ピップエレキバンのピップ株式会社が運営する結婚相談所）の料金・IBJ加盟状況・休会解約規定を、公式情報にもとづいて確認しています。1年活動した場合の総額試算、口コミの一次情報の有無、IBJ公式サイトの口コミ9件、入会書類、中途解約の精算についても整理しています。",
+    "P!っと縁結び（ピッと縁結び）は、ピップ株式会社が2024年7月に開業したIBJ加盟の結婚相談所です。初期費用8.8万〜11万円・成婚料22万円の料金、4媒体の口コミの傾向と悪い口コミ、休会・解約規定を公式情報と照合して整理しています。",
 };
 
 const overview = {
   name: "P!っと縁結び",
-  company: "ピップ株式会社（東京都千代田区内神田3-3-7・「ピップエレキバン」「スリムウォーク」で知られる企業本体が運営）",
+  company: "ピップ株式会社（本社: 大阪市中央区。「ピップエレキバン」「スリムウォーク」で知られる企業本体が運営。相談所の所在地は東京都千代田区内神田3-3-7・JR神田駅徒歩1分）",
   type: "仲人型（専任カウンセラー＋IBJシステム紹介・AIマッチング活用）",
-  federation: "IBJ正規加盟（IBJ登録会員数107,597名・公式サイト掲載値）",
+  federation: "IBJ正規加盟（2024年7月30日開業。IBJ登録会員数107,597名・2026年3月末時点の公式サイト掲載値）",
   area: "全国（東京拠点・オンライン面談/オンラインお見合い対応・東京周辺は対面相談も可）",
   initialFee: "初期費用88,000円〜110,000円（税込・プランにより異なる）",
   monthlyFee: "11,000円〜16,500円（税込・2プラン）",
@@ -28,7 +28,7 @@ const overview = {
 const strengths = [
   {
     title: "ピップエレキバンのピップ株式会社の本体が運営しています",
-    desc: "P!っと縁結びは、磁気治療器「ピップエレキバン」や「スリムウォーク」で知られるピップ株式会社が運営する結婚相談所です。公式サイトはピップのコーポレートドメイン（pipjapan.co.jp）のサブドメインで運営されており、名前貸しではなく企業本体の婚活支援事業であることが確認できます。",
+    desc: "P!っと縁結びは、磁気治療器「ピップエレキバン」や「スリムウォーク」で知られるピップ株式会社（1946年設立・本社大阪市）が、2024年7月30日に新規事業として開業した結婚相談所です（同日付の同社ニュースリリース）。公式サイトはピップのコーポレートドメイン（pipjapan.co.jp）のサブドメインで運営されており、名前貸しではなく企業本体の婚活支援事業であることが確認できます。",
   },
   {
     title: "IBJ正規加盟で約10.7万名の会員基盤を利用可能",
@@ -58,11 +58,23 @@ const cons = [
 const faqs = [
   {
     q: "P!っと縁結びの運営会社はピップエレキバンのピップですか？",
-    a: "はい。運営はピップ株式会社（東京都千代田区内神田3-3-7）で、「ピップエレキバン」「スリムウォーク」の製造販売で知られる企業本体です。公式サイトもピップのコーポレートドメイン（pipjapan.co.jp）のサブドメインで運営されており、同社の事業案内にも婚活支援事業が明記されています。",
+    a: "はい。運営はピップ株式会社（本社: 大阪市中央区）で、「ピップエレキバン」「スリムウォーク」の製造販売で知られる企業本体です。同社は2024年7月30日付のニュースリリースで、IBJに加盟して婚活支援事業「P!っと縁結び」を開業したと発表しています。相談所の所在地は東京都千代田区内神田3-3-7（JR神田駅徒歩1分）で、公式サイトもピップのコーポレートドメイン（pipjapan.co.jp）のサブドメインで運営されています。",
+  },
+  {
+    q: "P!っと縁結びの悪い口コミ・評判にはどのような内容がありますか？",
+    a: "2026年10月23日に当サイトが確認した4媒体のうち、気になる点として挙げられていたのは「関東以外では対面相談ができない」「成婚料がやや高い」の2テーマ（比較記事「みんなの婚活体験談」掲載）と、「実店舗やカウンセラーの数が多い相談所を求める方には向かない」という指摘（訪問取材記事「婚活看護師みちこの申し送り。」）です。いずれも公式情報と一致しており、対面相談は東京周辺に限られ（公式FAQ）、成婚料は220,000円です（公式「プラン・料金」）。IBJ公式サイトのクチコミ9件のうち本文を確認できた5件には、不満を述べた内容は見当たりませんでした。ただし、口コミの総数が少ない段階であるため、傾向は今後変わる可能性があります。",
+  },
+  {
+    q: "P!っと縁結びの口コミが少ないのはなぜですか？",
+    a: "開業が2024年7月と比較的新しく、カウンセラーも2名の少人数体制であるためと考えられます。当サイトの確認時点（2026年10月23日）で、利用者の声を掲載している媒体はIBJ公式サイトのクチコミ（9件）と比較記事2件程度でした。また、比較記事・取材記事の多くは、P!っと縁結びの公式サイトの「お知らせ」でメディア掲載として紹介されている媒体です。口コミだけで判断せず、無料相談で料金・サポート体制を直接確認することをおすすめします。",
+  },
+  {
+    q: "P!っと縁結びの入会条件を教えてください。",
+    a: "公式FAQでは、男女とも20歳以上の独身者であること、経済的・身体的・精神的に支障がないこと、反社会的勢力の関係者でないことが条件とされています。離婚が成立していない場合は入会できません。入会時には住民票・独身証明書（いずれも3ヶ月以内の原本）、最終学歴証明書、収入証明書、写真付き本人確認書類などが必要です。",
   },
   {
     q: "P!っと縁結びはIBJに加盟していますか？",
-    a: "はい。公式サイトに「『P!っと縁結び』はIBJ正規加盟店です」と明記されています。IBJ登録会員数107,597名（公式サイト掲載値）のネットワークからお相手を探せます。",
+    a: "はい。公式サイトに「『P!っと縁結び』はIBJ正規加盟店です」と明記されています。IBJ登録会員数107,597名（2026年3月末時点・公式サイト掲載値）のネットワークからお相手を探せます。なお、2026年7月16日の公式お知らせでは「IBJ会員数11万名突破」と告知されています。",
   },
   {
     q: "P!っと縁結びの料金はいくらですか？",
@@ -74,7 +86,7 @@ const faqs = [
   },
   {
     q: "P!っと縁結びの休会・解約のルールはどうなっていますか？",
-    a: "休会は月1,100円（税込）で最大3ヶ月まで利用でき、開始希望日の10日前までの申請が必要です。契約日から8日以内であればクーリング・オフにより無条件解除・全額返金となります。中途退会時に月会費の日割り返金はなく、お見合いキャンセル1万円・当日変更や15分以上の遅刻2万円などの違約金規定もあるため、契約書面で必ずご確認ください。",
+    a: "休会は月1,100円（税込）で最大3ヶ月まで利用でき、開始希望日の10日前までの申請が必要です。契約日から8日以内であればクーリング・オフにより無条件解除・全額返金となります。退会は10日前までにカウンセラーへ連絡し、所定の退会届を提出する必要があります。中途退会時に月会費の日割り返金はなく、お見合いキャンセル1万円・当日変更や15分以上の遅刻2万円などの違約金規定もあるため、契約書面で必ずご確認ください。",
   },
   {
     q: "P!っと縁結びの成婚率はどのくらいですか？",
@@ -105,15 +117,16 @@ const REVIEW_EXTRA = {
   "ratings": [
     {
       "media": "IBJ公式サイト P!っと縁結びのクチコミ",
-      "score": "平均4.7",
-      "count": "9件",
-      "detail": "星5が78%・星4が22%です。現時点では件数が少ない状況です。IBJの相談所ページには成婚者エピソードが5件掲載されています。",
+      "score": "点数は転載していません",
+      "count": "9件（本文表示5件）",
+      "detail": "本文を確認できた5件はいずれも、カウンセラーの親身な対応に触れた内容です。現時点では件数が少ない状況です。IBJの相談所ページには成婚者エピソードが5件掲載されています。",
       "url": "https://www.ibjapan.com/area/tokyo/52018/"
     }
   ],
   "ratingNotes": [
     "IBJ公式サイト（日本結婚相談所連盟の運営サイト）の相談所ページに掲載されている口コミです。",
-    "「P!っと縁結び 口コミ」の上位は運営会社の発表資料が中心で、利用者の口コミをまとめた比較記事は見当たりませんでした。"
+    "当サイトでは、第三者サイトの星評価・点数は転載せず、件数と内容の傾向のみを掲載しています。",
+    "比較記事・取材記事を含む4媒体の傾向は、本ページの「口コミ・評判の掲載媒体とテーマ別の集計」で整理しています。"
   ],
   "fitYes": [
     "運営会社の素性が明確な相談所を選びたい方（ピップ株式会社の本体運営）",
@@ -133,7 +146,7 @@ const REVIEW_EXTRA = {
     ],
     [
       "必要書類",
-      "住民票・独身証明書（いずれも3ヶ月以内の原本）、最終学歴証明書（短大卒以上）、収入証明書、写真付き本人確認書類、プロフィール写真1枚以上（3ヶ月以内撮影）、国家資格証明書（該当者）。"
+      "入会条件は男女とも20歳以上の独身者です（公式FAQ）。住民票・独身証明書（いずれも3ヶ月以内の原本）、最終学歴証明書（短大卒以上）、収入証明書、写真付き本人確認書類、プロフィール写真1枚以上（3ヶ月以内撮影）、国家資格証明書（該当者）。"
     ],
     [
       "中途解約",
@@ -148,7 +161,9 @@ const REVIEW_EXTRA = {
   "facts": [
     "IBJ AWARD 2026年上期 PREMIUMを受賞しています（2026年7月16日の公式お知らせ）。",
     "『日経トレンディ』2026年6月4日発売号の「最新 結婚相談所調査」特集に掲載されました（2026年6月10日の公式お知らせ）。",
-    "入会金・初期費用50%OFFの「婚活応援キャンペーン」は2026年8月10日〜10月10日の期間限定で、10月14日時点では終了しています。"
+    "入会金・初期費用50%OFF（ベーシックプランの初期費用110,000円→55,000円）の「婚活応援キャンペーン」は2026年8月10日〜10月10日受付分までの期間限定で、10月23日時点では終了しています。後継のキャンペーンは同日時点の公式お知らせでは告知されていません。",
+    "2026年10月2日の公式お知らせで、ブログ「婚活看護師みちこの申し送り。」による訪問取材記事の掲載が告知されています。",
+    "初期費用半額のキャンペーンは2026年5月14日〜6月30日にも実施されており（同社PR TIMES発表）、2026年は期間限定の割引が複数回行われています。入会時期によって初期費用が変わる可能性があるため、無料相談の際に実施中のキャンペーンをご確認ください。"
   ]
 };
 
@@ -165,7 +180,22 @@ export default function PittoReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ株式会社運営のIBJ正規加盟店を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式「プラン・料金」ページで再確認。IBJ公式サイトの口コミ件数・入会条件を追記）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・休会・解約規定は2026年10月23日に公式「プラン・料金」「よくあるご質問」で再確認。運営会社の本社所在地を訂正し、口コミ4媒体のテーマ別集計と悪い口コミのFAQを追加）</p>
+
+        <div className="bg-white rounded-2xl p-6 mb-4 border border-gray-100">
+          <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">P!っと縁結び（ピッと縁結び）とは</h2>
+          <dl className="grid sm:grid-cols-[7rem_1fr] gap-x-4 gap-y-2 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <dt className="font-medium text-[#2C2C2C]/60">運営会社</dt>
+            <dd>ピップ株式会社（「ピップエレキバン」の製造販売元・本社大阪市）。2024年7月30日に婚活支援事業として開業しています。</dd>
+            <dt className="font-medium text-[#2C2C2C]/60">形態</dt>
+            <dd>IBJ正規加盟の仲人型結婚相談所です。カウンセラー2名体制で、オンライン中心に全国対応しています（対面相談は東京周辺のみ）。</dd>
+            <dt className="font-medium text-[#2C2C2C]/60">料金</dt>
+            <dd>初期費用88,000円〜110,000円・月会費11,000円〜16,500円・成婚料220,000円（税込・2プラン）です。1年で成婚した場合の総額は、当サイトの試算でベーシックプラン528,000円、エントリープラン440,000円＋お見合い料です。</dd>
+            <dt className="font-medium text-[#2C2C2C]/60">口コミ</dt>
+            <dd>確認できた媒体は4つで、良い声は「カウンセラーの親身な対応」「大手企業運営の安心感」、気になる声は「対面相談のエリアが限られる」「成婚料が高め」に集中しています。件数はまだ少ない段階です。</dd>
+          </dl>
+          <p className="text-xs text-[#2C2C2C]/50 mt-3">出典: P!っと縁結び公式サイト（プラン・料金／よくあるご質問）、ピップ株式会社ニュースリリース（2024年7月30日）、IBJ公式サイト相談所ページ。2026年10月23日確認。</p>
+        </div>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -238,7 +268,7 @@ export default function PittoReview() {
             <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※当サイトによる単純合計の試算です。エントリープランは月4回お見合いすると年264,000円のお見合い料が加わり、ベーシックプランより高くなる計算です。お見合い回数の見込みに応じて選ぶことをおすすめします。このほかプロフィール撮影代・婚活パーティ参加費が別途かかる場合があります（公式FAQに記載）。</p>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年10月14日に公式「プラン・料金」ページ（pi-enmusubi.pipjapan.co.jp/plan/）で再確認した税込料金です（8月6日時点から変更なし）。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年10月23日に公式「プラン・料金」ページ（pi-enmusubi.pipjapan.co.jp/plan/）で再確認した税込料金です（8月6日・10月14日の確認時点から変更ありません）。公式ページの注記では、活動サポート費は1年分の前受金とされています。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
         </section>
 
@@ -332,16 +362,72 @@ export default function PittoReview() {
         {/* Reviews / How to verify */}
         <ReviewVoices
           name="P!っと縁結び"
-          checkedOn="2026年10月14日"
-          reviewNote="「P!っと縁結び」「ピッと縁結び」「Pっと縁結び」はいずれも同じピップ株式会社の結婚相談所です。当サイトのGoogleマップ調査（13都道府県）では、P!っと縁結びの店舗としての口コミは見つかりませんでした（2026年10月14日時点）。口コミだけで判断せず、下記の見極めポイントと料金表でご確認ください。"
+          checkedOn="2026年10月23日"
+          reviewNote="「P!っと縁結び」「ピッと縁結び」「Pっと縁結び」はいずれも同じピップ株式会社の結婚相談所です。開業から2年余りのため口コミの総数は少なく、下記は4媒体に掲載された内容を当サイトがテーマ別に要約したものです（本文の転載は行っていません）。なお、当サイトの2026年10月14日のGoogleマップ調査では店舗としての口コミを確認できませんでしたが、Google上の口コミとして3件を紹介している比較記事（Sucma）があります。"
+          good={[
+            { text: "カウンセラーが親身に寄り添ってくれるという内容です。本文を確認できた5件すべてで触れられています。", source: "IBJ公式サイト P!っと縁結び相談所ページのクチコミ（9件中、本文表示5件）" },
+            { text: "ピップ株式会社という大手企業が運営していることへの安心感を挙げる声です。", source: "みんなの婚活体験談（筆者によるクラウドワークス調査とされる口コミ）、Sucma（Google上の口コミとして紹介）" },
+            { text: "担当者の連絡の速さや、活動計画を丁寧に立ててもらえた点を評価する声です。", source: "IBJ公式サイトのクチコミ、Sucma" },
+            { text: "IBJ加盟で出会いの数が多いこと、オンラインで全国から活動できることを評価する声です。", source: "みんなの婚活体験談" },
+          ]}
+          bad={[
+            { text: "関東以外では対面で相談できないという指摘です。公式FAQでも対面相談は東京周辺に限られています。", source: "みんなの婚活体験談" },
+            { text: "成婚料がやや高いという指摘です。成婚料は両プラン共通で220,000円（税込）です。", source: "みんなの婚活体験談" },
+            { text: "実店舗が多い相談所や、在籍カウンセラーが多い相談所を求める方には向かないという指摘です。", source: "婚活看護師みちこの申し送り。（訪問取材記事・広告を含む旨の記載あり）" },
+          ]}
+          caution={[
+            "口コミの件数が少ないため、個人の感想が全体の傾向を大きく左右します。ご自身の条件に当てはまるかは、無料相談で確認することをおすすめします。",
+            "比較記事・取材記事3媒体はいずれも、P!っと縁結びの公式サイトの「お知らせ」でメディア掲載として紹介されている媒体です。",
+          ]}
         />
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
-            P!っと縁結びの評判・口コミに関する調査結果
+            P!っと縁結びの口コミ・評判の掲載媒体とテーマ別の集計
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「P!っと縁結び 評判」「P!っと縁結び 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>。運営元のピップ株式会社は著名ですが、結婚相談所サービスとしての利用者の声は、現時点ではインターネット上の蓄積が少ない段階と考えられます。当サイトでは確認できない口コミを創作して掲載することは行わず、公式情報をもとにした入会前の見極め方を整理しています。
+            当サイトでは2026年10月23日に「P!っと縁結び 口コミ」「ピッと縁結び 評判」で検索し、利用者の声を掲載している媒体を確認しました。上位の多くは運営会社の発表資料で、利用者の声を確認できたのは次の4媒体です。媒体の性質（運営元との関係）もあわせて掲載しています。
+          </p>
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border border-gray-100">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-3 py-2 text-left font-medium whitespace-nowrap">媒体</th>
+                  <th className="px-3 py-2 text-left font-medium">掲載内容と件数</th>
+                  <th className="px-3 py-2 text-left font-medium">媒体の性質</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2 font-medium text-[#2C2C2C]/80"><a href="https://www.ibjapan.com/area/tokyo/52018/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト 相談所ページ</a></td><td className="px-3 py-2">クチコミ9件（本文表示5件）、成婚者エピソード5件</td><td className="px-3 py-2 text-[#2C2C2C]/75">加盟先の連盟が運営するサイトです。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2 font-medium text-[#2C2C2C]/80"><a href="https://syohey.com/pitto-enmusubi-reviews/" target="_blank" rel="nofollow noopener noreferrer" className="underline">みんなの婚活体験談</a></td><td className="px-3 py-2">良い口コミ4テーマ・気になる口コミ2テーマ（各2件・計12件）、公式掲載の成婚事例3件の紹介</td><td className="px-3 py-2 text-[#2C2C2C]/75">個人の比較ブログです。口コミは筆者のクラウドワークス調査とされています。公式サイトのお知らせで掲載が告知されています。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2 font-medium text-[#2C2C2C]/80"><a href="https://hirorinyu.jp/dating-agency/pi-enmusubi/" target="_blank" rel="nofollow noopener noreferrer" className="underline">Sucma</a></td><td className="px-3 py-2">Google上の口コミ3件（良い3件・否定的0件。記事側が厳選と明記）</td><td className="px-3 py-2 text-[#2C2C2C]/75">婚活サービスの比較サイトです。公式サイトのお知らせで掲載が告知されています。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2 font-medium text-[#2C2C2C]/80"><a href="https://www.ns-konkatsu-michiko.com/pitto-enmusubi-interview/" target="_blank" rel="nofollow noopener noreferrer" className="underline">婚活看護師みちこの申し送り。</a></td><td className="px-3 py-2">訪問取材の記録（利用者の口コミではありません）。向いている人5項目・向いていない人3項目</td><td className="px-3 py-2 text-[#2C2C2C]/75">運営会社の協力による取材で、広告を含む旨が記載されています。公式サイトのお知らせ（2026年10月2日）で掲載が告知されています。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h3 className="font-medium text-[#A08447] mb-3 tracking-wider">テーマ別の集計と公式情報との照合</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-3 py-2 text-left font-medium">テーマ</th>
+                  <th className="px-3 py-2 text-left font-medium whitespace-nowrap">傾向</th>
+                  <th className="px-3 py-2 text-left font-medium whitespace-nowrap">言及した媒体数</th>
+                  <th className="px-3 py-2 text-left font-medium">公式情報との照合（当サイト確認）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2">カウンセラーの親身な対応</td><td className="px-3 py-2">良い</td><td className="px-3 py-2">3媒体</td><td className="px-3 py-2 text-[#2C2C2C]/75">カウンセラーは2名で、公式サイトで実名紹介されています。30分以内の都度相談は両プランとも無制限です。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2">大手企業運営の安心感</td><td className="px-3 py-2">良い</td><td className="px-3 py-2">3媒体</td><td className="px-3 py-2 text-[#2C2C2C]/75">ピップ株式会社の本体運営で、2024年7月30日に同社が開業を発表しています。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2">オンラインで全国から活動できる</td><td className="px-3 py-2">良い</td><td className="px-3 py-2">2媒体</td><td className="px-3 py-2 text-[#2C2C2C]/75">無料相談は基本オンラインで、Zoom等のオンラインお見合いに対応しています（公式FAQ）。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2">対面相談・拠点が限られる</td><td className="px-3 py-2">気になる</td><td className="px-3 py-2">2媒体</td><td className="px-3 py-2 text-[#2C2C2C]/75">対面相談は東京周辺のみです（公式FAQ）。拠点は東京・神田の1か所です。</td></tr>
+                <tr className="border-t border-gray-100 align-top"><td className="px-3 py-2">成婚料が高め</td><td className="px-3 py-2">気になる</td><td className="px-3 py-2">1媒体</td><td className="px-3 py-2 text-[#2C2C2C]/75">成婚料は220,000円（税込）です。当サイトのIBJメンバーズのレビュー（2026年10月14日確認）でも成婚料は220,000円で、同じ金額です。一方、成婚料を低く設定した相談所もあるため、総額で比較することをおすすめします。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 mb-6 leading-relaxed">※媒体数は上記4媒体のうち、そのテーマに触れていた媒体の数です（当サイト集計・2026年10月23日確認）。口コミ本文は転載せず、内容をテーマ別に分類しています。第三者サイトの星評価・点数は掲載していません。</p>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            現時点では、運営元と関係のない第三者による口コミの蓄積はまだ少ない状況です。当サイトでは確認できない口コミを創作して掲載することは行わず、公式情報をもとにした入会前の見極め方を以下に整理しています。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
@@ -353,7 +439,7 @@ export default function PittoReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>休会（月1,100円・最大3ヶ月・10日前申請）と中途退会時の費用の扱い（月会費の日割り返金なし。契約書面で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成し、料金・ニュースは2026年10月14日に再確認しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成し、料金・よくあるご質問・お知らせは2026年10月23日に再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}
@@ -376,7 +462,7 @@ export default function PittoReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月23日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
