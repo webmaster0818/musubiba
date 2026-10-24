@@ -2,6 +2,24 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
+import { FEE_CHECKED, jpDate, planFee, planTotal, PLAN_SCENARIO, yen } from "@/data/fees";
+
+// 料金は共通データ data/fees.ts（PLAN_FEES・FEE_CHECKED）から計算する。金額をこのページに直書きしない。
+const tA = planFee("bridal-tulip", "Aプラン");
+const tB = planFee("bridal-tulip", "Bプラン");
+const t42 = planFee("bridal-tulip", "42歳以上プラン");
+const mC = planFee("musbell", "カジュアルコース");
+const tulipChecked = jpDate(FEE_CHECKED["bridal-tulip"].date);
+const musbellChecked = jpDate(FEE_CHECKED["musbell"].date);
+const base = { omiai: 0, kosai: 0 };
+const tulipNoSeikon = planTotal(tA, { ...base, seikon: false });
+const musbellNoSeikon = planTotal(mC, { ...base, seikon: false });
+const tulipSeikon = planTotal(tA, base);
+const musbellSeikon = planTotal(mC, base);
+const tulipScenario = planTotal(tA);
+const tulipScenarioB = planTotal(tB);
+const musbellScenario = planTotal(mC);
+const scenarioLabel = `お見合い年${PLAN_SCENARIO.omiai}件・交際成立${PLAN_SCENARIO.kosai}件と仮定`;
 
 export const metadata: Metadata = {
   title: "ブライダルチューリップとムスベルの比較｜料金・成婚率・サポートの違い【2026年】",
@@ -10,7 +28,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/compare/tulip-vs-musbell/" },
 };
 
-// 料金は当サイト各レビューの検証値（チューリップ=2026年7月公式確認・税込／ムスベル=2026年10月23日公式確認・税込）。最新・正確な料金は各公式サイトでご確認ください。
 type Row = { item: string; tulip: string; musbell: string };
 const rows: Row[] = [
   { item: "タイプ", tulip: "仲人型（IBJ・SCRUM・CONNECT-shipの3連盟加盟）", musbell: "ハイブリッド型（仲人＋データマッチング・複数連盟加盟）" },
@@ -18,20 +35,22 @@ const rows: Row[] = [
   { item: "会員数", tulip: "紹介可能会員 約19万名（3連盟合計・2026年1月時点の公式表記）", musbell: "94,763人（JBU・BIU・IBJ・TMSの4連盟・公式掲載の2024年10月時点の値）" },
   { item: "初期費用（入会金）", tulip: "105,000円（42歳以上プランは150,800円）", musbell: "181,500円〜（初期費用33,000円＋入会金148,500円・カジュアルコース）" },
   { item: "月会費", tulip: "7,550円〜12,950円（プランにより異なる）", musbell: "16,500円〜（エクセレントコースは17,000円）" },
-  { item: "お見合い料", tulip: "6,100円または8,800円／件（都度払い）", musbell: "カジュアルコースは11,000円/回（レギュラー・エクセレントは無料）" },
+  { item: "お見合い料", tulip: `${yen(tB.perOmiai)}または${yen(tA.perOmiai)}／件（都度払い）`, musbell: `カジュアルコースは${yen(mC.perOmiai)}/回（レギュラー・エクセレントは無料）` },
+  { item: "交際成立時の手数料", tulip: `Aプラン${yen(tA.perKosai!)}・Bプラン${yen(tB.perKosai!)}・42歳以上プラン${yen(t42.perKosai!)}／件（直コンタクト事務手数料及び交際開始アドバイス料）`, musbell: "公式の料金表に該当する項目はありません（2026年10月24日確認）" },
   { item: "成婚料", tulip: "180,000円（全プラン共通）", musbell: "330,000円（成婚退会時・全コース共通）" },
   { item: "成婚率の公表", tulip: "60%以上（自社公称・定義公開：成婚退会者数÷全退会者数）", musbell: "非公開" },
 ];
 
 const totals = [
-  { label: "1年活動の総額目安（成婚なし）", tulip: "195,600円〜（Aプラン・お見合い料別）", musbell: "約379,500円〜" },
-  { label: "1年で成婚した場合の総額目安", tulip: "約375,600円〜（お見合い料別）", musbell: "約709,500円〜" },
+  { label: "1年活動の総額目安（成婚なし・お見合い料等を除く）", tulip: `${yen(tulipNoSeikon)}〜（Aプラン・お見合い料と交際成立時の手数料は別）`, musbell: `約${yen(musbellNoSeikon)}〜（カジュアルコース・お見合い料は別）` },
+  { label: "1年で成婚した場合の総額目安（お見合い料等を除く）", tulip: `約${yen(tulipSeikon)}〜（お見合い料と交際成立時の手数料は別）`, musbell: `約${yen(musbellSeikon)}〜（お見合い料は別）` },
+  { label: `1年で成婚した場合の総額目安（${scenarioLabel}）`, tulip: `約${yen(tulipScenario)}（Aプラン。Bプランは約${yen(tulipScenarioB)}）`, musbell: `約${yen(musbellScenario)}（カジュアルコース）` },
 ];
 
 const faqs = [
   {
     q: "ブライダルチューリップとムスベルでは、料金が安くなるのはどちらですか？",
-    a: "成婚まで含めた総額はブライダルチューリップのほうが抑えやすい目安です。成婚料がチューリップ180,000円・ムスベル330,000円と15万円差があり、1年で成婚した場合の総額目安はチューリップ約375,600円〜（お見合い料別）、ムスベル約709,500円〜です。入会時費用もチューリップ105,000円、ムスベル181,500円〜（カジュアルコース・2026年10月23日公式確認）で、チューリップのほうが低めです。チューリップはお見合い料（6,100円または8,800円／件）が都度かかるため、活動量が多い方は、お見合いの件数を含めて見積もってください（各社の公表料金にもとづく目安です。詳細は各社にご確認ください）。",
+    a: `成婚まで含めた総額はブライダルチューリップのほうが抑えやすい目安です。成婚料がチューリップ${yen(tA.success)}・ムスベル${yen(mC.success)}と${yen(mC.success - tA.success)}の差があります。1年で成婚し、${scenarioLabel}した場合の総額目安は、チューリップ（Aプラン）約${yen(tulipScenario)}、ムスベル（カジュアルコース）約${yen(musbellScenario)}です。入会時費用もチューリップ${yen(tA.initial)}、ムスベル${yen(mC.initial)}〜（カジュアルコース）で、チューリップのほうが低めです。チューリップはお見合い料（${yen(tB.perOmiai)}または${yen(tA.perOmiai)}／件）に加えて、交際が1件成立するごとに手数料（Aプラン${yen(tA.perKosai!)}・Bプラン${yen(tB.perKosai!)}・42歳以上プラン${yen(t42.perKosai!)}）がかかるため、活動量が多い方はお見合いと交際の件数を含めて見積もってください（各社の公表料金にもとづく目安です。詳細は各社にご確認ください）。`,
   },
   {
     q: "出会いの数（会員数）で選ぶ場合、どちらが適していますか？",
@@ -67,7 +86,7 @@ export default function TulipVsMusbellPage() {
           どちらも複数連盟に加盟し仲人サポートが受けられる<strong>ブライダルチューリップ</strong>（3連盟・高田馬場＋オンライン）と<strong>ムスベル</strong>（複数連盟・全国拠点のハイブリッド型）を、料金総額・成婚率の公表定義・サポート形式の観点から中立的に比較しています。総額を抑えたいか、全国の拠点での対面サポートを重視するかで、向き不向きが分かれます。どちらも無料相談から始められるため、迷われた場合は両社で総額の見積もりを取り、比較することをおすすめします。
         </p>
         <p className="text-xs text-[#2C2C2C]/50 mb-8">
-          ※料金は当サイト各レビューの検証値です（ブライダルチューリップ=2026年7月に公式サイトで確認・税込／ムスベル=2026年10月23日公式確認・税込）。プラン・連盟・拠点により異なるため、最新の料金・契約条件は各公式サイトおよび無料相談で必ずご確認ください。
+          ※料金は当サイト各レビューの検証値です（ブライダルチューリップ={tulipChecked}に公式サイトで確認・税込／ムスベル={musbellChecked}に公式サイトで確認・税込）。プラン・連盟・拠点により異なるため、最新の料金・契約条件は各公式サイトおよび無料相談で必ずご確認ください。
         </p>
 
         <section className="mb-10">
@@ -117,7 +136,7 @@ export default function TulipVsMusbellPage() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※総額は「初期費用＋月会費×12ヶ月＋成婚料」で試算した公表料金ベースの目安です（チューリップは42歳未満のAプラン基準・2026年7月公式確認、ムスベルはカジュアルコース基準・2026年10月23日公式確認）。チューリップはお見合い料（6,100円または8,800円／件）が都度かかるため、例えばお見合い月1件（年12件）なら年間73,200円〜105,600円が上乗せされます。ムスベルもカジュアルコースはお見合い1回ごとに11,000円がかかります。正確な総額は各社の無料相談での見積もりでご確認ください。成婚料の差（180,000円 vs 330,000円）が大きいため、成婚まで進んだ場合の総額はチューリップが抑えやすい傾向です。
+            ※上の2行は「初期費用＋月会費×12ヶ月（＋成婚料）」、3行目はさらに「お見合い料×{PLAN_SCENARIO.omiai}件＋交際成立時の手数料×{PLAN_SCENARIO.kosai}件」を加えた当サイトの試算です（チューリップは42歳未満のAプラン基準・{tulipChecked}公式確認、ムスベルはカジュアルコース基準・{musbellChecked}公式確認）。チューリップの交際成立時の手数料は2026年10月21日の公式確認で反映したもので、以前の試算には含めていませんでした。ムスベルの公式料金表には交際成立時の費用の項目がないため、ムスベルの3行目はお見合い料のみを加えています（2026年10月24日確認）。お見合い・交際の件数により総額は変動するため、正確な総額は各社の無料相談での見積もりでご確認ください。成婚料の差（{yen(tA.success)}と{yen(mC.success)}）が大きいため、成婚まで進んだ場合の総額はチューリップが抑えやすい傾向です。
           </p>
         </section>
 

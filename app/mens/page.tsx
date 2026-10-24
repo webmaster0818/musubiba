@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
+import { planFee, planTotal, yen } from "@/data/fees";
 
 export const metadata: Metadata = {
   title: "男性の結婚相談所おすすめ比較【2026年】30代・40代男性の始め方",
@@ -55,7 +56,7 @@ const rows: Row[] = [
     monthly: "7,550円〜12,950円",
     omiai: "6,100円または8,800円／件",
     seikon: "180,000円",
-    totalMen: "約501,500円",
+    totalMen: `約${yen(planTotal(planFee("bridal-tulip", "Aプラン")))}`,
     disclosure: "男女比は公表なし。成婚率60%以上（自社公称・算出定義を開示）",
   },
   {
@@ -97,7 +98,7 @@ const faqs = [
   },
   {
     q: "30代男性の結婚相談所の費用はいくらかかりますか？",
-    a: "費用は「初期費用＋月会費×活動月数＋お見合い料＋成婚料」で決まります。当サイトが公式サイトで検証した5社（税込）で、1年活動して成婚した場合の男性の総額を試算すると、ウェルスマ約341,200円・エクセレンス青山約473,000円（男性お見合い料8,800円×年12回込み）・ブライダルチューリップ約501,500円（お見合い年12件・交際成立1件の手数料20,300円込み）・ヒーローマリッジ約583,000円（スタンダードプラン）・IBJメンバーズ約677,050円です。お見合い料が都度払いの相談所は活動量で総額が変わる点、料金は改定される場合がある点に注意し、申込前に必ず公式サイトでご確認ください。",
+    a: `費用は「初期費用＋月会費×活動月数＋お見合い料＋成婚料」で決まります。当サイトが公式サイトで検証した5社（税込）で、1年活動して成婚した場合の男性の総額を試算すると、ウェルスマ約341,200円・エクセレンス青山約473,000円（男性お見合い料8,800円×年12回込み）・ブライダルチューリップ約${yen(planTotal(planFee("bridal-tulip", "Aプラン")))}（お見合い年12件・交際成立1件の手数料${yen(planFee("bridal-tulip", "Aプラン").perKosai!)}込み）・ヒーローマリッジ約583,000円（スタンダードプラン）・IBJメンバーズ約677,050円です。お見合い料が都度払いの相談所は活動量で総額が変わる点、料金は改定される場合がある点に注意し、申込前に必ず公式サイトでご確認ください。`,
   },
 ];
 
@@ -247,7 +248,7 @@ export default function MensHubPage() {
             <div className="bg-white rounded-xl border border-gray-100 p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2 mb-2">
                 <h3 className="font-medium text-[#A08447] tracking-wider">ブライダルチューリップ（男性の入会歓迎・3連盟）</h3>
-                <span className="text-sm font-semibold">約501,500円<span className="text-xs text-[#2C2C2C]/50">／1年成婚試算（お見合い年12件・交際成立1件）</span></span>
+                <span className="text-sm font-semibold">約{yen(planTotal(planFee("bridal-tulip", "Aプラン")))}<span className="text-xs text-[#2C2C2C]/50">／1年成婚試算（お見合い年12件・交際成立1件）</span></span>
               </div>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-2">
                 IBJ・SCRUM・CONNECT-shipの3連盟加盟で紹介可能会員は約19万名（2026年1月時点・公式表記）と母集団が広く、男性の入会も受け付けています。月会費7,550円〜と月々の費用を抑えて始められ、面談回数無制限＋サブカウンセラー体制で支援を受けられます。お見合い料が都度払いのため、月3件以上ならBプラン（月12,950円・お見合い6,100円）が有利な構造です。

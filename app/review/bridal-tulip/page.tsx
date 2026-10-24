@@ -7,6 +7,10 @@ import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
+import { PLAN_FEES, planTotal, yen } from "@/data/fees";
+
+// 料金表と1年総額の目安は共通データ data/fees.ts（PLAN_FEES）から計算する
+const TULIP_PLANS = PLAN_FEES.filter((p) => p.slug === "bridal-tulip");
 
 export const metadata = {
   title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜IBJ口コミ評価4.8・料金3プラン【2026年10月】",
@@ -235,12 +239,12 @@ export default function BridalTulipReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">入会金</td><td className="px-4 py-3 text-center">105,000円</td><td className="px-4 py-3 text-center">105,000円</td><td className="px-4 py-3 text-center">150,800円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,550円</td><td className="px-4 py-3 text-center">12,950円</td><td className="px-4 py-3 text-center">11,250円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">お見合い料</td><td className="px-4 py-3 text-center">8,800円／件</td><td className="px-4 py-3 text-center">6,100円／件</td><td className="px-4 py-3 text-center">8,800円／件</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">交際成立時の手数料<br className="hidden sm:block" />（直コンタクト事務手数料・交際開始アドバイス料）</td><td className="px-4 py-3 text-center">20,300円／件</td><td className="px-4 py-3 text-center">0円／件</td><td className="px-4 py-3 text-center">10,100円／件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">入会金</td>{TULIP_PLANS.map((p) => <td key={p.plan} className="px-4 py-3 text-center">{yen(p.initial)}</td>)}</tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td>{TULIP_PLANS.map((p) => <td key={p.plan} className="px-4 py-3 text-center">{yen(p.monthly)}</td>)}</tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">お見合い料</td>{TULIP_PLANS.map((p) => <td key={p.plan} className="px-4 py-3 text-center">{yen(p.perOmiai)}／件</td>)}</tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">交際成立時の手数料<br className="hidden sm:block" />（直コンタクト事務手数料・交際開始アドバイス料）</td>{TULIP_PLANS.map((p) => <td key={p.plan} className="px-4 py-3 text-center">{yen(p.perKosai ?? 0)}／件</td>)}</tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center" colSpan={3}>180,000円（全プラン共通）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">1年で成婚した場合の目安<br className="hidden sm:block" />（お見合い月1件＝年12件・交際成立1件と仮定）</td><td className="px-4 py-3 text-center">約501,500円</td><td className="px-4 py-3 text-center">約513,600円</td><td className="px-4 py-3 text-center">約581,500円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">1年で成婚した場合の目安<br className="hidden sm:block" />（お見合い月1件＝年12件・交際成立1件と仮定）</td>{TULIP_PLANS.map((p) => <td key={p.plan} className="px-4 py-3 text-center">約{yen(planTotal(p))}</td>)}</tr>
               </tbody>
             </table>
           </div>

@@ -145,6 +145,55 @@ export function oneYearTotal(slug: string): number | null {
   return f.initial + f.monthly * 12 + f.success;
 }
 
+/**
+ * 件数に応じてかかる費用まで含めたプラン別の料金（2026-10-24 新設）。
+ * FEES は「初期費用＋月会費×12＋成婚料」の下限比較用で、お見合い料や交際成立時の手数料を持たない。
+ * そのため、件数で総額が変わる社の「1年で成婚した場合の目安」はここから計算する（金額を各ページに直書きしない）。
+ * - bridal-tulip: 公式「BasicPlan」料金表（2026-10-21確認、2026-10-24に同値を再確認）。
+ *   perKosai＝直コンタクト事務手数料及び交際開始アドバイス料（交際・連絡先交換1件成立ごと）。
+ * - musbell: 公式「コース・料金」ページ（2026-10-23確認）。料金表に交際成立時の費用の項目はない（2026-10-24確認）ため perKosai は null。
+ */
+export type PlanFee = {
+  slug: string;
+  plan: string;
+  initial: number;
+  monthly: number;
+  /** お見合い1件ごとの費用（無料は0） */
+  perOmiai: number;
+  /** 交際成立1件ごとの費用。料金表に項目がなければ null */
+  perKosai: number | null;
+  success: number;
+};
+
+export const PLAN_FEES: PlanFee[] = [
+  { slug: "bridal-tulip", plan: "Aプラン", initial: 105000, monthly: 7550, perOmiai: 8800, perKosai: 20300, success: 180000 },
+  { slug: "bridal-tulip", plan: "Bプラン", initial: 105000, monthly: 12950, perOmiai: 6100, perKosai: 0, success: 180000 },
+  { slug: "bridal-tulip", plan: "42歳以上プラン", initial: 150800, monthly: 11250, perOmiai: 8800, perKosai: 10100, success: 180000 },
+  { slug: "musbell", plan: "カジュアルコース", initial: 181500, monthly: 16500, perOmiai: 11000, perKosai: null, success: 330000 },
+  { slug: "musbell", plan: "レギュラーコース", initial: 363000, monthly: 16500, perOmiai: 0, perKosai: null, success: 330000 },
+  { slug: "musbell", plan: "エクセレントコース", initial: 484000, monthly: 17000, perOmiai: 0, perKosai: null, success: 330000 },
+];
+
+export function planFee(slug: string, plan: string): PlanFee {
+  const p = PLAN_FEES.find((x) => x.slug === slug && x.plan === plan);
+  if (!p) throw new Error(`PLAN_FEES に ${slug} / ${plan} がありません`);
+  return p;
+}
+
+/** 当サイトの試算の前提（1年で成婚・お見合い月1件＝年12件・交際成立1件） */
+export const PLAN_SCENARIO = { months: 12, omiai: 12, kosai: 1 };
+
+/** 初期費用＋月会費×月数＋お見合い料×件数＋交際成立時の費用×件数（＋成婚料） */
+export function planTotal(p: PlanFee, opts: { months?: number; omiai?: number; kosai?: number; seikon?: boolean } = {}) {
+  const { months = PLAN_SCENARIO.months, omiai = PLAN_SCENARIO.omiai, kosai = PLAN_SCENARIO.kosai, seikon = true } = opts;
+  return p.initial + p.monthly * months + p.perOmiai * omiai + (p.perKosai ?? 0) * kosai + (seikon ? p.success : 0);
+}
+
+/** 123456 → "123,456円" */
+export function yen(n: number) {
+  return `${n.toLocaleString("ja-JP")}円`;
+}
+
 /** 1年総額を出せる社だけで並べたときの安い順の順位。 */
 export function totalRank(slug: string) {
   const rows = FEES.map((f) => ({ slug: f.slug, total: oneYearTotal(f.slug) }))
