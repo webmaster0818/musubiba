@@ -9,15 +9,15 @@ import BrandStores from "@/components/BrandStores";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "IBJメンバーズの口コミ・評判｜オリコン男性部門1位・料金・1年総額・加盟店との違い【2026年10月】",
+  title: "IBJメンバーズの口コミ・評判｜オリコン利用者コメント21件をテーマ別に集計・料金・年収基準【2026年10月】",
   description:
-    "IBJメンバーズ（株式会社IBJ直営）の口コミ・評判を調査しています。登録会員数110,420名（2026年7月時点）・成婚退会者の割合1/2以上（全退会者のうち成婚退会者の割合）・月会費17,050円の料金体系、IBJ加盟店との違いについて解説し、オリコンの部門別評価も掲載しています。",
+    "IBJメンバーズ（株式会社IBJ直営）の口コミ・評判を、オリコンの利用者コメント21件のテーマ別集計と項目別得点で整理しています。料金（2026年10月24日公式確認）、男性の年収基準、成婚率の定義、IBJ加盟店との違いも掲載しています。",
 };
 
 const overview = {
   name: "IBJメンバーズ",
   type: "ハイブリッド型（株式会社IBJ直営）",
-  members: "110,420名（2026年7月時点・IBJ登録会員数）",
+  members: "111,160名（2026年9月時点・IBJ登録会員数）",
   area: "全国9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）",
   initialFee: "252,450円（登録料33,000円＋活動サポート費219,450円）",
   monthlyFee: "17,050円",
@@ -32,8 +32,8 @@ const strengths = [
     desc: "IBJメンバーズは、結婚相談所ネットワーク「IBJ（日本結婚相談所連盟）」を運営する株式会社IBJ（東証プライム上場・証券コード6071）の直営結婚相談所です。連盟の仕組みを構築した会社自体が運営しているため、IBJのシステムとノウハウを直接活用できる点が特徴です。",
   },
   {
-    title: "登録会員数110,420名の会員基盤にアクセス",
-    desc: "IBJの登録会員数は110,420名（2026年7月時点）です。会員データ（2026年1月1日時点）では男性の90.2%が年収500万円以上、四大・大学院卒が全体の85%と、会員の属性も公表されています。このネットワークから検索・申込みができます。",
+    title: "登録会員数111,160名の会員基盤にアクセス",
+    desc: "IBJの登録会員数は111,160名（2026年9月時点）です。会員データ（2026年1月1日時点）では男性の90.2%が年収500万円以上、四大・大学院卒が全体の85%と、会員の属性も公表されています。このネットワークから検索・申込みができます。",
   },
   {
     title: "「成婚＝婚約」と定義したうえでのフルサポート",
@@ -47,7 +47,7 @@ const strengths = [
 
 const pros = [
   "東証プライム上場企業の直営でシステム・ノウハウを直接活用できる",
-  "登録会員数110,420名（2026年7月時点）の会員基盤",
+  "登録会員数111,160名（2026年9月時点）の会員基盤",
   "「成婚＝婚約」定義で成婚退会者の割合1/2以上の実績を公表",
   "休会制度あり（1ヶ月単位で最長3ヶ月・休会中は月会費不要）",
   "クーリングオフ・未活動分返金の制度が明示されている",
@@ -70,15 +70,15 @@ const fees = [
 const faqs = [
   {
     q: "IBJメンバーズの成婚率はどのくらいですか？",
-    a: "公式サイトでは「成婚退会者の割合1/2以上」と公表されています（2026年8月3日確認）。算出定義は「2025年1月〜12月の主要コース実績で、全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）」です。なおIBJメンバーズの「成婚」はプロポーズが成功し婚約した時点を指し、お見合い成立や交際開始ではありません。定義とあわせて確認することが大切です。",
+    a: "公式サイトでは「成婚退会者の割合1/2以上」と公表されています（2026年10月24日確認）。算出定義は「2025年1月〜12月の主要コース実績で、全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）」です。なおIBJメンバーズの「成婚」はプロポーズが成功し婚約した時点を指し、お見合い成立や交際開始ではありません。定義とあわせて確認することが大切です。",
   },
   {
     q: "IBJメンバーズの入会条件はありますか？",
-    a: "結婚の意思がある独身で定職をお持ちの方が対象です。公式FAQでは男性25〜49歳（年収基準あり・20代400万円以上〜40代600万円以上などエリアにより異なる）、女性20〜39歳とされています。必要書類は身分証・住民票・独身証明書・収入証明書・学歴証明書（短大卒以上）・職業証明書（該当者）です。条件の詳細は無料相談で確認できます。",
+    a: "結婚の意思がある独身で定職をお持ちの方が対象です。公式FAQでは男性25〜49歳、女性20〜39歳とされ、男性には前年1年間の収入による年収基準があります。東京・有楽町・銀座・新宿西口・横浜の各店では20代400万円以上・30代500万円以上・40代600万円以上、名古屋・大阪・神戸・福岡の各店では20代300万円以上・30代400万円以上・40代500万円以上です（2026年10月24日確認）。必要書類は身分証・住民票・独身証明書・収入証明書・学歴証明書（短大卒以上）・職業証明書（該当者）です。条件の詳細は無料相談で確認できます。",
   },
   {
     q: "IBJメンバーズとIBJ加盟店の違いは何ですか？",
-    a: "IBJメンバーズは株式会社IBJが直接運営する直営店、IBJ加盟店はIBJ連盟に加盟する独立した結婚相談所です。どちらも同じIBJの会員ネットワーク（110,420名・2026年7月時点）で活動できますが、料金体系やサポート方針は運営元ごとに異なります。広告の「会員数No.1」等はIBJ連盟全体の実績を指す場合が多いので、どの主体の数字かを確認したうえで比較することをおすすめします。",
+    a: "IBJメンバーズは株式会社IBJが直接運営する直営店、IBJ加盟店はIBJ連盟に加盟する独立した結婚相談所です。どちらも同じIBJの会員ネットワーク（111,160名・2026年9月時点）で活動できますが、料金体系やサポート方針は運営元ごとに異なります。広告の「会員数No.1」等はIBJ連盟全体の実績を指す場合が多いので、どの主体の数字かを確認したうえで比較することをおすすめします。",
   },
   {
     q: "IBJメンバーズは休会できますか？",
@@ -90,7 +90,15 @@ const faqs = [
   },
   {
     q: "IBJメンバーズの1年間の活動費用総額はいくらですか？",
-    a: "初期費用252,450円＋月会費17,050円×12ヶ月＝約457,050円が活動費用の目安です（税込・2026年10月14日に公式サイトで確認した料金）。婚約に至って成婚退会する場合は成婚料220,000円が加わり、総額の目安は約677,050円です。最新の料金・キャンペーンは無料相談で確認することをおすすめします。",
+    a: "初期費用252,450円＋月会費17,050円×12ヶ月＝約457,050円が活動費用の目安です（税込・2026年10月24日に公式サイトで再確認した料金）。婚約に至って成婚退会する場合は成婚料220,000円が加わり、総額の目安は約677,050円です。最新の料金・キャンペーンは無料相談で確認することをおすすめします。",
+  },
+  {
+    q: "IBJメンバーズの悪い口コミにはどのような内容がありますか？",
+    a: "オリコン顧客満足度調査に掲載されたIBJメンバーズの利用者コメント21件のうち、「気になる点」は6件です。当サイトで分類すると、担当者からの働きかけが少ない・サポートを十分に受けられなかったという内容が3件、お見合いが成立しにくい・会える人数が少なかったという内容が3件でした（2026年10月24日確認）。料金に触れたコメントはありませんが、同じ調査の項目別得点では「コストパフォーマンス」が63.9点と8項目の中で最も低くなっています。",
+  },
+  {
+    q: "IBJメンバーズに割引制度はありますか？",
+    a: "公式FAQでは、他社から乗り換える方向けの「のりかえ割」が案内されています（2026年10月24日確認）。割引額や対象条件は公式サイトの案内ページまたは無料カウンセリングでご確認ください。",
   },
 ];
 
@@ -119,7 +127,7 @@ const REVIEW_EXTRA = {
       "media": "オリコン顧客満足度 IBJメンバーズ",
       "score": "総合67.2点",
       "count": "利用者コメント21件（調査全体の回答者3,922人）",
-      "detail": "男性部門69.1点（1位）・40代68.3点（1位）・東海66.3点（1位）・関東67.8点（2位）・再婚目的69.5点（2位）。推奨意向68.8%。コメントは「良い点」15件・「気になる点」6件。",
+      "detail": "男性部門69.1点（1位）・40代68.3点（1位）・東海66.3点（1位）・関東67.8点（2位）・再婚目的69.5点（2位）・30代67.0点（2位）・近畿66.1点（2位）・オンライン66.3点（2位）・女性部門65.1点（4位）。推奨意向68.8%、希望の相手と出会えた人78.9%。項目別では「店舗の雰囲気・清潔さ」69.7点が最も高く、「コストパフォーマンス」63.9点が最も低くなっています。コメントは「良い点」15件・「気になる点」6件（2026年10月24日確認）。",
       "url": "https://life.oricon.co.jp/rank_marriage/company/loungemembers/"
     }
   ],
@@ -147,6 +155,11 @@ const REVIEW_EXTRA = {
       "seen": "成婚率50.5%（2021年1〜6月の主要コース実績）",
       "source": "駅探PICKS婚活（2022年11月23日更新）",
       "now": "「成婚退会者の割合1/2以上」（2025年1〜12月の主要コース実績・全退会者のうち成婚退会者の割合）。"
+    },
+    {
+      "seen": "会員数約9万人・入会から平均8.7ヶ月で婚約（2023年1〜12月の成婚退会者）",
+      "source": "オリコン顧客満足度 IBJメンバーズの企業情報欄（2026年10月24日確認時点の掲載）",
+      "now": "公式サイトの登録会員数は111,160名（2026年9月時点）です。成婚までの平均期間は、2026年10月24日時点の公式「実績」ページには掲載されていません。"
     }
   ]
 };
@@ -161,7 +174,21 @@ export default function IbjMembersReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           IBJメンバーズの口コミ・評判｜料金・成婚の定義・加盟店との違いを公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金は2026年10月14日に公式サイトで再確認・口コミの掲載状況を追記）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月24日（料金・会員数・入会条件は2026年10月24日に公式サイトで再確認。オリコンの利用者コメント21件のテーマ別集計を追加）</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />IBJメンバーズとは（運営・料金・入会条件・口コミの傾向）
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>運営・形態</strong>：結婚相談所の連盟「IBJ」を運営する株式会社IBJ（東証プライム上場）の<strong>直営の結婚相談所</strong>です。全国9店舗で、IBJの登録会員111,160名（2026年9月時点）からお相手を探せます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：登録料33,000円＋活動サポート費219,450円＋月会費17,050円＋成婚料220,000円（税込）。<strong>1年で婚約・成婚退会した場合の総額目安は約67.7万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>入会条件</strong>：男性25〜49歳・女性20〜39歳。男性は店舗のエリアと年代に応じた年収基準（300万〜600万円以上）があります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：オリコンの利用者コメント21件では、担当者の助言・対応を評価する内容が5件と最も多い一方、「気になる点」6件はサポートが受け身だったという内容3件、お見合いが成立しにくかったという内容3件に分かれます（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績の表記</strong>：成婚の定義は「婚約」で、成婚退会者の割合は1/2以上（2025年1〜12月の主要コース実績）です。公式サイトの「成婚率No.1」は、日本マーケティングリサーチ機構による2024年8月の主要8社を対象とした調査（公開情報と関係者へのヒアリングにもとづく比較）が根拠として注記されています。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・会員数・入会条件は公式サイト（料金・会員データ・実績・よくあるご質問の各ページ）で2026年10月24日に確認した掲載値です。最新の条件は公式サイトおよび無料カウンセリングでご確認ください。</p>
+        </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
@@ -177,7 +204,7 @@ export default function IbjMembersReview() {
               </div>
             ))}
           </div>
-          <p className="px-6 pb-4 text-xs text-[#2C2C2C]/50 leading-relaxed">※成婚率の定義: 2025年1月〜12月の主要コース実績。全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）。IBJメンバーズの「成婚」はプロポーズ成功後の「婚約」時点を指します。料金はすべて税込で、2026年10月14日に公式サイトで再確認しています（成婚率の公表値は2026年8月3日確認）。</p>
+          <p className="px-6 pb-4 text-xs text-[#2C2C2C]/50 leading-relaxed">※成婚率の定義: 2025年1月〜12月の主要コース実績。全退会者のうち成婚退会者が占める割合（IBJシステム外での成婚を含む）。IBJメンバーズの「成婚」はプロポーズ成功後の「婚約」時点を指します。料金はすべて税込で、2026年10月24日に公式サイトで再確認しています（成婚率の公表値も同日に公式「実績」ページで確認）。</p>
         </div>
 
         <A8Banner ad="ibj-members" />
@@ -210,7 +237,7 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年10月14日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの料金（税込・2026年10月24日公式再確認）</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -237,11 +264,35 @@ export default function IbjMembersReview() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">IBJメンバーズの入会条件と男性の年収基準（2026年10月24日公式確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            入会できるのは、結婚の意思がある独身で定職をお持ちの方です。年齢は男性25〜49歳・女性20〜39歳で、男性には前年1年間の収入による年収基準が店舗のエリア別に設けられています。
+          </p>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">エリア（店舗）</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">20代</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">30代</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">40代</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">東京・有楽町・銀座・新宿西口・横浜</td><td className="px-4 py-3 text-center">400万円以上</td><td className="px-4 py-3 text-center">500万円以上</td><td className="px-4 py-3 text-center">600万円以上</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">名古屋・大阪・神戸・福岡</td><td className="px-4 py-3 text-center">300万円以上</td><td className="px-4 py-3 text-center">400万円以上</td><td className="px-4 py-3 text-center">500万円以上</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※出典：IBJメンバーズ公式「よくあるご質問」（2026年10月24日確認）。必要書類は身分証明書・独身証明書・収入証明書・最終学歴証明書などです。公式の会員データ（2026年1月1日時点）では、男性の90.2%が年収500万円以上、70.8%が600万円以上、大学卒以上は男性88.6%・女性82.4%と公表されています。オリコンの「気になる点」には、年収などの条件面で会える人が少なかったという男性の声もあるため、基準ぎりぎりの方は無料カウンセリングで活動見込みを確認されることをおすすめします。</p>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             IBJメンバーズ（直営）とIBJ加盟店（連盟）の違い
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「IBJ」と名の付くサービスには、株式会社IBJが直接運営する<strong>直営店のIBJメンバーズ</strong>と、IBJ連盟（日本結婚相談所連盟）に加盟する<strong>独立した結婚相談所（IBJ加盟店）</strong>の2種類があります。どちらも同じIBJの会員ネットワーク（登録会員数110,420名・2026年7月時点）でお相手検索・お見合いができる点は共通ですが、運営元・料金・サポート方針が異なります。
+            「IBJ」と名の付くサービスには、株式会社IBJが直接運営する<strong>直営店のIBJメンバーズ</strong>と、IBJ連盟（日本結婚相談所連盟）に加盟する<strong>独立した結婚相談所（IBJ加盟店）</strong>の2種類があります。どちらも同じIBJの会員ネットワーク（登録会員数111,160名・2026年9月時点）でお相手検索・お見合いができる点は共通ですが、運営元・料金・サポート方針が異なります。
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
@@ -254,7 +305,7 @@ export default function IbjMembersReview() {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">運営元</td><td className="px-4 py-3 text-center">株式会社IBJ（東証プライム上場）</td><td className="px-4 py-3 text-center">各加盟相談所（独立運営）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">出会える会員</td><td className="px-4 py-3 text-center" colSpan={2}>同じIBJネットワーク（110,420名・2026年7月時点）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">出会える会員</td><td className="px-4 py-3 text-center" colSpan={2}>同じIBJネットワーク（111,160名・2026年9月時点）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">料金体系</td><td className="px-4 py-3 text-center">全店共通（初期費用252,450円・月会費17,050円・成婚料220,000円）</td><td className="px-4 py-3 text-center">相談所ごとに異なる</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">サポート</td><td className="px-4 py-3 text-center">カウンセラー約60人担当制・婚約までフルサポート</td><td className="px-4 py-3 text-center">仲人の個性・少人数担当など相談所ごとに特色</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">店舗</td><td className="px-4 py-3 text-center">全国9店舗（主要都市）</td><td className="px-4 py-3 text-center">全国各地に多数</td></tr>
@@ -272,12 +323,47 @@ export default function IbjMembersReview() {
 
         <ReviewVoices
           name="IBJメンバーズ"
-          checkedOn="2026年10月14日"
-          reviewNote="Googleマップでは、IBJメンバーズ9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）に計1,444件の口コミがあり、評価は4.7〜4.9（口コミ件数で加重した平均4.72）でした（当サイトが2026年8〜9月に取得。店舗別はページ下部）。料金は登録料33,000円＋活動サポート費219,450円、月会費17,050円、成婚料220,000円（税込・2026年10月14日公式確認）で、1年で成婚退会した場合の単純計算は677,050円です。"
-          good={[{ text: "カウンセラーのサポートが手厚く安心できたという声", source: "オリコン顧客満足度調査 IBJメンバーズ（利用者コメント21件）" }, { text: "厳選された紹介で時間を節約できたという声", source: "同上" }, { text: "運営がしっかりしていて信頼できるという声", source: "同上" }]}
-          bad={[{ text: "自分から動かないと進まず、担当者からの働きかけが少なかったという声", source: "オリコン顧客満足度調査 IBJメンバーズ" }, { text: "紹介の質や人数に物足りなさを感じたという声", source: "同上" }, { text: "費用に見合う結果だったか分からないという声", source: "同上" }]}
+          checkedOn="2026年10月24日"
+          reviewNote="Googleマップでは、IBJメンバーズ9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）に計1,444件の口コミがあり、評価は4.7〜4.9（口コミ件数で加重した平均4.72）でした（当サイトが2026年8〜9月に取得。店舗別はページ下部）。料金は登録料33,000円＋活動サポート費219,450円、月会費17,050円、成婚料220,000円（税込・2026年10月24日公式再確認）で、1年で成婚退会した場合の単純計算は677,050円です。"
+          good={[{ text: "担当者の助言が的確・レスポンスが早いなど、担当者の対応を評価する声（5件）", source: "オリコン顧客満足度調査 IBJメンバーズ（利用者コメント21件・2026年10月24日確認）" }, { text: "アプリより効率よく多くの方と会えた、普段出会えない人と出会えたという声（3件）", source: "同上" }, { text: "独身証明書の提出があり、結婚目的の相手と安心して会えたという声（3件）", source: "同上" }]}
+          bad={[{ text: "自分から動かないと担当者からの助言がなく、サポートを十分に受けられなかったという声（3件）", source: "オリコン顧客満足度調査 IBJメンバーズ（2026年10月24日確認）" }, { text: "申し込んでもお見合いが成立しにくく、会える人数が少なかったという声（3件）", source: "同上" }]}
           sources={[{ name: "オリコン顧客満足度 IBJメンバーズ", url: "https://life.oricon.co.jp/rank_marriage/company/loungemembers/" }]}
         />
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">オリコンの利用者コメント21件をテーマ別に集計（2026年10月24日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            IBJメンバーズの口コミを件数と属性つきで確認できる媒体として、オリコン顧客満足度調査の企業ページがあります。掲載中の利用者コメント21件（「良い点」15件・「気になる点」6件、回答者の年代・性別つき）を全件確認し、内容をテーマ別に分類しました。1件に複数の論点がある場合は、それぞれのテーマで数えています。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">担当者の助言・対応を評価</td><td className="px-4 py-3">5件</td><td className="px-4 py-3">アドバイスが的確、数字にもとづいて助言してくれる、レスポンスが早い、サポート体制が整っているという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">出会いの数・効率</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">マッチングアプリより多くの方と会えた、最初から人選されていて時間を節約できた、普段出会えない人と出会えたという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">身元の確かさ・結婚への真剣度</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">独身証明書の提出で既婚者がいない、結婚が目的の人と会えるという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">会員数・相談所の選択肢</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">利用者が多く信頼できる、登録している相談所が多く担当者を選べるという内容（後者はIBJ連盟の加盟店を含む仕組みについての記述と考えられます）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">その他の良い点</td><td className="px-4 py-3">4件</td><td className="px-4 py-3">婚活パーティー・マナー講座がある、決まった面談がなく自分のペースで活動できる、成婚した、女性はお見合いのお茶代がかからない（各1件）</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">サポートが受け身・不足</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">こちらから動かないと助言がなかった、自分で対処する場面が多かった、お相手の見極めに客観的な助言がほしかったという内容</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">お見合いが成立しにくい</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">申し込んでもお見合いに至らない、マッチングできない時期がつらかった、年収等の条件で会える人が少なかったという内容（いずれも30〜40代男性）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://life.oricon.co.jp/rank_marriage/company/loungemembers/" target="_blank" rel="nofollow noopener noreferrer" className="underline">オリコン顧客満足度 IBJメンバーズ 結婚相談所の評判・口コミ</a>（調査全体の回答者3,922人。2026年10月24日に確認）。分類は当サイトによるもので、コメントの本文は転載していません。</li>
+            <li>※回答者の内訳は30代が15件と最も多く、20代1件・40代4件・60代以上1件です。件数が少ないため、傾向は目安としてご覧ください。</li>
+            <li>※口コミサイト「みん評」にもIBJメンバーズの投稿がありますが、当サイトからはページを閲覧できなかったため、件数・内容は集計に含めていません。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            集計からは、担当者の助言を評価する声が多い一方で、「決まった面談がなく自分のペースで活動できる」という評価と「自分から動かないと助言がない」という不満が同じ特徴の裏表になっていることがわかります。また、お見合いが成立しにくいという声はいずれも男性からで、年収などの条件面に触れたものもあります。無料カウンセリングでは、面談の頻度（定期面談の有無）と、ご自身の年齢・年収に近い会員のお見合い成立状況を確認しておくことをおすすめします。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
@@ -297,7 +383,7 @@ export default function IbjMembersReview() {
 
         <A8Banner ad="ibj-members" />
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月24日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
               <FeePosition slug="ibj-members" />

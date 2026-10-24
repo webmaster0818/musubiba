@@ -9,9 +9,9 @@ import ReviewFacts from "@/components/ReviewFacts";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "パートナーエージェントの口コミ・評判｜オリコン66.8点・3コースの料金・成婚料22万円【2026年10月】",
+  title: "パートナーエージェントの口コミ・評判｜オリコン利用者コメント19件をテーマ別に集計・3コースの料金【2026年10月】",
   description:
-    "パートナーエージェントの口コミ・評判をオリコン顧客満足度調査・Googleマップ（17店舗770件）の掲載内容を明記して整理しています。コンシェルジュ/コミットメント/オンラインの料金（2026年10月14日公式確認）、1年総額、成婚率No.1の調査条件、運営会社タメニーについても掲載しています。",
+    "パートナーエージェントの口コミ・評判を、オリコンの利用者コメント19件のテーマ別集計とGoogleマップ（17店舗770件）で整理しています。3コースの料金（2026年10月24日公式確認）、月会費無料保証、1年総額、成婚率No.1の調査条件も掲載しています。",
 };
 
 const overview = {
@@ -37,7 +37,7 @@ const strengths = [
   },
   {
     title: "3つの連盟・プラットフォームで19.2万人",
-    desc: "CONNECT-ship・SCRUM・IBJを合わせた会員数は192,000人です（2025年9月18日時点）。2007年〜2026年6月の成婚者数は35,953名と公表されています。",
+    desc: "CONNECT-ship・SCRUM・IBJを合わせた会員数は192,000人です（2025年9月18日時点）。2007年〜2026年6月の成婚者数は35,953名と公表されています。なお公式の注記によると、成婚者数はパートナーエージェントの会員同士の成婚を「2名」、他の結婚相談所の会員との成婚を「1名」として数えています。",
   },
 ];
 
@@ -48,9 +48,9 @@ const pros = [
 ];
 
 const cons = [
-  "成婚料220,000円で、1年総額は50万円台から",
+  "成婚料220,000円で、1年総額は49万円台から",
   "コンシェルジュコースの月会費は18,700円と高め",
-  "オリコン調査には担当者のフォローの遅さを挙げる声もある",
+  "オリコンの「気になる点」には、担当者との相性や交代後の対応に触れる声がある",
 ];
 
 const faqs = [
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "パートナーエージェントの口コミ・評判はどのような内容ですか？",
-    a: "オリコン顧客満足度調査のページでは、スタッフが親身で役立つアドバイスをくれたという声が多い一方、担当者のフォローが遅い・紹介が希望に合わないという声もあります。Googleマップでは口コミ3件以上の17店舗に計770件、評価は4.0〜5.0でした（当サイトが2026年8〜9月に取得）。",
+    a: "オリコン顧客満足度調査に掲載された利用者コメント19件（良い点13件・気になる点6件）を当サイトで分類すると、担当者の助言・対応を評価する内容が8件と最も多い一方、気になる点では担当者との相性・交代後の対応（2件）、紹介された相手が合わない（2件）、受け身だと教えてもらえない・日程調整の負担・交際を見送られた理由が分からない（各1件）が挙がっています（2026年10月24日確認）。Googleマップでは口コミ3件以上の17店舗に計770件、評価は4.0〜5.0でした（当サイトが2026年8〜9月に取得）。",
   },
   {
     q: "割引プランはありますか？",
@@ -77,6 +77,14 @@ const faqs = [
   {
     q: "パートナーエージェントの対応エリアはどこですか？",
     a: "札幌・仙台・新宿・銀座・横浜・名古屋・大阪・京都・神戸・福岡など実店舗23店舗と、オンライン店11店舗（栃木・新潟・長野・広島・熊本など）があります（2026年10月14日確認）。",
+  },
+  {
+    q: "コミットメントコースの「月会費無料保証」とは何ですか？",
+    a: "公式のコース一覧によると、コミットメントコース限定で、万が一お見合いが成立しなかった場合に月会費を無料にする制度です。適用期間は紹介開始の翌月から1年間に限られます（2026年10月24日確認）。コンシェルジュコース・オンラインコースには付いていないため、適用条件の詳細は無料相談でご確認ください。",
+  },
+  {
+    q: "パートナーエージェントの成婚者数35,953名はどのように数えていますか？",
+    a: "公式サイトの注記によると、パートナーエージェントの会員同士が成婚した場合は「2名」、会員相互紹介を行っている他の結婚相談所の会員と成婚した場合は「1名」として数えています（集計期間2007年〜2026年6月）。そのため成婚者数は偶数にならない場合があります。成婚の定義は婚約です。",
   },
 ];
 const faqJsonLd = {
@@ -104,7 +112,7 @@ const REVIEW_EXTRA = {
       "media": "オリコン顧客満足度 パートナーエージェント",
       "score": "総合66.8点",
       "count": "利用者コメント19件（調査全体の回答者3,922人）",
-      "detail": "女性部門66.0点（1位）・40代67.6点（3位）。推奨意向67.5%。項目別では「店舗の雰囲気・清潔さ」70.0点が最も高く、「コストパフォーマンス」63.1点（4位）が最も低くなっています。コメントは「良い点」13件・「気になる点」6件で、気になる点6件はすべて20〜30代女性によるものです。",
+      "detail": "女性部門66.0点（1位）・40代67.6点（3位）・男性部門67.5点（4位）・30代66.0点（4位）・関東67.3点（4位）。推奨意向67.5%。項目別では「店舗の雰囲気・清潔さ」70.0点が最も高く、「コストパフォーマンス」63.1点（4位）が最も低くなっています。コメントは「良い点」13件・「気になる点」6件で、気になる点6件はすべて20〜30代女性によるものです。",
       "url": "https://life.oricon.co.jp/rank_marriage/company/p-a/"
     }
   ],
@@ -151,6 +159,11 @@ const REVIEW_EXTRA = {
       "seen": "成婚料55,000円",
       "source": "2026年5月以前の比較記事（当サイトの旧記載を含む）",
       "now": "成婚料220,000円（税込）と記載されています。"
+    },
+    {
+      "seen": "紹介可能会員数約83,000人（2023年9月時点）・入会から1年以内の成婚率61.4%（2022年10〜12月の入会者実績）",
+      "source": "オリコン顧客満足度 パートナーエージェントの企業情報欄（2026年10月24日確認時点の掲載）",
+      "now": "公式サイトの会員数は192,000人（CONNECT-ship・SCRUM・IBJの合計／2025年9月18日時点）です。成婚率は「成婚率No.1」（DRC調査・2026年5月）の表記に変わっています。"
     }
   ]
 };
@@ -168,7 +181,21 @@ export default function PartnerAgentReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           パートナーエージェントの口コミ・評判｜3コースの料金・成婚率No.1の根拠を公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月14日（料金・実績は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月24日（料金・コース内容・実績は2026年10月24日に公式サイトで再確認。オリコンの利用者コメント19件のテーマ別集計を追加）</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />パートナーエージェントとは（運営・料金・特徴・口コミの傾向）
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>運営・形態</strong>：タメニー株式会社（東証グロース上場）が運営する、専任の「成婚コンシェルジュ」が付く仲人型の結婚相談所です。実店舗23店舗とオンライン店11店舗があり、CONNECT-ship・SCRUM・IBJの3つの会員基盤（合計192,000人・2025年9月18日時点）からお相手を探せます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：登録料33,000円＋初期費用66,000〜198,000円＋月会費14,300〜26,400円＋成婚料220,000円（税込・お見合い料0円）。<strong>1年で成婚した場合の総額目安はオンライン約49.1万円・コンシェルジュ約60.9万円・コミットメント約76.8万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：コンシェルジュからの紹介がコース別に月2〜8名と明示されています。最上位のコミットメントコースには、お見合いが成立しなかった場合の「月会費無料保証」（紹介開始の翌月から1年間）が付きます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：オリコンの利用者コメント19件では、担当者の助言・対応を評価する内容が8件と最も多い一方、「気になる点」6件には担当者との相性・交代後の対応や、紹介された相手が合わないという内容が含まれます（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績の表記</strong>：「成婚率No.1」はデジタルライツコンサルティングの調査（2026年5月・店舗数11以上の相談所が比較対象・成婚率＝成婚数÷利用者数）にもとづく表記です。成婚の定義は婚約です。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・コース内容は公式「コース一覧」ページ、実績は公式トップの注記で2026年10月24日に確認した掲載値です。最新の条件は公式サイトおよび無料相談でご確認ください。</p>
+        </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-partner-agent.jpg" alt="パートナーエージェント 公式サイト" className="w-full h-auto" />
@@ -226,7 +253,7 @@ export default function PartnerAgentReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
-          <p className="text-xs text-[#2C2C2C]/50 mb-3">※パートナーエージェント・サンマリエは2026年10月14日に公式サイトで確認。ツヴァイはレビュー掲載時点の数値です。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">※パートナーエージェントは2026年10月24日、サンマリエは2026年10月14日に公式サイトで確認。ツヴァイはレビュー掲載時点の数値です。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -250,7 +277,7 @@ export default function PartnerAgentReview() {
 
         <ReviewFacts
           name="パートナーエージェント"
-          checkedOn="2026年10月14日"
+          checkedOn="2026年10月24日"
           officialUrl="https://www.p-a.jp/"
           feeHead={["項目", "コンシェルジュ", "コミットメント", "オンライン"]}
           feeRows={[
@@ -263,8 +290,10 @@ export default function PartnerAgentReview() {
             ["IBJ検索申込", "オプション", "30名/月", "オプション"],
             ["お見合い料", "0円", "0円", "0円"],
             ["成婚料", "220,000円", "220,000円", "220,000円"],
+            ["月会費無料保証", "なし", "あり", "なし"],
+            ["面談", "無制限", "無制限", "なし（電話・メール・チャット）"],
           ]}
-          feeNotes={["金額は税込です。", "公式のよくある質問ページには「初期費用33,000円〜、月会費11,000円〜」との記載もあり、コース表と一致しません。契約前にコースごとの金額をご確認ください。"]}
+          feeNotes={["金額は税込です。", "月会費無料保証はコミットメントコース限定で、お見合いが成立しなかった場合に月会費を無料にする制度です（紹介開始の翌月から1年間）。", "全コース共通で、お見合いの事前練習・フィードバック、お断りの代行、交際フォロー、プロポーズサポート、成婚退会後1年間の無料サポート、休会制度があります（公式コース一覧）。", "公式のよくある質問ページには「初期費用33,000円〜、月会費11,000円〜」との記載もあり、コース表と一致しません。契約前にコースごとの金額をご確認ください。"]}
           estimate={[
             { label: "オンライン", formula: "33,000円＋66,000円＋14,300円×12＋220,000円", total: "490,600円" },
             { label: "コンシェルジュ", formula: "33,000円＋132,000円＋18,700円×12＋220,000円", total: "609,400円" },
@@ -278,15 +307,50 @@ export default function PartnerAgentReview() {
           ]}
           reviewNote="Googleマップでは、口コミ3件以上のパートナーエージェント17店舗に計770件の口コミがあり、評価は4.0〜5.0（口コミ件数で加重した平均4.43）でした（当サイトが2026年8〜9月に取得。店舗別はページ下部）。"
           good={[
-            { text: "スタッフが親身で、役に立つアドバイスをもらえたという声が多い", source: "オリコン顧客満足度調査 パートナーエージェント（利用者コメント19件）" },
-            { text: "お見合いや面談の進め方が快適だったという声", source: "同上" },
+            { text: "担当者が親身で、アプローチの時期や進め方の助言が的確だったという声（8件）", source: "オリコン顧客満足度調査 パートナーエージェント（利用者コメント19件・2026年10月24日確認）" },
+            { text: "定期的に紹介を受けられ、出会いの機会が増えたという声（3件）", source: "同上" },
           ]}
           bad={[
-            { text: "担当者のフォローが遅い・ばらつきがあるという声", source: "オリコン顧客満足度調査 パートナーエージェント" },
-            { text: "紹介が希望に合わなかったという声", source: "同上" },
+            { text: "担当者との相性が合わなかった、担当者の交代後に合わなくなったという声（2件）", source: "オリコン顧客満足度調査 パートナーエージェント（2026年10月24日確認）" },
+            { text: "紹介された相手が自分に合わなかった、希望条件に合う紹介がなかったという声（2件）", source: "同上" },
           ]}
           sources={[{ name: "オリコン顧客満足度 パートナーエージェント", url: "https://life.oricon.co.jp/rank_marriage/company/p-a/" }]}
         />
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">オリコンの利用者コメント19件をテーマ別に集計（2026年10月24日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            パートナーエージェントの口コミを件数と回答者の属性つきで確認できる媒体として、オリコン顧客満足度調査の企業ページがあります。掲載中の利用者コメント19件（「良い点」13件・「気になる点」6件）を全件確認し、内容をテーマ別に分類しました。1件に複数の論点がある場合は、それぞれのテーマで数えています。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">担当者の助言・対応を評価</td><td className="px-4 py-3">8件</td><td className="px-4 py-3">アドバイザーが手厚い、アプローチの時期を的確に後押ししてくれた、説明が丁寧、チャットで気軽に相談できる、面談でフォローしてくれるという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">紹介・出会いの機会</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">定期的に紹介してくれる、いろいろな方を紹介してくれる、出会いが少ない中で紹介を受けられるという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">活動の進めやすさ・成果</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">やり取りの前に一度会えるので時間を無駄にしない、計画的に動いて相手を見つけ退会できたという内容</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">その他の良い点</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">お相手のプロフィールが信頼できる、店舗が駅から近い、合わない担当者をすぐに交代してもらえた（各1件）</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">担当者との相性・交代後の対応</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">担当者の発言に不満があった、担当者が退職して交代した後の方と合わなかったという内容</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">紹介された相手が合わない</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">希望条件に合う紹介がなかった、勧められた相手が自分には合わなかったという内容</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">その他の気になる点</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">質問しないと教えてもらえず受け身では進まない、申し込みが多く日程調整（コールセンター経由）が大変だった、交際を見送られた理由が分からない（各1件）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://life.oricon.co.jp/rank_marriage/company/p-a/" target="_blank" rel="nofollow noopener noreferrer" className="underline">オリコン顧客満足度 パートナーエージェント 結婚相談所の評判・口コミ</a>（調査全体の回答者3,922人。2026年10月24日に確認）。分類は当サイトによるもので、コメントの本文は転載していません。</li>
+            <li>※回答者の内訳は女性15件・男性4件で、「気になる点」6件はすべて20〜30代の女性によるものです。件数が少ないため、傾向は目安としてご覧ください。</li>
+            <li>※口コミサイト「みん評」にもパートナーエージェントの投稿がありますが、当サイトからはページを閲覧できなかったため、件数・内容は集計に含めていません。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            集計からは、専任コンシェルジュの助言を評価する声が多い一方で、満足度が担当者との相性に左右されやすいことがわかります。良い点にも「合わない担当者をすぐに交代してもらえた」という声があるため、無料相談では担当者の交代の可否と手順、交際を見送られた場合にどこまで理由のフィードバックを受けられるかを確認しておくことをおすすめします。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
@@ -305,7 +369,7 @@ export default function PartnerAgentReview() {
 
         <A8Banner ad="partner-agent" />
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月24日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
         {/* 口コミの傾向(編集部要約) */}
