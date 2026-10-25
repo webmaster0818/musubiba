@@ -2,7 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
-import { FEE_CHECKED, jpDate, checkedLabel, checkedRange } from "@/data/fees";
+import { FEE_CHECKED, jpDate, checkedLabel, checkedRange, planFee, yen as fmtYen } from "@/data/fees";
+
+// ブライダルチューリップはプランと件数で費用が変わるため、data/fees.ts の PLAN_FEES から文言を作る（直書きしない）。
+const tA = planFee("bridal-tulip", "Aプラン");
+const tB = planFee("bridal-tulip", "Bプラン");
+const t42 = planFee("bridal-tulip", "42歳以上プラン");
+const tulipMonthlyDiff = tB.monthly - tA.monthly; // 5,400円
+const tulipOmiaiDiff = tA.perOmiai - tB.perOmiai; // 2,700円
+const tulipBreakEven = tulipMonthlyDiff / tulipOmiaiDiff; // お見合いのみで比べた損益分岐（月の件数）
 
 export const metadata: Metadata = {
   title: "安い結婚相談所はどこ？1年総額で24社比較【2026年10月更新】検証済み料金ランキング",
@@ -131,11 +139,11 @@ const rowsRaw: Row[] = [
     type: "仲人型（3連盟）",
     initial: "105,000円",
     monthly: "7,550円",
-    omiai: "6,100円または8,800円／件（都度）",
+    omiai: `${fmtYen(tB.perOmiai)}または${fmtYen(tA.perOmiai)}／件（都度）。交際成立時の手数料は別途 Aプラン${fmtYen(tA.perKosai!)}／件`,
     seikon: "180,000円",
     total1y: "195,600円",
     totalSeikon: "375,600円",
-    note: "42歳未満のAプランを基準としています（42歳以上は入会金150,800円）。お見合い料が都度かかるため、月3件以上お見合いをする場合はBプラン（月会費12,950円・お見合い6,100円）のほうが安くなる場合があります。",
+    note: `42歳未満のAプランを基準としています（42歳以上プランは入会金${fmtYen(t42.initial)}・月会費${fmtYen(t42.monthly)}）。お見合い料のほかに、交際（連絡先交換）が1件成立するごとに「直コンタクト事務手数料及び交際開始アドバイス料」がかかります（Aプラン${fmtYen(tA.perKosai!)}・Bプラン${fmtYen(tB.perKosai!)}・42歳以上プラン${fmtYen(t42.perKosai!)}／件）。表の総額にはお見合い料と交際成立時の手数料を含めていません。Bプラン（月会費${fmtYen(tB.monthly)}・お見合い料${fmtYen(tB.perOmiai)}）はAプランより月会費が${fmtYen(tulipMonthlyDiff)}高い一方、お見合い料が1件${fmtYen(tulipOmiaiDiff)}安く、交際成立時の手数料はかかりません。お見合い料だけで比べると月${tulipBreakEven}件で同額、月${tulipBreakEven + 1}件以上ではBプランのほうが安くなります。交際が成立した場合はAプランに1件${fmtYen(tA.perKosai!)}が加わるため、お見合いが月${tulipBreakEven}件未満でもBプランのほうが安くなることがあります（2026年10月25日に公式料金表で再確認・当サイトの試算）。`,
   },
   {
     slug: "code-for-marriage",

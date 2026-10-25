@@ -22,7 +22,7 @@ type Agency = {
   priority: string[];
   style: string[];
   affiliateUrl?: string;
-  screenshotSlug: string;
+  screenshotSlug?: string;
 };
 
 /* --- affiliate links ------------------------------------------------------ */
@@ -121,7 +121,6 @@ const agencies: Agency[] = [
     features: ['仲人によるサポート', 'お見合い保証', '少人数制'],
     priority: ['カウンセラーのサポート', 'お見合い保証'],
     style: ['プロにお任せ'],
-    screenshotSlug: 'ringbell',
   },
   {
     name: 'フィオーレ',
@@ -675,7 +674,7 @@ export default function ConciergePage() {
                       className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden"
                     >
                       {/* Screenshot */}
-                      {isAffiliate && r.affiliateUrl ? (
+                      {!r.screenshotSlug ? null : isAffiliate && r.affiliateUrl ? (
                         <a href={r.affiliateUrl} target="_blank" rel="noopener noreferrer nofollow" className="block">
                           <img src={`/ss-${r.screenshotSlug}.jpg`} alt={`${r.name} 公式サイト`} className="w-full h-40 object-cover object-top" />
                         </a>
@@ -684,7 +683,7 @@ export default function ConciergePage() {
                           <img src={`/ss-${r.screenshotSlug}.jpg`} alt={`${r.name} 公式サイト`} className="w-full h-40 object-cover object-top" />
                         </Link>
                       )}
-                      <p className="text-[10px] text-gray-400 px-5 pt-1">画像引用: 公式サイトより</p>
+                      {r.screenshotSlug && <p className="text-[10px] text-gray-400 px-5 pt-1">画像引用: 公式サイトより</p>}
 
                       {/* Header */}
                       <div className="flex items-center justify-between px-5 pt-4 pb-2">
