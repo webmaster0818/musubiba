@@ -9,9 +9,9 @@ import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "ウェルスマの口コミ・評判｜IBJ口コミ評価4.5（223件）・月会費11,800円〜・成婚率86.1%の定義【2026年10月】",
+  title: "ウェルスマの口コミ・評判｜IBJ口コミ224件をテーマ別に集計・月会費11,800円〜・成婚率86.1%の定義【2026年10月】",
   description:
-    "ウェルスマ（完全オンラインの結婚相談所）の料金・成婚率86.1%の定義・IBJ加盟状況を公式情報にもとづいて確認しています。口コミの掲載状況を整理し、入会前に確認すべきポイントを解説します。IBJ口コミ評価4.5（223件）とプラン別の申込・紹介人数も掲載しています。",
+    "ウェルスマ（IBJ加盟の完全オンライン仲人型結婚相談所）の口コミ・評判を、IBJ公式サイトの口コミ224件（平均4.5）の全件テーマ別集計と、星3以下15件の内容で整理しています。料金（2026年10月25日公式確認）、成婚率86.1%の定義、解約・休会・プラン変更の条件も掲載しています。",
 };
 
 const overview = {
@@ -77,7 +77,19 @@ const faqs = [
   },
   {
     q: "ウェルスマの口コミは信頼できますか？",
-    a: "IBJ公式サイトのクチコミ（223件）とGoogleマップの口コミ件数・評価は確認できますが、口コミサイトや比較記事では、出典を確認できる口コミはほとんど見つかりませんでした（当サイト調べ）。ネット上の口コミ記事には旧料金など古い情報が混ざっている場合もあるため、無料相談で最新の料金・サポート内容を直接確認することをおすすめします。",
+    a: "件数がまとまっている媒体は、IBJ公式サイトの相談所ページ（224件・平均4.5、2026年10月25日確認）とGoogleマップ（163件・評価4.5、2026年8月18日取得）です。IBJの224件を当サイトで全件確認したところ、本文が完全に一致する投稿が7組（14件）ありました。比較記事の中には出典が示されていない体験談や旧料金が混ざっているものもあるため、媒体と投稿時期を確認したうえで参考にすることをおすすめします。",
+  },
+  {
+    q: "ウェルスマに悪い口コミはありますか？",
+    a: "IBJ公式サイトの口コミ224件のうち、星3以下は15件（星3が9件・星2が3件・星1が3件、2026年10月25日確認）です。本文のある13件では、サポートは必要最低限で自分から動く必要があるという内容が5件、返信がない・質問への対応が不十分だったという内容が3件、IBJアプリやシステムの使いにくさ・不具合に触れた内容が3件でした（重複あり）。一方で、星3のうち3件は不満点の記載がない好意的な内容です。",
+  },
+  {
+    q: "解約・休会・プラン変更の条件を教えてください",
+    a: "公式FAQ（2026年10月25日確認）によると、契約期間の縛りはなく、中途解約料はかかりません。退会は特定商取引法に則って対応すると記載されています。休会は3ヶ月×2回まで可能で、休会中はシステム利用料2,200円/月がかかります。プラン変更は変更希望月の前月20日までの申請で翌月から適用され、変更手数料5,500円（税込）がかかり、変更後3ヶ月間は再変更できません。月会費は日割りされず、入会月はプロフィールを公開しなければ月会費は発生しません。",
+  },
+  {
+    q: "ウェルスマの入会条件は？",
+    a: "公式FAQ（2026年10月25日確認）では、満20歳以上65歳未満の独身者（事実上の婚姻関係にある方がいないこと）で、男性は定職に就いていること、1年以内をめどに結婚につながる交際を希望していること、身分証明書・独身証明書・学歴証明書などを提出できることが条件です。",
   },
 ];
 
@@ -105,8 +117,8 @@ const REVIEW_EXTRA = {
     {
       "media": "IBJ公式サイト ウェルスマのクチコミ",
       "score": "平均4.5",
-      "count": "223件",
-      "detail": "星5が70%・星4が23%・星3が4%・星2と星1が各1%。",
+      "count": "224件",
+      "detail": "星5が157件（70%）・星4が52件・星3が9件・星2が3件・星1が3件（2026年10月25日に全件を確認）。テーマ別の集計は本ページの「IBJ口コミ224件のテーマ別集計」をご覧ください。",
       "url": "https://www.ibjapan.com/area/tokyo/00290/"
     }
   ],
@@ -135,7 +147,7 @@ const REVIEW_EXTRA = {
     {
       "seen": "月額9,800円〜・7万人以上の会員から月5名を紹介",
       "source": "2021年9月30日のプレスリリース（サービス一新時）",
-      "now": "月会費11,800円／15,800円／19,800円の3プラン、紹介人数はプランにより0名・3名・6名＋都度です。IBJ会員は110,885名です（2026年10月21日に公式トップで確認）。"
+      "now": "月会費11,800円／15,800円／19,800円の3プラン、紹介人数はプランにより0名・3名・6名＋都度です（2026年10月25日に公式トップで再確認）。IBJ会員は110,885名です（2026年10月21日に公式トップで確認）。"
     }
   ]
 };
@@ -153,7 +165,20 @@ export default function WellsmaReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ウェルスマの口コミ・評判｜月会費11,800円〜のオンライン仲人型を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金・実績は2026年10月14日、IBJ会員数は2026年10月21日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月25日（料金・プラン内容・解約規定を2026年10月25日に公式サイトで再確認。IBJ公式サイトの口コミ224件のテーマ別集計を追加）</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-6">
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />ウェルスマとは（運営・料金・口コミの傾向）
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>運営・形態</strong>：合同会社アクチュアライゼーション（東京都渋谷区・代表 細川佑太朗）が運営する、IBJ正規加盟の<strong>完全オンライン仲人型の結婚相談所</strong>です。店舗はなく、面談はZoom、日常の相談はLINEで行います。マル適マークCMSを取得し、IBJ AWARD PREMIUM（2022年・2023年）を受賞しています（IBJ公式サイトの相談所ページの表記）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用49,800円＋月会費11,800円〜19,800円（3プラン）＋成婚料149,800円（税込）。お見合い料はかかりません。<strong>マイペースプランで1年活動して成婚した場合の総額目安は341,200円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ224件（平均4.5）では、カウンセラーの親身さ・丁寧さに触れた投稿が108件、料金の安さに触れた投稿が110件と多い一方、星3以下の15件には「サポートは必要最低限」「返信がない」という内容が含まれます（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>解約・休会</strong>：契約期間の縛り・中途解約料はなく、休会は3ヶ月×2回まで（システム利用料2,200円/月）です（公式FAQ）。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・プラン内容は公式トップ、解約・休会は公式「よくあるご質問」、運営会社は公式「会社概要」で2026年10月25日に確認した掲載値です。総額目安は49,800円＋11,800円×12ヶ月＋149,800円の単純計算です。</p>
+        </div>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -214,7 +239,7 @@ export default function WellsmaReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年7月31日時点の公式サイト掲載の税込料金です（2026年10月14日の再確認時点でも変更はありません）。ネット上の古い記事には現行と異なる旧料金が掲載されている場合があります。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年7月31日時点の公式サイト掲載の税込料金です（2026年10月14日・10月25日の再確認時点でも変更はありません）。ネット上の古い記事には現行と異なる旧料金が掲載されている場合があります。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
         </section>
 
@@ -310,16 +335,55 @@ export default function WellsmaReview() {
         {/* Reviews / How to verify */}
         <ReviewVoices
           name="ウェルスマ"
-          checkedOn="2026年10月14日"
+          checkedOn="2026年10月25日"
           reviewNote="Googleマップの「結婚相談所ウェルスマ」には口コミが163件あり、評価は4.5でした（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、料金（入会金49,800円・月会費11,800円〜19,800円・成婚料149,800円・お見合い料なし）は7月から変更ありません。会員数はIBJ 110,885名＋IBJオンライン会員35,665名（オンラインは有料オプション）、2025年の成婚退会者のうち1年以内に成婚した割合86.1%・平均在籍7.9ヶ月と公表されています。"
         />
+
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">ウェルスマのIBJ口コミ224件のテーマ別集計（2026年10月25日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            ウェルスマの口コミが最も多く掲載されている媒体は、IBJ公式サイトの相談所ページです。当サイトでは掲載中の224件（全23ページ）を全件確認し、本文に各テーマの語句（例：「返信」「レスポンス」）を含む投稿の件数を数えました。1件に複数のテーマが含まれる場合は、それぞれで数えています。本文のない投稿3件を除く221件が集計対象です。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">料金の安さ</td><td className="px-4 py-3">110件</td><td className="px-4 py-3">「リーズナブル」「良心的」など、IBJ加盟店の中で料金が安い点に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">カウンセラーの親身さ・丁寧さ</td><td className="px-4 py-3">108件</td><td className="px-4 py-3">入会前の無料相談や担当カウンセラーの説明・相談対応に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">オンライン・LINE・Zoom</td><td className="px-4 py-3">104件</td><td className="px-4 py-3">来店せずに手続き・相談が完結する点に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">返信・レスポンス</td><td className="px-4 py-3">73件</td><td className="px-4 py-3">大半は返信の早さを評価する内容で、返信がない・遅いという不満も一部に含まれます</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">プロフィール作成</td><td className="px-4 py-3">70件</td><td className="px-4 py-3">自己紹介文の添削やカウンセラーPRの作成支援に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">成婚の報告</td><td className="px-4 py-3">66件</td><td className="px-4 py-3">成婚退会した、または成婚予定であるという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">他社と比較して選んだ</td><td className="px-4 py-3">59件</td><td className="px-4 py-3">複数の相談所を比較した、または他社から移籍したという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">強引な勧誘・押し付けがない</td><td className="px-4 py-3">11件</td><td className="px-4 py-3">無料相談で勧誘やプランの押し付けがなかったという投稿</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">星3以下の投稿</td><td className="px-4 py-3">15件</td><td className="px-4 py-3">本文のある13件の内訳：サポートは必要最低限・自分から動く必要がある 5件／返信がない・質問への対応が不十分 3件／IBJアプリ・システムの使いにくさや不具合 3件／活動前の説明不足 1件（重複あり）。星3のうち3件は、不満点の記載がない好意的な内容です</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://www.ibjapan.com/area/tokyo/00290/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト ウェルスマのクチコミ一覧</a>（2026年10月25日に全23ページを確認）。分類は当サイトによる語句の集計で、口コミの本文は転載していません。</li>
+            <li>※投稿時期は相対表記のみで、直近1年以内（「〇ヵ月前」以内の表示）の投稿は83件（うち星3以下11件）、残る141件は「1年前」〜「3年前」の表示です。</li>
+            <li>※本文が完全に一致する投稿が7組（14件）あり、上の件数はそれらを含めて数えています。口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。</li>
+            <li>※公式サイトの成婚者インタビュー「幸せレポート」は90件が掲載されています（2026年10月25日確認・一覧8ページ）。運営会社が掲載するもののため、不満の声は含まれません。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            集計からは、料金の安さとオンラインで完結する手軽さ、担当カウンセラーの対応を評価する声が多いことがわかります。一方、低評価の投稿では「自分から相談しないとフォローがない」という趣旨が繰り返し見られ、公式が説明するマイペースプラン（紹介なし・LINE相談のみ）の位置づけと一致しています。手厚い伴走を希望する方は、サポートプラン以上の紹介人数・相談手段と、担当者の返信の目安を無料相談でご確認ください。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             ウェルスマの評判・口コミの調査結果
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「ウェルスマ 評判」「ウェルスマ 口コミ」を調査しました。IBJ公式サイトのクチコミとGoogleマップの口コミ件数・評価は確認できましたが（10月14日に追記）、<strong>口コミサイトや比較記事では、出典を確認できる口コミはほとんど見つかりませんでした</strong>。ネット上には口コミを紹介する記事もありますが、出典が示されていないものや、現行と異なる旧料金が記載された古い情報も見られます。そのため当サイトでは、確認できない口コミを掲載する代わりに、公式情報にもとづく入会前の確認ポイントを整理しています。
+            当サイトで「ウェルスマ 評判」「ウェルスマ 口コミ」を調査しました。件数がまとまっている媒体はIBJ公式サイトのクチコミ（224件・テーマ別の集計は前述）とGoogleマップ（163件・2026年8月18日取得）です。比較記事の中には独自アンケートや体験談を掲載したものもありますが、出典や回答者の条件が示されていないものや、現行と異なる旧料金が記載された古い情報も見られます。そのため当サイトでは、確認できる媒体の件数と内容の傾向に加えて、公式情報にもとづく入会前の確認ポイントを整理しています。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つのポイント</h3>
@@ -328,10 +392,10 @@ export default function WellsmaReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>プランごとのサポート内容の違い（マイペース／サポート／プレミアムで何が変わるか）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>成婚率86.1%の算出定義の説明が公式掲載どおりか（分母＝成婚退会者）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>専任カウンセラーとの連絡頻度・返信スピードの目安（オンライン型では特に重要）</li>
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>中途退会時の手続き・費用の扱い（契約書面で必ず確認）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>中途退会時の手続き・費用の扱い（公式FAQでは中途解約料なし。特定商取引法に基づく表示の精算方法とあわせて契約書面で確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金・実績は2026年10月14日、IBJ会員数は2026年10月21日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金・プラン内容・FAQ・特定商取引法に基づく表示は2026年10月25日、IBJ会員数は2026年10月21日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}
@@ -354,7 +418,7 @@ export default function WellsmaReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月14日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月25日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

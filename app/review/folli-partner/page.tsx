@@ -9,9 +9,9 @@ import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "東京フォリパートナーの口コミ・評判｜IBJ口コミ4.8（87件）・成婚率71.5%の定義・5コース料金【2026年10月】",
+  title: "東京フォリパートナーの口コミ・評判｜IBJ口コミ87件をテーマ別に集計・成婚率71.5%の定義・5コース料金【2026年10月】",
   description:
-    "東京フォリパートナー（IBJ正規加盟・優良認定加盟店）の評判を、公式の公表情報にもとづいて検証しています。成婚率71.5%（自社公称）の算出定義、ライト〜メンズ5コースの税込料金と1年総額目安、広告の「No.1」表記がIBJ連盟の実績であることの読み方、中途解約条件について整理しています。",
+    "東京フォリパートナー（IBJ加盟の仲人型）の口コミ・評判を、IBJ公式サイトの口コミ87件（平均4.8）の全件テーマ別集計と低評価2件の内容、エキテンの掲載状況で整理しています。5コースの料金（2026年10月25日公式確認）・申込上限・紹介人数、成婚率71.5%（自社公称）の定義、解約条件も掲載しています。",
 };
 
 const overview = {
@@ -67,7 +67,7 @@ const cons = [
   "広告の「会員数・成婚数No.1」はIBJ連盟自体の実績で、フォリパートナー単体のNo.1ではない点に注意が必要",
   "成婚料が250,000円〜300,000円と、成婚料無料のオンライン型より総額は高くなりやすい",
   "店舗は東京・横浜のみで、対面サポートを受けられるのは首都圏中心",
-  "利用者の口コミの一次情報（出典を確認できる投稿）は当サイトでは未確認",
+  "IBJの口コミは成婚者の投稿が中心で、紹介や面談の対応が形式的だったという低評価も1件ある（2026年10月25日確認）",
 ];
 
 const faqs = [
@@ -94,6 +94,14 @@ const faqs = [
   {
     q: "フォリパートナーは地方在住でも利用できますか？",
     a: "店舗は東京4店舗（代々木本店・神田/秋葉原・日本橋/茅場町・青山）と横浜1店舗ですが、Zoomでの面談に対応しており全国から利用できます。対面での手厚い面談を重視する場合は、通える範囲に店舗があるかをご確認ください。",
+  },
+  {
+    q: "フォリパートナーに悪い口コミはありますか？",
+    a: "IBJ公式サイトの口コミ87件のうち、星3以下は2件です（星2・星1が各1件、2026年10月25日確認）。星1（「1ヵ月前」の表示）は、契約上の紹介が形式的で、面談の対応にも積極性を感じず、IBJのシステムを提供しているだけに感じたという内容です。星2（「2年前」の表示）は、入会前のZoom面談でのカウンセラーの態度に不満があり入会しなかったという内容です。残る85件は星4以上です。",
+  },
+  {
+    q: "コースごとのお見合い申込み上限と紹介人数は？",
+    a: "公式の料金ページ（2026年10月25日確認）では、お見合い申込みの上限は月にライト75名・スタンダード100名・スーペリア100名（活動状況に応じて増加可）・リスタート150名・メンズ150名、紹介人数は月にライト1名以上・スタンダード2名以上・スーペリア3名以上・リスタート2名以上・メンズ2名以上です。なお、IBJ公式サイトの相談所ページではスーペリアの申込上限が200件/月と記載されており、表記が異なります。",
   },
 ];
 
@@ -122,8 +130,15 @@ const REVIEW_EXTRA = {
       "media": "IBJ公式サイト 東京フォリパートナーのクチコミ",
       "score": "平均4.8",
       "count": "87件",
-      "detail": "星5が92%・星4が6%・星2と星1が各1%。",
+      "detail": "星5が80件（92%）・星4が5件（6%）・星2と星1が各1件（2026年10月25日に全件を確認）。IBJの相談所ページの成婚者エピソードは1件です。",
       "url": "https://www.ibjapan.com/area/tokyo/70545/"
+    },
+    {
+      "media": "エキテン 結婚相談所 東京 フォリパートナー",
+      "score": "3.22",
+      "count": "6件",
+      "detail": "ページに表示されている3件は2017年10月〜11月の投稿で、評価は4.50・5.00・5.00です。エキテン独自の算出による表示値のため、表示中の3件の評価とは一致しません（2026年10月25日確認）。",
+      "url": "https://www.ekiten.jp/shop_6890530/"
     }
   ],
   "ratingNotes": [
@@ -171,7 +186,7 @@ export default function FolliPartnerReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           東京フォリパートナーの口コミ・評判｜成婚率71.5%の算出定義・5コース料金・No.1表記の読み方を検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（成婚率の算出期間・受賞歴は2026年10月21日、料金は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月25日（料金・申込上限・紹介人数は2026年10月25日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認。IBJ公式サイトの口コミ87件のテーマ別集計を追加）</p>
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
@@ -182,9 +197,10 @@ export default function FolliPartnerReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ正規加盟・優良認定加盟店の仲人型相談所です。<strong>成婚率71.5%（自社公称）を算出定義とあわせて公表</strong>（直近1年の成婚退会者÷全退会者・相談所以外での成婚を除く）しており、IBJサミット2023で成婚数/成婚率2部門TOP7表彰、IBJ AWARD 2026上期も受賞しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：5コース制で初期費用110,000円〜・月会費16,500円〜・成婚料250,000円〜（税込・全コースお見合い料0円）。<strong>スタンダードで1年活動した場合の総額目安は約63.4万円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：広告で見かける「会員数・成婚数No.1」は<strong>IBJ連盟自体の実績（日本マーケティングリサーチ機構調べ）で、フォリパートナー単体のNo.1ではありません</strong>。この点を踏まえてご検討ください（詳細は本文で説明しています）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ87件（平均4.8）では、成婚の報告が62件、カウンセラーの親身さ・丁寧さに触れた投稿が50件、プロフィール作成の支援に触れた投稿が43件です。星3以下は2件です（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：首都圏（東京・横浜）で店舗面談を受けたい方、数字の算出根拠を示す相談所を選びたい方、お見合いの回数を気にせず活動したい方に適しています。Zoomに対応しているため、地方からも利用できます。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月14日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認した公表情報（税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月25日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認した公表情報（税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
         <A8Banner ad="folli" />
@@ -260,12 +276,14 @@ export default function FolliPartnerReview() {
           </div>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/70 mb-4">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>総額目安は「初期費用＋月会費12ヶ月＋成婚料」を単純に合算した金額です（当サイト算出）。オプション費用は含みません。</li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>毎月の紹介人数保証があります（コース別に1〜3名）。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>毎月の紹介人数保証があります（ライト1名以上・スタンダード2名以上・スーペリア3名以上・リスタート2名以上・メンズ2名以上）。お見合い申込みの上限は月にライト75名・スタンダード100名・スーペリア100名（活動状況に応じて増加可）・リスタート150名・メンズ150名です。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>初期費用は「入会金・登録料」と「活動サポート費」の半額ずつで構成されています（例：スタンダード150,000円＝75,000円＋75,000円）。活動サポート費は、中途解約時に特定商取引法に則って返金清算すると記載されています。</li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>公式サイトでは、入会当初は月に平均4〜6人とお見合いしている（2015年〜2026年の自社実績）と説明しています。お見合い料0円のため、この回数でも追加費用はかかりません。</li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>オプションの例として、担当カウンセラー指名11,000円、プロフィール撮影同行16,500円などがあります。</li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>会員期間は12ヶ月です。2年目以降は月会費のみで継続できます。</li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>クーリングオフは契約書面受領日を含む8日以内です。中途解約の負担は、サービス提供前であれば3万円のみです。</li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年10月14日に公式の料金ページで確認した税込価格です（7月31日の確認時から変更はありません）。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年10月25日に公式の料金ページで確認した税込価格です（7月31日・10月14日の確認時から変更はありません）。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
         </section>
 
         {/* Strengths */}
@@ -337,16 +355,54 @@ export default function FolliPartnerReview() {
         {/* 評判・口コミについて */}
         <ReviewVoices
           name="東京フォリパートナー"
-          checkedOn="2026年10月21日"
+          checkedOn="2026年10月25日"
           reviewNote="Googleマップの「結婚相談所 東京フォリパートナー」には口コミ58件・評価4.9が掲載されていました（当サイトが2026年8月18日に取得）。2026年10月14日に公式の料金ページを再確認し、ライト（初期費用110,000円・月会費16,500円・成婚料250,000円・紹介1名以上/月）〜スーペリア（250,000円・22,000円・300,000円・3名以上/月）の5コース、全コースお見合い料0円・2年目以降の更新料無料は変更ありませんでした。店舗は代々木（本店）・神田秋葉原・日本橋茅場町・青山・横浜湘南で、Zoom相談は全国対応です。"
         />
+
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">東京フォリパートナーのIBJ口コミ87件のテーマ別集計（2026年10月25日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            フォリパートナーの口コミが最も多く掲載されている媒体は、IBJ公式サイトの相談所ページです。当サイトでは掲載中の87件（全9ページ）を全件確認し、本文に各テーマの語句を含む投稿の件数を数えました。1件に複数のテーマが含まれる場合は、それぞれで数えています。本文のない投稿1件を除く86件が集計対象です。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">成婚の報告</td><td className="px-4 py-3">62件</td><td className="px-4 py-3">成婚退会した、または成婚予定であるという投稿。投稿の7割以上を占めます</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">カウンセラーの親身さ・丁寧さ</td><td className="px-4 py-3">50件</td><td className="px-4 py-3">担当カウンセラーの相談対応や気持ちへの寄り添いに触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">プロフィール作成</td><td className="px-4 py-3">43件</td><td className="px-4 py-3">プロフィール文やカウンセラーPRの完成度に触れた投稿（写真に触れた投稿は13件）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">お見合い・交際中の助言</td><td className="px-4 py-3">32件</td><td className="px-4 py-3">お見合いの日程管理や交際の進め方、相手側カウンセラーとの連携に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">返信・レスポンス</td><td className="px-4 py-3">29件</td><td className="px-4 py-3">返信の早さに触れた投稿。少人数担当制と結びつけて評価する内容もあります</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">他社と比較して選んだ</td><td className="px-4 py-3">12件</td><td className="px-4 py-3">複数の相談所を比較した、または他の相談所から移ったという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">率直・厳しい助言</td><td className="px-4 py-3">6件</td><td className="px-4 py-3">入会前面談などで厳しい点も含めて具体的に助言されたという投稿</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">星3以下の投稿</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">星1：契約上の紹介が形式的で、面談の対応にも積極性を感じなかった（「1ヵ月前」の表示）／星2：入会前のZoom面談でのカウンセラーの態度に不満があり入会しなかった（「2年前」の表示）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://www.ibjapan.com/area/tokyo/70545/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト 東京フォリパートナーのクチコミ一覧</a>（2026年10月25日に全9ページを確認）。分類は当サイトによる語句の集計で、口コミの本文は転載していません。</li>
+            <li>※投稿時期は相対表記のみで、直近1年以内（「〇ヵ月前」以内の表示）の投稿は19件（星5が17件・星4が1件・星1が1件）、残る68件は「1年前」〜「6年前」の表示です。</li>
+            <li>※本文が完全に一致する投稿が3組（8件）あり、うち1組は4件が同じ文面です。上の件数はそれらを含めて数えています。口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。</li>
+            <li>※IBJ公式サイトの相談所ページには「2024年度に127組のご成婚」と記載されています（2026年10月25日確認・自社掲載値）。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            集計からは、成婚した会員がプロフィール作成と返信の早さを評価している投稿が多いことがわかります。一方で、直近の星1の投稿は紹介や面談が形式的だったという内容で、担当者によって対応の感じ方が異なる可能性があります。無料相談では、ご自身の担当予定者の受け持ち人数と、紹介人数保証の紹介がどのような基準で選ばれるかを確認しておくことをおすすめします。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             東京フォリパートナーの評判・口コミについて
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「フォリパートナー 評判」「フォリパートナー 口コミ」で検索する方が多い一方、当サイトの調査時点では、<strong>出典を確認できる利用者の口コミの一次情報は確認できませんでした</strong>。第三者のまとめ記事には体験談風の記述が見られますが、投稿元をたどれないため当サイトでは引用していません（なお一部の紹介記事にある「成婚率68%」は旧数値で、現在の公表値は71.5%〈自社公称〉です）。
+            「フォリパートナー 評判」「フォリパートナー 口コミ」で検索すると、比較記事や体験談をまとめた記事が多く表示されます。当サイトで件数を確認できた媒体は、IBJ公式サイト（87件・テーマ別の集計は前述）、Googleマップ（58件・2026年8月18日取得）、エキテン（6件・表示中の投稿は2017年）です。第三者のまとめ記事に掲載されている体験談は投稿元をたどれないものが多いため、当サイトでは引用していません（なお一部の紹介記事にある「成婚率68%」は旧数値で、現在の公表値は71.5%〈自社公称〉です）。
           </p>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             そのため本ページでは、公式の公表情報をもとに<strong>入会前にご自身で確認いただきたいポイント</strong>を整理しています。無料相談で以下の点を直接確認することで、口コミに頼らずにご自身との相性を判断できます。
@@ -358,7 +414,7 @@ export default function FolliPartnerReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>担当カウンセラーの受け持ち人数</strong>：公称の「1名30名程度まで」がご自身の担当予定者にも当てはまるかをご確認ください。</span></li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>紹介人数保証の条件</strong>：検討中のコースで毎月何名の紹介が保証されるか（コース別1〜3名）、保証が適用されない条件があるかをご確認ください。</span></li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>総額とオプションの線引き</strong>：初期費用・月会費・成婚料の3項目以外に発生しうる費用（指名11,000円・撮影同行16,500円など）を書面でご確認ください。</span></li>
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span><span><strong>解約条件</strong>：クーリングオフ（8日以内）と中途解約（サービス提供前3万円のみ）の条件を契約書面でご確認ください。</span></li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span><span><strong>解約条件</strong>：クーリングオフ（8日以内）と中途解約（サービス提供前3万円のみ）、初期費用のうち活動サポート費の返金清算の計算方法を契約書面でご確認ください。</span></li>
             </ul>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※当サイトは出典を確認できない体験談・口コミを掲載しない方針です。実際のサポートの質は担当者やコースによっても異なるため、無料相談にてご自身でご確認ください。</p>
@@ -385,7 +441,7 @@ export default function FolliPartnerReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月21日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月25日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

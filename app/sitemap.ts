@@ -59,6 +59,8 @@ UPDATED[""] = "2026-10-23";
 for (const r of ["/review/smartread", "/review/hero-marriage", "/review/pitto", "/knowledge/seikon-ritsu"]) UPDATED[r] = "2026-10-23";
 // 2026-10-24 12:00成長: IBJメンバーズ・パートナーエージェント（オリコン利用者コメントのテーマ別集計・とは要約・公式再確認）・ベルロード（口コミの掲載状況と公式掲載の成婚者の声6件の集計）
 for (const r of ["/review/ibj-members", "/review/partner-agent", "/review/bellroad"]) UPDATED[r] = "2026-10-24";
+// 2026-10-25 12:00成長: ウェルスマ・エクセレンス青山・ブライダルチューリップ・フォリパートナー（IBJ口コミ全件のテーマ別集計・低評価の内容・媒体別件数・公式再確認）
+for (const r of ["/review/wellsma", "/review/excellence-aoyama", "/review/bridal-tulip", "/review/folli-partner"]) UPDATED[r] = "2026-10-25";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

@@ -9,9 +9,9 @@ import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
 
 export const metadata = {
-  title: "エクセレンス青山の口コミ・評判｜IBJ口コミ評価4.5（40件）・4連盟33万人・料金コース【2026年10月】",
+  title: "エクセレンス青山の口コミ・評判｜IBJ口コミ41件をテーマ別に集計・4連盟33万人・料金コース【2026年10月】",
   description:
-    "エクセレンス青山（エグゼクティブ向け結婚相談所）の料金コース・4連盟約33万人のネットワーク・成婚率85.7%（2019年実績）の注意点を、公式情報にもとづいて検証しています。口コミの一次情報の有無、IBJの口コミ評価4.5（40件）、入会条件・トライアルについても整理しています。",
+    "エクセレンス青山（南青山のエグゼクティブ向け結婚相談所）の口コミ・評判を、IBJ公式サイトの口コミ41件（平均4.5）の全件テーマ別集計と星1の4件の内容で整理しています。料金コース（2026年10月25日公式確認）、4連盟の会員数の内訳、成婚率85.7%（2019年実績）の注意点、解約条件も掲載しています。",
 };
 
 const overview = {
@@ -79,6 +79,14 @@ const faqs = [
     q: "エクセレンス青山は来店しないと利用できませんか？",
     a: "店舗は東京・南青山の1拠点（火曜定休）ですが、オンライン相談にも対応しています。遠方の方や多忙な方には、まずオンラインでのご相談をおすすめします。",
   },
+  {
+    q: "エクセレンス青山に悪い口コミはありますか？",
+    a: "IBJ公式サイトの口コミ41件のうち、星1は4件です（2026年10月25日確認）。入会前のカウンセリングで年収に関する助言の伝え方に配慮がなかったという内容が2件（本文が完全に一致する投稿）、カウンセラーの口調が強く、お見合い申込み後のフォローを感じなかったという内容が1件、仮交際中の相手会員の行動への不満が1件です。いずれも「8ヵ月前」〜「1年前」の表示で、残る37件は星4以上です。",
+  },
+  {
+    q: "解約・返金の条件を教えてください",
+    a: "公式「よくあるご質問」（2026年10月25日確認）によると、理由を問わずいつでも解約できます。契約書面の受領から8日以内であれば解約金はかからず、払い込んだ入会金等は全額返還されます。8日を過ぎた後の解約は、法の定める計算式にもとづいて返戻金を計算し返金すると記載されています。スタンダード・プライム・ラグジュアリーの各コースは1年間で、2年目以降は自動更新（更新料なし）です。",
+  },
 ];
 
 const faqJsonLd = {
@@ -105,8 +113,8 @@ const REVIEW_EXTRA = {
     {
       "media": "IBJ公式サイト エクセレンス青山のクチコミ",
       "score": "平均4.5",
-      "count": "40件",
-      "detail": "星5が88%・星4が3%・星1が10%。",
+      "count": "41件",
+      "detail": "星5が36件（88%）・星4が1件（2%）・星1が4件（10%）（2026年10月25日に全件を確認）。テーマ別の集計は本ページの「IBJ口コミ41件のテーマ別集計」をご覧ください。",
       "url": "https://www.ibjapan.com/area/tokyo/66626/"
     }
   ],
@@ -163,7 +171,20 @@ export default function ExcellenceAoyamaReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           エクセレンス青山の口コミ・評判｜4連盟33万人・料金コース・成婚率の注意点まで検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金を公式サイトで再確認し、プライム・エグゼクティブ・ラグジュアリーの男女別料金を反映）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月25日（料金・解約条件・4連盟の会員数を2026年10月25日に公式サイトで再確認。IBJ公式サイトの口コミ41件のテーマ別集計を追加）</p>
+
+        <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-6">
+          <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
+            <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />エクセレンス青山とは（運営・加盟連盟・口コミの傾向）
+          </h2>
+          <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>運営・形態</strong>：有限会社ランドコム（2003年8月設立・東京都港区南青山）が運営する、医師・経営者などエグゼクティブ層向けの<strong>仲人型結婚相談所</strong>です。店舗は南青山の1拠点で、オンライン面談にも対応しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>加盟連盟</strong>：IBJ（107,597名・2026年3月時点）、BIU（約62,000名）、TMS（84,752名・2025年6月時点）、NNR（84,000名以上・2025年1月時点）の4連盟に加盟しています。公式サイトは各連盟の公開会員数をもとに算出しており、連盟間の重複を含む場合があると注記しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ41件（平均4.5）では、成婚の報告が18件、カウンセラーの親身さ・丁寧さに触れた投稿が16件です。星1の4件は、入会前カウンセリングでの伝え方やカウンセラーの口調への不満が中心です（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>解約</strong>：契約書面の受領から8日以内は入会金等を全額返還、8日以降は法定の計算式にもとづいて返金されます（公式FAQ）。</span></li>
+          </ul>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※会員数は公式トップ、解約条件は公式「よくあるご質問」で2026年10月25日に確認した掲載値です。</p>
+        </div>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
@@ -233,7 +254,7 @@ export default function ExcellenceAoyamaReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年10月21日に公式の料金ページで確認した税込料金です（以前「公式サイト参照」としていたプライム・エグゼクティブの月会費は、今回の確認で公式に男女別の金額が載っていたため反映しました）。このほか、女性限定の花形プラン・医師/歯科医師向けのドクターコース（いずれもプライムの初期費用が66,000円になる特別限定）、誕生月の方の入会金10%OFFなどのキャンペーンが告知されています（併用不可）。料金は改定される場合があるため、最新の金額・条件は必ず公式サイトまたは無料相談でご確認ください。
+            ※2026年10月21日に公式の料金ページで確認し、10月25日にも同じ金額であることを再確認した税込料金です（以前「公式サイト参照」としていたプライム・エグゼクティブの月会費は、今回の確認で公式に男女別の金額が載っていたため反映しました）。このほか、女性限定の花形プラン・医師/歯科医師向けのドクターコース（いずれもプライムの初期費用が66,000円になる特別限定）、誕生月の方の入会金10%OFFなどのキャンペーンが告知されています（併用不可）。料金は改定される場合があるため、最新の金額・条件は必ず公式サイトまたは無料相談でご確認ください。
           </p>
         </section>
 
@@ -324,16 +345,52 @@ export default function ExcellenceAoyamaReview() {
         {/* Reviews / How to verify */}
         <ReviewVoices
           name="エクセレンス青山"
-          checkedOn="2026年10月21日"
+          checkedOn="2026年10月25日"
           reviewNote="Googleマップの「結婚相談所エクセレンス青山」には口コミ31件・評価4.6がありました（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、スタンダード（入会金55,000円・月会費7,700円・成婚料220,000円）ほかの料金に変更はありませんでした。キャンペーンとして、男性限定プレミアムコースの初期費用5,500円（通常33,000円・毎月先着10名）、月中の「無料オンラインカウンセリング」で入会金10%OFFなどが告知されています（併用不可）。定休日は公式サイト内で火曜・水曜の表記が混在しているため、来店前にご確認ください。"
         />
+
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">エクセレンス青山のIBJ口コミ41件のテーマ別集計（2026年10月25日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            エクセレンス青山の口コミが最も多く掲載されている媒体は、IBJ公式サイトの相談所ページです。当サイトでは掲載中の41件（全5ページ）を全件確認し、本文に各テーマの語句を含む投稿の件数を数えました。1件に複数のテーマが含まれる場合は、それぞれで数えています。本文のない投稿1件を除く40件が集計対象です。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">成婚の報告</td><td className="px-4 py-3">18件</td><td className="px-4 py-3">成婚退会した、または成婚予定であるという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">カウンセラーの親身さ・丁寧さ</td><td className="px-4 py-3">16件</td><td className="px-4 py-3">初回カウンセリングから成婚までの相談対応に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">お見合い・交際中の助言</td><td className="px-4 py-3">11件</td><td className="px-4 py-3">お見合いや仮交際がうまくいかなかったときの相談・進捗に応じた助言に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">返信・レスポンス</td><td className="px-4 py-3">9件</td><td className="px-4 py-3">連絡への返信の早さに触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">料金・オンライン</td><td className="px-4 py-3">各2件</td><td className="px-4 py-3">料金やオンライン対応に触れた投稿は少数です</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">星1の投稿</td><td className="px-4 py-3">4件</td><td className="px-4 py-3">入会前カウンセリングで、年収に関する助言の伝え方に配慮がなかった 2件（本文が完全に一致）／カウンセラーの口調が強く、お見合い申込み後のフォローを感じなかった 1件／仮交際中の相手会員の行動への不満 1件</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://www.ibjapan.com/area/tokyo/66626/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト エクセレンス青山のクチコミ一覧</a>（2026年10月25日に全5ページを確認）。分類は当サイトによる語句の集計で、口コミの本文は転載していません。</li>
+            <li>※投稿時期は相対表記のみで、直近1年以内（「〇ヵ月前」以内の表示）の投稿は19件（星5が16件・星1が3件）、残る22件は「1年前」〜「4年前」の表示です。</li>
+            <li>※本文が完全に一致する投稿が3組（7件）あり、上の件数はそれらを含めて数えています。口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。</li>
+            <li>※IBJ公式サイトの同じ相談所ページ内で、成婚実績の表記が「700組以上」と「800組以上」に分かれています（2026年10月25日確認）。当サイトでは組数を実績として扱っていません。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            件数は41件と多くありませんが、星5の投稿の多くは成婚の報告とカウンセラーの伴走に触れており、星1の投稿は入会前カウンセリングの伝え方や担当者の口調に集中しています。率直な助言を求めるか、配慮のある伝え方を重視するかで評価が分かれやすい傾向がうかがえるため、無料カウンセリングで担当予定のカウンセラーと実際に話し、相性を確認することをおすすめします。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
             エクセレンス青山の評判・口コミに関する当サイトの調査結果
           </h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトで「エクセレンス青山 評判」「エクセレンス青山 口コミ」を調査しましたが、<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（2026年10月14日に、Googleマップの口コミ件数・評価を上に追記しています）。確認できない口コミを紹介する代わりに、公式情報をもとにした「入会前の見極め方」を整理しています。
+            当サイトで「エクセレンス青山 評判」「エクセレンス青山 口コミ」を調査しました。件数がまとまっている媒体はIBJ公式サイトのクチコミ（41件・テーマ別の集計は前述）とGoogleマップ（31件・2026年8月18日取得）です。比較記事には体験談を掲載したものもありますが、投稿元や投稿時期が示されていないものが多いため、当サイトでは引用していません。以下では、公式情報をもとにした「入会前の見極め方」を整理しています。
           </p>
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つの見極めポイント</h3>
@@ -345,7 +402,7 @@ export default function ExcellenceAoyamaReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>担当カウンセラーとの相性（専属仲人型は担当者次第で活動の質が大きく変わるため、面談で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金は2026年10月21日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金は2026年10月21日・10月25日、解約条件と4連盟の会員数は2026年10月25日に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}
@@ -368,7 +425,7 @@ export default function ExcellenceAoyamaReview() {
 
         {/* FAQ */}
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月21日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月25日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">

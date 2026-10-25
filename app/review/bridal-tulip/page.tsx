@@ -13,9 +13,9 @@ import { PLAN_FEES, planTotal, yen } from "@/data/fees";
 const TULIP_PLANS = PLAN_FEES.filter((p) => p.slug === "bridal-tulip");
 
 export const metadata = {
-  title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜IBJ口コミ評価4.8・料金3プラン【2026年10月】",
+  title: "ブライダルチューリップ（Bridalチューリップ）の口コミ・評判｜IBJ口コミ268件をテーマ別に集計・料金3プラン【2026年10月】",
   description:
-    "ブライダルチューリップ（株式会社ナウい運営・高田馬場）の評判・料金を公式情報にもとづいて検証しています。3連盟の紹介可能会員約19万名、入会金105,000円〜・成婚料180,000円（税込・2026年10月21日公式確認）の料金3プラン、成婚率60%以上（自社公称）の算出定義まで解説しています。",
+    "ブライダルチューリップ（高田馬場）の口コミ・評判を、IBJ公式サイトの口コミ268件（平均4.8）の全件テーマ別集計、星1の8件の内容、公式「お客様の声」205件の男女・年代別内訳で整理しています。料金3プラン（2026年10月25日公式再確認）、成婚率60%以上（自社公称）の算出定義も解説しています。",
   alternates: { canonical: "/review/bridal-tulip/" },
 };
 
@@ -92,6 +92,14 @@ const faqs = [
     q: "最短でどのくらいで成婚できますか？",
     a: "公式サイトには最短44日での成婚事例が掲載されています（自社公称）。ただしこれは最も早い事例で、全員に当てはまるものではありません。活動期間は個人差が大きいため、保証されるものではない点にご注意ください。",
   },
+  {
+    q: "ブライダルチューリップに悪い口コミはありますか？",
+    a: "IBJ公式サイトの口コミ268件のうち、星1は8件です（2026年10月25日確認、星2・星3は0件）。本文のある6件では、担当者の対応・回答の質への不満が3件、写真変更後に半年間お見合いが組めなかったという内容が1件、無料カウンセリングが営業中心だったという内容が1件、断った後の勧誘電話への不満が1件でした。本文のある星1はいずれも「2年前」〜「9年前」の表示で、直近1年以内の星1は本文のない1件のみです。",
+  },
+  {
+    q: "途中で退会できますか？費用はかかりますか？",
+    a: "公式FAQ（2026年10月25日確認）では、退会はいつでも可能とされています。ただし、契約期間内に成婚以外の理由で退会する場合は、タイミングによって中途解約費が発生する場合があると記載されています。具体的な金額は公式サイトに掲載がないため、契約前に書面で確認することをおすすめします。",
+  },
 ];
 
 const faqJsonLd = {
@@ -120,8 +128,15 @@ const REVIEW_EXTRA = {
       "media": "IBJ公式サイト Bridalチューリップのクチコミ",
       "score": "平均4.8",
       "count": "268件",
-      "detail": "星5が91%・星4が6%・星1が3%。IBJの相談所ページには成婚者エピソードも18件掲載されています。",
+      "detail": "星5が244件（91%）・星4が16件（6%）・星1が8件（3%）（2026年10月25日に全件を確認）。IBJの相談所ページには成婚者エピソードも18件掲載されています。",
       "url": "https://www.ibjapan.com/area/tokyo/80557/"
+    },
+    {
+      "media": "エキテン Bridalチューリップの口コミ",
+      "score": "4.55",
+      "count": "54件",
+      "detail": "表示されている最新20件は2017年7月〜2025年9月の投稿で、すべてに店舗からの返信が付いています（2026年10月25日確認）。",
+      "url": "https://www.ekiten.jp/shop_6003276/review/"
     }
   ],
   "ratingNotes": [
@@ -156,7 +171,7 @@ export default function BridalTulipReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           ブライダルチューリップの口コミ・評判｜料金3プラン・成婚率の定義まで公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金表を公式サイトで再確認し、交際成立時の手数料と成婚実績500組以上を反映）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月25日（料金表を2026年10月25日に公式サイトで再確認・変更なし。IBJ公式サイトの口コミ268件のテーマ別集計と、公式「お客様の声」205件の内訳を追加）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -166,9 +181,10 @@ export default function BridalTulipReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ・SCRUM・CONNECT-shipの<strong>3連盟に加盟し、紹介可能会員は約19万名</strong>です（2026年1月時点・公式表記）。面談回数無制限とサブカウンセラー制度を備えた、サポートの手厚い仲人型です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会金105,000円〜＋月会費7,550円〜＋お見合い料6,100円〜／件＋交際成立時の手数料0円〜20,300円／件＋成婚料180,000円（税込・3プラン）です。月会費を抑えてお見合い・交際ごとに払うか、その逆かを選べる構造です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績</strong>：成婚率60%以上・1年以内成婚率70%以上（<strong>自社公称</strong>・定義＝成婚退会者数÷全退会者数、うち1年以内成婚の割合・2010年〜2026年1月実績）、成婚500組以上（2010年1月〜2026年10月の実績）、最短成婚44日と公表されています。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：お見合い料が都度かかるため活動量で総額が変動します。第三者の口コミ一次情報は少なく、判断は無料相談での確認が中心になります（見極めのポイントは本文で解説しています）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ268件（平均4.8）では、カウンセラーの親身さ・丁寧さに触れた投稿が96件、成婚の報告が72件です。星1は8件で、担当者の対応への不満が中心です（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：お見合い料と交際成立時の手数料が都度かかるため、活動量で総額が変動します。成婚以外の理由で契約期間内に退会する場合は、中途解約費が発生する場合があります（公式FAQ）。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・成婚実績は2026年10月21日、紹介可能会員数は2026年10月14日に公式サイトで確認した公表情報（税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月21日（10月25日に再確認・変更なし）、成婚実績は2026年10月21日、紹介可能会員数は2026年10月14日に公式サイトで確認した公表情報（税込）にもとづきます。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
 
         <A8Banner ad="tulip" />
@@ -265,20 +281,78 @@ export default function BridalTulipReview() {
 
         <ReviewVoices
           name="ブライダルチューリップ"
-          checkedOn="2026年10月21日"
+          checkedOn="2026年10月25日"
           reviewNote="Googleマップの「Bridalチューリップ」（高田馬場）には口コミ113件・評価4.6がありました（当サイトが2026年8月18日に取得）。公式サイトの料金（Aプラン入会金105,000円・月会費7,550円・お見合い費8,800円/件・成婚料180,000円など）と、IBJ約10.5万名・SCRUM約6.7万名・CONNECT-ship約2.1万名（2026年1月時点）の紹介可能会員数は2026年10月14日に再確認し、7月時点から変更はありませんでした。料金表は2026年10月21日にも公式サイトで再確認し、交際成立時の手数料を反映しています。"
         />
+
+
+        <section id="review-themes" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">ブライダルチューリップのIBJ口コミ268件のテーマ別集計（2026年10月25日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            ブライダルチューリップの口コミが最も多く掲載されている媒体は、IBJ公式サイトの相談所ページです。当サイトでは掲載中の268件（全27ページ）を全件確認し、本文に各テーマの語句を含む投稿の件数を数えました。1件に複数のテーマが含まれる場合は、それぞれで数えています。本文のない投稿13件を除く255件が集計対象です。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">テーマ</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">カウンセラーの親身さ・丁寧さ</td><td className="px-4 py-3">96件</td><td className="px-4 py-3">担当カウンセラーの相談対応や励ましに触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">成婚の報告</td><td className="px-4 py-3">72件</td><td className="px-4 py-3">成婚退会した、または成婚予定であるという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">お見合い・交際中の助言</td><td className="px-4 py-3">36件</td><td className="px-4 py-3">お見合いや交際の進め方への助言に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">料金</td><td className="px-4 py-3">12件</td><td className="px-4 py-3">料金の安さ・良心的な価格に触れた投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">他社と比較して選んだ</td><td className="px-4 py-3">12件</td><td className="px-4 py-3">複数の相談所を比較した、または他の婚活方法から移ったという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">強引な勧誘・押し付けがない</td><td className="px-4 py-3">11件</td><td className="px-4 py-3">入会前のカウンセリングで強引な勧誘がなかったという投稿</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">返信・オンライン</td><td className="px-4 py-3">7件・5件</td><td className="px-4 py-3">返信の早さやオンライン対応に触れた投稿は少数です</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">星1の投稿</td><td className="px-4 py-3">8件</td><td className="px-4 py-3">本文のある6件の内訳：担当者の対応・回答の質への不満 3件／写真変更後に半年間お見合いが組めなかった 1件／無料カウンセリングが営業中心だった 1件／断った後の勧誘電話 1件。本文のある6件はいずれも「2年前」〜「9年前」の表示です</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：<a href="https://www.ibjapan.com/area/tokyo/80557/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト Bridalチューリップのクチコミ一覧</a>（2026年10月25日に全27ページを確認）。分類は当サイトによる語句の集計で、口コミの本文は転載していません。</li>
+            <li>※投稿時期は相対表記のみで、直近1年以内（「〇ヵ月前」以内の表示）の投稿は57件（星5が56件・星1が1件）、残る211件は「1年前」〜「9年前」の表示です（最多は「3年前」の60件）。</li>
+            <li>※本文が完全に一致する投稿が10組（21件）あり、上の件数はそれらを含めて数えています。口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。</li>
+          </ul>
+
+          <h3 className="font-medium text-[#A08447] mt-8 mb-3 tracking-wider">公式「お客様の声」205件の内訳（2026年10月25日確認）</h3>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">項目</th>
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">集計結果</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 whitespace-nowrap">性別</td><td className="px-4 py-3">男性130件・女性75件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 whitespace-nowrap">年代</td><td className="px-4 py-3">20代13件・30代120件・40代65件・50代6件・60代1件（40代以上は72件で全体の約35%）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 whitespace-nowrap">性別×年代の上位</td><td className="px-4 py-3">30代男性70件・30代女性50件・40代男性48件・40代女性17件</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 whitespace-nowrap">成婚年月</td><td className="px-4 py-3">2020年3月〜2026年7月（2025年10月以降の成婚は21件）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed">
+            <li>※出典：Bridalチューリップ公式サイト「お客様の声」（成婚者の性別・年代・成婚年月の表記を当サイトで集計）。運営会社が掲載するもののため、不満の声は含まれません。公式トップでは、2026年7月7日に累計成婚者数が500組（1,000名）に達したと告知されています。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mt-4">
+            IBJの口コミは星5が9割を占め、担当者の伴走を評価する声が中心です。一方、低評価の投稿は担当者の対応の質に集中しており、公式が担当者変更制度・サブカウンセラー制度を設けている理由とも重なります。公式の成婚者の声では40代以上が約35%を占めており、42歳以上プラン（専属のベテランカウンセラーが担当）の対象年代での成婚事例も一定数掲載されています。
+          </p>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">口コミ・評判の状況と見極め方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            当サイトの調査（2026年7月時点）では、ブライダルチューリップについて<strong>出典を確認できる口コミの一次情報は確認できませんでした</strong>（2026年10月14日に、Googleマップの口コミ件数・評価を上に追記しています）。当サイトは実在しない口コミを作成・掲載しない方針のため、代わりに公式情報から検討時の見極めポイントを整理しています。
+            2026年7月時点の当サイト調査では出典を確認できる口コミは見つかりませんでしたが、その後の再調査で、IBJ公式サイト（268件）・Googleマップ（113件・2026年8月18日取得）・エキテン（54件）に口コミが掲載されていることを確認しました。IBJの全件の集計は前述の表をご参照ください。当サイトは実在しない口コミを作成・掲載しない方針です。以下では、公式情報から検討時の見極めポイントを整理しています。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：3連盟（IBJ・SCRUM・CONNECT-ship）加盟、料金・成婚率定義の開示、運営会社情報（株式会社ナウい・高田馬場）など、検証可能な情報は公開されています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span><span><strong>無料相談で「直近の数字」を質問する</strong>：公称成婚率は2010年からの累計実績のため、直近1年の成婚退会数・自分と近い年齢層の活動事例を具体的に聞き、回答の具体性を判断材料にします。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span><span><strong>お見合い料込みの総額を試算する</strong>：月何件お見合いする想定か、その場合の年間総額はいくらかを面談で一緒に試算してもらい、想定外の出費が生じない構造かをご確認ください。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算・休会制度・成婚の定義（どの時点で成婚料が発生するか）を必ず書面でご確認ください。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span><span><strong>契約条件を書面で確認する</strong>：中途退会時の精算（公式FAQでは、成婚以外の理由での契約期間内の退会はタイミングにより中途解約費が発生する場合があるとされています）・休会制度・成婚の定義（公式FAQではプロポーズの承諾や同居の決定など）を必ず書面でご確認ください。</span></li>
           </ul>
         </section>
 
@@ -296,7 +370,7 @@ export default function BridalTulipReview() {
           </ul>
         </section>
 
-        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月21日" />
+        <ReviewExtra {...REVIEW_EXTRA} checkedOn="2026年10月25日" />
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />
 
               <FeePosition slug="bridal-tulip" />
