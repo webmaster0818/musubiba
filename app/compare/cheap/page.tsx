@@ -12,6 +12,14 @@ const tulipMonthlyDiff = tB.monthly - tA.monthly; // 5,400円
 const tulipOmiaiDiff = tA.perOmiai - tB.perOmiai; // 2,700円
 const tulipBreakEven = tulipMonthlyDiff / tulipOmiaiDiff; // お見合いのみで比べた損益分岐（月の件数）
 
+// マリッジプロ・リングベルも PLAN_FEES（2026-10-26 公式確認）から表示する。
+const mpW = planFee("marriage-pro", "女性プラン");
+const mpM = planFee("marriage-pro", "男性プラン");
+const rbB = planFee("ringbell", "ベーシック");
+const rbH = planFee("ringbell", "ハイブリッド");
+const rbC = planFee("ringbell", "コミットメント");
+const y1 = (p: { initial: number; monthly: number }) => p.initial + p.monthly * 12;
+
 export const metadata: Metadata = {
   title: "安い結婚相談所はどこ？1年総額で24社比較【2026年10月更新】検証済み料金ランキング",
   description:
@@ -113,13 +121,13 @@ const rowsRaw: Row[] = [
     slug: "marriage-pro",
     name: "マリッジプロ",
     type: "仲人型（IBJ）",
-    initial: "80,000〜110,000円",
-    monthly: "9,000〜11,500円",
+    initial: `${fmtYen(mpW.initial)}（女性プラン）`,
+    monthly: fmtYen(mpW.monthly),
     omiai: "0円",
-    seikon: "180,000〜220,000円",
-    total1y: "188,000円〜",
-    totalSeikon: "368,000円〜",
-    note: "男性・女性・U-28・地方でプランが分かれています。総額は最も安い組み合わせ（地方プラン＋U-28成婚料）で計算しています。ご自身が該当するプランで見積もりをご確認ください。",
+    seikon: fmtYen(mpW.success),
+    total1y: fmtYen(y1(mpW)),
+    totalSeikon: fmtYen(y1(mpW) + mpW.success),
+    note: `誰でも選べる女性プラン（入会金50,000円＋登録料50,000円）を基準としています。男性プランは初期費用${fmtYen(mpM.initial)}・月会費${fmtYen(mpM.monthly)}・成婚料${fmtYen(mpM.success)}で、1年で成婚した場合は${fmtYen(y1(mpM) + mpM.success)}です。28歳以下の女性向けのU-28プラン、東京・神奈川・千葉・埼玉・愛知・大阪・京都の方とお見合いをしない方向けの地方プラン、乗換えプランなど、条件付きでより安いプランがあります。`,
   },
   {
     slug: "wellsma",
@@ -196,14 +204,14 @@ const rowsRaw: Row[] = [
   {
     slug: "ringbell",
     name: "リングベル",
-    type: "仲人型",
-    initial: "88,000円〜",
-    monthly: "13,200円〜",
-    omiai: "別途かかる場合あり",
-    seikon: "220,000円",
-    total1y: "246,400円〜",
-    totalSeikon: "466,400円〜",
-    note: "地域密着型で、1対1のサポートが手厚い相談所です。お見合い料が別途かかる場合があると公式サイトに記載されているため、活動量に応じて総額が上がる可能性があります。",
+    type: "オンライン型（IBJ）",
+    initial: `${fmtYen(rbB.initial)}（ベーシック）`,
+    monthly: fmtYen(rbB.monthly),
+    omiai: "0円",
+    seikon: fmtYen(rbB.success),
+    total1y: fmtYen(y1(rbB)),
+    totalSeikon: fmtYen(y1(rbB) + rbB.success),
+    note: `ベーシックプランを基準としています。月会費は全プラン共通で、ハイブリッドは入会金${fmtYen(rbH.initial)}・成婚料${fmtYen(rbH.success)}（1年で成婚した場合${fmtYen(y1(rbH) + rbH.success)}）、コミットメントは入会金${fmtYen(rbC.initial)}・成婚料${fmtYen(rbC.success)}（同${fmtYen(y1(rbC) + rbC.success)}）です。お見合いのたびに支払う費用はないと公式サイトに記載されています。手続きからサポートまでオンラインで完結するIBJ加盟の相談所です。`,
   },
   {
     slug: "naco-do",

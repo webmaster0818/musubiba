@@ -65,7 +65,7 @@ const breadcrumbJsonLd = {
 const relatedLinks = [
   { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）でタイプ別に見比べる" },
   { href: "/review/musbell/", label: "ムスベルの評判・料金を見る（仲人＋データ併用のハイブリッド型）" },
-  { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（仲人型・地域密着）" },
+  { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）" },
   { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（プロカウンセラー専任）" },
   { href: "/knowledge/cost/", label: "結婚相談所の料金相場・総額の目安を見る" },
   { href: "/knowledge/flow/", label: "入会から成婚までの流れ・活動期間の目安を見る" },

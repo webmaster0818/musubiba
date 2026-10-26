@@ -8,6 +8,8 @@
  * 公表が確認できなかった項目は null にして「非公表」と表示する。
  * 2026-10-23: ムスベル・ツヴァイ・オーネット・nikoブライダルを公式サイトで再確認。ムスベル・ツヴァイ・オーネットは料金改定後の値に更新。
  * オーネットの成婚料は相手により0円/220,000円に分かれるため null（順位・総額の計算から外す）。
+ * 2026-10-26: マリッジプロ（公式 prop-p.com/price/）・リングベル（公式 ringbell-marriage.com/price）を公式サイトで確認し、
+ * 未確認（—）だった月会費・初期費用・成婚料を下限値で登録。プラン別の金額は PLAN_FEES に持つ。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -52,8 +54,8 @@ export const FEES: Fee[] = [
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: 17050, initial: 252450, success: 220000, monthlyText: "月会費17,050円", initialText: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: 14300, initial: 99000, success: 220000, monthlyText: "月会費14,300円〜26,400円", initialText: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
   { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 5830, initial: 33000, success: null, monthlyText: "月会費5,830円〜17,600円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
-  { slug: "marriage-pro", name: "マリッジプロ", monthly: null, initial: null, success: 220000, monthlyText: "—", initialText: "成婚料22万円", type: "プロカウンセラー専任" },
-  { slug: "ringbell", name: "リングベル", monthly: null, initial: null, success: null, monthlyText: "—", initialText: "—", type: "仲人型・地域密着" },
+  { slug: "marriage-pro", name: "マリッジプロ", monthly: 9000, initial: 80000, success: 180000, monthlyText: "月会費9,000円〜13,000円", initialText: "入会金＋登録料80,000円〜110,000円／成婚料180,000円〜220,000円（プラン別）", type: "IBJ加盟・20代30代専門" },
+  { slug: "ringbell", name: "リングベル", monthly: 17600, initial: 55000, success: 109800, monthlyText: "月会費17,600円", initialText: "入会金55,000円〜242,000円／成婚料109,800円〜220,000円（プラン別）", type: "IBJ加盟・オンライン型" },
 ];
 
 /**
@@ -87,8 +89,8 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   "ibj-members": { date: "2026-10-24" },
   "partner-agent": { date: "2026-10-24" },
   fiore: { date: "2026-10-21" },
-  "marriage-pro": { date: "2026-08-17" },
-  ringbell: { date: "2026-06", approx: true },
+  "marriage-pro": { date: "2026-10-26" },
+  ringbell: { date: "2026-10-26" },
 };
 
 /** "2026-10-14" → "2026年10月14日"、"2026-06" → "2026年6月" */
@@ -172,6 +174,15 @@ export const PLAN_FEES: PlanFee[] = [
   { slug: "musbell", plan: "カジュアルコース", initial: 181500, monthly: 16500, perOmiai: 11000, perKosai: null, success: 330000 },
   { slug: "musbell", plan: "レギュラーコース", initial: 363000, monthly: 16500, perOmiai: 0, perKosai: null, success: 330000 },
   { slug: "musbell", plan: "エクセレントコース", initial: 484000, monthly: 17000, perOmiai: 0, perKosai: null, success: 330000 },
+  // marriage-pro: 公式「料金・サポート内容」ページ（2026-10-26確認・税込）。initial は入会金＋登録料。
+  { slug: "marriage-pro", plan: "男性プラン", initial: 110000, monthly: 13000, perOmiai: 0, perKosai: null, success: 220000 },
+  { slug: "marriage-pro", plan: "女性プラン", initial: 100000, monthly: 12000, perOmiai: 0, perKosai: null, success: 220000 },
+  { slug: "marriage-pro", plan: "U-28プラン", initial: 80000, monthly: 11000, perOmiai: 0, perKosai: null, success: 180000 },
+  { slug: "marriage-pro", plan: "地方プラン", initial: 95000, monthly: 9000, perOmiai: 0, perKosai: null, success: 220000 },
+  // ringbell: 公式「料金プラン」ページ（2026-10-26確認・税込）。お見合い料なし（公式FAQ）。
+  { slug: "ringbell", plan: "ベーシック", initial: 55000, monthly: 17600, perOmiai: 0, perKosai: null, success: 109800 },
+  { slug: "ringbell", plan: "ハイブリッド", initial: 88000, monthly: 17600, perOmiai: 0, perKosai: null, success: 220000 },
+  { slug: "ringbell", plan: "コミットメント", initial: 242000, monthly: 17600, perOmiai: 0, perKosai: null, success: 220000 },
 ];
 
 export function planFee(slug: string, plan: string): PlanFee {

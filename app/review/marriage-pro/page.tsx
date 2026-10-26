@@ -12,14 +12,14 @@ export const metadata = {
 
 const overview = {
   name: "マリッジプロ",
-  type: "仲人型（プロカウンセラー特化）",
-  members: "非公開（IBJ加盟・IBJ会員ネットワークを利用）",
+  type: "仲人型（IBJ加盟・20代30代専門）",
+  members: "自社の会員数の公表なし（IBJ加盟・IBJの会員ネットワークを利用）",
   area: "東京都新宿区西新宿8-11-10 星野ビル3階（公式サイト記載・来店またはオンライン面談随時可）",
   initialFee: "80,000〜110,000円（入会金30,000〜60,000円＋登録料50,000円・プラン別・税込／2026年10月26日公式確認）",
   monthlyFee: "9,000〜13,000円（男性13,000円／女性12,000円／U-28 11,000円／地方9,000円・税込）",
   matchingFee: "180,000〜220,000円（男性・女性・地方220,000円／U-28 180,000円・成婚退会時・税込）",
-  age: "20〜50代（中心は30代〜40代）",
-  successRate: "非公開",
+  age: "20代・30代専門（入会者の97%以上が20〜30代・公式サイト記載・2026年10月26日確認）",
+  successRate: "80.4%（2025年・成婚退会者数÷全退会者数／平均活動期間7.9ヶ月・公式サイト記載・2026年10月26日確認）",
 };
 
 const strengths = [
@@ -52,7 +52,7 @@ const cons = [
 const faqs = [
   {
     q: "マリッジプロの評判・口コミはどうですか？",
-    a: "「プロカウンセラーのサポートが手厚い」「婚活戦略を一緒に立ててくれる」「プロフィールやお見合い対策が具体的」といった良い評判がある一方、「初期費用・月会費が高め」「店舗が東京・大阪中心で地方は通いにくい」という気になる声もあります。感じ方には個人差があるため、実際の評判は無料相談で確認することをおすすめします。",
+    a: "「プロカウンセラーのサポートが手厚い」「婚活戦略を一緒に立ててくれる」「プロフィールやお見合い対策が具体的」といった良い評判がある一方、「初期費用・月会費が高め」という気になる声もあります。なお、拠点は東京・新宿の1か所で、面談は来店またはオンラインで受けられます（公式サイト記載・2026年10月26日確認）。感じ方には個人差があるため、実際の評判は無料相談で確認することをおすすめします。",
   },
   {
     q: "マリッジプロの料金は総額いくらかかりますか？",
@@ -60,11 +60,11 @@ const faqs = [
   },
   {
     q: "マリッジプロの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類、学歴証明書が必要です。",
+    a: "公式サイトでは、入会時の必要書類として、身分証明書・住民票・独身証明書・収入証明（男性は必須、女性は任意）・勤務先が確認できる書類・卒業証明書（短大卒以上の方のみ）が案内されています（公式サイト記載・2026年10月26日確認）。20代・30代専門の相談所のため、年齢などの入会条件は無料相談でご確認ください。",
   },
   {
     q: "マリッジプロのプロカウンセラーとはどのような方ですか？",
-    a: "婚活支援の専門資格を持ち、多数の成婚実績があるカウンセラーが担当します。会員の人柄や価値観を深く理解し、戦略的な婚活プランを立案・実行する専門家です。",
+    a: "公式サイトでは、会員と同世代のカウンセラーが男女のチームでサポートすると案内されています。プロフィール作成、お見合いやデートの会話のアドバイス、ファッションのアドバイスのほか、LINEでの相談に24時間365日対応しています（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "マリッジプロの無料相談では何ができますか？",
@@ -76,11 +76,11 @@ const faqs = [
   },
   {
     q: "マリッジプロはオンラインでも活動できますか？",
-    a: "カウンセリングはオンラインでも対応可能です。連盟のシステムを通じたお見合い申し込みもオンラインで行えます。お見合いは対面・オンラインの両方に対応しています。",
+    a: "面談は来店またはオンラインで随時受けられ、回数の制限はありません。お見合いの申し込みはIBJのシステム・アプリから行います（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "マリッジプロの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年程度で成婚退会される方が多い傾向です。",
+    a: "公式サイトでは、2025年の平均活動期間を7.9ヶ月（最頻値4ヶ月）と記載しています。2025年の成婚者は38名、成婚率は80.4%（成婚退会者数÷全退会者数）です（公式サイト記載・2026年10月26日確認）。期間には個人差があります。",
   },
 ];
 
@@ -123,15 +123,11 @@ export default function MarriageProReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：プロカウンセラーによる戦略的な手厚いサポートを評価する声が中心です。一方で初期費用・月会費がやや高めという声もあります。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：婚活のプロが専任で担当し、<strong>プロフィール改善・お見合い対策・婚活戦略の立案</strong>まで一貫してサポートします。連盟に加盟しているため、会員ネットワークも活用できます。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜13,000円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年10月26日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約48.6万円</strong>です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：他社で結果が出ず手厚いサポートを求める方、ご自身の課題を客観的に分析してほしい方、東京・大阪で対面サポートを受けたい方に適しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：他社で結果が出ず手厚いサポートを求める方、20代・30代で同世代のカウンセラーに相談したい方、新宿での対面またはオンラインでサポートを受けたい方に適しています。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-marriage-pro.jpg" alt="マリッジプロ 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
-        </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
@@ -251,7 +247,6 @@ export default function MarriageProReview() {
               <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
               <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
                 <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用・月会費がやや高めと感じる声</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>店舗が東京・大阪中心で地方からは通いにくいという声</li>
                 <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が非公開で出会いの規模が分かりにくいという声</li>
               </ul>
             </div>
@@ -266,7 +261,7 @@ export default function MarriageProReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
-            <li><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）</Link></li>
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>
             <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>

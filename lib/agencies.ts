@@ -125,7 +125,8 @@ export const BRAND_REVIEWS: { match: RegExp; href: string; label: string }[] = [
   { match: /IBJ ?メンバーズ|IBJ ?members/i, href: "/review/ibj-members/", label: "IBJメンバーズの詳細レビュー" },
   { match: /P!?っと縁結び|ピッと縁結び|ピット縁結び/i, href: "/review/pitto/", label: "P!っと縁結びの詳細レビュー" },
   { match: /ベルロード/i, href: "/review/bellroad/", label: "ベルロード縁結びサポートの詳細レビュー" },
-  { match: /マリッジプロ/i, href: "/review/marriage-pro/", label: "マリッジプロの詳細レビュー" },
+  // 2026-10-26: 公式名「婚活サロン marriage pro」を追加。「マリッジプロジェクト」「マリッジプロポーザル」等の別ブランドは除く。
+  { match: /マリッジプロ(?![ジポ])|marriage ?pro(?![a-z])/i, href: "/review/marriage-pro/", label: "マリッジプロの詳細レビュー" },
   { match: /ナコード|naco-?do/i, href: "/review/naco-do/", label: "naco-doの詳細レビュー" },
   { match: /スマリッジ/i, href: "/review/smartread/", label: "スマリッジの詳細レビュー" },
   // 2026-10-14 追加: 提携先の店舗ページからレビューへ導線を張るため

@@ -34,8 +34,8 @@ const agencies: Agency[] = [
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: "月会費17,050円", initial: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: "月会費14,300円〜26,400円", initial: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
   { slug: "fiore", name: "FIORE（フィオーレ）", monthly: "月会費5,830円〜17,600円", initial: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索（成婚率52.0%・自社発表）" },
-  { slug: "marriage-pro", name: "マリッジプロ", monthly: "—", initial: "成婚料22万円", type: "プロカウンセラー専任" },
-  { slug: "ringbell", name: "リングベル", monthly: "—", initial: "—", type: "仲人型・地域密着" },
+  { slug: "marriage-pro", name: "マリッジプロ", monthly: "月会費9,000円〜13,000円", initial: "入会金＋登録料80,000円〜110,000円／成婚料180,000円〜220,000円（プラン別）", type: "IBJ加盟・20代30代専門" },
+  { slug: "ringbell", name: "リングベル", monthly: "月会費17,600円", initial: "入会金55,000円〜242,000円／成婚料109,800円〜220,000円（プラン別）", type: "IBJ加盟・オンライン型" },
 ];
 
 
@@ -137,7 +137,7 @@ export default function ComparePage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-rose-700 underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/review/musbell/" className="text-rose-700 underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
-            <li><Link href="/review/ringbell/" className="text-rose-700 underline">リングベルの評判・料金を見る（仲人型・地域密着）</Link></li>
+            <li><Link href="/review/ringbell/" className="text-rose-700 underline">リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）</Link></li>
             <li><Link href="/review/marriage-pro/" className="text-rose-700 underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
           </ul>
         </section>

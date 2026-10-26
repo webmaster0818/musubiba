@@ -1,48 +1,59 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { FEE_CHECKED, jpDate, planFee, yen, type PlanFee } from "@/data/fees";
+
+// 料金は共通データ data/fees.ts（PLAN_FEES・FEE_CHECKED）から計算する。金額をこのページに直書きしない。
+// 2026-10-26: リングベルを公式サイト（ringbell-marriage.com）で確認し、旧調査値（月会費13,200円〜・入会金88,000円〜・成婚料220,000円・仲人型/地域密着）を公式の記載に置き換え。
+const mC = planFee("musbell", "カジュアルコース");
+const rB = planFee("ringbell", "ベーシック");
+const rH = planFee("ringbell", "ハイブリッド");
+const rC = planFee("ringbell", "コミットメント");
+const y1 = (p: PlanFee) => p.initial + p.monthly * 12;
+const musbellChecked = jpDate(FEE_CHECKED["musbell"].date);
+const ringbellChecked = jpDate(FEE_CHECKED["ringbell"].date);
 
 export const metadata: Metadata = {
   title: "ムスベルとリングベルの比較【2026年】料金総額・対象年代・特徴の違い",
   description:
-    "ムスベルとリングベルを、月会費・初期費用・成婚料・総額目安・対象年代・タイプの観点から中立的に比較しています。全国・複数連盟加盟のムスベルと、仲人型・地域密着のリングベルのどちらがご自身に合うかを、公表料金にもとづいて整理しています（最新の料金・条件は各公式サイトおよび無料相談でご確認ください）。",
+    "ムスベルとリングベルを、月会費・初期費用・成婚料・総額目安・対象年代・タイプの観点から中立的に比較しています。全国に拠点がある複数連盟加盟のムスベルと、IBJ加盟のオンライン結婚相談所リングベルの違いを、各公式サイトで確認した料金にもとづいて整理しています。",
   alternates: { canonical: "/compare/musbell-vs-ringbell/" },
 };
 
-// 料金は当サイト各レビューの調査・公表値（2026年時点）。最新・正確な料金は各公式サイトでご確認ください。
 type Row = { item: string; musbell: string; ringbell: string };
 const rows: Row[] = [
-  { item: "タイプ", musbell: "ハイブリッド型（仲人＋データマッチング）", ringbell: "仲人型（地域密着）" },
-  { item: "対応エリア", musbell: "全国対応（拠点数は公式サイト参照）", ringbell: "関東・関西を中心に展開" },
-  { item: "会員数", musbell: "94,763人（JBU・BIU・IBJ・TMSの4連盟・公式掲載の2024年10月時点の値）", ringbell: "非公開" },
-  { item: "初期費用", musbell: "181,500円〜（初期費用33,000円＋入会金148,500円・カジュアルコース）", ringbell: "88,000円〜" },
-  { item: "月会費", musbell: "16,500円〜（エクセレントコースは17,000円）", ringbell: "13,200円〜" },
-  { item: "成婚料", musbell: "330,000円（成婚退会時・全コース共通）", ringbell: "220,000円（成婚退会時）" },
-  { item: "対象年代", musbell: "20〜60代（中心は30代〜40代）", ringbell: "20〜50代（中心は30代〜40代）" },
-  { item: "成婚率", musbell: "非公開", ringbell: "非公開" },
+  { item: "タイプ", musbell: "ハイブリッド型（仲人＋データマッチング）", ringbell: "IBJ加盟のオンライン結婚相談所（担当コンシェルジュ制）" },
+  { item: "対応エリア", musbell: "全国対応（拠点数は公式サイト参照）", ringbell: "全国（手続きからサポートまでオンラインで完結）" },
+  { item: "会員数", musbell: "94,763人（JBU・BIU・IBJ・TMSの4連盟・公式掲載の2024年10月時点の値）", ringbell: "IBJの会員111,160名（2026年9月末時点・公式記載）。他連盟はオプションで追加可能" },
+  { item: "初期費用", musbell: `${yen(mC.initial)}〜（初期費用33,000円＋入会金148,500円・カジュアルコース）`, ringbell: `入会金${yen(rB.initial)}（ベーシック）／${yen(rH.initial)}（ハイブリッド）／${yen(rC.initial)}（コミットメント）` },
+  { item: "月会費", musbell: "16,500円〜（エクセレントコースは17,000円）", ringbell: `${yen(rB.monthly)}（全プラン共通）` },
+  { item: "お見合い料", musbell: "カジュアルコースは11,000円/回（他コースは無料）", ringbell: "なし（公式記載）" },
+  { item: "成婚料", musbell: `${yen(mC.success)}（成婚退会時・全コース共通）`, ringbell: `${yen(rB.success)}（ベーシック）／${yen(rH.success)}（ハイブリッド・コミットメント）` },
+  { item: "対象年代", musbell: "20〜60代（中心は30代〜40代）", ringbell: "入会資格は男性20〜44歳・女性20〜39歳（男性は年収500万円以上）" },
+  { item: "成婚率", musbell: "非公開", ringbell: "54.8%（担当コンシェルジュが付くIBJ系プランの入会者のうち、2026年8月時点までの退会者に占める成婚退会者の割合・自社集計）" },
 ];
 
 const totals = [
-  { label: "1年活動の総額目安（成婚なし）", musbell: "約379,500円〜", ringbell: "約246,400円〜" },
-  { label: "1年で成婚した場合の総額目安", musbell: "約709,500円〜", ringbell: "約466,400円〜" },
+  { label: "1年活動の総額目安（成婚なし）", musbell: `約${yen(y1(mC))}〜`, ringbell: `約${yen(y1(rB))}（ベーシック）／約${yen(y1(rH))}（ハイブリッド）／約${yen(y1(rC))}（コミットメント）` },
+  { label: "1年で成婚した場合の総額目安", musbell: `約${yen(y1(mC) + mC.success)}〜`, ringbell: `約${yen(y1(rB) + rB.success)}（ベーシック）／約${yen(y1(rH) + rH.success)}（ハイブリッド）／約${yen(y1(rC) + rC.success)}（コミットメント）` },
 ];
 
 const faqs = [
   {
     q: "ムスベルとリングベルでは、料金が安くなるのはどちらですか？",
-    a: "公表料金ベースでは、リングベルのほうが安くなる目安です。入会時費用はムスベル181,500円〜（カジュアルコース）・リングベル88,000円〜、月会費はムスベル16,500円〜・リングベル13,200円〜、成婚料はムスベル330,000円・リングベル220,000円で、いずれもリングベルが低めです（1年で成婚した場合：ムスベル約709,500円〜、リングベル約466,400円〜）。ムスベルの料金は2026年10月23日に公式サイトで確認した値です。リングベルの料金は当サイトの調査値のため、各社の無料相談でご確認ください。",
+    a: `各公式サイトの料金では、リングベルのベーシック・ハイブリッドプランのほうが安くなる目安です。1年で成婚した場合の総額は、ムスベル（カジュアルコース）が約${yen(y1(mC) + mC.success)}〜、リングベルがベーシック約${yen(y1(rB) + rB.success)}・ハイブリッド約${yen(y1(rH) + rH.success)}・コミットメント約${yen(y1(rC) + rC.success)}です。ただし、リングベルのコミットメントプランは入会金が${yen(rC.initial)}のため、成婚しないまま1年活動した場合の総額（約${yen(y1(rC))}）はムスベルのカジュアルコース（約${yen(y1(mC))}〜・お見合い料を除く）を上回ります。ムスベルのカジュアルコースはお見合い1回ごとに11,000円がかかり、リングベルはお見合い料がかかりません。料金はムスベルが${musbellChecked}、リングベルが${ringbellChecked}に公式サイトで確認した値です。`,
   },
   {
     q: "会員数（出会いの多さ）で選ぶ場合、どちらが適していますか？",
-    a: "出会いの母数を重視する方には、複数の連盟に加盟し、各連盟の会員基盤を利用できるムスベルが適しています（公式サイトではJBU・BIU・IBJ・TMSの4連盟が利用でき、会員数94,763人と掲載・2024年10月時点の値）。リングベルは会員数を非公開としており、数より質・地域密着の紹介を重視するスタイルです。",
+    a: "ムスベルは公式サイトでJBU・BIU・IBJ・TMSの4連盟が利用でき、会員数94,763人と掲載しています（2024年10月時点の値）。リングベルはIBJの会員111,160名（2026年9月末時点）と出会えると公式サイトに記載しており、IBJ以外の連盟もオプションで追加できます。両社の数値は時点と集計範囲が異なるため、ご自身の条件に合う会員数は各社の無料相談でご確認ください。",
   },
   {
     q: "地方在住でも利用しやすいのはどちらですか？",
-    a: "全国に拠点を展開するムスベルは地方在住の方でも対面サポートを受けやすいのが特徴です。リングベルは関東・関西を中心とした展開のため、エリア外の方は対応可否を無料相談で確認することをおすすめします。",
+    a: "ムスベルは全国に拠点を展開しており、対面でのサポートを受けやすい相談所です。リングベルは入会手続きからサポートまでオンラインで完結し、お住まいの地域を問わず利用できると公式サイトに記載しています（お見合いは基本的に対面で、双方が合意すればオンラインでも実施できます）。対面での面談を重視する場合はムスベル、来店せずに活動したい場合はリングベルが適しています。",
   },
   {
     q: "最終的にどちらを選べばよいですか？",
-    a: "出会いの多さ・全国対応・仲人とデータ検索の併用を重視する方にはムスベル、数より質を重視した仲人サポート・地元での出会い・成婚時の総額の抑えやすさを重視する方にはリングベルが適しています。どちらも無料相談で総額の見積もりと担当者との相性を確認したうえで決めることをおすすめします。",
+    a: "複数連盟の会員から探したい方、対面での仲人サポートを受けたい方、40代後半以降の方にはムスベルが適しています。リングベルの入会資格は男性20〜44歳・女性20〜39歳（男性は年収500万円以上）です。この条件に当てはまり、オンラインで活動したい方、総額を抑えたい方にはリングベルが適しています。どちらも無料相談で総額の見積もりと担当者との相性を確認したうえで決めることをおすすめします。",
   },
 ];
 
@@ -67,10 +78,10 @@ export default function MusbellVsRingbellPage() {
           ムスベルとリングベルを比較【2026年】
         </h1>
         <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-          仲人サポートのある<strong>ムスベル</strong>（全国・複数連盟加盟のハイブリッド型）と<strong>リングベル</strong>（仲人型・地域密着）を、料金総額・対象年代・特徴の観点から中立的に比較しています。出会いの多さで選ぶか、数より質・地元での出会いで選ぶかで、向き不向きが分かれます。
+          <strong>ムスベル</strong>（全国に拠点がある複数連盟加盟のハイブリッド型）と<strong>リングベル</strong>（IBJ加盟のオンライン結婚相談所）を、料金総額・対象年代・特徴の観点から中立的に比較しています。対面での仲人サポートを重視するか、オンラインでの活動と総額の抑えやすさを重視するかで、向き不向きが分かれます。
         </p>
         <p className="text-xs text-[#2C2C2C]/50 mb-8">
-          ※料金はムスベルが2026年10月23日に公式サイトで確認した値（税込）、リングベルが当サイトの調査値です。初期費用・お見合い料・成婚料・最新料金はプラン・連盟・拠点により異なるため、各公式サイトおよび無料相談で必ずご確認ください。
+          ※料金はムスベルが{musbellChecked}、リングベルが{ringbellChecked}に各公式サイトで確認した値（税込）です。最新の料金・条件は、各公式サイトおよび無料相談でご確認ください。
         </p>
 
         <section className="mb-10">
@@ -120,7 +131,7 @@ export default function MusbellVsRingbellPage() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※総額は「初期費用＋月会費×12ヶ月＋成婚料」で試算した公表料金ベースの目安です。お見合い料などが別途かかる場合があり、プラン・連盟・拠点により変動します。ムスベルの金額は2026年10月23日の公式確認値（カジュアルコース基準・お見合い料11,000円/回は別）です。入会時費用・月会費・成婚料のいずれもリングベルが低めで、成婚まで進んだ場合の総額もリングベルのほうが抑えやすい目安です。
+            ※総額は「初期費用＋月会費×12ヶ月＋成婚料」で試算した目安です。ムスベルはカジュアルコース基準で、お見合い料11,000円/回は含みません。リングベルはお見合い料がかかりません（お見合い時の飲食代・交通費は実費）。成婚まで進んだ場合はリングベルのどのプランもムスベルより総額が低くなります。成婚しないまま1年活動した場合は、リングベルのコミットメントプランがムスベルのカジュアルコースを上回ります。
           </p>
         </section>
 
@@ -128,7 +139,7 @@ export default function MusbellVsRingbellPage() {
           <div className="bg-white rounded-xl border border-gray-100 p-6">
             <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">ムスベルが向いている方</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>出会いの母数・選択肢の多さを重視したい</li>
+              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>複数の連盟の会員から相手を探したい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>地方在住で全国対応・対面サポートを受けたい</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>仲人の紹介とデータ検索を併用したい</li>
             </ul>
@@ -137,8 +148,8 @@ export default function MusbellVsRingbellPage() {
           <div className="bg-white rounded-xl border border-gray-100 p-6">
             <h2 className="text-lg font-medium text-[#A08447] mb-3 tracking-wider">リングベルが向いている方</h2>
             <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>数より質の仲人サポートを重視したい</li>
-              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>関東・関西で地元の出会いを探したい</li>
+              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>来店せずにオンラインで活動したい</li>
+              <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>入会資格（男性20〜44歳・女性20〜39歳）に当てはまる</li>
               <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>成婚まで進んだ場合の総額を抑えたい</li>
             </ul>
             <p className="mt-4 text-sm"><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を詳しく見る</Link></p>

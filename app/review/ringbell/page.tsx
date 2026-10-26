@@ -12,47 +12,47 @@ export const metadata = {
 
 const overview = {
   name: "リングベル",
-  type: "仲人型（地域密着）",
-  members: "非公開",
-  area: "関東・関西を中心に展開",
+  type: "IBJ加盟のオンライン結婚相談所（担当コンシェルジュ制）",
+  members: "自社の会員数の公表なし（IBJの会員111,160名〔2026年9月末時点〕と出会えると公式サイトに記載）",
+  area: "全国（入会手続きからサポートまでオンラインで完結／本社 大阪市中央区・東京オフィス 港区浜松町）",
   initialFee: "55,000〜242,000円（入会金・ベーシック55,000円／ハイブリッド88,000円／コミットメント242,000円・税込／2026年10月26日公式確認）",
   monthlyFee: "17,600円（全プラン共通・税込）",
   matchingFee: "109,800〜220,000円（ベーシック109,800円／ハイブリッド・コミットメント220,000円・成婚退会時・税込）",
-  age: "20〜50代（中心は30代〜40代）",
-  successRate: "非公開",
+  age: "入会資格は男性20〜44歳・女性20〜39歳（男性は年収500万円以上）",
+  successRate: "54.8%（担当コンシェルジュが付くIBJ系プランの入会者のうち、2026年8月時点までの退会者に占める成婚退会者の割合・全期間累計・自社集計）",
 };
 
 const strengths = [
   {
-    title: "仲人による手厚い1対1サポート",
-    desc: "専任の仲人が入会から成婚まで一貫してサポートします。お相手の紹介だけでなく、デートのアドバイスや交際中のフォローなど、きめ細かい支援を受けられる点が特徴です。",
+    title: "入会手続きからサポートまでオンラインで完結",
+    desc: "公式サイトでは、入会手続きからサポートまでオンラインで完結し、お住まいの地域を問わず利用できると案内されています。お見合いは基本的に対面で行い、お相手と双方が合意すればオンラインでも実施できます（公式サイト記載・2026年10月26日確認）。",
   },
   {
-    title: "地域密着で地元の出会いに強い",
-    desc: "地域に根ざした運営を行っており、地元での出会いを重視する方に適しています。地域のネットワークを活かした紹介が可能で、生活圏が近いお相手と出会いやすい環境が整っています。",
+    title: "IBJ正規加盟で、他の連盟もオプションで追加可能",
+    desc: "IBJの会員111,160名（2026年9月末時点）から希望条件で相手を検索できます。お見合いの申し込みは全プラン月100件までで、IBJ以外の連盟もオプションで追加できます（公式サイト記載・2026年10月26日確認）。",
   },
   {
-    title: "会員一人ひとりに合わせた丁寧なカウンセリング",
-    desc: "大手のように画一的なマッチングではなく、仲人が会員の人柄や価値観を深く理解したうえで紹介を行います。数よりも質を重視した出会いを提供しています。",
+    title: "担当コンシェルジュへのLINE相談は全プラン無制限",
+    desc: "活動中の相談は、担当コンシェルジュにLINEで回数の制限なく行えます。面談の頻度はベーシックが2〜3ヶ月に1回程度、ハイブリッドとコミットメントが月1回で、ハイブリッド以上は成婚に向けた婚活プラン設計が含まれます（公式サイト記載・2026年10月26日確認）。",
   },
 ];
 
 const pros = [
-  "専任仲人による手厚い個別サポート",
-  "地域密着で地元の出会いに強い",
-  "質を重視した丁寧な紹介スタイル",
+  "入会手続きからサポートまでオンラインで完結し、地域を問わず利用できる",
+  "担当コンシェルジュへのLINE相談が全プランで無制限",
+  "お見合い料がかからず、ベーシックプランは成婚料109,800円",
 ];
 
 const cons = [
-  "会員数が大手と比べると少ない",
-  "展開エリアが限定的",
+  "入会資格に年齢の上限（男性44歳・女性39歳）と、男性の年収条件（500万円以上）がある",
+  "月会費は全プランとも17,600円で、月会費が1万円前後の相談所と比べると毎月の負担は大きい",
   "成婚料はハイブリッド・コミットメントプランで22万円",
 ];
 
 const faqs = [
   {
     q: "リングベル（結婚相談所）の評判・口コミはどうですか？",
-    a: "「仲人が親身で1対1のサポートが手厚い」「地域密着で生活圏が近い相手を紹介してもらえる」「数より質の紹介で精度が高い」といった良い評判が中心です。一方で「成婚料がやや高め」「大手より会員数・紹介人数は少なめ」「仲人との相性に左右される」という気になる声もあります。感じ方には個人差があるため、実際の評判は無料相談で確認することをおすすめします。",
+    a: "当サイトが2026年10月26日に確認した範囲では、第三者サイトに掲載されているリングベルの利用者の口コミは、オリコン顧客満足度の結婚相談所ページの1件（20代女性・接客やサービスに満足したという内容）です。件数が少ないため、傾向としての評価は控えています。公式サイトには成婚者の声が掲載されています。",
   },
   {
     q: "リングベルの料金は総額いくらかかりますか？",
@@ -60,27 +60,27 @@ const faqs = [
   },
   {
     q: "リングベルの入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は安定した収入があることが条件です。入会時には独身証明書、収入証明書、本人確認書類が必要です。",
+    a: "公式サイトでは、独身の方（独身証明書の提出が全員必須）、男性は満20歳以上44歳以下・女性は満20歳以上39歳以下、男性は年収500万円以上かつ安定した職業の方を入会資格としており、入会時に審査があります（公式サイト記載・2026年10月26日確認）。必要書類は身分証明書・独身証明書・住民票のほか、男性は収入証明書が必須です。",
   },
   {
-    q: "リングベルの仲人型とはどのようなサービスですか？",
-    a: "専任の仲人が会員一人ひとりの人柄や希望条件を深く理解し、相性の良いお相手を紹介するスタイルです。データマッチングとは異なり、人の目で判断した質の高い紹介が特徴です。",
+    q: "リングベルの「オンライン結婚相談所」とはどのようなサービスですか？",
+    a: "契約などの手続きや担当コンシェルジュのサポートをオンライン（LINE・オンライン面談）で受ける形式です。お相手はIBJのアプリで検索して申し込むほか、お気に入り紹介やAIによる自社マッチングもあります。お見合いやデートは基本的に対面で行います（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "リングベルの無料相談では何ができますか？",
-    a: "無料相談では、仲人との面談、サービス内容の説明、料金プランの案内、婚活に関するアドバイスが受けられます。入会を強制されることはありません。",
+    a: "無料相談はオンラインで60分程度行われ、サービス内容や料金プラン、ご自身に合うプランの説明を受けられます（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "リングベルの退会方法を教えてください",
-    a: "担当仲人に退会の意思を伝え、所定の手続きを行います。成婚退会の場合はプランに応じた成婚料（109,800円または220,000円）が発生します。中途退会の場合、契約内容に応じた精算が行われます。",
+    a: "担当コンシェルジュに退会の意思を伝え、所定の手続きを行います。成婚退会の場合はプランに応じた成婚料（109,800円または220,000円）が発生します。中途退会の場合、契約内容に応じた精算が行われます。",
   },
   {
     q: "リングベルはオンラインでも活動できますか？",
-    a: "基本的には対面でのカウンセリング・紹介が中心ですが、遠方の方向けにオンラインカウンセリングにも対応しています。お見合いは対面が推奨されています。",
+    a: "はい。入会手続きからサポートまでオンラインで完結します。お見合いは基本的に対面ですが、お相手と双方が合意すればオンラインでも行え、日程調整やZoomの設定はコンシェルジュが行います（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "リングベルの成婚退会までの平均期間はどのくらいですか？",
-    a: "個人差がありますが、活動開始から6ヶ月〜1年半程度で成婚退会される方が多い傾向です。仲人が丁寧にサポートするため、じっくり活動される方にも向いています。",
+    a: "公式サイトでは、成婚までの期間を平均6.7ヶ月、成婚した方の89.5%が入会から1年以内に成婚していると記載しています（公式サイト記載・2026年10月26日確認）。いずれも自社集計の値で、期間には個人差があります。",
   },
 ];
 
@@ -122,10 +122,10 @@ export default function RingbellReview() {
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />リングベルが適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：仲人による1対1の手厚いサポートと、地域密着で生活圏が近い相手と出会いやすい点を評価する声が中心です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ加盟のオンライン結婚相談所で、入会手続きからサポートまでオンラインで完結します。担当コンシェルジュへのLINE相談は全プラン無制限です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会金55,000円〜＋月会費17,600円＋成婚料109,800円〜です（プラン別・2026年10月26日公式確認）。ベーシックプランで1年で成婚した場合の総額目安は<strong>約376,000円</strong>です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：成婚料がやや高めで、大手と比べると会員数・展開エリアは限定的です。総額は事前に確認しておくことが大切です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：数より質を重視したい方、地元で結婚相手を探したい方、仲人による手厚いサポートを希望する方です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：入会資格は男性20〜44歳・女性20〜39歳で、男性は年収500万円以上が条件です。月会費は全プラン17,600円です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：来店せずにオンラインで活動したい方、お住まいの地域を問わずIBJの会員から相手を探したい方、お見合い料をかけずに活動したい方です。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
         </div>
@@ -206,9 +206,9 @@ export default function RingbellReview() {
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">17,600円</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">18,700円〜</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td><td className="px-4 py-3 text-center">137,500円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td><td className="px-4 py-3 text-center">約2.9万人</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">地域密着</td><td className="px-4 py-3 text-center">お見合い代行</td><td className="px-4 py-3 text-center">成婚率27%</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">111,160名（IBJ・2026年9月末）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td><td className="px-4 py-3 text-center">約2.9万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン型（IBJ加盟）</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">オンライン完結</td><td className="px-4 py-3 text-center">お見合い代行</td><td className="px-4 py-3 text-center">成婚率27%</td></tr>
               </tbody>
             </table>
           </div>
@@ -237,33 +237,15 @@ export default function RingbellReview() {
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルの口コミ・評判の傾向</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「リングベル 結婚相談所 口コミ」で調べる方向けに、評判の傾向を実情報をもとに整理しています（個々の体験には差があります）。
+            当サイトが2026年10月26日に確認した範囲では、第三者サイトに掲載されているリングベルの利用者の口コミは、オリコン顧客満足度の結婚相談所ページの1件（20代女性・接客やサービスに満足したという内容）です。件数が少ないため、良い評判・気になる評判の傾向としての整理は控えています。公式サイトには成婚者の声（インタビュー）が掲載されています。
           </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <p className="font-medium text-[#A08447] mb-2">良い評判の傾向</p>
-              <ul className="text-sm text-[#2C2C2C]/70 space-y-1 list-disc pl-4">
-                <li>仲人による1対1の手厚いサポートが心強いという声</li>
-                <li>地域密着で、生活圏が近い相手と出会いやすいという声</li>
-                <li>大手より紹介人数は少ないが、マッチング精度が高いと感じる声</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-xl border border-gray-100 p-5">
-              <p className="font-medium text-[#B0795F] mb-2">気になる評判の傾向</p>
-              <ul className="text-sm text-[#2C2C2C]/70 space-y-1 list-disc pl-4">
-                <li>成婚料22万円とやや高めという声（総額の事前確認が必要）</li>
-                <li>大手と比べると紹介人数・会員数は少なめという声</li>
-                <li>仲人との相性に左右されやすいという声（無料相談での見極めが重要）</li>
-              </ul>
-            </div>
-          </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-3">※料金等は2026年時点の調査値です。最新の条件は公式サイト・無料相談でご確認ください。当サイトでは口コミの創作は行っていません。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-3">※当サイトでは口コミの創作は行っていません。最新の条件は公式サイト・無料相談でご確認ください。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">リングベルと他社を比較して選ぶ</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            仲人型は相談所ごとに料金総額や対象エリアが異なります。リングベルがご自身に合うかどうか、他社と比較して検討することをおすすめします。
+            結婚相談所は、料金総額やサポートの形式（対面・オンライン）が相談所ごとに異なります。リングベルがご自身に合うかどうか、他社と比較して検討することをおすすめします。
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-[#A08447] underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
@@ -307,7 +289,7 @@ export default function RingbellReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">リングベルの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">仲人との無料面談で、サービス内容をご確認いただけます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">オンラインの無料相談で、サービス内容と料金プランをご確認いただけます</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 
