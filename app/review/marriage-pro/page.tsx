@@ -7,17 +7,17 @@ import FlowGuide from "@/components/FlowGuide";
 export const metadata = {
   title: "マリッジプロの評判・口コミ・料金｜プロカウンセラーによるサポートを解説【2026年】",
   description:
-    "マリッジプロの評判・口コミ・料金を解説しています。月会費9,000〜11,500円・成婚料180,000〜220,000円（プラン別・2026年8月公式確認）、お見合い料無料・申込100件/月の料金体系、プロカウンセラーによる戦略的なサポート、適している方について、中立的な立場で整理しています。",
+    "マリッジプロの評判・口コミ・料金を解説しています。月会費9,000〜13,000円・成婚料180,000〜220,000円（プラン別・2026年10月26日公式確認）、お見合い料無料・申込100件/月の料金体系、プロカウンセラーによる戦略的なサポート、適している方について、中立的な立場で整理しています。",
 };
 
 const overview = {
   name: "マリッジプロ",
   type: "仲人型（プロカウンセラー特化）",
   members: "非公開（IBJ加盟・IBJ会員ネットワークを利用）",
-  area: "東京都新宿区西新宿8-11-10（公式サイト記載・来店またはオンライン面談随時可）",
-  initialFee: "80,000〜110,000円（入会金30,000〜60,000円＋登録料50,000円・プラン別・税込／2026年8月17日公式確認）",
-  monthlyFee: "9,000〜11,500円（男性11,500円／女性11,000円／U-28 10,500円／地方9,000円・税込）",
-  matchingFee: "180,000〜220,000円（男性220,000円／女性200,000円／U-28 180,000円・成婚退会時・税込）",
+  area: "東京都新宿区西新宿8-11-10 星野ビル3階（公式サイト記載・来店またはオンライン面談随時可）",
+  initialFee: "80,000〜110,000円（入会金30,000〜60,000円＋登録料50,000円・プラン別・税込／2026年10月26日公式確認）",
+  monthlyFee: "9,000〜13,000円（男性13,000円／女性12,000円／U-28 11,000円／地方9,000円・税込）",
+  matchingFee: "180,000〜220,000円（男性・女性・地方220,000円／U-28 180,000円・成婚退会時・税込）",
   age: "20〜50代（中心は30代〜40代）",
   successRate: "非公開",
 };
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "マリッジプロの料金は総額いくらかかりますか？",
-    a: "公式サイトの料金（税込・2026年8月17日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費11,500円＋成婚料220,000円です（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約468,000円です。女性プランは初期費用100,000円＋月会費11,000円＋成婚料200,000円（同・約432,000円）、U-28（28歳以下女性）・地方プラン・ひとり親限定プランはさらに費用を抑えられます。ご利用前に、公式サイトにて最新の料金をご確認ください。",
+    a: "公式サイトの料金（税込・2026年10月26日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費13,000円＋成婚料220,000円です（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約486,000円です。女性プランは初期費用100,000円＋月会費12,000円＋成婚料220,000円（同・約464,000円）です。U-28（28歳以下女性）・地方プラン・ひとり親限定プランのほか、1年以内にIBJ日本結婚相談所連盟に所属していた方を対象とした乗換えプランも用意されています。ご利用前に、公式サイトにて最新の料金をご確認ください。",
   },
   {
     q: "マリッジプロの入会条件はありますか？",
@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "マリッジプロの退会方法を教えてください",
-    a: "担当カウンセラーに退会の意思を伝え、所定の手続きを行います。成婚退会の場合は成婚料220,000円が発生します。中途退会の場合、契約内容に応じた精算が行われます。",
+    a: "担当カウンセラーに退会の意思を伝え、所定の手続きを行います。成婚退会の場合はプランに応じた成婚料（180,000〜220,000円）が発生します。中途退会の場合、契約内容に応じた精算が行われます。",
   },
   {
     q: "マリッジプロはオンラインでも活動できますか？",
@@ -113,7 +113,7 @@ export default function MarriageProReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           マリッジプロの口コミ・評判｜料金・特徴・サポートを解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年8月17日（料金は公式サイトで再確認済み）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月26日（料金は公式サイトで再確認済み）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -122,7 +122,7 @@ export default function MarriageProReview() {
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：プロカウンセラーによる戦略的な手厚いサポートを評価する声が中心です。一方で初期費用・月会費がやや高めという声もあります。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：婚活のプロが専任で担当し、<strong>プロフィール改善・お見合い対策・婚活戦略の立案</strong>まで一貫してサポートします。連盟に加盟しているため、会員ネットワークも活用できます。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜11,500円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年8月17日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約46.8万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜13,000円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年10月26日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約48.6万円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：他社で結果が出ず手厚いサポートを求める方、ご自身の課題を客観的に分析してほしい方、東京・大阪で対面サポートを受けたい方に適しています。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
@@ -146,6 +146,14 @@ export default function MarriageProReview() {
                 <span className="text-[#2C2C2C]">{v}</span>
               </div>
             ))}
+            <div className="flex px-6 py-3.5 text-sm">
+              <span className="w-28 shrink-0 font-medium text-[#2C2C2C]/50 tracking-wider">運営会社</span>
+              <span className="text-[#2C2C2C]">プロパティプロフェッショナル株式会社（公式サイトの会社概要に記載）</span>
+            </div>
+            <div className="flex px-6 py-3.5 text-sm">
+              <span className="w-28 shrink-0 font-medium text-[#2C2C2C]/50 tracking-wider">公式サイト</span>
+              <span className="text-[#2C2C2C]"><a href="https://prop-p.com/" target="_blank" rel="noopener noreferrer" className="text-[#A08447] underline">婚活サロン marriage pro（prop-p.com）</a></span>
+            </div>
           </div>
         </div>
 
@@ -189,7 +197,7 @@ export default function MarriageProReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,000円〜11,500円</td><td className="px-4 py-3 text-center">18,700円〜</td><td className="px-4 py-3 text-center">8,800円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,000円〜13,000円</td><td className="px-4 py-3 text-center">18,700円〜</td><td className="px-4 py-3 text-center">8,800円〜</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">80,000円〜110,000円</td><td className="px-4 py-3 text-center">137,500円〜</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">約2.9万人</td><td className="px-4 py-3 text-center">約8.5万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">ハイブリッド型</td></tr>
@@ -208,18 +216,19 @@ export default function MarriageProReview() {
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">男性プラン</td><td className="px-4 py-3">入会金60,000円＋登録料50,000円／月会費11,500円／成婚料220,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">女性プラン</td><td className="px-4 py-3">入会金50,000円＋登録料50,000円／月会費11,000円／成婚料200,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">U-28プラン（28歳以下・女性のみ）</td><td className="px-4 py-3">入会金30,000円＋登録料50,000円／月会費10,500円／成婚料180,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">地方プラン（首都圏・大阪以外）</td><td className="px-4 py-3">入会金40,000円＋登録料50,000円／月会費9,000円／成婚料200,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">男性プラン</td><td className="px-4 py-3">入会金60,000円＋登録料50,000円／月会費13,000円／成婚料220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">女性プラン</td><td className="px-4 py-3">入会金50,000円＋登録料50,000円／月会費12,000円／成婚料220,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">U-28プラン（28歳以下・女性のみ）</td><td className="px-4 py-3">入会金30,000円＋登録料50,000円／月会費11,000円／成婚料180,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">地方プラン（首都圏・大阪以外）</td><td className="px-4 py-3">入会金45,000円＋登録料50,000円／月会費9,000円／成婚料220,000円（東京・神奈川・千葉・埼玉・愛知・大阪・京都の方とお見合いをしない方が対象）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">乗換えプラン（1年以内にIBJ日本結婚相談所連盟に所属していた方）</td><td className="px-4 py-3">男性: 入会金30,000円＋登録料50,000円／月会費11,000円／成婚料220,000円・女性: 入会金20,000円＋登録料50,000円／月会費9,800円／成婚料200,000円（申込200件/月）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">ひとり親限定プラン</td><td className="px-4 py-3">入会金30,000円・登録料/月会費無料／お見合い料3,000円／成婚料200,000円（18歳以下の子と同居のシングルマザー・ファーザー対象）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">共通</td><td className="px-4 py-3">お見合い料無料（ひとり親プラン除く）・申込100件/月（不足時は無料で100件追加可）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">男性: 約468,000円（110,000＋11,500×12＋220,000）／女性: 約432,000円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">1年で成婚した場合の総額目安</td><td className="px-4 py-3 font-medium">男性: 約486,000円（110,000＋13,000×12＋220,000）／女性: 約464,000円（100,000＋12,000×12＋220,000）</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※すべて税込で、マリッジプロ公式サイトの料金ページにて2026年8月17日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
+            ※すべて税込で、マリッジプロ公式サイトの<a href="https://prop-p.com/price/" target="_blank" rel="noopener noreferrer" className="underline">料金・サポート内容ページ</a>にて2026年10月26日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
           </p>
         </section>
 
