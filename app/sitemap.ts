@@ -61,6 +61,8 @@ for (const r of ["/review/smartread", "/review/hero-marriage", "/review/pitto", 
 for (const r of ["/review/ibj-members", "/review/partner-agent", "/review/bellroad"]) UPDATED[r] = "2026-10-24";
 // 2026-10-25 12:00成長: ウェルスマ・エクセレンス青山・ブライダルチューリップ・フォリパートナー（IBJ口コミ全件のテーマ別集計・低評価の内容・媒体別件数・公式再確認）
 for (const r of ["/review/wellsma", "/review/excellence-aoyama", "/review/bridal-tulip", "/review/folli-partner"]) UPDATED[r] = "2026-10-25";
+// 2026-10-27 12:00成長: エン婚活エージェント（全額返金保証規約〈2026/7/1改定〉の適用条件・対象外7条件、口コミの論点と公式の定めの照合、とは要約、FAQ2問、公式再確認）
+UPDATED["/review/en-konkatsu"] = "2026-10-27";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

@@ -79,7 +79,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   pitto: { date: "2026-10-23" },
   wellsma: { date: "2026-10-25" },
   "niko-bridal": { date: "2026-10-23" },
-  "en-konkatsu": { date: "2026-10-14" },
+  "en-konkatsu": { date: "2026-10-27" },
   "hero-marriage": { date: "2026-10-24" },
   musbell: { date: "2026-10-23" },
   zwei: { date: "2026-10-23" },
