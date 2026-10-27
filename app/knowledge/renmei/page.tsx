@@ -33,7 +33,7 @@ const ibjRows: Row[] = [
   { slug: "code-for-marriage", name: "Code For Marriage", federation: "IBJ正規加盟", monthly: "11,000円〜", success: "220,000円" },
   { slug: "pitto", name: "P!っと縁結び", federation: "IBJ正規加盟", monthly: "11,000円〜16,500円", success: "220,000円" },
   { slug: "wellsma", name: "ウェルスマ", federation: "IBJ正規加盟（IBJ会員110,885名・2026年10月21日公式確認）", monthly: "11,800円〜19,800円", success: "149,800円" },
-  { slug: "niko-bridal", name: "nikoブライダル", federation: "IBJ正規加盟（ネットワーク 104,859名）", monthly: "13,200円〜", success: "220,000円" },
+  { slug: "niko-bridal", name: "nikoブライダル", federation: "IBJ正規加盟（ネットワーク 111,160名・2026年9月現在）", monthly: "13,200円〜", success: "220,000円" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", federation: "IBJ加盟", monthly: "14,300円〜27,500円", success: "220,000円" },
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },
   { slug: "ibj-members", name: "IBJメンバーズ", federation: "株式会社IBJの直営（登録会員 110,420名・2026年7月時点）", monthly: "17,050円", success: "220,000円" },
@@ -226,7 +226,7 @@ export default function KnowledgeRenmei() {
             <ul className="space-y-2 text-[#2C2C2C]/80">
               <li>・<strong>月会費は{yen(ibjLo.monthly)}（{ibjLo.name}）〜{yen(ibjHi.monthly)}（{ibjHi.name}）で約{ibjMonthlyRatio}倍です</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
               <li>・<strong>成婚料は80,000円（ベルロード）〜300,000円（東京フォリパートナー上限）で約3.8倍です</strong>。総額に最も大きく影響する項目です。</li>
-              <li>・<strong>会員数を具体的な人数で公表していたのは5社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ110,885名（IBJ会員）・リングベル11.1万人（IBJ会員）・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
+              <li>・<strong>会員数を具体的な人数で公表していたのは5社</strong>でした（IBJメンバーズ110,420名・nikoブライダル111,160名（2026年9月現在・10月27日確認）・ウェルスマ110,885名（IBJ会員）・リングベル11.1万人（IBJ会員）・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
             </ul>
           </div>
 

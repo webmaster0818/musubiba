@@ -12,8 +12,10 @@ const rows: Row[] = [
   // 2026-10-27 公式トップ（https://prop-p.com/）の「2025年成婚率 80.4%*」と注記で確認
   { slug: "marriage-pro", name: "マリッジプロ", value: "80.4%", scope: "「2025年成婚率」として公称。注記は「2025年の成婚退会者数÷全退会者社数」（公式の表記のまま）", surveyed: "2026年10月27日", type: "公表", source: "https://prop-p.com/" },
   { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年10月〜2026年10月（2026年10月21日時点の公式表記）)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
+  // 2026-10-27 公式「よくある質問」（https://n-otakanomori.com/faq/）の【2025年実績】【2026年実績（10月現在）】で確認
+  { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", value: "68.4%", scope: "2025年の成婚退会者13名 ÷（成婚退会者13名＋成婚以外の退会者6名）。IBJの基準で算出と公式に記載。2026年（10月現在）は13 ÷ 18 = 72.2%と別掲", surveyed: "2026年10月27日", type: "公表", source: "https://n-otakanomori.com/faq/" },
   { slug: "bridal-tulip", name: "ブライダルチューリップ", value: "60%以上", scope: "自社公称(算出の定義は公式ページに記載)", surveyed: "2026年7月", type: "公表" },
-  { slug: "niko-bridal", name: "nikoブライダル", value: "56.3%", scope: "2025年1〜12月の成婚退会人数 ÷ 全退会人数", surveyed: "2026年7月7日", type: "公表" },
+  { slug: "niko-bridal", name: "nikoブライダル", value: "56.3%", scope: "2025年1〜12月の成婚退会人数 ÷ 全退会人数", surveyed: "2026年10月27日", type: "公表" },
   // 2026-10-27 公式トップ（https://ringbell-marriage.com/）と「よくある質問」（/faq）の注記※1で確認
   { slug: "ringbell", name: "リングベル", value: "54.8%", scope: "担当コンシェルジュが付くIBJ系プランの入会者のうち、2026年8月時点までに退会した方（成婚退会＋通常退会。休会中の方を除く）に占める成婚退会者の割合（全期間累計・自社集計）", surveyed: "2026年10月27日", type: "公表", source: "https://ringbell-marriage.com/" },
   { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.0%", scope: "2012〜2025年の全退会者16,692名のうち成婚退会8,684名の割合(公式注記)", surveyed: "2026年10月14日", type: "公表" },
@@ -25,7 +27,6 @@ const rows: Row[] = [
   { slug: "bellroad", name: "ベルロード縁結びサポート", value: "非公表", scope: "％数値なし。「成婚期間平均7ヶ月」「99%がお見合い実施」を公称。成婚の定義は『互いに結婚する意思を持つこと(プロポーズの受諾)』とFAQに明記", surveyed: "2026年8月6日", type: "非公表" },
   { slug: "pitto", name: "P!っと縁結び", value: "非公表", scope: "成婚の定義は「婚約またはそれと同等の状態」と明記", surveyed: "2026年8月6日", type: "非公表" },
   { slug: "code-for-marriage", name: "Code For Marriage", value: "非公表", scope: "IBJの成婚定義に準拠", surveyed: "2026年8月17日", type: "非公表" },
-  { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", value: "非公表", scope: "IBJの成婚定義に準拠", surveyed: "2026年7月", type: "非公表" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年7月", type: "非公表" },
   { slug: "onet", name: "オーネット", value: "非公表", scope: "公式サイトに数値の記載を確認できず（平成元年以降の成婚退会者163,031名は公表）", surveyed: "2026年10月23日", type: "非公表" },
   { slug: "zwei", name: "ツヴァイ", value: "非公表", scope: "公式サイトに数値の記載を確認できず（2025年の成婚組数3,628組は公表）", surveyed: "2026年10月23日", type: "非公表" },

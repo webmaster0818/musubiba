@@ -5,22 +5,22 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "流山おおたかの森結婚相談所の料金・評判｜月会費9,900円・お見合い料0円【2026年10月公式確認】",
+  title: "流山おおたかの森結婚相談所の料金・評判｜成婚率68.4%・成婚者の声37件の集計【2026年10月公式確認】",
   description:
-    "流山おおたかの森結婚相談所（千葉県流山市・IBJ加盟）の料金と評判をまとめています。初期費用165,000円・月会費9,900円・お見合い料0円・成婚料220,000円（税込・2026年10月17日公式確認）と1年総額、カフェでの面談・オンライン相談、Googleマップの評点、流山市内のほかの相談所を掲載しています。",
+    "流山おおたかの森結婚相談所（千葉県流山市・IBJ加盟）の料金と評判をまとめています。初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年10月27日公式確認）、成婚率68.4%（2025年）、公式の成婚者の声37件の年代・居住地の集計を掲載しています。",
   alternates: { canonical: "/review/nagareyama-otakanomori/" },
 };
 
 const overview = {
   name: "流山おおたかの森結婚相談所",
   type: "仲人型（IBJ＝日本結婚相談所連盟 加盟）",
-  members: "IBJ会員ネットワークを利用（相談所単体の会員数は非公開）",
-  area: "千葉県流山市を拠点に、流山・柏・野田・松戸エリアへ出張対応（駅近くのカフェで面談）。初回・2回目のカウンセリングは電話・オンラインにも対応（公式記載）",
+  members: "相談所の登録会員はおよそ40名（代表1名で担当するため40名までを目安と公式FAQに記載）。お相手探しはIBJの会員ネットワークが対象",
+  area: "所在地は千葉県流山市おおたかの森北3-48-22（営業時間10時〜21時・水曜定休）。流山市を拠点に、流山・柏・野田・松戸エリアへ出張対応（駅近くのカフェで面談）。初回・2回目のカウンセリングは電話・オンラインにも対応（公式記載）",
   initialFee: "165,000円（入会金38,000＋登録料34,000＋スタートアップ30,000＋サポート63,000・税込）",
   monthlyFee: "9,900円（税込）",
   matchingFee: "220,000円（成婚退会時・税込）",
   age: "公式に年齢制限の記載なし。公式FAQでは20代半ば〜70代が在籍し、30代が最も多いと記載",
-  successRate: "非公開（IBJの成婚定義に準拠）",
+  successRate: "68.4%（2025年・成婚退会13名÷退会者19名）。2026年は10月現在で72.2%（13名÷18名）。IBJの基準で算出（公式FAQ記載・2026年10月27日確認）",
 };
 
 const strengths = [
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "流山おおたかの森結婚相談所の料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年10月17日確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円で、お見合い料は0円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
+    a: "公式公表の料金（税込・2026年10月27日確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円で、お見合い料は0円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
   },
   {
     q: "IBJ加盟とはどういう意味ですか？出会いの数に影響はありますか？",
@@ -77,6 +77,14 @@ const faqs = [
   {
     q: "口コミ・評判はどのように確認すればよいですか？",
     a: "Googleマップでの評点は4.9、口コミは53件です（2026年9月2日 当サイト取得）。評点は高評価が集まりやすい傾向があるため、件数と口コミ本文をあわせて確認し、最終的には公式の料金内訳、IBJ加盟という客観的事実、無料カウンセリングでの対応の質で判断することをおすすめします。",
+  },
+  {
+    q: "流山おおたかの森結婚相談所の成婚率は何%ですか？",
+    a: "公式FAQでは、2025年の成婚率を68.4%（成婚退会者13名÷〈成婚退会者13名＋成婚以外の退会者6名〉）、2026年（10月現在）を72.2%（13名÷18名）と公表しています。活動中の会員を含めず、退会者に占める成婚退会者の割合をIBJの基準で算出したものです（2026年10月27日確認）。入会者の何割が成婚するかを示す数値ではない点にご留意ください。",
+  },
+  {
+    q: "途中で退会した場合、費用は戻りますか？",
+    a: "公式料金ページでは、契約書の受領日から8日間はクーリングオフで全額返還、プロフィール公開前の中途解約は受領済み金額から3万円を差し引いて返金、公開後は残存月の活動サポート費から「2万円」と「残存月の活動サポート費の20％」のいずれか低い額を差し引いて返金すると記載されています（2026年10月27日確認）。成婚退会の場合、活動サポート費の返金はありません。",
   },
   {
     q: "入会条件はありますか？",
@@ -113,20 +121,22 @@ export default function NagareyamaOtakanomoriReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           流山おおたかの森結婚相談所の料金・評判｜月会費9,900円・お見合い料0円・IBJ加盟
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月17日（料金・サービス内容は2026年10月17日に<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日（料金・成婚率・お客様の声は2026年10月27日に<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>・<a href="https://n-otakanomori.com/faq/" target="_blank" rel="noopener noreferrer" className="underline">よくある質問</a>・<a href="https://n-otakanomori.com/voice/" target="_blank" rel="noopener noreferrer" className="underline">お客様の声</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流山おおたかの森結婚相談所の料金と特徴
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・1プラン）です。<strong>お見合い料は0円</strong>で、2年目以降の更新料はありません。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・1プラン・2026年10月27日公式確認）です。<strong>お見合い料は0円</strong>で、2年目以降の更新料はありません。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>成婚率</strong>：公式FAQで<strong>2025年は68.4%</strong>（成婚退会13名・成婚以外の退会6名）、<strong>2026年は10月現在72.2%</strong>（成婚退会13名・成婚以外の退会5名）と、人数と計算式を公表しています。登録会員はおよそ40名で、代表1名で担当できる40名までを目安としています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>成婚者の声</strong>：公式「お客様の声」に成婚年月つきで掲載されている37件（2022年11月〜2026年10月）を当サイトで集計すると、30代が25件、流山市在住が15件でした（<a href="#voice-summary" className="underline text-[#A08447]">集計表</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>面談の形式</strong>：事務所ではなく、流山おおたかの森駅・柏駅近くのカフェで面談する出張型です（流山・柏・野田・松戸エリア）。初回・2回目のカウンセリングは電話・オンラインでも受けられます。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>担当</strong>：公式サイトで「婚活カウンセラー歴23年」と紹介されている代表が1名で担当します。IBJ加盟のため、お相手探しはIBJの会員ネットワークが対象です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判</strong>：Googleマップの評点は<strong>4.9（口コミ53件）</strong>です（2026年9月2日 当サイト取得、<Link href={`/agency/${encodeURIComponent("流山おおたかの森結婚相談所-d5aa")}/`} className="underline text-[#A08447]">店舗ページ</Link>に掲載）。評点は高評価が集まりやすいため、口コミ本文と無料カウンセリングでの相性確認をあわせてご判断ください。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：公式FAQでは、入会カウンセリングが審査を兼ねており、入会をお断りする場合があると記載されています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・面談形式・必要書類は<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト（料金ページ・よくある質問）</a>の掲載内容（2026年10月17日確認・税込）にもとづきます。料金は改定される場合があるため、最新の金額と契約条件は公式サイトおよび無料カウンセリングでご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・面談形式・成婚率は<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト（料金ページ・よくある質問）</a>の掲載内容（2026年10月27日確認・税込）にもとづきます。料金は改定される場合があるため、最新の金額と契約条件は公式サイトおよび無料カウンセリングでご確認ください。</p>
           <div className="mt-5 pt-4 border-t border-[#E5DCCF] text-sm">
             <p className="font-medium text-[#2C2C2C] mb-2">流山市内のほかの結婚相談所（Googleマップ・2026年9月2日 当サイト取得）</p>
             <ul className="space-y-1.5 text-[#2C2C2C]/80">
@@ -182,7 +192,7 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月17日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月27日公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握することをおすすめします。
           </p>
@@ -198,14 +208,70 @@ export default function NagareyamaOtakanomoriReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※金額はすべて税込・2026年10月17日に公式サイトで確認した公表値です。お見合い料は0円、休会は年1か月まで（休会中は月会費に代えてデータ維持費1,100円）と公式に記載されています。中途解約時の精算などの細部は、契約前に書面でご確認ください。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
+            ※金額はすべて税込・2026年10月27日に公式サイトで確認した公表値です。お見合い料は0円、休会は年1か月まで（休会中は月会費に代えてデータ維持費1,100円）と公式に記載されています。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
           </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">契約前に確認したい規定（公式料金ページ記載）</h2>
+          <div className="overflow-x-auto mb-3">
+            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2] w-40">成婚の定義</td><td className="px-4 py-3">結婚・婚約、またはそれと同等の成果（結婚の口約束・宿泊・同棲など）を成婚とみなします。交際期間はお見合いから3か月が原則で、通算6か月を超えると成婚とみなされます。</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">クーリングオフ</td><td className="px-4 py-3">入会申込契約書の受領日から8日間は契約を解除でき、受領済みの金銭は全額返還されます。</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">中途解約</td><td className="px-4 py-3">プロフィール公開前は受領済み金額から3万円を差し引いて返金されます。公開後は、残存月の活動サポート費から「2万円」と「残存月の活動サポート費の20％」のいずれか低い額を差し引いて返金されます。成婚退会の場合、活動サポート費の返金はありません。</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">破談後の再入会</td><td className="px-4 py-3">成婚退会後1年以内に破談となった場合、月会費9,900円のみで再入会でき、その後の成婚料は半額の110,000円です。</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2]">お申し込み数</td><td className="px-4 py-3">基本は毎月50件まで（相談により増やすことも可）。お申し受けには制限がありません（公式FAQ記載）。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>・<a href="https://n-otakanomori.com/faq/" target="_blank" rel="noopener noreferrer" className="underline">よくある質問</a>の記載を当サイトで要約したものです（2026年10月27日確認）。契約時は書面の規定をご確認ください。</p>
+        </section>
+
+        <section className="mb-12" id="voice-summary">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">公式「お客様の声」37件の集計（当サイト調べ）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            公式サイトの<a href="https://n-otakanomori.com/voice/" target="_blank" rel="noopener noreferrer" className="underline text-[#A08447]">お客様の声</a>のうち、見出しに年齢・居住地・成婚年月が記載されている成婚者37件（2022年11月〜2026年10月）を、当サイトで集計しました（2026年10月27日確認）。本文の転載は行っていません。相談所が掲載している声のため、成婚に至らなかった方の評価は含まれない点にご留意ください。
+          </p>
+          <div className="grid md:grid-cols-3 gap-4 mb-4">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+                <thead><tr className="bg-[#FAF7F2] text-left"><th className="px-3 py-2">年代</th><th className="px-3 py-2">件数</th></tr></thead>
+                <tbody>
+                  {[["20代", "3"], ["30代", "25"], ["40代", "3"], ["50代", "3"], ["60代以上", "3"]].map(([k, v]) => (
+                    <tr key={k} className="border-t border-gray-50"><td className="px-3 py-2">{k}</td><td className="px-3 py-2">{v}件</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+                <thead><tr className="bg-[#FAF7F2] text-left"><th className="px-3 py-2">居住地</th><th className="px-3 py-2">件数</th></tr></thead>
+                <tbody>
+                  {[["流山市", "15"], ["松戸市・野田市・柏市・我孫子市", "8"], ["その他の千葉県（白井市・富里市・船橋市）", "3"], ["茨城県・埼玉県八潮市", "6"], ["東京都・神奈川県ほか", "5"]].map(([k, v]) => (
+                    <tr key={k} className="border-t border-gray-50"><td className="px-3 py-2">{k}</td><td className="px-3 py-2">{v}件</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+                <thead><tr className="bg-[#FAF7F2] text-left"><th className="px-3 py-2">成婚年</th><th className="px-3 py-2">件数</th></tr></thead>
+                <tbody>
+                  {[["2022年", "1"], ["2023年", "4"], ["2024年", "6"], ["2025年", "13"], ["2026年（10月まで）", "13"]].map(([k, v]) => (
+                    <tr key={k} className="border-t border-gray-50"><td className="px-3 py-2">{k}</td><td className="px-3 py-2">{v}件</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※男女別は女性19件・男性18件です。流山市には「流山在住」「流山市→荒川区在住」と記載された各1件を含みます。年齢は掲載時の表記です。このほか、年月の記載がない声やセカンドオピニオン相談の事例も掲載されていますが、集計には含めていません。</p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">小規模相談所の見極め方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            流山おおたかの森結婚相談所のGoogleマップの口コミは53件（2026年9月2日 当サイト取得）です。当サイトでは口コミを作成・掲載しない方針のため、口コミに加えて確認していただきたい、1名運営の小規模相談所を検討する際の見極めポイントを整理しています。
+            流山おおたかの森結婚相談所のGoogleマップの口コミは53件（2026年9月2日 当サイト取得）です。当サイトでは口コミを作成・掲載しない方針のため、口コミに加えて確認していただきたい、1名運営の小規模相談所を検討する際の見極めポイントを整理しています。なお、公式FAQによると、日本ライフデザインカウンセラー協会（JLCA）の実地審査による認証（マル適マーク）を取得しており、現在の有効期間は令和7年12月11日から令和9年12月10日までです。
           </p>
           <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span><span><strong>客観的事実を確認する</strong>：IBJ加盟（公式サイトに明記・IBJ公式の加盟店ページも存在）、料金の内訳公開など、検証可能な事実は揃っています。</span></li>

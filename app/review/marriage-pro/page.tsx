@@ -5,9 +5,9 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "マリッジプロの評判・口コミ・料金｜プロカウンセラーによるサポートを解説【2026年】",
+  title: "マリッジプロ（婚活サロン marriage pro）の評判・口コミ・料金｜新宿・成婚率80.4%【2026年10月】",
   description:
-    "マリッジプロの評判・口コミ・料金を解説しています。月会費9,000〜13,000円・成婚料180,000〜220,000円（プラン別・2026年10月26日公式確認）、お見合い料無料・申込100件/月の料金体系、プロカウンセラーによる戦略的なサポート、適している方について、中立的な立場で整理しています。",
+    "婚活サロン marriage pro（マリッジプロ・東京都新宿区）の評判・口コミ・料金を解説しています。月会費9,000〜13,000円・成婚料180,000〜220,000円（プラン別・2026年10月26日公式確認）、2025年成婚率80.4%の定義、公式「お客様の声」の内容を整理しています。",
 };
 
 const overview = {
@@ -24,23 +24,28 @@ const overview = {
 
 const strengths = [
   {
-    title: "経験豊富なプロカウンセラーが専任で担当",
-    desc: "婚活のプロフェッショナルであるカウンセラーが一人ひとりに専任で付き、入会から成婚まで一貫してサポートします。プロフィール作成、お見合い対策、交際中のアドバイスまで、あらゆる場面でプロの視点から支援を受けられます。",
+    title: "20代・30代専門で、同世代カウンセラーの男女チームが担当",
+    desc: "公式サイトでは、入会者の97%以上が20〜30代であり、同世代のカウンセラーが男女のチームでサポートすると案内しています。カウンセラー紹介ページには、代表カウンセラー（男性）とチーフカウンセラー（女性）の2名が掲載されています（2026年10月27日確認）。",
   },
   {
-    title: "婚活戦略の立案から実行までトータルサポート",
-    desc: "漠然と活動するのではなく、会員一人ひとりの強みや課題を分析した上で婚活戦略を立案します。PDCAサイクルに沿って活動内容を見直しながら進める点が特徴です。",
+    title: "「10ヶ月成婚」を掲げ、成婚率・活動期間を公表",
+    desc: "公式トップでは、2025年の成婚者38名、成婚率80.4%（注記は「2025年の成婚退会者数÷全退会者社数」）、平均活動期間7.9ヶ月（最頻値4ヶ月）、開業以来の累計成婚100名突破を掲載しています（2026年10月27日確認）。成婚率の分母は退会者のため、入会者のうち成婚する割合を示す数値ではありません。",
   },
   {
-    title: "結婚相談所連盟に加盟し、連盟の会員ネットワークを利用可能",
-    desc: "大手結婚相談所連盟に加盟しているため、連盟ネットワークの会員とお見合いが可能です。カウンセラーのサポートと連盟の会員ネットワークの両方を活用できます。",
+    title: "LINE相談は24時間365日、面談は回数制限なし",
+    desc: "公式サイトでは、LINEでの相談に24時間365日対応し、面談は制限なく随時受けられると案内しています。新宿のオフィスは完全個室で、営業時間は11:00〜22:30です（2026年10月27日確認）。",
+  },
+  {
+    title: "IBJ加盟で、IBJの会員ネットワークを利用可能",
+    desc: "日本結婚相談所連盟（IBJ）の加盟相談所のため、お相手探しはIBJの会員ネットワークが対象です。公式トップではIBJ AWARD 2021〜2025の受賞を掲載しています。",
   },
 ];
 
 const pros = [
-  "経験豊富なプロカウンセラーによる専任サポート",
-  "婚活戦略の立案から実行まで一貫した支援",
-  "連盟加盟で会員ネットワークを活用可能",
+  "20代・30代専門で、同世代カウンセラーの男女チームが担当",
+  "2025年成婚率80.4%・平均活動期間7.9ヶ月を定義つきで公表",
+  "LINE相談24時間365日・面談回数の制限なし・22:30まで営業",
+  "IBJ加盟でIBJの会員ネットワークを利用できる",
 ];
 
 const cons = [
@@ -52,7 +57,7 @@ const cons = [
 const faqs = [
   {
     q: "マリッジプロの評判・口コミはどうですか？",
-    a: "「プロカウンセラーのサポートが手厚い」「婚活戦略を一緒に立ててくれる」「プロフィールやお見合い対策が具体的」といった良い評判がある一方、「初期費用・月会費が高め」という気になる声もあります。なお、拠点は東京・新宿の1か所で、面談は来店またはオンラインで受けられます（公式サイト記載・2026年10月26日確認）。感じ方には個人差があるため、実際の評判は無料相談で確認することをおすすめします。",
+    a: "公式サイトの「お客様の声」には4件（29歳女性・34歳男性・36歳女性・38歳女性）が掲載されており、無料相談で勧誘がなかったこと、年代の近い担当者の服装やデートプランの助言、証明書類の提出によるルールの明確さに触れた内容です。また「成婚者インタビュー」は#55まで公開されています（2026年10月27日確認）。いずれも相談所が掲載している声のため、第三者の口コミとあわせ、無料相談で担当者との相性を確認することをおすすめします。",
   },
   {
     q: "マリッジプロの料金は総額いくらかかりますか？",
@@ -111,21 +116,22 @@ export default function MarriageProReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          マリッジプロの口コミ・評判｜料金・特徴・サポートを解説
+          マリッジプロ（婚活サロン marriage pro）の口コミ・評判｜新宿・料金・成婚率80.4%
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月26日（料金は公式サイトで再確認済み）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日（料金は2026年10月26日、成婚実績・お客様の声・会社概要は2026年10月27日に<a href="https://prop-p.com/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />マリッジプロの特徴と適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：プロカウンセラーによる戦略的な手厚いサポートを評価する声が中心です。一方で初期費用・月会費がやや高めという声もあります。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：婚活のプロが専任で担当し、<strong>プロフィール改善・お見合い対策・婚活戦略の立案</strong>まで一貫してサポートします。連盟に加盟しているため、会員ネットワークも活用できます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>どんな相談所か</strong>：東京都新宿区西新宿（東京メトロ丸ノ内線「西新宿駅」徒歩2分）の20代・30代専門のIBJ加盟相談所です。正式名称は「婚活サロン marriage pro」で、運営はプロパティプロフェッショナル株式会社です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績</strong>：<strong>2025年の成婚率80.4%</strong>（成婚退会者数÷全退会者数）・成婚者38名・平均活動期間7.9ヶ月、開業以来の累計成婚100名突破を公式に掲載しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜13,000円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年10月26日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約48.6万円</strong>です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：他社で結果が出ず手厚いサポートを求める方、20代・30代で同世代のカウンセラーに相談したい方、新宿での対面またはオンラインでサポートを受けたい方に適しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：公式「お客様の声」4件は、勧誘のない無料相談、同世代の担当者による服装・デートプランの助言、ルールの明確さに触れています。相談所が掲載した声である点にご留意ください（<a href="#reviews" className="underline text-[#A08447]">詳細</a>）。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：20代・30代で同世代のカウンセラーに相談したい方、平日夜（22:30まで）や新宿での対面・オンラインで相談したい方に適しています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・会員数等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報にもとづきます（料金は2026年10月26日、実績・会社概要は2026年10月27日確認）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
 
@@ -228,30 +234,30 @@ export default function MarriageProReview() {
           </p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">マリッジプロの評判・口コミの傾向まとめ</h2>
+        <section className="mb-12" id="reviews">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">マリッジプロの評判・口コミ（公式掲載の声の内容）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-            「マリッジプロ 評判」「マリッジプロ 口コミ」で調べる方に向けて、寄せられている声を<strong>良い評判・気になる評判</strong>の傾向ごとに整理しています。個別の体験談は下のセクションに掲載しています。
+            公式サイトの<a href="https://prop-p.com/voice/" target="_blank" rel="noopener noreferrer" className="underline text-[#A08447]">お客様の声</a>に掲載されている4件の内容を、当サイトで論点ごとに整理しました（2026年10月27日確認・本文の転載は行っていません）。
           </p>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-green-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-green-800 mb-4 tracking-wider">良い評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>プロカウンセラーのサポートが手厚いという声</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>プロフィール・お見合い対策が具体的で改善につながったという声</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>他社で結果が出ず乗り換えて成婚できたという声</li>
-                <li className="flex gap-2"><span className="text-green-500 shrink-0">+</span>連盟加盟により出会いの機会は十分にあったという声</li>
-              </ul>
-            </div>
-            <div className="bg-red-50/50 rounded-xl p-6">
-              <h3 className="font-medium text-red-800 mb-4 tracking-wider">気になる評判の傾向</h3>
-              <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>初期費用・月会費がやや高めと感じる声</li>
-                <li className="flex gap-2"><span className="text-red-400 shrink-0">-</span>会員数が非公開で出会いの規模が分かりにくいという声</li>
-              </ul>
-            </div>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+              <thead><tr className="bg-[#FAF7F2] text-left"><th className="px-4 py-3">掲載者</th><th className="px-4 py-3">触れている点</th></tr></thead>
+              <tbody>
+                {[
+                  ["29歳女性・会社員・東京都", "無料相談で他の婚活サービスの長所も説明された／2回目の面談で約3時間話を聞いてもらい入会を決めた"],
+                  ["34歳男性・会社員・東京都", "アプリから移行／年代の近い男性担当者の服装・髪型の助言／デートプランの提案"],
+                  ["36歳女性・会社員・神奈川県", "3社目の無料相談で初めて勧誘がなかった／年代の近い女性担当者の助言"],
+                  ["38歳女性・公務員・東京都", "知人の紹介で入会／ルールと証明書類の提出による安心感"],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2] whitespace-nowrap">{k}</td><td className="px-4 py-3">{v}</td></tr>
+                ))}
+              </tbody>
+            </table>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※上記は当サイトが収集・整理した口コミ傾向です。感じ方には個人差があり、評価は担当者・プランによっても異なります。実際の評判は無料相談で直接確認することをおすすめします。</p>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
+            4件のうち3件が「担当者の年代が近いこと」に触れており、公式が掲げる「同世代カウンセラー」の方針と一致しています。成婚者については、公式サイトの<a href="https://prop-p.com/married-interview/" target="_blank" rel="noopener noreferrer" className="underline text-[#A08447]">成婚者インタビュー</a>が#55（2026年10月4日公開）まで掲載されています。
+          </p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※いずれも相談所が掲載している声のため、否定的な評価は含まれていません。料金面では、初期費用8〜11万円・成婚料18〜22万円がかかる点も踏まえ、無料相談で担当者との相性と契約条件をご確認ください。</p>
         </section>
 
         <section className="mb-12">

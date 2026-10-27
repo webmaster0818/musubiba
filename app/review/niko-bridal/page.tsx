@@ -5,17 +5,17 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 
 export const metadata = {
-  title: "nikoブライダル（大阪）の評判・料金【2026年】成婚率56.3%の算出条件を確認",
+  title: "nikoブライダル（大阪）の評判・料金｜成婚者40人の活動期間・成婚率56.3%【2026年10月】",
   description:
-    "nikoブライダル（大阪市・IBJ正規加盟）の評判・料金を、中立的な立場で解説しています。初期費用110,000円・月会費13,200円・成婚料220,000円（税込・2026年10月23日公式確認）、成婚率56.3%（2025年実績・成婚退会÷全退会）の算出条件、出張面談型の特徴を解説しています。",
+    "nikoブライダル（大阪市・IBJ正規加盟）の評判・料金を解説しています。初期費用110,000円・月会費13,200円・成婚料220,000円（税込・2026年10月27日公式確認）、成婚率56.3%の算出条件、公式の成婚実績40件の活動期間・お見合い人数を集計しています。",
   alternates: { canonical: "/review/niko-bridal/" },
 };
 
 const overview = {
   name: "nikoブライダル",
   type: "仲人型（IBJ＝日本結婚相談所連盟 正規加盟・マル適マークCMS取得）",
-  members: "IBJ会員ネットワーク 104,859名（2025年12月現在・公式表記）を利用",
-  area: "大阪市東成区を拠点に、梅田・難波・天王寺など大阪市内へ無料出張面談（店舗来店型ではない）",
+  members: "IBJ会員ネットワーク 111,160名（2026年9月現在・公式表記）を利用",
+  area: "所在地は大阪市東成区東中本3丁目16-15（営業時間9:00〜18:00・火曜日・土曜日定休）。大阪市東成区を拠点に、梅田・難波・天王寺など大阪市内へ無料出張面談（店舗来店型ではない）",
   initialFee: "110,000円（入会金33,000円＋登録料77,000円・税込）",
   monthlyFee: "13,200円（税込）／男性婚活プランは16,500円",
   matchingFee: "220,000円（成婚退会時・税込）／男性婚活プランは198,000円",
@@ -29,8 +29,8 @@ const strengths = [
     desc: "公式サイトは成婚率56.3%について「2025年1月〜12月の自社会員実績・成婚退会人数÷全退会人数」と算出条件を明記しています。数値のみを掲げて条件を記載しない相談所が多い中、検証可能な形で公表している点は評価できます。あわせて平均活動期間8.4ヶ月も公表されていますが、こちらは2024年実績で、対象年が異なる点にご注意ください。",
   },
   {
-    title: "IBJ AWARDを開業以来5年連続で受賞しています",
-    desc: "2021年のRookie部門を皮切りに、2022〜2025年はPremium部門を受賞しています（公式告知）。IBJ加盟店の中で一定の成婚実績を継続していることを示す客観的な指標です。IBJの「反響を呼んだ結婚相談所100社」（Googleマップの口コミ評価が基準）にも大阪8社の1つとして入賞しています。",
+    title: "IBJ AWARDを開業以来6年連続で受賞しています",
+    desc: "2021年のRookie部門を皮切りに、2022〜2026年はPremium部門を受賞しています（公式の会社概要・2026年7月のIBJ AWARD 2026上期受賞告知。2026年10月27日確認）。IBJ加盟店の中で一定の成婚実績を継続していることを示す客観的な指標です。IBJの「反響を呼んだ結婚相談所100社」（Googleマップの口コミ評価が基準）にも大阪8社の1つとして入賞しています。",
   },
   {
     title: "代表カウンセラーの経歴が具体的に公開されています",
@@ -44,7 +44,7 @@ const strengths = [
 
 const pros = [
   "成婚率の算出条件を明記して公表（56.3%・2025年実績）",
-  "IBJ AWARD 5年連続受賞という継続的な実績",
+  "IBJ AWARD 6年連続受賞という継続的な実績",
   "お見合い料無料・申込200名/月と活動量の制約が緩い",
   "男性向けプラン（お見合い同行・プロポーズ相談付き）がある",
   "初回プロフィール写真無料",
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "nikoブライダルの料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年10月23日確認）は、niko婚活プランで初期費用110,000円（入会金33,000円＋登録料77,000円）＋月会費13,200円＋成婚料220,000円、お見合い料は無料です。1年活動して成婚した場合の総額目安は約488,400円です。男性婚活プラン（初期費用88,000円・月会費16,500円・成婚料198,000円）は約484,000円です。",
+    a: "公式公表の料金（税込・2026年10月27日確認）は、niko婚活プランで初期費用110,000円（入会金33,000円＋登録料77,000円）＋月会費13,200円＋成婚料220,000円、お見合い料は無料です。1年活動して成婚した場合の総額目安は約488,400円です。男性婚活プラン（初期費用88,000円・月会費16,500円・成婚料198,000円）は約484,000円です。",
   },
   {
     q: "成婚率56.3%はどのように算出されていますか？",
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "口コミはありますか？",
-    a: "Googleビジネスプロフィールに口コミがあり、IBJの「反響を呼んだ結婚相談所100社」（Googleマップの口コミ評価を基準とした企画）に大阪8社の1つとして入賞しています。当サイトでは口コミ本文の転載や創作を行わない方針のため、最新の口コミはGoogleマップでご確認ください。",
+    a: "公式サイトには成婚者の声（成婚実績ページ）が掲載されており、当サイトで集計した40件では活動期間の中央値が9か月、お見合い人数の中央値が14名でした（2026年10月27日確認）。第三者の口コミとしては、Googleビジネスプロフィールに口コミがあり、IBJの「反響を呼んだ結婚相談所100社」（Googleマップの口コミ評価を基準とした企画）に大阪8社の1つとして入賞しています。当サイトでは口コミ本文の転載や創作を行わない方針のため、最新の口コミはGoogleマップでご確認ください。",
   },
   {
     q: "無料相談はどこから申し込めますか？",
@@ -111,15 +111,16 @@ export default function NikoBridalReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           nikoブライダル（大阪）の評判・料金｜成婚率56.3%の算出条件を確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・実績は2026年10月23日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日（料金・受賞歴・成婚実績は2026年10月27日に<a href="https://www.niko-bridal.jp/" target="_blank" rel="noopener noreferrer" className="underline">nikoブライダル公式サイト</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />nikoブライダルが適している方
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：大阪を拠点とする1名運営のIBJ正規加盟店です。<strong>成婚率56.3%を算出条件とあわせて公表</strong>（2025年・成婚退会÷全退会）しており、IBJ AWARDを5年連続で受賞しています。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：大阪を拠点とする1名運営のIBJ正規加盟店です。<strong>成婚率56.3%を算出条件とあわせて公表</strong>（2025年・成婚退会÷全退会）しており、IBJ AWARDを6年連続で受賞しています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用110,000円＋月会費13,200円＋成婚料220,000円（税込・お見合い料無料）です。<strong>1年で成婚した場合の総額目安は約48.8万円</strong>です。男性向けプラン（総額約48.4万円・お見合い同行付き）もあります。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>成婚者の傾向</strong>：公式の成婚実績ページに掲載された40件（2022年1月〜2026年8月）を当サイトで集計すると、<strong>活動期間の中央値は9か月</strong>（12か月以内が27件）、<strong>お見合い人数の中央値は14名</strong>でした（<a href="#seikon-data" className="underline text-[#A08447]">集計表</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：大阪市内（梅田・難波・天王寺）で、数値の根拠を示す相談所を選びたい方や、仕事帰りに出張面談で活動したい方です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：固定店舗はなく、電話番号も公表されていません（フォーム/LINE中心）。店舗での相談を重視する方には適していません。</span></li>
           </ul>
@@ -170,7 +171,7 @@ export default function NikoBridalReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月23日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月27日公式確認）</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead>
@@ -211,6 +212,32 @@ export default function NikoBridalReview() {
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
             当サイトでは口コミの創作を行わない方針です。利用者の評判はGoogleマップの口コミ（IBJの「反響を呼んだ結婚相談所100社」にGoogleマップの口コミ評価を基準として入賞）をご確認のうえ、無料相談で代表カウンセラーとの相性を確認することをおすすめします。
           </p>
+        </section>
+
+        <section className="mb-12" id="seikon-data">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">公式の成婚実績40件の集計（活動期間・お見合い人数）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            公式サイトの<a href="https://www.niko-bridal.jp/16257077996942" target="_blank" rel="noopener noreferrer" className="underline text-[#A08447]">成婚実績ページ</a>には、成婚者ごとに年齢・活動期間・お見合い人数・成婚退会年月が記載されています。当サイトでは、この記載がそろっている40件（成婚退会 2022年1月〜2026年8月）を集計しました（2026年10月27日確認）。本文の転載は行っていません。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
+              <tbody>
+                {[
+                  ["件数", "40件（女性29件・男性11件／30代30件・40代10件）"],
+                  ["活動期間", "中央値9か月・平均10.5か月（最短2か月〜最長2年7か月）。12か月以内に成婚退会したのは40件中27件"],
+                  ["お見合い人数", "中央値14名・平均15.8名（1名〜50名）"],
+                  ["居住地", "大阪市29件・堺市5件・兵庫県2件・奈良市2件・東大阪市1件・東京都1件"],
+                  ["成婚退会の年", "2022年5件・2023年8件・2024年12件・2025年8件・2026年7件（8月まで）"],
+                ].map(([k, v]) => (
+                  <tr key={k} className="border-t border-gray-50">
+                    <td className="px-4 py-3 font-medium text-[#2C2C2C]/70 bg-[#FAF7F2] w-36">{k}</td>
+                    <td className="px-4 py-3">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※活動期間は「1年3ヶ月」などの公式表記を月数に換算しています。相談所が掲載している成婚者の記録のため、成婚に至らなかった方や掲載されていない方は含まれません。公式が公表する平均活動期間（8.4ヶ月・2024年実績）とは対象が異なります。</p>
         </section>
 
         <FlowGuide name={overview.name} initialFee={overview.initialFee} monthlyFee={overview.monthlyFee} matchingFee={overview.matchingFee} />

@@ -63,6 +63,9 @@ for (const r of ["/review/ibj-members", "/review/partner-agent", "/review/bellro
 for (const r of ["/review/wellsma", "/review/excellence-aoyama", "/review/bridal-tulip", "/review/folli-partner"]) UPDATED[r] = "2026-10-25";
 // 2026-10-27 12:00成長: エン婚活エージェント（全額返金保証規約〈2026/7/1改定〉の適用条件・対象外7条件、口コミの論点と公式の定めの照合、とは要約、FAQ2問、公式再確認）
 UPDATED["/review/en-konkatsu"] = "2026-10-27";
+// 2026-10-27 16:00挽回: 流山おおたかの森（成婚率68.4%公表を反映・成婚者の声37件の集計・解約規定）、nikoブライダル（成婚実績40件の集計・AWARD 6年連続・会員数更新）、
+// マリッジプロ（正式名称・根拠のない口コミ傾向を公式の声4件に置換・強みを公式記載に）、セブン（料金再確認・入会資格FAQ）、成婚率・連盟ページの該当社
+for (const r of ["/review/nagareyama-otakanomori", "/review/niko-bridal", "/review/marriage-pro", "/review/seven", "/knowledge/seikon-ritsu", "/knowledge/renmei"]) UPDATED[r] = "2026-10-27";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
