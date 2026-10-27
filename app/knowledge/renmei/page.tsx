@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import { PLAN_FEES, yen } from "@/data/fees";
 
 export const metadata: Metadata = {
   title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年9月】",
@@ -12,6 +13,16 @@ export const metadata: Metadata = {
 
 // 各社の加盟連盟は、各レビューページの実査記録（公式サイト確認）から転記。
 // レビュー本文に加盟の明記がない社は「公表を確認できず」とし、推測で補わない。
+// プラン別料金を data/fees.ts の PLAN_FEES から「下限〜上限」で表示する（金額を直書きしない）。
+function planRange(slug: string, key: "monthly" | "success") {
+  const v = PLAN_FEES.filter((p) => p.slug === slug).map((p) => p[key]);
+  if (!v.length) throw new Error(`PLAN_FEES に ${slug} がありません`);
+  const lo = Math.min(...v);
+  const hi = Math.max(...v);
+  return lo === hi ? yen(lo) : `${lo.toLocaleString("ja-JP")}円〜${yen(hi)}`;
+}
+const mpMonthly = (plan: string) => yen(PLAN_FEES.find((p) => p.slug === "marriage-pro" && p.plan === plan)!.monthly);
+
 type Row = {
   slug: string;
   name: string;
@@ -32,7 +43,7 @@ const ibjRows: Row[] = [
   { slug: "hero-marriage", name: "ヒーローマリッジ", federation: "IBJ加盟", monthly: "14,300円〜27,500円", success: "220,000円" },
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },
   { slug: "ibj-members", name: "IBJメンバーズ", federation: "株式会社IBJの直営（登録会員 110,420名・2026年7月時点）", monthly: "17,050円", success: "220,000円" },
-  { slug: "marriage-pro", name: "マリッジプロ", federation: "IBJ加盟", monthly: "公式に記載を確認できず", success: "220,000円" },
+  { slug: "marriage-pro", name: "マリッジプロ", federation: "IBJ加盟", monthly: `${planRange("marriage-pro", "monthly")}（男性${mpMonthly("男性プラン")}・女性${mpMonthly("女性プラン")}）`, success: planRange("marriage-pro", "success") },
 ];
 
 const otherRows: Row[] = [

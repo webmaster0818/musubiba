@@ -108,7 +108,8 @@ const rows: Row[] = [
   { slug: "sunmarie", name: "サンマリエ", cooling: "入会契約日を含む8日間は、書面または電磁的記録による通知で無条件に解除でき、支払済みの料金は全額返金", midterm: "会員期間中の途中退会が可能。解約手数料は発生せず、未払金や返金がある場合は精算後に退会手続き", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 よくあるご質問）", status: "確認" },
   // 2026-10-21 公式「よくある質問」(https://naco-do.com/question/)で確認。クーリング・オフはトップの比較表注記に一般的な記載のみ
   { slug: "naco-do", name: "naco-do（ナコード）", cooling: "公式サイトで確認できず（比較表の注記に「特定商取引法にもとづき各社に適用」との一般的な記載のみ）", midterm: "お見合いの予定や交際中のお相手がいなければ即日退会手続きが可能。契約期間の定めがある間（毎月更新ではない場合）は、利用規約にもとづき違約金がかかる", rest: "公式サイトで確認できず", surveyed: "2026年10月21日（公式 よくある質問）", status: "確認" },
-  { slug: "ringbell", name: "リングベル", cooling: "公式サイトで確認できず", midterm: "公式サイトで確認できず", rest: "公式サイトで確認できず", surveyed: "2026年6月", status: "未確認" },
+  // 2026-10-27 公式「特定商取引法に基づく表記」(https://ringbell-marriage.com/tokusho)、「利用規約」(https://ringbell-marriage.com/terms)第5条、「よくある質問」(https://ringbell-marriage.com/faq)で確認
+  { slug: "ringbell", name: "リングベル", cooling: "法定書面の受領日から8日以内は、書面または電磁的記録で契約を解除可。損害賠償・違約金や提供済みサービスの対価は請求されず、支払済みの金銭は全額返金", midterm: "クーリング・オフ期間の経過後も、契約期間（1年・以後自動更新）中はいつでも解除可。請求額はサービス提供開始前3万円、開始後は提供済みサービスの対価＋「2万円」か「契約残額の20%」のいずれか低い額までで、超過分は返金。支払予定日の10日前までの申し込みで翌月のサービス開始日に退会", rest: "休会可。開始希望日の10日前までに連絡が必要で、期間は最大累計12ヶ月、休会中の月会費は2,200円（税込）。交際中は不可、お見合いの予定・申込中の案件はキャンセルが必要", surveyed: "2026年10月27日（公式 特定商取引法に基づく表記／利用規約／よくある質問）", status: "確認" },
   // 2026-10-21 公式「利用規約」(https://s-marriage.jp/userpolicy/)第16条・第17条・第19条で確認
   { slug: "smartread", name: "スマリッジ", cooling: "契約書面の受領日から8日間以内は、書面または電磁的記録（メール・問い合わせフォーム）で解除可。支払済みの対価は返金され、違約金等の請求はない", midterm: "クーリング・オフ期間の経過後も退会・解約可。毎月15日までの申し出で当月末退会。役務提供開始前の退会は、登録料と在籍中の月会費以外は請求されない。月途中の退会でも日割り計算はない", rest: "毎月15日までにメールで申し出ると翌月1日から休会可（1ヶ月単位）。休会中の月会費は4,400円（税込）で、休会期間も会員期間に含まれる", surveyed: "2026年10月21日（公式 利用規約）", status: "確認" },
   // 2026-10-21 公式「よくある質問」(https://www.wealsma.com/faq/)と「料金プラン」(https://www.wealsma.com/plan-2/)で確認
@@ -191,7 +192,7 @@ const articleJsonLd = {
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-22",
-  dateModified: "2026-10-21",
+  dateModified: "2026-10-27",
   mainEntityOfPage: "https://mu-su-bi-ba.com/knowledge/kaiyaku/",
 };
 
@@ -217,7 +218,7 @@ export default function KnowledgeKaiyaku() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の解約・返金は法律で上限が決まっている｜24社の公表実態
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}

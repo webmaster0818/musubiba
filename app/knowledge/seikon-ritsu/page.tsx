@@ -3,20 +3,19 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
 
-export const metadata: Metadata = {
-  title: "結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと",
-  description:
-    "当サイトが実査した結婚相談所24社のうち、成婚率の数値を公表しているのは9社でした。公表値は27%〜86.1%と幅があり、分母も「総退会者数」「全会員数」「上位コース限定」など各社で異なります。各社の公式表記と算出定義を確認日とともに一覧にし、成婚率の読み方と入会前の確認手順をまとめています。",
-  alternates: { canonical: "/knowledge/seikon-ritsu/" },
-};
-
 // 当サイトが各社公式サイトを実査して記録した成婚率の表記。数値・定義は各レビューページと必ず一致させること。
-const rows = [
+type Row = { slug: string; name: string; value: string; scope: string; surveyed: string; type: "公表" | "条件つき" | "非公表"; source?: string };
+
+const rows: Row[] = [
   { slug: "wellsma", name: "ウェルスマ", value: "86.1%", scope: "「1年以内成婚率」として公称", surveyed: "2026年7月31日", type: "公表" },
   { slug: "excellence-aoyama", name: "エクセレンス青山", value: "85.7%", scope: "自社公称。2019年実績として掲載", surveyed: "2026年7月31日", type: "公表" },
+  // 2026-10-27 公式トップ（https://prop-p.com/）の「2025年成婚率 80.4%*」と注記で確認
+  { slug: "marriage-pro", name: "マリッジプロ", value: "80.4%", scope: "「2025年成婚率」として公称。注記は「2025年の成婚退会者数÷全退会者社数」（公式の表記のまま）", surveyed: "2026年10月27日", type: "公表", source: "https://prop-p.com/" },
   { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年10月〜2026年10月（2026年10月21日時点の公式表記）)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
   { slug: "bridal-tulip", name: "ブライダルチューリップ", value: "60%以上", scope: "自社公称(算出の定義は公式ページに記載)", surveyed: "2026年7月", type: "公表" },
   { slug: "niko-bridal", name: "nikoブライダル", value: "56.3%", scope: "2025年1〜12月の成婚退会人数 ÷ 全退会人数", surveyed: "2026年7月7日", type: "公表" },
+  // 2026-10-27 公式トップ（https://ringbell-marriage.com/）と「よくある質問」（/faq）の注記※1で確認
+  { slug: "ringbell", name: "リングベル", value: "54.8%", scope: "担当コンシェルジュが付くIBJ系プランの入会者のうち、2026年8月時点までに退会した方（成婚退会＋通常退会。休会中の方を除く）に占める成婚退会者の割合（全期間累計・自社集計）", surveyed: "2026年10月27日", type: "公表", source: "https://ringbell-marriage.com/" },
   { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.0%", scope: "2012〜2025年の全退会者16,692名のうち成婚退会8,684名の割合(公式注記)", surveyed: "2026年10月14日", type: "公表" },
   { slug: "smartread", name: "スマリッジ", value: "69%", scope: "「1年以内の成婚率」として公称（2026年10月時点）。注記は「直近1年以内に成婚した会員の方を対象に算出」のみで、分母の記載なし", surveyed: "2026年10月23日", type: "公表" },
   { slug: "naco-do", name: "naco-do(ナコード)", value: "41.3%", scope: "自社発表", surveyed: "2026年7月5日", type: "公表" },
@@ -27,21 +26,30 @@ const rows = [
   { slug: "pitto", name: "P!っと縁結び", value: "非公表", scope: "成婚の定義は「婚約またはそれと同等の状態」と明記", surveyed: "2026年8月6日", type: "非公表" },
   { slug: "code-for-marriage", name: "Code For Marriage", value: "非公表", scope: "IBJの成婚定義に準拠", surveyed: "2026年8月17日", type: "非公表" },
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", value: "非公表", scope: "IBJの成婚定義に準拠", surveyed: "2026年7月", type: "非公表" },
-  { slug: "marriage-pro", name: "マリッジプロ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年8月17日", type: "非公表" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年7月", type: "非公表" },
   { slug: "onet", name: "オーネット", value: "非公表", scope: "公式サイトに数値の記載を確認できず（平成元年以降の成婚退会者163,031名は公表）", surveyed: "2026年10月23日", type: "非公表" },
   { slug: "zwei", name: "ツヴァイ", value: "非公表", scope: "公式サイトに数値の記載を確認できず（2025年の成婚組数3,628組は公表）", surveyed: "2026年10月23日", type: "非公表" },
   { slug: "sunmarie", name: "サンマリエ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年9月6日", type: "非公表" },
   { slug: "musbell", name: "ムスベル", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年10月23日", type: "非公表" },
-  { slug: "ringbell", name: "リングベル", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年6月", type: "非公表" },
   { slug: "mars-cafe", name: "マーズカフェ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年5月", type: "非公表" },
   { slug: "seven", name: "結婚相談所セブン", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年5月", type: "非公表" },
 ];
 
+const published = rows.filter((r) => r.type === "公表").length;
+const conditional = rows.filter((r) => r.type === "条件つき").length;
+const undisclosed = rows.filter((r) => r.type === "非公表").length;
+
+export const metadata: Metadata = {
+  title: "結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと",
+  description:
+    `当サイトが実査した結婚相談所24社のうち、成婚率の数値を公表しているのは${published}社でした。公表値は27%〜86.1%と幅があり、分母も「総退会者数」「全会員数」「上位コース限定」など各社で異なります。各社の公式表記と算出定義を確認日とともに一覧にし、成婚率の読み方と入会前の確認手順をまとめています。`,
+  alternates: { canonical: "/knowledge/seikon-ritsu/" },
+};
+
 const faqs = [
   {
     q: "結婚相談所の成婚率はどれくらいが普通ですか？",
-    a: "「普通」と言える基準はありません。当サイトが実査した24社では、数値を公表していたのは9社で、27%〜86.1%と3倍以上の開きがありました。ただしこの数字は横並びで比べられるものではなく、分母(総退会者数か、全会員数か、特定コースの退会者数か)と対象期間が各社で異なります。数字の大小ではなく、算出の定義まで確認したうえで判断することをおすすめします。",
+    a: `「普通」と言える基準はありません。当サイトが実査した24社では、数値を公表していたのは${published}社で、27%〜86.1%と3倍以上の開きがありました。ただしこの数字は横並びで比べられるものではなく、分母(総退会者数か、全会員数か、特定コースの退会者数か)と対象期間が各社で異なります。数字の大小ではなく、算出の定義まで確認したうえで判断することをおすすめします。`,
   },
   {
     q: "成婚率の「からくり」とは何ですか？",
@@ -49,7 +57,7 @@ const faqs = [
   },
   {
     q: "成婚率を公表していない相談所は避けたほうがよいですか？",
-    a: "いいえ、そうとは限りません。当サイトの実査では、オーネット・ツヴァイ・サンマリエといった大手を含む13社が数値を公表していませんでした。定義が統一されていない指標を公表しないことには、合理的な理由があるとも考えられます。また、成婚の定義(婚約なのか入籍なのか)をFAQで明示している相談所は、公表の有無にかかわらず情報開示の姿勢が確認できます。",
+    a: `いいえ、そうとは限りません。当サイトの実査では、オーネット・ツヴァイ・サンマリエといった大手を含む${undisclosed}社が数値を公表していませんでした。定義が統一されていない指標を公表しないことには、合理的な理由があるとも考えられます。また、成婚の定義(婚約なのか入籍なのか)をFAQで明示している相談所は、公表の有無にかかわらず情報開示の姿勢が確認できます。`,
   },
   {
     q: "入会前に成婚率について何を確認すればよいですか？",
@@ -72,11 +80,11 @@ const articleJsonLd = {
   "@type": "Article",
   headline: "結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと",
   description:
-    "結婚相談所24社の成婚率の公式表記と算出定義を、確認日とともに一覧にしています。数値を公表していたのは9社で、分母や対象期間は各社で異なりました。",
+    `結婚相談所24社の成婚率の公式表記と算出定義を、確認日とともに一覧にしています。数値を公表していたのは${published}社で、分母や対象期間は各社で異なりました。`,
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-22",
-  dateModified: "2026-09-22",
+  dateModified: "2026-10-27",
   mainEntityOfPage: "https://mu-su-bi-ba.com/knowledge/seikon-ritsu/",
 };
 
@@ -90,9 +98,6 @@ const breadcrumbJsonLd = {
   ],
 };
 
-const published = rows.filter((r) => r.type === "公表").length;
-const conditional = rows.filter((r) => r.type === "条件つき").length;
-const undisclosed = rows.filter((r) => r.type === "非公表").length;
 
 export default function KnowledgeSeikonRitsu() {
   return (
@@ -106,7 +111,7 @@ export default function KnowledgeSeikonRitsu() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年9月22日</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -149,7 +154,14 @@ export default function KnowledgeSeikonRitsu() {
                       <Link href={`/review/${r.slug}/`} className="text-[#A08447] underline">{r.name}</Link>
                     </td>
                     <td className="px-4 py-3 whitespace-nowrap font-medium text-[#2C2C2C]">{r.value}</td>
-                    <td className="px-4 py-3 text-xs text-[#2C2C2C]/70 leading-relaxed">{r.scope}</td>
+                    <td className="px-4 py-3 text-xs text-[#2C2C2C]/70 leading-relaxed">
+                      {r.scope}
+                      {r.source && (
+                        <>
+                          （出典：<a href={r.source} target="_blank" rel="noopener noreferrer" className="underline">公式サイト</a>）
+                        </>
+                      )}
+                    </td>
                     <td className="px-4 py-3 text-xs text-[#2C2C2C]/50 whitespace-nowrap">{r.surveyed}</td>
                   </tr>
                 ))}
