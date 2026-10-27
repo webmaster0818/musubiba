@@ -2,10 +2,18 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import { PLAN_FEES, yen } from "@/data/fees";
 
 // 各社の解約・休会に関する「公式サイトに書かれていた内容」。
 // 出所は各レビューページの実査記録、または本ページ作成時(2026年9月22日)・2026年10月21日の公式サイト実査。
 // 確認できなかった社は空欄にせず「公式サイトで確認できず」と書く(推測で埋めない)。
+
+// マリッジプロの成婚料は data/fees.ts の PLAN_FEES から表示する（金額を直書きしない）。
+const mpPlans = PLAN_FEES.filter((p) => p.slug === "marriage-pro");
+const mpSuccessLo = Math.min(...mpPlans.map((p) => p.success));
+const mpSuccessHi = Math.max(...mpPlans.map((p) => p.success));
+const mpSuccessLoPlans = mpPlans.filter((p) => p.success === mpSuccessLo).map((p) => p.plan).join("・");
+const mpSuccess = `${mpSuccessLo.toLocaleString("ja-JP")}円〜${yen(mpSuccessHi)}（プラン別。${mpSuccessLoPlans}は${yen(mpSuccessLo)}）`;
 type Row = {
   slug: string;
   name: string;
@@ -67,10 +75,11 @@ const rows: Row[] = [
   {
     slug: "marriage-pro",
     name: "マリッジプロ",
-    cooling: "契約から8日以内・全額返金",
-    midterm: "中途退会時は契約内容に応じた精算。成婚退会は成婚料220,000円",
+    // 2026-10-27 公式「料金・サポート内容」(https://prop-p.com/price/)で確認。休会は公式サイト全348ページ（固定ページ24・投稿324）を確認し、制度の記載なし
+    cooling: "入会契約から8日以内は無条件で解除でき、支払済みの料金は全額返金",
+    midterm: `クーリング・オフ期間の経過後も解除可。サービス提供開始前は3万円、開始後は提供済みサービスの対価＋「2万円」か「契約残額の20%」のいずれか低い額のほかは請求しないと明記。成婚退会時は成婚料${mpSuccess}`,
     rest: "公式サイトで確認できず",
-    surveyed: "2026年8月17日",
+    surveyed: "2026年10月27日（公式 料金・サポート内容）",
     status: "確認",
   },
   {

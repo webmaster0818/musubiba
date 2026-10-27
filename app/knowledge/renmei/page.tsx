@@ -2,14 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
-import { PLAN_FEES, yen } from "@/data/fees";
+import { FEES, PLAN_FEES, yen } from "@/data/fees";
 
-export const metadata: Metadata = {
-  title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年9月】",
-  description:
-    "結婚相談所の連盟は、紹介される会員の母数を決める仕組みです。実査24社中16社が加盟連盟を公表しており、そのうち12社がIBJ系でした。同じIBJ系でも月会費7,550円〜17,050円、成婚料80,000円〜300,000円と開きがあります。連盟だけで選ぶことをおすすめしない理由を解説します。",
-  alternates: { canonical: "/knowledge/renmei/" },
-};
 
 // 各社の加盟連盟は、各レビューページの実査記録（公式サイト確認）から転記。
 // レビュー本文に加盟の明記がない社は「公表を確認できず」とし、推測で補わない。
@@ -44,6 +38,8 @@ const ibjRows: Row[] = [
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },
   { slug: "ibj-members", name: "IBJメンバーズ", federation: "株式会社IBJの直営（登録会員 110,420名・2026年7月時点）", monthly: "17,050円", success: "220,000円" },
   { slug: "marriage-pro", name: "マリッジプロ", federation: "IBJ加盟", monthly: `${planRange("marriage-pro", "monthly")}（男性${mpMonthly("男性プラン")}・女性${mpMonthly("女性プラン")}）`, success: planRange("marriage-pro", "success") },
+  // 2026-10-27 公式トップ（https://ringbell-marriage.com/）の「IBJ加盟」表記と「IBJ連盟の会員11.1万人からお相手を探せます」で確認
+  { slug: "ringbell", name: "リングベル", federation: "IBJ加盟（IBJ連盟の会員11.1万人から検索可・2026年10月27日公式確認）", monthly: planRange("ringbell", "monthly"), success: planRange("ringbell", "success") },
 ];
 
 const otherRows: Row[] = [
@@ -53,11 +49,29 @@ const otherRows: Row[] = [
   { slug: "onet", name: "オーネット", federation: "独自会員システム＋IBJ加盟ネットワークの2系統", monthly: "13,200円〜", success: "IBJ会員と成婚時220,000円（オーネット会員同士は0円）" },
 ];
 
-const unknownNames = ["ツヴァイ", "サンマリエ", "パートナーエージェント", "スマリッジ", "FIORE（フィオーレ）", "リングベル", "マーズカフェ", "結婚相談所セブン"];
+const unknownNames = ["ツヴァイ", "サンマリエ", "パートナーエージェント", "スマリッジ", "FIORE（フィオーレ）", "マーズカフェ", "結婚相談所セブン"];
 
 const ibjCount = ibjRows.length;
 const otherCount = otherRows.length;
 const disclosed = ibjCount + otherCount;
+
+// IBJ系の月会費（各社の下限）の最小・最大を data/fees.ts の FEES から出す
+const ibjFees = ibjRows.map((r) => {
+  const f = FEES.find((x) => x.slug === r.slug);
+  if (!f || f.monthly == null) throw new Error(`FEES に ${r.slug} の月会費がありません`);
+  return { name: r.name, monthly: f.monthly };
+});
+const ibjLo = ibjFees.reduce((a, b) => (b.monthly < a.monthly ? b : a));
+const ibjHi = ibjFees.reduce((a, b) => (b.monthly > a.monthly ? b : a));
+const ibjMonthlyRange = `${yen(ibjLo.monthly)}〜${yen(ibjHi.monthly)}`;
+const ibjMonthlyRatio = (ibjHi.monthly / ibjLo.monthly).toFixed(1);
+
+export const metadata: Metadata = {
+  title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年9月】",
+  description:
+    `結婚相談所の連盟は、紹介される会員の母数を決める仕組みです。実査24社中${disclosed}社が加盟連盟を公表しており、そのうち${ibjCount}社がIBJ系でした。同じIBJ系でも月会費${ibjMonthlyRange}、成婚料80,000円〜300,000円と開きがあります。連盟だけで選ぶことをおすすめしない理由を解説します。`,
+  alternates: { canonical: "/knowledge/renmei/" },
+};
 
 const faqs = [
   {
@@ -66,7 +80,7 @@ const faqs = [
   },
   {
     q: "どの連盟に加盟している相談所を選べばよいですか？",
-    a: `連盟だけで選ぶのはおすすめしません。当サイトが実査した24社のうち加盟連盟を公表していたのは${disclosed}社で、そのうち${ibjCount}社がIBJ系でした。つまり「IBJ加盟」は差別化要素になりにくく、同じIBJのネットワークを使っていても月会費は7,550円〜17,050円、成婚料は80,000円〜300,000円と開きがあります。重視すべきは連盟ではなく、その相談所の料金体系・サポート内容・担当者との相性です。`,
+    a: `連盟だけで選ぶのはおすすめしません。当サイトが実査した24社のうち加盟連盟を公表していたのは${disclosed}社で、そのうち${ibjCount}社がIBJ系でした。つまり「IBJ加盟」は差別化要素になりにくく、同じIBJのネットワークを使っていても月会費は${ibjMonthlyRange}、成婚料は80,000円〜300,000円と開きがあります。重視すべきは連盟ではなく、その相談所の料金体系・サポート内容・担当者との相性です。`,
   },
   {
     q: "複数の連盟に加盟している相談所のほうが有利ですか？",
@@ -97,7 +111,7 @@ const articleJsonLd = {
   author: { "@type": "Organization", name: "ムスビバ編集部" },
   publisher: { "@type": "Organization", name: "ムスビバ" },
   datePublished: "2026-09-24",
-  dateModified: "2026-09-24",
+  dateModified: "2026-10-27",
   mainEntityOfPage: "https://mu-su-bi-ba.com/knowledge/renmei/",
 };
 
@@ -153,7 +167,7 @@ export default function KnowledgeRenmei() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年9月24日</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日</p>
 
         <div className="rounded-2xl overflow-hidden mb-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -167,7 +181,7 @@ export default function KnowledgeRenmei() {
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>連盟は<strong>紹介してもらえる会員の母数を決める仕組み</strong>です。相談所どうしが会員情報を共有し、お見合いを組めるようにしています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>当サイトが実査した24社のうち、加盟連盟を公表していたのは<strong>{disclosed}社</strong>で、そのうち<strong>{ibjCount}社がIBJ系</strong>でした。<strong>「IBJ加盟」は加盟連盟を公表している相談所の多くに共通する条件</strong>であり、それだけでは相談所ごとの違いは分かりません。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>同じIBJのネットワークを使っていても、<strong>月会費は7,550円〜17,050円（約2.3倍）、成婚料は80,000円〜300,000円（約3.8倍）</strong>の開きがあります。差がつくのは連盟ではなく<strong>相談所側の料金とサポート</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>同じIBJのネットワークを使っていても、<strong>月会費は{ibjMonthlyRange}（約{ibjMonthlyRatio}倍）、成婚料は80,000円〜300,000円（約3.8倍）</strong>の開きがあります。差がつくのは連盟ではなく<strong>相談所側の料金とサポート</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>複数連盟に加盟していれば母数は増えます（最大は4連盟・紹介可能約33万人）。ただし<strong>会員数の公表値は連盟ごとに集計時点が違う</strong>ため、単純に足し算して比べられる数字ではありません。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの加盟状況・金額は、当サイトが各社公式サイトを実査して各レビューページに記録したものです（確認日は各レビューページに明記）。公式に記載が見つからなかった項目は「確認できず」と表示しています。</p>
@@ -210,9 +224,9 @@ export default function KnowledgeRenmei() {
           <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 mb-8 text-sm leading-relaxed">
             <p className="font-medium text-[#2C2C2C] mb-2">この表から読み取れること</p>
             <ul className="space-y-2 text-[#2C2C2C]/80">
-              <li>・<strong>月会費は7,550円（Bridalチューリップ）〜17,050円（IBJメンバーズ）で約2.3倍です</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
+              <li>・<strong>月会費は{yen(ibjLo.monthly)}（{ibjLo.name}）〜{yen(ibjHi.monthly)}（{ibjHi.name}）で約{ibjMonthlyRatio}倍です</strong>。同じネットワークの会員に申し込める点は変わりません。</li>
               <li>・<strong>成婚料は80,000円（ベルロード）〜300,000円（東京フォリパートナー上限）で約3.8倍です</strong>。総額に最も大きく影響する項目です。</li>
-              <li>・<strong>会員数を具体的な人数で公表していたのは4社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ110,885名（IBJ会員）・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
+              <li>・<strong>会員数を具体的な人数で公表していたのは5社</strong>でした（IBJメンバーズ110,420名・nikoブライダル104,859名・ウェルスマ110,885名（IBJ会員）・リングベル11.1万人（IBJ会員）・Bridalチューリップ約19万名）。多くは「IBJ会員ネットワークを利用」とのみ記載されています。</li>
             </ul>
           </div>
 
@@ -220,7 +234,7 @@ export default function KnowledgeRenmei() {
 
           <p className="text-xs text-[#2C2C2C]/55 mb-8 -mt-2">
             ※ オーネットは自社の独自会員システムを主軸としつつ、IBJ加盟のネットワーク経由でも成婚に至った事例が確認できたため、こちらの表に入れています。
-            IBJのネットワークを使うと明記していた相談所は、上の表の{ibjCount}社とオーネットを合わせて13社です。
+            IBJのネットワークを使うと明記していた相談所は、上の表の{ibjCount}社とオーネットを合わせて{ibjCount + 1}社です。
           </p>
 
           <div className="border border-[#E5DCCF] rounded-xl p-5 text-sm leading-relaxed">
