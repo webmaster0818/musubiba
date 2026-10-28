@@ -67,7 +67,7 @@ const ibjMonthlyRange = `${yen(ibjLo.monthly)}〜${yen(ibjHi.monthly)}`;
 const ibjMonthlyRatio = (ibjHi.monthly / ibjLo.monthly).toFixed(1);
 
 export const metadata: Metadata = {
-  title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年9月】",
+  title: "結婚相談所の「連盟」とは？IBJ・BIU・良縁ネットの違いと24社の加盟状況【2026年10月】",
   description:
     `結婚相談所の連盟は、紹介される会員の母数を決める仕組みです。実査24社中${disclosed}社が加盟連盟を公表しており、そのうち${ibjCount}社がIBJ系でした。同じIBJ系でも月会費${ibjMonthlyRange}、成婚料80,000円〜300,000円と開きがあります。連盟だけで選ぶことをおすすめしない理由を解説します。`,
   alternates: { canonical: "/knowledge/renmei/" },
