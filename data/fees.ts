@@ -75,7 +75,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   bellroad: { date: "2026-10-24" },
   "nagareyama-otakanomori": { date: "2026-10-27" },
   "mars-cafe": { date: "2026-10-14" },
-  "code-for-marriage": { date: "2026-10-22" },
+  "code-for-marriage": { date: "2026-10-28" },
   pitto: { date: "2026-10-23" },
   wellsma: { date: "2026-10-25" },
   "niko-bridal": { date: "2026-10-27" },

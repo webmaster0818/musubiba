@@ -485,7 +485,7 @@ export default function Home() {
             </Link>
             <Link href="/review/code-for-marriage/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
               <p className="font-medium text-[#A08447] tracking-wider">Code For Marriageの評判・料金</p>
-              <p className="text-sm text-[#2C2C2C]/60 mt-1">ITエンジニア専門・仲人は全員が元SE／リモート対応</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">ITエンジニア専門・元ITエンジニアのカウンセラーが担当／オンライン面談対応</p>
             </Link>
             <Link href="/review/niko-bridal/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
               <p className="font-medium text-[#A08447] tracking-wider">nikoブライダル（大阪）の評判・料金</p>

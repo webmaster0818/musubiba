@@ -116,7 +116,7 @@ export default function MarsCafeReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所マーズカフェの口コミ・評判｜料金3コース・成婚率の定義・運営会社
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月22日（料金・実績は2026年10月22日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月28日（料金は2026年10月28日に公式サイトで再確認・10月22日から変更なし。月別の成婚退会者数は公式トップページのお知らせを10月28日に集計）</p>
 
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">マーズカフェ の公式サイトはこちら</a>
@@ -222,6 +222,46 @@ export default function MarsCafeReview() {
             <li>※ 投稿は成婚・婚約に至った方のものが中心で、退会者全体の傾向を示すものではありません。</li>
             <li>※ 費用に触れた2件は現在の料金（入会金66,000円・登録料22,000円・成婚料220,000円）より前の投稿です。現在の総額は料金表と1年総額の試算をご確認ください。</li>
             <li>※ 出典：<a href="https://www.ekiten.jp/shop_19195293/review/" target="_blank" rel="noopener noreferrer" className="underline">エキテン「結婚相談所マーズカフェ」の口コミ</a>（2026年10月22日確認）</li>
+          </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">
+            公式のお知らせから集計した月別の成婚退会者数
+          </h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            マーズカフェは、公式トップページのお知らせで毎月の成婚退会者数を男女別に公表しています。当サイトが2026年10月28日に確認し、2025年1月〜2026年9月分を集計しました。<strong>2025年は年間38名（男性19名・女性19名）、2026年は1〜9月で26名（男性13名・女性13名）</strong>で、1か月あたり2〜5名で推移しています。2025年1〜9月の28名と比べると、2026年の同時期は26名です。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]">
+                  <th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">月</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">2025年</th>
+                  <th className="px-4 py-3 text-center font-medium text-[#2C2C2C]">2026年</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">1月</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">2月</td><td className="px-4 py-3 text-center">4名（男性3・女性1）</td><td className="px-4 py-3 text-center">2名（男性1・女性1）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">3月</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td><td className="px-4 py-3 text-center">2名（男性1・女性1）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">4月</td><td className="px-4 py-3 text-center">3名（男性2・女性1）</td><td className="px-4 py-3 text-center">3名（男性2・女性1）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">5月</td><td className="px-4 py-3 text-center">2名（男性1・女性1）</td><td className="px-4 py-3 text-center">4名（男性2・女性2）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">6月</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td><td className="px-4 py-3 text-center">4名（男性2・女性2）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">7月</td><td className="px-4 py-3 text-center">4名（男性2・女性2）</td><td className="px-4 py-3 text-center">2名（男性1・女性1）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">8月</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td><td className="px-4 py-3 text-center">3名（男性1・女性2）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">9月</td><td className="px-4 py-3 text-center">3名（男性2・女性1）</td><td className="px-4 py-3 text-center">3名（男性2・女性1）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">10月</td><td className="px-4 py-3 text-center">2名（男性1・女性1）</td><td className="px-4 py-3 text-center">－</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">11月</td><td className="px-4 py-3 text-center">3名（男性2・女性1）</td><td className="px-4 py-3 text-center">－</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">12月</td><td className="px-4 py-3 text-center">5名（男性2・女性3）</td><td className="px-4 py-3 text-center">－</td></tr>
+                <tr className="border-t border-gray-100 bg-[#FAF7F2]"><td className="px-4 py-3 font-medium">合計</td><td className="px-4 py-3 text-center font-medium">38名（男性19・女性19）</td><td className="px-4 py-3 text-center font-medium">26名（1〜9月・男性13・女性13）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="text-xs text-[#2C2C2C]/60 leading-relaxed space-y-1">
+            <li>※ 人数は公式のお知らせ（例：2026年10月1日「9月は3名(男性2名・女性1名)が成婚退会されました」）の記載をそのまま集計したものです。成婚率72.5%（2025年1〜12月の全退会者に占める成婚退会者の割合・公式）の算出に使われた退会者総数は公表されていません。</li>
+            <li>※ 公式サイトの「成婚STORY」は2026年10月22日に123件目が掲載されています。</li>
+            <li>※ 出典：<a href="https://marzcafe.com/" target="_blank" rel="noopener noreferrer" className="underline">マーズカフェ公式サイト（お知らせ）</a>（2026年10月28日確認）</li>
           </ul>
         </section>
 
