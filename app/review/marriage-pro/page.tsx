@@ -22,22 +22,44 @@ const overview = {
   successRate: "80.4%（2025年・成婚退会者数÷全退会者数／平均活動期間7.9ヶ月・公式サイト記載・2026年10月26日確認）",
 };
 
-const strengths = [
+// 2026-10-29: 4項目とも公式サイトの「選ばれる理由」（トップ）・「弊社の強み」（/merit/）・会社概要（/counselor/）の記載で確認し、出典URLを付けた。
+// 旧3項目の「専任で担当」「婚活戦略の立案・PDCA」は公式のサービス説明に記載がない（prop-p.com 全484URLを検索。「専任」は2023年の成婚者インタビュー1件の個人の感想のみ）ため 10/27 に削除済み。
+const STRENGTH_CHECKED = "2026年10月29日";
+const strengths: { title: string; desc: string; sources: { label: string; href: string }[] }[] = [
   {
     title: "20代・30代専門で、同世代カウンセラーの男女チームが担当",
-    desc: "公式サイトでは、入会者の97%以上が20〜30代であり、同世代のカウンセラーが男女のチームでサポートすると案内しています。カウンセラー紹介ページには、代表カウンセラー（男性）とチーフカウンセラー（女性）の2名が掲載されています（2026年10月27日確認）。",
+    desc: "公式サイトでは「入会される方の97％以上が『20〜30代』」と記載し、同世代カウンセラーの男女チームで客観的かつ多角的なサポートを提供すると案内しています。カウンセラー紹介には、代表カウンセラー（男性）とチーフカウンセラー（女性）の2名が掲載されています。また、少人数制サポート（カウンセラー1人あたり30名まで）を採用していると記載しています。",
+    sources: [
+      { label: "公式トップ「marriage proが選ばれる理由」", href: "https://prop-p.com/" },
+      { label: "弊社の強み（POINT 02・04）", href: "https://prop-p.com/merit/" },
+      { label: "カウンセラー紹介・会社概要", href: "https://prop-p.com/counselor/" },
+    ],
   },
   {
     title: "「10ヶ月成婚」を掲げ、成婚率・活動期間を公表",
-    desc: "公式トップでは、2025年の成婚者38名、成婚率80.4%（注記は「2025年の成婚退会者数÷全退会者社数」）、平均活動期間7.9ヶ月（最頻値4ヶ月）、開業以来の累計成婚100名突破を掲載しています（2026年10月27日確認）。成婚率の分母は退会者のため、入会者のうち成婚する割合を示す数値ではありません。",
+    desc: "公式サイトでは相談所理念を「成婚ファースト」とし、「どんな方でも10ヶ月で成婚を目指します」と記載しています。2025年の成婚者は38名、成婚率は80.4%（注記は「2025年の成婚退会者数÷全退会者社数」）、平均活動期間は7.9ヶ月（最頻値4ヶ月・男性8.2ヶ月・女性7.8ヶ月）、開業以来の累計成婚100名突破（2026年7月26日に100名）を公表しています。成婚率の分母は退会者のため、入会者のうち成婚する割合を示す数値ではありません。",
+    sources: [
+      { label: "公式トップ", href: "https://prop-p.com/" },
+      { label: "弊社の強み（POINT 03）", href: "https://prop-p.com/merit/" },
+      { label: "お知らせ「開業以来、累計100名のご成婚となりました」", href: "https://prop-p.com/2026100-2/" },
+    ],
   },
   {
     title: "LINE相談は24時間365日、面談は回数制限なし",
-    desc: "公式サイトでは、LINEでの相談に24時間365日対応し、面談は制限なく随時受けられると案内しています。新宿のオフィスは完全個室で、営業時間は11:00〜22:30です（2026年10月27日確認）。",
+    desc: "公式サイトでは、LINE相談は24時間365日対応、面談は随時可能（無料・制限なし）、お見合い申込は100件以上と記載しています。新宿のオフィスでは完全個室の会議室で対応し、営業時間は11:00〜22:30です。オンラインでの対応も案内しています。",
+    sources: [
+      { label: "弊社の強み（POINT 05・06）", href: "https://prop-p.com/merit/" },
+      { label: "公式トップ（営業時間）", href: "https://prop-p.com/" },
+    ],
   },
   {
     title: "IBJ加盟で、IBJの会員ネットワークを利用可能",
-    desc: "日本結婚相談所連盟（IBJ）の加盟相談所のため、お相手探しはIBJの会員ネットワークが対象です。公式トップではIBJ AWARD 2021〜2025の受賞を掲載しています。",
+    desc: "会社概要の加盟連盟はIBJ（日本結婚相談所連盟）で、公式トップでは「東証プライム上場企業のIBJの正規加盟店」と記載しています。お相手探しはIBJの会員ネットワークが対象です。公式トップではIBJ AWARD 2021〜2025の受賞を掲載しており、2026年7月11日のお知らせではIBJ AWARD 2026上期（PREMIUM部門）の受賞を発表しています。",
+    sources: [
+      { label: "カウンセラー紹介・会社概要", href: "https://prop-p.com/counselor/" },
+      { label: "公式トップ", href: "https://prop-p.com/" },
+      { label: "お知らせ「IBJ AWARD 2026上期 受賞のお知らせ」", href: "https://prop-p.com/2026710-2/" },
+    ],
   },
 ];
 
@@ -68,12 +90,12 @@ const faqs = [
     a: "公式サイトでは、入会時の必要書類として、身分証明書・住民票・独身証明書・収入証明（男性は必須、女性は任意）・勤務先が確認できる書類・卒業証明書（短大卒以上の方のみ）が案内されています（公式サイト記載・2026年10月26日確認）。20代・30代専門の相談所のため、年齢などの入会条件は無料相談でご確認ください。",
   },
   {
-    q: "マリッジプロのプロカウンセラーとはどのような方ですか？",
+    q: "マリッジプロのカウンセラーはどのような方ですか？",
     a: "公式サイトでは、会員と同世代のカウンセラーが男女のチームでサポートすると案内されています。プロフィール作成、お見合いやデートの会話のアドバイス、ファッションのアドバイスのほか、LINEでの相談に24時間365日対応しています（公式サイト記載・2026年10月26日確認）。",
   },
   {
     q: "マリッジプロの無料相談では何ができますか？",
-    a: "無料相談では、プロカウンセラーとの面談、サービスの説明、料金プランの案内、婚活に関する具体的なアドバイスが受けられます。入会を強制されることはありません。",
+    a: "無料相談では、カウンセラーとの面談、サービスの説明、料金プランの案内、婚活に関する具体的なアドバイスが受けられます。入会を強制されることはありません。",
   },
   {
     q: "マリッジプロの退会方法を教えてください",
@@ -166,6 +188,11 @@ export default function MarriageProReview() {
               <div key={i} className="bg-white rounded-xl border border-gray-100 p-6">
                 <h3 className="font-medium text-lg mb-2 text-[#A08447] tracking-wider">{s.title}</h3>
                 <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{s.desc}</p>
+                <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">
+                  出典：{s.sources.map((src, j) => (
+                    <span key={src.href + j}>{j > 0 && "／"}<a href={src.href} target="_blank" rel="noopener noreferrer" className="underline">{src.label}</a></span>
+                  ))}（{STRENGTH_CHECKED}確認）
+                </p>
               </div>
             ))}
           </div>
@@ -203,7 +230,7 @@ export default function MarriageProReview() {
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">80,000円〜110,000円</td><td className="px-4 py-3 text-center">137,500円〜</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">約2.9万人</td><td className="px-4 py-3 text-center">約8.5万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">ハイブリッド型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">プロカウンセラー</td><td className="px-4 py-3 text-center">成婚率は公式参照</td><td className="px-4 py-3 text-center">成婚率は公式参照</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">20代・30代専門</td><td className="px-4 py-3 text-center">成婚率は公式参照</td><td className="px-4 py-3 text-center">成婚率は公式参照</td></tr>
               </tbody>
             </table>
           </div>
@@ -307,7 +334,7 @@ export default function MarriageProReview() {
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
           <h2 className="text-xl font-light mb-4 tracking-widest">マリッジプロの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">プロカウンセラーによる無料相談をご利用いただけます</p>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">カウンセラーによる無料相談をご利用いただけます</p>
           <Link href="/" className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest">ランキングに戻る</Link>
         </section>
 

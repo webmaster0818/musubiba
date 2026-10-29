@@ -138,7 +138,7 @@ export default function ComparePage() {
             <li><Link href="/compare/musbell-vs-ringbell/" className="text-rose-700 underline">ムスベルとリングベルを比較する（料金総額・対象年代・特徴）</Link></li>
             <li><Link href="/review/musbell/" className="text-rose-700 underline">ムスベルの評判・料金を見る（全国・複数連盟加盟）</Link></li>
             <li><Link href="/review/ringbell/" className="text-rose-700 underline">リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-rose-700 underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-rose-700 underline">マリッジプロの評判・料金を見る（20代・30代専門・新宿）</Link></li>
           </ul>
         </section>
 

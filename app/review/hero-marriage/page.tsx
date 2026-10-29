@@ -323,7 +323,7 @@ export default function HeroMarriageReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較一覧を見る</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（プロカウンセラー特化）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（20代・30代専門・新宿）</Link></li>
             <li><Link href="/review/musbell/" className="text-[#A08447] underline">ムスベルの評判・料金を見る（複数連盟加盟の仲人型大手）</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る（オンライン完結・低価格帯）</Link></li>
           </ul>

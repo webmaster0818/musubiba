@@ -286,7 +286,7 @@ export default function MusbellReview() {
             <li><Link href="/compare/tulip-vs-musbell/" className="text-[#A08447] underline">ブライダルチューリップとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/compare/folli-vs-musbell/" className="text-[#A08447] underline">フォリパートナーとムスベルを比較する（料金・成婚率・サポート）</Link></li>
             <li><Link href="/review/ringbell/" className="text-[#A08447] underline">リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）</Link></li>
-            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（プロカウンセラー専任）</Link></li>
+            <li><Link href="/review/marriage-pro/" className="text-[#A08447] underline">マリッジプロの評判・料金を見る（20代・30代専門・新宿）</Link></li>
             <li><Link href="/review/folli-partner/" className="text-[#A08447] underline">フォリパートナーの評判・料金を見る（同じIBJ仲人型・毎月の紹介人数保証付き）</Link></li>
             <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（仲人サポートを月11,800円〜のオンラインで受けたい方向け）</Link></li>
             <li><Link href="/compare/cheap/" className="text-[#A08447] underline">安い結婚相談所を1年総額で比較する（初期費用＋月会費＋成婚料）</Link></li>

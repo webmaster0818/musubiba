@@ -451,7 +451,7 @@ export default function Home() {
             </Link>
             <Link href="/review/marriage-pro/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
               <p className="font-medium text-[#A08447] tracking-wider">マリッジプロの評判・料金を見る</p>
-              <p className="text-sm text-[#2C2C2C]/60 mt-1">専任のカウンセラーが活動計画を立ててサポート</p>
+              <p className="text-sm text-[#2C2C2C]/60 mt-1">新宿の20代・30代専門のIBJ加盟相談所で、同世代カウンセラーの男女チームがサポート</p>
             </Link>
           </div>
         </div>

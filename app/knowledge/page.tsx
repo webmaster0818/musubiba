@@ -47,7 +47,7 @@ const relatedLinks = [
   { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）を見る" },
   { href: "/review/musbell/", label: "ムスベルの評判・料金を見る（全国・複数連盟加盟）" },
   { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）" },
-  { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（プロカウンセラー専任）" },
+  { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（20代・30代専門・新宿）" },
 ];
 
 const breadcrumbJsonLd = {

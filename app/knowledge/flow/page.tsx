@@ -79,7 +79,7 @@ const relatedLinks = [
   { href: "/compare/", label: "結婚相談所の料金比較（24社一覧）でサポート内容を見比べる" },
   { href: "/review/musbell/", label: "ムスベルの評判・料金を見る（活動サポートの特徴）" },
   { href: "/review/ringbell/", label: "リングベルの評判・料金を見る（IBJ加盟のオンライン結婚相談所）" },
-  { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（プロカウンセラー専任）" },
+  { href: "/review/marriage-pro/", label: "マリッジプロの評判・料金を見る（20代・30代専門・新宿）" },
   { href: "/knowledge/cost/", label: "結婚相談所の料金相場・総額の目安を見る" },
   { href: "/knowledge/how-to-choose/", label: "結婚相談所の選び方｜タイプ別の違いを見る" },
 ];
