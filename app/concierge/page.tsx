@@ -121,7 +121,7 @@ const agencies: Agency[] = [
     features: ['IBJ加盟', 'オンライン完結', 'LINE相談無制限', '条件付き全額返金保証'],
     priority: ['カウンセラーのサポート', 'オンライン対応'],
     style: ['プロにお任せ', 'オンライン中心'],
-    screenshotSlug: 'ringbell-2026',
+    screenshotSlug: 'ringbell-official',
   },
   {
     name: 'フィオーレ',
