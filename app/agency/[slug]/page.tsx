@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import PartnerPicks from "@/components/PartnerPicks";
 import { loadAgencyDb, indexableAgencies, findBrand, sameBrandAgencies, shortAddress, AREA_LABELS, DB_PREFS, type Agency, type AgencyDb } from "@/lib/agencies";
+import { agencyOfficial, officialCheckedLabel, type AgencyOfficial, type Sourced } from "@/data/agency-official";
 
 /*
  * 相談所ごとの個別ページ(Google Places API実測データのみ・捏造ゼロ)。
@@ -11,7 +12,62 @@ import { loadAgencyDb, indexableAgencies, findBrand, sameBrandAgencies, shortAdd
  * 都道府県はDB_PREFS(tokyo/osaka…)を横断してslugから解決する。
  */
 
-type Resolved = { a: Agency; db: AgencyDb; pref: string; prefName: string; areaHref: string };
+function SourceLine({ url }: { url: string }) {
+  return <span className="block text-xs text-[#999] mt-1 break-all">出典: {url}</span>;
+}
+
+function OfficialInfo({ name, o }: { name: string; o: AgencyOfficial }) {
+  const rows: { label: string; s: Sourced }[] = [];
+  if (o.federation) rows.push({ label: "加盟連盟", s: o.federation });
+  if (o.hours) rows.push({ label: o.hours.label ?? "営業時間", s: o.hours });
+  if (o.holiday) rows.push({ label: "定休日", s: o.holiday });
+  return (
+    <section className="mb-8">
+      <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">{name}の公式情報</h2>
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-3">
+        <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">公式サイトの記載({officialCheckedLabel(o)})</div>
+        <div className="divide-y divide-gray-50 text-sm">
+          {o.note && (
+            <div className="px-6 py-3.5 text-[#2C2C2C]">{o.note.value}<SourceLine url={o.note.sourceUrl} /></div>
+          )}
+          {rows.map((r) => (
+            <div key={r.label} className="flex px-6 py-3.5">
+              <span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">{r.label}</span>
+              <span className="text-[#2C2C2C]">{r.s.value}<SourceLine url={r.s.sourceUrl} /></span>
+            </div>
+          ))}
+        </div>
+      </div>
+      {o.fees && (
+        <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-3">
+          <div className="bg-[#FAF7F2] text-[#2C2C2C] px-6 py-3.5 font-medium border-b border-[#E5DCCF]">料金(公式サイトの料金表より)</div>
+          {o.fees.plans.map((p) => (
+            <div key={p.name} className="border-b border-gray-100 last:border-b-0">
+              <p className="px-6 pt-3.5 pb-1 text-sm font-semibold text-[#A08447]">{p.name}</p>
+              <div className="divide-y divide-gray-50 text-sm">
+                {p.rows.map((r) => (
+                  <div key={r.label} className="flex px-6 py-2.5">
+                    <span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">{r.label}</span>
+                    <span className="text-[#2C2C2C]">{r.value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+          <p className="px-6 py-3 text-xs text-[#999] leading-relaxed bg-[#FAF7F2]">
+            ※{o.fees.taxNote}
+            <span className="block break-all">出典: {o.fees.sourceUrl}</span>
+          </p>
+        </div>
+      )}
+      <p className="text-xs text-[#999] leading-relaxed">
+        ※上記は当サイトが公式サイトで確認した記載です。公式サイトで確認できなかった項目は掲載しておりません。料金や営業時間は変更される場合がありますので、ご利用前に公式サイトにて最新情報をご確認ください。
+      </p>
+    </section>
+  );
+}
+
+type Resolved ={ a: Agency; db: AgencyDb; pref: string; prefName: string; areaHref: string };
 
 export function generateStaticParams() {
   const params: { slug: string }[] = [];
@@ -62,6 +118,7 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
   if (!r) return null;
   const { a, db, pref, prefName, areaHref } = r;
   const brand = findBrand(a.name);
+  const official = agencyOfficial(a.slug);
   const primaryArea = a.areas[0];
   const main = indexableAgencies(db);
   // 常に先頭5件だと上位店舗にしかリンクが集まらず、残りの店舗ページは一覧からしか
@@ -119,6 +176,10 @@ export default async function AgencyPage({ params }: { params: Promise<{ slug: s
           <div className="flex px-6 py-3.5"><span className="w-32 shrink-0 font-medium text-[#2C2C2C]/50">検索エリア</span><span className="text-[#2C2C2C]">{a.areas.map((ar) => AREA_LABELS[ar] || ar).join("・")}</span></div>
         </div>
       </div>
+
+      {/* 公式情報(2026-10-30)。data/agency-official.ts に登録した店舗だけに出す(未登録の店舗は何も出力しない)。
+          出典URLは文字で示し、リンクにはしない(未提携社の外部リンクはGoogleマップに限定する方針のため)。 */}
+      {official && <OfficialInfo name={a.name} o={official} />}
 
       <section className="mb-8">
         <h2 className="text-xl font-light mb-4 border-l-4 border-[#A08447] pl-4 tracking-widest">データで見る{a.name}</h2>
