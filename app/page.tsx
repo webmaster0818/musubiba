@@ -110,7 +110,7 @@ const services = [
   },
 ];
 
-type AgencyCard = { name: string; slug: string; path: string; fee: string; noImage?: boolean };
+type AgencyCard = { name: string; slug: string; path: string; fee: string; noImage?: boolean; image?: string };
 
 const allAgencies: AgencyCard[] = [
   { name: "ツヴァイ", slug: "zwei", path: "/review/zwei/", fee: "月会費15,950円〜" },
@@ -118,7 +118,7 @@ const allAgencies: AgencyCard[] = [
   { name: "パートナーエージェント", slug: "partner-agent", path: "/review/partner-agent/", fee: "月会費14,300円〜" },
   { name: "マーズカフェ", slug: "mars-cafe", path: "/review/mars-cafe/", fee: "月会費7,700円〜" },
   { name: "スマリッジ", slug: "smartread", path: "/review/smartread/", fee: "月会費9,900円" },
-  { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費17,600円", noImage: true },
+  { name: "リングベル", slug: "ringbell", path: "/review/ringbell/", fee: "月会費17,600円", image: "/ss-ringbell-2026.jpg" },
   { name: "フィオーレ", slug: "fiore", path: "/review/fiore/", fee: "月会費5,830円〜" },
   { name: "マリッジプロ", slug: "marriage-pro", path: "/review/marriage-pro/", fee: "月会費9,000円〜", noImage: true },
   { name: "結婚相談所セブン", slug: "seven", path: "/review/seven/", fee: "月会費9,800円" },
@@ -412,7 +412,7 @@ export default function Home() {
                   </div>
                 ) : (
                   <div className="aspect-video overflow-hidden">
-                    <img src={`/ss-${agency.slug}.jpg`} alt={`${agency.name} 公式サイト`} className="w-full h-full object-cover object-top" />
+                    <img src={agency.image ?? `/ss-${agency.slug}.jpg`} alt={`${agency.name} 公式サイト`} className="w-full h-full object-cover object-top" />
                   </div>
                 )}
                 <div className="p-4">
