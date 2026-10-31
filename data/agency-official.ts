@@ -24,7 +24,7 @@ export type AgencyOfficial = {
   /** label は公式の項目名（「営業時間」「受付時間」など）。省略時は「営業時間」 */
   hours?: Sourced & { label?: string };
   holiday?: Sourced;
-  /** 公式サイトでの店舗の案内（業態が名称から読み取りにくい場合のみ） */
+  /** 公式サイトでの店舗の案内（業態が名称から読み取りにくい場合、公式の店舗名・最寄り駅が掲載名と異なる場合など） */
   note?: Sourced;
 };
 
@@ -163,6 +163,161 @@ export const AGENCY_OFFICIAL: Record<string, AgencyOfficial> = {
     },
     hours: { label: "受付時間", value: "平日 11:00～19:00／土日祝 10:00～19:00", sourceUrl: "https://hiroshima-bridalbox.jp/stores/" },
     holiday: { value: "毎週火・水曜日", sourceUrl: "https://hiroshima-bridalbox.jp/stores/" },
+  },
+
+  // 2026-10-31 追加（GSC「結婚相談所ハッピーカムカム銀座サロン 中央区」10.8位）。
+  // 料金は公式 /system/ の「アガペAコース ※こちらの1プランです。」。登録料は表の下の「＊別途、初回に限り登録料がかかります」。
+  // 「～10月末まで、特典実施中！」の特典内容は期限付きのため載せない。加盟はフッター「ハッピーカムカムはIBJの加盟店です」。
+  // 電話受付は銀座サロンのページ「お電話でも年中無休で相談予約承ります 8:00~22:00」。サロンの営業時間の記載はないため書かない。
+  "結婚相談所ハッピーカムカム銀座サロン-becd": {
+    checkedAt: "2026-10-31",
+    note: {
+      value: "公式サイトの銀座サロン案内では、所在地は中央区銀座4丁目13-8 ソフィアスクエア銀座404、東銀座駅から徒歩1分・銀座駅から徒歩3分・JR有楽町駅から徒歩6分と記載されています。",
+      sourceUrl: "https://www.1rankue.com/ginza/",
+    },
+    fees: {
+      sourceUrl: "https://www.1rankue.com/system/",
+      taxNote: "各金額は税込です（公式サイトの表記）。登録料は初回のみ別途かかると記載されています。",
+      plans: [
+        {
+          name: "アガペAコース（公式サイト記載の1プラン）",
+          rows: [
+            { label: "入会金", value: "88,000円" },
+            { label: "登録料", value: "33,000円（初回のみ）" },
+            { label: "お見合い料", value: "11,000円" },
+            { label: "月会費", value: "16,500円" },
+            { label: "ご成婚料", value: "242,000円" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ加盟店", sourceUrl: "https://www.1rankue.com/" },
+    hours: { label: "電話での相談予約", value: "8:00~22:00（年中無休）", sourceUrl: "https://www.1rankue.com/ginza/" },
+  },
+
+  // 2026-10-31 追加（GSC「ibj メンバーズ 神戸 店 レビュー」5.7位・「ibjメンバーズ クチコミ」）。
+  // 料金は全店共通の /price（税抜を大きく、括弧内に税込）。お見合い料の記載はないため書かない。
+  // 営業時間・定休日・アクセスは /kobe/ の店舗情報。運営は公式トップ「東証プライム上場企業・株式会社IBJが運営する結婚相談所」。
+  "結婚相談所IBJメンバーズ-神戸店-f92b": {
+    checkedAt: "2026-10-31",
+    note: {
+      value: "公式サイトの神戸店案内では、JR三ノ宮駅から徒歩3分の「井門三宮ビル」9階と記載されています。",
+      sourceUrl: "https://www.loungemembers.com/kobe/",
+    },
+    fees: {
+      sourceUrl: "https://www.loungemembers.com/price",
+      taxNote: "公式サイトの表記（税抜金額と、括弧内に税込金額）のまま記載しています。",
+      plans: [
+        {
+          name: "基本料金（全店共通）",
+          rows: [
+            { label: "登録料", value: "30,000円（税込33,000円）" },
+            { label: "活動サポート費", value: "199,500円（税込219,450円）" },
+            { label: "月会費", value: "15,500円（税込17,050円）" },
+            { label: "成婚料", value: "200,000円（税込220,000円）" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ直営（株式会社IBJが運営する結婚相談所）", sourceUrl: "https://www.loungemembers.com/" },
+    hours: { value: "10:00 〜 19:00", sourceUrl: "https://www.loungemembers.com/kobe/" },
+    holiday: { value: "火曜日", sourceUrl: "https://www.loungemembers.com/kobe/" },
+  },
+
+  // 2026-10-31 追加（GSC「20代30代専門の結婚相談所エンエール 広島店 広島市 レビュー」5.3位）。
+  // 公式トップの料金表（「2025年6月現在」）。大変身プランの成婚料のみ「(税込)」の表記がないため、表記どおり区別して載せる。
+  // 加盟は「東証プライム上場企業IBJの正規加盟店です」。営業時間・定休日はフッターの「広島本通サロン」欄。
+  "エンエール-de0c": {
+    checkedAt: "2026-10-31",
+    note: {
+      value: "公式サイトでは店舗を「広島本通サロン」（広島市中区本通7-29 アイビービル7F、広島電鉄市内線本通駅・アストラムライン本通駅より徒歩1分）と案内しています。",
+      sourceUrl: "https://en-yell.jp/",
+    },
+    fees: {
+      sourceUrl: "https://en-yell.jp/",
+      taxNote: "公式サイトの料金表は「2025年6月現在」の表記です。大変身プランの成婚料以外の金額には「(税込)」と記載されています。",
+      plans: [
+        {
+          name: "フルサポートプラン",
+          rows: [
+            { label: "初期費用", value: "48,000円(税込)" },
+            { label: "月会費", value: "12,000円(税込)" },
+            { label: "お見合い料", value: "0円" },
+            { label: "成婚料", value: "165,000円(税込)" },
+          ],
+        },
+        {
+          name: "大変身プラン",
+          rows: [
+            { label: "初期費用", value: "100,000円(税込)" },
+            { label: "月会費", value: "12,000円(税込)" },
+            { label: "お見合い料", value: "0円" },
+            { label: "成婚料", value: "200,000円（公式の料金表に税込・税抜の表記なし）" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ正規加盟店", sourceUrl: "https://en-yell.jp/" },
+    hours: { value: "AM10:00〜PM20:00(完全予約制)", sourceUrl: "https://en-yell.jp/" },
+    holiday: { value: "不定休", sourceUrl: "https://en-yell.jp/" },
+  },
+
+  // 2026-10-31 追加（GSC「＞大阪 結婚相談所相談 結婚物語」9.5位）。掲載名は「大阪ベース」だが、公式の拠点名は「大阪梅田サロン」（同じ阪急グランドビル20F）。
+  // 料金は /price/ のフルサポートプラン。加盟は公式トップ「IBJ・TMS・BIUの3連盟に加盟」。営業時間・定休は /osaka/ の拠点情報。
+  "結婚相談所-結婚物語-大阪ベース-53f3": {
+    checkedAt: "2026-10-31",
+    note: {
+      value: "公式サイトでは「結婚物語。大阪梅田サロン」（大阪市北区角田町8-47 阪急グランドビル20F、各線「大阪駅」「梅田駅」から徒歩2〜5分）として案内されています。",
+      sourceUrl: "https://kekkon-monogatari.com/osaka/",
+    },
+    fees: {
+      sourceUrl: "https://kekkon-monogatari.com/price/",
+      taxNote: "金額はすべて税込です（公式サイトの表記）。公式サイトでは、入会時に初期費用208,000円と月会費2か月分33,000円を合わせた241,000円を支払うと記載されています。",
+      plans: [
+        {
+          name: "フルサポートプラン",
+          rows: [
+            { label: "入会金", value: "33,000円" },
+            { label: "登録費", value: "55,000円" },
+            { label: "活動サポート費", value: "120,000円" },
+            { label: "月会費", value: "16,500円/月" },
+            { label: "お見合い料", value: "0円" },
+            { label: "成婚料", value: "220,000円" },
+            { label: "更新料", value: "66,000円/年（3年目以降1年ごと）" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ・TMS・BIUの3連盟に加盟", sourceUrl: "https://kekkon-monogatari.com/" },
+    hours: { value: "10:00〜19:00", sourceUrl: "https://kekkon-monogatari.com/osaka/" },
+    holiday: { value: "火曜日・夏季休業・年末年始休業", sourceUrl: "https://kekkon-monogatari.com/osaka/" },
+  },
+
+  // 2026-10-31 追加（9月「みやぎ結婚支援センター レビュー」7.0位・表示30 → 10月は表示なし）。
+  // 宮城県が開設した結婚支援センター（公式FAQ）。民間の連盟加盟ではないため加盟連盟は書かない。
+  // 料金は /guide/ の「入会登録料（2年間有効）」と「※月会費、成婚手数料なし」。開所時間・休所日は /about/。
+  "みやぎ結婚支援センター-244a": {
+    checkedAt: "2026-10-31",
+    note: {
+      value: "公式サイトでは「宮城県が開設した、独身者の出会いと結婚をサポートする拠点」と案内されています。登録時の年齢が20歳～49歳までの方が対象です。",
+      sourceUrl: "https://miya-mari.net/faq/",
+    },
+    fees: {
+      sourceUrl: "https://miya-mari.net/guide/",
+      taxNote: "金額は税込です（公式サイトの表記）。",
+      plans: [
+        {
+          name: "会員登録",
+          rows: [
+            { label: "入会登録料", value: "11,000円（2年間有効）" },
+            { label: "20歳代の方", value: "5,500円（入会の面談時点で20歳代の場合）" },
+            { label: "月会費・成婚手数料", value: "なし" },
+          ],
+        },
+      ],
+    },
+    hours: { label: "開所時間", value: "木曜日～月曜日 11時～18時（来所は事前予約制）", sourceUrl: "https://miya-mari.net/about/" },
+    holiday: { value: "火・水及び年末年始は休所（火・水が祝日の場合は営業、祝日の翌日は休所）", sourceUrl: "https://miya-mari.net/about/" },
   },
 };
 
