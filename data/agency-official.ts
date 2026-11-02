@@ -28,6 +28,44 @@ export type AgencyOfficial = {
   note?: Sourced;
 };
 
+// とら婚の料金は全店共通の料金ページ（https://toracon.jp/plans/）。女性専用店舗「池袋オフィス」専用の
+// 「池袋ベーシックプラン」は池袋オフィスだけに足す。期限付きの店舗限定キャンペーン・割引は載せない。
+const TORACON_FEES = {
+  sourceUrl: "https://toracon.jp/plans/",
+  taxNote: "価格はすべて税込です（公式サイトの表記）。",
+  plans: [
+    {
+      name: "とら女子プラン（女性限定）",
+      rows: [
+        { label: "入会初期費用", value: "149,800円（登録料39,800円・活動初期費64,000円・活動サポート費46,000円）" },
+        { label: "月会費", value: "15,800円" },
+        { label: "お見合い料", value: "無料" },
+        { label: "成婚料", value: "220,000円" },
+      ],
+    },
+    {
+      name: "ベーシックプラン",
+      rows: [
+        { label: "入会初期費用", value: "193,800円（登録料39,800円・活動初期費64,000円・活動サポート費90,000円）" },
+        { label: "月会費", value: "19,800円" },
+        { label: "お見合い料", value: "無料" },
+        { label: "成婚料", value: "220,000円" },
+      ],
+    },
+    {
+      name: "ベーシック＋プラン",
+      rows: [
+        { label: "入会初期費用", value: "245,800円（登録料39,800円・活動初期費64,000円・活動サポート費120,000円・特典費22,000円）" },
+        { label: "月会費", value: "22,800円" },
+        { label: "お見合い料", value: "無料" },
+        { label: "成婚料", value: "220,000円" },
+      ],
+    },
+  ],
+};
+
+const TORACON_FEDERATION = { value: "IBJ（日本結婚相談所連盟）加盟", sourceUrl: "https://toracon.jp/" };
+
 export const AGENCY_OFFICIAL: Record<string, AgencyOfficial> = {
   // 仙台市太白区。料金ページのフッターに「TEL：022-797-2877（代表） 10:00〜20:00 定休日:水曜日」
   // 「マリッジサンライズはIBJ正規加盟店の結婚相談所です。」の記載。料金表はHTMLコメントで非表示のコース（20代限定・先着10名）を除く。
@@ -71,42 +109,55 @@ export const AGENCY_OFFICIAL: Record<string, AgencyOfficial> = {
   // 加盟はトップページ「加盟する日本最大級の結婚相談所ネットワーク(IBJ)」。営業日はアクセスページの福岡オフィス欄。
   "とら婚-福岡オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-fea0": {
     checkedAt: "2026-10-30",
+    fees: TORACON_FEES,
+    federation: TORACON_FEDERATION,
+    hours: { label: "営業日", value: "全日11:00～19:00（予約制）", sourceUrl: "https://toracon.jp/access/" },
+    holiday: { value: "火曜日、水曜日", sourceUrl: "https://toracon.jp/access/" },
+  },
+
+  // 2026-11-02 追加（施主判断「A 出す」10/30）。料金・加盟は福岡オフィスと同じ全店共通ページ、営業日はアクセスページの各オフィス欄（11/2確認）。
+  // 横浜オフィスは営業日欄に定休日・年中無休の記載がないため holiday を書かない。
+  "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": {
+    checkedAt: "2026-11-02",
+    fees: TORACON_FEES,
+    federation: TORACON_FEDERATION,
+    hours: { label: "営業日", value: "【平日】12:00～20:00【土日祝】11:00～19:00【予約制】", sourceUrl: "https://toracon.jp/access/" },
+  },
+  "とら婚-大阪オフィス-212e": {
+    checkedAt: "2026-11-02",
+    fees: TORACON_FEES,
+    federation: TORACON_FEDERATION,
+    hours: { label: "営業日", value: "【平日】12:00～20:00【土日祝】11:00～19:00【予約制】（毎週水曜日・木曜日・日曜日は大阪オフィス出張所 in 梅田を開催）", sourceUrl: "https://toracon.jp/access/" },
+    holiday: { value: "年中無休", sourceUrl: "https://toracon.jp/access/" },
+  },
+  "オタクに寄り添う結婚相談所-とら婚-名古屋オフィス-b0cf": {
+    checkedAt: "2026-11-02",
+    fees: TORACON_FEES,
+    federation: TORACON_FEDERATION,
+    hours: { label: "営業日", value: "【平日】12:00～20:00【土日祝】11:00～19:00【予約制】", sourceUrl: "https://toracon.jp/access/" },
+    holiday: { value: "年中無休", sourceUrl: "https://toracon.jp/access/" },
+  },
+  "とら婚-池袋オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-7c58": {
+    checkedAt: "2026-11-02",
+    note: { value: "公式サイトでは「池袋オフィス（女性専用）」と案内されています。", sourceUrl: "https://toracon.jp/access/" },
     fees: {
-      sourceUrl: "https://toracon.jp/plans/",
-      taxNote: "価格はすべて税込です（公式サイトの表記）。",
+      ...TORACON_FEES,
       plans: [
+        ...TORACON_FEES.plans,
         {
-          name: "とら女子プラン（女性限定）",
+          name: "池袋ベーシックプラン（女性限定店舗「池袋オフィス」専用）",
           rows: [
-            { label: "入会初期費用", value: "149,800円（登録料39,800円・活動初期費64,000円・活動サポート費46,000円）" },
-            { label: "月会費", value: "15,800円" },
-            { label: "お見合い料", value: "無料" },
-            { label: "成婚料", value: "220,000円" },
-          ],
-        },
-        {
-          name: "ベーシックプラン",
-          rows: [
-            { label: "入会初期費用", value: "193,800円（登録料39,800円・活動初期費64,000円・活動サポート費90,000円）" },
+            { label: "入会初期費用", value: "208,800円（登録料39,800円・活動初期費64,000円・活動サポート費72,000円・特典費33,000円）" },
             { label: "月会費", value: "19,800円" },
-            { label: "お見合い料", value: "無料" },
-            { label: "成婚料", value: "220,000円" },
-          ],
-        },
-        {
-          name: "ベーシック＋プラン",
-          rows: [
-            { label: "入会初期費用", value: "245,800円（登録料39,800円・活動初期費64,000円・活動サポート費120,000円・特典費22,000円）" },
-            { label: "月会費", value: "22,800円" },
             { label: "お見合い料", value: "無料" },
             { label: "成婚料", value: "220,000円" },
           ],
         },
       ],
     },
-    federation: { value: "IBJ（日本結婚相談所連盟）加盟", sourceUrl: "https://toracon.jp/" },
-    hours: { label: "営業日", value: "全日11:00～19:00（予約制）", sourceUrl: "https://toracon.jp/access/" },
-    holiday: { value: "火曜日、水曜日", sourceUrl: "https://toracon.jp/access/" },
+    federation: TORACON_FEDERATION,
+    hours: { label: "営業日", value: "【平日】10:00～18:00【土日祝】10:00～18:00【予約制】", sourceUrl: "https://toracon.jp/access/" },
+    holiday: { value: "年中無休", sourceUrl: "https://toracon.jp/access/" },
   },
 
   // 料金はコース/ご入会手続きページ。加盟はトップページ「IBJの正規加盟店です」。
@@ -151,18 +202,6 @@ export const AGENCY_OFFICIAL: Record<string, AgencyOfficial> = {
     },
     federation: { value: "IBJ（日本結婚相談所連盟）正規加盟店", sourceUrl: "https://www.mariage-buze.com/" },
     holiday: { value: "不定休", sourceUrl: "https://www.mariage-buze.com/" },
-  },
-
-  // 公式の店舗案内ページの広島パルコ店欄。公式サイトは結婚式場探し・ドレスの相談窓口として案内しており、
-  // 結婚相談所としての料金・加盟連盟の記載はない（page-sitemap.xml 全24ページを確認）ため料金・加盟は書かない。
-  "広島ブライダル館-相談カウンター-広島パルコ店-e002": {
-    checkedAt: "2026-10-30",
-    note: {
-      value: "公式サイトでは「広島の結婚式やウェディングドレスの相談・確認」の窓口として案内されています。",
-      sourceUrl: "https://hiroshima-bridalbox.jp/stores/",
-    },
-    hours: { label: "受付時間", value: "平日 11:00～19:00／土日祝 10:00～19:00", sourceUrl: "https://hiroshima-bridalbox.jp/stores/" },
-    holiday: { value: "毎週火・水曜日", sourceUrl: "https://hiroshima-bridalbox.jp/stores/" },
   },
 
   // 2026-10-31 追加（GSC「結婚相談所ハッピーカムカム銀座サロン 中央区」10.8位）。
