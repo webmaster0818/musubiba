@@ -204,12 +204,13 @@ export default function CodeForMarriageReview() {
             <table className="w-full text-sm border border-gray-100 rounded-lg overflow-hidden">
               <thead><tr className="bg-[#FAF7F2]"><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]/70">掲載先</th><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]/70">件数・内容（2026年10月28日確認）</th></tr></thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3">IBJの相談所ページ（クチコミ）</td><td className="px-4 py-3">評価4.8点・13件。★5が85%、★4が15%</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3"><a href="https://www.ibjapan.com/area/tokyo/57058/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJの相談所ページ（クチコミ）</a></td><td className="px-4 py-3">評価4.8点・13件。★5が85%、★4が15%</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3">公式サイト「MARRIAGE INTERVIEW」</td><td className="px-4 py-3">成婚者インタビュー2件（2023年5月1日・2025年9月28日）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3">IBJの相談所ページ（ブログ）</td><td className="px-4 py-3">カウンセラーブログ163件</td></tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-[#2C2C2C]/60 leading-relaxed mb-4">※出典：<a href="https://www.ibjapan.com/area/tokyo/57058/review/" target="_blank" rel="nofollow noopener noreferrer" className="underline">IBJ公式サイト Code For Marriageのクチコミ一覧</a>（2026年10月28日に確認し、11月4日に再確認して同じ値でした）。評価点と★の割合は、IBJのクチコミ投稿者が付けた5段階評価の平均と内訳を転記したもので、当サイトによる評価ではありません。</p>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             IBJの口コミには、エンジニアが結婚相手として評価される点への納得、カウンセラーの話し方や信頼感、オンライン面談を重ねて成婚に至った経緯などが書かれています（当サイトによる要約です。本文はIBJの相談所ページでご確認ください）。件数はまだ多くないため、当サイトでは以下の点もあわせて確認することをおすすめしています。
           </p>
