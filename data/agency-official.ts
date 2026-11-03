@@ -358,6 +358,154 @@ export const AGENCY_OFFICIAL: Record<string, AgencyOfficial> = {
     hours: { label: "開所時間", value: "木曜日～月曜日 11時～18時（来所は事前予約制）", sourceUrl: "https://miya-mari.net/about/" },
     holiday: { value: "火・水及び年末年始は休所（火・水が祝日の場合は営業、祝日の翌日は休所）", sourceUrl: "https://miya-mari.net/about/" },
   },
+  // 2026-11-03 追加（施主判断「A 出す」10/30）。店舗ページ（https://www.zwei.com/branch/kinki/hyogo/himeji/）の店舗情報欄と料金・プランページ（11/3確認）。
+  // 加盟は料金・プランページ「当社は、…IBJの加盟相談所です。」。20代割などの割引は載せない。
+  "結婚相談所ツヴァイ-姫路店-86a6": {
+    checkedAt: "2026-11-03",
+    fees: {
+      sourceUrl: "https://www.zwei.com/price/",
+      taxNote: "金額は税込です（公式サイトの表記）。公式サイトでは、お見合い料は無料と案内されています。",
+      plans: [
+        {
+          name: "IBJプラン",
+          rows: [
+            { label: "入会初期費用", value: "129,800円（入会・会員登録事務費用を含みます）" },
+            { label: "月会費", value: "18,700円" },
+            { label: "成婚料", value: "220,000円（IBJ会員のお相手とのご成婚の場合のみ。ツヴァイ会員同士のご成婚の場合は0円）" },
+          ],
+        },
+        {
+          name: "ご紹介プラン",
+          rows: [
+            { label: "入会初期費用", value: "118,800円" },
+            { label: "月会費", value: "15,950円" },
+            { label: "成婚料", value: "0円" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ（日本結婚相談所連盟）加盟", sourceUrl: "https://www.zwei.com/price/" },
+    hours: { value: "11:00-19:00　※土・日曜日は10:30オープン", sourceUrl: "https://www.zwei.com/branch/kinki/hyogo/himeji/" },
+    holiday: { value: "毎週火曜日・木曜日　※定休日が祝日の場合は、営業します。", sourceUrl: "https://www.zwei.com/branch/kinki/hyogo/himeji/" },
+  },
+
+  // 料金はサービス・料金ページ（1プラン制）、営業時間・定休日・所属は ABOUT ページの事業所欄（11/3確認）。
+  // 公式サイト（特定商取引法に基づく表記を含む）に所在地の記載はなく、活動拠点を「大阪府 奈良県」としているため note に書く。
+  "東大阪の結婚相談所Scena-シーナ-IBJ加盟店-f9bd": {
+    checkedAt: "2026-11-03",
+    note: { value: "公式サイトでは、活動拠点を「大阪府 奈良県」と案内されています。", sourceUrl: "https://scena-marriage.com/about" },
+    fees: {
+      sourceUrl: "https://scena-marriage.com/service-price",
+      taxNote: "金額は税込です（公式サイトの表記）。公式サイトでは1プラン制と案内されています。",
+      plans: [
+        {
+          name: "料金（1プラン制）",
+          rows: [
+            { label: "初期費用", value: "88,000円" },
+            { label: "月会費", value: "11,000円" },
+            { label: "お見合い費", value: "無料" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ（日本結婚相談所連盟）加盟", sourceUrl: "https://scena-marriage.com/about" },
+    hours: { value: "09:00~19:00　※お問い合わせフォームや公式LINEでのお問い合わせは24時間受け付けております", sourceUrl: "https://scena-marriage.com/about" },
+    holiday: { value: "水曜日", sourceUrl: "https://scena-marriage.com/about" },
+  },
+
+  // 料金はプラン・料金ページ、営業時間・定休日はアクセスページの「結婚相談所Enishell 小田原」欄（11/3確認）。
+  // トライアルプランは「入会金/なし」と「お見合いが成立した段階で入会金・登録費のお支払い」が同じページで食い違うため載せない。移籍者向け割引も載せない。
+  "結婚相談所Enishell-小田原-78c7": {
+    checkedAt: "2026-11-03",
+    fees: {
+      sourceUrl: "https://enishell.jp/menu/",
+      taxNote: "金額は税込です（公式サイトの表記）。写真撮影料・お見合いのキャンセル料・パーティー参加費用は別途と記載されています。",
+      plans: [
+        {
+          name: "スタンダードプラン",
+          rows: [
+            { label: "入会金", value: "55,000円" },
+            { label: "登録料", value: "22,000円" },
+            { label: "月会費", value: "12,100円" },
+            { label: "お見合い料", value: "無料" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+        {
+          name: "マイペースプラン",
+          rows: [
+            { label: "入会金", value: "55,000円" },
+            { label: "登録料", value: "22,000円" },
+            { label: "月会費", value: "7,700円" },
+            { label: "お見合い料", value: "2,200円" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+        {
+          name: "プレミアムプラン",
+          rows: [
+            { label: "入会金", value: "55,000円" },
+            { label: "登録料", value: "22,000円" },
+            { label: "月会費", value: "16,500円" },
+            { label: "お見合い料", value: "無料" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ（日本結婚相談所連盟）正規加盟店", sourceUrl: "https://enishell.jp/" },
+    hours: { value: "08:00～20:00(会員の方へのサポートは時間外も対応いたします）", sourceUrl: "https://enishell.jp/access/" },
+    holiday: { value: "年中無休（e-mail・ｼｮｰﾄﾒｰﾙ受付24時間）", sourceUrl: "https://enishell.jp/access/" },
+  },
+
+  // 料金は料金プランページ、受付時間・定休日はトップページの相談所概要欄（11/3確認）。
+  // 料金プランページに税込・税抜の表記がないため、その旨を taxNote に書く。お試しプランは載せない。
+  "結婚相談-婚活サポート-結愛花-yumeka-7d88": {
+    checkedAt: "2026-11-03",
+    fees: {
+      sourceUrl: "https://www.konkatuyumeka.com/fee/",
+      taxNote: "公式サイトの料金プランページには、税込・税抜の表記がありません。",
+      plans: [
+        {
+          name: "オンラインプラン",
+          rows: [
+            { label: "入会金", value: "33,000円" },
+            { label: "登録料", value: "44,000円" },
+            { label: "月会費", value: "7,700円" },
+            { label: "活動サポート費", value: "有料" },
+            { label: "お見合い料", value: "一回につき525円" },
+            { label: "ご成婚料", value: "110,000円" },
+          ],
+        },
+        {
+          name: "スタンダードプラン",
+          rows: [
+            { label: "入会金", value: "33,000円" },
+            { label: "登録料", value: "44,000円" },
+            { label: "活動サポート費", value: "内容により無料" },
+            { label: "月会費", value: "11,000円" },
+            { label: "お見合い料", value: "無料（上限200件）" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+        {
+          name: "プレミアムプラン",
+          rows: [
+            { label: "入会金", value: "33,000円" },
+            { label: "登録料", value: "77,000円" },
+            { label: "活動サポート費", value: "無料" },
+            { label: "月会費", value: "16,500円" },
+            { label: "お見合い料", value: "無料（上限200件）" },
+            { label: "ご成婚料", value: "220,000円" },
+          ],
+        },
+      ],
+    },
+    federation: { value: "IBJ（日本結婚相談所連盟）正規加盟店", sourceUrl: "https://www.konkatuyumeka.com/" },
+    hours: { label: "受付時間", value: "10:00～21:00", sourceUrl: "https://www.konkatuyumeka.com/" },
+    holiday: { value: "不定休", sourceUrl: "https://www.konkatuyumeka.com/" },
+  },
 };
 
 export function agencyOfficial(slug: string): AgencyOfficial | null {
