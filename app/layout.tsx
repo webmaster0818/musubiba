@@ -52,6 +52,14 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" sizes="192x192" href="/android-chrome-192x192.png" />
         <meta name="theme-color" content="#A08447" />
+        {/* サイト全体の動き(2026-11-03・転職ラボと同じ作り)。reduce の環境・JSが動かない環境では何も付かず、全文がそのまま見える。
+            data-tl="top" は TOP のヒーロー、data-tl="page" は下層の h1 の入り方に使う(globals.css)。 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{if(!matchMedia('(prefers-reduced-motion: reduce)').matches){var d=document.documentElement,m=location.pathname==='/'?'top':'page';window.__tlT0=performance.now();window.__tlMode=m;d.setAttribute('data-tl',m)}}catch(e){}",
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

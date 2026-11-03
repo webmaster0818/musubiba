@@ -33,25 +33,48 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
-/* スクロールで現れる演出(2026-10-02)。
-   初期状態は JS が data-rv を付けたときだけ適用する。
-   JSが動かない環境では何も隠れないので、本文は常に読める。 */
-[data-rv] {
-  opacity: 0;
-  transform: translateY(18px);
-  will-change: opacity, transform;
-}
-[data-rv],
-[data-rv="in"] {
-  transition: opacity 0.7s cubic-bezier(0.22, 0.61, 0.36, 1),
-              transform 0.7s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-[data-rv="in"] {
-  opacity: 1;
-  transform: none;
+/* ==========================================================================
+   サイト全体の動き(2026-11-03 施主指示「転職エージェント比較ラボのようなアニメーションを全体的に」)
+   転職ラボと同じ距離・時間・イージング(cubic-bezier(0.16, 1, 0.3, 1))。
+   - 非表示の初期状態は ScrollReveal.tsx がJSで付ける([data-rv=""] / [data-rv-item=""])。
+     JSが動かない環境ではセレクタが一致しないので、常に表示されたまま。
+   - html[data-tl] は layout.tsx の script が付ける(reduce では付けない)。
+   - 動かすのは transform / opacity / clip-path だけ(レイアウトは動かない)。
+   ========================================================================== */
+@media (prefers-reduced-motion: no-preference) {
+  html[data-tl] { --tl-shift: 0s; --tl-base: calc(0s - var(--tl-shift)); --tl-ease: cubic-bezier(0.16, 1, 0.3, 1); }
+
+  /* スクロール出現(大きめの移動量・長めの減速) */
+  [data-rv=""] { opacity: 0; transform: translate3d(0, 44px, 0); }
+  [data-rv="in"] {
+    opacity: 1; transform: none;
+    transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  [data-rv-item=""] { opacity: 0; transform: translate3d(0, 40px, 0); }
+  [data-rv-item="in"] {
+    opacity: 1; transform: none;
+    transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1) calc(var(--rv-delay, 0ms) * 1.6),
+                transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) calc(var(--rv-delay, 0ms) * 1.6);
+  }
+  /* 見出しは画面に入ったとき左から描き出す */
+  main h2[data-rv="in"] { animation: tl-wipe 0.9s var(--tl-ease, cubic-bezier(0.16, 1, 0.3, 1)) 0.1s both; }
+
+  /* TOP のヒーロー: 写真がゆっくり寄り、見出し→文章→ボタンの順にせり上がる */
+  html[data-tl="top"] .tl-hero-bg { animation: tl-kenburns 2.6s var(--tl-ease) var(--tl-base) both; transform-origin: 60% 40%; }
+  html[data-tl="top"] .tl-in { animation: tl-up 1s var(--tl-ease) calc(var(--tl-base) + 0.15s) both; }
+  html[data-tl="top"] .tl-d2 { animation-delay: calc(var(--tl-base) + 0.32s); }
+  html[data-tl="top"] .tl-d3 { animation-delay: calc(var(--tl-base) + 0.5s); }
+
+  /* 下層ページ: 見出し(h1)と直後の文章がせり上がる */
+  html[data-tl="page"] main h1 { animation: tl-up 1s var(--tl-ease) calc(var(--tl-base) + 0.05s) both; }
+  html[data-tl="page"] main h1 ~ p { animation: tl-up 1s var(--tl-ease) calc(var(--tl-base) + 0.2s) both; }
+
+  @keyframes tl-up { from { opacity: 0; transform: translate3d(0, 32px, 0); } to { opacity: 1; transform: none; } }
+  @keyframes tl-kenburns { from { transform: scale(1.08); } to { transform: scale(1); } }
+  @keyframes tl-wipe { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
 }
 @media (prefers-reduced-motion: reduce) {
-  [data-rv], [data-rv="in"] {
+  [data-rv], [data-rv-item] {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;

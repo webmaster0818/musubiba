@@ -195,20 +195,20 @@ export default function Home() {
       {/* Hero with background image */}
       <section className="relative py-24 sm:py-32 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center tl-hero-bg"
           style={{ backgroundImage: "url('/hero-couple.jpg')" }}
         />
         <div className="absolute inset-0 bg-[#1a1510]/60" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest tl-in tl-d1">
             ご自身に合う<br className="sm:hidden" />
             <span className="text-[#C9B99A]">結婚相談所</span>を比較できます
           </h1>
-          <p className="text-lg sm:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light tracking-wider leading-relaxed">
+          <p className="text-lg sm:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light tracking-wider leading-relaxed tl-in tl-d2">
             当サイトでは、結婚相談所を料金・成婚率・サポート体制の観点から比較しています。
             一人ひとりの婚活スタイルに合った結婚相談所選びを支援します。
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 tl-in tl-d3">
             <Link
               href="#ranking"
               className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-4 px-10 rounded-full text-base transition-colors tracking-widest"
