@@ -25,7 +25,7 @@ const notoSerifJP = Noto_Serif_JP({
 export const metadata: Metadata = {
   title: "結婚相談所おすすめランキング比較 | ムスビバ",
   description:
-    "結婚相談所24社のレビューと、13都道府県1,543件の店舗データベースを掲載しています。料金・成婚率・会員数・サポート体制から、ご自身に合う結婚相談所を比較できます。",
+    "結婚相談所24社のレビューと、13都道府県1,540件の店舗データベースを掲載しています。料金・成婚率・会員数・サポート体制から、ご自身に合う結婚相談所を比較できます。",
   metadataBase: new URL("https://mu-su-bi-ba.com"),
   alternates: { canonical: "./" },
   icons: {
@@ -68,7 +68,7 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "ムスビバ",
               url: "https://mu-su-bi-ba.com",
-              description: "結婚相談所24社のレビューと、13都道府県1,543件の店舗データベースを掲載する結婚相談所の比較サイトです。",
+              description: "結婚相談所24社のレビューと、13都道府県1,540件の店舗データベースを掲載する結婚相談所の比較サイトです。",
               publisher: {
                 "@type": "Organization",
                 name: "ムスビバ",

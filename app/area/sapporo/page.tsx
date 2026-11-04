@@ -4,9 +4,9 @@ import Breadcrumb from "@/components/Breadcrumb";
 import AgencyIndex from "@/components/AgencyIndex";
 
 export const metadata: Metadata = {
-  title: "札幌・北海道の結婚相談所一覧【65件調査・Google口コミ実データ】エリア別に比較",
+  title: "札幌・北海道の結婚相談所一覧【64件調査・Google口コミ実データ】エリア別に比較",
   description:
-    "札幌・北海道の実在する結婚相談所65件を、Googleマップの実データ（2026年8月29日取得）にもとづいて調査し、札幌中央区(大通)・札幌市内・旭川・函館など主要エリア別に掲載しています。式場・ジュエリー店等の別業態は、業種データにより除外しています。口コミ3件以上の相談所は、詳細ページも掲載しています。",
+    "札幌・北海道の実在する結婚相談所64件を、Googleマップの実データ（2026年8月29日取得）にもとづいて調査し、札幌中央区(大通)・札幌市内・旭川・函館など主要エリア別に掲載しています。式場・ジュエリー店等の別業態は、業種データにより除外しています。口コミ3件以上の相談所は、詳細ページも掲載しています。",
   alternates: { canonical: "https://mu-su-bi-ba.com/area/sapporo/" },
 };
 
@@ -14,7 +14,7 @@ export default function AreaPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       <Breadcrumb items={[{ name: "札幌・北海道の結婚相談所" }]} />
-      <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-4">札幌・北海道の結婚相談所一覧【65件調査・Google口コミ実データ】</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-[#2C2C2C] mt-4 mb-4">札幌・北海道の結婚相談所一覧【64件調査・Google口コミ実データ】</h1>
       <AgencyIndex pref="hokkaido" prefName="北海道" />
       <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 text-sm mt-4">
         <p className="font-medium text-[#A08447] mb-2 tracking-wider">はじめての方へ</p>

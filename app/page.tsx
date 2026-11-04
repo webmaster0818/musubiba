@@ -4,7 +4,7 @@ import AuthorBox from "@/components/AuthorBox";
 export const metadata = {
   title: "結婚相談所おすすめ比較【2026年】24社のレビューと全国1,500件超の店舗データ | ムスビバ",
   description:
-    "結婚相談所24社のレビューと、Googleマップの掲載情報をもとにした13都道府県1,543件（詳細ページ933件）の店舗データベースを掲載しています。料金・成婚率・会員数・サポート体制から、ご自身に合う結婚相談所を比較できます。",
+    "結婚相談所24社のレビューと、Googleマップの掲載情報をもとにした13都道府県1,540件（詳細ページ931件）の店舗データベースを掲載しています。料金・成婚率・会員数・サポート体制から、ご自身に合う結婚相談所を比較できます。",
 };
 
 const services = [
@@ -234,9 +234,9 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { value: "24社", label: "レビュー掲載" },
-              { value: "1,543件", label: "店舗データベース" },
+              { value: "1,540件", label: "店舗データベース" },
               { value: "13都道府県", label: "掲載エリア" },
-              { value: "933件", label: "店舗詳細ページ" },
+              { value: "931件", label: "店舗詳細ページ" },
             ].map((stat) => (
               <div key={stat.label} className="p-4">
                 <div className="text-2xl sm:text-3xl font-light text-[#A08447] tracking-wider">
