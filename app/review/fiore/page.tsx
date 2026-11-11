@@ -6,15 +6,15 @@ import BrandStores from "@/components/BrandStores";
 import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率52.0%の定義【2026年10月】",
+  title: "結婚相談所フィオーレ（FIORE）の口コミ・評判｜オリコン18件の集計・料金3コース・割引【2026年11月】",
   description:
-    "結婚相談所フィオーレ（FIORE）の口コミ・評判を、掲載媒体を明記して整理しています。3コースの料金（月会費5,830円〜17,600円・2026年10月21日公式確認）、お見合い回数の保証、1年総額の計算、成婚率52.0%の定義、解約・返金の条件、勧誘に関するよくある質問も掲載しています。",
+    "結婚相談所フィオーレ（FIORE）の口コミ・評判を、オリコン顧客満足度の利用者の声18件のテーマ別集計で整理しています。3コースの料金（月会費5,830円〜17,600円）と20代応援プラン・のりかえ割、会員数75,048名の内訳、成婚率52.0%の定義、解約・返金の条件も掲載しています。",
 };
 
 const overview = {
   name: "FIORE（フィオーレ）",
   type: "仲人型＋AIマッチング・会員検索（コース別）",
-  members: "75,048名（2026年7月時点・公式）",
+  members: "75,048名（2026年7月時点・公式。SCRUMとCONNECT-shipの会員の合算で、フィオーレ自社の会員は7,714名）",
   area: "全国17店舗（札幌〜大分。関西発）",
   initialFee: "入会登録費33,000円（フォーム予約で半額）",
   monthlyFee: "5,830円〜17,600円（コース別）",
@@ -30,7 +30,7 @@ const strengths = [
   },
   {
     title: "登録会員数75,048名（2026年7月時点）",
-    desc: "公式サイトの登録会員数は75,048名（2026年7月時点）で、内訳は関東30,968名・関西17,826名・中部12,329名などです。関東の会員が最も多く、関西以外でも活動できます。",
+    desc: "公式サイトの登録会員数は75,048名（2026年7月時点）で、地域別の内訳は関東30,968名・関西17,826名・中部12,329名などです。この人数は、「SCRUM」の登録会員68,406名（うちフィオーレ自社の会員7,714名）と、「CONNECT-ship」の有効会員14,797名を合算し、重複する8,155名を除いた数と公式に注記されています（2026年11月11日確認）。75,048名のうち、フィオーレに直接在籍している会員は約1割です。",
   },
   {
     title: "目的別に選べる3コース",
@@ -53,8 +53,8 @@ const cons = [
 
 const faqs = [
   {
-    q: "FIORE（フィオーレ）の入会条件はありますか？",
-    a: "20歳以上の独身の方が入会可能です。男性は定職に就いていることが条件となります。入会時には独身証明書、収入証明書、本人確認書類が必要です。",
+    q: "FIORE（フィオーレ）の入会条件と必要書類を教えてください",
+    a: "公式の料金ページ（2026年11月11日確認）では、入会資格を「法律上の独身で、同棲関係を含む事実上の婚姻関係のない方」「男女ともに20歳以上の方」「各コースの入会規定を基準とした当社の入会審査をクリアされる方」としています。必要書類は、預金口座振替の登録、本人確認書類（運転免許証・マイナンバーカード・パスポート）、公的に独身を証明する書類（原本）、最終学歴を証明する書類（卒業証書のコピーで可）、年収証明書（前年度の源泉徴収票）、登録用の顔写真です。",
   },
   {
     q: "フィオーレの成婚率52.0%はどのように算出されていますか？",
@@ -74,7 +74,7 @@ const faqs = [
   },
   {
     q: "フィオーレの成婚退会までの平均期間はどのくらいですか？",
-    a: "公式サイトに平均期間の公表は見当たりませんでした。リミテッド・スマートコースの活動期間は12ヶ月、フィオーレコースは12/18/24ヶ月の3プランで、プランの長さが目安になります。",
+    a: "全年代の平均期間の公表は見当たりませんでした。公式の20代応援プランのページ（2026年11月11日確認）には、20代の会員について「1年以内に成婚85.2%」「1年半以内に成婚97.7%」「7回くらいお見合いをして4〜5ヶ月の活動期間で成婚される方が最多」と掲載されていますが、集計期間や母数の記載はありません。リミテッド・スマートコースの活動期間は12ヶ月、フィオーレコースは12/18/24ヶ月の3プランです。",
   },
   {
     q: "フィオーレについて「勧誘がしつこい」「やばい」という口コミがありますが、実際はどうですか？",
@@ -82,7 +82,11 @@ const faqs = [
   },
   {
     q: "フィオーレを途中で解約したら返金はありますか？",
-    a: "あります。活動開始日の前日までの解約は30,000円（税込）を除いて全額、活動開始日以降は入会登録費・提供済みの活動費用・中途解約手数料を除いた額が返金されます（公式の料金ページ、2026年10月21日確認）。中途解約手数料の金額は料金ページに記載がないため、契約書面でご確認ください。なお、フィオーレコースで約束したお見合い回数（ショート6回・スタンダード9回・プレミアム12回）に届かなかった場合は、会員期間の無料延長か費用の一部返金を選べると公式に記載されています。",
+    a: "あります。活動開始日の前日までの解約は30,000円（税込）を除いて全額、活動開始日以降は入会登録費・提供済みの活動費用・中途解約手数料を除いた額が返金されます（公式の料金ページ、2026年11月11日確認）。料金ページでは、活動開始日以降の中途解約手数料を徴収するコースをリミテッドコース・スマートコースと明記しています。手数料の金額は料金ページに記載がないため、契約書面でご確認ください。なお、フィオーレコースで約束したお見合い回数（ショート6回・スタンダード9回・プレミアム12回）に届かなかった場合は、会員期間の無料延長か費用の一部返金を選べると公式に記載されています。",
+  },
+  {
+    q: "フィオーレの割引にはどのようなものがありますか？",
+    a: "公式サイト（2026年11月11日確認）には3つの割引が掲載されています。①公式サイト割：公式サイトから来店（オンライン相談を含む）を予約すると、全コースで入会登録費が33,000円から16,500円になります。②20代応援プラン：契約日時点で20〜29歳の方は、フィオーレコースの入会時初期費用が15％オフになります（例：スタンダード379,500円→322,575円）。③のりかえ割：過去1年以内にほかの結婚相談所で活動した方は、前の相談所の活動を証明する書類の提出により、フィオーレコースの入会時初期費用が10％オフになります（TMS加盟店からの転籍は対象外）。20代応援プランとのりかえ割は、他の割引と併用できません。",
   },
 ];
 
@@ -114,9 +118,9 @@ export default function FioreReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          結婚相談所フィオーレ（FIORE）の口コミ・評判｜料金3コース・成婚率の定義まで
+          結婚相談所フィオーレ（FIORE）の口コミ・評判｜オリコン18件の集計・料金3コース・割引まで
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月21日（料金・解約条件は2026年10月21日、実績は10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月11日（料金・割引・解約条件・会員数の内訳を2026年11月11日に公式サイトで確認。オリコン顧客満足度の利用者の声18件を同日に集計）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -174,7 +178,7 @@ export default function FioreReview() {
 
         <ReviewFacts
           name="フィオーレ"
-          checkedOn="2026年10月21日"
+          checkedOn="2026年11月11日"
           officialUrl="https://www.total-marriage.com/"
           feeHead={["コース", "入会時（公式サイト割の適用後）", "月会費", "お見合い成立時", "成婚退会時"]}
           feeRows={[
@@ -222,6 +226,82 @@ export default function FioreReview() {
             { name: "Smartlog", url: "https://smartlog.jp/284011" },
           ]}
         />
+
+
+        <section id="oricon-voices" className="mb-12 scroll-mt-20">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">フィオーレの口コミ：オリコン顧客満足度の利用者の声18件をテーマ別に集計（2026年11月11日確認）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            フィオーレの口コミを件数と投稿者の属性つきで確認できる媒体として、オリコン顧客満足度の企業ページ（過去5年以内に結婚相談所を利用した人など3,922人を対象とした調査の一部）があります。当サイトでは、掲載されている利用者の声18件（良い点12件・気になる点6件）を全件確認し、内容をテーマ別に分類しました。1件に複数の論点がある場合は、それぞれのテーマで数えています。
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]"><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">区分・テーマ</th><th className="px-4 py-3 text-left font-medium text-[#2C2C2C] whitespace-nowrap">件数</th><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容の傾向</th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">良い点：紹介・お見合いの数や条件の合致</td><td className="px-4 py-3">4件</td><td className="px-4 py-3">条件に合う相手を紹介してもらえた、お見合いを継続的に組めたという声</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">良い点：担当者の対応</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">話を親身に聞いてもらえた、サポートが丁寧だったという声</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">良い点：出会いの幅</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">普段の生活圏では出会えない人と会えたという声</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">良い点：サイト・プロフィールの見やすさ</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">会員サイトやプロフィールページが使いやすいという声（うち1件は入会後すぐに相手が見つかり結婚したと記載）</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">気になる点：費用の負担</td><td className="px-4 py-3">3件</td><td className="px-4 py-3">料金が高い、活動の少ない月も定額で高く感じたという声。月会費の金額に触れた1件は「月6,000円弱」と記載しており、現在のフィオーレコースの月会費5,830円と同じ水準です</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">気になる点：担当者による差</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">スタッフによって対応が異なる、最初の担当が新人でサポートが少なかったという声</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">気になる点：会員・お相手</td><td className="px-4 py-3">2件</td><td className="px-4 py-3">思っていたほど会員がいなかった、良いと思える相手が少なかったという声</td></tr>
+                <tr className="border-t border-gray-50 bg-red-50/40"><td className="px-4 py-3">気になる点：プロフィールの記載</td><td className="px-4 py-3">1件</td><td className="px-4 py-3">担当者が書くプロフィールのコメントが良く書かれすぎているという声</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <ul className="space-y-1 text-xs text-[#2C2C2C]/60 leading-relaxed mb-4">
+            <li>※出典：<a href="https://life.oricon.co.jp/rank_marriage/company/fiore/" target="_blank" rel="nofollow noopener noreferrer" className="underline">オリコン顧客満足度 FIORE（フィオーレ）の評判・口コミ</a>（コメント総数18件・2026年11月11日確認）。分類は当サイトによるもので、本文は転載していません。</li>
+            <li>※投稿者の内訳は女性13件・男性5件で、30代女性が11件と過半数です。投稿日は表示されていないため、現在の料金体系になる前の利用経験が含まれる可能性があります。</li>
+            <li>※口コミは投稿者個人の見解で、当サイトでは事実関係を確認していません。</li>
+          </ul>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
+            集計からは、紹介やお見合いの組みやすさ、担当者の対応を評価する声が多い一方で、費用負担と担当者による対応の差に触れた声もあることがわかります。無料相談では、担当者の経験年数と担当変更の可否、ご自身の希望条件で紹介できる会員の人数を確認しておくことをおすすめします。勧誘やローンに関する声は、上の表とは別にSmartlog・みん評に掲載されています（前述の「口コミの傾向」をご参照ください）。
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">フィオーレの割引（2026年11月11日公式確認・税込）</h2>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
+              <thead>
+                <tr className="bg-[#F5F0EB]"><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">割引</th><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">対象</th><th className="px-4 py-3 text-left font-medium text-[#2C2C2C]">内容</th></tr>
+              </thead>
+              <tbody>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">公式サイト割</td><td className="px-4 py-3">公式サイトから来店（オンライン相談を含む）を予約した方・全コース</td><td className="px-4 py-3">入会登録費33,000円→16,500円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">20代応援プラン</td><td className="px-4 py-3">契約日時点で20〜29歳の方・フィオーレコース</td><td className="px-4 py-3">入会時初期費用15％オフ（ショート320,100円→272,052円／スタンダード379,500円→322,575円／プレミアム438,900円→372,966円）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3">のりかえ割</td><td className="px-4 py-3">過去1年以内にほかの結婚相談所で活動した方（活動の証明書類が必要・TMS加盟店からの転籍は対象外）・フィオーレコース</td><td className="px-4 py-3">入会時初期費用10％オフ（ショート288,090円／スタンダード341,550円／プレミアム394,944円）</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※20代応援プランとのりかえ割は他の割引と併用できず、月会費（5,830円）は変わりません。出典：<a href="https://www.total-marriage.com/pricing/" target="_blank" rel="nofollow noopener noreferrer" className="underline">フィオーレ公式 コース・料金</a>・20代応援プラン・のりかえ割の各ページ（2026年11月11日確認）。割引の内容は変更される場合があります。</p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">年代別の成婚率（公式公表値）</h2>
+          <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
+            公式の20代応援プランのページ（2026年11月11日確認）には、年代別の成婚率として「〜29歳60.1%／30〜34歳56.2%／35〜39歳48.8%／40〜44歳50.6%／45〜49歳47.7%／50歳〜38.2%」が掲載されています。全体の成婚率52.0%は「2012〜2025年の全退会者のうち成婚退会した方の割合」と定義が明記されていますが、年代別の数値については集計期間や分母の記載がありません。目安として参照し、ご自身の年代の実績は無料相談で確認することをおすすめします。
+          </p>
+        </section>
+
+        <section className="mb-12 grid md:grid-cols-2 gap-6">
+          <div className="bg-[#FAF7F2] rounded-xl p-6">
+            <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">フィオーレが向いている方</h3>
+            <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+              <li>・成婚料0円で、入会時に総額を確定させたい方（フィオーレコース）</li>
+              <li>・お見合い回数の保証（6/9/12回）が付くプランを選びたい方</li>
+              <li>・関西・関東などに対面の店舗がある相談所を選びたい方（全国17店舗）</li>
+              <li>・20代の方、または過去1年以内に他の相談所で活動した方（初期費用の割引対象）</li>
+            </ul>
+          </div>
+          <div className="bg-[#FAF7F2] rounded-xl p-6">
+            <h3 className="font-medium text-[#2C2C2C]/70 mb-4 tracking-wider">ほかの相談所も比較したほうがよい方</h3>
+            <ul className="space-y-2 text-sm text-[#2C2C2C]/70">
+              <li>・入会時の支払いを10万円以下に抑えたい方（フィオーレコースは30万円台）</li>
+              <li>・活動しない月の費用を抑えたい方（活動制限は7ヶ月目以降・月1,100円）</li>
+            </ul>
+          </div>
+        </section>
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
