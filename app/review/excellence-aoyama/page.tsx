@@ -335,10 +335,10 @@ export default function ExcellenceAoyamaReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">29,800円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">66,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">16,800円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">紹介可能会員</td><td className="px-4 py-3 text-center">約33万人（4連盟）</td><td className="px-4 py-3 text-center">約10.8万人（IBJ）</td><td className="px-4 py-3 text-center">約12.1万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">紹介可能会員</td><td className="px-4 py-3 text-center">約33万人（4連盟）</td><td className="px-4 py-3 text-center">約10.8万人（IBJ）</td><td className="px-4 py-3 text-center">検索会員数19.1万人（3連盟・2026年11月12日公式確認）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型（ハイクラス向け）</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
               </tbody>
             </table>

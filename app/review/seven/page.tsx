@@ -187,8 +187,8 @@ export default function SevenReview() {
               </thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">9,900円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">29,800円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">IBJ約10.9万人</td><td className="px-4 py-3 text-center">約12.1万人</td><td className="px-4 py-3 text-center">約5.1万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">IBJ約10.9万人</td><td className="px-4 py-3 text-center">検索会員数19.1万人（3連盟・2026年11月12日公式確認）</td><td className="px-4 py-3 text-center">約5.1万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">担当カウンセラー制</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料50,000円</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">成婚料0円</td></tr>
               </tbody>

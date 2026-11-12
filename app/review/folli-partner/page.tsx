@@ -341,7 +341,7 @@ export default function FolliPartnerReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">110,000円〜（スタンダード150,000円）</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">29,800円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">110,000円〜（スタンダード150,000円）</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">66,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,500円〜22,000円</td><td className="px-4 py-3 text-center">13,200円</td><td className="px-4 py-3 text-center">16,800円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型（IBJ・首都圏5店舗＋Zoom）</td><td className="px-4 py-3 text-center">仲人型（IBJ・大阪1名運営）</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚率の公表</td><td className="px-4 py-3 text-center">71.5%（自社公称・定義公表あり）</td><td className="px-4 py-3 text-center">56.3%（自社公称・定義公表あり）</td><td className="px-4 py-3 text-center">—</td></tr>

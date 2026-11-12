@@ -10,13 +10,13 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "naco-do（ナコード）の口コミ・評判｜料金・成婚料0円・返金保証・古い料金情報の注意【2026年10月】",
   description:
-    "naco-do（ナコード）の口コミ・評判を、掲載媒体を明記して整理しています。初期費用66,000円・月会費16,800円・成婚料0円（2026年10月14日公式確認）、1年総額、JBA/CONNECT-ship/SCRUMの19.1万人、90日返金保証、運営会社のほか、古い記事の料金との違いも掲載しています。",
+    "naco-do（ナコード）の口コミ・評判を、掲載媒体を明記して整理しています。初期費用66,000円・月会費16,800円・成婚料0円（2026年10月14日公式確認）、1年総額、3連盟の検索会員数19.1万人、90日返金保証、運営会社のほか、古い記事の料金との違いも掲載しています。",
 };
 
 const overview = {
   name: "naco-do（ナコード）",
   type: "オンライン完結型（パーソナル婚活・担当サポーター制）",
-  members: "19.1万人（JBA・CONNECT-ship・SCRUMの3連盟で追加料金なしに検索可能）",
+  members: "検索会員数19.1万人（JBA・CONNECT-ship・SCRUMの3つのデータベースの合計・公式サイトに時点の記載なし・2026年11月12日公式確認）。追加料金なしで検索できます",
   area: "全国対応（オンライン）",
   initialFee: "66,000円",
   monthlyFee: "16,800円（1プランのみ）",
@@ -31,7 +31,7 @@ const strengths = [
     desc: "初期費用66,000円・月会費16,800円・成婚料0円の1プランで、公式サイトは活動7ヶ月の目安を183,600円と示しています（2026年10月14日確認）。「後から費用が発生することはない」と明記されています。",
   },
   {
-    title: "JBA・CONNECT-ship・SCRUMの3連盟19.1万人から探せる",
+    title: "JBA・CONNECT-ship・SCRUMの3連盟（検索会員数19.1万人）から探せる",
     desc: "追加料金なしで3つの連盟・プラットフォームの会員を検索できます。公式サイトは成婚までの平均活動期間を6.6ヶ月と公表しています（算出方法は記載されていません）。",
   },
   {
@@ -42,7 +42,7 @@ const strengths = [
 
 const pros = [
   "成婚料0円で、活動7ヶ月の目安は183,600円",
-  "3連盟19.1万人を追加料金なしで検索できる",
+  "3連盟の検索会員数19.1万人を追加料金なしで検索できる",
   "完全オンラインで来店不要",
 ];
 
@@ -141,7 +141,7 @@ const REVIEW_EXTRA = {
     {
       "seen": "JBA・良縁ネット（Rnet）・コネクトシップの3連盟",
       "source": "駅探PICKS婚活（2023年6月29日更新）",
-      "now": "JBA・CONNECT-ship・SCRUMの3連盟（合計19.1万人）を追加料金なしで利用できると記載されています。"
+      "now": "JBA・CONNECT-ship・SCRUMの3つのデータベース（検索会員数19.1万人）を追加料金なしで利用できると記載されています（2026年11月12日公式確認・公式サイトに時点の記載はありません）。"
     }
   ]
 };
@@ -226,7 +226,7 @@ export default function NacoDoReview() {
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">16,500円</td><td className="px-4 py-3 text-center">9,900円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">33,000円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">19.1万人</td><td className="px-4 py-3 text-center">17.4万人以上（紹介可能）</td><td className="px-4 py-3 text-center">約5.1万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">検索会員数19.1万人（3連盟・2026年11月12日公式確認）</td><td className="px-4 py-3 text-center">17.4万人以上（紹介可能）</td><td className="px-4 py-3 text-center">約5.1万人</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料0円・90日返金保証</td><td className="px-4 py-3 text-center">成婚料0円・3ヶ月返金保証</td><td className="px-4 py-3 text-center">成婚料0円・3ヶ月返金保証</td></tr>
               </tbody>

@@ -44,7 +44,7 @@ const ibjRows: Row[] = [
 
 const otherRows: Row[] = [
   { slug: "musbell", name: "ムスベル", federation: "JBU・BIU・IBJ・TMSの4連盟を利用可能（公式記載）", monthly: "16,500円〜", success: "330,000円" },
-  { slug: "naco-do", name: "naco-do（ナコード）", federation: "JBA・CONNECT-ship・SCRUM（3連盟／19.1万人・2026年10月14日公式確認）", monthly: "16,800円", success: "0円（公式明記）" },
+  { slug: "naco-do", name: "naco-do（ナコード）", federation: "JBA・CONNECT-ship・SCRUM（3連盟／検索会員数19.1万人・2026年11月12日公式確認）", monthly: "16,800円", success: "0円（公式明記）" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", federation: "複数データベース（紹介可能17.4万人以上）・IBJ Online利用可", monthly: "16,500円", success: "0円（公式明記）" },
   { slug: "onet", name: "オーネット", federation: "独自会員システム＋IBJ加盟ネットワークの2系統", monthly: "13,200円〜", success: "IBJ会員と成婚時220,000円（オーネット会員同士は0円）" },
 ];
@@ -264,7 +264,7 @@ export default function KnowledgeRenmei() {
               </div>
               <div className="border border-[#E5DCCF] rounded-xl p-5">
                 <p className="font-medium text-[#2C2C2C] mb-1">naco-do（ナコード）</p>
-                <p className="text-xs">JBA・CONNECT-ship・SCRUMの<strong>3連盟</strong>／19.1万人（2026年10月21日公式確認）</p>
+                <p className="text-xs">JBA・CONNECT-ship・SCRUMの<strong>3連盟</strong>／検索会員数19.1万人（2026年11月12日公式確認）</p>
               </div>
               <div className="border border-[#E5DCCF] rounded-xl p-5">
                 <p className="font-medium text-[#2C2C2C] mb-1">ムスベル</p>

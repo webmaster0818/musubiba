@@ -382,7 +382,7 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
-          <p className="text-xs text-[#2C2C2C]/50 mb-3">※スマリッジは2026年11月3日、naco-do・エン婚活エージェントは2026年10月14日に各社公式サイトで確認した数値です。会員数の算出範囲と時点は各社で異なります（詳細は各レビューページに記載）。1年総額は登録料（初期費用）＋月会費×12ヶ月＋成婚料の単純計算で、お見合い料・オプションは含みません。最新情報は各レビューページをご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">※スマリッジは2026年11月3日、naco-do・エン婚活エージェントは2026年10月14日に各社公式サイトで確認した数値です（naco-doの会員数は2026年11月12日に再確認）。会員数の算出範囲と時点は各社で異なります（詳細は各レビューページに記載）。1年総額は登録料（初期費用）＋月会費×12ヶ月＋成婚料の単純計算で、お見合い料・オプションは含みません。最新情報は各レビューページをご確認ください。</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -398,7 +398,7 @@ export default function SmartreadReview() {
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">6,600円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">33,000円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">1年総額（単純計算）</td><td className="px-4 py-3 text-center">125,400円</td><td className="px-4 py-3 text-center">267,600円</td><td className="px-4 py-3 text-center">231,000円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約51,000人（利用事業者会員数）</td><td className="px-4 py-3 text-center">19.1万人（3連盟）</td><td className="px-4 py-3 text-center">17.4万人以上（紹介可能人数）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約51,000人（利用事業者会員数）</td><td className="px-4 py-3 text-center">検索会員数19.1万人（3連盟・2026年11月12日公式確認）</td><td className="px-4 py-3 text-center">17.4万人以上（紹介可能人数）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚料0円・返金保証</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>
