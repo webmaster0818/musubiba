@@ -69,6 +69,8 @@ for (const r of ["/review/nagareyama-otakanomori", "/review/niko-bridal", "/revi
 // 2026-11-11 12:00成長: フィオーレ（オリコン利用者の声18件の集計・割引3種・会員数の内訳・年代別成婚率）、ヒーローマリッジ（プラン別内容・解約条件・支援人数を公式で更新）、
 // チューリップ（入会金の内訳・返金対象外の費用）、エクセレンス青山（11月のキャンペーン）、ベルロード（FAQ3問）、ウェルスマ（IBJ口コミ件数）
 for (const r of ["/review/fiore", "/review/hero-marriage", "/review/bridal-tulip", "/review/excellence-aoyama", "/review/bellroad", "/review/wellsma"]) UPDATED[r] = "2026-11-11";
+// 2026-11-14 前倒し再対策（施主判断）: セブン（運営会社・サロン所在地とアクセス・無料説明会・2名担当体制の訂正・成婚実績・口コミ方針・LINE特典を公式で確認して追記）
+UPDATED["/review/seven"] = "2026-11-14";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
