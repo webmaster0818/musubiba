@@ -11,6 +11,8 @@ const rows: Row[] = [
   { slug: "excellence-aoyama", name: "エクセレンス青山", value: "85.7%", scope: "自社公称。2019年実績として掲載", surveyed: "2026年7月31日", type: "公表" },
   // 2026-10-27 公式トップ（https://prop-p.com/）の「2025年成婚率 80.4%*」と注記で確認
   { slug: "marriage-pro", name: "マリッジプロ", value: "80.4%", scope: "「2025年成婚率」として公称。注記は「2025年の成婚退会者数÷全退会者社数」（公式の表記のまま）", surveyed: "2026年10月27日", type: "公表", source: "https://prop-p.com/" },
+  // 2026-11-14 公式トップ（https://marzcafe.com/）の「成婚率72.5%」と注記「※2…成婚退会者÷全退会者(2025年1月～12月)」で確認（5月の「非公表」は誤り）
+  { slug: "mars-cafe", name: "マーズカフェ", value: "72.5%", scope: "2025年1〜12月の成婚退会者 ÷ 全退会者（公式トップの注記）", surveyed: "2026年11月14日", type: "公表", source: "https://marzcafe.com/" },
   { slug: "folli-partner", name: "東京フォリパートナー", value: "71.5%", scope: "直近1年(2025年10月〜2026年10月（2026年10月21日時点の公式表記）)の成婚退会者 ÷ 全退会者(相談所以外での成婚を除く)", surveyed: "2026年7月31日", type: "公表" },
   // 2026-10-27 公式「よくある質問」（https://n-otakanomori.com/faq/）の【2025年実績】【2026年実績（10月現在）】で確認
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", value: "68.4%", scope: "2025年の成婚退会者13名 ÷（成婚退会者13名＋成婚以外の退会者6名）。IBJの基準で算出と公式に記載。2026年（10月現在）は13 ÷ 18 = 72.2%と別掲", surveyed: "2026年10月27日", type: "公表", source: "https://n-otakanomori.com/faq/" },
@@ -32,7 +34,6 @@ const rows: Row[] = [
   { slug: "zwei", name: "ツヴァイ", value: "非公表", scope: "公式サイトに数値の記載を確認できず（2025年の成婚組数3,628組は公表）", surveyed: "2026年10月23日", type: "非公表" },
   { slug: "sunmarie", name: "サンマリエ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年9月6日", type: "非公表" },
   { slug: "musbell", name: "ムスベル", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年10月23日", type: "非公表" },
-  { slug: "mars-cafe", name: "マーズカフェ", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年5月", type: "非公表" },
   { slug: "seven", name: "結婚相談所セブン", value: "非公表", scope: "公式サイトに数値の記載を確認できず", surveyed: "2026年5月", type: "非公表" },
 ];
 

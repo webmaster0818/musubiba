@@ -359,7 +359,7 @@ export default function EnKonkatsuReview() {
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/compare/" className="text-[#A08447] underline">結婚相談所の料金比較（24社一覧）を見る</Link></li>
-            <li><Link href="/review/mars-cafe/" className="text-[#A08447] underline">マーズカフェの評判・料金を見る</Link></li>
+            <li><Link href="/review/mars-cafe/" className="text-[#A08447] underline">マーズカフェの口コミ・評判を見る（IBJ口コミ44件の集計・料金）</Link></li>
             <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
             <li><Link href="/review/smartread/" className="text-[#A08447] underline">スマリッジの評判・料金を見る</Link></li>
           </ul>

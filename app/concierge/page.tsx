@@ -81,7 +81,7 @@ const agencies: Agency[] = [
     slug: 'mars-cafe',
     type: 'カジュアル仲人型',
     monthlyFee: '月会費7,700円〜',
-    initialFee: '初期費用88,000円',
+    initialFee: '初期費用110,000円',
     members: '約18万人（IBJ＋TMS）',
     area: ['関東'],
     ageRange: ['20代', '30代前半', '30代後半'],

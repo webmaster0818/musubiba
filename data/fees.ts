@@ -8,6 +8,7 @@
  * 公表が確認できなかった項目は null にして「非公表」と表示する。
  * 2026-10-23: ムスベル・ツヴァイ・オーネット・nikoブライダルを公式サイトで再確認。ムスベル・ツヴァイ・オーネットは料金改定後の値に更新。
  * オーネットの成婚料は相手により0円/220,000円に分かれるため null（順位・総額の計算から外す）。
+ * 2026-11-14: マーズカフェの入会金改定（A・Bコース66,000円→88,000円、乗り換え限定55,000円→77,000円）を公式料金ページで確認し、初期費用を110,000円に更新。
  * 2026-10-26: マリッジプロ（公式 prop-p.com/price/）・リングベル（公式 ringbell-marriage.com/price）を公式サイトで確認し、
  * 未確認（—）だった月会費・初期費用・成婚料を下限値で登録。プラン別の金額は PLAN_FEES に持つ。
  *
@@ -39,7 +40,7 @@ export const FEES: Fee[] = [
   { slug: "smartread", name: "スマリッジ", monthly: 9900, initial: 6600, success: 0, monthlyText: "月会費9,900円", initialText: "初期費用6,600円", type: "低初期費用・オンライン" },
   { slug: "bellroad", name: "ベルロード縁結びサポート", monthly: 9800, initial: 30000, success: 80000, monthlyText: "月会費9,800円（1ヶ月プラン）", initialText: "入会金30,000円／成婚料80,000円", type: "サブスク型・IBJ加盟" },
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", monthly: 9900, initial: 165000, success: 220000, monthlyText: "月会費9,900円", initialText: "初期費用165,000円／成婚料220,000円", type: "地域密着・IBJ加盟" },
-  { slug: "mars-cafe", name: "マーズカフェ", monthly: 7700, initial: 88000, success: 220000, monthlyText: "月会費7,700円〜11,000円", initialText: "入会金66,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
+  { slug: "mars-cafe", name: "マーズカフェ", monthly: 7700, initial: 110000, success: 220000, monthlyText: "月会費7,700円〜11,000円", initialText: "入会金88,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
   { slug: "code-for-marriage", name: "Code For Marriage", monthly: 11000, initial: 77000, success: 220000, monthlyText: "月会費11,000円（スタンダード）", initialText: "入会費77,000円／成婚料220,000円", type: "年代別プランあり" },
   { slug: "pitto", name: "P!っと縁結び", monthly: 11000, initial: 88000, success: 220000, monthlyText: "月会費11,000円〜16,500円", initialText: "初期費用88,000円〜110,000円／成婚料220,000円", type: "ピップ運営・全国対応" },
   { slug: "wellsma", name: "ウェルスマ", monthly: 11800, initial: 49800, success: 149800, monthlyText: "月会費11,800円〜19,800円", initialText: "入会金49,800円／成婚料149,800円", type: "オンライン仲人型" },
@@ -74,7 +75,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   smartread: { date: "2026-10-14" },
   bellroad: { date: "2026-10-24" },
   "nagareyama-otakanomori": { date: "2026-10-27" },
-  "mars-cafe": { date: "2026-10-14" },
+  "mars-cafe": { date: "2026-11-14" },
   "code-for-marriage": { date: "2026-10-28" },
   pitto: { date: "2026-10-23" },
   wellsma: { date: "2026-10-25" },

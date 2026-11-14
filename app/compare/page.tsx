@@ -19,7 +19,7 @@ const agencies: Agency[] = [
   { slug: "smartread", name: "スマリッジ", monthly: "月会費9,900円", initial: "初期費用6,600円", type: "低初期費用・オンライン" },
   { slug: "bellroad", name: "ベルロード縁結びサポート", monthly: "月会費9,800円（1ヶ月プラン）", initial: "入会金30,000円／成婚料80,000円", type: "サブスク型・IBJ加盟" },
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森の相談所", monthly: "月会費9,900円", initial: "初期費用165,000円／成婚料220,000円", type: "地域密着・IBJ加盟" },
-  { slug: "mars-cafe", name: "マーズカフェ", monthly: "月会費7,700円〜11,000円", initial: "入会金66,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
+  { slug: "mars-cafe", name: "マーズカフェ", monthly: "月会費7,700円〜11,000円", initial: "入会金88,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
   { slug: "code-for-marriage", name: "Code For Marriage", monthly: "月会費11,000円（スタンダード）", initial: "入会費77,000円／成婚料220,000円", type: "年代別プランあり" },
   { slug: "pitto", name: "P!っと縁結び", monthly: "月会費11,000円〜16,500円", initial: "初期費用88,000円〜110,000円／成婚料220,000円", type: "ピップ運営・全国対応" },
   { slug: "wellsma", name: "ウェルスマ", monthly: "月会費11,800円〜19,800円", initial: "入会金49,800円／成婚料149,800円", type: "オンライン仲人型" },
