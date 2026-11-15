@@ -85,6 +85,8 @@ UPDATED["/review/marriage-pro"] = "2026-10-31";
 UPDATED["/review/ringbell"] = "2026-10-31";
 UPDATED["/faq"] = "2026-11-01";
 UPDATED["/review/musbell"] = "2026-10-31";
+// 2026-11-15: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon", "/knowledge"]) UPDATED[r] = "2026-11-15";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -116,6 +118,7 @@ const STATIC_ROUTES = [
   "/knowledge/how-to-choose", "/knowledge/flow", "/knowledge/seikon-ritsu",
   "/knowledge/kaiyaku",
   "/knowledge/renmei",
+  "/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
