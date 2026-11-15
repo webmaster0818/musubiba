@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   alternates: { canonical: "/knowledge/" },
 };
 
+const KNOWLEDGE_IMG: Record<string, string> = {
+  "/knowledge/cost/": "/mb-cost.jpg",
+  "/knowledge/how-to-choose/": "/mb-choose.jpg",
+  "/knowledge/seikon-ritsu/": "/mb-seikon.jpg",
+  "/knowledge/kaiyaku/": "/mb-kaiyaku.jpg",
+  "/knowledge/renmei/": "/mb-renmei.jpg",
+  "/knowledge/flow/": "/mb-flow.jpg",
+}
+
 const articles = [
   {
     href: "/knowledge/cost/",
@@ -113,11 +122,16 @@ export default function KnowledgeHub() {
               <Link
                 key={a.href}
                 href={a.href}
-                className="block bg-white rounded-2xl border border-gray-100 p-6 hover:border-[#A08447] transition-colors"
+                className="flex flex-col sm:flex-row gap-4 bg-white rounded-2xl border border-gray-100 p-4 sm:p-5 hover:border-[#A08447] transition-colors"
               >
-                <h3 className="font-medium text-lg text-[#A08447] tracking-wider mb-2">{a.title}</h3>
-                <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{a.desc}</p>
-                <p className="text-xs text-[#A08447] mt-3 font-medium">記事を読む →</p>
+                {/* 各記事の画像（11/16 施主指示）。記事専用の画像がまだ無いものはカテゴリの画像 */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={KNOWLEDGE_IMG[a.href] ?? "/mb-knowledge.jpg"} alt="" loading="lazy" className="w-full sm:w-44 h-40 sm:h-28 object-cover rounded-xl shrink-0" />
+                <div>
+                  <h3 className="font-medium text-lg text-[#A08447] tracking-wider mb-2">{a.title}</h3>
+                  <p className="text-sm text-[#2C2C2C]/60 leading-relaxed">{a.desc}</p>
+                  <p className="text-xs text-[#A08447] mt-3 font-medium">記事を読む →</p>
+                </div>
               </Link>
             ))}
           </div>

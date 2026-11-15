@@ -509,21 +509,37 @@ export default function Home() {
             料金の相場・タイプの選び方・活動の流れを、初めての方にも分かりやすく解説しています
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            <Link href="/knowledge/cost/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+            <Link href="/knowledge/cost/" className="block bg-white border border-gray-100 rounded-xl overflow-hidden hover:border-[#A08447] transition-colors">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/mb-cost.jpg" alt="" loading="lazy" className="w-full h-36 object-cover" />
+              <div className="p-5">
               <p className="font-medium text-[#A08447] tracking-wider">結婚相談所の料金相場は？</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">初期費用・月会費・成婚料の目安と総額の考え方</p>
+            </div>
             </Link>
-            <Link href="/knowledge/how-to-choose/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+            <Link href="/knowledge/how-to-choose/" className="block bg-white border border-gray-100 rounded-xl overflow-hidden hover:border-[#A08447] transition-colors">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/mb-choose.jpg" alt="" loading="lazy" className="w-full h-36 object-cover" />
+              <div className="p-5">
               <p className="font-medium text-[#A08447] tracking-wider">結婚相談所の選び方</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">仲人型とデータマッチング型の違いと比較のポイント</p>
+            </div>
             </Link>
-            <Link href="/knowledge/flow/" className="block bg-white border border-gray-100 rounded-xl p-5 hover:border-[#A08447] transition-colors">
+            <Link href="/knowledge/flow/" className="block bg-white border border-gray-100 rounded-xl overflow-hidden hover:border-[#A08447] transition-colors">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/mb-flow.jpg" alt="" loading="lazy" className="w-full h-36 object-cover" />
+              <div className="p-5">
               <p className="font-medium text-[#A08447] tracking-wider">入会から成婚までの流れ</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">活動のステップと活動期間の目安</p>
+            </div>
             </Link>
-            <Link href="/knowledge/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
+            <Link href="/knowledge/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl overflow-hidden hover:border-[#A08447] transition-colors">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/mb-knowledge.jpg" alt="" loading="lazy" className="w-full h-36 object-cover" />
+              <div className="p-5">
               <p className="font-medium text-[#A08447] tracking-wider">基礎知識をまとめて見る</p>
               <p className="text-sm text-[#2C2C2C]/60 mt-1">結婚相談所の基礎知識カテゴリの記事一覧へ</p>
+            </div>
             </Link>
           </div>
         </div>
