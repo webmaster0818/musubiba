@@ -78,6 +78,28 @@ UPDATED["/review/smartread"] = "2026-11-03";
 UPDATED["/review/sunmarie"] = "2026-10-31";
 UPDATED["/review/en-konkatsu"] = "2026-11-14";
 for (const r of ["/review/naco-do", "/compare/online"]) UPDATED[r] = "2026-11-15";
+// 2026-11-15 12:00成長(2): changes.jsonl に記録した修正日より lastmod が古かったページ（トップ・FAQ・連盟・4社レビュー・相談所ページ13件）
+UPDATED[""] = "2026-11-01";
+UPDATED["/knowledge/renmei"] = "2026-10-28";
+UPDATED["/review/marriage-pro"] = "2026-10-31";
+UPDATED["/review/ringbell"] = "2026-10-31";
+UPDATED["/faq"] = "2026-11-01";
+UPDATED["/review/musbell"] = "2026-10-31";
+const AGENCY_UPDATED: Record<string, string> = {
+  "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
+  "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
+  "とら婚-福岡オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-fea0": "2026-10-30",
+  "マリアージュサロン-ブーゼ-6129": "2026-10-30",
+  "結婚相談所ハッピーカムカム銀座サロン-becd": "2026-10-31",
+  "結婚相談所IBJメンバーズ-神戸店-f92b": "2026-10-31",
+  "エンエール-de0c": "2026-10-31",
+  "結婚相談所-結婚物語-大阪ベース-53f3": "2026-10-31",
+  "みやぎ結婚支援センター-244a": "2026-10-31",
+  "結婚相談所ツヴァイ-姫路店-86a6": "2026-11-03",
+  "東大阪の結婚相談所Scena-シーナ-IBJ加盟店-f9bd": "2026-11-03",
+  "結婚相談所Enishell-小田原-78c7": "2026-11-03",
+  "結婚相談-婚活サポート-結愛花-yumeka-7d88": "2026-11-03"
+};
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
@@ -120,7 +142,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
   const agencies = agencySlugs().map((s) => ({
     url: `${BASE}/agency/${encodeURIComponent(s)}/`,
-    lastModified: LASTMOD,
+    lastModified: AGENCY_UPDATED[s] ?? LASTMOD,
   }));
   return [...routes, ...agencies];
 }
