@@ -73,6 +73,11 @@ for (const r of ["/review/fiore", "/review/hero-marriage", "/review/bridal-tulip
 UPDATED["/review/seven"] = "2026-11-14";
 // 2026-11-14 12:00成長: マーズカフェ（入会金改定88,000円・IBJ口コミ44件の集計・口コミの要点・2026年10月の成婚退会者数）と、料金・成婚率を参照するページ
 for (const r of ["/review/mars-cafe", "/compare", "/compare/cheap", "/concierge", "/knowledge/cost", "/knowledge/seikon-ritsu", "/knowledge"]) UPDATED[r] = "2026-11-14";
+// 2026-11-15 12:00成長: 変更済みなのに lastmod が古かった受け皿を実際の修正日に（smartread 11/3・サンマリエ 10/31・エン婚活 11/14〈マーズカフェへのリンク〉・naco-do/compare/online 11/15 朝の公式再照合）
+UPDATED["/review/smartread"] = "2026-11-03";
+UPDATED["/review/sunmarie"] = "2026-10-31";
+UPDATED["/review/en-konkatsu"] = "2026-11-14";
+for (const r of ["/review/naco-do", "/compare/online"]) UPDATED[r] = "2026-11-15";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
