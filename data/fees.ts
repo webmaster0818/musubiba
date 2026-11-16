@@ -43,7 +43,8 @@ export const FEES: Fee[] = [
   { slug: "mars-cafe", name: "マーズカフェ", monthly: 7700, initial: 110000, success: 220000, monthlyText: "月会費7,700円〜11,000円", initialText: "入会金88,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
   { slug: "code-for-marriage", name: "Code For Marriage", monthly: 11000, initial: 77000, success: 220000, monthlyText: "月会費11,000円（スタンダード）", initialText: "入会費77,000円／成婚料220,000円", type: "年代別プランあり" },
   { slug: "pitto", name: "P!っと縁結び", monthly: 11000, initial: 88000, success: 220000, monthlyText: "月会費11,000円〜16,500円", initialText: "初期費用88,000円〜110,000円／成婚料220,000円", type: "ピップ運営・全国対応" },
-  { slug: "wellsma", name: "ウェルスマ", monthly: 11800, initial: 49800, success: 149800, monthlyText: "月会費11,800円〜19,800円", initialText: "入会金49,800円／成婚料149,800円", type: "オンライン仲人型" },
+  // 2026-11-16: 公式「プラン内容」(https://www.wealsma.com/plan-2/)でマイペースプランの料金変更を確認（旧: 初期49,800円・月11,800円・成婚料149,800円）。下限値で登録し、プラン別は PLAN_FEES に持つ
+  { slug: "wellsma", name: "ウェルスマ", monthly: 9800, initial: 19800, success: 109800, monthlyText: "月会費9,800円〜19,800円", initialText: "初期費用19,800円〜49,800円／成婚料109,800円〜149,800円（プラン別）", type: "オンライン仲人型" },
   { slug: "niko-bridal", name: "nikoブライダル", monthly: 13200, initial: 110000, success: 220000, monthlyText: "月会費13,200円（男性婚活プラン16,500円）", initialText: "初期費用110,000円／成婚料220,000円", type: "大阪・仲人型" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", monthly: 16500, initial: 33000, success: 0, monthlyText: "月会費16,500円", initialText: "登録料33,000円／成婚料0円", type: "オンライン型" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", monthly: 14300, initial: 165000, success: 220000, monthlyText: "月会費14,300円〜27,500円", initialText: "初期費用165,000円／成婚料220,000円", type: "男性専門" },
@@ -78,7 +79,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   "mars-cafe": { date: "2026-11-14" },
   "code-for-marriage": { date: "2026-10-28" },
   pitto: { date: "2026-10-23" },
-  wellsma: { date: "2026-10-25" },
+  wellsma: { date: "2026-11-16" },
   "niko-bridal": { date: "2026-10-27" },
   "en-konkatsu": { date: "2026-10-27" },
   "hero-marriage": { date: "2026-10-24" },
@@ -184,6 +185,10 @@ export const PLAN_FEES: PlanFee[] = [
   { slug: "ringbell", plan: "ベーシック", initial: 55000, monthly: 17600, perOmiai: 0, perKosai: null, success: 109800 },
   { slug: "ringbell", plan: "ハイブリッド", initial: 88000, monthly: 17600, perOmiai: 0, perKosai: null, success: 220000 },
   { slug: "ringbell", plan: "コミットメント", initial: 242000, monthly: 17600, perOmiai: 0, perKosai: null, success: 220000 },
+  // wellsma: 公式「プラン内容」ページ（https://www.wealsma.com/plan-2/ ・2026-11-16確認・税込）。お見合い料0円（同ページの比較表）。
+  { slug: "wellsma", plan: "マイペースプラン", initial: 19800, monthly: 9800, perOmiai: 0, perKosai: null, success: 109800 },
+  { slug: "wellsma", plan: "サポートプラン", initial: 49800, monthly: 15800, perOmiai: 0, perKosai: null, success: 149800 },
+  { slug: "wellsma", plan: "プレミアムプラン", initial: 49800, monthly: 19800, perOmiai: 0, perKosai: null, success: 149800 },
 ];
 
 export function planFee(slug: string, plan: string): PlanFee {

@@ -348,9 +348,9 @@ export default function PittoReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">88,000円〜110,000円</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,000円〜16,500円</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">14,300円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">88,000円〜110,000円</td><td className="px-4 py-3 text-center">19,800円〜</td><td className="px-4 py-3 text-center">10,780円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,000円〜16,500円</td><td className="px-4 py-3 text-center">9,800円〜</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">220,000円</td><td className="px-4 py-3 text-center">109,800円〜</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型（IBJ）</td><td className="px-4 py-3 text-center">オンライン仲人型（IBJ）</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">ピップ株式会社の本体運営</td><td className="px-4 py-3 text-center">完全オンラインの仲人型</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>

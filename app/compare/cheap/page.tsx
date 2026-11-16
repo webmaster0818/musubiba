@@ -3,6 +3,7 @@ import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
 import { FEE_CHECKED, jpDate, checkedLabel, checkedRange, planFee, yen as fmtYen } from "@/data/fees";
+import { WELLSMA_MEMBERS as WM } from "@/data/wellsma";
 
 // ブライダルチューリップはプランと件数で費用が変わるため、data/fees.ts の PLAN_FEES から文言を作る（直書きしない）。
 const tA = planFee("bridal-tulip", "Aプラン");
@@ -18,6 +19,9 @@ const mpM = planFee("marriage-pro", "男性プラン");
 const rbB = planFee("ringbell", "ベーシック");
 const rbH = planFee("ringbell", "ハイブリッド");
 const rbC = planFee("ringbell", "コミットメント");
+// ウェルスマも PLAN_FEES（2026-11-16 公式「プラン内容」で確認）から表示する。
+const wsM = planFee("wellsma", "マイペースプラン");
+const wsS = planFee("wellsma", "サポートプラン");
 const y1 = (p: { initial: number; monthly: number }) => p.initial + p.monthly * 12;
 
 export const metadata: Metadata = {
@@ -133,13 +137,13 @@ const rowsRaw: Row[] = [
     slug: "wellsma",
     name: "ウェルスマ",
     type: "オンライン仲人型（IBJ）",
-    initial: "49,800円",
-    monthly: "11,800円",
+    initial: fmtYen(wsM.initial),
+    monthly: fmtYen(wsM.monthly),
     omiai: "0円",
-    seikon: "149,800円",
-    total1y: "191,400円",
-    totalSeikon: "341,200円",
-    note: "マイペースプランを基準としています。来店不要でIBJ約9.6万名に申し込めます。成婚料149,800円は仲人型の相場（20万円前後）より低めです。専任カウンセラーが付きます。",
+    seikon: fmtYen(wsM.success),
+    total1y: fmtYen(y1(wsM)),
+    totalSeikon: fmtYen(y1(wsM) + wsM.success),
+    note: `マイペースプラン（専任カウンセラーへの相談はLINEのみ・カウンセラーからの紹介なし）を基準としています。来店不要で、IBJ会員${WM.ibj}（${WM.ibjAsOf}・公式）に申し込めます。電話・ビデオ通話の相談と月3名の紹介が付くサポートプランは初期費用${fmtYen(wsS.initial)}・月会費${fmtYen(wsS.monthly)}・成婚料${fmtYen(wsS.success)}で、1年で成婚した場合は${fmtYen(y1(wsS) + wsS.success)}です。`,
   },
   {
     slug: "bridal-tulip",
@@ -336,6 +340,8 @@ const rowsRaw: Row[] = [
 ];
 const yen = (t: string) => Number(t.replace(/[^0-9]/g, "")) || 0;
 const rows: Row[] = [...rowsRaw].sort((a, b) => yen(a.total1y) - yen(b.total1y));
+// 本文中の順位は並べ替え結果から出す（直書きしない）
+const RANK = (slug: string) => rows.findIndex((r) => r.slug === slug) + 1;
 
 // 確認日ごとに社名をまとめる（新しい順）。確認日の記録がない社は最後にまとめる。
 const RANGE = checkedRange(rowsRaw.map((r) => r.slug)) ?? "2026年";
@@ -360,7 +366,7 @@ const LATEST = exactGroups.length ? jpDate(exactGroups[0][0]) : null;
 const faqs = [
   {
     q: "一番安い結婚相談所はどこですか？",
-    a: `当サイトが公式サイトで検証した24社の範囲（${RANGE}確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。専任カウンセラーによる仲人サポートを受けながら費用を抑えたい場合は、ウェルスマ（1年総額191,400円・お見合い料0円）が検証済みの相談所の中で最安水準です。`,
+    a: `当サイトが公式サイトで検証した24社の範囲（${RANGE}確認・税込）では、スマリッジが1年総額125,400円（登録料6,600円＋月会費9,900円×12・成婚料0円）で最安です。オンライン完結型のため店舗サポートはありませんが、3ヶ月お見合い成立なしの返金保証があります。専任カウンセラーによる仲人サポートを受けながら費用を抑えたい場合は、ウェルスマ（マイペースプランで1年総額${fmtYen(y1(wsM))}・お見合い料0円。ただしカウンセラーへの相談はLINEのみ）が検証済みの相談所の中で最安水準です。`,
   },
   {
     q: "「月会費が安い」と「総額が安い」は違うのですか？",
@@ -409,7 +415,7 @@ export default function CheapComparePage() {
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>1年総額の最安はスマリッジの125,400円</strong>で、次いで<strong>セブン結婚相談所の127,400円</strong>です。スマリッジは成婚料0円のため、成婚しても総額は増えません。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>担当者が付く相談所で<strong>「成婚まで」安いのはセブン結婚相談所（成婚込177,400円・成婚料50,000円）とベルロード縁結びサポート（成婚込227,600円・成婚料80,000円）</strong>です。どちらもIBJ加盟で、他のIBJ加盟店の多く（成婚料220,000円）と比べて成婚料が大幅に低い水準です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>⚠️ <strong>「1年総額」と「成婚込み総額」で順位が入れ替わります</strong>。エクセレンス青山は1年総額では3位（147,400円）ですが、成婚料220,000円を加えると367,400円になります。一方、ベルロードは1年総額では4位ですが、成婚込みの総額は227,600円に抑えられます。また、月会費が7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量に応じて総額が増えます。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>⚠️ <strong>「1年総額」と「成婚込み総額」で順位が入れ替わります</strong>。エクセレンス青山は1年総額では{RANK("excellence-aoyama")}位（147,400円）ですが、成婚料220,000円を加えると367,400円になります。一方、ベルロードは1年総額では{RANK("bellroad")}位ですが、成婚込みの総額は227,600円に抑えられます。また、月会費が7千円台でもお見合い料が都度かかる相談所（エクセレンス青山・ブライダルチューリップ）は、活動量に応じて総額が増えます。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>成婚時総額の幅は<strong>12.5万円（スマリッジ）〜67.7万円（IBJメンバーズ）で、差は最大約5.4倍</strong>です。仲人型は費用が高い分、伴走サポートが手厚く、<strong>費用の安さとサポートの手厚さは両立しにくい関係</strong>にあります。</span></li>
           </ul>
         </div>

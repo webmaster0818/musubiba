@@ -419,7 +419,7 @@ export default function SmartreadReview() {
             <li><Link href="/review/naco-do/" className="text-[#A08447] underline">naco-doの評判・料金を見る</Link></li>
             <li><Link href="/review/en-konkatsu/" className="text-[#A08447] underline">エン婚活エージェントの評判・料金を見る</Link></li>
             <li><Link href="/review/fiore/" className="text-[#A08447] underline">フィオーレの評判・料金を見る</Link></li>
-            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（オンラインでも専任仲人のサポートを希望する方向け・月会費11,800円〜）</Link></li>
+            <li><Link href="/review/wellsma/" className="text-[#A08447] underline">ウェルスマの評判・料金を見る（オンラインでも専任仲人のサポートを希望する方向け・月会費9,800円〜）</Link></li>
           </ul>
         </section>
 

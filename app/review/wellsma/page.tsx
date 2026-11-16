@@ -10,9 +10,9 @@ import ReviewExtra from "@/components/ReviewExtra";
 import { WELLSMA_MEMBERS as WM, WELLSMA_IBJ_LABEL, WELLSMA_NETWORK_NOTE } from "@/data/wellsma";
 
 export const metadata = {
-  title: "ウェルスマの口コミ・評判｜IBJ口コミ224件をテーマ別に集計・月会費11,800円〜・成婚率86.1%の定義【2026年11月】",
+  title: "ウェルスマの口コミ・評判｜IBJ口コミ224件をテーマ別に集計・月会費9,800円〜・成婚率86.1%の定義【2026年11月】",
   description:
-    "ウェルスマ（IBJ加盟の完全オンライン仲人型結婚相談所）の口コミ・評判を、IBJ公式サイトの口コミ224件（平均4.5）の全件テーマ別集計と、星3以下15件の内容で整理しています。料金（2026年10月25日公式確認）、成婚率86.1%の定義、解約・休会・プラン変更の条件も掲載しています。",
+    "ウェルスマ（IBJ加盟の完全オンライン仲人型結婚相談所）の口コミ・評判を、IBJ公式サイトの口コミ224件（平均4.5）の全件テーマ別集計と、星3以下15件の内容で整理しています。料金（2026年11月16日公式確認）、成婚率86.1%の定義、解約・休会・プラン変更の条件も掲載しています。",
 };
 
 const overview = {
@@ -21,9 +21,9 @@ const overview = {
   type: "オンライン仲人型（完全オンライン・来店不要）",
   federation: `IBJ正規加盟（${WELLSMA_IBJ_LABEL}。有料オプションのIBJ online会員${WM.ibjOnline}（${WM.ibjOnlineAsOf}）を合わせると最大${WM.total}規模）`,
   area: "全国（実店舗なし・Zoom/LINEで完結）",
-  initialFee: "49,800円（税込・全プラン共通）",
-  monthlyFee: "11,800円〜19,800円（税込・3プラン）",
-  matchingFee: "149,800円（税込・全プラン共通）",
+  initialFee: "19,800円〜49,800円（税込・マイペースプラン19,800円／サポート・プレミアムプラン49,800円）",
+  monthlyFee: "9,800円〜19,800円（税込・3プラン）",
+  matchingFee: "109,800円〜149,800円（税込・マイペースプラン109,800円／サポート・プレミアムプラン149,800円）",
   successRate: "1年以内成婚率86.1%（自社公称・定義は本文参照）",
 };
 
@@ -43,7 +43,7 @@ const strengths = [
 ];
 
 const pros = [
-  "月会費11,800円〜と仲人型としては始めやすい料金水準",
+  "月会費9,800円〜（マイペースプラン）と仲人型としては始めやすい料金水準",
   "完全オンラインのため全国どこからでも活動できる",
   `IBJ加盟で紹介可能な会員基盤が大きい（${WELLSMA_IBJ_LABEL}）`,
   "マル適マークCMS認証の記載があり、運営の透明性を確認しやすい",
@@ -66,7 +66,7 @@ const faqs = [
   },
   {
     q: "ウェルスマの料金はいくらですか？",
-    a: "税込で入会金49,800円（全プラン共通）、月会費はマイペースプラン11,800円・サポートプラン15,800円・プレミアムプラン19,800円の3種類、成婚料は149,800円（全プラン共通）です。料金は改定される場合があるため、最新の金額は必ず公式サイトでご確認ください。",
+    a: "税込で、マイペースプランは初期費用19,800円・月会費9,800円・成婚料109,800円、サポートプランは初期費用49,800円・月会費15,800円・成婚料149,800円、プレミアムプランは初期費用49,800円・月会費19,800円・成婚料149,800円です（2026年11月16日に公式「プラン内容」ページで確認）。お見合い料はかかりません。料金は改定される場合があるため、最新の金額は必ず公式サイトでご確認ください。",
   },
   {
     q: "ウェルスマはどの連盟に加盟していますか？",
@@ -129,16 +129,16 @@ const REVIEW_EXTRA = {
   ],
   "fitYes": [
     "来店せずZoom・LINEで活動を完結したい方",
-    "仲人型のサポートを月会費11,800円〜で受けたい方",
+    "仲人型のサポートを月会費9,800円〜で受けたい方",
     "プランごとの申込人数・紹介人数の違いを理解して選びたい方"
   ],
   "fitNo": [
     "対面のカウンセリングを受けたい方",
-    "成婚料149,800円を避け、成婚料0円のサービスを選びたい方",
+    "成婚料（109,800円〜149,800円）を避け、成婚料0円のサービスを選びたい方",
     "オンラインツールの操作に負担を感じる方"
   ],
   "facts": [
-    "プラン別のお申込み人数（月）: マイペース30名・サポート60名・プレミアム100名（活動状況に応じて最大200名）。申し受けはいずれのプランも無制限です。",
+    "プラン別のお申込み人数（月）: マイペース30名・サポート60名・プレミアム100名（活動状況に応じて増加も可能）。申し受けはいずれのプランも無制限です。",
     "紹介人数（月）: マイペースはなし、サポートは3名、プレミアムは6名＋都度です。",
     "相談手段: マイペースはLINE、サポート・プレミアムはLINE/電話/ビデオ通話です。サポート以上は分析活動レポート付き、プレミアムは成婚戦略面談付きです。",
     "「年間100名以上が成婚」と公表されています（2025年度実績・自社公称）。"
@@ -148,7 +148,7 @@ const REVIEW_EXTRA = {
     {
       "seen": "月額9,800円〜・7万人以上の会員から月5名を紹介",
       "source": "2021年9月30日のプレスリリース（サービス一新時）",
-      "now": `月会費11,800円／15,800円／19,800円の3プラン、紹介人数はプランにより0名・3名・6名＋都度です（2026年10月25日に公式トップで再確認）。IBJ会員は${WM.ibj}です（${WM.ibjAsOf}・${WM.checkedOn}に公式トップで確認）。`
+      "now": `月会費9,800円／15,800円／19,800円の3プラン（初期費用19,800円／49,800円／49,800円、成婚料109,800円／149,800円／149,800円）、紹介人数はプランにより0名・3名・6名＋都度です（2026年11月16日に公式「プラン内容」ページで確認）。IBJ会員は${WM.ibj}です（${WM.ibjAsOf}・${WM.checkedOn}に公式トップで確認）。`
     }
   ]
 };
@@ -164,7 +164,7 @@ export default function WellsmaReview() {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
-          ウェルスマの口コミ・評判｜月会費11,800円〜のオンライン仲人型を公式情報で検証
+          ウェルスマの口コミ・評判｜月会費9,800円〜のオンライン仲人型を公式情報で検証
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月11日（IBJ公式サイトの口コミ件数と、10月25日以降に増えた3件の内容を11月11日に確認。料金・プラン内容・解約規定は2026年10月25日に公式サイトで再確認。口コミ224件のテーマ別集計は10月25日）</p>
 
@@ -174,18 +174,18 @@ export default function WellsmaReview() {
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>運営・形態</strong>：合同会社アクチュアライゼーション（東京都渋谷区・代表 細川佑太朗）が運営する、IBJ正規加盟の<strong>完全オンライン仲人型の結婚相談所</strong>です。店舗はなく、面談はZoom、日常の相談はLINEで行います。マル適マークCMSを取得し、IBJ AWARD PREMIUM（2022年・2023年）を受賞しています（IBJ公式サイトの相談所ページの表記）。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用49,800円＋月会費11,800円〜19,800円（3プラン）＋成婚料149,800円（税込）。お見合い料はかかりません。<strong>マイペースプランで1年活動して成婚した場合の総額目安は341,200円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用19,800円〜49,800円＋月会費9,800円〜19,800円（3プラン）＋成婚料109,800円〜149,800円（税込）。お見合い料はかかりません。<strong>マイペースプランで1年活動して成婚した場合の総額目安は247,200円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ224件（平均4.5）では、カウンセラーの親身さ・丁寧さに触れた投稿が108件、料金の安さに触れた投稿が110件と多い一方、星3以下の15件には「サポートは必要最低限」「返信がない」という内容が含まれます（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>解約・休会</strong>：契約期間の縛り・中途解約料はなく、休会は3ヶ月×2回まで（システム利用料2,200円/月）です（公式FAQ）。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・プラン内容は公式トップ、解約・休会は公式「よくあるご質問」、運営会社は公式「会社概要」で2026年10月25日に確認した掲載値です。総額目安は49,800円＋11,800円×12ヶ月＋149,800円の単純計算です。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・プラン内容は公式「プラン内容」ページ（2026年11月16日確認）、解約・休会は公式「よくあるご質問」、運営会社は公式「会社概要」（2026年10月25日確認）の掲載値です。総額目安はマイペースプランの19,800円＋9,800円×12ヶ月＋109,800円の単純計算です。</p>
         </div>
 
         {/* Conclusion box */}
         <div className="bg-[#F5F0EB] rounded-2xl p-6 mb-4 border border-[#A08447]/20">
           <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">ウェルスマが適している方</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-3">
-            ウェルスマは、<strong>来店不要の完全オンライン</strong>で専任カウンセラーの仲人型サポートを受けられるIBJ正規加盟の結婚相談所です。月会費11,800円〜（税込）と仲人型としては始めやすい水準で、店舗に通う時間が取れない方・地方在住の方に向いています。
+            ウェルスマは、<strong>来店不要の完全オンライン</strong>で専任カウンセラーの仲人型サポートを受けられるIBJ正規加盟の結婚相談所です。月会費9,800円〜（税込・マイペースプラン）と仲人型としては始めやすい水準で、店舗に通う時間が取れない方・地方在住の方に向いています。
           </p>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed">
             公称の「1年以内成婚率86.1%」は<strong>分母が成婚退会者</strong>（2025年1〜12月の成婚退会者のうち1年以内に成婚した割合）である点に注意が必要です。全会員に対する成婚割合ではないため、数字の定義を理解したうえでご検討ください。
@@ -233,14 +233,14 @@ export default function WellsmaReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">入会金</td><td className="px-4 py-3 text-center" colSpan={3}>49,800円（全プラン共通）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,800円</td><td className="px-4 py-3 text-center">15,800円</td><td className="px-4 py-3 text-center">19,800円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center" colSpan={3}>149,800円（全プラン共通）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">19,800円</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">49,800円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円</td><td className="px-4 py-3 text-center">15,800円</td><td className="px-4 py-3 text-center">19,800円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">109,800円</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">149,800円</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年7月31日時点の公式サイト掲載の税込料金です（2026年10月14日・10月25日の再確認時点でも変更はありません）。ネット上の古い記事には現行と異なる旧料金が掲載されている場合があります。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年11月16日に公式「プラン内容」ページ（https://www.wealsma.com/plan-2/）で確認した税込料金です。マイペースプランは、2026年10月25日の確認時点（初期費用49,800円・月会費11,800円・成婚料149,800円）から金額が変わっています。ネット上の古い記事には現行と異なる旧料金が掲載されている場合があります。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
         </section>
 
@@ -322,9 +322,9 @@ export default function WellsmaReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">19,800円〜</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円〜</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">109,800円〜</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">専任カウンセラーの仲人型</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
               </tbody>
@@ -337,7 +337,7 @@ export default function WellsmaReview() {
         <ReviewVoices
           name="ウェルスマ"
           checkedOn="2026年10月25日"
-          reviewNote="Googleマップの「結婚相談所ウェルスマ」には口コミが163件あり、評価は4.5でした（当サイトが2026年8月18日に取得）。2026年10月14日に公式サイトを再確認し、料金（入会金49,800円・月会費11,800円〜19,800円・成婚料149,800円・お見合い料なし）は7月から変更ありません。2025年の成婚退会者のうち1年以内に成婚した割合86.1%・平均在籍7.9ヶ月と公表されています。"
+          reviewNote="Googleマップの「結婚相談所ウェルスマ」には口コミが163件あり、評価は4.5でした（当サイトが2026年8月18日に取得）。2026年11月16日に公式「プラン内容」ページで料金を確認したところ、マイペースプランは初期費用19,800円・月会費9,800円・成婚料109,800円、サポート・プレミアムプランは初期費用49,800円・月会費15,800円／19,800円・成婚料149,800円で、お見合い料はかかりません。2025年の成婚退会者のうち1年以内に成婚した割合86.1%・平均在籍7.9ヶ月と公表されています。"
         />
 
 
@@ -389,14 +389,14 @@ export default function WellsmaReview() {
           <div className="bg-[#FAFAF8] rounded-xl border border-gray-100 p-6">
             <h3 className="font-medium text-[#A08447] mb-4 tracking-wider">無料相談で確認したい5つのポイント</h3>
             <ul className="space-y-3 text-sm text-[#2C2C2C]/70">
-              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>最新の料金表（入会金49,800円・月会費11,800円〜・成婚料149,800円の現行料金と一致するか）</li>
+              <li className="flex gap-2"><span className="text-[#A08447] shrink-0">1.</span>最新の料金表（2026年11月16日確認の料金〈マイペースプラン：初期費用19,800円・月会費9,800円・成婚料109,800円など〉と一致するか）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">2.</span>プランごとのサポート内容の違い（マイペース／サポート／プレミアムで何が変わるか）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">3.</span>成婚率86.1%の算出定義の説明が公式掲載どおりか（分母＝成婚退会者）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">4.</span>専任カウンセラーとの連絡頻度・返信スピードの目安（オンライン型では特に重要）</li>
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>中途退会時の手続き・費用の扱い（公式FAQでは中途解約料なし。特定商取引法に基づく表示の精算方法とあわせて契約書面で確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金・プラン内容・FAQ・特定商取引法に基づく表示は2026年10月25日、IBJ会員数は{WM.checkedOn}に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年7月31日時点の公式サイト掲載情報を基に作成し、料金・プラン内容は2026年11月16日、FAQ・特定商取引法に基づく表示は2026年10月25日、IBJ会員数は{WM.checkedOn}に公式サイトで再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}

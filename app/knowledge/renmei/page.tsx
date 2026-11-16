@@ -33,7 +33,7 @@ const ibjRows: Row[] = [
   { slug: "nagareyama-otakanomori", name: "流山おおたかの森結婚相談所", federation: "IBJ加盟", monthly: "9,900円", success: "220,000円" },
   { slug: "code-for-marriage", name: "Code For Marriage", federation: "IBJ正規加盟", monthly: "11,000円〜", success: "220,000円" },
   { slug: "pitto", name: "P!っと縁結び", federation: "IBJ正規加盟", monthly: "11,000円〜16,500円", success: "220,000円" },
-  { slug: "wellsma", name: "ウェルスマ", federation: `IBJ正規加盟（${WELLSMA_IBJ_LABEL}）`, monthly: "11,800円〜19,800円", success: "149,800円" },
+  { slug: "wellsma", name: "ウェルスマ", federation: `IBJ正規加盟（${WELLSMA_IBJ_LABEL}）`, monthly: "9,800円〜19,800円", success: "109,800円〜149,800円" },
   { slug: "niko-bridal", name: "nikoブライダル", federation: "IBJ正規加盟（ネットワーク 111,160名・2026年9月現在）", monthly: "13,200円〜", success: "220,000円" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", federation: "IBJ加盟", monthly: "14,300円〜27,500円", success: "220,000円" },
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },

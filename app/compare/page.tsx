@@ -22,7 +22,7 @@ const agencies: Agency[] = [
   { slug: "mars-cafe", name: "マーズカフェ", monthly: "月会費7,700円〜11,000円", initial: "入会金88,000円＋登録料22,000円／成婚料220,000円", type: "仲人型・IBJ/TMS加盟" },
   { slug: "code-for-marriage", name: "Code For Marriage", monthly: "月会費11,000円（スタンダード）", initial: "入会費77,000円／成婚料220,000円", type: "年代別プランあり" },
   { slug: "pitto", name: "P!っと縁結び", monthly: "月会費11,000円〜16,500円", initial: "初期費用88,000円〜110,000円／成婚料220,000円", type: "ピップ運営・全国対応" },
-  { slug: "wellsma", name: "ウェルスマ", monthly: "月会費11,800円〜19,800円", initial: "入会金49,800円／成婚料149,800円", type: "オンライン仲人型" },
+  { slug: "wellsma", name: "ウェルスマ", monthly: "月会費9,800円〜19,800円", initial: "初期費用19,800円〜49,800円／成婚料109,800円〜149,800円（プラン別）", type: "オンライン仲人型" },
   { slug: "niko-bridal", name: "nikoブライダル", monthly: "月会費13,200円（男性婚活プラン16,500円）", initial: "初期費用110,000円／成婚料220,000円", type: "大阪・仲人型" },
   { slug: "en-konkatsu", name: "エン婚活エージェント", monthly: "月会費16,500円", initial: "登録料33,000円／成婚料0円", type: "オンライン型" },
   { slug: "hero-marriage", name: "ヒーローマリッジ", monthly: "月会費14,300円〜27,500円", initial: "初期費用165,000円／成婚料220,000円", type: "男性専門" },

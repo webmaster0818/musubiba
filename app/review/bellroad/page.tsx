@@ -340,9 +340,9 @@ export default function BellroadReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">30,000円</td><td className="px-4 py-3 text-center">49,800円</td><td className="px-4 py-3 text-center">6,600円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円（実質8,300円〜）</td><td className="px-4 py-3 text-center">11,800円〜</td><td className="px-4 py-3 text-center">9,900円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">80,000円</td><td className="px-4 py-3 text-center">149,800円</td><td className="px-4 py-3 text-center">0円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">30,000円</td><td className="px-4 py-3 text-center">19,800円〜</td><td className="px-4 py-3 text-center">6,600円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円（実質8,300円〜）</td><td className="px-4 py-3 text-center">9,800円〜</td><td className="px-4 py-3 text-center">9,900円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">80,000円</td><td className="px-4 py-3 text-center">109,800円〜</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">連盟・会員基盤</td><td className="px-4 py-3 text-center">IBJ（9万人以上・公式掲載値）</td><td className="px-4 py-3 text-center">IBJ（{WM.ibj}・{WM.ibjAsOf}・{WM.checkedOn}公式確認）</td><td className="px-4 py-3 text-center">コネクトシップ等</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン・サブスク型</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
               </tbody>
