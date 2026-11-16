@@ -91,6 +91,8 @@ for (const r of ["/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", 
 for (const r of ["/review/wellsma", "/knowledge/renmei", "/compare/online", "/review/bellroad", "/review/excellence-aoyama", "/knowledge/kaiyaku"]) UPDATED[r] = "2026-11-16";
 // 2026-11-16(2): ウェルスマの料金変更（マイペースプラン 初期19,800円・月9,800円・成婚料109,800円、公式 plan-2 で確認）を data/fees.ts・PLAN_FEES と各ページに反映。/mens/ の IBJ 会員数を IBJ 公式の111,572名（2026年10月末時点）に更新
 for (const r of ["/compare", "/compare/cheap", "/mens", "/knowledge/cost", "", "/review/pitto", "/review/ringbell", "/review/smartread", "/review/musbell"]) UPDATED[r] = "2026-11-16";
+// 2026-11-16(3): 競合参考ページ拡張（kwexp）で knowledge に3本追加
+for (const r of ["/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai", "/knowledge", "/knowledge/saikon", "/knowledge/shibetsu-saikon"]) UPDATED[r] = "2026-11-16";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -123,6 +125,7 @@ const STATIC_ROUTES = [
   "/knowledge/kaiyaku",
   "/knowledge/renmei",
   "/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon",
+  "/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
