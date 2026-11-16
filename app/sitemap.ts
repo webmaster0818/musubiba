@@ -87,6 +87,8 @@ UPDATED["/faq"] = "2026-11-01";
 UPDATED["/review/musbell"] = "2026-10-31";
 // 2026-11-15: 競合参考ページ拡張（kwexp）で knowledge に5本追加
 for (const r of ["/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon", "/knowledge"]) UPDATED[r] = "2026-11-15";
+// 2026-11-16: ウェルスマの会員数をページ間で統一（公式トップ IBJ 111,572名・2026年10月末時点、data/wellsma.ts から参照）、kaiyaku のエン婚活行を公式で再確認
+for (const r of ["/review/wellsma", "/knowledge/renmei", "/compare/online", "/review/bellroad", "/review/excellence-aoyama", "/knowledge/kaiyaku"]) UPDATED[r] = "2026-11-16";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
