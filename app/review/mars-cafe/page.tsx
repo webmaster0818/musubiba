@@ -5,6 +5,10 @@ import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
 import ReviewFacts from "@/components/ReviewFacts";
+import { feeOf, yenOr } from "@/data/fees";
+
+// 比較表のエン婚活エージェントの料金は data/fees.ts（公式料金ページで確認した値）から表示する
+const EN_FEE = feeOf("en-konkatsu");
 
 export const metadata = {
   title: "結婚相談所マーズカフェ（Marz cafe）の口コミ・評判｜IBJ44件・エキテン13件の集計と最新料金【2026年11月】",
@@ -338,8 +342,8 @@ export default function MarsCafeReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜11,000円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">7,700円〜11,000円</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">{yenOr(EN_FEE.monthly)}</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">110,000円</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">{yenOr(EN_FEE.initial)}</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">約18万人（2団体加盟時）</td><td className="px-4 py-3 text-center">検索会員数19.1万人（3連盟・2026年11月12日公式確認）</td><td className="px-4 py-3 text-center">紹介可能17.4万人以上（全DB合計・2026年6月時点）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率72.5%（自社発表）</td><td className="px-4 py-3 text-center">低価格帯のオンライン型</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
+import { IBJ_MEMBERS } from "@/data/ibj";
 
 export const metadata: Metadata = {
   title: "IBJメンバーズとムスベルの比較｜直営と加盟店の違い・成婚までの総額【2026年】",
@@ -15,7 +16,7 @@ type Row = { item: string; ibj: string; musbell: string };
 const rows: Row[] = [
   { item: "運営形態", ibj: "株式会社IBJの直営店（東証プライム上場・証券コード6071）", musbell: "IBJ含む複数連盟に加盟する加盟店（独立運営・全国展開）" },
   { item: "タイプ", ibj: "ハイブリッド型（婚約までのフルサポート）", musbell: "ハイブリッド型（仲人＋データマッチング）" },
-  { item: "出会える会員", ibj: "IBJ登録会員110,420名（2026年7月時点）", musbell: "IBJに加えJBU・BIU・TMSの4連盟（公式掲載の会員数94,763人・2024年10月時点の値）" },
+  { item: "出会える会員", ibj: `IBJ登録会員${IBJ_MEMBERS.count}（${IBJ_MEMBERS.asOf}・${IBJ_MEMBERS.checkedOn}にIBJ公式で確認）`, musbell: "IBJに加えJBU・BIU・TMSの4連盟（公式掲載の会員数94,763人・2024年10月時点の値）" },
   { item: "店舗", ibj: "全国9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）", musbell: "全国に拠点を展開（拠点数は公式サイト参照）" },
   { item: "初期費用", ibj: "252,450円（登録料33,000円＋活動サポート費219,450円）", musbell: "181,500円〜（初期費用33,000円＋入会金148,500円・カジュアルコース）" },
   { item: "月会費", ibj: "17,050円", musbell: "16,500円〜（エクセレントコースは17,000円）" },
@@ -32,7 +33,7 @@ const totals = [
 const faqs = [
   {
     q: "IBJメンバーズとムスベルは同じ相手に出会えますか？",
-    a: "IBJのネットワーク上では重なります。IBJメンバーズは連盟を運営する株式会社IBJの直営店、ムスベルはIBJを含む複数連盟に加盟する加盟店で、どちらも同じIBJ登録会員110,420名（2026年7月時点）を対象にお相手検索・お見合いができます。加えてムスベルは、公式サイトでJBU・BIU・TMSなどIBJ以外の連盟も利用できると記載しています（一部の連盟は地域により利用不可、または別途オプション費用が必要）。そのため、出会える相手は一部共通しており、料金とサポート内容が2社を比較する際の主な観点になります。",
+    a: `IBJのネットワーク上では重なります。IBJメンバーズは連盟を運営する株式会社IBJの直営店、ムスベルはIBJを含む複数連盟に加盟する加盟店で、どちらも同じIBJ登録会員${IBJ_MEMBERS.count}（${IBJ_MEMBERS.asOf}）を対象にお相手検索・お見合いができます。加えてムスベルは、公式サイトでJBU・BIU・TMSなどIBJ以外の連盟も利用できると記載しています（一部の連盟は地域により利用不可、または別途オプション費用が必要）。そのため、出会える相手は一部共通しており、料金とサポート内容が2社を比較する際の主な観点になります。`,
   },
   {
     q: "成婚までの総額が安いのはどちらですか？",
@@ -65,7 +66,7 @@ export default function IbjVsMusbellPage() {
           IBJメンバーズとムスベルの比較【2026年】直営と加盟店の違いと総額
         </h1>
         <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
-          <strong>IBJメンバーズ</strong>は結婚相談所の連盟「IBJ（日本結婚相談所連盟）」を運営する株式会社IBJの<strong>直営店</strong>、<strong>ムスベル</strong>はIBJを含む複数連盟に加盟する<strong>加盟店</strong>です。どちらも同じIBJネットワーク（登録会員110,420名・2026年7月時点）で活動できるため、この2社の比較では、出会える相手よりも<strong>料金とサポート内容</strong>が重要な観点になります。当サイトでは、初期費用と成婚料で差の方向が逆になる料金構造・成婚定義・サポート体制を、検証済みの公表料金にもとづいて中立的に整理しています。どちらも無料相談から始められるため、迷われた場合は両社で総額の見積もりを取り、比較することをおすすめします。
+          <strong>IBJメンバーズ</strong>は結婚相談所の連盟「IBJ（日本結婚相談所連盟）」を運営する株式会社IBJの<strong>直営店</strong>、<strong>ムスベル</strong>はIBJを含む複数連盟に加盟する<strong>加盟店</strong>です。どちらも同じIBJネットワーク（登録会員{IBJ_MEMBERS.count}・{IBJ_MEMBERS.asOf}）で活動できるため、この2社の比較では、出会える相手よりも<strong>料金とサポート内容</strong>が重要な観点になります。当サイトでは、初期費用と成婚料で差の方向が逆になる料金構造・成婚定義・サポート体制を、検証済みの公表料金にもとづいて中立的に整理しています。どちらも無料相談から始められるため、迷われた場合は両社で総額の見積もりを取り、比較することをおすすめします。
         </p>
         <p className="text-xs text-[#2C2C2C]/50 mb-8">
           ※料金は当サイト各レビューの検証値です（IBJメンバーズ=2026年8月3日に公式サイトで確認・税込／ムスベル=2026年10月23日公式確認・税込）。プラン・連盟・拠点により異なるため、最新の料金・契約条件は各公式サイトおよび無料相談で必ずご確認ください。
@@ -110,7 +111,7 @@ export default function IbjVsMusbellPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50 align-top"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 whitespace-nowrap">IBJ会員への接点</td><td className="px-4 py-3 text-center" colSpan={2}>同じIBJネットワーク（110,420名・2026年7月時点）で検索・お見合い可能</td></tr>
+                <tr className="border-t border-gray-50 align-top"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 whitespace-nowrap">IBJ会員への接点</td><td className="px-4 py-3 text-center" colSpan={2}>同じIBJネットワーク（{IBJ_MEMBERS.count}・{IBJ_MEMBERS.asOf}）で検索・お見合い可能</td></tr>
                 <tr className="border-t border-gray-50 align-top"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 whitespace-nowrap">IBJ以外の会員</td><td className="px-4 py-3 text-center">対象外（IBJネットワークのみ）</td><td className="px-4 py-3 text-center">JBU・BIU・TMSの会員にも出会える（一部の連盟は地域により利用不可・別途費用あり）</td></tr>
                 <tr className="border-t border-gray-50 align-top"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 whitespace-nowrap">料金の決まり方</td><td className="px-4 py-3 text-center">全店共通（初期252,450円・月17,050円・成婚料220,000円）</td><td className="px-4 py-3 text-center">相談所が独自に設定（3コース：入会時費用181,500円〜484,000円・月16,500円〜17,000円・成婚料330,000円）</td></tr>
                 <tr className="border-t border-gray-50 align-top"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70 whitespace-nowrap">サポート</td><td className="px-4 py-3 text-center">カウンセラー1人あたり約60人の担当制・婚約までフルサポート</td><td className="px-4 py-3 text-center">専任仲人の紹介＋データ検索の併用（拠点・担当により特色）</td></tr>

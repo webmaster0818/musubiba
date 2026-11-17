@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { DB_PREFS, loadAgencyDb, indexableAgencies } from "@/lib/agencies";
+import AGENCY_IBJ_20261117 from "@/data/lastmod-agency-2026-11-17.json";
 
 export const dynamic = "force-static";
 
@@ -93,6 +94,9 @@ for (const r of ["/review/wellsma", "/knowledge/renmei", "/compare/online", "/re
 for (const r of ["/compare", "/compare/cheap", "/mens", "/knowledge/cost", "", "/review/pitto", "/review/ringbell", "/review/smartread", "/review/musbell"]) UPDATED[r] = "2026-11-16";
 // 2026-11-16(3): 競合参考ページ拡張（kwexp）で knowledge に3本追加
 for (const r of ["/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai", "/knowledge", "/knowledge/saikon", "/knowledge/shibetsu-saikon"]) UPDATED[r] = "2026-11-16";
+// 2026-11-17: エン婚活エージェントの比較表の料金（旧値 登録料10,780円・月会費14,300円 → 公式 33,000円・16,500円、data/fees.ts 参照に変更）、
+// IBJ会員数（110,420名・2026年7月時点 → IBJ公式 111,572名・2026年10月末時点、data/ibj.ts 参照に変更）
+for (const r of ["/review/wellsma", "/review/pitto", "/review/mars-cafe", "/knowledge/renmei", "/compare/ibj-vs-musbell"]) UPDATED[r] = "2026-11-17";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -108,6 +112,8 @@ const AGENCY_UPDATED: Record<string, string> = {
   "結婚相談所Enishell-小田原-78c7": "2026-11-03",
   "結婚相談-婚活サポート-結愛花-yumeka-7d88": "2026-11-03"
 };
+// 2026-11-17: 提携先カード（IBJメンバーズ）の IBJ 会員数を更新した店舗ページ（data/lastmod-agency-2026-11-17.json）
+for (const s of AGENCY_IBJ_20261117 as string[]) AGENCY_UPDATED[s] = "2026-11-17";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

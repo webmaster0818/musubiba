@@ -1,3 +1,4 @@
+import { IBJ_MEMBERS } from "./ibj";
 /*
  * 提携している相談所のデータ（2026-10-08 新設）。
  *
@@ -124,7 +125,7 @@ export const PARTNERS: Partner[] = [
     prefs: ["tokyo", "kanagawa", "aichi", "osaka", "hyogo", "fukuoka"],
     area: "全国9店舗（東京・銀座・有楽町・新宿西口・横浜・名古屋・大阪・神戸・福岡）",
     fee: "登録料33,000円／月会費17,050円／成婚料220,000円（税込）",
-    point: "IBJの直営店です。登録会員110,420名（2026年7月時点）からお相手を探せます。",
+    point: `IBJの直営店です。IBJの登録会員${IBJ_MEMBERS.count}（${IBJ_MEMBERS.asOf}）からお相手を探せます。`,
   },
   {
     ad: "folli",

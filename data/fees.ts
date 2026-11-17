@@ -8,6 +8,7 @@
  * 公表が確認できなかった項目は null にして「非公表」と表示する。
  * 2026-10-23: ムスベル・ツヴァイ・オーネット・nikoブライダルを公式サイトで再確認。ムスベル・ツヴァイ・オーネットは料金改定後の値に更新。
  * オーネットの成婚料は相手により0円/220,000円に分かれるため null（順位・総額の計算から外す）。
+ * 2026-11-17: エン婚活エージェントの料金（登録料33,000円・月会費16,500円・お見合い料/成婚料0円）を公式料金ページ https://en-konkatsu.com/price/ で再確認（変更なし。FEE_CHECKED はレビュー全体の確認日のため 10-27 のまま）。
  * 2026-11-14: マーズカフェの入会金改定（A・Bコース66,000円→88,000円、乗り換え限定55,000円→77,000円）を公式料金ページで確認し、初期費用を110,000円に更新。
  * 2026-10-26: マリッジプロ（公式 prop-p.com/price/）・リングベル（公式 ringbell-marriage.com/price）を公式サイトで確認し、
  * 未確認（—）だった月会費・初期費用・成婚料を下限値で登録。プラン別の金額は PLAN_FEES に持つ。
@@ -204,6 +205,18 @@ export const PLAN_SCENARIO = { months: 12, omiai: 12, kosai: 1 };
 export function planTotal(p: PlanFee, opts: { months?: number; omiai?: number; kosai?: number; seikon?: boolean } = {}) {
   const { months = PLAN_SCENARIO.months, omiai = PLAN_SCENARIO.omiai, kosai = PLAN_SCENARIO.kosai, seikon = true } = opts;
   return p.initial + p.monthly * months + p.perOmiai * omiai + (p.perKosai ?? 0) * kosai + (seikon ? p.success : 0);
+}
+
+/** slug の料金行（無ければビルドを止める） */
+export function feeOf(slug: string): Fee {
+  const f = FEES.find((x) => x.slug === slug);
+  if (!f) throw new Error(`FEES に ${slug} がありません`);
+  return f;
+}
+
+/** 金額の表示（null は「非公表」） */
+export function yenOr(n: number | null) {
+  return n === null ? "非公表" : `${n.toLocaleString("ja-JP")}円`;
 }
 
 /** 123456 → "123,456円" */

@@ -8,6 +8,10 @@ import A8Banner from "@/components/A8Banner";
 import FlowGuide from "@/components/FlowGuide";
 import ReviewExtra from "@/components/ReviewExtra";
 import { WELLSMA_MEMBERS as WM, WELLSMA_IBJ_LABEL, WELLSMA_NETWORK_NOTE } from "@/data/wellsma";
+import { feeOf, yenOr } from "@/data/fees";
+
+// 比較表のエン婚活エージェントの料金は data/fees.ts（公式料金ページで確認した値）から表示する
+const EN_FEE = feeOf("en-konkatsu");
 
 export const metadata = {
   title: "ウェルスマの口コミ・評判｜IBJ口コミ224件をテーマ別に集計・月会費9,800円〜・成婚率86.1%の定義【2026年11月】",
@@ -322,8 +326,8 @@ export default function WellsmaReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">19,800円〜</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">10,780円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円〜</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">14,300円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">19,800円〜</td><td className="px-4 py-3 text-center">66,000円</td><td className="px-4 py-3 text-center">{yenOr(EN_FEE.initial)}</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,800円〜</td><td className="px-4 py-3 text-center">16,800円</td><td className="px-4 py-3 text-center">{yenOr(EN_FEE.monthly)}</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">成婚料</td><td className="px-4 py-3 text-center">109,800円〜</td><td className="px-4 py-3 text-center">0円</td><td className="px-4 py-3 text-center">0円</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン仲人型</td><td className="px-4 py-3 text-center">オンライン完結型</td><td className="px-4 py-3 text-center">オンライン完結型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">専任カウンセラーの仲人型</td><td className="px-4 py-3 text-center">3連盟連携</td><td className="px-4 py-3 text-center">全額返金保証</td></tr>
