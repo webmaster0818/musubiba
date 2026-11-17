@@ -97,6 +97,8 @@ for (const r of ["/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hy
 // 2026-11-17: エン婚活エージェントの比較表の料金（旧値 登録料10,780円・月会費14,300円 → 公式 33,000円・16,500円、data/fees.ts 参照に変更）、
 // IBJ会員数（110,420名・2026年7月時点 → IBJ公式 111,572名・2026年10月末時点、data/ibj.ts 参照に変更）
 for (const r of ["/review/wellsma", "/review/pitto", "/review/mars-cafe", "/knowledge/renmei", "/compare/ibj-vs-musbell"]) UPDATED[r] = "2026-11-17";
+// 2026-11-17: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/mie", "/knowledge/ishikawa", "/knowledge/akita", "/knowledge"]) UPDATED[r] = "2026-11-17";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -132,6 +134,7 @@ const STATIC_ROUTES = [
   "/knowledge/renmei",
   "/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon",
   "/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai",
+  "/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/mie", "/knowledge/ishikawa", "/knowledge/akita",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
