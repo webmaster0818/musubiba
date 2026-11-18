@@ -101,6 +101,8 @@ for (const r of ["/review/wellsma", "/review/pitto", "/review/mars-cafe", "/know
 for (const r of ["/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/mie", "/knowledge/ishikawa", "/knowledge/akita", "/knowledge"]) UPDATED[r] = "2026-11-17";
 // 2026-11-18: kaiyaku のスマリッジ行・休会FAQを公式利用規約（2026年10月13日改定版）で再照合し確認日を更新（内容は一致）
 UPDATED["/knowledge/kaiyaku"] = "2026-11-18";
+// 2026-11-18: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata", "/knowledge"]) UPDATED[r] = "2026-11-18";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -137,6 +139,7 @@ const STATIC_ROUTES = [
   "/knowledge/tekireiki", "/knowledge/50s", "/knowledge/senior", "/knowledge/saikon", "/knowledge/shibetsu-saikon",
   "/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai",
   "/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/mie", "/knowledge/ishikawa", "/knowledge/akita",
+  "/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
