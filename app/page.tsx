@@ -437,9 +437,24 @@ export default function Home() {
             仲人のサポートがある相談所の評判・料金と、人気の2社の比較を掲載しています
           </p>
           <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-            <Link href="/compare/musbell-vs-ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
-              <p className="font-medium text-[#A08447] tracking-wider">ムスベルとリングベルを比較する</p>
-              <p className="text-sm text-[#2C2C2C]/60 mt-1">料金総額・対象年代・特徴の違いを中立的な立場で解説</p>
+            {/* 2026-11-18 施主承認: 2社比較カードに画像を追加。ムスベル=公式サイトを同日撮影／リングベル=提携ASPの提供素材（10/30 ASP修正依頼で採用済みのもの） */}
+            <Link href="/compare/musbell-vs-ringbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl overflow-hidden hover:border-[#A08447] transition-colors">
+              <div className="grid grid-cols-2 gap-px bg-[#E5DCCF]">
+                <figure className="min-w-0 bg-white">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/ss-musbell-20261118.jpg" alt="ムスベルの公式サイトのトップページ" width={1200} height={750} loading="lazy" className="block w-full aspect-video object-cover object-top" />
+                  <figcaption className="text-[10px] leading-snug text-gray-400 px-2 py-1">出典：ムスベル 公式サイト（2026年11月18日撮影）</figcaption>
+                </figure>
+                <figure className="min-w-0 bg-white">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/ss-ringbell-official.jpg" alt="リングベル" width={1600} height={586} loading="lazy" className="block w-full aspect-video object-cover" />
+                  <figcaption className="text-[10px] leading-snug text-gray-400 px-2 py-1">画像提供：リングベル</figcaption>
+                </figure>
+              </div>
+              <div className="p-5">
+                <p className="font-medium text-[#A08447] tracking-wider">ムスベルとリングベルを比較する</p>
+                <p className="text-sm text-[#2C2C2C]/60 mt-1">料金総額・対象年代・特徴の違いを中立的な立場で解説</p>
+              </div>
             </Link>
             <Link href="/review/musbell/" className="block bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-5 hover:border-[#A08447] transition-colors">
               <p className="font-medium text-[#A08447] tracking-wider">ムスベルの評判・料金を見る</p>
