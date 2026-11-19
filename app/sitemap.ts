@@ -103,6 +103,8 @@ for (const r of ["/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/m
 UPDATED["/knowledge/kaiyaku"] = "2026-11-18";
 // 2026-11-18: 競合参考ページ拡張（kwexp）で knowledge に5本追加
 for (const r of ["/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata", "/knowledge"]) UPDATED[r] = "2026-11-18";
+// 2026-11-19: kaiyaku の10月確認3社（マリッジプロ・リングベル・流山）と7〜8月確認4社（フォリ・ヒーロー・ベルロード・Code For Marriage）を公式で再照合。フォリのレビューはクーリングオフの起算を公式表記に修正
+for (const r of ["/knowledge/kaiyaku", "/review/folli-partner"]) UPDATED[r] = "2026-11-19";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
