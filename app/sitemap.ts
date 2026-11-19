@@ -103,6 +103,8 @@ for (const r of ["/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/m
 UPDATED["/knowledge/kaiyaku"] = "2026-11-18";
 // 2026-11-18: 競合参考ページ拡張（kwexp）で knowledge に5本追加
 for (const r of ["/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata", "/knowledge"]) UPDATED[r] = "2026-11-18";
+// 2026-11-19: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/kagoshima", "/knowledge/fukuchiyama", "/knowledge/takamatsu", "/knowledge/nagasaki", "/knowledge/saga", "/knowledge"]) UPDATED[r] = "2026-11-19";
 // 2026-11-19: kaiyaku の10月確認3社（マリッジプロ・リングベル・流山）と7〜8月確認4社（フォリ・ヒーロー・ベルロード・Code For Marriage）を公式で再照合。フォリのレビューはクーリングオフの起算を公式表記に修正
 for (const r of ["/knowledge/kaiyaku", "/review/folli-partner"]) UPDATED[r] = "2026-11-19";
 const AGENCY_UPDATED: Record<string, string> = {
@@ -142,6 +144,7 @@ const STATIC_ROUTES = [
   "/knowledge/single-father", "/knowledge/deaiba", "/knowledge/hyogo-deai",
   "/knowledge/single-mother", "/knowledge/jieikan", "/knowledge/mie", "/knowledge/ishikawa", "/knowledge/akita",
   "/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata",
+  "/knowledge/kagoshima", "/knowledge/fukuchiyama", "/knowledge/takamatsu", "/knowledge/nagasaki", "/knowledge/saga",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
