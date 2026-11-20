@@ -126,6 +126,8 @@ const AGENCY_UPDATED: Record<string, string> = {
 };
 // 2026-11-17: 提携先カード（IBJメンバーズ）の IBJ 会員数を更新した店舗ページ（data/lastmod-agency-2026-11-17.json）
 for (const s of AGENCY_IBJ_20261117 as string[]) AGENCY_UPDATED[s] = "2026-11-17";
+// 11/20: スマリッジ 11/19 不正アクセス・サービス一時停止の告知を反映
+UPDATED["/review/smartread"] = "2026-11-20";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

@@ -6,9 +6,9 @@ import FlowGuide from "@/components/FlowGuide";
 import ReviewFacts from "@/components/ReviewFacts";
 
 export const metadata = {
-  title: "スマリッジ（smarriage）の口コミ・評判｜悪い口コミの傾向・料金・返金保証の条件【2026年10月】",
+  title: "スマリッジ（smarriage）の口コミ・評判｜11月19日からサービス一時停止中・悪い口コミの傾向・料金・返金保証の条件",
   description:
-    "スマリッジの口コミ・評判を、口コミサイト掲載9件のテーマ別集計で整理しています。登録料6,600円・月会費9,900円・成婚料0円（2026年10月23日公式確認）、全額返金保証の対象外条件、割引別の1年総額、悪い口コミの傾向も掲載しています。",
+    "スマリッジは2026年11月19日、不正アクセスの判明によりサービスを一時停止しています（公式告知・11月20日確認）。口コミサイト掲載9件のテーマ別集計、登録料6,600円・月会費9,900円・成婚料0円（停止前の公式確認値）、全額返金保証の対象外条件、割引別の1年総額を掲載しています。",
 };
 
 const overview = {
@@ -104,7 +104,11 @@ const faqs = [
   },
   {
     q: "現在スマリッジに入会できますか？",
-    a: "入会できます。公式サイトは2026年10月22日20時20分から予防的なセキュリティ対策としてメンテナンスを行っていましたが、2026年11月1日16時30分に完了し、新規会員登録・マイページへのログイン・各種お申し込み／お問い合わせフォームなど、停止していたすべての機能が通常どおり利用できると告知されています。情報漏洩や不正アクセスなどの被害はないとされています（出典：https://s-marriage.jp/maintenance/・2026年11月3日確認）。",
+    a: "2026年11月20日時点では利用できません。運営会社のSEモバイル・アンド・オンライン株式会社は、2026年11月19日にスマリッジへの外部からの不正アクセスが判明したとして、サービスを一時停止し緊急メンテナンスを行っていると公式サイトで告知しています。個人情報の流出の有無を含む影響範囲と原因は調査中で、再開は安全性を確認したうえで判断し、判明次第公式サイト等で知らせるとしています。問い合わせ窓口はスマリッジ事務局（support@s-marriage.jp）です（出典：https://s-marriage.jp/maintenance/・2026年11月20日確認）。なお、2026年10月22日から11月1日までのメンテナンスは「予防的なセキュリティ対策」と告知されていたもので、今回とは別の告知です。",
+  },
+  {
+    q: "スマリッジの会員はいま何をすればよいですか？",
+    a: "公式告知（2026年11月19日付・第一報）では、会員向けの具体的な手続きは案内されていません。当サイトでは、続報を公式サイトで確認すること、スマリッジで使っていたパスワードを他のサービスでも使っている場合はそちらの変更を検討すること、スマリッジを名乗る不審なメールや電話に注意することをおすすめします。月会費の扱いや休会・退会の取り扱いは告知に記載がないため、スマリッジ事務局（support@s-marriage.jp）にご確認ください（2026年11月20日確認）。",
   },
   {
     q: "コネクトシップとは何ですか？",
@@ -166,18 +170,22 @@ export default function SmartreadReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           スマリッジ（smarriage）の口コミ・評判｜悪い口コミの傾向・料金・返金保証の条件
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月3日（料金・会員数・実績値・返金保証規約・割引条件・入会資格・退会と休会の手続きは2026年11月3日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月20日（サービス一時停止の告知を2026年11月20日に公式サイトで確認。料金・会員数・実績値・返金保証規約・割引条件・入会資格・退会と休会の手続きは2026年11月3日に公式サイトで確認）</p>
 
-        <div className="bg-[#FAFAF8] border border-[#A08447]/30 rounded-xl p-5 mb-6 text-sm text-[#2C2C2C]/80 leading-relaxed">
-          <p className="font-medium text-[#2C2C2C] mb-1">公式サイトのメンテナンスは完了しています（2026年11月3日確認）</p>
+        <div className="bg-red-50 border border-red-200 rounded-xl p-5 mb-6 text-sm text-[#2C2C2C]/80 leading-relaxed">
+          <p className="font-medium text-red-800 mb-1">スマリッジは2026年11月19日からサービスを一時停止しています（2026年11月20日確認）</p>
+          <p className="mb-2">
+            運営会社のSEモバイル・アンド・オンライン株式会社は、2026年11月19日にスマリッジへの外部からの不正アクセスが判明したとして、サービスを一時停止し緊急メンテナンスを実施していると公式サイトで告知しています（第一報）。個人情報の流出の有無を含む影響範囲と原因は調査中で、再開の時期は未定です。2026年11月20日時点で、公式サイトの料金案内などのページはこの告知に切り替わっています（出典：https://s-marriage.jp/maintenance/）。
+          </p>
           <p>
-            スマリッジの公式サイトは2026年10月22日から、PHPの脆弱性公表を受けた予防的なメンテナンスを行っていましたが、2026年11月1日16時30分に完了し、新規会員登録・マイページへのログイン・各種お申し込みフォームなど、停止していたすべての機能が通常どおり利用できると告知されています（出典：https://s-marriage.jp/maintenance/）。
+            本ページの料金・返金保証・口コミの集計は、停止前（2026年10月23日〜11月3日）に確認した内容です。再開後に条件が変わる可能性があるため、続報は公式サイトでご確認ください。いますぐ活動を始めたい方は、<Link href="/compare/online/" className="text-[#A08447] underline">オンライン結婚相談所の比較</Link>もあわせてご覧ください。2026年10月22日〜11月1日の予防的メンテナンス（完了済み）とは別の告知です。
           </p>
         </div>
 
         <section className="mb-8 bg-white rounded-2xl border border-gray-100 p-6">
           <h2 className="text-lg font-medium mb-3 tracking-wider text-[#2C2C2C]">スマリッジの口コミ・評判の概要</h2>
           <ul className="space-y-2 text-sm text-[#2C2C2C]/80 leading-relaxed list-disc pl-5">
+            <li>2026年11月19日、外部からの不正アクセスが判明したとしてサービスが一時停止されています。再開時期は未定です（公式告知・2026年11月20日確認）。</li>
             <li>口コミサイト（jm-h.com）掲載の9件を当サイトで分類すると、料金の安さに納得している声が8件と最も多く、気になる点ではコネクトシップの画面・操作の分かりにくさ（5件）、仲介の少なさ（4件）、日程調整が進まない（3件）が挙がっています（2026年10月23日確認）。</li>
             <li>料金は登録料6,600円・月会費9,900円・成婚料0円で、割引なしで1年活動した場合の総額は125,400円の計算です（2026年11月3日公式確認）。</li>
             <li>全額返金保証は、3ヶ月間お見合い（コネクトシップのコンタクト、IBJ onlineのトライアルデート）が成立しなかった場合が対象です。割引を利用した場合は対象外となるため、利用前に10項目の対象外条件をご確認ください（2026年11月3日公式確認）。</li>
@@ -357,7 +365,7 @@ export default function SmartreadReview() {
             { name: "スマリッジ 料金案内（公式）", url: "https://s-marriage.jp/price/", note: "料金・オプション・全額返金保証・割引・退会ルール。2026年11月3日確認" },
             { name: "スマリッジ よくある質問（公式）", url: "https://s-marriage.jp/question/", note: "入会資格・退会・休会。2026年11月3日確認" },
             { name: "スマリッジ 入会について（公式）", url: "https://s-marriage.jp/join/", note: "入会資格・必要書類・無料の入会相談。2026年11月3日確認" },
-            { name: "スマリッジ システムメンテナンス完了のお知らせ（公式）", url: "https://s-marriage.jp/maintenance/", note: "2026年11月1日完了。2026年11月3日確認" },
+            { name: "スマリッジ 不正アクセスの発生およびサービスの一時停止について（第一報・公式）", url: "https://s-marriage.jp/maintenance/", note: "2026年11月19日付。2026年11月20日確認（同じURLで11月1日に告知されていた予防的メンテナンスは完了済み）" },
             { name: "スマリッジの口コミと評判（jm-h.com）", url: "https://jm-h.com/kuchikomi-smarriage", note: "9件・2026年10月23日確認" },
             { name: "スマリッジの口コミ・評判まとめ（M2W）", url: "https://matching-two.com/s-marriage/", note: "170件・2026年10月23日確認" },
           ]}
@@ -445,8 +453,8 @@ export default function SmartreadReview() {
         
 
         <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
-          <h2 className="text-xl font-light mb-4 tracking-widest">スマリッジの無料相談を予約する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">オンライン婚活の進め方は、無料相談で確認できます</p>
+          <h2 className="text-xl font-light mb-4 tracking-widest">スマリッジの再開状況を公式サイトで確認する</h2>
+          <p className="text-white/50 text-sm mb-8 tracking-wider">2026年11月19日からサービスを一時停止しています（2026年11月20日確認）。再開の告知は公式サイトに掲載されます</p>
           <div className="mb-6">
             <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
               <img src="https://t.felmat.net/fmimg/J112188.Z162495D.Z1361712" width="300" height="250" alt="スマリッジ" className="mx-auto rounded-lg" />
