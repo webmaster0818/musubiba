@@ -12,6 +12,9 @@
  * 2026-11-14: マーズカフェの入会金改定（A・Bコース66,000円→88,000円、乗り換え限定55,000円→77,000円）を公式料金ページで確認し、初期費用を110,000円に更新。
  * 2026-10-26: マリッジプロ（公式 prop-p.com/price/）・リングベル（公式 ringbell-marriage.com/price）を公式サイトで確認し、
  * 未確認（—）だった月会費・初期費用・成婚料を下限値で登録。プラン別の金額は PLAN_FEES に持つ。
+ * 2026-11-20: マリッジプロの料金を同ページで再確認（既存4プランは変更なし）。対象条件の限られる乗換えプラン・パパママキッズ婚活は
+ * PLAN_FEES にだけ追加し、FEES の下限（社間の順位比較用）は従来どおり男性・女性・U-28・地方の4プランから取る。
+ * FEE_CHECKED はレビューページの料金確認日表記と揃えるため 10-26 のまま。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -168,6 +171,8 @@ export type PlanFee = {
   /** 交際成立1件ごとの費用。料金表に項目がなければ null */
   perKosai: number | null;
   success: number;
+  /** 公式に記載された申込の対象条件（誰でも選べるプランは省略） */
+  eligibility?: string;
 };
 
 export const PLAN_FEES: PlanFee[] = [
@@ -182,6 +187,11 @@ export const PLAN_FEES: PlanFee[] = [
   { slug: "marriage-pro", plan: "女性プラン", initial: 100000, monthly: 12000, perOmiai: 0, perKosai: null, success: 220000 },
   { slug: "marriage-pro", plan: "U-28プラン", initial: 80000, monthly: 11000, perOmiai: 0, perKosai: null, success: 180000 },
   { slug: "marriage-pro", plan: "地方プラン", initial: 95000, monthly: 9000, perOmiai: 0, perKosai: null, success: 220000 },
+  // 2026-11-20: 同じ公式ページ（https://prop-p.com/price/ ）で乗換えプラン2種とパパママキッズ婚活を確認して追加。既存4プランの値も同日に再確認（変更なし）。
+  // 交際成立時の費用は料金表に項目がない（記載なし）ため perKosai は null。パパママキッズ婚活は登録料・月会費が「無料」、お見合い料3,000円、紹介件数10件。
+  { slug: "marriage-pro", plan: "乗換え男性プラン", initial: 80000, monthly: 11000, perOmiai: 0, perKosai: null, success: 220000, eligibility: "1年以内にIBJ日本結婚相談所連盟に所属していた方" },
+  { slug: "marriage-pro", plan: "乗換え女性プラン", initial: 70000, monthly: 9800, perOmiai: 0, perKosai: null, success: 200000, eligibility: "1年以内にIBJ日本結婚相談所連盟に所属していた方" },
+  { slug: "marriage-pro", plan: "パパママキッズ婚活", initial: 30000, monthly: 0, perOmiai: 3000, perKosai: null, success: 200000, eligibility: "18歳以下のお子様と同居のシングルマザー・シングルファーザーの方" },
   // ringbell: 公式「料金プラン」ページ（2026-10-26確認・税込）。お見合い料なし（公式FAQ）。
   { slug: "ringbell", plan: "ベーシック", initial: 55000, monthly: 17600, perOmiai: 0, perKosai: null, success: 109800 },
   { slug: "ringbell", plan: "ハイブリッド", initial: 88000, monthly: 17600, perOmiai: 0, perKosai: null, success: 220000 },

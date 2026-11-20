@@ -107,6 +107,8 @@ for (const r of ["/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", 
 for (const r of ["/knowledge/kagoshima", "/knowledge/fukuchiyama", "/knowledge/takamatsu", "/knowledge/nagasaki", "/knowledge/saga", "/knowledge"]) UPDATED[r] = "2026-11-19";
 // 2026-11-19: kaiyaku の10月確認3社（マリッジプロ・リングベル・流山）と7〜8月確認4社（フォリ・ヒーロー・ベルロード・Code For Marriage）を公式で再照合。フォリのレビューはクーリングオフの起算を公式表記に修正
 for (const r of ["/knowledge/kaiyaku", "/review/folli-partner"]) UPDATED[r] = "2026-11-19";
+// 2026-11-20: マリッジプロの乗換えプラン2種・パパママキッズ婚活を公式 price で確認し PLAN_FEES に追加。renmei の月会費レンジ（0円〜）に対象条件を明記
+UPDATED["/knowledge/renmei"] = "2026-11-20";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",

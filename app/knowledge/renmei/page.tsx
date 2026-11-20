@@ -39,7 +39,7 @@ const ibjRows: Row[] = [
   { slug: "hero-marriage", name: "ヒーローマリッジ", federation: "IBJ加盟", monthly: "14,300円〜27,500円", success: "220,000円" },
   { slug: "folli-partner", name: "東京フォリパートナー", federation: "IBJ正規加盟・優良認定加盟店", monthly: "16,500円〜22,000円", success: "250,000円〜300,000円" },
   { slug: "ibj-members", name: "IBJメンバーズ", federation: `株式会社IBJの直営（IBJ登録会員 ${IBJ_MEMBERS.count}・${IBJ_MEMBERS.asOf}）`, monthly: "17,050円", success: "220,000円" },
-  { slug: "marriage-pro", name: "マリッジプロ", federation: "IBJ加盟", monthly: `${planRange("marriage-pro", "monthly")}（男性${mpMonthly("男性プラン")}・女性${mpMonthly("女性プラン")}）`, success: planRange("marriage-pro", "success") },
+  { slug: "marriage-pro", name: "マリッジプロ", federation: "IBJ加盟", monthly: `${planRange("marriage-pro", "monthly")}（男性${mpMonthly("男性プラン")}・女性${mpMonthly("女性プラン")}。0円は18歳以下の子と同居のひとり親限定「パパママキッズ婚活」・2026年11月20日公式確認）`, success: planRange("marriage-pro", "success") },
   // 2026-10-27 公式トップ（https://ringbell-marriage.com/）の「IBJ加盟」表記と「IBJ連盟の会員11.1万人からお相手を探せます」で確認
   { slug: "ringbell", name: "リングベル", federation: "IBJ加盟（IBJ連盟の会員11.1万人から検索可・2026年10月27日公式確認）", monthly: planRange("ringbell", "monthly"), success: planRange("ringbell", "success") },
 ];
