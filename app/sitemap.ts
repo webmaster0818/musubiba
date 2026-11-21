@@ -114,6 +114,8 @@ UPDATED["/knowledge/renmei"] = "2026-11-20";
 // 2026-11-21: スマリッジ（停止中・施主判断待ち）・マーズカフェ・ウェルスマを除く21社の料金を公式料金ページで照合（全社一致・金額変更なし）。各レビューの料金確認日と
 // FEE_CHECKED 由来の確認日（/compare/cheap/・2社比較）を 2026-11-21 に更新。/compare/ はフォリパートナーの初期費用の表記を公式の項目名に修正
 for (const r of ["/review/naco-do", "/review/seven", "/review/bridal-tulip", "/review/excellence-aoyama", "/review/bellroad", "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/review/pitto", "/review/niko-bridal", "/review/en-konkatsu", "/review/hero-marriage", "/review/musbell", "/review/zwei", "/review/onet", "/review/sunmarie", "/review/folli-partner", "/review/ibj-members", "/review/partner-agent", "/review/fiore", "/review/marriage-pro", "/review/ringbell", "/compare", "/compare/cheap", "/compare/musbell-vs-ringbell", "/compare/tulip-vs-musbell"]) UPDATED[r] = "2026-11-21";
+// 2026-11-21: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki", "/knowledge"]) UPDATED[r] = "2026-11-21";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -155,6 +157,7 @@ const STATIC_ROUTES = [
   "/knowledge/okinawa", "/knowledge/oita", "/knowledge/okayama", "/knowledge/nagano", "/knowledge/niigata",
   "/knowledge/kagoshima", "/knowledge/fukuchiyama", "/knowledge/takamatsu", "/knowledge/nagasaki", "/knowledge/saga",
   "/knowledge/kumamoto", "/knowledge/gifu", "/knowledge/yamanashi", "/knowledge/obihiro", "/knowledge/matsumoto",
+  "/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
