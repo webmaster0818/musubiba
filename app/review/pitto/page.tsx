@@ -184,7 +184,7 @@ export default function PittoReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           P!っと縁結び（ピッと縁結び）の口コミ・評判｜ピップ株式会社運営のIBJ正規加盟店を公式情報で検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月23日（料金・休会・解約規定は2026年10月23日に公式「プラン・料金」「よくあるご質問」で再確認。運営会社の本社所在地を訂正し、口コミ4媒体のテーマ別集計と悪い口コミのFAQを追加）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日に公式「プラン・料金」ページで再確認・変更なし。料金・休会・解約規定は2026年10月23日に公式「プラン・料金」「よくあるご質問」で再確認。運営会社の本社所在地を訂正し、口コミ4媒体のテーマ別集計と悪い口コミのFAQを追加）</p>
 
         <div className="bg-white rounded-2xl p-6 mb-4 border border-gray-100">
           <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-widest">P!っと縁結び（ピッと縁結び）とは</h2>
@@ -272,7 +272,7 @@ export default function PittoReview() {
             <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※当サイトによる単純合計の試算です。エントリープランは月4回お見合いすると年264,000円のお見合い料が加わり、ベーシックプランより高くなる計算です。お見合い回数の見込みに応じて選ぶことをおすすめします。このほかプロフィール撮影代・婚活パーティ参加費が別途かかる場合があります（公式FAQに記載）。</p>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">
-            ※2026年10月23日に公式「プラン・料金」ページ（pi-enmusubi.pipjapan.co.jp/plan/）で再確認した税込料金です（8月6日・10月14日の確認時点から変更ありません）。公式ページの注記では、活動サポート費は1年分の前受金とされています。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
+            ※2026年11月21日に公式「プラン・料金」ページ（pi-enmusubi.pipjapan.co.jp/plan/）で再確認した税込料金です（8月6日・10月14日・10月23日の確認時点から変更ありません）。公式ページの注記では、活動サポート費は1年分の前受金とされています。料金は改定されることがあるため、最新の金額は必ず公式サイトでご確認ください。
           </p>
         </section>
 
@@ -443,7 +443,7 @@ export default function PittoReview() {
               <li className="flex gap-2"><span className="text-[#A08447] shrink-0">5.</span>休会（月1,100円・最大3ヶ月・10日前申請）と中途退会時の費用の扱い（月会費の日割り返金なし。契約書面で必ず確認）</li>
             </ul>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成し、料金・よくあるご質問・お知らせは2026年10月23日に再確認しています。サービス内容・料金は変更される場合があります。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本記事は2026年8月6日時点の公式サイト掲載情報を基に作成し、料金は2026年11月21日、よくあるご質問・お知らせは2026年10月23日に再確認しています。サービス内容・料金は変更される場合があります。</p>
         </section>
 
         {/* Compare links */}

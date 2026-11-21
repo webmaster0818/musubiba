@@ -7,7 +7,7 @@ import BrandStores from "@/components/BrandStores";
 export const metadata = {
   title: "リングベル（結婚相談所）の口コミ・評判｜料金・成婚料を中立的に解説【2026年】",
   description:
-    "リングベル（結婚相談所）の口コミ・評判を中立的な立場で整理しています。月会費17,600円・入会金55,000〜242,000円・成婚料109,800〜220,000円（プラン別・2026年10月26日公式確認）の総額目安、評判の傾向、入会条件やオンライン対応について解説しています。",
+    "リングベル（結婚相談所）の口コミ・評判を中立的な立場で整理しています。月会費17,600円・入会金55,000〜242,000円・成婚料109,800〜220,000円（プラン別・2026年11月21日公式確認）の総額目安、評判の傾向、入会条件やオンライン対応について解説しています。",
 };
 
 const overview = {
@@ -15,7 +15,7 @@ const overview = {
   type: "IBJ加盟のオンライン結婚相談所（担当コンシェルジュ制）",
   members: "自社の会員数の公表なし（IBJの会員111,160名〔2026年9月末時点〕と出会えると公式サイトに記載）",
   area: "全国（入会手続きからサポートまでオンラインで完結／本社 大阪市中央区・東京オフィス 港区浜松町）",
-  initialFee: "55,000〜242,000円（入会金・ベーシック55,000円／ハイブリッド88,000円／コミットメント242,000円・税込／2026年10月26日公式確認）",
+  initialFee: "55,000〜242,000円（入会金・ベーシック55,000円／ハイブリッド88,000円／コミットメント242,000円・税込／2026年11月21日公式確認）",
   monthlyFee: "17,600円（全プラン共通・税込）",
   matchingFee: "109,800〜220,000円（ベーシック109,800円／ハイブリッド・コミットメント220,000円・成婚退会時・税込）",
   age: "入会資格は男性20〜44歳・女性20〜39歳（男性は年収500万円以上）",
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "リングベルの料金は総額いくらかかりますか？",
-    a: "公式サイトの料金（税込・2026年10月26日確認）は、入会金がベーシック55,000円・ハイブリッド88,000円・コミットメント242,000円、月会費は全プラン共通で17,600円、成婚料はベーシック109,800円・ハイブリッドとコミットメント220,000円です。お見合い料は公式サイトで「お見合いのたびに弊社へお支払いいただく費用はありません」と案内されています。1年で成婚した場合の総額目安は、ベーシックで約376,000円、ハイブリッドで約519,200円です。お見合い時の飲食代・交通費、プロフィール写真の撮影費用は別途実費となります。ご利用前に、公式サイトにて最新の料金をご確認ください。",
+    a: "公式サイトの料金（税込・2026年11月21日確認）は、入会金がベーシック55,000円・ハイブリッド88,000円・コミットメント242,000円、月会費は全プラン共通で17,600円、成婚料はベーシック109,800円・ハイブリッドとコミットメント220,000円です。お見合い料は公式サイトで「お見合いのたびに弊社へお支払いいただく費用はありません」と案内されています。1年で成婚した場合の総額目安は、ベーシックで約376,000円、ハイブリッドで約519,200円です。お見合い時の飲食代・交通費、プロフィール写真の撮影費用は別途実費となります。ご利用前に、公式サイトにて最新の料金をご確認ください。",
   },
   {
     q: "リングベルの入会条件はありますか？",
@@ -115,7 +115,7 @@ export default function RingbellReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           リングベルの口コミ・評判｜料金・特徴・サポートを解説
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月26日（料金は公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日に公式サイトで確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -123,7 +123,7 @@ export default function RingbellReview() {
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>特徴</strong>：IBJ加盟のオンライン結婚相談所で、入会手続きからサポートまでオンラインで完結します。担当コンシェルジュへのLINE相談は全プラン無制限です。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会金55,000円〜＋月会費17,600円＋成婚料109,800円〜です（プラン別・2026年10月26日公式確認）。ベーシックプランで1年で成婚した場合の総額目安は<strong>約376,000円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：入会金55,000円〜＋月会費17,600円＋成婚料109,800円〜です（プラン別・2026年11月21日公式確認）。ベーシックプランで1年で成婚した場合の総額目安は<strong>約376,000円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>注意点</strong>：入会資格は男性20〜44歳・女性20〜39歳で、男性は年収500万円以上が条件です。月会費は全プラン17,600円です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：来店せずにオンラインで活動したい方、お住まいの地域を問わずIBJの会員から相手を探したい方、お見合い料をかけずに活動したい方です。</span></li>
           </ul>
@@ -236,7 +236,7 @@ export default function RingbellReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※すべて税込で、リングベル公式サイトの<a href="https://ringbell-marriage.com/price" target="_blank" rel="noopener noreferrer" className="underline">料金プランページ</a>にて2026年10月26日に確認した料金です。お見合い時の飲食代・交通費、プロフィール写真の撮影費用は別途実費となります。正確な総額は無料相談での見積もりをご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※すべて税込で、リングベル公式サイトの<a href="https://ringbell-marriage.com/price" target="_blank" rel="noopener noreferrer" className="underline">料金プランページ</a>にて2026年11月21日に確認した料金です。お見合い時の飲食代・交通費、プロフィール写真の撮影費用は別途実費となります。正確な総額は無料相談での見積もりをご確認ください。</p>
         </section>
 
         <section className="mb-12">

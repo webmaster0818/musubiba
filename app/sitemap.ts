@@ -111,6 +111,9 @@ for (const r of ["/knowledge/kumamoto", "/knowledge/gifu", "/knowledge/yamanashi
 for (const r of ["/knowledge/kaiyaku", "/review/folli-partner"]) UPDATED[r] = "2026-11-19";
 // 2026-11-20: マリッジプロの乗換えプラン2種・パパママキッズ婚活を公式 price で確認し PLAN_FEES に追加。renmei の月会費レンジ（0円〜）に対象条件を明記
 UPDATED["/knowledge/renmei"] = "2026-11-20";
+// 2026-11-21: スマリッジ（停止中・施主判断待ち）・マーズカフェ・ウェルスマを除く21社の料金を公式料金ページで照合（全社一致・金額変更なし）。各レビューの料金確認日と
+// FEE_CHECKED 由来の確認日（/compare/cheap/・2社比較）を 2026-11-21 に更新。/compare/ はフォリパートナーの初期費用の表記を公式の項目名に修正
+for (const r of ["/review/naco-do", "/review/seven", "/review/bridal-tulip", "/review/excellence-aoyama", "/review/bellroad", "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/review/pitto", "/review/niko-bridal", "/review/en-konkatsu", "/review/hero-marriage", "/review/musbell", "/review/zwei", "/review/onet", "/review/sunmarie", "/review/folli-partner", "/review/ibj-members", "/review/partner-agent", "/review/fiore", "/review/marriage-pro", "/review/ringbell", "/compare", "/compare/cheap", "/compare/musbell-vs-ringbell", "/compare/tulip-vs-musbell"]) UPDATED[r] = "2026-11-21";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",

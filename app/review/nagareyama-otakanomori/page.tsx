@@ -7,7 +7,7 @@ import FlowGuide from "@/components/FlowGuide";
 export const metadata = {
   title: "流山おおたかの森結婚相談所の料金・評判｜成婚率68.4%・成婚者の声37件の集計【2026年10月公式確認】",
   description:
-    "流山おおたかの森結婚相談所（千葉県流山市・IBJ加盟）の料金と評判をまとめています。初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年10月27日公式確認）、成婚率68.4%（2025年）、公式の成婚者の声37件の年代・居住地の集計を掲載しています。",
+    "流山おおたかの森結婚相談所（千葉県流山市・IBJ加盟）の料金と評判をまとめています。初期費用165,000円・月会費9,900円・成婚料220,000円（税込・2026年11月21日公式確認）、成婚率68.4%（2025年）、公式の成婚者の声37件の年代・居住地の集計を掲載しています。",
   alternates: { canonical: "/review/nagareyama-otakanomori/" },
 };
 
@@ -60,7 +60,7 @@ const cons = [
 const faqs = [
   {
     q: "流山おおたかの森結婚相談所の料金は総額いくらかかりますか？",
-    a: "公式公表の料金（税込・2026年10月27日確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円で、お見合い料は0円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
+    a: "公式公表の料金（税込・2026年11月21日確認）は、初期費用165,000円＋月会費9,900円＋成婚料220,000円で、お見合い料は0円です。1年活動して成婚した場合の総額目安は約503,800円（165,000＋9,900×12＋220,000）です。成婚しなかった場合の1年総額は約283,800円です。最新の料金は公式サイト・無料相談でご確認ください。",
   },
   {
     q: "IBJ加盟とはどういう意味ですか？出会いの数に影響はありますか？",
@@ -121,14 +121,14 @@ export default function NagareyamaOtakanomoriReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           流山おおたかの森結婚相談所の料金・評判｜月会費9,900円・お見合い料0円・IBJ加盟
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日（料金・成婚率・お客様の声は2026年10月27日に<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>・<a href="https://n-otakanomori.com/faq/" target="_blank" rel="noopener noreferrer" className="underline">よくある質問</a>・<a href="https://n-otakanomori.com/voice/" target="_blank" rel="noopener noreferrer" className="underline">お客様の声</a>で確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、成婚率・お客様の声は2026年10月27日に<a href="https://n-otakanomori.com/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>・<a href="https://n-otakanomori.com/faq/" target="_blank" rel="noopener noreferrer" className="underline">よくある質問</a>・<a href="https://n-otakanomori.com/voice/" target="_blank" rel="noopener noreferrer" className="underline">お客様の声</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />流山おおたかの森結婚相談所の料金と特徴
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・1プラン・2026年10月27日公式確認）です。<strong>お見合い料は0円</strong>で、2年目以降の更新料はありません。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：初期費用165,000円＋月会費9,900円＋成婚料220,000円（税込・1プラン・2026年11月21日公式確認）です。<strong>お見合い料は0円</strong>で、2年目以降の更新料はありません。<strong>1年で成婚した場合の総額目安は約50.4万円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>成婚率</strong>：公式FAQで<strong>2025年は68.4%</strong>（成婚退会13名・成婚以外の退会6名）、<strong>2026年は10月現在72.2%</strong>（成婚退会13名・成婚以外の退会5名）と、人数と計算式を公表しています。登録会員はおよそ40名で、代表1名で担当できる40名までを目安としています。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>成婚者の声</strong>：公式「お客様の声」に成婚年月つきで掲載されている37件（2022年11月〜2026年10月）を当サイトで集計すると、30代が25件、流山市在住が15件でした（<a href="#voice-summary" className="underline text-[#A08447]">集計表</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>面談の形式</strong>：事務所ではなく、流山おおたかの森駅・柏駅近くのカフェで面談する出張型です（流山・柏・野田・松戸エリア）。初回・2回目のカウンセリングは電話・オンラインでも受けられます。</span></li>
@@ -192,7 +192,7 @@ export default function NagareyamaOtakanomoriReview() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年10月27日公式確認）</h2>
+          <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">料金プランと総額の目安（税込・2026年11月21日公式確認）</h2>
           <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-4">
             プランは1つだけのシンプルな体系です。月会費だけでなく<strong>入会から成婚までの総額</strong>で把握することをおすすめします。
           </p>
@@ -208,7 +208,7 @@ export default function NagareyamaOtakanomoriReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※金額はすべて税込・2026年10月27日に公式サイトで確認した公表値です。お見合い料は0円、休会は年1か月まで（休会中は月会費に代えてデータ維持費1,100円）と公式に記載されています。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
+            ※金額はすべて税込・2026年11月21日に公式サイトで確認した公表値です。お見合い料は0円、休会は年1か月まで（休会中は月会費に代えてデータ維持費1,100円）と公式に記載されています。仲人型の一般的な相場（初期10〜20万円・月1〜2万円・成婚料20万円前後、<Link href="/knowledge/cost/" className="underline text-[#A08447]">料金相場の解説</Link>参照）と比べると、月会費が低めの構成です。
           </p>
         </section>
 

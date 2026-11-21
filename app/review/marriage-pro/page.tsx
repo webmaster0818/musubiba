@@ -7,7 +7,7 @@ import FlowGuide from "@/components/FlowGuide";
 export const metadata = {
   title: "マリッジプロ（婚活サロン marriage pro）の評判・口コミ・料金｜新宿・成婚率80.4%【2026年10月】",
   description:
-    "婚活サロン marriage pro（マリッジプロ・東京都新宿区）の評判・口コミ・料金を解説しています。月会費9,000〜13,000円・成婚料180,000〜220,000円（プラン別・2026年10月26日公式確認）、2025年成婚率80.4%の定義、公式「お客様の声」の内容を整理しています。",
+    "婚活サロン marriage pro（マリッジプロ・東京都新宿区）の評判・口コミ・料金を解説しています。月会費9,000〜13,000円・成婚料180,000〜220,000円（プラン別・2026年11月21日公式確認）、2025年成婚率80.4%の定義、公式「お客様の声」の内容を整理しています。",
 };
 
 const overview = {
@@ -15,7 +15,7 @@ const overview = {
   type: "仲人型（IBJ加盟・20代30代専門）",
   members: "自社の会員数の公表なし（IBJ加盟・IBJの会員ネットワークを利用）",
   area: "東京都新宿区西新宿8-11-10 星野ビル3階（公式サイト記載・来店またはオンライン面談随時可）",
-  initialFee: "80,000〜110,000円（入会金30,000〜60,000円＋登録料50,000円・プラン別・税込／2026年10月26日公式確認）",
+  initialFee: "80,000〜110,000円（入会金30,000〜60,000円＋登録料50,000円・プラン別・税込／2026年11月21日公式確認）",
   monthlyFee: "9,000〜13,000円（男性13,000円／女性12,000円／U-28 11,000円／地方9,000円・税込）",
   matchingFee: "180,000〜220,000円（男性・女性・地方220,000円／U-28 180,000円・成婚退会時・税込）",
   age: "20代・30代専門（入会者の97%以上が20〜30代・公式サイト記載・2026年10月26日確認）",
@@ -83,7 +83,7 @@ const faqs = [
   },
   {
     q: "マリッジプロの料金は総額いくらかかりますか？",
-    a: "公式サイトの料金（税込・2026年10月26日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費13,000円＋成婚料220,000円です（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約486,000円です。女性プランは初期費用100,000円＋月会費12,000円＋成婚料220,000円（同・約464,000円）です。U-28（28歳以下女性）・地方プラン・ひとり親限定プランのほか、1年以内にIBJ日本結婚相談所連盟に所属していた方を対象とした乗換えプランも用意されています。ご利用前に、公式サイトにて最新の料金をご確認ください。",
+    a: "公式サイトの料金（税込・2026年11月21日確認）は、男性プランで入会金60,000円＋登録料50,000円＋月会費13,000円＋成婚料220,000円です（お見合い料は無料・申込100件/月）。1年活動して成婚した場合の総額目安は約486,000円です。女性プランは初期費用100,000円＋月会費12,000円＋成婚料220,000円（同・約464,000円）です。U-28（28歳以下女性）・地方プラン・ひとり親限定プランのほか、1年以内にIBJ日本結婚相談所連盟に所属していた方を対象とした乗換えプランも用意されています。ご利用前に、公式サイトにて最新の料金をご確認ください。",
   },
   {
     q: "マリッジプロの入会条件はありますか？",
@@ -140,7 +140,7 @@ export default function MarriageProReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           マリッジプロ（婚活サロン marriage pro）の口コミ・評判｜新宿・料金・成婚率80.4%
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月27日（料金は2026年10月26日、成婚実績・お客様の声・会社概要は2026年10月27日に<a href="https://prop-p.com/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト</a>で確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、成婚実績・お客様の声・会社概要は2026年10月27日に<a href="https://prop-p.com/" target="_blank" rel="noopener noreferrer" className="underline">公式サイト</a>で確認）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -149,11 +149,11 @@ export default function MarriageProReview() {
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>どんな相談所か</strong>：東京都新宿区西新宿（東京メトロ丸ノ内線「西新宿駅」徒歩2分）の20代・30代専門のIBJ加盟相談所です。正式名称は「婚活サロン marriage pro」で、運営はプロパティプロフェッショナル株式会社です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績</strong>：<strong>2025年の成婚率80.4%</strong>（成婚退会者数÷全退会者数）・成婚者38名・平均活動期間7.9ヶ月、開業以来の累計成婚100名突破を公式に掲載しています。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜13,000円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年10月26日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約48.6万円</strong>です。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>料金</strong>：月会費9,000〜13,000円＋成婚料180,000〜220,000円（プラン別・お見合い料無料・2026年11月21日公式確認）。男性プランで1年成婚した場合の総額目安は<strong>約48.6万円</strong>です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>評判・口コミ</strong>：公式「お客様の声」4件は、勧誘のない無料相談、同世代の担当者による服装・デートプランの助言、ルールの明確さに触れています。相談所が掲載した声である点にご留意ください（<a href="#reviews" className="underline text-[#A08447]">詳細</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：20代・30代で同世代のカウンセラーに相談したい方、平日夜（22:30まで）や新宿での対面・オンラインで相談したい方に適しています。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報にもとづきます（料金は2026年10月26日、実績・会社概要は2026年10月27日確認）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金・実績は公式サイトの公表情報にもとづきます（料金は2026年11月21日、実績・会社概要は2026年10月27日確認）。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
 
@@ -257,7 +257,7 @@ export default function MarriageProReview() {
             </table>
           </div>
           <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">
-            ※すべて税込で、マリッジプロ公式サイトの<a href="https://prop-p.com/price/" target="_blank" rel="noopener noreferrer" className="underline">料金・サポート内容ページ</a>にて2026年10月26日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
+            ※すべて税込で、マリッジプロ公式サイトの<a href="https://prop-p.com/price/" target="_blank" rel="noopener noreferrer" className="underline">料金・サポート内容ページ</a>にて2026年11月21日に確認した現行料金です。成婚料は「結婚相談所以外の方との成婚時には発生しない」と公式に明記されています。クーリングオフ（契約から8日以内・全額返金）と中途解約の精算ルールも公式に記載があります。成婚料が総額に占める割合が大きいため、「成婚したら払う費用」として事前に把握しておくことが大切です。
           </p>
         </section>
 

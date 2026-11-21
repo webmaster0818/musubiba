@@ -155,7 +155,7 @@ const rowsRaw: Row[] = [
     seikon: "180,000円",
     total1y: "195,600円",
     totalSeikon: "375,600円",
-    note: `42歳未満のAプランを基準としています（42歳以上プランは入会金${fmtYen(t42.initial)}・月会費${fmtYen(t42.monthly)}）。お見合い料のほかに、交際（連絡先交換）が1件成立するごとに「直コンタクト事務手数料及び交際開始アドバイス料」がかかります（Aプラン${fmtYen(tA.perKosai!)}・Bプラン${fmtYen(tB.perKosai!)}・42歳以上プラン${fmtYen(t42.perKosai!)}／件）。表の総額にはお見合い料と交際成立時の手数料を含めていません。Bプラン（月会費${fmtYen(tB.monthly)}・お見合い料${fmtYen(tB.perOmiai)}）はAプランより月会費が${fmtYen(tulipMonthlyDiff)}高い一方、お見合い料が1件${fmtYen(tulipOmiaiDiff)}安く、交際成立時の手数料はかかりません。お見合い料だけで比べると月${tulipBreakEven}件で同額、月${tulipBreakEven + 1}件以上ではBプランのほうが安くなります。交際が成立した場合はAプランに1件${fmtYen(tA.perKosai!)}が加わるため、お見合いが月${tulipBreakEven}件未満でもBプランのほうが安くなることがあります（2026年10月25日に公式料金表で再確認・当サイトの試算）。`,
+    note: `42歳未満のAプランを基準としています（42歳以上プランは入会金${fmtYen(t42.initial)}・月会費${fmtYen(t42.monthly)}）。お見合い料のほかに、交際（連絡先交換）が1件成立するごとに「直コンタクト事務手数料及び交際開始アドバイス料」がかかります（Aプラン${fmtYen(tA.perKosai!)}・Bプラン${fmtYen(tB.perKosai!)}・42歳以上プラン${fmtYen(t42.perKosai!)}／件）。表の総額にはお見合い料と交際成立時の手数料を含めていません。Bプラン（月会費${fmtYen(tB.monthly)}・お見合い料${fmtYen(tB.perOmiai)}）はAプランより月会費が${fmtYen(tulipMonthlyDiff)}高い一方、お見合い料が1件${fmtYen(tulipOmiaiDiff)}安く、交際成立時の手数料はかかりません。お見合い料だけで比べると月${tulipBreakEven}件で同額、月${tulipBreakEven + 1}件以上ではBプランのほうが安くなります。交際が成立した場合はAプランに1件${fmtYen(tA.perKosai!)}が加わるため、お見合いが月${tulipBreakEven}件未満でもBプランのほうが安くなることがあります（2026年11月21日に公式料金表で再確認・当サイトの試算）。`,
   },
   {
     slug: "code-for-marriage",

@@ -11,7 +11,7 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "東京フォリパートナーの口コミ・評判｜IBJ口コミ87件をテーマ別に集計・成婚率71.5%の定義・5コース料金【2026年10月】",
   description:
-    "東京フォリパートナー（IBJ加盟の仲人型）の口コミ・評判を、IBJ公式サイトの口コミ87件（平均4.8）の全件テーマ別集計と低評価2件の内容、エキテンの掲載状況で整理しています。5コースの料金（2026年10月25日公式確認）・申込上限・紹介人数、成婚率71.5%（自社公称）の定義、解約条件も掲載しています。",
+    "東京フォリパートナー（IBJ加盟の仲人型）の口コミ・評判を、IBJ公式サイトの口コミ87件（平均4.8）の全件テーマ別集計と低評価2件の内容、エキテンの掲載状況で整理しています。5コースの料金（2026年11月21日公式確認）・申込上限・紹介人数、成婚率71.5%（自社公称）の定義、解約条件も掲載しています。",
 };
 
 const overview = {
@@ -186,7 +186,7 @@ export default function FolliPartnerReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           東京フォリパートナーの口コミ・評判｜成婚率71.5%の算出定義・5コース料金・No.1表記の読み方を検証
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年10月25日（料金・申込上限・紹介人数は2026年10月25日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認。IBJ公式サイトの口コミ87件のテーマ別集計を追加）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、申込上限・紹介人数は2026年10月25日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認。IBJ公式サイトの口コミ87件のテーマ別集計を追加）</p>
 
         {/* 結論box */}
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
@@ -200,7 +200,7 @@ export default function FolliPartnerReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：IBJ公式サイトの口コミ87件（平均4.8）では、成婚の報告が62件、カウンセラーの親身さ・丁寧さに触れた投稿が50件、プロフィール作成の支援に触れた投稿が43件です。星3以下は2件です（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：首都圏（東京・横浜）で店舗面談を受けたい方、数字の算出根拠を示す相談所を選びたい方、お見合いの回数を気にせず活動したい方に適しています。Zoomに対応しているため、地方からも利用できます。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年10月25日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認した公表情報（税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金は2026年11月21日、成婚率の算出期間・受賞歴は2026年10月21日に公式サイトで確認した公表情報（税込）にもとづきます。成婚率等は自社公称値です。ご利用前に、<strong>公式サイトおよび無料相談</strong>にて最新の数値・契約条件をご確認ください。</p>
         </div>
 
         <A8Banner ad="folli" />
@@ -283,7 +283,7 @@ export default function FolliPartnerReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>会員期間は12ヶ月です。2年目以降は月会費のみで継続できます。</li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span>クーリングオフは、料金ページの特定商取引法の表記では契約書面の交付から8日以内です（よくある質問では入会契約日から8日以内と記載・2026年11月19日確認）。中途解約の負担は、サービス提供前であれば3万円のみです。</li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年10月25日に公式の料金ページで確認した税込価格です（7月31日・10月14日の確認時から変更はありません）。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 leading-relaxed">※2026年11月21日に公式の料金ページで確認した税込価格です（7月31日・10月14日・10月25日の確認時から変更はありません）。改定される場合があるため、ご契約前に、公式サイトにて最新の料金表をご確認ください。</p>
         </section>
 
         {/* Strengths */}

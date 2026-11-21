@@ -15,6 +15,11 @@
  * 2026-11-20: マリッジプロの料金を同ページで再確認（既存4プランは変更なし）。対象条件の限られる乗換えプラン・パパママキッズ婚活は
  * PLAN_FEES にだけ追加し、FEES の下限（社間の順位比較用）は従来どおり男性・女性・U-28・地方の4プランから取る。
  * FEE_CHECKED はレビューページの料金確認日表記と揃えるため 10-26 のまま。
+ * 2026-11-21: スマリッジ（11/19 から不正アクセスでサービス停止中・施主判断待ち）と11月に確認済みのマーズカフェ・ウェルスマを除く21社を
+ * 各社公式の料金ページで照合。FEES・PLAN_FEES の値はすべて公式と一致したため金額は変更せず、FEE_CHECKED を 2026-11-21 に更新し、
+ * 各レビューページの料金確認日表記も同日に揃えた。東京フォリパートナーの initialText は公式の項目名に合わせ「入会金」→「初期費用」に修正。
+ * nikoブライダル（男性婚活プラン：30〜40代男性限定）・マリッジプロ（乗換え・パパママキッズ）・Code For Marriage（スタンダード基準）は
+ * 対象条件のない基準プランで FEES を持つ方針のまま（対象条件つきプランの金額は各レビューページに記載）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -56,7 +61,7 @@ export const FEES: Fee[] = [
   { slug: "zwei", name: "ツヴァイ", monthly: 15950, initial: 118800, success: 0, monthlyText: "月会費15,950円（ご紹介プラン）／18,700円（IBJプラン）", initialText: "入会初期費用118,800円（ご紹介プラン・成婚料0円）／129,800円（IBJプラン・IBJ会員との成婚時のみ成婚料220,000円）", type: "大手・データマッチング" },
   { slug: "onet", name: "オーネット", monthly: 13200, initial: 99000, success: null, monthlyText: "月会費13,200円〜24,200円", initialText: "入会時費用99,000円〜143,000円／成婚料はIBJ会員との成婚時のみ220,000円（オーネット会員同士は0円・別途交際サポート料27,500円）", type: "大手・会員数多数" },
   { slug: "sunmarie", name: "サンマリエ", monthly: 18700, initial: 165000, success: 220000, monthlyText: "月会費18,700円", initialText: "入会金33,000円＋初期活動費132,000円／成婚料220,000円", type: "仲人型・1981年創業" },
-  { slug: "folli-partner", name: "東京フォリパートナー", monthly: 16500, initial: 110000, success: 250000, monthlyText: "月会費16,500円〜22,000円", initialText: "入会金110,000円〜250,000円／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
+  { slug: "folli-partner", name: "東京フォリパートナー", monthly: 16500, initial: 110000, success: 250000, monthlyText: "月会費16,500円〜22,000円", initialText: "初期費用110,000円〜250,000円（入会金・登録料＋活動サポート費）／成婚料250,000円〜300,000円", type: "少人数担当・成婚重視" },
   { slug: "ibj-members", name: "IBJメンバーズ", monthly: 17050, initial: 252450, success: 220000, monthlyText: "月会費17,050円", initialText: "初期費用252,450円／成婚料220,000円", type: "IBJ直営・大手" },
   { slug: "partner-agent", name: "パートナーエージェント", monthly: 14300, initial: 99000, success: 220000, monthlyText: "月会費14,300円〜26,400円", initialText: "登録料33,000円＋初期費用66,000円〜／成婚料220,000円", type: "成婚重視・コンシェルジュ" },
   { slug: "fiore", name: "FIORE（フィオーレ）", monthly: 5830, initial: 33000, success: null, monthlyText: "月会費5,830円〜17,600円", initialText: "入会登録費33,000円／成婚料0円〜220,000円（コース別）", type: "仲人型＋AI・会員検索" },
@@ -73,30 +78,30 @@ export const FEES: Fee[] = [
  */
 export type FeeChecked = { date: string; approx?: boolean };
 export const FEE_CHECKED: Record<string, FeeChecked> = {
-  "naco-do": { date: "2026-10-14" },
-  seven: { date: "2026-10-27" },
-  "bridal-tulip": { date: "2026-10-25" },
-  "excellence-aoyama": { date: "2026-10-25" },
+  "naco-do": { date: "2026-11-21" },
+  seven: { date: "2026-11-21" },
+  "bridal-tulip": { date: "2026-11-21" },
+  "excellence-aoyama": { date: "2026-11-21" },
   smartread: { date: "2026-10-14" },
-  bellroad: { date: "2026-10-24" },
-  "nagareyama-otakanomori": { date: "2026-10-27" },
+  bellroad: { date: "2026-11-21" },
+  "nagareyama-otakanomori": { date: "2026-11-21" },
   "mars-cafe": { date: "2026-11-14" },
-  "code-for-marriage": { date: "2026-10-28" },
-  pitto: { date: "2026-10-23" },
+  "code-for-marriage": { date: "2026-11-21" },
+  pitto: { date: "2026-11-21" },
   wellsma: { date: "2026-11-16" },
-  "niko-bridal": { date: "2026-10-27" },
-  "en-konkatsu": { date: "2026-10-27" },
-  "hero-marriage": { date: "2026-10-24" },
-  musbell: { date: "2026-10-23" },
-  zwei: { date: "2026-10-23" },
-  onet: { date: "2026-10-23" },
-  sunmarie: { date: "2026-10-14" },
-  "folli-partner": { date: "2026-10-25" },
-  "ibj-members": { date: "2026-10-24" },
-  "partner-agent": { date: "2026-10-24" },
-  fiore: { date: "2026-10-21" },
-  "marriage-pro": { date: "2026-10-26" },
-  ringbell: { date: "2026-10-26" },
+  "niko-bridal": { date: "2026-11-21" },
+  "en-konkatsu": { date: "2026-11-21" },
+  "hero-marriage": { date: "2026-11-21" },
+  musbell: { date: "2026-11-21" },
+  zwei: { date: "2026-11-21" },
+  onet: { date: "2026-11-21" },
+  sunmarie: { date: "2026-11-21" },
+  "folli-partner": { date: "2026-11-21" },
+  "ibj-members": { date: "2026-11-21" },
+  "partner-agent": { date: "2026-11-21" },
+  fiore: { date: "2026-11-21" },
+  "marriage-pro": { date: "2026-11-21" },
+  ringbell: { date: "2026-11-21" },
 };
 
 /** "2026-10-14" → "2026年10月14日"、"2026-06" → "2026年6月" */
