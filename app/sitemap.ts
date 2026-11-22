@@ -116,6 +116,8 @@ UPDATED["/knowledge/renmei"] = "2026-11-20";
 for (const r of ["/review/naco-do", "/review/seven", "/review/bridal-tulip", "/review/excellence-aoyama", "/review/bellroad", "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/review/pitto", "/review/niko-bridal", "/review/en-konkatsu", "/review/hero-marriage", "/review/musbell", "/review/zwei", "/review/onet", "/review/sunmarie", "/review/folli-partner", "/review/ibj-members", "/review/partner-agent", "/review/fiore", "/review/marriage-pro", "/review/ringbell", "/compare", "/compare/cheap", "/compare/musbell-vs-ringbell", "/compare/tulip-vs-musbell"]) UPDATED[r] = "2026-11-21";
 // 2026-11-21: 競合参考ページ拡張（kwexp）で knowledge に5本追加
 for (const r of ["/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki", "/knowledge"]) UPDATED[r] = "2026-11-21";
+// 2026-11-22: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/fukui", "/knowledge/shiga", "/knowledge/tokushima", "/knowledge/toyama", "/knowledge/kochi", "/knowledge"]) UPDATED[r] = "2026-11-22";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -162,6 +164,7 @@ const STATIC_ROUTES = [
   "/knowledge/kagoshima", "/knowledge/fukuchiyama", "/knowledge/takamatsu", "/knowledge/nagasaki", "/knowledge/saga",
   "/knowledge/kumamoto", "/knowledge/gifu", "/knowledge/yamanashi", "/knowledge/obihiro", "/knowledge/matsumoto",
   "/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki",
+  "/knowledge/fukui", "/knowledge/shiga", "/knowledge/tokushima", "/knowledge/toyama", "/knowledge/kochi",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
