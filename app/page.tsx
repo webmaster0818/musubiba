@@ -66,7 +66,6 @@ const services = [
     ],
     recommend: "予算を抑えて婚活を始めたい方におすすめです",
     reviewPath: "/review/smartread/",
-    affiliateUrl: "https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712",
   },
   {
     rank: 4,

@@ -198,17 +198,6 @@ export const PARTNERS: Partner[] = [
     fee: "入会金88,000円＋登録料22,000円／月会費7,700円または11,000円／成婚料220,000円（税込・2026年11月14日公式確認）",
     point: "IBJ・TMSに加盟する仲人型の相談所です。紹介は月3名以上、面談は無制限です（A/Bコース共通）。",
   },
-  {
-    ad: "smartread",
-    name: "スマリッジ",
-    reviewHref: "/review/smartread/",
-    clickUrl: "https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712",
-    nationwide: true,
-    prefs: [],
-    area: "全国対応（オンライン専業・店舗なし）",
-    fee: "登録料6,600円／月会費9,900円／成婚料0円（税込）",
-    point: "IBJ online／コネクトシップで活動するオンライン専業の相談所です。条件付きの返金保証があります。",
-  },
 ];
 
 export type Pick = Partner & {

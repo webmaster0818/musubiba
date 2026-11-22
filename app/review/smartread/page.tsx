@@ -194,11 +194,6 @@ export default function SmartreadReview() {
           </ul>
         </section>
 
-        <p className="text-sm mb-6">
-          <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
-            スマリッジ の公式サイトはこちら
-          </a>
-        </p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-smartread.jpg" alt="スマリッジ 公式サイト" className="w-full h-auto" />
@@ -453,23 +448,6 @@ export default function SmartreadReview() {
 
         
 
-        <section className="bg-[#333333] rounded-2xl p-10 text-white text-center mb-12">
-          <h2 className="text-xl font-light mb-4 tracking-widest">スマリッジの再開状況を公式サイトで確認する</h2>
-          <p className="text-white/50 text-sm mb-8 tracking-wider">2026年11月19日からサービスを一時停止しています（2026年11月20日確認）。再開の告知は公式サイトに掲載されます</p>
-          <div className="mb-6">
-            <a href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712" target="_blank" rel="nofollow noopener noreferrer">
-              <img src="https://t.felmat.net/fmimg/J112188.Z162495D.Z1361712" width="300" height="250" alt="スマリッジ" className="mx-auto rounded-lg" />
-            </a>
-          </div>
-          <a
-            href="https://t.felmat.net/fmcl?ak=J112188.1.Z162495D.Z1361712"
-            target="_blank"
-            rel="nofollow noopener noreferrer"
-            className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-3 px-8 rounded-full transition-colors tracking-widest"
-          >
-            公式サイトへ
-          </a>
-        </section>
 
         <section>
           <h2 className="text-lg font-light mb-4 tracking-widest">他の結婚相談所も見る</h2>
