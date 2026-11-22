@@ -135,6 +135,10 @@ const AGENCY_UPDATED: Record<string, string> = {
 for (const s of AGENCY_IBJ_20261117 as string[]) AGENCY_UPDATED[s] = "2026-11-17";
 // 11/20: スマリッジ 11/19 不正アクセス・サービス一時停止の告知を反映
 UPDATED["/review/smartread"] = "2026-11-20";
+// 2026-11-22: /compare/ FAQ の確認日（旧 10/14 固定）と各レビューの3社比較表の注記を FEE_CHECKED から出す形に変更。
+// 3社比較表のうち改定前の値が残っていた他社列（ツヴァイ・ムスベル・パートナーエージェント・サンマリエ・フィオーレ）を data/fees.ts の値に修正。
+// FEE_CHECKED.smartread を最後に公式で照合した 11/15 に更新（/compare/cheap/ の確認日表記が変わる）。/compare/online/ のウェルスマ確認日を 11/16 に修正
+for (const r of ["/compare", "/compare/cheap", "/compare/online", "/review/naco-do", "/review/en-konkatsu", "/review/smartread", "/review/partner-agent", "/review/fiore", "/review/sunmarie", "/review/ringbell", "/review/marriage-pro"]) UPDATED[r] = "2026-11-22";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [

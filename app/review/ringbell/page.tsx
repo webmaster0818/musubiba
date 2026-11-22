@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { feeOf, yen, checkedByDate } from "@/data/fees";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
@@ -198,6 +199,7 @@ export default function RingbellReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "ringbell", label: "リングベル" }, { slug: "sunmarie", label: "サンマリエ" }, { slug: "partner-agent", label: "パートナーエージェント" }], "＝")}です（金額は税込）。会員数は各社レビューに記載した公式の公表値です。`}</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -209,11 +211,11 @@ export default function RingbellReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">17,600円</td><td className="px-4 py-3 text-center">16,500円〜</td><td className="px-4 py-3 text-center">18,700円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td><td className="px-4 py-3 text-center">137,500円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">111,160名（IBJ・2026年9月末）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td><td className="px-4 py-3 text-center">約2.9万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">17,600円</td><td className="px-4 py-3 text-center">{`${yen(feeOf("sunmarie").monthly!)}`}</td><td className="px-4 py-3 text-center">{`${yen(feeOf("partner-agent").monthly!)}〜`}</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">55,000円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td><td className="px-4 py-3 text-center">{`${yen(feeOf("partner-agent").initial!)}〜（登録料込み）`}</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">111,160名（IBJ・2026年9月末）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td><td className="px-4 py-3 text-center">192,000人（3連盟の合計）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">オンライン型（IBJ加盟）</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">オンライン完結</td><td className="px-4 py-3 text-center">お見合い代行</td><td className="px-4 py-3 text-center">成婚率27%</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">オンライン完結</td><td className="px-4 py-3 text-center">お見合い代行</td><td className="px-4 py-3 text-center">専任コンシェルジュ</td></tr>
               </tbody>
             </table>
           </div>

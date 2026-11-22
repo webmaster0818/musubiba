@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { feeOf, yen, checkedByDate } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -246,7 +247,7 @@ export default function EnKonkatsuReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
-          <p className="text-xs text-[#2C2C2C]/50 mb-3">※エン婚活エージェントは2026年10月27日、naco-doは2026年10月14日、スマリッジは2026年10月23日に各公式サイトで確認した数値です。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "en-konkatsu", label: "エン婚活エージェント" }, { slug: "naco-do", label: "naco-do" }, { slug: "smartread", label: "スマリッジ" }], "＝")}です（金額は税込）。`}</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>

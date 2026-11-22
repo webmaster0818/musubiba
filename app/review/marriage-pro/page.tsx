@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { feeOf, yen, checkedByDate } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -226,15 +227,15 @@ export default function MarriageProReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,000円〜13,000円</td><td className="px-4 py-3 text-center">18,700円〜</td><td className="px-4 py-3 text-center">8,800円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">80,000円〜110,000円</td><td className="px-4 py-3 text-center">137,500円〜</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">約2.9万人</td><td className="px-4 py-3 text-center">約8.5万人</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">9,000円〜13,000円</td><td className="px-4 py-3 text-center">{`${yen(feeOf("partner-agent").monthly!)}〜`}</td><td className="px-4 py-3 text-center">{`${yen(feeOf("fiore").monthly!)}〜`}</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">80,000円〜110,000円</td><td className="px-4 py-3 text-center">{`${yen(feeOf("partner-agent").initial!)}〜（登録料込み）`}</td><td className="px-4 py-3 text-center">33,000円〜</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">非公開</td><td className="px-4 py-3 text-center">192,000人（3連盟の合計）</td><td className="px-4 py-3 text-center">75,048名</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">仲人型</td><td className="px-4 py-3 text-center">ハイブリッド型</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">20代・30代専門</td><td className="px-4 py-3 text-center">成婚率は公式参照</td><td className="px-4 py-3 text-center">成婚率は公式参照</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">※料金・会員数・成婚率は各社の公表値・当サイト調査にもとづく目安です。成婚率は各社で算出基準が異なるため、最新の正確な数値は各社公式サイトでご確認ください（2026年時点）。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-3 leading-relaxed">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "marriage-pro", label: "マリッジプロ" }, { slug: "partner-agent", label: "パートナーエージェント" }, { slug: "fiore", label: "フィオーレ" }], "＝")}です（金額は税込）。会員数は各社レビューに記載した公式の公表値です。成婚率は各社で算出基準が異なるため、最新の正確な数値は各社公式サイトでご確認ください。`}</p>
         </section>
 
         <section className="mb-12">

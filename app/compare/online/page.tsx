@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import A8Banner from "@/components/A8Banner";
+import { checkedByDate } from "@/data/fees";
 import { WELLSMA_MEMBERS as WM, WELLSMA_IBJ_LABEL } from "@/data/wellsma";
 
 export const metadata: Metadata = {
@@ -12,7 +13,8 @@ export const metadata: Metadata = {
 };
 
 // 料金は全て当サイトが各公式サイトで検証した公表値（税込）。
-// スマリッジ・エン婚活・naco-do=2026年11月15日確認（7月5日の掲載値を公式で再照合し一致）／ウェルスマ=2026年7月31日確認。確認日の捏造・数値の持ち込み禁止。
+// スマリッジ・エン婚活・naco-do=2026年11月15日確認（7月5日の掲載値を公式で再照合し一致）／ウェルスマ=2026年7月31日確認。
+// 2026-11-22: 冒頭の確認日表記を data/fees.ts の FEE_CHECKED から出すよう変更（ウェルスマは11/16の料金改定確認後の値を掲載しているのに7/31と表示していたため）。確認日の捏造・数値の持ち込み禁止。
 // 出典: スマリッジ https://s-marriage.jp/price/ ・ https://s-marriage.jp/question/price/ ／エン婚活 https://en-konkatsu.com/ ・ https://en-konkatsu.com/price/ ／naco-do https://naco-do.com/ ・ https://naco-do.com/premium
 type Agency = {
   slug: string;
@@ -163,7 +165,7 @@ export default function OnlineComparePage() {
         <h1 className="text-2xl md:text-3xl font-light mb-4 tracking-wide text-[#2C2C2C]">
           オンライン結婚相談所おすすめ4社比較【2026年8月】来店不要・成婚料0円で選ぶ
         </h1>
-        <p className="text-xs text-[#8B8580] mb-4">最終更新: 2026年11月15日｜料金はすべて当サイトが各公式サイトで検証した公表値です（スマリッジ・エン婚活・naco-do=2026年11月15日、ウェルスマ=2026年7月31日確認・税込）</p>
+        <p className="text-xs text-[#8B8580] mb-4">{`最終更新: 2026年11月22日｜料金はすべて当サイトが各公式サイトで検証した公表値です（${checkedByDate([{ slug: "smartread", label: "スマリッジ" }, { slug: "en-konkatsu", label: "エン婚活" }, { slug: "naco-do", label: "naco-do" }, { slug: "wellsma", label: "ウェルスマ" }], "=")}確認・税込）`}</p>
         <p className="text-sm text-[#2C2C2C]/80 leading-relaxed mb-6">
           <strong>来店不要で活動できるオンライン結婚相談所</strong>は、店舗コストがないぶん低額で、<strong>成婚料0円</strong>の相談所が多いのが特徴です。このページでは、当サイトが公式サイトで料金を検証できた4社（スマリッジ・ウェルスマ・エン婚活エージェント・naco-do）を、<strong>1年総額・サポート形式・会員基盤</strong>の観点から横断的に比較しています。
         </p>

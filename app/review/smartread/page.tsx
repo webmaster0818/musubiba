@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { checkedByDate } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -390,7 +391,7 @@ export default function SmartreadReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
-          <p className="text-xs text-[#2C2C2C]/50 mb-3">※スマリッジは2026年11月3日、naco-do・エン婚活エージェントは2026年10月14日に各社公式サイトで確認した数値です（naco-doの会員数は2026年11月12日に再確認）。会員数の算出範囲と時点は各社で異なります（詳細は各レビューページに記載）。1年総額は登録料（初期費用）＋月会費×12ヶ月＋成婚料の単純計算で、お見合い料・オプションは含みません。最新情報は各レビューページをご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "smartread", label: "スマリッジ" }, { slug: "naco-do", label: "naco-do" }, { slug: "en-konkatsu", label: "エン婚活エージェント" }], "＝")}です（naco-doの会員数は2026年11月12日に確認）。会員数の算出範囲と時点は各社で異なります（詳細は各レビューページに記載）。1年総額は登録料（初期費用）＋月会費×12ヶ月＋成婚料の単純計算で、お見合い料・オプションは含みません。最新情報は各レビューページをご確認ください。`}</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>

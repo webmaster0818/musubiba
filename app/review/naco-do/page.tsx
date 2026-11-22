@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { feeOf, yen, checkedByDate } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
@@ -216,7 +217,7 @@ export default function NacoDoReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
-          <p className="text-xs text-[#2C2C2C]/50 mb-3">※3社とも2026年10月14日に各公式サイトで確認した金額です。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "naco-do", label: "naco-do" }, { slug: "en-konkatsu", label: "エン婚活エージェント" }, { slug: "smartread", label: "スマリッジ" }], "＝")}です（金額は税込）。`}</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>

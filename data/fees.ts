@@ -20,6 +20,9 @@
  * 各レビューページの料金確認日表記も同日に揃えた。東京フォリパートナーの initialText は公式の項目名に合わせ「入会金」→「初期費用」に修正。
  * nikoブライダル（男性婚活プラン：30〜40代男性限定）・マリッジプロ（乗換え・パパママキッズ）・Code For Marriage（スタンダード基準）は
  * 対象条件のない基準プランで FEES を持つ方針のまま（対象条件つきプランの金額は各レビューページに記載）。
+ * 2026-11-22: セブン結婚相談所を公式料金ページ（https://seven-007.net/price/ ）で再照合（入会金9,800円・月会費9,800円・成婚料50,000円で一致）。
+ *   スマリッジは公式サイトがメンテナンス表示（11/19からサービス一時停止）で料金ページを確認できないため、最後に照合した 11-15 を FEE_CHECKED に記録。
+ *   比較表の注記用に checkedByDate() を追加。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -82,7 +85,9 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   seven: { date: "2026-11-21" },
   "bridal-tulip": { date: "2026-11-21" },
   "excellence-aoyama": { date: "2026-11-21" },
-  smartread: { date: "2026-10-14" },
+  // 2026-11-22: スマリッジは /compare/online/ で 2026-11-15 に公式料金を再照合済み（一致）。11/19 からサービス一時停止中で、
+  // 11/22 時点は公式サイトがメンテナンス表示のため料金ページを確認できない。最後に確認できた 11-15 を記録する。
+  smartread: { date: "2026-11-15" },
   bellroad: { date: "2026-11-21" },
   "nagareyama-otakanomori": { date: "2026-11-21" },
   "mars-cafe": { date: "2026-11-14" },
@@ -115,6 +120,21 @@ export function checkedLabel(slug: string) {
   const c = FEE_CHECKED[slug];
   if (!c) return null;
   return c.approx ? `${jpDate(c.date)}時点の当サイト調査値（公式での確認日の記録なし）` : `${jpDate(c.date)}に公式サイトで確認`;
+}
+
+/**
+ * 比較表の注記用。社ごとの確認日を同じ日付でまとめて
+ * 「A・Bは2026年11月21日、Cは2026年11月15日」の形にする（joiner で「は」「=」を切り替え）。
+ */
+export function checkedByDate(items: { slug: string; label: string }[], joiner = "は") {
+  const groups = new Map<string, string[]>();
+  for (const it of items) {
+    const c = FEE_CHECKED[it.slug];
+    if (!c) throw new Error(`FEE_CHECKED に ${it.slug} がありません`);
+    const key = c.approx ? `${jpDate(c.date)}時点` : jpDate(c.date);
+    groups.set(key, [...(groups.get(key) ?? []), it.label]);
+  }
+  return [...groups.entries()].map(([d, labels]) => `${labels.join("・")}${joiner}${d}`).join("、");
 }
 
 /** 指定した社の確認時期の範囲（"2026年5月〜10月" 形式） */

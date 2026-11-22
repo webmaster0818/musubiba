@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
+import { feeOf, yen, checkedByDate } from "@/data/fees";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
@@ -305,6 +306,7 @@ export default function FioreReview() {
 
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 tracking-widest">他社との比較</h2>
+          <p className="text-xs text-[#2C2C2C]/50 mb-3">{`※各社の公式サイトで料金を確認した日は、${checkedByDate([{ slug: "fiore", label: "フィオーレ" }, { slug: "zwei", label: "ツヴァイ" }, { slug: "sunmarie", label: "サンマリエ" }], "＝")}です（金額は税込）。会員数・店舗数は各社レビューに記載した公式の公表値です。`}</p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100 rounded-2xl overflow-hidden">
               <thead>
@@ -316,11 +318,11 @@ export default function FioreReview() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">5,830円〜</td><td className="px-4 py-3 text-center">15,400円〜</td><td className="px-4 py-3 text-center">18,700円</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円（入会登録費）</td><td className="px-4 py-3 text-center">115,500円〜</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">75,048名</td><td className="px-4 py-3 text-center">約9.4万人</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">月会費</td><td className="px-4 py-3 text-center">5,830円〜</td><td className="px-4 py-3 text-center">{`${yen(feeOf("zwei").monthly!)}〜`}</td><td className="px-4 py-3 text-center">18,700円</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">初期費用</td><td className="px-4 py-3 text-center">33,000円（入会登録費）</td><td className="px-4 py-3 text-center">{`${yen(feeOf("zwei").initial!)}〜`}</td><td className="px-4 py-3 text-center">165,000円（入会金＋初期活動費）</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">会員数</td><td className="px-4 py-3 text-center">75,048名</td><td className="px-4 py-3 text-center">11.7万人（IBJ会員を含む）</td><td className="px-4 py-3 text-center">101,240名（IBJ）</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">タイプ</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">ハイブリッド型</td><td className="px-4 py-3 text-center">仲人型</td></tr>
-                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率52.0%（自社発表）</td><td className="px-4 py-3 text-center">全国50店舗</td><td className="px-4 py-3 text-center">1981年創業・23店舗</td></tr>
+                <tr className="border-t border-gray-50"><td className="px-4 py-3 font-medium text-[#2C2C2C]/70">特徴</td><td className="px-4 py-3 text-center">成婚率52.0%（自社発表）</td><td className="px-4 py-3 text-center">全国54店舗</td><td className="px-4 py-3 text-center">1981年創業・23店舗</td></tr>
               </tbody>
             </table>
           </div>
