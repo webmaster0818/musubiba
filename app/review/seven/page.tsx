@@ -4,6 +4,7 @@ import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import ReviewFacts from "@/components/ReviewFacts";
+import { feeCheckedOn } from "@/data/fees";
 import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
@@ -126,7 +127,7 @@ export default function SevenReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           セブン結婚相談所（結婚相談所セブン）の口コミ・評判｜料金・1年総額・サロンを公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、入会資格は2026年11月14日に<a href="https://seven-007.net/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で再確認し、10月14日確認時から変更はありません。運営会社・サロンの所在地・サポート体制・無料説明会を公式サイトで確認して追記しました）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金は{feeCheckedOn("seven")}、入会資格は2026年11月14日に<a href="https://seven-007.net/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で再確認し、10月14日確認時から変更はありません。運営会社・サロンの所在地・サポート体制・無料説明会を公式サイトで確認して追記しました）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=M6895M.1.Y109522N.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -297,7 +298,8 @@ export default function SevenReview() {
 
         <ReviewFacts
           name="セブン結婚相談所"
-          checkedOn="2026年11月14日"
+          checkedOn={feeCheckedOn("seven")}
+          voicesCheckedOn="2026年11月14日"
           officialUrl="https://seven-007.net/"
           feeHead={["項目", "金額（税込）", "補足"]}
           feeRows={[
@@ -311,7 +313,7 @@ export default function SevenReview() {
           ]}
           feeNotes={[
             "公式サイトのお知らせ（2026年11月1日付）では、LINE友だち追加特典として入会金9,800円・SCRUM追加料3,300円・SCRUM月額加算料1,500円がいずれも0円、IBJオンラインが3か月間無料と案内されています。予告なく終了する場合があるとされています（2026年11月14日確認）。",
-            "上の表は特典を使わない通常料金です。2026年11月14日に公式の料金ページで、入会金・月会費・成婚料・SCRUM追加・申し込み追加・更新料・退会手数料が10月14日確認時と同じであることを確認しました。",
+            "上の表は特典を使わない通常料金です。2026年11月23日に公式の料金ページ（https://seven-007.net/price/ ）で、入会金・月会費・成婚料・SCRUM追加・申し込み追加・更新料・退会手数料が上の表と同じであることを再確認しました。",
           ]}
           estimate={[{ label: "IBJのみ・1年で成婚退会", formula: "9,800円＋9,800円×12＋50,000円＋退会手数料1,800円", total: "179,200円" }]}
           company={[

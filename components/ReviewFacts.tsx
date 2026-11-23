@@ -15,7 +15,10 @@ type Source = { name: string; url: string; note?: string };
 
 type Props = {
   name: string;
+  /** 料金を公式サイトで確認した日。data/fees.ts の FEE_CHECKED から渡す（2026-11-23） */
   checkedOn: string;
+  /** 口コミの傾向を確認した日（料金の確認日と異なる場合に指定。省略時は checkedOn） */
+  voicesCheckedOn?: string;
   officialUrl: string;
   feeHead: string[];
   feeRows: string[][];
@@ -77,7 +80,7 @@ export default function ReviewFacts(p: Props) {
         )}
       </section>
 
-      <ReviewVoices name={p.name} checkedOn={p.checkedOn} reviewNote={p.reviewNote} good={p.good} bad={p.bad} caution={p.caution} />
+      <ReviewVoices name={p.name} checkedOn={p.voicesCheckedOn ?? p.checkedOn} reviewNote={p.reviewNote} good={p.good} bad={p.bad} caution={p.caution} />
 
       <section className="mb-12">
         <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">{p.name}の運営会社</h2>

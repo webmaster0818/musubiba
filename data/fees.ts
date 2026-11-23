@@ -23,6 +23,11 @@
  * 2026-11-22: セブン結婚相談所を公式料金ページ（https://seven-007.net/price/ ）で再照合（入会金9,800円・月会費9,800円・成婚料50,000円で一致）。
  *   スマリッジは公式サイトがメンテナンス表示（11/19からサービス一時停止）で料金ページを確認できないため、最後に照合した 11-15 を FEE_CHECKED に記録。
  *   比較表の注記用に checkedByDate() を追加。
+ * 2026-11-23: naco-do（https://naco-do.com/price ・ /premium）・サンマリエ（https://www.sunmarie.co.jp/price/ ）・セブン（https://seven-007.net/price/ ）・
+ *   フィオーレ（https://www.total-marriage.com/pricing/ ）の料金を公式で再照合し、FEES と各レビューの料金表の値はすべて一致（金額の変更なし）。
+ *   350e2d8 と同じく FEE_CHECKED は据え置き、各レビューの料金表見出し（ReviewFacts の checkedOn）を feeCheckedOn() で FEE_CHECKED から出す形にした。
+ *   スマリッジは公式サイトが引き続きメンテナンス表示（11/19 第一報のまま）で照合できないため、FEE_CHECKED は 11-15 のまま。
+ *   あわせてムスベル（https://www.musbell.co.jp/price/ ）も /compare/sunmarie-vs-musbell/ の掲載値と一致することを確認（FEE_CHECKED は据え置き）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -120,6 +125,13 @@ export function checkedLabel(slug: string) {
   const c = FEE_CHECKED[slug];
   if (!c) return null;
   return c.approx ? `${jpDate(c.date)}時点の当サイト調査値（公式での確認日の記録なし）` : `${jpDate(c.date)}に公式サイトで確認`;
+}
+
+/** 料金表の見出し用（"2026年11月21日" 形式）。記録がない社はビルドを止める */
+export function feeCheckedOn(slug: string) {
+  const c = FEE_CHECKED[slug];
+  if (!c) throw new Error(`FEE_CHECKED に ${slug} がありません`);
+  return c.approx ? `${jpDate(c.date)}時点` : jpDate(c.date);
 }
 
 /**

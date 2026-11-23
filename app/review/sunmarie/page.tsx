@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
@@ -180,7 +180,7 @@ export default function SunmarieReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           サンマリエの口コミ・評判｜料金・1年総額・成婚率の注記を公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、実績は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金は{feeCheckedOn("sunmarie")}、実績は2026年10月14日に公式サイトで確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-sunmarie.jpg" alt="サンマリエ 公式サイト" className="w-full h-auto" />
@@ -258,7 +258,8 @@ export default function SunmarieReview() {
 
         <ReviewFacts
           name="サンマリエ"
-          checkedOn="2026年10月14日"
+          checkedOn={feeCheckedOn("sunmarie")}
+          voicesCheckedOn="2026年10月14日"
           officialUrl="https://www.sunmarie.co.jp/"
           feeHead={["項目", "ベーシック（税込）", "補足"]}
           feeRows={[

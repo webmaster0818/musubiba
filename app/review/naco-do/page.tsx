@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import A8Banner from "@/components/A8Banner";
@@ -161,7 +161,7 @@ export default function NacoDoReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           naco-do（ナコード）の口コミ・評判｜料金・返金保証・運営会社を公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、成婚お祝い金は2026年11月15日、実績は2026年10月14日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金は{feeCheckedOn("naco-do")}、成婚お祝い金は2026年11月15日、実績は2026年10月14日に公式サイトで確認）</p>
 
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=Z50330.1.2894055.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">naco-do の公式サイトはこちら</a>
@@ -241,7 +241,8 @@ export default function NacoDoReview() {
 
         <ReviewFacts
           name="naco-do（ナコード）"
-          checkedOn="2026年10月14日"
+          checkedOn={feeCheckedOn("naco-do")}
+          voicesCheckedOn="2026年10月14日"
           officialUrl="https://naco-do.com/"
           feeHead={["項目", "金額", "補足"]}
           feeRows={[

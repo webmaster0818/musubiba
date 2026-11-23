@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
 import BrandStores from "@/components/BrandStores";
@@ -121,7 +121,7 @@ export default function FioreReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           結婚相談所フィオーレ（FIORE）の口コミ・評判｜オリコン18件の集計・料金3コース・割引まで
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金を2026年11月21日に公式の料金ページで再確認・変更なし。料金・割引・解約条件・会員数の内訳は2026年11月11日に公式サイトで確認。オリコン顧客満足度の利用者の声18件を同日に集計）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金を{feeCheckedOn("fiore")}に公式の料金ページで再確認・変更なし。料金・割引・解約条件・会員数の内訳は2026年11月11日に公式サイトで確認。オリコン顧客満足度の利用者の声18件を同日に集計）</p>
 
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
@@ -179,7 +179,8 @@ export default function FioreReview() {
 
         <ReviewFacts
           name="フィオーレ"
-          checkedOn="2026年11月11日"
+          checkedOn={feeCheckedOn("fiore")}
+          voicesCheckedOn="2026年11月11日"
           officialUrl="https://www.total-marriage.com/"
           feeHead={["コース", "入会時（公式サイト割の適用後）", "月会費", "お見合い成立時", "成婚退会時"]}
           feeRows={[
