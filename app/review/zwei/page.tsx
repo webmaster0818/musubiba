@@ -48,9 +48,8 @@ const pros = [
 ];
 
 const cons = [
-  "入会初期費用は118,800円からで、初期負担は軽くない",
+  "入会時の初期費用が118,800円からかかるため、予算に合わせてプランを選ぶ必要がある",
   "IBJプランでIBJ会員と成婚した場合は成婚料220,000円がかかる",
-  "店舗によってアドバイザーの対応に差を感じるという声がある",
 ];
 
 const faqs = [
@@ -169,7 +168,7 @@ export default function ZweiReview() {
             </ul>
           </div>
           <div className="bg-red-50/50 rounded-xl p-6">
-            <h3 className="font-medium text-red-800 mb-4 tracking-wider">デメリット</h3>
+            <h3 className="font-medium text-red-800 mb-4 tracking-wider">事前に確認したい点</h3>
             <ul className="space-y-2">
               {cons.map((c) => (
                 <li key={c} className="text-sm text-[#2C2C2C]/70 flex gap-2">
