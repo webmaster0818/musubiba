@@ -118,6 +118,8 @@ for (const r of ["/review/naco-do", "/review/seven", "/review/bridal-tulip", "/r
 for (const r of ["/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki", "/knowledge"]) UPDATED[r] = "2026-11-21";
 // 2026-11-22: 競合参考ページ拡張（kwexp）で knowledge に5本追加
 for (const r of ["/knowledge/fukui", "/knowledge/shiga", "/knowledge/tokushima", "/knowledge/toyama", "/knowledge/kochi", "/knowledge"]) UPDATED[r] = "2026-11-22";
+// 2026-11-23: 競合参考ページ拡張（kwexp）で knowledge に5本追加
+for (const r of ["/knowledge/ueda", "/knowledge/toyooka", "/knowledge/hachinohe", "/knowledge/miai-renai", "/knowledge/asahi", "/knowledge"]) UPDATED[r] = "2026-11-23";
 const AGENCY_UPDATED: Record<string, string> = {
   "とら婚-横浜オフィス-オタクに寄り添う結婚相談所-オタク婚活なら-a827": "2026-10-29",
   "仙台結婚相談所マリッジサンライズ-ddff": "2026-10-30",
@@ -169,6 +171,7 @@ const STATIC_ROUTES = [
   "/knowledge/kumamoto", "/knowledge/gifu", "/knowledge/yamanashi", "/knowledge/obihiro", "/knowledge/matsumoto",
   "/knowledge/tochigi", "/knowledge/gunma", "/knowledge/miyazaki", "/knowledge/yamagata", "/knowledge/iwaki",
   "/knowledge/fukui", "/knowledge/shiga", "/knowledge/tokushima", "/knowledge/toyama", "/knowledge/kochi",
+  "/knowledge/ueda", "/knowledge/toyooka", "/knowledge/hachinohe", "/knowledge/miai-renai", "/knowledge/asahi",
   "/review/nagareyama-otakanomori", "/review/code-for-marriage", "/compare/cheap",
   "/review/niko-bridal", "/mens",
   "/area/tokyo", "/area/osaka", "/area/yokohama", "/area/nagoya", "/area/fukuoka",
