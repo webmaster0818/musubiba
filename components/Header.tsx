@@ -16,8 +16,13 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
-        <Link href="/" className="text-xl font-medium tracking-widest text-[#2C2C2C]">
-          <span className="text-[#A08447]">ムスビバ</span>
+        {/* ロゴ（2026-11-23 施主 mi26rock 指示：二つの輪が結ばれるマーク＋ロゴタイプ） */}
+        <Link href="/" className="flex items-center gap-2" aria-label="ムスビバ トップページ">
+          <img src="/logo-musubiba-mark.svg" alt="" width={36} height={24} className="w-9 h-6" />
+          <span className="flex flex-col leading-none">
+            <span className="text-xl font-medium tracking-[0.2em] text-[#A08447]">ムスビバ</span>
+            <span className="text-[9px] font-light tracking-[0.3em] text-[#2C2C2C]/50 mt-1">結婚相談所の比較サイト</span>
+          </span>
         </Link>
 
         {/* Desktop nav */}

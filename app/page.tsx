@@ -201,7 +201,7 @@ export default function Home() {
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest tl-in tl-d1">
             ご自身に合う<br className="sm:hidden" />
-            <span className="text-[#C9B99A]">結婚相談所</span>を比較できます
+            <span className="text-[#C9B99A]">結婚相談所</span>を<br className="hidden sm:inline" />比較できます
           </h1>
           <p className="text-lg sm:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light tracking-wider leading-relaxed tl-in tl-d2">
             当サイトでは、結婚相談所を料金・成婚率・サポート体制の観点から比較しています。
@@ -244,6 +244,31 @@ export default function Home() {
                 <div className="text-sm text-[#2C2C2C]/50 mt-2 tracking-wider">{stat.label}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ムスビバとは（2026-11-23 施主 mi26rock 指示：ランキングの上・編集部の画像から吹き出し・300字程度） */}
+      <section className="pt-20 pb-4 bg-[#FAFAF8]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-light text-center mb-10 tracking-widest text-[#2C2C2C]">
+            結婚相談所の比較サイト：ムスビバとは？
+          </h2>
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
+            <div className="shrink-0 text-center">
+              <img src="/editor-team.png" alt="ムスビバ編集部" width={96} height={96} className="w-24 h-24 rounded-full object-cover border-2 border-[#C9B99A]" />
+              <p className="text-xs text-[#2C2C2C]/60 mt-2 tracking-wider">ムスビバ編集部</p>
+            </div>
+            <div className="relative flex-1 bg-white border border-[#C9B99A] rounded-2xl p-6 shadow-sm">
+              <span aria-hidden="true" className="hidden sm:block absolute -left-[9px] top-10 w-4 h-4 bg-white border-l border-b border-[#C9B99A] rotate-45" />
+              <span aria-hidden="true" className="sm:hidden absolute -top-[9px] left-1/2 -ml-2 w-4 h-4 bg-white border-l border-t border-[#C9B99A] rotate-45" />
+              <div className="text-sm sm:text-base text-[#2C2C2C]/80 leading-loose space-y-3">
+                <p>ムスビバは、マッチングアプリで結婚相手と出会った創設者が、縁結びの場として開設した結婚相談所の比較サービスです。</p>
+                <p>日本の婚姻件数は、ピークだった1972年の109万9,984組から、2025年には48万9,158組と半数以下になりました。お見合いや仲人による出会いから、マッチングアプリや結婚相談所へと出会いの形も変わり、結婚相談所は結婚への思いが強い方が集まる場になっています。</p>
+                <p>当サイトでは、各結婚相談所の公式情報や公開されている口コミなどを集め、登録している方の傾向やサポートの内容を整理して掲載しています。自分に合う方と出会える確率を少しでも上げ、多くのご縁が生まれることを願って運営しています。</p>
+              </div>
+              <p className="text-xs text-[#2C2C2C]/50 mt-4">出典：婚姻件数は厚生労働省「令和7(2025)年人口動態統計（確定数）」、1972年は厚生労働省「人口動態統計」（国立社会保障・人口問題研究所「人口統計資料集」表6-1）。2026年11月23日確認。</p>
+            </div>
           </div>
         </div>
       </section>
