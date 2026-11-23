@@ -192,22 +192,26 @@ export default function Home() {
       />
 
       {/* Hero with background image */}
-      <section className="relative py-24 sm:py-32 overflow-hidden">
+      <section className="relative pt-14 pb-0 md:py-32 overflow-hidden">
+        {/* 2026-11-23 施主 mi26rock「候補1」：顔がはっきり見えるカップルの画像（Gemini 生成のイメージ画像）。
+            カップルが右側にいるため、PC は文字を左寄せ・左から暗くするグラデーションで顔を暗くしない */}
         <div
-          className="absolute inset-0 bg-cover bg-center tl-hero-bg"
-          style={{ backgroundImage: "url('/hero-couple.jpg')" }}
+          className="absolute inset-0 bg-cover bg-[position:72%_center] md:bg-[position:right_center] tl-hero-bg hidden md:block"
+          style={{ backgroundImage: "url('/hero-couple-2.jpg')" }}
+          role="img"
+          aria-label="笑顔で並ぶカップル（当サイトで作成したイメージ画像）"
         />
-        <div className="absolute inset-0 bg-[#1a1510]/60" />
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 text-center text-white">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest tl-in tl-d1">
+        <div className="absolute inset-0 bg-[#2a2118] md:bg-transparent md:bg-gradient-to-r md:from-[#1a1510]/80 md:via-[#1a1510]/45 md:to-transparent" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 text-center md:text-left text-white md:[&>p]:max-w-xl">
+          <h1 className="text-[26px] sm:text-4xl md:text-5xl font-light leading-tight mb-6 tracking-widest tl-in tl-d1">
             ご自身に合う<br className="sm:hidden" />
             <span className="text-[#C9B99A]">結婚相談所</span>を<br className="hidden sm:inline" />比較できます
           </h1>
-          <p className="text-lg sm:text-xl text-white/70 mb-10 max-w-2xl mx-auto font-light tracking-wider leading-relaxed tl-in tl-d2">
+          <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl mx-auto md:mx-0 font-light tracking-wider leading-relaxed tl-in tl-d2">
             当サイトでは、結婚相談所を料金・成婚率・サポート体制の観点から比較しています。
             一人ひとりの婚活スタイルに合った結婚相談所選びを支援します。
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 tl-in tl-d3">
+          <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 tl-in tl-d3">
             <Link
               href="#ranking"
               className="inline-block bg-[#A08447] hover:bg-[#8A7239] text-white font-normal py-4 px-10 rounded-full text-base transition-colors tracking-widest"
@@ -224,6 +228,8 @@ export default function Home() {
               無料で診断する
             </Link>
           </div>
+          {/* スマホは文字と顔が重ならないよう、画像を文字の下に置く */}
+          <img src="/hero-couple-2.jpg" alt="笑顔で並ぶカップル（当サイトで作成したイメージ画像）" width={1376} height={768} className="md:hidden mt-10 -mx-4 w-[calc(100%+2rem)] max-w-none h-64 object-cover object-[72%_30%]" fetchPriority="high" />
         </div>
       </section>
 
