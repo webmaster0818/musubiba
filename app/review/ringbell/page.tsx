@@ -46,7 +46,7 @@ const pros = [
 
 const cons = [
   "入会資格に年齢の上限（男性44歳・女性39歳）と、男性の年収条件（500万円以上）がある",
-  "月会費は全プランとも17,600円で、月会費が1万円前後の相談所と比べると毎月の負担は大きい",
+  "月会費は全プランとも17,600円のため、毎月の費用を確かめたうえで申し込む必要がある",
   "成婚料はハイブリッド・コミットメントプランで22万円",
 ];
 
@@ -132,7 +132,7 @@ export default function RingbellReview() {
         </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-ringbell-official.jpg" alt="リングベル" className="w-full h-auto" />
+          <img src="/ss-ringbell-official.jpg" alt="リングベル（提供素材）" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像提供: リングベル</p>
         </div>
 
@@ -187,11 +187,11 @@ export default function RingbellReview() {
               ))}
             </ul>
           </div>
-          <div className="bg-red-50/50 rounded-xl p-6">
-            <h3 className="font-medium text-red-800 mb-4 tracking-wider">デメリット</h3>
+          <div className="bg-[#EEF1F6] rounded-xl p-6">
+            <h3 className="font-medium text-[#1F2D4D] mb-4 tracking-wider">事前に確認したい点</h3>
             <ul className="space-y-2">
               {cons.map((c) => (
-                <li key={c} className="text-sm text-[#2C2C2C]/70 flex gap-2"><span className="text-red-400 shrink-0">-</span>{c}</li>
+                <li key={c} className="text-sm text-[#2C2C2C]/70 flex gap-2"><span className="text-[#1F2D4D]/60 shrink-0">-</span>{c}</li>
               ))}
             </ul>
           </div>
