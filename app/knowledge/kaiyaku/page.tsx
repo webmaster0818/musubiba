@@ -392,6 +392,7 @@ export default function KnowledgeKaiyaku() {
             <Link href="/knowledge/seikon-ritsu/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">成婚率の読み方（24社実査）</Link>
             <Link href="/knowledge/renmei/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">連盟の違い（24社の加盟状況）</Link>
             <Link href="/knowledge/how-to-choose/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">タイプ別の選び方</Link>
+            <Link href="/knowledge/norikae/" className="text-sm border border-[#A08447] text-[#A08447] rounded-full px-5 py-2 hover:bg-[#FAF7F2]">乗り換えガイド（見直しの窓口）</Link>
           </div>
         </section>
 
