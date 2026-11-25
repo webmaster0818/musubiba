@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
@@ -12,7 +12,7 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "パートナーエージェントの口コミ・評判｜オリコン利用者コメント19件をテーマ別に集計・3コースの料金【2026年10月】",
   description:
-    "パートナーエージェントの口コミ・評判を、オリコンの利用者コメント19件のテーマ別集計とGoogleマップ（17店舗770件）で整理しています。3コースの料金（2026年11月21日公式確認）、月会費無料保証、1年総額、成婚率No.1の調査条件も掲載しています。",
+    `パートナーエージェントの口コミ・評判を、オリコンの利用者コメント19件のテーマ別集計とGoogleマップ（17店舗770件）で整理しています。3コースの料金（${feeCheckedOn("partner-agent")}公式確認）、月会費無料保証、1年総額、成婚率No.1の調査条件も掲載しています。`,
 };
 
 const overview = {
@@ -30,7 +30,7 @@ const overview = {
 const strengths = [
   {
     title: "「成婚率No.1」を調査条件とあわせて表示しています",
-    desc: "公式サイトは株式会社デジタルライツコンサルティングの調査（2026年5月1日〜8日）で成婚率No.1と表示しています。成婚は「婚約（双方が結婚の意思を確認）」、成婚率は「成婚数÷利用者数」、比較対象は店舗・支社が11以上の相談所に限られます（2026年10月14日確認）。",
+    desc: "公式サイトは株式会社デジタルライツコンサルティングの調査（2026年5月1日〜8日）で成婚率No.1と表示しています。成婚は「婚約（双方が結婚の意思を確認）」、成婚率は「成婚数÷利用者数」、比較対象は店舗・支社が11以上の相談所に限られます（2026年11月25日確認）。",
   },
   {
     title: "専任コンシェルジュの紹介が月6〜8名",
@@ -57,11 +57,11 @@ const cons = [
 const faqs = [
   {
     q: "パートナーエージェントの料金はいくらですか？",
-    a: "登録料33,000円は共通で、初期費用・月会費はコンシェルジュ132,000円・18,700円、コミットメント198,000円・26,400円、オンライン66,000円・14,300円です。成婚料は220,000円、お見合い料は0円です（税込・2026年11月21日に公式サイトで確認）。",
+    a: `登録料33,000円は共通で、初期費用・月会費はコンシェルジュ132,000円・18,700円、コミットメント198,000円・26,400円、オンライン66,000円・14,300円です。成婚料は220,000円、お見合い料は0円です（税込・${feeCheckedOn("partner-agent")}に公式サイトで確認）。`,
   },
   {
     q: "成婚料は55,000円ではないのですか？",
-    a: "2026年11月21日時点の公式サイトでは、成婚料は220,000円（税込）と記載されています。古い比較記事の金額にご注意ください。",
+    a: `${feeCheckedOn("partner-agent")}時点の公式サイトでは、成婚料は220,000円（税込）と記載されています。古い比較記事の金額にご注意ください。`,
   },
   {
     q: "「成婚率No.1」の根拠は何ですか？",
@@ -81,7 +81,7 @@ const faqs = [
   },
   {
     q: "コミットメントコースの「月会費無料保証」とは何ですか？",
-    a: "公式のコース一覧によると、コミットメントコース限定で、万が一お見合いが成立しなかった場合に月会費を無料にする制度です。適用期間は紹介開始の翌月から1年間に限られます（2026年10月24日確認）。コンシェルジュコース・オンラインコースには付いていないため、適用条件の詳細は無料相談でご確認ください。",
+    a: "公式のコース一覧によると、コミットメントコース限定で、万が一お見合いが成立しなかった場合に月会費を無料にする制度です。適用期間は紹介開始の翌月から1年間に限られます（2026年11月25日確認）。コンシェルジュコース・オンラインコースには付いていないため、適用条件の詳細は無料相談でご確認ください。",
   },
   {
     q: "パートナーエージェントの成婚者数35,953名はどのように数えていますか？",
@@ -194,7 +194,7 @@ export default function PartnerAgentReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           パートナーエージェントの口コミ・評判｜3コースの料金・成婚率No.1の根拠を公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（割引額・休会費・店舗一覧・会員の年代構成・解約と担当変更を2026年11月20日に公式サイトで確認。料金は2026年11月21日、コース内容・実績は2026年10月24日に公式サイトで再確認。オリコンの利用者コメント19件のテーマ別集計を追加）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月25日（料金は{feeCheckedOn("partner-agent")}に公式サイトで確認し、2026年11月25日に料金・コース内容・実績を公式サイトで再照合して変更がないことを確認。割引額・休会費・店舗一覧・会員の年代構成・解約と担当変更は2026年11月20日に公式サイトで確認。オリコンの利用者コメント19件のテーマ別集計は2026年10月24日時点）</p>
 
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
@@ -207,7 +207,7 @@ export default function PartnerAgentReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>口コミの傾向</strong>：オリコンの利用者コメント19件では、担当者の助言・対応を評価する内容が8件と最も多い一方、「気になる点」6件には担当者との相性・交代後の対応や、紹介された相手が合わないという内容が含まれます（<a href="#review-themes" className="underline text-[#A08447]">テーマ別の集計</a>）。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績の表記</strong>：「成婚率No.1」はデジタルライツコンサルティングの調査（2026年5月・店舗数11以上の相談所が比較対象・成婚率＝成婚数÷利用者数）にもとづく表記です。成婚の定義は婚約です。</span></li>
           </ul>
-          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・コース内容は公式「コース一覧」ページ、実績は公式トップの注記で2026年10月24日に確認した掲載値です。最新の条件は公式サイトおよび無料相談でご確認ください。</p>
+          <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・コース内容は公式「コース一覧」ページ、実績は公式トップの注記の掲載値です（料金は{feeCheckedOn("partner-agent")}に確認。2026年11月25日に料金・コース内容・実績を再照合し、変更はありませんでした）。最新の条件は公式サイトおよび無料相談でご確認ください。</p>
         </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
@@ -290,7 +290,8 @@ export default function PartnerAgentReview() {
 
         <ReviewFacts
           name="パートナーエージェント"
-          checkedOn="2026年10月24日"
+          checkedOn={feeCheckedOn("partner-agent")}
+          voicesCheckedOn="2026年10月24日"
           officialUrl="https://www.p-a.jp/"
           feeHead={["項目", "コンシェルジュ", "コミットメント", "オンライン"]}
           feeRows={[

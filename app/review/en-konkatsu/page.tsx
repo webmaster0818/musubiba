@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -11,7 +11,7 @@ import ReviewExtra from "@/components/ReviewExtra";
 export const metadata = {
   title: "エン婚活エージェントの口コミ・評判｜オリコン オンライン型1位・返金保証の対象外7条件・料金【2026年10月】",
   description:
-    "エン婚活エージェントの口コミ・評判を、オリコン顧客満足度調査の利用者コメント18件と公式の定めの照合で整理しています。登録料33,000円・月会費16,500円・成婚料0円（2026年11月21日公式確認）、全額返金保証の対象外7条件、入会条件・対応エリアも掲載しています。",
+    `エン婚活エージェントの口コミ・評判を、オリコン顧客満足度調査の利用者コメント18件と公式の定めの照合で整理しています。登録料33,000円・月会費16,500円・成婚料0円（${feeCheckedOn("en-konkatsu")}公式確認）、全額返金保証の対象外7条件、入会条件・対応エリアも掲載しています。`,
 };
 
 const overview = {
@@ -56,7 +56,7 @@ const cons = [
 const faqs = [
   {
     q: "エン婚活エージェントの料金はいくらですか？",
-    a: "登録料33,000円、月会費16,500円、お見合い料・成婚料0円です（税込・2026年11月21日に公式サイトで確認）。休会中の月会費は7,150円です。2026年7月1日に料金改定の告知があったため、古い記事の金額（月会費14,300円など）とは異なります。",
+    a: `登録料33,000円、月会費16,500円、お見合い料・成婚料0円です（税込・${feeCheckedOn("en-konkatsu")}に公式サイトで確認）。休会中の月会費は7,150円です。2026年7月1日に料金改定の告知があったため、古い記事の金額（月会費14,300円など）とは異なります。`,
   },
   {
     q: "全額返金保証の条件を教えてください",
@@ -186,12 +186,12 @@ export default function EnKonkatsuReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           エン婚活エージェントの口コミ・評判｜料金・返金保証・利用者の声の傾向
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、全額返金保証規約・よくある質問は2026年10月27日に公式サイトで確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月25日（料金は{feeCheckedOn("en-konkatsu")}、全額返金保証規約・よくある質問は2026年10月27日に公式サイトで確認。2026年11月25日に料金・休会中の月会費・全額返金保証規約・累計成婚数・運営会社の表記を公式サイトで再照合し、変更がないことを確認）</p>
         <section className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 mb-8 text-sm leading-relaxed text-[#2C2C2C]/80">
           <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-wider">エン婚活エージェントとは（要点）</h2>
           <ul className="list-disc pl-5 space-y-1.5">
             <li>エン・ジャパングループ（東証プライム上場）が運営する、来店不要のオンライン完結型の結婚相談所です。</li>
-            <li>料金は登録料33,000円・月会費16,500円で、お見合い料・成婚料は0円です（税込・2026年11月21日公式確認）。1年活動して成婚退会した場合の総額は231,000円です（当サイト試算）。</li>
+            <li>料金は登録料33,000円・月会費16,500円で、お見合い料・成婚料は0円です（税込・{feeCheckedOn("en-konkatsu")}公式確認）。1年活動して成婚退会した場合の総額は231,000円です（当サイト試算）。</li>
             <li>毎月6名以上の紹介を掲げ、3ヵ月以内にコンタクトが成立しなければ登録料と3ヵ月分の月会費を返金する保証があります。返金には毎月の回答などの条件があり、対象外となる場合が7つ定められています（下記）。</li>
             <li>オリコン顧客満足度調査ではオンライン型で2024年から2026年まで1位（70.8点）です。一方、会員の少ない地域では紹介が少ないという声があり、公式も会員の多い地域以外では6名以上の紹介が難しい場合があるとしています。</li>
           </ul>
@@ -320,7 +320,8 @@ export default function EnKonkatsuReview() {
         </section>
         <ReviewFacts
           name="エン婚活エージェント"
-          checkedOn="2026年10月27日"
+          checkedOn={feeCheckedOn("en-konkatsu")}
+          voicesCheckedOn="2026年10月27日"
           officialUrl="https://en-konkatsu.com/"
           feeHead={["項目", "金額（税込）", "補足"]}
           feeRows={[

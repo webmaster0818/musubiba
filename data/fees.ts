@@ -28,6 +28,9 @@
  *   350e2d8 と同じく FEE_CHECKED は据え置き、各レビューの料金表見出し（ReviewFacts の checkedOn）を feeCheckedOn() で FEE_CHECKED から出す形にした。
  *   スマリッジは公式サイトが引き続きメンテナンス表示（11/19 第一報のまま）で照合できないため、FEE_CHECKED は 11-15 のまま。
  *   あわせてムスベル（https://www.musbell.co.jp/price/ ）も /compare/sunmarie-vs-musbell/ の掲載値と一致することを確認（FEE_CHECKED は据え置き）。
+ * 2026-11-25: パートナーエージェント（https://www.p-a.jp/guide/course/ ・公式トップの注記）とエン婚活エージェント（https://en-konkatsu.com/price/ ・
+ *   /faq/ ・ /repayment-rule/ ）の料金を公式で再照合し、FEES と両レビューの料金表の値はすべて一致（金額の変更なし）。733ed7d と同じく FEE_CHECKED は
+ *   据え置き、両レビューの料金表見出しと本文の料金確認日を feeCheckedOn() で FEE_CHECKED から出す形にした（口コミの確認日は voicesCheckedOn で従来の日付）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
