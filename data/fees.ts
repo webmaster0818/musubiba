@@ -31,6 +31,9 @@
  * 2026-11-25: パートナーエージェント（https://www.p-a.jp/guide/course/ ・公式トップの注記）とエン婚活エージェント（https://en-konkatsu.com/price/ ・
  *   /faq/ ・ /repayment-rule/ ）の料金を公式で再照合し、FEES と両レビューの料金表の値はすべて一致（金額の変更なし）。733ed7d と同じく FEE_CHECKED は
  *   据え置き、両レビューの料金表見出しと本文の料金確認日を feeCheckedOn() で FEE_CHECKED から出す形にした（口コミの確認日は voicesCheckedOn で従来の日付）。
+ * 2026-11-26: エン婚活エージェントの全額返金保証規約（https://en-konkatsu.com/repayment-rule/ ・2026年7月1日改定）・よくあるご質問（/faq/ Q7・Q48・Q58）・
+ *   料金（/price/）・公式トップを照合し、レビューの返金保証の条件・対象外7項目・返金時期・紹介人数とエリアの記載はすべて一致（訂正なし）。
+ *   返金規約・FAQ の確認日を RULE_CHECKED / ruleCheckedOn() で出す形にした（料金の FEE_CHECKED は据え置き）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -135,6 +138,21 @@ export function feeCheckedOn(slug: string) {
   const c = FEE_CHECKED[slug];
   if (!c) throw new Error(`FEE_CHECKED に ${slug} がありません`);
   return c.approx ? `${jpDate(c.date)}時点` : jpDate(c.date);
+}
+
+/**
+ * 料金以外の公式の定め（返金保証規約・解約規定・よくある質問など）を照合した日。料金の FEE_CHECKED とは別に記録する。
+ * 規約を再照合したら、ここを更新すればレビュー本文の確認日表記が追従する。
+ */
+export const RULE_CHECKED: Record<string, string> = {
+  "en-konkatsu": "2026-11-26",
+};
+
+/** 規約・FAQ の確認日（"2026年11月26日" 形式）。記録がない社はビルドを止める */
+export function ruleCheckedOn(slug: string) {
+  const d = RULE_CHECKED[slug];
+  if (!d) throw new Error(`RULE_CHECKED に ${slug} がありません`);
+  return jpDate(d);
 }
 
 /**

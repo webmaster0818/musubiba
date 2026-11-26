@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn, ruleCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -29,7 +29,7 @@ const overview = {
 const strengths = [
   {
     title: "3ヶ月でお見合いが成立しなければ返金（条件あり）",
-    desc: "公式サイトは「3ヶ月以内にコンタクト（お見合い）が成立しなければ、登録料と3か月分の月会費を返金」としています（2026年10月27日確認）。適用条件と対象外となる場合は下記「全額返金保証の適用条件」で整理しています。",
+    desc: `公式サイトは「3ヶ月以内にコンタクト（お見合い）が成立しなければ、登録料と3か月分の月会費を返金」としています（${ruleCheckedOn("en-konkatsu")}確認）。適用条件と対象外となる場合は下記「全額返金保証の適用条件」で整理しています。`,
   },
   {
     title: "登録料33,000円・月会費16,500円・成婚料0円",
@@ -60,7 +60,7 @@ const faqs = [
   },
   {
     q: "全額返金保証の条件を教えてください",
-    a: "全額返金保証規約（2026年7月1日改定）では、利用契約成立月の翌月から3ヵ月目の末日までにコンタクトが成立しなかった場合、登録料と3ヵ月分の月会費（請求確定済みの金額が上限）が返金されます。期間中は毎月、紹介された相手のうち最低1名に「会いたい」と回答すること、入会申込日から1ヵ月以内に紹介可能状態（書類提出・プロフィール登録・支払方法の登録）になることが条件です。期間満了日までの退会、紹介中止の申し出、回答期限内に一度も回答しなかった場合、支払い遅延によるサービス停止、過去に本特典で返金を受けたことがある場合などは対象外です（2026年10月27日確認）。",
+    a: `全額返金保証規約（2026年7月1日改定）では、利用契約成立月の翌月から3ヵ月目の末日までにコンタクトが成立しなかった場合、登録料と3ヵ月分の月会費（請求確定済みの金額が上限）が返金されます。期間中は毎月、紹介された相手のうち最低1名に「会いたい」と回答すること、入会申込日から1ヵ月以内に紹介可能状態（書類提出・プロフィール登録・支払方法の登録）になることが条件です。期間満了日までの退会、紹介中止の申し出、回答期限内に一度も回答しなかった場合、支払い遅延によるサービス停止、過去に本特典で返金を受けたことがある場合などは対象外です（${ruleCheckedOn("en-konkatsu")}確認）。`,
   },
   {
     q: "エン婚活エージェントの口コミ・評判はどうですか？",
@@ -68,7 +68,7 @@ const faqs = [
   },
   {
     q: "毎月何人紹介されますか？地方でも利用できますか？",
-    a: "公式FAQと返金保証規約では、データマッチングで毎月6名以上を紹介するとしています。サービス提供エリアに制限はありませんが、会員が多い地域（関東7都県・関西6府県・東海3県と、福岡・熊本・佐賀・広島・岡山・山口・静岡・宮城・北海道）以外では6名以上の紹介が難しい場合があると記載されています。なお、宮城・福岡・熊本・佐賀・広島・岡山・山口・静岡・北海道とサービス提供エリア外にお住まいの方は、紹介人数の条件にかかわらず返金保証の対象とされています（2026年10月27日確認）。",
+    a: `公式FAQと返金保証規約では、データマッチングで毎月6名以上を紹介するとしています。サービス提供エリアに制限はありませんが、会員が多い地域（関東7都県・関西6府県・東海3県と、福岡・熊本・佐賀・広島・岡山・山口・静岡・宮城・北海道）以外では6名以上の紹介が難しい場合があると記載されています。なお、宮城・福岡・熊本・佐賀・広島・岡山・山口・静岡・北海道とサービス提供エリア外にお住まいの方は、紹介人数の条件にかかわらず返金保証の対象とされています（${ruleCheckedOn("en-konkatsu")}確認）。`,
   },
   {
     q: "サクラや業者はいますか？",
@@ -76,7 +76,7 @@ const faqs = [
   },
   {
     q: "エン婚活エージェントは今も入会できますか？",
-    a: "2026年10月27日時点の公式サイトに新規受付の終了やサービス終了の告知はなく、無料相談・キャンペーンの案内が掲載されています。",
+    a: `${ruleCheckedOn("en-konkatsu")}時点の公式サイトに新規受付の終了やサービス終了の告知はなく、無料相談・キャンペーンの案内が掲載されています。`,
   },
   {
     q: "エン婚活エージェントの運営会社はどこですか？",
@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     q: "成婚までの期間や実績を教えてください",
-    a: "公式サイトは累計の成婚数を3,500組以上としていますが、成婚率や平均活動期間の公表は確認できませんでした（2026年10月27日時点）。",
+    a: `公式サイトは累計の成婚数を3,500組以上としていますが、成婚率や平均活動期間の公表は確認できませんでした（${ruleCheckedOn("en-konkatsu")}時点）。`,
   },
 ];
 const faqJsonLd = {
@@ -186,7 +186,12 @@ export default function EnKonkatsuReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           エン婚活エージェントの口コミ・評判｜料金・返金保証・利用者の声の傾向
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月25日（料金は{feeCheckedOn("en-konkatsu")}、全額返金保証規約・よくある質問は2026年10月27日に公式サイトで確認。2026年11月25日に料金・休会中の月会費・全額返金保証規約・累計成婚数・運営会社の表記を公式サイトで再照合し、変更がないことを確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月26日（料金は{feeCheckedOn("en-konkatsu")}、全額返金保証規約・よくある質問は{ruleCheckedOn("en-konkatsu")}に公式サイトで確認。{ruleCheckedOn("en-konkatsu")}に全額返金保証規約の条件・対象外となる7つの場合・返金時期、よくある質問の紹介人数・提供エリア、料金・累計成婚数の表記を公式サイトで照合し、変更がないことを確認）</p>
+
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-en-konkatsu.jpg" alt="エン婚活エージェント 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
         <section className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-xl p-6 mb-8 text-sm leading-relaxed text-[#2C2C2C]/80">
           <h2 className="text-base font-medium text-[#A08447] mb-3 tracking-wider">エン婚活エージェントとは（要点）</h2>
           <ul className="list-disc pl-5 space-y-1.5">
@@ -196,11 +201,6 @@ export default function EnKonkatsuReview() {
             <li>オリコン顧客満足度調査ではオンライン型で2024年から2026年まで1位（70.8点）です。一方、会員の少ない地域では紹介が少ないという声があり、公式も会員の多い地域以外では6名以上の紹介が難しい場合があるとしています。</li>
           </ul>
         </section>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-en-konkatsu.jpg" alt="エン婚活エージェント 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
-        </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
@@ -276,7 +276,7 @@ export default function EnKonkatsuReview() {
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-gray-100">
-              <thead><tr className="bg-[#F5F0EB]"><th className="px-4 py-3 text-left font-medium">口コミで挙がる論点</th><th className="px-4 py-3 text-left font-medium">公式の定め（2026年10月27日確認）</th></tr></thead>
+              <thead><tr className="bg-[#F5F0EB]"><th className="px-4 py-3 text-left font-medium">口コミで挙がる論点</th><th className="px-4 py-3 text-left font-medium">公式の定め（{ruleCheckedOn("en-konkatsu")}確認）</th></tr></thead>
               <tbody>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 align-top">地方では紹介される人数が少ない</td><td className="px-4 py-3">提供エリアの制限はありませんが、会員の多い地域（関東・関西・東海と、福岡・熊本・佐賀・広島・岡山・山口・静岡・宮城・北海道）以外では6名以上の紹介が難しい場合があるとFAQに記載があります。上記9道県とエリア外の方は、紹介人数にかかわらず返金保証の対象です。</td></tr>
                 <tr className="border-t border-gray-50"><td className="px-4 py-3 align-top">毎月6人紹介してもらえる</td><td className="px-4 py-3">返金保証規約は「毎月最低6名の紹介を保証」としたうえで、希望条件やエリアによる例外があると定めています。</td></tr>
@@ -286,12 +286,12 @@ export default function EnKonkatsuReview() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#999] mt-3">出典: エン婚活エージェント公式「よくある質問」「全額返金保証規約」、オリコン顧客満足度 エン婚活エージェント（いずれも2026年10月27日確認）。論点は口コミ記事の見出しから当サイトが整理したもので、件数を示すものではありません。</p>
+          <p className="text-xs text-[#999] mt-3">出典: エン婚活エージェント公式「よくある質問」「全額返金保証規約」（{ruleCheckedOn("en-konkatsu")}確認）、オリコン顧客満足度 エン婚活エージェント（2026年10月27日確認）。論点は口コミ記事の見出しから当サイトが整理したもので、件数を示すものではありません。</p>
         </section>
         <section className="mb-12">
           <h2 className="text-xl font-light mb-6 border-l-4 border-[#A08447] pl-4 tracking-widest">全額返金保証の適用条件と対象外となる7つの場合</h2>
           <p className="text-sm text-[#2C2C2C]/70 leading-relaxed mb-4">
-            公式の全額返金保証規約（2026年7月1日改定・2026年10月27日確認）の要点です。返金額は登録料と3ヵ月分の月会費で、請求確定済みの金額が上限です。返金は期間満了日の属する月の翌々月末日までに指定口座へ振り込まれます。
+            公式の全額返金保証規約（2026年7月1日改定・{ruleCheckedOn("en-konkatsu")}確認）の要点です。返金額は登録料と3ヵ月分の月会費で、請求確定済みの金額が上限です。返金は期間満了日の属する月の翌々月末日までに指定口座へ振り込まれます。
           </p>
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             <div className="bg-white border border-gray-100 rounded-xl p-5">

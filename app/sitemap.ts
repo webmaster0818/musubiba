@@ -155,6 +155,8 @@ for (const r of ["/compare", "/compare/cheap", "/compare/online", "/review/naco-
 for (const r of ["/review/naco-do", "/review/sunmarie", "/review/seven", "/review/fiore", "/review/smartread", "/compare/sunmarie-vs-musbell"]) UPDATED[r] = "2026-11-23";
 // 2026-11-25: パートナーエージェント・エン婚活エージェントの料金表見出し（ReviewFacts）と本文の料金確認日を FEE_CHECKED から出す形に変更（公式で再照合し一致）
 for (const r of ["/review/partner-agent", "/review/en-konkatsu"]) UPDATED[r] = "2026-11-25";
+// 2026-11-26: エン婚活エージェントの全額返金保証規約・FAQ の確認日（10/27 固定）を RULE_CHECKED から出す形に変更（公式で照合し一致・訂正なし）
+for (const r of ["/review/en-konkatsu", "/knowledge/yamaguchi"]) UPDATED[r] = "2026-11-26";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
