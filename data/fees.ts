@@ -34,6 +34,7 @@
  * 2026-11-26: エン婚活エージェントの全額返金保証規約（https://en-konkatsu.com/repayment-rule/ ・2026年7月1日改定）・よくあるご質問（/faq/ Q7・Q48・Q58）・
  *   料金（/price/）・公式トップを照合し、レビューの返金保証の条件・対象外7項目・返金時期・紹介人数とエリアの記載はすべて一致（訂正なし）。
  *   返金規約・FAQ の確認日を RULE_CHECKED / ruleCheckedOn() で出す形にした（料金の FEE_CHECKED は据え置き）。
+ *   あわせて /knowledge/kaiyaku/ のムスベル（9/22 固定だったクーリング・オフ14日の記載）を公式で照合し一致、RULE_CHECKED から表示。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -146,6 +147,8 @@ export function feeCheckedOn(slug: string) {
  */
 export const RULE_CHECKED: Record<string, string> = {
   "en-konkatsu": "2026-11-26",
+  // 2026-11-26: ムスベル https://www.musbell.co.jp/faq/〈途中で解約できますか？〉（クーリング・オフ 通常8日・プラスコース14日）と /price/ の中途解約の注記で照合し一致
+  musbell: "2026-11-26",
 };
 
 /** 規約・FAQ の確認日（"2026年11月26日" 形式）。記録がない社はビルドを止める */
