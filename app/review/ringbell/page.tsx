@@ -132,7 +132,7 @@ export default function RingbellReview() {
         </div>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-ringbell-official.jpg" alt="リングベル（提供素材）" className="w-full h-auto" />
+          <img src="/ss-ringbell-fv-20261126.jpg" alt="リングベル「結婚は運じゃない、設計できる。」最大手IBJ加盟（提供素材）" width={1867} height={766} className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像提供: リングベル</p>
         </div>
 
