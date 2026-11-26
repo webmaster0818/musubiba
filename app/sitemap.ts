@@ -161,6 +161,8 @@ for (const r of ["/review/partner-agent", "/review/en-konkatsu"]) UPDATED[r] = "
 for (const r of ["/review/en-konkatsu", "/knowledge/yamaguchi"]) UPDATED[r] = "2026-11-26";
 // 2026-11-26: /knowledge/kaiyaku/ のムスベルのクーリング・オフ14日（9/22 固定）を公式で照合し一致、確認日を RULE_CHECKED から表示
 UPDATED["/knowledge/kaiyaku"] = "2026-11-26";
+// 2026-11-27: /review/mars-cafe/ 基本情報の年齢層「公表なし」は誤り→公式FAQ（20〜60代・30〜45歳が多い）に訂正（0:00受け皿強化・事実訂正）
+UPDATED["/review/mars-cafe"] = "2026-11-27";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
