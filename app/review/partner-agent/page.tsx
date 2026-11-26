@@ -196,6 +196,11 @@ export default function PartnerAgentReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月25日（料金は{feeCheckedOn("partner-agent")}に公式サイトで確認し、2026年11月25日に料金・コース内容・実績を公式サイトで再照合して変更がないことを確認。割引額・休会費・店舗一覧・会員の年代構成・解約と担当変更は2026年11月20日に公式サイトで確認。オリコンの利用者コメント19件のテーマ別集計は2026年10月24日時点）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-partner-agent.jpg" alt="パートナーエージェント 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />パートナーエージェントとは（運営・料金・特徴・口コミの傾向）
@@ -208,11 +213,6 @@ export default function PartnerAgentReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>実績の表記</strong>：「成婚率No.1」はデジタルライツコンサルティングの調査（2026年5月・店舗数11以上の相談所が比較対象・成婚率＝成婚数÷利用者数）にもとづく表記です。成婚の定義は婚約です。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※料金・コース内容は公式「コース一覧」ページ、実績は公式トップの注記の掲載値です（料金は{feeCheckedOn("partner-agent")}に確認。2026年11月25日に料金・コース内容・実績を再照合し、変更はありませんでした）。最新の条件は公式サイトおよび無料相談でご確認ください。</p>
-        </div>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-partner-agent.jpg" alt="パートナーエージェント 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">

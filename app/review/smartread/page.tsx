@@ -173,6 +173,11 @@ export default function SmartreadReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（サービス一時停止の告知を2026年11月20日に公式サイトで確認。基本料金は{feeCheckedOn("smartread")}、会員数・実績値・返金保証規約・割引条件・入会資格・退会と休会の手続きは2026年11月3日に公式サイトで確認）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-smartread.jpg" alt="スマリッジ 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <div className="bg-red-50 border border-red-200 rounded-xl p-5 mb-6 text-sm text-[#2C2C2C]/80 leading-relaxed">
           <p className="font-medium text-red-800 mb-1">スマリッジは2026年11月19日からサービスを一時停止しています（2026年11月20日確認）</p>
           <p className="mb-2">
@@ -194,11 +199,6 @@ export default function SmartreadReview() {
           </ul>
         </section>
 
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-smartread.jpg" alt="スマリッジ 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
-        </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>

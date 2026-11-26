@@ -123,16 +123,16 @@ export default function FioreReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金を{feeCheckedOn("fiore")}に公式の料金ページで再確認・変更なし。料金・割引・解約条件・会員数の内訳は2026年11月11日に公式サイトで確認。オリコン顧客満足度の利用者の声18件を同日に集計）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-fiore.jpg" alt="FIORE（フィオーレ） 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <p className="text-sm mb-6">
           <a href="https://t.felmat.net/fmcl?ak=T8680S.1.X1309788.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] hover:underline font-medium">
             フィオーレ の公式サイトはこちら
           </a>
         </p>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-fiore.jpg" alt="FIORE（フィオーレ） 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
-        </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>

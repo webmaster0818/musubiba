@@ -118,6 +118,11 @@ export default function RingbellReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日に公式サイトで確認）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-ringbell-fv-20261126.jpg" alt="リングベル「結婚は運じゃない、設計できる。」最大手IBJ加盟（提供素材）" width={1867} height={766} className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像提供: リングベル</p>
+        </div>
+
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-10">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest flex items-center gap-2">
             <span className="inline-block w-1.5 h-5 bg-[#A08447] rounded-full" />リングベルが適している方
@@ -129,11 +134,6 @@ export default function RingbellReview() {
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span><strong>適している方</strong>：来店せずにオンラインで活動したい方、お住まいの地域を問わずIBJの会員から相手を探したい方、お見合い料をかけずに活動したい方です。</span></li>
           </ul>
           <p className="text-xs text-[#2C2C2C]/50 mt-4 leading-relaxed">※本ページの料金等は当サイトの調査・公表情報にもとづく目安です（2026年時点）。最新かつ正確な数値・契約条件は<strong>公式サイトおよび無料相談</strong>で必ずご確認ください。</p>
-        </div>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-ringbell-fv-20261126.jpg" alt="リングベル「結婚は運じゃない、設計できる。」最大手IBJ加盟（提供素材）" width={1867} height={766} className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像提供: リングベル</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">

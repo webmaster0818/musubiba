@@ -113,6 +113,11 @@ export default function OnetReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月21日（料金は2026年11月21日、会員数・店舗数は2026年10月28日に公式サイトで確認）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-onet.jpg" alt="オーネット 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <div className="bg-[#FAF7F2] border border-[#E5DCCF] rounded-2xl p-6 sm:p-7 mb-8">
           <h2 className="text-base font-medium text-[#A08447] mb-4 tracking-widest">オーネットの概要（公式サイト・2026年10月28日確認）</h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
@@ -123,11 +128,6 @@ export default function OnetReview() {
             <li><strong>店舗</strong>：北海道から九州・沖縄まで全国39店舗で、オンライン相談にも対応しています。</li>
             <li><strong>口コミの傾向</strong>：Googleマップでは、アドバイザーの伴走に対する評価と、IBJ経由で他社会員と成婚したという報告が見られます（詳しくは下の口コミの傾向をご覧ください）。</li>
           </ul>
-        </div>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-onet.jpg" alt="オーネット 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
 
         {/* Overview table */}

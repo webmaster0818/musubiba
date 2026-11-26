@@ -132,6 +132,11 @@ export default function MarsCafeReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月14日（料金・月別の成婚退会者数は2026年11月14日に公式サイトで確認。IBJの口コミ44件は同日に集計）</p>
 
+        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
+          <img src="/ss-mars-cafe.jpg" alt="マーズカフェ 公式サイト" className="w-full h-auto" />
+          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
+        </div>
+
         <div className="bg-[#FAF7F2] border border-[#A08447]/30 rounded-xl p-5 mb-8 text-sm leading-relaxed">
           <p className="font-medium text-[#2C2C2C] mb-2 tracking-wider">マーズカフェの口コミ・評判の要点（2026年11月14日時点）</p>
           <ul className="space-y-1.5 text-[#2C2C2C]/80">
@@ -145,11 +150,6 @@ export default function MarsCafeReview() {
         <p className="mb-6 text-sm">
           <a href="https://t.felmat.net/fmcl?ak=K2473Q.1.A49782R.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">マーズカフェ の公式サイトはこちら</a>
         </p>
-
-        <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
-          <img src="/ss-mars-cafe.jpg" alt="マーズカフェ 公式サイト" className="w-full h-auto" />
-          <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
-        </div>
 
         {/* Overview table */}
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">

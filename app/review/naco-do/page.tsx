@@ -163,14 +163,14 @@ export default function NacoDoReview() {
         </h1>
         <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金は{feeCheckedOn("naco-do")}、成婚お祝い金は2026年11月15日、実績は2026年10月14日に公式サイトで確認）</p>
 
-        <p className="mb-6 text-sm">
-          <a href="https://t.felmat.net/fmcl?ak=Z50330.1.2894055.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">naco-do の公式サイトはこちら</a>
-        </p>
-
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-naco-do.jpg" alt="naco-do（ナコード） 公式サイト" className="w-full h-auto" />
           <p className="text-[10px] text-gray-400 p-2 text-right">画像引用: 公式サイトより</p>
         </div>
+
+        <p className="mb-6 text-sm">
+          <a href="https://t.felmat.net/fmcl?ak=Z50330.1.2894055.Z1361712" target="_blank" rel="nofollow noopener noreferrer" className="text-[#A08447] underline hover:text-[#8A7239] tracking-wider">naco-do の公式サイトはこちら</a>
+        </p>
 
         <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-12">
           <div className="bg-[#A08447] text-white px-6 py-3.5 font-normal tracking-widest">基本情報</div>
