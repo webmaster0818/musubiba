@@ -170,6 +170,8 @@ UPDATED["/review/seven"] = "2026-11-27";
 // 2026-11-27: エン婚活エージェントの料金を公式で再照合し一致→FEE_CHECKED を 11-27 に（料金確認日を出す比較ページも追従）。/knowledge/cost/ の「8月16日に再確認」の直書きを
 // FEE_CHECKED 由来に（スマリッジは公式メンテナンス表示のため 11/15 のまま・一時停止の注記を追加）。/knowledge/seikon-ritsu/ とエンのレビューの成婚率の記載を公式で照合し訂正（RATE_CHECKED）
 for (const r of ["/knowledge/cost", "/knowledge/seikon-ritsu", "/review/en-konkatsu", "/compare", "/compare/cheap", "/compare/online"]) UPDATED[r] = "2026-11-27";
+// 2026-11-28: /review/en-konkatsu/ 基本情報の年齢層「公表なし」は誤り→公式「会員データ」の年齢比（男女別・年代別）に訂正（0:00受け皿強化・事実訂正）
+UPDATED["/review/en-konkatsu"] = "2026-11-28";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
