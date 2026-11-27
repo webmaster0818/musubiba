@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate, feeCheckedOn, ruleCheckedOn } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn, ruleCheckedOn, rateCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import AuthorBox from "@/components/AuthorBox";
 import FlowGuide from "@/components/FlowGuide";
@@ -23,7 +23,7 @@ const overview = {
   monthlyFee: "16,500円（休会中7,150円）",
   matchingFee: "0円（お見合い料も0円）",
   age: "公式に年齢層の公表なし",
-  successRate: "成婚率の公表なし（累計成婚3,500組以上と公表）",
+  successRate: "現行の公式トップ・料金ページに成婚率の記載なし（累計成婚3,500組以上と公表）",
 };
 
 const strengths = [
@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     q: "成婚までの期間や実績を教えてください",
-    a: `公式サイトは累計の成婚数を3,500組以上としていますが、成婚率や平均活動期間の公表は確認できませんでした（${ruleCheckedOn("en-konkatsu")}時点）。`,
+    a: `公式サイトのトップは累計の成婚数を3,500組以上としています。現在の公式トップ・料金ページ・よくある質問には成婚率や平均活動期間の記載がありません。公式サイト内の旧ページには「6ヵ月以上活動を続けたお客様の成婚率は30%」「成婚者の平均活動期間は6.7か月」（旧料金が載った検索対象外のページ）や「6ヵ月未満活動を続けたお客様の成婚率は27%」（料金比較が2022年1月現在のページ）の表記が残っていますが、算出式は「年間成婚退会者数÷毎月の平均活動会員数×100」で、退会者を分母とする他社の成婚率とは比べられません（${rateCheckedOn("en-konkatsu")}に公式サイトで確認）。`,
   },
 ];
 const faqJsonLd = {
@@ -186,7 +186,7 @@ export default function EnKonkatsuReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           エン婚活エージェントの口コミ・評判｜料金・返金保証・利用者の声の傾向
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月26日（料金は{feeCheckedOn("en-konkatsu")}、全額返金保証規約・よくある質問は{ruleCheckedOn("en-konkatsu")}に公式サイトで確認。{ruleCheckedOn("en-konkatsu")}に全額返金保証規約の条件・対象外となる7つの場合・返金時期、よくある質問の紹介人数・提供エリア、料金・累計成婚数の表記を公式サイトで照合し、変更がないことを確認）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月27日（料金は{feeCheckedOn("en-konkatsu")}、全額返金保証規約・よくある質問は{ruleCheckedOn("en-konkatsu")}、成婚率の表記は{rateCheckedOn("en-konkatsu")}に公式サイトで確認。{ruleCheckedOn("en-konkatsu")}に全額返金保証規約の条件・対象外となる7つの場合・返金時期、よくある質問の紹介人数・提供エリア、料金・累計成婚数の表記を公式サイトで照合し、変更がないことを確認）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-en-konkatsu.jpg" alt="エン婚活エージェント 公式サイト" className="w-full h-auto" />

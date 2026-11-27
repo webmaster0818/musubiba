@@ -35,6 +35,11 @@
  *   料金（/price/）・公式トップを照合し、レビューの返金保証の条件・対象外7項目・返金時期・紹介人数とエリアの記載はすべて一致（訂正なし）。
  *   返金規約・FAQ の確認日を RULE_CHECKED / ruleCheckedOn() で出す形にした（料金の FEE_CHECKED は据え置き）。
  *   あわせて /knowledge/kaiyaku/ のムスベル（9/22 固定だったクーリング・オフ14日の記載）を公式で照合し一致、RULE_CHECKED から表示。
+ * 2026-11-27: エン婚活エージェントの料金を公式料金ページ（https://en-konkatsu.com/price/ ：登録料33,000円・月会費16,500円・休会中7,150円・退会と休会の申し出期限）と
+ *   /faq/ Q58（お見合い料・成婚料は一切かからない）で再照合し、FEES・レビューの料金表の値はすべて一致（金額の変更なし）。/knowledge/cost/ の「8月16日に再確認」
+ *   の直書きを FEE_CHECKED 由来にするため、FEE_CHECKED を 2026-11-27 に更新した。スマリッジは公式サイトが引き続きメンテナンス表示（11/19 第一報のまま）で
+ *   料金ページを確認できないため、FEE_CHECKED は 11-15 のまま。
+ *   成婚率の表記の照合日を RATE_CHECKED / rateCheckedOn() で持つ形にした（/knowledge/seikon-ritsu/ とレビューの成婚率の記載）。
  *
  * ここを作った理由: このサイトが競合に対して持っている唯一の資産は
  * 「24社の料金を同じ基準で並べたデータ」であるため、各レビューページから
@@ -107,7 +112,7 @@ export const FEE_CHECKED: Record<string, FeeChecked> = {
   pitto: { date: "2026-11-21" },
   wellsma: { date: "2026-11-16" },
   "niko-bridal": { date: "2026-11-21" },
-  "en-konkatsu": { date: "2026-11-21" },
+  "en-konkatsu": { date: "2026-11-27" },
   "hero-marriage": { date: "2026-11-21" },
   musbell: { date: "2026-11-21" },
   zwei: { date: "2026-11-21" },
@@ -155,6 +160,24 @@ export const RULE_CHECKED: Record<string, string> = {
 export function ruleCheckedOn(slug: string) {
   const d = RULE_CHECKED[slug];
   if (!d) throw new Error(`RULE_CHECKED に ${slug} がありません`);
+  return jpDate(d);
+}
+
+/**
+ * 成婚率など実績の表記を公式サイトで照合した日。料金・規約とは別に記録する。
+ * 再照合したら、ここを更新すれば /knowledge/seikon-ritsu/ とレビュー本文の確認日表記が追従する。
+ */
+export const RATE_CHECKED: Record<string, string> = {
+  // 2026-11-27: 公式トップ・/price/・/faq/ に成婚率の記載なし。公式ドメイン内の旧ページ2件に表記が残る
+  // （/top2/：noindex・旧料金の記載あり「6ヵ月以上活動を続けたお客様の成婚率は30％」、/difference_marriage-agency/：料金比較は2022年1月現在
+  //  「6ヵ月未満活動を続けたお客様の成婚率は27%」。算出式はいずれも「年間成婚退会者数÷毎月の平均活動会員数×100」）。
+  "en-konkatsu": "2026-11-27",
+};
+
+/** 成婚率の表記の確認日（"2026年11月27日" 形式）。記録がない社はビルドを止める */
+export function rateCheckedOn(slug: string) {
+  const d = RATE_CHECKED[slug];
+  if (!d) throw new Error(`RATE_CHECKED に ${slug} がありません`);
   return jpDate(d);
 }
 

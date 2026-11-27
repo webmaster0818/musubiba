@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
 import AuthorBox from "@/components/AuthorBox";
+import { rateCheckedOn } from "@/data/fees";
 
 // 当サイトが各社公式サイトを実査して記録した成婚率の表記。数値・定義は各レビューページと必ず一致させること。
 type Row = { slug: string; name: string; value: string; scope: string; surveyed: string; type: "公表" | "条件つき" | "非公表"; source?: string };
@@ -23,7 +24,8 @@ const rows: Row[] = [
   { slug: "fiore", name: "FIORE(フィオーレ)", value: "52.0%", scope: "2012〜2025年の全退会者16,692名のうち成婚退会8,684名の割合(公式注記)", surveyed: "2026年10月14日", type: "公表" },
   { slug: "smartread", name: "スマリッジ", value: "69%", scope: "「1年以内の成婚率」として公称（2026年10月時点）。注記は「直近1年以内に成婚した会員の方を対象に算出」のみで、分母の記載なし", surveyed: "2026年10月23日", type: "公表" },
   { slug: "naco-do", name: "naco-do(ナコード)", value: "41.3%", scope: "自社発表", surveyed: "2026年7月5日", type: "公表" },
-  { slug: "en-konkatsu", name: "エン婚活エージェント", value: "30%以上", scope: "「6ヶ月以上活動した会員のうち30%以上が成婚」という、活動期間を条件とした表現。率そのものは非公開", surveyed: "2026年7月5日", type: "条件つき" },
+  // 2026-11-27 公式で再照合。7/5 の「30%以上・率そのものは非公開」は誤り→旧ページ2件の表記（30%／27%）と算出式に訂正。照合日は data/fees.ts の RATE_CHECKED
+  { slug: "en-konkatsu", name: "エン婚活エージェント", value: "30%・27%（旧ページの表記）", scope: "公式トップ・料金・よくある質問には成婚率の記載がありません。公式サイト内の旧ページに「6ヵ月以上活動を続けたお客様の成婚率は30%」（旧料金が載った検索対象外のページ）と「6ヵ月未満活動を続けたお客様の成婚率は27%」（料金比較が2022年1月現在のページ）の表記が残っています。算出式はいずれも「年間成婚退会者数÷毎月の平均活動会員数×100」で、分母は退会者ではなく活動中の会員です", surveyed: rateCheckedOn("en-konkatsu"), type: "条件つき", source: "https://en-konkatsu.com/difference_marriage-agency/" },
   { slug: "partner-agent", name: "パートナーエージェント", value: "27%", scope: "2022年10月〜2023年3月のコンシェルジュコース・エグゼクティブコースにおける成婚退会者数 ÷ 総退会者数(公式注記・2026年9月22日再確認)", surveyed: "2026年9月6日", type: "公表" },
   { slug: "ibj-members", name: "IBJメンバーズ", value: "成婚退会者の割合 1/2以上", scope: "％ではなく「割合」として公称", surveyed: "2026年1月", type: "条件つき" },
   { slug: "bellroad", name: "ベルロード縁結びサポート", value: "非公表", scope: "％数値なし。「成婚期間平均7ヶ月」「99%がお見合い実施」を公称。成婚の定義は『互いに結婚する意思を持つこと(プロポーズの受諾)』とFAQに明記", surveyed: "2026年8月6日", type: "非公表" },
@@ -198,7 +200,7 @@ export default function KnowledgeSeikonRitsu() {
               <h3 className="font-medium text-[#A08447] mb-2 tracking-wider">ウェルスマ 86.1%（1年以内成婚率）</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
                 こちらは「<strong>1年以内</strong>成婚率」という別の指標です。活動期間で区切った数字なので、退会者ベースの成婚率とは分母の考え方が異なります。
-                エン婚活エージェントの「6ヶ月以上活動した会員のうち30%以上が成婚」も同じく<strong>活動期間を条件とした</strong>表現で、退会者ベースの数字と直接は比較できません。
+                エン婚活エージェントの旧ページに残る「6ヵ月以上活動を続けたお客様の成婚率は30%」も<strong>活動期間を条件とした</strong>表現で、算出式は「年間成婚退会者数÷毎月の平均活動会員数×100」と<strong>分母が活動中の会員</strong>です。退会者ベースの数字と直接は比較できません（{rateCheckedOn("en-konkatsu")}に公式サイトで確認。現在の公式トップ・料金ページには成婚率の記載がありません）。
               </p>
             </div>
           </div>
