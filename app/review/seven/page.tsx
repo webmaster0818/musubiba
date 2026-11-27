@@ -8,7 +8,7 @@ import { feeCheckedOn } from "@/data/fees";
 import BrandStores from "@/components/BrandStores";
 
 export const metadata = {
-  title: "セブン結婚相談所の口コミ・評判｜月会費9,800円・成婚料5万円の料金と1年総額【2026年10月】",
+  title: "セブン結婚相談所の口コミ・評判｜月会費9,800円・成婚料5万円の料金と1年総額【2026年11月】",
   description:
     "セブン結婚相談所（結婚相談所セブン）の口コミ・評判をGoogleマップ等の掲載媒体を明記して整理しています。入会金9,800円・月会費9,800円・成婚料50,000円・更新料の料金表（2026年11月21日公式確認）、1年総額、運営会社・サロン所在地、IBJ/SCRUMの仕組み、よくある質問を掲載。",
 };
@@ -127,7 +127,7 @@ export default function SevenReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           セブン結婚相談所（結婚相談所セブン）の口コミ・評判｜料金・1年総額・サロンを公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月23日（料金は{feeCheckedOn("seven")}、入会資格は2026年11月14日に<a href="https://seven-007.net/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で再確認し、10月14日確認時から変更はありません。運営会社・サロンの所在地・サポート体制・無料説明会を公式サイトで確認して追記しました）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月27日（成婚実績を公式トップページの画像に掲載されている798組に訂正しました。料金は{feeCheckedOn("seven")}、入会資格は2026年11月14日に<a href="https://seven-007.net/price/" target="_blank" rel="noopener noreferrer" className="underline">公式サイトの料金ページ</a>で再確認し、10月14日確認時から変更はありません。運営会社・サロンの所在地・サポート体制・無料説明会を公式サイトで確認して追記しました）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-seven.jpg" alt="結婚相談所セブン 公式サイト" className="w-full h-auto" />
