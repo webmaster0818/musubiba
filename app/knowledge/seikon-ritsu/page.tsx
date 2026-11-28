@@ -26,7 +26,8 @@ const rows: Row[] = [
   { slug: "naco-do", name: "naco-do(ナコード)", value: "41.3%", scope: "自社発表", surveyed: "2026年7月5日", type: "公表" },
   // 2026-11-27 公式で再照合。7/5 の「30%以上・率そのものは非公開」は誤り→旧ページ2件の表記（30%／27%）と算出式に訂正。照合日は data/fees.ts の RATE_CHECKED
   { slug: "en-konkatsu", name: "エン婚活エージェント", value: "30%・27%（旧ページの表記）", scope: "公式トップ・料金・よくある質問には成婚率の記載がありません。公式サイト内の旧ページに「6ヵ月以上活動を続けたお客様の成婚率は30%」（旧料金が載った検索対象外のページ）と「6ヵ月未満活動を続けたお客様の成婚率は27%」（料金比較が2022年1月現在のページ）の表記が残っています。算出式はいずれも「年間成婚退会者数÷毎月の平均活動会員数×100」で、分母は退会者ではなく活動中の会員です", surveyed: rateCheckedOn("en-konkatsu"), type: "条件つき", source: "https://en-konkatsu.com/difference_marriage-agency/" },
-  { slug: "partner-agent", name: "パートナーエージェント", value: "27%", scope: "2022年10月〜2023年3月のコンシェルジュコース・エグゼクティブコースにおける成婚退会者数 ÷ 総退会者数(公式注記・2026年9月22日再確認)", surveyed: "2026年9月6日", type: "公表" },
+  // 2026-11-28 公式で再照合。9月の「27%（2022年10月〜2023年3月）」は現行の公式表示と一致しないため、最新期間の 21.7% に差し替え（詳細は data/fees.ts の RATE_CHECKED）
+  { slug: "partner-agent", name: "パートナーエージェント", value: "21.7%", scope: "2023年4月〜2024年3月の年間成婚退会者 ÷ 年間平均在籍会員数 × 100（公式「成婚率へのこだわり」の注記）。別ページ「会員プロフィールと活動実績」には、2022年10月〜2023年3月のコンシェルジュコース・エグゼクティブコースにおける成婚退会者数 ÷ 総退会者数として49.8%の掲載があります", surveyed: rateCheckedOn("partner-agent"), type: "公表", source: "https://www.p-a.jp/visitor/method/" },
   { slug: "ibj-members", name: "IBJメンバーズ", value: "成婚退会者の割合 1/2以上", scope: "％ではなく「割合」として公称", surveyed: "2026年1月", type: "条件つき" },
   { slug: "bellroad", name: "ベルロード縁結びサポート", value: "非公表", scope: "％数値なし。「成婚期間平均7ヶ月」「99%がお見合い実施」を公称。成婚の定義は『互いに結婚する意思を持つこと(プロポーズの受諾)』とFAQに明記", surveyed: "2026年8月6日", type: "非公表" },
   { slug: "pitto", name: "P!っと縁結び", value: "非公表", scope: "成婚の定義は「婚約またはそれと同等の状態」と明記", surveyed: "2026年8月6日", type: "非公表" },
@@ -46,14 +47,14 @@ const undisclosed = rows.filter((r) => r.type === "非公表").length;
 export const metadata: Metadata = {
   title: "結婚相談所の成婚率は比較できない｜24社の公式表記を実査して分かったこと",
   description:
-    `当サイトが実査した結婚相談所24社のうち、成婚率の数値を公表しているのは${published}社でした。公表値は27%〜86.1%と幅があり、分母も「総退会者数」「全会員数」「上位コース限定」など各社で異なります。各社の公式表記と算出定義を確認日とともに一覧にし、成婚率の読み方と入会前の確認手順をまとめています。`,
+    `当サイトが実査した結婚相談所24社のうち、成婚率の数値を公表しているのは${published}社でした。公表値は21.7%〜86.1%と幅があり、分母も「総退会者数」「全会員数」「上位コース限定」など各社で異なります。各社の公式表記と算出定義を確認日とともに一覧にし、成婚率の読み方と入会前の確認手順をまとめています。`,
   alternates: { canonical: "/knowledge/seikon-ritsu/" },
 };
 
 const faqs = [
   {
     q: "結婚相談所の成婚率はどれくらいが普通ですか？",
-    a: `「普通」と言える基準はありません。当サイトが実査した24社では、数値を公表していたのは${published}社で、27%〜86.1%と3倍以上の開きがありました。ただしこの数字は横並びで比べられるものではなく、分母(総退会者数か、全会員数か、特定コースの退会者数か)と対象期間が各社で異なります。数字の大小ではなく、算出の定義まで確認したうえで判断することをおすすめします。`,
+    a: `「普通」と言える基準はありません。当サイトが実査した24社では、数値を公表していたのは${published}社で、21.7%〜86.1%と3倍以上の開きがありました。ただしこの数字は横並びで比べられるものではなく、分母(総退会者数か、全会員数か、特定コースの退会者数か)と対象期間が各社で異なります。数字の大小ではなく、算出の定義まで確認したうえで判断することをおすすめします。`,
   },
   {
     q: "成婚率の「からくり」とは何ですか？",
@@ -128,7 +129,7 @@ export default function KnowledgeSeikonRitsu() {
           </h2>
           <ul className="space-y-2.5 text-sm text-[#2C2C2C]/80 leading-relaxed">
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>当サイトがレビューした<strong>24社のうち、成婚率の数値を公表していたのは{published}社</strong>で、{conditional}社は条件付きの表現、残り<strong>{undisclosed}社は非公表</strong>でした。</span></li>
-            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>公表値は<strong>27%〜86.1%と3倍以上の開き</strong>があります。ただし<strong>分母や対象期間が各社で異なる</strong>ため、そのまま比較できる数字ではありません。</span></li>
+            <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>公表値は<strong>21.7%〜86.1%と3倍以上の開き</strong>があります。ただし<strong>分母や対象期間が各社で異なる</strong>ため、そのまま比較できる数字ではありません。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>多くの相談所で「成婚」は<strong>入籍ではなく婚約して退会すること</strong>を指します。成婚率は「結婚できた人の割合」ではなく「婚約して退会した人の割合」です。</span></li>
             <li className="flex gap-2"><span className="text-[#A08447] shrink-0">●</span><span>数字そのものよりも<strong>注記</strong>が重要です。①定義 ②分母 ③対象期間 ④自分のコースが対象か、の4点を無料相談で確認することをおすすめします。</span></li>
           </ul>
@@ -184,16 +185,16 @@ export default function KnowledgeSeikonRitsu() {
           </p>
           <div className="space-y-4">
             <div className="border border-[#E5DCCF] rounded-xl p-5">
-              <h3 className="font-medium text-[#A08447] mb-2 tracking-wider">パートナーエージェント 27%</h3>
+              <h3 className="font-medium text-[#A08447] mb-2 tracking-wider">パートナーエージェント 21.7%</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
-                公式の注記は「<strong>2022年10月〜2023年3月</strong>のコンシェルジュコースとエグゼクティブコースにおける<strong>成婚退会者数 ÷ 総退会者数</strong>」です（2026年9月22日に公式サイトで再確認）。
-                対象期間が限定されており、<strong>全コースではなく上位2コースのみ</strong>が対象です。数字が低いことは実力が低いことを意味するものではなく、分母の取り方が厳格であることの表れとも考えられます。
+                公式「<a href="https://www.p-a.jp/visitor/method/" target="_blank" rel="noopener noreferrer" className="underline">成婚率へのこだわり</a>」の注記は「<strong>年間成婚退会者 ÷ 年間平均在籍会員数 × 100</strong>」「<strong>2023年4月〜2024年3月</strong>の成婚退会者実績」です（{rateCheckedOn("partner-agent")}に公式サイトで確認）。
+                分母が退会者ではなく<strong>在籍している会員全体</strong>であるため、退会者を分母とする算出方法より低い数値になります。同社の「<a href="https://www.p-a.jp/introduce/data/" target="_blank" rel="noopener noreferrer" className="underline">会員プロフィールと活動実績</a>」ページには、2022年10月〜2023年3月のコンシェルジュコース・エグゼクティブコースにおける<strong>成婚退会者数 ÷ 総退会者数</strong>として<strong>49.8%</strong>が掲載されており、同じ相談所でも算出方法と対象によって数値が2倍以上変わることが分かります。
               </p>
             </div>
             <div className="border border-[#E5DCCF] rounded-xl p-5">
               <h3 className="font-medium text-[#A08447] mb-2 tracking-wider">東京フォリパートナー 71.5%</h3>
               <p className="text-sm text-[#2C2C2C]/70 leading-relaxed">
-                「直近1年（2025年10月〜2026年10月（2026年10月21日時点の公式表記））の<strong>成婚退会者 ÷ 全退会者</strong>、ただし<strong>相談所以外での成婚を除く</strong>」と定義が明示されています。分母の考え方はパートナーエージェントと近い一方、対象期間が新しく、コース限定もありません。
+                「直近1年（2025年10月〜2026年10月（2026年10月21日時点の公式表記））の<strong>成婚退会者 ÷ 全退会者</strong>、ただし<strong>相談所以外での成婚を除く</strong>」と定義が明示されています。分母の考え方はパートナーエージェントの「会員プロフィールと活動実績」ページの数値（49.8%）と近い一方、対象期間が新しく、コース限定もありません。
               </p>
             </div>
             <div className="border border-[#E5DCCF] rounded-xl p-5">

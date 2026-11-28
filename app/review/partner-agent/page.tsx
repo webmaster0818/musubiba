@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Breadcrumb from "@/components/Breadcrumb";
-import { feeOf, yen, checkedByDate, feeCheckedOn } from "@/data/fees";
+import { feeOf, yen, checkedByDate, feeCheckedOn, rateCheckedOn } from "@/data/fees";
 import FeePosition from "@/components/FeePosition";
 import A8Banner from "@/components/A8Banner";
 import AuthorBox from "@/components/AuthorBox";
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: "「成婚率No.1」の根拠は何ですか？",
-    a: "株式会社デジタルライツコンサルティング（DRC）の調査（2026年5月1日〜5月8日）によるもので、成婚の定義は婚約、成婚率は成婚数÷利用者数、比較対象は店舗数または支社数が11以上の結婚相談所です（公式サイトの注記）。なお別の公式注記では、2022年10月〜2023年3月のコンシェルジュ・エグゼクティブコースの成婚退会者数÷総退会者数を27%としています（当サイト2026年9月22日確認）。",
+    a: `株式会社デジタルライツコンサルティング（DRC）の調査（2026年5月1日〜5月8日）によるもので、成婚の定義は婚約、成婚率は成婚数÷利用者数、比較対象は店舗数または支社数が11以上の結婚相談所です（公式サイトの注記）。なお公式「成婚率へのこだわり」ページでは、2023年4月〜2024年3月の成婚率を21.7%（年間成婚退会者÷年間平均在籍会員数×100）、「会員プロフィールと活動実績」ページでは、2022年10月〜2023年3月のコンシェルジュ・エグゼクティブコースの成婚退会者数÷総退会者数を49.8%としています（当サイト${rateCheckedOn("partner-agent")}に公式サイトで確認）。`,
   },
   {
     q: "パートナーエージェントの口コミ・評判はどのような内容ですか？",
@@ -194,7 +194,7 @@ export default function PartnerAgentReview() {
         <h1 className="text-2xl sm:text-3xl font-light mb-8 tracking-wider text-[#2C2C2C]">
           パートナーエージェントの口コミ・評判｜3コースの料金・成婚率No.1の根拠を公式情報で確認
         </h1>
-        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月25日（料金は{feeCheckedOn("partner-agent")}に公式サイトで確認し、2026年11月25日に料金・コース内容・実績を公式サイトで再照合して変更がないことを確認。割引額・休会費・店舗一覧・会員の年代構成・解約と担当変更は2026年11月20日に公式サイトで確認。オリコンの利用者コメント19件のテーマ別集計は2026年10月24日時点）</p>
+        <p className="text-xs text-[#8B8580] mb-6">最終更新: 2026年11月28日（成婚率の公式表記は{rateCheckedOn("partner-agent")}に確認。料金は{feeCheckedOn("partner-agent")}に公式サイトで確認し、2026年11月25日に料金・コース内容・実績を公式サイトで再照合して変更がないことを確認。割引額・休会費・店舗一覧・会員の年代構成・解約と担当変更は2026年11月20日に公式サイトで確認。オリコンの利用者コメント19件のテーマ別集計は2026年10月24日時点）</p>
 
         <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm mb-8">
           <img src="/ss-partner-agent.jpg" alt="パートナーエージェント 公式サイト" className="w-full h-auto" />

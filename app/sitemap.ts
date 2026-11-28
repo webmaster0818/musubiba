@@ -172,6 +172,8 @@ UPDATED["/review/seven"] = "2026-11-27";
 for (const r of ["/knowledge/cost", "/knowledge/seikon-ritsu", "/review/en-konkatsu", "/compare", "/compare/cheap", "/compare/online"]) UPDATED[r] = "2026-11-27";
 // 2026-11-28: /review/en-konkatsu/ 基本情報の年齢層「公表なし」は誤り→公式「会員データ」の年齢比（男女別・年代別）に訂正（0:00受け皿強化・事実訂正）
 UPDATED["/review/en-konkatsu"] = "2026-11-28";
+// 2026-11-28: パートナーエージェントの成婚率「27%（2022年10月〜2023年3月）」は公式の現行表示と不一致→公式「成婚率へのこだわり」の 21.7%（2023年4月〜2024年3月）に訂正（RATE_CHECKED）
+for (const r of ["/knowledge/seikon-ritsu", "/review/partner-agent"]) UPDATED[r] = "2026-11-28";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
