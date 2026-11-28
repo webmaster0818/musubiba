@@ -174,6 +174,8 @@ for (const r of ["/knowledge/cost", "/knowledge/seikon-ritsu", "/review/en-konka
 UPDATED["/review/en-konkatsu"] = "2026-11-28";
 // 2026-11-28: パートナーエージェントの成婚率「27%（2022年10月〜2023年3月）」は公式の現行表示と不一致→公式「成婚率へのこだわり」の 21.7%（2023年4月〜2024年3月）に訂正（RATE_CHECKED）
 for (const r of ["/knowledge/seikon-ritsu", "/review/partner-agent"]) UPDATED[r] = "2026-11-28";
+// 2026-11-28 12:00: ウェルスマ 有料オプション4種・営業時間/定休日FAQ・Trustindex 175件・IBJ 229件（公式/各媒体 11/28確認）
+UPDATED["/review/wellsma"] = "2026-11-28";
 // 2026-10-21: 打ち手3（10/21再計測で動かず）＝TOP・/compare/・/compare/cheap/ から各レビューへのアンカーを「社名＋口コミ・評判」に
 
 const STATIC_ROUTES = [
